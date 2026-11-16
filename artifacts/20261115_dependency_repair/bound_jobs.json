@@ -1,0 +1,274 @@
+[
+  {
+    "id": "bound_meeting_0_ci_only_steps",
+    "args": [
+      "-m",
+      "experiments.envelope_calibration",
+      "meeting",
+      "..\\artifacts\\20261115_dependency_repair\\calibration_bound_v3\\bound_meeting_0_ci_only_steps.json",
+      "--related",
+      "0",
+      "--mode",
+      "ci_only",
+      "--metric",
+      "steps",
+      "--n",
+      "256"
+    ]
+  },
+  {
+    "id": "bound_meeting_0_ci_only_payload_bytes",
+    "args": [
+      "-m",
+      "experiments.envelope_calibration",
+      "meeting",
+      "..\\artifacts\\20261115_dependency_repair\\calibration_bound_v3\\bound_meeting_0_ci_only_payload_bytes.json",
+      "--related",
+      "0",
+      "--mode",
+      "ci_only",
+      "--metric",
+      "payload_bytes",
+      "--n",
+      "256"
+    ]
+  },
+  {
+    "id": "bound_meeting_0_safe_success_steps",
+    "args": [
+      "-m",
+      "experiments.envelope_calibration",
+      "meeting",
+      "..\\artifacts\\20261115_dependency_repair\\calibration_bound_v3\\bound_meeting_0_safe_success_steps.json",
+      "--related",
+      "0",
+      "--mode",
+      "safe_success",
+      "--metric",
+      "steps",
+      "--n",
+      "256"
+    ]
+  },
+  {
+    "id": "bound_meeting_0_safe_success_payload_bytes",
+    "args": [
+      "-m",
+      "experiments.envelope_calibration",
+      "meeting",
+      "..\\artifacts\\20261115_dependency_repair\\calibration_bound_v3\\bound_meeting_0_safe_success_payload_bytes.json",
+      "--related",
+      "0",
+      "--mode",
+      "safe_success",
+      "--metric",
+      "payload_bytes",
+      "--n",
+      "256"
+    ]
+  },
+  {
+    "id": "bound_meeting_1_ci_only_steps",
+    "args": [
+      "-m",
+      "experiments.envelope_calibration",
+      "meeting",
+      "..\\artifacts\\20261115_dependency_repair\\calibration_bound_v3\\bound_meeting_1_ci_only_steps.json",
+      "--related",
+      "1",
+      "--mode",
+      "ci_only",
+      "--metric",
+      "steps",
+      "--n",
+      "256"
+    ]
+  },
+  {
+    "id": "bound_meeting_1_ci_only_payload_bytes",
+    "args": [
+      "-m",
+      "experiments.envelope_calibration",
+      "meeting",
+      "..\\artifacts\\20261115_dependency_repair\\calibration_bound_v3\\bound_meeting_1_ci_only_payload_bytes.json",
+      "--related",
+      "1",
+      "--mode",
+      "ci_only",
+      "--metric",
+      "payload_bytes",
+      "--n",
+      "256"
+    ]
+  },
+  {
+    "id": "bound_meeting_1_safe_success_steps",
+    "args": [
+      "-m",
+      "experiments.envelope_calibration",
+      "meeting",
+      "..\\artifacts\\20261115_dependency_repair\\calibration_bound_v3\\bound_meeting_1_safe_success_steps.json",
+      "--related",
+      "1",
+      "--mode",
+      "safe_success",
+      "--metric",
+      "steps",
+      "--n",
+      "256"
+    ]
+  },
+  {
+    "id": "bound_meeting_1_safe_success_payload_bytes",
+    "args": [
+      "-m",
+      "experiments.envelope_calibration",
+      "meeting",
+      "..\\artifacts\\20261115_dependency_repair\\calibration_bound_v3\\bound_meeting_1_safe_success_payload_bytes.json",
+      "--related",
+      "1",
+      "--mode",
+      "safe_success",
+      "--metric",
+      "payload_bytes",
+      "--n",
+      "256"
+    ]
+  },
+  {
+    "id": "bound_query_0_ci_only_steps",
+    "args": [
+      "-m",
+      "experiments.envelope_calibration",
+      "query",
+      "..\\artifacts\\20261115_dependency_repair\\calibration_bound_v3\\bound_query_0_ci_only_steps.json",
+      "--related",
+      "0",
+      "--mode",
+      "ci_only",
+      "--metric",
+      "steps",
+      "--n",
+      "256"
+    ]
+  },
+  {
+    "id": "bound_query_0_ci_only_payload_bytes",
+    "args": [
+      "-m",
+      "experiments.envelope_calibration",
+      "query",
+      "..\\artifacts\\20261115_dependency_repair\\calibration_bound_v3\\bound_query_0_ci_only_payload_bytes.json",
+      "--related",
+      "0",
+      "--mode",
+      "ci_only",
+      "--metric",
+      "payload_bytes",
+      "--n",
+      "256"
+    ]
+  },
+  {
+    "id": "bound_query_0_safe_success_steps",
+    "args": [
+      "-m",
+      "experiments.envelope_calibration",
+      "query",
+      "..\\artifacts\\20261115_dependency_repair\\calibration_bound_v3\\bound_query_0_safe_success_steps.json",
+      "--related",
+      "0",
+      "--mode",
+      "safe_success",
+      "--metric",
+      "steps",
+      "--n",
+      "256"
+    ]
+  },
+  {
+    "id": "bound_query_0_safe_success_payload_bytes",
+    "args": [
+      "-m",
+      "experiments.envelope_calibration",
+      "query",
+      "..\\artifacts\\20261115_dependency_repair\\calibration_bound_v3\\bound_query_0_safe_success_payload_bytes.json",
+      "--related",
+      "0",
+      "--mode",
+      "safe_success",
+      "--metric",
+      "payload_bytes",
+      "--n",
+      "256"
+    ]
+  },
+  {
+    "id": "bound_query_1_ci_only_steps",
+    "args": [
+      "-m",
+      "experiments.envelope_calibration",
+      "query",
+      "..\\artifacts\\20261115_dependency_repair\\calibration_bound_v3\\bound_query_1_ci_only_steps.json",
+      "--related",
+      "1",
+      "--mode",
+      "ci_only",
+      "--metric",
+      "steps",
+      "--n",
+      "256"
+    ]
+  },
+  {
+    "id": "bound_query_1_ci_only_payload_bytes",
+    "args": [
+      "-m",
+      "experiments.envelope_calibration",
+      "query",
+      "..\\artifacts\\20261115_dependency_repair\\calibration_bound_v3\\bound_query_1_ci_only_payload_bytes.json",
+      "--related",
+      "1",
+      "--mode",
+      "ci_only",
+      "--metric",
+      "payload_bytes",
+      "--n",
+      "256"
+    ]
+  },
+  {
+    "id": "bound_query_1_safe_success_steps",
+    "args": [
+      "-m",
+      "experiments.envelope_calibration",
+      "query",
+      "..\\artifacts\\20261115_dependency_repair\\calibration_bound_v3\\bound_query_1_safe_success_steps.json",
+      "--related",
+      "1",
+      "--mode",
+      "safe_success",
+      "--metric",
+      "steps",
+      "--n",
+      "256"
+    ]
+  },
+  {
+    "id": "bound_query_1_safe_success_payload_bytes",
+    "args": [
+      "-m",
+      "experiments.envelope_calibration",
+      "query",
+      "..\\artifacts\\20261115_dependency_repair\\calibration_bound_v3\\bound_query_1_safe_success_payload_bytes.json",
+      "--related",
+      "1",
+      "--mode",
+      "safe_success",
+      "--metric",
+      "payload_bytes",
+      "--n",
+      "256"
+    ]
+  }
+]

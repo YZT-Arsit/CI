@@ -1,0 +1,81 @@
+{
+  "cases": [
+    [
+      "query",
+      true
+    ],
+    [
+      "meeting",
+      true
+    ],
+    [
+      "meeting",
+      false
+    ],
+    [
+      "query",
+      false
+    ]
+  ],
+  "paired_samples_per_case": 2,
+  "seed": 20261115,
+  "total_delta": 0.01,
+  "request_limit_seconds": 9.2,
+  "warmups": 1,
+  "retries": 0,
+  "raw_reference": {
+    "model": "qwen2.5:7b-instruct-q4_K_M",
+    "digest": "845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e",
+    "system": "Choose one listed tool action for the current role using only its authorized observation. Prioritize the stated CI rules, then task completion, then communication cost. Output only the integer menu index, with no explanation.",
+    "options": {
+      "num_gpu": 0,
+      "num_ctx": 4096,
+      "num_predict": 8,
+      "temperature": 0.7
+    },
+    "client_source_sha256": "4a52ef9318ddd85b925b2616a18310ee174508c5a97eab6a7959020374c696bd"
+  },
+  "gateway": "safe_success",
+  "cost_metric": "payload_bytes",
+  "first_actions": "fixed counterfactual branches, not Qwen initial decisions",
+  "single_action_states": "Qwen is still called, not silently replaced by a rule policy",
+  "source_sha256": {
+    "D:\\research\\longhistory\\artifacts\\20261115_dependency_repair\\qwen_envelope_pilot.py": "4a52ef9318ddd85b925b2616a18310ee174508c5a97eab6a7959020374c696bd",
+    "D:\\research\\longhistory\\code\\kci\\dynamic_tasks.py": "4f8bd33a2d120d2929e9ebbeefa45fb4ae89437dcb10a0c4943cb3d175f26ac4",
+    "D:\\research\\longhistory\\code\\kci\\execution_envelope.py": "58044cc79d8779732992ebddd13dbf2232d5ef44cee1bf2b7e340f5f7868e4d4",
+    "D:\\research\\longhistory\\code\\kci\\stream_cce.py": "67d788b2f5bf4f3ec12521c2a29f75efd46fa0d40af808804afc33490a01f826"
+  },
+  "before": {
+    "ps": {
+      "models": []
+    },
+    "tags": {
+      "models": [
+        {
+          "name": "qwen2.5:7b-instruct-q4_K_M",
+          "model": "qwen2.5:7b-instruct-q4_K_M",
+          "modified_at": "2026-09-10T02:37:00.6146988-07:00",
+          "size": 4683087332,
+          "digest": "845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen2",
+            "families": [
+              "qwen2"
+            ],
+            "parameter_size": "7.6B",
+            "quantization_level": "Q4_K_M",
+            "context_length": 32768,
+            "embedding_length": 3584,
+            "runner": "ggml"
+          },
+          "capabilities": [
+            "completion",
+            "tools"
+          ]
+        }
+      ]
+    }
+  }
+}

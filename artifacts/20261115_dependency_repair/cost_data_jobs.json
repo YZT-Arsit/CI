@@ -1,0 +1,34 @@
+[
+  {
+    "id": "cost_data_meeting",
+    "args": [
+      "../artifacts/20261115_dependency_repair/cost_and_data_audit.py",
+      "meeting"
+    ]
+  },
+  {
+    "id": "cost_data_query",
+    "args": [
+      "../artifacts/20261115_dependency_repair/cost_and_data_audit.py",
+      "query"
+    ]
+  },
+  {
+    "id": "cost_data_tokens",
+    "args": [
+      "../artifacts/20261115_dependency_repair/cost_and_data_audit.py",
+      "tokens"
+    ]
+  },
+  {
+    "id": "regression_final_153",
+    "args": [
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-v"
+    ]
+  }
+]

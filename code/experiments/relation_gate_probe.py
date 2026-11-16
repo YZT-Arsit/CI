@@ -14,7 +14,7 @@ import json
 from pathlib import Path
 import random
 import numpy as np
-from kci.dynamic_tasks import DynamicTask, DynamicState, canonical
+from kci.legacy_dynamic_tasks_v1 import DynamicTask, DynamicState, canonical
 from experiments.text_policy_probe import text_features
 
 ROOT=Path(__file__).resolve().parents[2]

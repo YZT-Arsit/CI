@@ -1,0 +1,310 @@
+[
+  {
+    "id": "tedt_meeting",
+    "args": [
+      "-m",
+      "experiments.task_evidence_dependency_probe",
+      "meeting",
+      "..\\artifacts\\20261115_dependency_repair\\tedt_meeting.json"
+    ]
+  },
+  {
+    "id": "tedt_query",
+    "args": [
+      "-m",
+      "experiments.task_evidence_dependency_probe",
+      "query",
+      "..\\artifacts\\20261115_dependency_repair\\tedt_query.json"
+    ]
+  },
+  {
+    "id": "meeting_0_ci_only_steps",
+    "args": [
+      "-m",
+      "experiments.envelope_calibration",
+      "meeting",
+      "..\\artifacts\\20261115_dependency_repair\\calibration\\meeting_0_ci_only_steps.json",
+      "--related",
+      "0",
+      "--mode",
+      "ci_only",
+      "--metric",
+      "steps",
+      "--n",
+      "64"
+    ]
+  },
+  {
+    "id": "meeting_0_ci_only_payload_bytes",
+    "args": [
+      "-m",
+      "experiments.envelope_calibration",
+      "meeting",
+      "..\\artifacts\\20261115_dependency_repair\\calibration\\meeting_0_ci_only_payload_bytes.json",
+      "--related",
+      "0",
+      "--mode",
+      "ci_only",
+      "--metric",
+      "payload_bytes",
+      "--n",
+      "64"
+    ]
+  },
+  {
+    "id": "meeting_0_safe_success_steps",
+    "args": [
+      "-m",
+      "experiments.envelope_calibration",
+      "meeting",
+      "..\\artifacts\\20261115_dependency_repair\\calibration\\meeting_0_safe_success_steps.json",
+      "--related",
+      "0",
+      "--mode",
+      "safe_success",
+      "--metric",
+      "steps",
+      "--n",
+      "64"
+    ]
+  },
+  {
+    "id": "meeting_0_safe_success_payload_bytes",
+    "args": [
+      "-m",
+      "experiments.envelope_calibration",
+      "meeting",
+      "..\\artifacts\\20261115_dependency_repair\\calibration\\meeting_0_safe_success_payload_bytes.json",
+      "--related",
+      "0",
+      "--mode",
+      "safe_success",
+      "--metric",
+      "payload_bytes",
+      "--n",
+      "64"
+    ]
+  },
+  {
+    "id": "meeting_1_ci_only_steps",
+    "args": [
+      "-m",
+      "experiments.envelope_calibration",
+      "meeting",
+      "..\\artifacts\\20261115_dependency_repair\\calibration\\meeting_1_ci_only_steps.json",
+      "--related",
+      "1",
+      "--mode",
+      "ci_only",
+      "--metric",
+      "steps",
+      "--n",
+      "64"
+    ]
+  },
+  {
+    "id": "meeting_1_ci_only_payload_bytes",
+    "args": [
+      "-m",
+      "experiments.envelope_calibration",
+      "meeting",
+      "..\\artifacts\\20261115_dependency_repair\\calibration\\meeting_1_ci_only_payload_bytes.json",
+      "--related",
+      "1",
+      "--mode",
+      "ci_only",
+      "--metric",
+      "payload_bytes",
+      "--n",
+      "64"
+    ]
+  },
+  {
+    "id": "meeting_1_safe_success_steps",
+    "args": [
+      "-m",
+      "experiments.envelope_calibration",
+      "meeting",
+      "..\\artifacts\\20261115_dependency_repair\\calibration\\meeting_1_safe_success_steps.json",
+      "--related",
+      "1",
+      "--mode",
+      "safe_success",
+      "--metric",
+      "steps",
+      "--n",
+      "64"
+    ]
+  },
+  {
+    "id": "meeting_1_safe_success_payload_bytes",
+    "args": [
+      "-m",
+      "experiments.envelope_calibration",
+      "meeting",
+      "..\\artifacts\\20261115_dependency_repair\\calibration\\meeting_1_safe_success_payload_bytes.json",
+      "--related",
+      "1",
+      "--mode",
+      "safe_success",
+      "--metric",
+      "payload_bytes",
+      "--n",
+      "64"
+    ]
+  },
+  {
+    "id": "query_0_ci_only_steps",
+    "args": [
+      "-m",
+      "experiments.envelope_calibration",
+      "query",
+      "..\\artifacts\\20261115_dependency_repair\\calibration\\query_0_ci_only_steps.json",
+      "--related",
+      "0",
+      "--mode",
+      "ci_only",
+      "--metric",
+      "steps",
+      "--n",
+      "64"
+    ]
+  },
+  {
+    "id": "query_0_ci_only_payload_bytes",
+    "args": [
+      "-m",
+      "experiments.envelope_calibration",
+      "query",
+      "..\\artifacts\\20261115_dependency_repair\\calibration\\query_0_ci_only_payload_bytes.json",
+      "--related",
+      "0",
+      "--mode",
+      "ci_only",
+      "--metric",
+      "payload_bytes",
+      "--n",
+      "64"
+    ]
+  },
+  {
+    "id": "query_0_safe_success_steps",
+    "args": [
+      "-m",
+      "experiments.envelope_calibration",
+      "query",
+      "..\\artifacts\\20261115_dependency_repair\\calibration\\query_0_safe_success_steps.json",
+      "--related",
+      "0",
+      "--mode",
+      "safe_success",
+      "--metric",
+      "steps",
+      "--n",
+      "64"
+    ]
+  },
+  {
+    "id": "query_0_safe_success_payload_bytes",
+    "args": [
+      "-m",
+      "experiments.envelope_calibration",
+      "query",
+      "..\\artifacts\\20261115_dependency_repair\\calibration\\query_0_safe_success_payload_bytes.json",
+      "--related",
+      "0",
+      "--mode",
+      "safe_success",
+      "--metric",
+      "payload_bytes",
+      "--n",
+      "64"
+    ]
+  },
+  {
+    "id": "query_1_ci_only_steps",
+    "args": [
+      "-m",
+      "experiments.envelope_calibration",
+      "query",
+      "..\\artifacts\\20261115_dependency_repair\\calibration\\query_1_ci_only_steps.json",
+      "--related",
+      "1",
+      "--mode",
+      "ci_only",
+      "--metric",
+      "steps",
+      "--n",
+      "64"
+    ]
+  },
+  {
+    "id": "query_1_ci_only_payload_bytes",
+    "args": [
+      "-m",
+      "experiments.envelope_calibration",
+      "query",
+      "..\\artifacts\\20261115_dependency_repair\\calibration\\query_1_ci_only_payload_bytes.json",
+      "--related",
+      "1",
+      "--mode",
+      "ci_only",
+      "--metric",
+      "payload_bytes",
+      "--n",
+      "64"
+    ]
+  },
+  {
+    "id": "query_1_safe_success_steps",
+    "args": [
+      "-m",
+      "experiments.envelope_calibration",
+      "query",
+      "..\\artifacts\\20261115_dependency_repair\\calibration\\query_1_safe_success_steps.json",
+      "--related",
+      "1",
+      "--mode",
+      "safe_success",
+      "--metric",
+      "steps",
+      "--n",
+      "64"
+    ]
+  },
+  {
+    "id": "query_1_safe_success_payload_bytes",
+    "args": [
+      "-m",
+      "experiments.envelope_calibration",
+      "query",
+      "..\\artifacts\\20261115_dependency_repair\\calibration\\query_1_safe_success_payload_bytes.json",
+      "--related",
+      "1",
+      "--mode",
+      "safe_success",
+      "--metric",
+      "payload_bytes",
+      "--n",
+      "64"
+    ]
+  },
+  {
+    "id": "evidence_dataset_v2",
+    "args": [
+      "-m",
+      "experiments.dynamic_signal_dataset",
+      "..\\artifacts\\20261115_dependency_repair\\dataset_steps_v2",
+      "../artifacts/20261113_iteration2/source_anchors"
+    ]
+  },
+  {
+    "id": "evidence_export_v2",
+    "args": [
+      "-m",
+      "experiments.dynamic_export",
+      "..\\artifacts\\20261115_dependency_repair\\dataset_steps_v2",
+      "..\\artifacts\\20261115_dependency_repair\\training_steps_v2"
+    ]
+  }
+]

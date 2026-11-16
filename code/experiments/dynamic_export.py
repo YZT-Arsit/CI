@@ -14,7 +14,7 @@ def export(source,output):
     rows=[];primary=[];index=PreferenceCorpusIndex()
     for line in (source/'preferences.jsonl').read_text(encoding='utf-8').splitlines():
         raw=json.loads(line);o=json.loads(raw['prompt'])
-        task=canonical({k:o[k] for k in ('task','phase','protocol','actions','received_shards')})
+        task=canonical({k:o[k] for k in ('task','phase','protocol','actions','received_shards','authorized_source_resources') if k in o})
         facts=(Fact('routing','routing','protocol',canonical(o['authorized_routing_metadata']),canonical(o['authorized_routing_metadata'])),)
         purpose='source_adapted_'+raw['workflow']
         receipts=tuple(Message(str(m['event_id']),m['sender'],m['recipient'],purpose,(),canonical(m['content'])) for m in o['authorized_receipts'])
@@ -32,6 +32,8 @@ def export(source,output):
               'evidence_class':'exact_finite_source_adapted_synthetic_norm','norm_source':raw['norm_source'],
               'source_hashes':raw['source_hashes'],'human_verified':False,'natural_language_semantics_verified':False,
               'record_id':raw['preference_id'],'case_id':raw['case_id'],'state_id':raw['state_id'],
+              'environment_version':raw.get('environment_version','dynamic_tasks_v1'),
+              'cost_metric':raw.get('cost_metric','synthetic_api_steps'),'gpu_training_eligible':False,
               'prefix':raw['prefix'],'proof':raw['proof'],'history_flip_primary':target,
               'input_contract':'Observation + canonical finite tool Action; no free-text send'}}
         audit_record(row);index.add(row);rows.append(row)

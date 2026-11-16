@@ -1,0 +1,1817 @@
+{
+  "cases": [
+    {
+      "kind": "query",
+      "related": false,
+      "allow": false,
+      "horizon": 30,
+      "branches": [
+        {
+          "first_action": "OPEN_INDEX",
+          "safe_successful_routes": [
+            {
+              "path": [
+                "OPEN_INDEX",
+                "REQUEST_CITY_PROJECTION",
+                "PROJECT_CITIES",
+                "SEND_CITIES",
+                "FETCH_COUNTS",
+                "JOIN",
+                "DELIVER_RESULT"
+              ],
+              "steps": 8,
+              "payload_bytes": 1186,
+              "task_value_without_cost_or_deadline": [
+                1,
+                1,
+                0
+              ],
+              "client_ancestor_sources": [
+                {
+                  "access_id": "source:2",
+                  "reader": "Cassie",
+                  "resource": "company_locations",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "38e4cb5c7da5008c4af65455dfb32f6b033137a5a20a4ed2d2852047ca4ff7d1",
+                  "sha256": "a38733f7c9273b10d7b6c7e14e7ebf0b779df79f789a7bb771e113b9248de648"
+                },
+                {
+                  "access_id": "source:3",
+                  "reader": "Lina",
+                  "resource": "company_gas_stations",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "f9879ef548ad6701e35d5dabc6c68fb60938d9d2d4c46305026fc5b62c5ad267",
+                  "sha256": "818132fa2e83ff4df8ca68c7f22e4ab4d9b016c7604f1cb98673337df4bf3ee3"
+                },
+                {
+                  "access_id": "source:4",
+                  "reader": "JoinTool",
+                  "resource": "company_id_map",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "5776095511500d94a4d8c7b2c63ce25c4fb47e6503d1db5c0ae4130ab9b9a058",
+                  "sha256": "0e7d05491366b896b1da785564943c34d67368ee80307a6f959b8966e4c381a4"
+                }
+              ],
+              "final_state_sha256": "004308dfe65286dc2c3f5cc8ac87a511e2ca380dc392f862419394014cc8c90b"
+            },
+            {
+              "path": [
+                "OPEN_INDEX",
+                "FETCH_CITY_BUNDLE",
+                "FETCH_COUNTS",
+                "JOIN",
+                "DELIVER_RESULT"
+              ],
+              "steps": 6,
+              "payload_bytes": 1206,
+              "task_value_without_cost_or_deadline": [
+                1,
+                1,
+                0
+              ],
+              "client_ancestor_sources": [
+                {
+                  "access_id": "source:2",
+                  "reader": "Cassie",
+                  "resource": "company_locations",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "38e4cb5c7da5008c4af65455dfb32f6b033137a5a20a4ed2d2852047ca4ff7d1",
+                  "sha256": "a38733f7c9273b10d7b6c7e14e7ebf0b779df79f789a7bb771e113b9248de648"
+                },
+                {
+                  "access_id": "source:3",
+                  "reader": "Cassie",
+                  "resource": "owner_addresses",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "7b0c9c24a145140876e921ad501b85628e22fb909d30f07492eb1e654902de22",
+                  "sha256": "d08280bdf5e26ea209a49610bda88f3b31f7f7ed17e52f963f18f86510aa4abf"
+                },
+                {
+                  "access_id": "source:4",
+                  "reader": "Lina",
+                  "resource": "company_gas_stations",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "f9879ef548ad6701e35d5dabc6c68fb60938d9d2d4c46305026fc5b62c5ad267",
+                  "sha256": "9f9b551f3beff62adb030469727a1831e19d451d21388d2215a4c3259abbb1b0"
+                },
+                {
+                  "access_id": "source:5",
+                  "reader": "JoinTool",
+                  "resource": "company_id_map",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "5776095511500d94a4d8c7b2c63ce25c4fb47e6503d1db5c0ae4130ab9b9a058",
+                  "sha256": "480b14c566875860fc9c5eabbacff521cad86a87c7e527d5abb6a5e7259c6441"
+                }
+              ],
+              "final_state_sha256": "b5fd9a59ffd5a5c8b40e7f8bac57986f1ebb71178e897cad0240e3fcfb074601"
+            },
+            {
+              "path": [
+                "OPEN_INDEX",
+                "FETCH_COUNTS",
+                "REQUEST_CITY_PROJECTION",
+                "PROJECT_CITIES",
+                "SEND_CITIES",
+                "JOIN",
+                "DELIVER_RESULT"
+              ],
+              "steps": 8,
+              "payload_bytes": 1186,
+              "task_value_without_cost_or_deadline": [
+                1,
+                1,
+                0
+              ],
+              "client_ancestor_sources": [
+                {
+                  "access_id": "source:2",
+                  "reader": "Lina",
+                  "resource": "company_gas_stations",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "f9879ef548ad6701e35d5dabc6c68fb60938d9d2d4c46305026fc5b62c5ad267",
+                  "sha256": "ddec0432f889b6d4c250b21fd1267767c422ac9af9d0f25e990d09d1ee10c802"
+                },
+                {
+                  "access_id": "source:3",
+                  "reader": "Cassie",
+                  "resource": "company_locations",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "38e4cb5c7da5008c4af65455dfb32f6b033137a5a20a4ed2d2852047ca4ff7d1",
+                  "sha256": "7de8ba9cf523a5e89c7ad8742326c64cf1dd846ffeb6b99f83f59765ea8dd1f2"
+                },
+                {
+                  "access_id": "source:4",
+                  "reader": "JoinTool",
+                  "resource": "company_id_map",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "5776095511500d94a4d8c7b2c63ce25c4fb47e6503d1db5c0ae4130ab9b9a058",
+                  "sha256": "0e7d05491366b896b1da785564943c34d67368ee80307a6f959b8966e4c381a4"
+                }
+              ],
+              "final_state_sha256": "3699acf18ba80d51e661cef3794e360924d42c476ad26ad5765935e860a04cdd"
+            },
+            {
+              "path": [
+                "OPEN_INDEX",
+                "FETCH_COUNTS",
+                "FETCH_CITY_BUNDLE",
+                "JOIN",
+                "DELIVER_RESULT"
+              ],
+              "steps": 6,
+              "payload_bytes": 1206,
+              "task_value_without_cost_or_deadline": [
+                1,
+                1,
+                0
+              ],
+              "client_ancestor_sources": [
+                {
+                  "access_id": "source:2",
+                  "reader": "Lina",
+                  "resource": "company_gas_stations",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "f9879ef548ad6701e35d5dabc6c68fb60938d9d2d4c46305026fc5b62c5ad267",
+                  "sha256": "ddec0432f889b6d4c250b21fd1267767c422ac9af9d0f25e990d09d1ee10c802"
+                },
+                {
+                  "access_id": "source:3",
+                  "reader": "Cassie",
+                  "resource": "company_locations",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "38e4cb5c7da5008c4af65455dfb32f6b033137a5a20a4ed2d2852047ca4ff7d1",
+                  "sha256": "7de8ba9cf523a5e89c7ad8742326c64cf1dd846ffeb6b99f83f59765ea8dd1f2"
+                },
+                {
+                  "access_id": "source:4",
+                  "reader": "Cassie",
+                  "resource": "owner_addresses",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "7b0c9c24a145140876e921ad501b85628e22fb909d30f07492eb1e654902de22",
+                  "sha256": "4f01f1df67813d103ae7be10a2827aca84c09f70522cb421363c4d29b0e60a6b"
+                },
+                {
+                  "access_id": "source:5",
+                  "reader": "JoinTool",
+                  "resource": "company_id_map",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "5776095511500d94a4d8c7b2c63ce25c4fb47e6503d1db5c0ae4130ab9b9a058",
+                  "sha256": "480b14c566875860fc9c5eabbacff521cad86a87c7e527d5abb6a5e7259c6441"
+                }
+              ],
+              "final_state_sha256": "91f82e342d93b7fc6d299c1a3ec891f7df39623a8b1bdf1d19d33942953a8215"
+            }
+          ],
+          "min_steps": 6,
+          "min_payload_bytes": 1186,
+          "cost_removed_best_value": [
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "first_action": "OPEN_VAULT",
+          "safe_successful_routes": [
+            {
+              "path": [
+                "OPEN_VAULT",
+                "REQUEST_CITY_PROJECTION",
+                "PROJECT_CITIES",
+                "SEND_CITIES",
+                "FETCH_COUNTS",
+                "JOIN",
+                "SEND_JOIN_RESULT",
+                "DELIVER_RESULT"
+              ],
+              "steps": 9,
+              "payload_bytes": 1359,
+              "task_value_without_cost_or_deadline": [
+                1,
+                1,
+                0
+              ],
+              "client_ancestor_sources": [
+                {
+                  "access_id": "source:1",
+                  "reader": "Cassie",
+                  "resource": "company_locations",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "38e4cb5c7da5008c4af65455dfb32f6b033137a5a20a4ed2d2852047ca4ff7d1",
+                  "sha256": "04e0f3196209e73da3c1aa5fc51d7d49401767d7cf02a1ed8fabfb4bf4f54420"
+                },
+                {
+                  "access_id": "source:2",
+                  "reader": "Lina",
+                  "resource": "company_gas_stations",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "f9879ef548ad6701e35d5dabc6c68fb60938d9d2d4c46305026fc5b62c5ad267",
+                  "sha256": "ddec0432f889b6d4c250b21fd1267767c422ac9af9d0f25e990d09d1ee10c802"
+                },
+                {
+                  "access_id": "source:3",
+                  "reader": "JoinTool",
+                  "resource": "company_id_map",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "5776095511500d94a4d8c7b2c63ce25c4fb47e6503d1db5c0ae4130ab9b9a058",
+                  "sha256": "ee36c39e74f5c749bee80e00d88fbb03c7ee9b802f5ace19b464661be8dee8a9"
+                }
+              ],
+              "final_state_sha256": "47f44bcb2f6b6c00feec77731b926152bebdbd1495c18e8ad594e9740eaa0a68"
+            },
+            {
+              "path": [
+                "OPEN_VAULT",
+                "FETCH_CITY_BUNDLE",
+                "FETCH_COUNTS",
+                "JOIN",
+                "SEND_JOIN_RESULT",
+                "DELIVER_RESULT"
+              ],
+              "steps": 7,
+              "payload_bytes": 1379,
+              "task_value_without_cost_or_deadline": [
+                1,
+                1,
+                0
+              ],
+              "client_ancestor_sources": [
+                {
+                  "access_id": "source:1",
+                  "reader": "Cassie",
+                  "resource": "company_locations",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "38e4cb5c7da5008c4af65455dfb32f6b033137a5a20a4ed2d2852047ca4ff7d1",
+                  "sha256": "04e0f3196209e73da3c1aa5fc51d7d49401767d7cf02a1ed8fabfb4bf4f54420"
+                },
+                {
+                  "access_id": "source:2",
+                  "reader": "Cassie",
+                  "resource": "owner_addresses",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "7b0c9c24a145140876e921ad501b85628e22fb909d30f07492eb1e654902de22",
+                  "sha256": "e39a0d5463b959b38fb5f023a49d327cdadd29bdaf88f762fdcac3c550a5d71b"
+                },
+                {
+                  "access_id": "source:3",
+                  "reader": "Lina",
+                  "resource": "company_gas_stations",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "f9879ef548ad6701e35d5dabc6c68fb60938d9d2d4c46305026fc5b62c5ad267",
+                  "sha256": "818132fa2e83ff4df8ca68c7f22e4ab4d9b016c7604f1cb98673337df4bf3ee3"
+                },
+                {
+                  "access_id": "source:4",
+                  "reader": "JoinTool",
+                  "resource": "company_id_map",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "5776095511500d94a4d8c7b2c63ce25c4fb47e6503d1db5c0ae4130ab9b9a058",
+                  "sha256": "0e7d05491366b896b1da785564943c34d67368ee80307a6f959b8966e4c381a4"
+                }
+              ],
+              "final_state_sha256": "18c57f9b9cbd4710c283bb5422d6b5b59ad944d9091f64f3852b836f4585c6e2"
+            },
+            {
+              "path": [
+                "OPEN_VAULT",
+                "FETCH_COUNTS",
+                "REQUEST_CITY_PROJECTION",
+                "PROJECT_CITIES",
+                "SEND_CITIES",
+                "JOIN",
+                "SEND_JOIN_RESULT",
+                "DELIVER_RESULT"
+              ],
+              "steps": 9,
+              "payload_bytes": 1359,
+              "task_value_without_cost_or_deadline": [
+                1,
+                1,
+                0
+              ],
+              "client_ancestor_sources": [
+                {
+                  "access_id": "source:1",
+                  "reader": "Lina",
+                  "resource": "company_gas_stations",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "f9879ef548ad6701e35d5dabc6c68fb60938d9d2d4c46305026fc5b62c5ad267",
+                  "sha256": "b042372be2cc2efc406b6da9aa5ebf84ed02a2e43096fe2ade6aac96502039ba"
+                },
+                {
+                  "access_id": "source:2",
+                  "reader": "Cassie",
+                  "resource": "company_locations",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "38e4cb5c7da5008c4af65455dfb32f6b033137a5a20a4ed2d2852047ca4ff7d1",
+                  "sha256": "a38733f7c9273b10d7b6c7e14e7ebf0b779df79f789a7bb771e113b9248de648"
+                },
+                {
+                  "access_id": "source:3",
+                  "reader": "JoinTool",
+                  "resource": "company_id_map",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "5776095511500d94a4d8c7b2c63ce25c4fb47e6503d1db5c0ae4130ab9b9a058",
+                  "sha256": "ee36c39e74f5c749bee80e00d88fbb03c7ee9b802f5ace19b464661be8dee8a9"
+                }
+              ],
+              "final_state_sha256": "929a40104f52990f6db3af6b9162701f03b7d9814e80f481591e863e29dc7ef4"
+            },
+            {
+              "path": [
+                "OPEN_VAULT",
+                "FETCH_COUNTS",
+                "FETCH_CITY_BUNDLE",
+                "JOIN",
+                "SEND_JOIN_RESULT",
+                "DELIVER_RESULT"
+              ],
+              "steps": 7,
+              "payload_bytes": 1379,
+              "task_value_without_cost_or_deadline": [
+                1,
+                1,
+                0
+              ],
+              "client_ancestor_sources": [
+                {
+                  "access_id": "source:1",
+                  "reader": "Lina",
+                  "resource": "company_gas_stations",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "f9879ef548ad6701e35d5dabc6c68fb60938d9d2d4c46305026fc5b62c5ad267",
+                  "sha256": "b042372be2cc2efc406b6da9aa5ebf84ed02a2e43096fe2ade6aac96502039ba"
+                },
+                {
+                  "access_id": "source:2",
+                  "reader": "Cassie",
+                  "resource": "company_locations",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "38e4cb5c7da5008c4af65455dfb32f6b033137a5a20a4ed2d2852047ca4ff7d1",
+                  "sha256": "a38733f7c9273b10d7b6c7e14e7ebf0b779df79f789a7bb771e113b9248de648"
+                },
+                {
+                  "access_id": "source:3",
+                  "reader": "Cassie",
+                  "resource": "owner_addresses",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "7b0c9c24a145140876e921ad501b85628e22fb909d30f07492eb1e654902de22",
+                  "sha256": "d08280bdf5e26ea209a49610bda88f3b31f7f7ed17e52f963f18f86510aa4abf"
+                },
+                {
+                  "access_id": "source:4",
+                  "reader": "JoinTool",
+                  "resource": "company_id_map",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "5776095511500d94a4d8c7b2c63ce25c4fb47e6503d1db5c0ae4130ab9b9a058",
+                  "sha256": "0e7d05491366b896b1da785564943c34d67368ee80307a6f959b8966e4c381a4"
+                }
+              ],
+              "final_state_sha256": "82460fd51f7b05b9f999efdc260d5186bf8f35a0fee815aa681e6995ab4db762"
+            }
+          ],
+          "min_steps": 7,
+          "min_payload_bytes": 1359,
+          "cost_removed_best_value": [
+            1,
+            1,
+            0
+          ]
+        }
+      ],
+      "best_continuation_choices": {
+        "min_steps": 0,
+        "min_payload_bytes": 0,
+        "cost_removed": null
+      },
+      "scope": "exact finite legal continuation optimum; not a reference-policy mean"
+    },
+    {
+      "kind": "query",
+      "related": false,
+      "allow": true,
+      "horizon": 30,
+      "branches": [
+        {
+          "first_action": "OPEN_INDEX",
+          "safe_successful_routes": [
+            {
+              "path": [
+                "OPEN_INDEX",
+                "REQUEST_CITY_PROJECTION",
+                "PROJECT_CITIES",
+                "SEND_CITIES",
+                "FETCH_COUNTS",
+                "JOIN",
+                "DELIVER_RESULT"
+              ],
+              "steps": 8,
+              "payload_bytes": 1186,
+              "task_value_without_cost_or_deadline": [
+                1,
+                1,
+                0
+              ],
+              "client_ancestor_sources": [
+                {
+                  "access_id": "source:2",
+                  "reader": "Cassie",
+                  "resource": "company_locations",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "38e4cb5c7da5008c4af65455dfb32f6b033137a5a20a4ed2d2852047ca4ff7d1",
+                  "sha256": "a38733f7c9273b10d7b6c7e14e7ebf0b779df79f789a7bb771e113b9248de648"
+                },
+                {
+                  "access_id": "source:3",
+                  "reader": "Lina",
+                  "resource": "company_gas_stations",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "f9879ef548ad6701e35d5dabc6c68fb60938d9d2d4c46305026fc5b62c5ad267",
+                  "sha256": "818132fa2e83ff4df8ca68c7f22e4ab4d9b016c7604f1cb98673337df4bf3ee3"
+                },
+                {
+                  "access_id": "source:4",
+                  "reader": "JoinTool",
+                  "resource": "company_id_map",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "5776095511500d94a4d8c7b2c63ce25c4fb47e6503d1db5c0ae4130ab9b9a058",
+                  "sha256": "0e7d05491366b896b1da785564943c34d67368ee80307a6f959b8966e4c381a4"
+                }
+              ],
+              "final_state_sha256": "004308dfe65286dc2c3f5cc8ac87a511e2ca380dc392f862419394014cc8c90b"
+            },
+            {
+              "path": [
+                "OPEN_INDEX",
+                "FETCH_CITY_BUNDLE",
+                "FETCH_COUNTS",
+                "JOIN",
+                "DELIVER_RESULT"
+              ],
+              "steps": 6,
+              "payload_bytes": 1206,
+              "task_value_without_cost_or_deadline": [
+                1,
+                1,
+                0
+              ],
+              "client_ancestor_sources": [
+                {
+                  "access_id": "source:2",
+                  "reader": "Cassie",
+                  "resource": "company_locations",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "38e4cb5c7da5008c4af65455dfb32f6b033137a5a20a4ed2d2852047ca4ff7d1",
+                  "sha256": "a38733f7c9273b10d7b6c7e14e7ebf0b779df79f789a7bb771e113b9248de648"
+                },
+                {
+                  "access_id": "source:3",
+                  "reader": "Cassie",
+                  "resource": "owner_addresses",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "7b0c9c24a145140876e921ad501b85628e22fb909d30f07492eb1e654902de22",
+                  "sha256": "d08280bdf5e26ea209a49610bda88f3b31f7f7ed17e52f963f18f86510aa4abf"
+                },
+                {
+                  "access_id": "source:4",
+                  "reader": "Lina",
+                  "resource": "company_gas_stations",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "f9879ef548ad6701e35d5dabc6c68fb60938d9d2d4c46305026fc5b62c5ad267",
+                  "sha256": "9f9b551f3beff62adb030469727a1831e19d451d21388d2215a4c3259abbb1b0"
+                },
+                {
+                  "access_id": "source:5",
+                  "reader": "JoinTool",
+                  "resource": "company_id_map",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "5776095511500d94a4d8c7b2c63ce25c4fb47e6503d1db5c0ae4130ab9b9a058",
+                  "sha256": "480b14c566875860fc9c5eabbacff521cad86a87c7e527d5abb6a5e7259c6441"
+                }
+              ],
+              "final_state_sha256": "b5fd9a59ffd5a5c8b40e7f8bac57986f1ebb71178e897cad0240e3fcfb074601"
+            },
+            {
+              "path": [
+                "OPEN_INDEX",
+                "FETCH_COUNTS",
+                "REQUEST_CITY_PROJECTION",
+                "PROJECT_CITIES",
+                "SEND_CITIES",
+                "JOIN",
+                "DELIVER_RESULT"
+              ],
+              "steps": 8,
+              "payload_bytes": 1186,
+              "task_value_without_cost_or_deadline": [
+                1,
+                1,
+                0
+              ],
+              "client_ancestor_sources": [
+                {
+                  "access_id": "source:2",
+                  "reader": "Lina",
+                  "resource": "company_gas_stations",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "f9879ef548ad6701e35d5dabc6c68fb60938d9d2d4c46305026fc5b62c5ad267",
+                  "sha256": "ddec0432f889b6d4c250b21fd1267767c422ac9af9d0f25e990d09d1ee10c802"
+                },
+                {
+                  "access_id": "source:3",
+                  "reader": "Cassie",
+                  "resource": "company_locations",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "38e4cb5c7da5008c4af65455dfb32f6b033137a5a20a4ed2d2852047ca4ff7d1",
+                  "sha256": "7de8ba9cf523a5e89c7ad8742326c64cf1dd846ffeb6b99f83f59765ea8dd1f2"
+                },
+                {
+                  "access_id": "source:4",
+                  "reader": "JoinTool",
+                  "resource": "company_id_map",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "5776095511500d94a4d8c7b2c63ce25c4fb47e6503d1db5c0ae4130ab9b9a058",
+                  "sha256": "0e7d05491366b896b1da785564943c34d67368ee80307a6f959b8966e4c381a4"
+                }
+              ],
+              "final_state_sha256": "3699acf18ba80d51e661cef3794e360924d42c476ad26ad5765935e860a04cdd"
+            },
+            {
+              "path": [
+                "OPEN_INDEX",
+                "FETCH_COUNTS",
+                "FETCH_CITY_BUNDLE",
+                "JOIN",
+                "DELIVER_RESULT"
+              ],
+              "steps": 6,
+              "payload_bytes": 1206,
+              "task_value_without_cost_or_deadline": [
+                1,
+                1,
+                0
+              ],
+              "client_ancestor_sources": [
+                {
+                  "access_id": "source:2",
+                  "reader": "Lina",
+                  "resource": "company_gas_stations",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "f9879ef548ad6701e35d5dabc6c68fb60938d9d2d4c46305026fc5b62c5ad267",
+                  "sha256": "ddec0432f889b6d4c250b21fd1267767c422ac9af9d0f25e990d09d1ee10c802"
+                },
+                {
+                  "access_id": "source:3",
+                  "reader": "Cassie",
+                  "resource": "company_locations",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "38e4cb5c7da5008c4af65455dfb32f6b033137a5a20a4ed2d2852047ca4ff7d1",
+                  "sha256": "7de8ba9cf523a5e89c7ad8742326c64cf1dd846ffeb6b99f83f59765ea8dd1f2"
+                },
+                {
+                  "access_id": "source:4",
+                  "reader": "Cassie",
+                  "resource": "owner_addresses",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "7b0c9c24a145140876e921ad501b85628e22fb909d30f07492eb1e654902de22",
+                  "sha256": "4f01f1df67813d103ae7be10a2827aca84c09f70522cb421363c4d29b0e60a6b"
+                },
+                {
+                  "access_id": "source:5",
+                  "reader": "JoinTool",
+                  "resource": "company_id_map",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "5776095511500d94a4d8c7b2c63ce25c4fb47e6503d1db5c0ae4130ab9b9a058",
+                  "sha256": "480b14c566875860fc9c5eabbacff521cad86a87c7e527d5abb6a5e7259c6441"
+                }
+              ],
+              "final_state_sha256": "91f82e342d93b7fc6d299c1a3ec891f7df39623a8b1bdf1d19d33942953a8215"
+            }
+          ],
+          "min_steps": 6,
+          "min_payload_bytes": 1186,
+          "cost_removed_best_value": [
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "first_action": "OPEN_VAULT",
+          "safe_successful_routes": [
+            {
+              "path": [
+                "OPEN_VAULT",
+                "REQUEST_CITY_PROJECTION",
+                "PROJECT_CITIES",
+                "SEND_CITIES",
+                "FETCH_COUNTS",
+                "JOIN",
+                "SEND_JOIN_RESULT",
+                "DELIVER_RESULT"
+              ],
+              "steps": 9,
+              "payload_bytes": 1359,
+              "task_value_without_cost_or_deadline": [
+                1,
+                1,
+                0
+              ],
+              "client_ancestor_sources": [
+                {
+                  "access_id": "source:1",
+                  "reader": "Cassie",
+                  "resource": "company_locations",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "38e4cb5c7da5008c4af65455dfb32f6b033137a5a20a4ed2d2852047ca4ff7d1",
+                  "sha256": "04e0f3196209e73da3c1aa5fc51d7d49401767d7cf02a1ed8fabfb4bf4f54420"
+                },
+                {
+                  "access_id": "source:2",
+                  "reader": "Lina",
+                  "resource": "company_gas_stations",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "f9879ef548ad6701e35d5dabc6c68fb60938d9d2d4c46305026fc5b62c5ad267",
+                  "sha256": "ddec0432f889b6d4c250b21fd1267767c422ac9af9d0f25e990d09d1ee10c802"
+                },
+                {
+                  "access_id": "source:3",
+                  "reader": "JoinTool",
+                  "resource": "company_id_map",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "5776095511500d94a4d8c7b2c63ce25c4fb47e6503d1db5c0ae4130ab9b9a058",
+                  "sha256": "ee36c39e74f5c749bee80e00d88fbb03c7ee9b802f5ace19b464661be8dee8a9"
+                }
+              ],
+              "final_state_sha256": "47f44bcb2f6b6c00feec77731b926152bebdbd1495c18e8ad594e9740eaa0a68"
+            },
+            {
+              "path": [
+                "OPEN_VAULT",
+                "FETCH_CITY_BUNDLE",
+                "FETCH_COUNTS",
+                "JOIN",
+                "SEND_JOIN_RESULT",
+                "DELIVER_RESULT"
+              ],
+              "steps": 7,
+              "payload_bytes": 1379,
+              "task_value_without_cost_or_deadline": [
+                1,
+                1,
+                0
+              ],
+              "client_ancestor_sources": [
+                {
+                  "access_id": "source:1",
+                  "reader": "Cassie",
+                  "resource": "company_locations",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "38e4cb5c7da5008c4af65455dfb32f6b033137a5a20a4ed2d2852047ca4ff7d1",
+                  "sha256": "04e0f3196209e73da3c1aa5fc51d7d49401767d7cf02a1ed8fabfb4bf4f54420"
+                },
+                {
+                  "access_id": "source:2",
+                  "reader": "Cassie",
+                  "resource": "owner_addresses",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "7b0c9c24a145140876e921ad501b85628e22fb909d30f07492eb1e654902de22",
+                  "sha256": "e39a0d5463b959b38fb5f023a49d327cdadd29bdaf88f762fdcac3c550a5d71b"
+                },
+                {
+                  "access_id": "source:3",
+                  "reader": "Lina",
+                  "resource": "company_gas_stations",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "f9879ef548ad6701e35d5dabc6c68fb60938d9d2d4c46305026fc5b62c5ad267",
+                  "sha256": "818132fa2e83ff4df8ca68c7f22e4ab4d9b016c7604f1cb98673337df4bf3ee3"
+                },
+                {
+                  "access_id": "source:4",
+                  "reader": "JoinTool",
+                  "resource": "company_id_map",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "5776095511500d94a4d8c7b2c63ce25c4fb47e6503d1db5c0ae4130ab9b9a058",
+                  "sha256": "0e7d05491366b896b1da785564943c34d67368ee80307a6f959b8966e4c381a4"
+                }
+              ],
+              "final_state_sha256": "18c57f9b9cbd4710c283bb5422d6b5b59ad944d9091f64f3852b836f4585c6e2"
+            },
+            {
+              "path": [
+                "OPEN_VAULT",
+                "FETCH_COUNTS",
+                "REQUEST_CITY_PROJECTION",
+                "PROJECT_CITIES",
+                "SEND_CITIES",
+                "JOIN",
+                "SEND_JOIN_RESULT",
+                "DELIVER_RESULT"
+              ],
+              "steps": 9,
+              "payload_bytes": 1359,
+              "task_value_without_cost_or_deadline": [
+                1,
+                1,
+                0
+              ],
+              "client_ancestor_sources": [
+                {
+                  "access_id": "source:1",
+                  "reader": "Lina",
+                  "resource": "company_gas_stations",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "f9879ef548ad6701e35d5dabc6c68fb60938d9d2d4c46305026fc5b62c5ad267",
+                  "sha256": "b042372be2cc2efc406b6da9aa5ebf84ed02a2e43096fe2ade6aac96502039ba"
+                },
+                {
+                  "access_id": "source:2",
+                  "reader": "Cassie",
+                  "resource": "company_locations",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "38e4cb5c7da5008c4af65455dfb32f6b033137a5a20a4ed2d2852047ca4ff7d1",
+                  "sha256": "a38733f7c9273b10d7b6c7e14e7ebf0b779df79f789a7bb771e113b9248de648"
+                },
+                {
+                  "access_id": "source:3",
+                  "reader": "JoinTool",
+                  "resource": "company_id_map",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "5776095511500d94a4d8c7b2c63ce25c4fb47e6503d1db5c0ae4130ab9b9a058",
+                  "sha256": "ee36c39e74f5c749bee80e00d88fbb03c7ee9b802f5ace19b464661be8dee8a9"
+                }
+              ],
+              "final_state_sha256": "929a40104f52990f6db3af6b9162701f03b7d9814e80f481591e863e29dc7ef4"
+            },
+            {
+              "path": [
+                "OPEN_VAULT",
+                "FETCH_COUNTS",
+                "FETCH_CITY_BUNDLE",
+                "JOIN",
+                "SEND_JOIN_RESULT",
+                "DELIVER_RESULT"
+              ],
+              "steps": 7,
+              "payload_bytes": 1379,
+              "task_value_without_cost_or_deadline": [
+                1,
+                1,
+                0
+              ],
+              "client_ancestor_sources": [
+                {
+                  "access_id": "source:1",
+                  "reader": "Lina",
+                  "resource": "company_gas_stations",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "f9879ef548ad6701e35d5dabc6c68fb60938d9d2d4c46305026fc5b62c5ad267",
+                  "sha256": "b042372be2cc2efc406b6da9aa5ebf84ed02a2e43096fe2ade6aac96502039ba"
+                },
+                {
+                  "access_id": "source:2",
+                  "reader": "Cassie",
+                  "resource": "company_locations",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "38e4cb5c7da5008c4af65455dfb32f6b033137a5a20a4ed2d2852047ca4ff7d1",
+                  "sha256": "a38733f7c9273b10d7b6c7e14e7ebf0b779df79f789a7bb771e113b9248de648"
+                },
+                {
+                  "access_id": "source:3",
+                  "reader": "Cassie",
+                  "resource": "owner_addresses",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "7b0c9c24a145140876e921ad501b85628e22fb909d30f07492eb1e654902de22",
+                  "sha256": "d08280bdf5e26ea209a49610bda88f3b31f7f7ed17e52f963f18f86510aa4abf"
+                },
+                {
+                  "access_id": "source:4",
+                  "reader": "JoinTool",
+                  "resource": "company_id_map",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "5776095511500d94a4d8c7b2c63ce25c4fb47e6503d1db5c0ae4130ab9b9a058",
+                  "sha256": "0e7d05491366b896b1da785564943c34d67368ee80307a6f959b8966e4c381a4"
+                }
+              ],
+              "final_state_sha256": "82460fd51f7b05b9f999efdc260d5186bf8f35a0fee815aa681e6995ab4db762"
+            }
+          ],
+          "min_steps": 7,
+          "min_payload_bytes": 1359,
+          "cost_removed_best_value": [
+            1,
+            1,
+            0
+          ]
+        }
+      ],
+      "best_continuation_choices": {
+        "min_steps": 0,
+        "min_payload_bytes": 0,
+        "cost_removed": null
+      },
+      "scope": "exact finite legal continuation optimum; not a reference-policy mean"
+    },
+    {
+      "kind": "query",
+      "related": true,
+      "allow": false,
+      "horizon": 30,
+      "branches": [
+        {
+          "first_action": "OPEN_INDEX",
+          "safe_successful_routes": [
+            {
+              "path": [
+                "OPEN_INDEX",
+                "REQUEST_CITY_PROJECTION",
+                "PROJECT_CITIES",
+                "SEND_CITIES",
+                "FETCH_COUNTS",
+                "JOIN",
+                "DELIVER_RESULT"
+              ],
+              "steps": 8,
+              "payload_bytes": 1186,
+              "task_value_without_cost_or_deadline": [
+                1,
+                1,
+                0
+              ],
+              "client_ancestor_sources": [
+                {
+                  "access_id": "source:2",
+                  "reader": "Cassie",
+                  "resource": "company_locations",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "38e4cb5c7da5008c4af65455dfb32f6b033137a5a20a4ed2d2852047ca4ff7d1",
+                  "sha256": "a38733f7c9273b10d7b6c7e14e7ebf0b779df79f789a7bb771e113b9248de648"
+                },
+                {
+                  "access_id": "source:3",
+                  "reader": "Lina",
+                  "resource": "company_gas_stations",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "f9879ef548ad6701e35d5dabc6c68fb60938d9d2d4c46305026fc5b62c5ad267",
+                  "sha256": "818132fa2e83ff4df8ca68c7f22e4ab4d9b016c7604f1cb98673337df4bf3ee3"
+                },
+                {
+                  "access_id": "source:4",
+                  "reader": "JoinTool",
+                  "resource": "company_id_map",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "5776095511500d94a4d8c7b2c63ce25c4fb47e6503d1db5c0ae4130ab9b9a058",
+                  "sha256": "0e7d05491366b896b1da785564943c34d67368ee80307a6f959b8966e4c381a4"
+                }
+              ],
+              "final_state_sha256": "896496e01dcf3c16732be75c9386d0d0f33b5456e272f42716dcb817b434af6a"
+            },
+            {
+              "path": [
+                "OPEN_INDEX",
+                "FETCH_COUNTS",
+                "REQUEST_CITY_PROJECTION",
+                "PROJECT_CITIES",
+                "SEND_CITIES",
+                "JOIN",
+                "DELIVER_RESULT"
+              ],
+              "steps": 8,
+              "payload_bytes": 1186,
+              "task_value_without_cost_or_deadline": [
+                1,
+                1,
+                0
+              ],
+              "client_ancestor_sources": [
+                {
+                  "access_id": "source:2",
+                  "reader": "Lina",
+                  "resource": "company_gas_stations",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "f9879ef548ad6701e35d5dabc6c68fb60938d9d2d4c46305026fc5b62c5ad267",
+                  "sha256": "ddec0432f889b6d4c250b21fd1267767c422ac9af9d0f25e990d09d1ee10c802"
+                },
+                {
+                  "access_id": "source:3",
+                  "reader": "Cassie",
+                  "resource": "company_locations",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "38e4cb5c7da5008c4af65455dfb32f6b033137a5a20a4ed2d2852047ca4ff7d1",
+                  "sha256": "7de8ba9cf523a5e89c7ad8742326c64cf1dd846ffeb6b99f83f59765ea8dd1f2"
+                },
+                {
+                  "access_id": "source:4",
+                  "reader": "JoinTool",
+                  "resource": "company_id_map",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "5776095511500d94a4d8c7b2c63ce25c4fb47e6503d1db5c0ae4130ab9b9a058",
+                  "sha256": "0e7d05491366b896b1da785564943c34d67368ee80307a6f959b8966e4c381a4"
+                }
+              ],
+              "final_state_sha256": "278207e6b38d8b4a294ec69002f98b654be8e976e5ec0bf9304bdc3ad8b8b31d"
+            }
+          ],
+          "min_steps": 8,
+          "min_payload_bytes": 1186,
+          "cost_removed_best_value": [
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "first_action": "OPEN_VAULT",
+          "safe_successful_routes": [
+            {
+              "path": [
+                "OPEN_VAULT",
+                "REQUEST_CITY_PROJECTION",
+                "PROJECT_CITIES",
+                "SEND_CITIES",
+                "FETCH_COUNTS",
+                "JOIN",
+                "SEND_JOIN_RESULT",
+                "DELIVER_RESULT"
+              ],
+              "steps": 9,
+              "payload_bytes": 1359,
+              "task_value_without_cost_or_deadline": [
+                1,
+                1,
+                0
+              ],
+              "client_ancestor_sources": [
+                {
+                  "access_id": "source:1",
+                  "reader": "Cassie",
+                  "resource": "company_locations",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "38e4cb5c7da5008c4af65455dfb32f6b033137a5a20a4ed2d2852047ca4ff7d1",
+                  "sha256": "04e0f3196209e73da3c1aa5fc51d7d49401767d7cf02a1ed8fabfb4bf4f54420"
+                },
+                {
+                  "access_id": "source:2",
+                  "reader": "Lina",
+                  "resource": "company_gas_stations",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "f9879ef548ad6701e35d5dabc6c68fb60938d9d2d4c46305026fc5b62c5ad267",
+                  "sha256": "ddec0432f889b6d4c250b21fd1267767c422ac9af9d0f25e990d09d1ee10c802"
+                },
+                {
+                  "access_id": "source:3",
+                  "reader": "JoinTool",
+                  "resource": "company_id_map",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "5776095511500d94a4d8c7b2c63ce25c4fb47e6503d1db5c0ae4130ab9b9a058",
+                  "sha256": "ee36c39e74f5c749bee80e00d88fbb03c7ee9b802f5ace19b464661be8dee8a9"
+                }
+              ],
+              "final_state_sha256": "54b5d08344a8c95f188311e41ce57f5b5cf3030e925c916e55a0b8c4c06ee581"
+            },
+            {
+              "path": [
+                "OPEN_VAULT",
+                "FETCH_CITY_BUNDLE",
+                "FETCH_COUNTS",
+                "JOIN",
+                "SEND_JOIN_RESULT",
+                "DELIVER_RESULT"
+              ],
+              "steps": 7,
+              "payload_bytes": 1379,
+              "task_value_without_cost_or_deadline": [
+                1,
+                1,
+                0
+              ],
+              "client_ancestor_sources": [
+                {
+                  "access_id": "source:1",
+                  "reader": "Cassie",
+                  "resource": "company_locations",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "38e4cb5c7da5008c4af65455dfb32f6b033137a5a20a4ed2d2852047ca4ff7d1",
+                  "sha256": "04e0f3196209e73da3c1aa5fc51d7d49401767d7cf02a1ed8fabfb4bf4f54420"
+                },
+                {
+                  "access_id": "source:2",
+                  "reader": "Cassie",
+                  "resource": "owner_addresses",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "7b0c9c24a145140876e921ad501b85628e22fb909d30f07492eb1e654902de22",
+                  "sha256": "e39a0d5463b959b38fb5f023a49d327cdadd29bdaf88f762fdcac3c550a5d71b"
+                },
+                {
+                  "access_id": "source:3",
+                  "reader": "Lina",
+                  "resource": "company_gas_stations",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "f9879ef548ad6701e35d5dabc6c68fb60938d9d2d4c46305026fc5b62c5ad267",
+                  "sha256": "818132fa2e83ff4df8ca68c7f22e4ab4d9b016c7604f1cb98673337df4bf3ee3"
+                },
+                {
+                  "access_id": "source:4",
+                  "reader": "JoinTool",
+                  "resource": "company_id_map",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "5776095511500d94a4d8c7b2c63ce25c4fb47e6503d1db5c0ae4130ab9b9a058",
+                  "sha256": "0e7d05491366b896b1da785564943c34d67368ee80307a6f959b8966e4c381a4"
+                }
+              ],
+              "final_state_sha256": "b17d3606119a9b452cf8d56b02977457e74ca5669d8db5925b352566db772102"
+            },
+            {
+              "path": [
+                "OPEN_VAULT",
+                "FETCH_COUNTS",
+                "REQUEST_CITY_PROJECTION",
+                "PROJECT_CITIES",
+                "SEND_CITIES",
+                "JOIN",
+                "SEND_JOIN_RESULT",
+                "DELIVER_RESULT"
+              ],
+              "steps": 9,
+              "payload_bytes": 1359,
+              "task_value_without_cost_or_deadline": [
+                1,
+                1,
+                0
+              ],
+              "client_ancestor_sources": [
+                {
+                  "access_id": "source:1",
+                  "reader": "Lina",
+                  "resource": "company_gas_stations",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "f9879ef548ad6701e35d5dabc6c68fb60938d9d2d4c46305026fc5b62c5ad267",
+                  "sha256": "b042372be2cc2efc406b6da9aa5ebf84ed02a2e43096fe2ade6aac96502039ba"
+                },
+                {
+                  "access_id": "source:2",
+                  "reader": "Cassie",
+                  "resource": "company_locations",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "38e4cb5c7da5008c4af65455dfb32f6b033137a5a20a4ed2d2852047ca4ff7d1",
+                  "sha256": "a38733f7c9273b10d7b6c7e14e7ebf0b779df79f789a7bb771e113b9248de648"
+                },
+                {
+                  "access_id": "source:3",
+                  "reader": "JoinTool",
+                  "resource": "company_id_map",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "5776095511500d94a4d8c7b2c63ce25c4fb47e6503d1db5c0ae4130ab9b9a058",
+                  "sha256": "ee36c39e74f5c749bee80e00d88fbb03c7ee9b802f5ace19b464661be8dee8a9"
+                }
+              ],
+              "final_state_sha256": "bc5cc3172939f413510442ec2eb11d1b7bffbdb196c30ad816f8cb6b7b6e321c"
+            },
+            {
+              "path": [
+                "OPEN_VAULT",
+                "FETCH_COUNTS",
+                "FETCH_CITY_BUNDLE",
+                "JOIN",
+                "SEND_JOIN_RESULT",
+                "DELIVER_RESULT"
+              ],
+              "steps": 7,
+              "payload_bytes": 1379,
+              "task_value_without_cost_or_deadline": [
+                1,
+                1,
+                0
+              ],
+              "client_ancestor_sources": [
+                {
+                  "access_id": "source:1",
+                  "reader": "Lina",
+                  "resource": "company_gas_stations",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "f9879ef548ad6701e35d5dabc6c68fb60938d9d2d4c46305026fc5b62c5ad267",
+                  "sha256": "b042372be2cc2efc406b6da9aa5ebf84ed02a2e43096fe2ade6aac96502039ba"
+                },
+                {
+                  "access_id": "source:2",
+                  "reader": "Cassie",
+                  "resource": "company_locations",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "38e4cb5c7da5008c4af65455dfb32f6b033137a5a20a4ed2d2852047ca4ff7d1",
+                  "sha256": "a38733f7c9273b10d7b6c7e14e7ebf0b779df79f789a7bb771e113b9248de648"
+                },
+                {
+                  "access_id": "source:3",
+                  "reader": "Cassie",
+                  "resource": "owner_addresses",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "7b0c9c24a145140876e921ad501b85628e22fb909d30f07492eb1e654902de22",
+                  "sha256": "d08280bdf5e26ea209a49610bda88f3b31f7f7ed17e52f963f18f86510aa4abf"
+                },
+                {
+                  "access_id": "source:4",
+                  "reader": "JoinTool",
+                  "resource": "company_id_map",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "5776095511500d94a4d8c7b2c63ce25c4fb47e6503d1db5c0ae4130ab9b9a058",
+                  "sha256": "0e7d05491366b896b1da785564943c34d67368ee80307a6f959b8966e4c381a4"
+                }
+              ],
+              "final_state_sha256": "4d5e649b7dab8f6a21d433b203bd59f5acc02072fb753e245ecf3974adb0f62a"
+            }
+          ],
+          "min_steps": 7,
+          "min_payload_bytes": 1359,
+          "cost_removed_best_value": [
+            1,
+            1,
+            0
+          ]
+        }
+      ],
+      "best_continuation_choices": {
+        "min_steps": 1,
+        "min_payload_bytes": 0,
+        "cost_removed": null
+      },
+      "scope": "exact finite legal continuation optimum; not a reference-policy mean"
+    },
+    {
+      "kind": "query",
+      "related": true,
+      "allow": true,
+      "horizon": 30,
+      "branches": [
+        {
+          "first_action": "OPEN_INDEX",
+          "safe_successful_routes": [
+            {
+              "path": [
+                "OPEN_INDEX",
+                "REQUEST_CITY_PROJECTION",
+                "PROJECT_CITIES",
+                "SEND_CITIES",
+                "FETCH_COUNTS",
+                "JOIN",
+                "DELIVER_RESULT"
+              ],
+              "steps": 8,
+              "payload_bytes": 1186,
+              "task_value_without_cost_or_deadline": [
+                1,
+                1,
+                0
+              ],
+              "client_ancestor_sources": [
+                {
+                  "access_id": "source:2",
+                  "reader": "Cassie",
+                  "resource": "company_locations",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "38e4cb5c7da5008c4af65455dfb32f6b033137a5a20a4ed2d2852047ca4ff7d1",
+                  "sha256": "a38733f7c9273b10d7b6c7e14e7ebf0b779df79f789a7bb771e113b9248de648"
+                },
+                {
+                  "access_id": "source:3",
+                  "reader": "Lina",
+                  "resource": "company_gas_stations",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "f9879ef548ad6701e35d5dabc6c68fb60938d9d2d4c46305026fc5b62c5ad267",
+                  "sha256": "818132fa2e83ff4df8ca68c7f22e4ab4d9b016c7604f1cb98673337df4bf3ee3"
+                },
+                {
+                  "access_id": "source:4",
+                  "reader": "JoinTool",
+                  "resource": "company_id_map",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "5776095511500d94a4d8c7b2c63ce25c4fb47e6503d1db5c0ae4130ab9b9a058",
+                  "sha256": "0e7d05491366b896b1da785564943c34d67368ee80307a6f959b8966e4c381a4"
+                }
+              ],
+              "final_state_sha256": "896496e01dcf3c16732be75c9386d0d0f33b5456e272f42716dcb817b434af6a"
+            },
+            {
+              "path": [
+                "OPEN_INDEX",
+                "FETCH_CITY_BUNDLE",
+                "FETCH_COUNTS",
+                "JOIN",
+                "DELIVER_RESULT"
+              ],
+              "steps": 6,
+              "payload_bytes": 1206,
+              "task_value_without_cost_or_deadline": [
+                1,
+                1,
+                0
+              ],
+              "client_ancestor_sources": [
+                {
+                  "access_id": "source:2",
+                  "reader": "Cassie",
+                  "resource": "company_locations",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "38e4cb5c7da5008c4af65455dfb32f6b033137a5a20a4ed2d2852047ca4ff7d1",
+                  "sha256": "a38733f7c9273b10d7b6c7e14e7ebf0b779df79f789a7bb771e113b9248de648"
+                },
+                {
+                  "access_id": "source:3",
+                  "reader": "Cassie",
+                  "resource": "owner_addresses",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "7b0c9c24a145140876e921ad501b85628e22fb909d30f07492eb1e654902de22",
+                  "sha256": "d08280bdf5e26ea209a49610bda88f3b31f7f7ed17e52f963f18f86510aa4abf"
+                },
+                {
+                  "access_id": "source:4",
+                  "reader": "Lina",
+                  "resource": "company_gas_stations",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "f9879ef548ad6701e35d5dabc6c68fb60938d9d2d4c46305026fc5b62c5ad267",
+                  "sha256": "9f9b551f3beff62adb030469727a1831e19d451d21388d2215a4c3259abbb1b0"
+                },
+                {
+                  "access_id": "source:5",
+                  "reader": "JoinTool",
+                  "resource": "company_id_map",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "5776095511500d94a4d8c7b2c63ce25c4fb47e6503d1db5c0ae4130ab9b9a058",
+                  "sha256": "480b14c566875860fc9c5eabbacff521cad86a87c7e527d5abb6a5e7259c6441"
+                }
+              ],
+              "final_state_sha256": "168ef7b5971ba445d21d51868b166c30d93cf75f66999ce65678876fd548f2ed"
+            },
+            {
+              "path": [
+                "OPEN_INDEX",
+                "FETCH_COUNTS",
+                "REQUEST_CITY_PROJECTION",
+                "PROJECT_CITIES",
+                "SEND_CITIES",
+                "JOIN",
+                "DELIVER_RESULT"
+              ],
+              "steps": 8,
+              "payload_bytes": 1186,
+              "task_value_without_cost_or_deadline": [
+                1,
+                1,
+                0
+              ],
+              "client_ancestor_sources": [
+                {
+                  "access_id": "source:2",
+                  "reader": "Lina",
+                  "resource": "company_gas_stations",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "f9879ef548ad6701e35d5dabc6c68fb60938d9d2d4c46305026fc5b62c5ad267",
+                  "sha256": "ddec0432f889b6d4c250b21fd1267767c422ac9af9d0f25e990d09d1ee10c802"
+                },
+                {
+                  "access_id": "source:3",
+                  "reader": "Cassie",
+                  "resource": "company_locations",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "38e4cb5c7da5008c4af65455dfb32f6b033137a5a20a4ed2d2852047ca4ff7d1",
+                  "sha256": "7de8ba9cf523a5e89c7ad8742326c64cf1dd846ffeb6b99f83f59765ea8dd1f2"
+                },
+                {
+                  "access_id": "source:4",
+                  "reader": "JoinTool",
+                  "resource": "company_id_map",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "5776095511500d94a4d8c7b2c63ce25c4fb47e6503d1db5c0ae4130ab9b9a058",
+                  "sha256": "0e7d05491366b896b1da785564943c34d67368ee80307a6f959b8966e4c381a4"
+                }
+              ],
+              "final_state_sha256": "278207e6b38d8b4a294ec69002f98b654be8e976e5ec0bf9304bdc3ad8b8b31d"
+            },
+            {
+              "path": [
+                "OPEN_INDEX",
+                "FETCH_COUNTS",
+                "FETCH_CITY_BUNDLE",
+                "JOIN",
+                "DELIVER_RESULT"
+              ],
+              "steps": 6,
+              "payload_bytes": 1206,
+              "task_value_without_cost_or_deadline": [
+                1,
+                1,
+                0
+              ],
+              "client_ancestor_sources": [
+                {
+                  "access_id": "source:2",
+                  "reader": "Lina",
+                  "resource": "company_gas_stations",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "f9879ef548ad6701e35d5dabc6c68fb60938d9d2d4c46305026fc5b62c5ad267",
+                  "sha256": "ddec0432f889b6d4c250b21fd1267767c422ac9af9d0f25e990d09d1ee10c802"
+                },
+                {
+                  "access_id": "source:3",
+                  "reader": "Cassie",
+                  "resource": "company_locations",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "38e4cb5c7da5008c4af65455dfb32f6b033137a5a20a4ed2d2852047ca4ff7d1",
+                  "sha256": "7de8ba9cf523a5e89c7ad8742326c64cf1dd846ffeb6b99f83f59765ea8dd1f2"
+                },
+                {
+                  "access_id": "source:4",
+                  "reader": "Cassie",
+                  "resource": "owner_addresses",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "7b0c9c24a145140876e921ad501b85628e22fb909d30f07492eb1e654902de22",
+                  "sha256": "4f01f1df67813d103ae7be10a2827aca84c09f70522cb421363c4d29b0e60a6b"
+                },
+                {
+                  "access_id": "source:5",
+                  "reader": "JoinTool",
+                  "resource": "company_id_map",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "5776095511500d94a4d8c7b2c63ce25c4fb47e6503d1db5c0ae4130ab9b9a058",
+                  "sha256": "480b14c566875860fc9c5eabbacff521cad86a87c7e527d5abb6a5e7259c6441"
+                }
+              ],
+              "final_state_sha256": "fe4eaa3d9db49ca925f4fa0d806ffb984061f111226acf291cda946fb6070f2c"
+            }
+          ],
+          "min_steps": 6,
+          "min_payload_bytes": 1186,
+          "cost_removed_best_value": [
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "first_action": "OPEN_VAULT",
+          "safe_successful_routes": [
+            {
+              "path": [
+                "OPEN_VAULT",
+                "REQUEST_CITY_PROJECTION",
+                "PROJECT_CITIES",
+                "SEND_CITIES",
+                "FETCH_COUNTS",
+                "JOIN",
+                "SEND_JOIN_RESULT",
+                "DELIVER_RESULT"
+              ],
+              "steps": 9,
+              "payload_bytes": 1359,
+              "task_value_without_cost_or_deadline": [
+                1,
+                1,
+                0
+              ],
+              "client_ancestor_sources": [
+                {
+                  "access_id": "source:1",
+                  "reader": "Cassie",
+                  "resource": "company_locations",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "38e4cb5c7da5008c4af65455dfb32f6b033137a5a20a4ed2d2852047ca4ff7d1",
+                  "sha256": "04e0f3196209e73da3c1aa5fc51d7d49401767d7cf02a1ed8fabfb4bf4f54420"
+                },
+                {
+                  "access_id": "source:2",
+                  "reader": "Lina",
+                  "resource": "company_gas_stations",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "f9879ef548ad6701e35d5dabc6c68fb60938d9d2d4c46305026fc5b62c5ad267",
+                  "sha256": "ddec0432f889b6d4c250b21fd1267767c422ac9af9d0f25e990d09d1ee10c802"
+                },
+                {
+                  "access_id": "source:3",
+                  "reader": "JoinTool",
+                  "resource": "company_id_map",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "5776095511500d94a4d8c7b2c63ce25c4fb47e6503d1db5c0ae4130ab9b9a058",
+                  "sha256": "ee36c39e74f5c749bee80e00d88fbb03c7ee9b802f5ace19b464661be8dee8a9"
+                }
+              ],
+              "final_state_sha256": "54b5d08344a8c95f188311e41ce57f5b5cf3030e925c916e55a0b8c4c06ee581"
+            },
+            {
+              "path": [
+                "OPEN_VAULT",
+                "FETCH_CITY_BUNDLE",
+                "FETCH_COUNTS",
+                "JOIN",
+                "SEND_JOIN_RESULT",
+                "DELIVER_RESULT"
+              ],
+              "steps": 7,
+              "payload_bytes": 1379,
+              "task_value_without_cost_or_deadline": [
+                1,
+                1,
+                0
+              ],
+              "client_ancestor_sources": [
+                {
+                  "access_id": "source:1",
+                  "reader": "Cassie",
+                  "resource": "company_locations",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "38e4cb5c7da5008c4af65455dfb32f6b033137a5a20a4ed2d2852047ca4ff7d1",
+                  "sha256": "04e0f3196209e73da3c1aa5fc51d7d49401767d7cf02a1ed8fabfb4bf4f54420"
+                },
+                {
+                  "access_id": "source:2",
+                  "reader": "Cassie",
+                  "resource": "owner_addresses",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "7b0c9c24a145140876e921ad501b85628e22fb909d30f07492eb1e654902de22",
+                  "sha256": "e39a0d5463b959b38fb5f023a49d327cdadd29bdaf88f762fdcac3c550a5d71b"
+                },
+                {
+                  "access_id": "source:3",
+                  "reader": "Lina",
+                  "resource": "company_gas_stations",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "f9879ef548ad6701e35d5dabc6c68fb60938d9d2d4c46305026fc5b62c5ad267",
+                  "sha256": "818132fa2e83ff4df8ca68c7f22e4ab4d9b016c7604f1cb98673337df4bf3ee3"
+                },
+                {
+                  "access_id": "source:4",
+                  "reader": "JoinTool",
+                  "resource": "company_id_map",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "5776095511500d94a4d8c7b2c63ce25c4fb47e6503d1db5c0ae4130ab9b9a058",
+                  "sha256": "0e7d05491366b896b1da785564943c34d67368ee80307a6f959b8966e4c381a4"
+                }
+              ],
+              "final_state_sha256": "b17d3606119a9b452cf8d56b02977457e74ca5669d8db5925b352566db772102"
+            },
+            {
+              "path": [
+                "OPEN_VAULT",
+                "FETCH_COUNTS",
+                "REQUEST_CITY_PROJECTION",
+                "PROJECT_CITIES",
+                "SEND_CITIES",
+                "JOIN",
+                "SEND_JOIN_RESULT",
+                "DELIVER_RESULT"
+              ],
+              "steps": 9,
+              "payload_bytes": 1359,
+              "task_value_without_cost_or_deadline": [
+                1,
+                1,
+                0
+              ],
+              "client_ancestor_sources": [
+                {
+                  "access_id": "source:1",
+                  "reader": "Lina",
+                  "resource": "company_gas_stations",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "f9879ef548ad6701e35d5dabc6c68fb60938d9d2d4c46305026fc5b62c5ad267",
+                  "sha256": "b042372be2cc2efc406b6da9aa5ebf84ed02a2e43096fe2ade6aac96502039ba"
+                },
+                {
+                  "access_id": "source:2",
+                  "reader": "Cassie",
+                  "resource": "company_locations",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "38e4cb5c7da5008c4af65455dfb32f6b033137a5a20a4ed2d2852047ca4ff7d1",
+                  "sha256": "a38733f7c9273b10d7b6c7e14e7ebf0b779df79f789a7bb771e113b9248de648"
+                },
+                {
+                  "access_id": "source:3",
+                  "reader": "JoinTool",
+                  "resource": "company_id_map",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "5776095511500d94a4d8c7b2c63ce25c4fb47e6503d1db5c0ae4130ab9b9a058",
+                  "sha256": "ee36c39e74f5c749bee80e00d88fbb03c7ee9b802f5ace19b464661be8dee8a9"
+                }
+              ],
+              "final_state_sha256": "bc5cc3172939f413510442ec2eb11d1b7bffbdb196c30ad816f8cb6b7b6e321c"
+            },
+            {
+              "path": [
+                "OPEN_VAULT",
+                "FETCH_COUNTS",
+                "FETCH_CITY_BUNDLE",
+                "JOIN",
+                "SEND_JOIN_RESULT",
+                "DELIVER_RESULT"
+              ],
+              "steps": 7,
+              "payload_bytes": 1379,
+              "task_value_without_cost_or_deadline": [
+                1,
+                1,
+                0
+              ],
+              "client_ancestor_sources": [
+                {
+                  "access_id": "source:1",
+                  "reader": "Lina",
+                  "resource": "company_gas_stations",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "f9879ef548ad6701e35d5dabc6c68fb60938d9d2d4c46305026fc5b62c5ad267",
+                  "sha256": "b042372be2cc2efc406b6da9aa5ebf84ed02a2e43096fe2ade6aac96502039ba"
+                },
+                {
+                  "access_id": "source:2",
+                  "reader": "Cassie",
+                  "resource": "company_locations",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "38e4cb5c7da5008c4af65455dfb32f6b033137a5a20a4ed2d2852047ca4ff7d1",
+                  "sha256": "a38733f7c9273b10d7b6c7e14e7ebf0b779df79f789a7bb771e113b9248de648"
+                },
+                {
+                  "access_id": "source:3",
+                  "reader": "Cassie",
+                  "resource": "owner_addresses",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "7b0c9c24a145140876e921ad501b85628e22fb909d30f07492eb1e654902de22",
+                  "sha256": "d08280bdf5e26ea209a49610bda88f3b31f7f7ed17e52f963f18f86510aa4abf"
+                },
+                {
+                  "access_id": "source:4",
+                  "reader": "JoinTool",
+                  "resource": "company_id_map",
+                  "source_files": {
+                    "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+                  },
+                  "value_sha256": "5776095511500d94a4d8c7b2c63ce25c4fb47e6503d1db5c0ae4130ab9b9a058",
+                  "sha256": "0e7d05491366b896b1da785564943c34d67368ee80307a6f959b8966e4c381a4"
+                }
+              ],
+              "final_state_sha256": "4d5e649b7dab8f6a21d433b203bd59f5acc02072fb753e245ecf3974adb0f62a"
+            }
+          ],
+          "min_steps": 7,
+          "min_payload_bytes": 1359,
+          "cost_removed_best_value": [
+            1,
+            1,
+            0
+          ]
+        }
+      ],
+      "best_continuation_choices": {
+        "min_steps": 0,
+        "min_payload_bytes": 0,
+        "cost_removed": null
+      },
+      "scope": "exact finite legal continuation optimum; not a reference-policy mean"
+    }
+  ],
+  "all_source_ancestor_checks_passed": true,
+  "units": "UTF-8 canonical content bytes, excluding provenance envelope/network/compute; steps are synthetic API calls",
+  "finding": "Both first actions admit safe success when deadlines and cost are removed; no strict initial task-value ordering then."
+}

@@ -1,0 +1,28 @@
+{
+  "file": "artifacts\\20261115_dependency_repair\\calibration_bound_v3\\bound_meeting_1_ci_only_steps.json",
+  "executed_steps_replayed": 2332,
+  "raw_draft_diagnostics": {
+    "invalid_draft": 1371,
+    "draft_VALID": 902,
+    "draft_VIOLATION": 59
+  },
+  "exact_control_reference": {
+    "safe_success_probabilities": [
+      "1/16",
+      "1/16"
+    ],
+    "expected_total_costs": [
+      "25/4",
+      "27/4"
+    ],
+    "expected_total_costs_decimal": [
+      6.25,
+      6.75
+    ],
+    "strict_reference_choice": 0,
+    "scope": "independent uniform per-step proposal idealization; not exact enumeration of the PRNG seed law or Qwen output distribution"
+  },
+  "chosen": null,
+  "status": "UNKNOWN",
+  "all_passed": true
+}

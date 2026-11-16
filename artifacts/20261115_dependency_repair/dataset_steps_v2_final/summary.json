@@ -1,0 +1,1059 @@
+{
+  "cases": [
+    {
+      "case_id": "meeting_h0_a0_t6",
+      "contract": {
+        "version": "dynamic_tasks_v2_evidence",
+        "kind": "meeting",
+        "related": false,
+        "allow": false,
+        "horizon": 6,
+        "source_hashes": {
+          "pisas_hf/meeting_allocation/scenario_01/scenario.json": "fa0e044e1f68ff7dced3e3ecc3a70b7bd8939d8fbb2957363deb8db758210e5b",
+          "pisas_hf/meeting_allocation/scenario_01/utility.json": "de8cb5c091a97114582e613a276ce89f10d4cb45ab50172d6b02fbc6b23d9e8e"
+        },
+        "source_acl": {
+          "public_schedule": [
+            "Room"
+          ],
+          "business_constraints": [
+            "HR"
+          ]
+        },
+        "mailbox_acl": {
+          "Planner": [
+            "Planner",
+            "R"
+          ],
+          "HR": [
+            "HR",
+            "R"
+          ],
+          "Room": [
+            "Room"
+          ],
+          "Sanitizer": [
+            "Sanitizer"
+          ],
+          "Broker": [
+            "Broker",
+            "R"
+          ],
+          "JoinTool": [
+            "R",
+            "Vault"
+          ],
+          "Vault": [
+            "Vault"
+          ],
+          "Cassie": [
+            "Cassie"
+          ],
+          "Archive": [
+            "Archive"
+          ],
+          "Lina": [
+            "Lina"
+          ]
+        }
+      },
+      "states": 13
+    },
+    {
+      "case_id": "meeting_h0_a0_t9",
+      "contract": {
+        "version": "dynamic_tasks_v2_evidence",
+        "kind": "meeting",
+        "related": false,
+        "allow": false,
+        "horizon": 9,
+        "source_hashes": {
+          "pisas_hf/meeting_allocation/scenario_01/scenario.json": "fa0e044e1f68ff7dced3e3ecc3a70b7bd8939d8fbb2957363deb8db758210e5b",
+          "pisas_hf/meeting_allocation/scenario_01/utility.json": "de8cb5c091a97114582e613a276ce89f10d4cb45ab50172d6b02fbc6b23d9e8e"
+        },
+        "source_acl": {
+          "public_schedule": [
+            "Room"
+          ],
+          "business_constraints": [
+            "HR"
+          ]
+        },
+        "mailbox_acl": {
+          "Planner": [
+            "Planner",
+            "R"
+          ],
+          "HR": [
+            "HR",
+            "R"
+          ],
+          "Room": [
+            "Room"
+          ],
+          "Sanitizer": [
+            "Sanitizer"
+          ],
+          "Broker": [
+            "Broker",
+            "R"
+          ],
+          "JoinTool": [
+            "R",
+            "Vault"
+          ],
+          "Vault": [
+            "Vault"
+          ],
+          "Cassie": [
+            "Cassie"
+          ],
+          "Archive": [
+            "Archive"
+          ],
+          "Lina": [
+            "Lina"
+          ]
+        }
+      },
+      "states": 16
+    },
+    {
+      "case_id": "meeting_h0_a1_t6",
+      "contract": {
+        "version": "dynamic_tasks_v2_evidence",
+        "kind": "meeting",
+        "related": false,
+        "allow": true,
+        "horizon": 6,
+        "source_hashes": {
+          "pisas_hf/meeting_allocation/scenario_01/scenario.json": "fa0e044e1f68ff7dced3e3ecc3a70b7bd8939d8fbb2957363deb8db758210e5b",
+          "pisas_hf/meeting_allocation/scenario_01/utility.json": "de8cb5c091a97114582e613a276ce89f10d4cb45ab50172d6b02fbc6b23d9e8e"
+        },
+        "source_acl": {
+          "public_schedule": [
+            "Room"
+          ],
+          "business_constraints": [
+            "HR"
+          ]
+        },
+        "mailbox_acl": {
+          "Planner": [
+            "Planner",
+            "R"
+          ],
+          "HR": [
+            "HR",
+            "R"
+          ],
+          "Room": [
+            "Room"
+          ],
+          "Sanitizer": [
+            "Sanitizer"
+          ],
+          "Broker": [
+            "Broker",
+            "R"
+          ],
+          "JoinTool": [
+            "R",
+            "Vault"
+          ],
+          "Vault": [
+            "Vault"
+          ],
+          "Cassie": [
+            "Cassie"
+          ],
+          "Archive": [
+            "Archive"
+          ],
+          "Lina": [
+            "Lina"
+          ]
+        }
+      },
+      "states": 13
+    },
+    {
+      "case_id": "meeting_h0_a1_t9",
+      "contract": {
+        "version": "dynamic_tasks_v2_evidence",
+        "kind": "meeting",
+        "related": false,
+        "allow": true,
+        "horizon": 9,
+        "source_hashes": {
+          "pisas_hf/meeting_allocation/scenario_01/scenario.json": "fa0e044e1f68ff7dced3e3ecc3a70b7bd8939d8fbb2957363deb8db758210e5b",
+          "pisas_hf/meeting_allocation/scenario_01/utility.json": "de8cb5c091a97114582e613a276ce89f10d4cb45ab50172d6b02fbc6b23d9e8e"
+        },
+        "source_acl": {
+          "public_schedule": [
+            "Room"
+          ],
+          "business_constraints": [
+            "HR"
+          ]
+        },
+        "mailbox_acl": {
+          "Planner": [
+            "Planner",
+            "R"
+          ],
+          "HR": [
+            "HR",
+            "R"
+          ],
+          "Room": [
+            "Room"
+          ],
+          "Sanitizer": [
+            "Sanitizer"
+          ],
+          "Broker": [
+            "Broker",
+            "R"
+          ],
+          "JoinTool": [
+            "R",
+            "Vault"
+          ],
+          "Vault": [
+            "Vault"
+          ],
+          "Cassie": [
+            "Cassie"
+          ],
+          "Archive": [
+            "Archive"
+          ],
+          "Lina": [
+            "Lina"
+          ]
+        }
+      },
+      "states": 16
+    },
+    {
+      "case_id": "meeting_h1_a0_t6",
+      "contract": {
+        "version": "dynamic_tasks_v2_evidence",
+        "kind": "meeting",
+        "related": true,
+        "allow": false,
+        "horizon": 6,
+        "source_hashes": {
+          "pisas_hf/meeting_allocation/scenario_01/scenario.json": "fa0e044e1f68ff7dced3e3ecc3a70b7bd8939d8fbb2957363deb8db758210e5b",
+          "pisas_hf/meeting_allocation/scenario_01/utility.json": "de8cb5c091a97114582e613a276ce89f10d4cb45ab50172d6b02fbc6b23d9e8e"
+        },
+        "source_acl": {
+          "public_schedule": [
+            "Room"
+          ],
+          "business_constraints": [
+            "HR"
+          ]
+        },
+        "mailbox_acl": {
+          "Planner": [
+            "Planner",
+            "R"
+          ],
+          "HR": [
+            "HR",
+            "R"
+          ],
+          "Room": [
+            "Room"
+          ],
+          "Sanitizer": [
+            "Sanitizer"
+          ],
+          "Broker": [
+            "Broker",
+            "R"
+          ],
+          "JoinTool": [
+            "R",
+            "Vault"
+          ],
+          "Vault": [
+            "Vault"
+          ],
+          "Cassie": [
+            "Cassie"
+          ],
+          "Archive": [
+            "Archive"
+          ],
+          "Lina": [
+            "Lina"
+          ]
+        }
+      },
+      "states": 11
+    },
+    {
+      "case_id": "meeting_h1_a0_t9",
+      "contract": {
+        "version": "dynamic_tasks_v2_evidence",
+        "kind": "meeting",
+        "related": true,
+        "allow": false,
+        "horizon": 9,
+        "source_hashes": {
+          "pisas_hf/meeting_allocation/scenario_01/scenario.json": "fa0e044e1f68ff7dced3e3ecc3a70b7bd8939d8fbb2957363deb8db758210e5b",
+          "pisas_hf/meeting_allocation/scenario_01/utility.json": "de8cb5c091a97114582e613a276ce89f10d4cb45ab50172d6b02fbc6b23d9e8e"
+        },
+        "source_acl": {
+          "public_schedule": [
+            "Room"
+          ],
+          "business_constraints": [
+            "HR"
+          ]
+        },
+        "mailbox_acl": {
+          "Planner": [
+            "Planner",
+            "R"
+          ],
+          "HR": [
+            "HR",
+            "R"
+          ],
+          "Room": [
+            "Room"
+          ],
+          "Sanitizer": [
+            "Sanitizer"
+          ],
+          "Broker": [
+            "Broker",
+            "R"
+          ],
+          "JoinTool": [
+            "R",
+            "Vault"
+          ],
+          "Vault": [
+            "Vault"
+          ],
+          "Cassie": [
+            "Cassie"
+          ],
+          "Archive": [
+            "Archive"
+          ],
+          "Lina": [
+            "Lina"
+          ]
+        }
+      },
+      "states": 14
+    },
+    {
+      "case_id": "meeting_h1_a1_t6",
+      "contract": {
+        "version": "dynamic_tasks_v2_evidence",
+        "kind": "meeting",
+        "related": true,
+        "allow": true,
+        "horizon": 6,
+        "source_hashes": {
+          "pisas_hf/meeting_allocation/scenario_01/scenario.json": "fa0e044e1f68ff7dced3e3ecc3a70b7bd8939d8fbb2957363deb8db758210e5b",
+          "pisas_hf/meeting_allocation/scenario_01/utility.json": "de8cb5c091a97114582e613a276ce89f10d4cb45ab50172d6b02fbc6b23d9e8e"
+        },
+        "source_acl": {
+          "public_schedule": [
+            "Room"
+          ],
+          "business_constraints": [
+            "HR"
+          ]
+        },
+        "mailbox_acl": {
+          "Planner": [
+            "Planner",
+            "R"
+          ],
+          "HR": [
+            "HR",
+            "R"
+          ],
+          "Room": [
+            "Room"
+          ],
+          "Sanitizer": [
+            "Sanitizer"
+          ],
+          "Broker": [
+            "Broker",
+            "R"
+          ],
+          "JoinTool": [
+            "R",
+            "Vault"
+          ],
+          "Vault": [
+            "Vault"
+          ],
+          "Cassie": [
+            "Cassie"
+          ],
+          "Archive": [
+            "Archive"
+          ],
+          "Lina": [
+            "Lina"
+          ]
+        }
+      },
+      "states": 13
+    },
+    {
+      "case_id": "meeting_h1_a1_t9",
+      "contract": {
+        "version": "dynamic_tasks_v2_evidence",
+        "kind": "meeting",
+        "related": true,
+        "allow": true,
+        "horizon": 9,
+        "source_hashes": {
+          "pisas_hf/meeting_allocation/scenario_01/scenario.json": "fa0e044e1f68ff7dced3e3ecc3a70b7bd8939d8fbb2957363deb8db758210e5b",
+          "pisas_hf/meeting_allocation/scenario_01/utility.json": "de8cb5c091a97114582e613a276ce89f10d4cb45ab50172d6b02fbc6b23d9e8e"
+        },
+        "source_acl": {
+          "public_schedule": [
+            "Room"
+          ],
+          "business_constraints": [
+            "HR"
+          ]
+        },
+        "mailbox_acl": {
+          "Planner": [
+            "Planner",
+            "R"
+          ],
+          "HR": [
+            "HR",
+            "R"
+          ],
+          "Room": [
+            "Room"
+          ],
+          "Sanitizer": [
+            "Sanitizer"
+          ],
+          "Broker": [
+            "Broker",
+            "R"
+          ],
+          "JoinTool": [
+            "R",
+            "Vault"
+          ],
+          "Vault": [
+            "Vault"
+          ],
+          "Cassie": [
+            "Cassie"
+          ],
+          "Archive": [
+            "Archive"
+          ],
+          "Lina": [
+            "Lina"
+          ]
+        }
+      },
+      "states": 16
+    },
+    {
+      "case_id": "query_h0_a0_t7",
+      "contract": {
+        "version": "dynamic_tasks_v2_evidence",
+        "kind": "query",
+        "related": false,
+        "allow": false,
+        "horizon": 7,
+        "source_hashes": {
+          "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+        },
+        "source_acl": {
+          "company_id_map": [
+            "JoinTool"
+          ],
+          "company_gas_stations": [
+            "Lina"
+          ],
+          "company_locations": [
+            "Cassie"
+          ],
+          "owner_addresses": [
+            "Cassie"
+          ],
+          "company_owner_map": [
+            "Broker"
+          ],
+          "company_owners": [
+            "Archive"
+          ]
+        },
+        "mailbox_acl": {
+          "Planner": [
+            "Planner",
+            "R"
+          ],
+          "HR": [
+            "HR",
+            "R"
+          ],
+          "Room": [
+            "Room"
+          ],
+          "Sanitizer": [
+            "Sanitizer"
+          ],
+          "Broker": [
+            "Broker",
+            "R"
+          ],
+          "JoinTool": [
+            "R",
+            "Vault"
+          ],
+          "Vault": [
+            "Vault"
+          ],
+          "Cassie": [
+            "Cassie"
+          ],
+          "Archive": [
+            "Archive"
+          ],
+          "Lina": [
+            "Lina"
+          ]
+        }
+      },
+      "states": 31
+    },
+    {
+      "case_id": "query_h0_a0_t10",
+      "contract": {
+        "version": "dynamic_tasks_v2_evidence",
+        "kind": "query",
+        "related": false,
+        "allow": false,
+        "horizon": 10,
+        "source_hashes": {
+          "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+        },
+        "source_acl": {
+          "company_id_map": [
+            "JoinTool"
+          ],
+          "company_gas_stations": [
+            "Lina"
+          ],
+          "company_locations": [
+            "Cassie"
+          ],
+          "owner_addresses": [
+            "Cassie"
+          ],
+          "company_owner_map": [
+            "Broker"
+          ],
+          "company_owners": [
+            "Archive"
+          ]
+        },
+        "mailbox_acl": {
+          "Planner": [
+            "Planner",
+            "R"
+          ],
+          "HR": [
+            "HR",
+            "R"
+          ],
+          "Room": [
+            "Room"
+          ],
+          "Sanitizer": [
+            "Sanitizer"
+          ],
+          "Broker": [
+            "Broker",
+            "R"
+          ],
+          "JoinTool": [
+            "R",
+            "Vault"
+          ],
+          "Vault": [
+            "Vault"
+          ],
+          "Cassie": [
+            "Cassie"
+          ],
+          "Archive": [
+            "Archive"
+          ],
+          "Lina": [
+            "Lina"
+          ]
+        }
+      },
+      "states": 37
+    },
+    {
+      "case_id": "query_h0_a1_t7",
+      "contract": {
+        "version": "dynamic_tasks_v2_evidence",
+        "kind": "query",
+        "related": false,
+        "allow": true,
+        "horizon": 7,
+        "source_hashes": {
+          "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+        },
+        "source_acl": {
+          "company_id_map": [
+            "JoinTool"
+          ],
+          "company_gas_stations": [
+            "Lina"
+          ],
+          "company_locations": [
+            "Cassie"
+          ],
+          "owner_addresses": [
+            "Cassie"
+          ],
+          "company_owner_map": [
+            "Broker"
+          ],
+          "company_owners": [
+            "Archive"
+          ]
+        },
+        "mailbox_acl": {
+          "Planner": [
+            "Planner",
+            "R"
+          ],
+          "HR": [
+            "HR",
+            "R"
+          ],
+          "Room": [
+            "Room"
+          ],
+          "Sanitizer": [
+            "Sanitizer"
+          ],
+          "Broker": [
+            "Broker",
+            "R"
+          ],
+          "JoinTool": [
+            "R",
+            "Vault"
+          ],
+          "Vault": [
+            "Vault"
+          ],
+          "Cassie": [
+            "Cassie"
+          ],
+          "Archive": [
+            "Archive"
+          ],
+          "Lina": [
+            "Lina"
+          ]
+        }
+      },
+      "states": 31
+    },
+    {
+      "case_id": "query_h0_a1_t10",
+      "contract": {
+        "version": "dynamic_tasks_v2_evidence",
+        "kind": "query",
+        "related": false,
+        "allow": true,
+        "horizon": 10,
+        "source_hashes": {
+          "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+        },
+        "source_acl": {
+          "company_id_map": [
+            "JoinTool"
+          ],
+          "company_gas_stations": [
+            "Lina"
+          ],
+          "company_locations": [
+            "Cassie"
+          ],
+          "owner_addresses": [
+            "Cassie"
+          ],
+          "company_owner_map": [
+            "Broker"
+          ],
+          "company_owners": [
+            "Archive"
+          ]
+        },
+        "mailbox_acl": {
+          "Planner": [
+            "Planner",
+            "R"
+          ],
+          "HR": [
+            "HR",
+            "R"
+          ],
+          "Room": [
+            "Room"
+          ],
+          "Sanitizer": [
+            "Sanitizer"
+          ],
+          "Broker": [
+            "Broker",
+            "R"
+          ],
+          "JoinTool": [
+            "R",
+            "Vault"
+          ],
+          "Vault": [
+            "Vault"
+          ],
+          "Cassie": [
+            "Cassie"
+          ],
+          "Archive": [
+            "Archive"
+          ],
+          "Lina": [
+            "Lina"
+          ]
+        }
+      },
+      "states": 37
+    },
+    {
+      "case_id": "query_h1_a0_t7",
+      "contract": {
+        "version": "dynamic_tasks_v2_evidence",
+        "kind": "query",
+        "related": true,
+        "allow": false,
+        "horizon": 7,
+        "source_hashes": {
+          "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+        },
+        "source_acl": {
+          "company_id_map": [
+            "JoinTool"
+          ],
+          "company_gas_stations": [
+            "Lina"
+          ],
+          "company_locations": [
+            "Cassie"
+          ],
+          "owner_addresses": [
+            "Cassie"
+          ],
+          "company_owner_map": [
+            "Broker"
+          ],
+          "company_owners": [
+            "Archive"
+          ]
+        },
+        "mailbox_acl": {
+          "Planner": [
+            "Planner",
+            "R"
+          ],
+          "HR": [
+            "HR",
+            "R"
+          ],
+          "Room": [
+            "Room"
+          ],
+          "Sanitizer": [
+            "Sanitizer"
+          ],
+          "Broker": [
+            "Broker",
+            "R"
+          ],
+          "JoinTool": [
+            "R",
+            "Vault"
+          ],
+          "Vault": [
+            "Vault"
+          ],
+          "Cassie": [
+            "Cassie"
+          ],
+          "Archive": [
+            "Archive"
+          ],
+          "Lina": [
+            "Lina"
+          ]
+        }
+      },
+      "states": 26
+    },
+    {
+      "case_id": "query_h1_a0_t10",
+      "contract": {
+        "version": "dynamic_tasks_v2_evidence",
+        "kind": "query",
+        "related": true,
+        "allow": false,
+        "horizon": 10,
+        "source_hashes": {
+          "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+        },
+        "source_acl": {
+          "company_id_map": [
+            "JoinTool"
+          ],
+          "company_gas_stations": [
+            "Lina"
+          ],
+          "company_locations": [
+            "Cassie"
+          ],
+          "owner_addresses": [
+            "Cassie"
+          ],
+          "company_owner_map": [
+            "Broker"
+          ],
+          "company_owners": [
+            "Archive"
+          ]
+        },
+        "mailbox_acl": {
+          "Planner": [
+            "Planner",
+            "R"
+          ],
+          "HR": [
+            "HR",
+            "R"
+          ],
+          "Room": [
+            "Room"
+          ],
+          "Sanitizer": [
+            "Sanitizer"
+          ],
+          "Broker": [
+            "Broker",
+            "R"
+          ],
+          "JoinTool": [
+            "R",
+            "Vault"
+          ],
+          "Vault": [
+            "Vault"
+          ],
+          "Cassie": [
+            "Cassie"
+          ],
+          "Archive": [
+            "Archive"
+          ],
+          "Lina": [
+            "Lina"
+          ]
+        }
+      },
+      "states": 32
+    },
+    {
+      "case_id": "query_h1_a1_t7",
+      "contract": {
+        "version": "dynamic_tasks_v2_evidence",
+        "kind": "query",
+        "related": true,
+        "allow": true,
+        "horizon": 7,
+        "source_hashes": {
+          "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+        },
+        "source_acl": {
+          "company_id_map": [
+            "JoinTool"
+          ],
+          "company_gas_stations": [
+            "Lina"
+          ],
+          "company_locations": [
+            "Cassie"
+          ],
+          "owner_addresses": [
+            "Cassie"
+          ],
+          "company_owner_map": [
+            "Broker"
+          ],
+          "company_owners": [
+            "Archive"
+          ]
+        },
+        "mailbox_acl": {
+          "Planner": [
+            "Planner",
+            "R"
+          ],
+          "HR": [
+            "HR",
+            "R"
+          ],
+          "Room": [
+            "Room"
+          ],
+          "Sanitizer": [
+            "Sanitizer"
+          ],
+          "Broker": [
+            "Broker",
+            "R"
+          ],
+          "JoinTool": [
+            "R",
+            "Vault"
+          ],
+          "Vault": [
+            "Vault"
+          ],
+          "Cassie": [
+            "Cassie"
+          ],
+          "Archive": [
+            "Archive"
+          ],
+          "Lina": [
+            "Lina"
+          ]
+        }
+      },
+      "states": 31
+    },
+    {
+      "case_id": "query_h1_a1_t10",
+      "contract": {
+        "version": "dynamic_tasks_v2_evidence",
+        "kind": "query",
+        "related": true,
+        "allow": true,
+        "horizon": 10,
+        "source_hashes": {
+          "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+        },
+        "source_acl": {
+          "company_id_map": [
+            "JoinTool"
+          ],
+          "company_gas_stations": [
+            "Lina"
+          ],
+          "company_locations": [
+            "Cassie"
+          ],
+          "owner_addresses": [
+            "Cassie"
+          ],
+          "company_owner_map": [
+            "Broker"
+          ],
+          "company_owners": [
+            "Archive"
+          ]
+        },
+        "mailbox_acl": {
+          "Planner": [
+            "Planner",
+            "R"
+          ],
+          "HR": [
+            "HR",
+            "R"
+          ],
+          "Room": [
+            "Room"
+          ],
+          "Sanitizer": [
+            "Sanitizer"
+          ],
+          "Broker": [
+            "Broker",
+            "R"
+          ],
+          "JoinTool": [
+            "R",
+            "Vault"
+          ],
+          "Vault": [
+            "Vault"
+          ],
+          "Cassie": [
+            "Cassie"
+          ],
+          "Archive": [
+            "Archive"
+          ],
+          "Lina": [
+            "Lina"
+          ]
+        }
+      },
+      "states": 37
+    }
+  ],
+  "raw_pairs": 208,
+  "unique_pairs": 198,
+  "quarantined_rows": 0,
+  "levels": {
+    "future_cost": 42,
+    "future_reachability": 152,
+    "immediate_CI": 4
+  },
+  "history_flip_groups": 4,
+  "history_flip_unique_preferences": 8,
+  "workflow_contracts": 2,
+  "source_instances": 2,
+  "parameter_configs_not_independent_tasks": true,
+  "states": 374,
+  "visible_prompt_classes": 298,
+  "deprived_conflict_classes": 10,
+  "repair_states": 158,
+  "unique_repair_pairs": 148,
+  "repair_pairs_not_in_main": 0,
+  "human_verified": false,
+  "real_llm_learning_established": false,
+  "environment_version": "dynamic_tasks_v2_evidence",
+  "gpu_training_eligible": false
+}

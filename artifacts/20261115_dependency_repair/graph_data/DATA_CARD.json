@@ -1,0 +1,40 @@
+{
+  "datasets": [
+    {
+      "name": "train",
+      "seed": 51001,
+      "rows": 256,
+      "graph_nodes": 6,
+      "file_sha256": "7a1d7909321afc861d770370ca767246c13100482c99f029b31a615597d6b7d8",
+      "tensor_sha256": "9e7786ae5fdcaa0c6f9b034b2fa1be015b39e51c66262c487266979f6685588a"
+    },
+    {
+      "name": "fresh_binding",
+      "seed": 62001,
+      "rows": 256,
+      "graph_nodes": 6,
+      "file_sha256": "e55407fc6de1ad66cdf30a6a45f62065dc298c21aee428863004b096d00af795",
+      "tensor_sha256": "759f731635356d5f8c3e0f94c5bf868eeedfec3b4bc8e14710dc2762bcd939d8"
+    },
+    {
+      "name": "larger",
+      "seed": 62002,
+      "rows": 256,
+      "graph_nodes": 12,
+      "file_sha256": "0cd8fa5b5fb27e374683912abf6afb0f305c681054e65842fb5792c77aef8e9e",
+      "tensor_sha256": "f96e404da09e5f2178ed4ac0ca07556b1c4df27b03de684e9930b56621dfe7fd"
+    },
+    {
+      "name": "branching",
+      "seed": 62003,
+      "rows": 256,
+      "graph_nodes": 12,
+      "file_sha256": "db4e364265d0c707767c9762f12cb33b250cd1106f134c60b02bfbb2d52b2c05",
+      "tensor_sha256": "1f136a7a8f7e70f6f57d0c5caf677db563d494ec6db7e82dc5e41447bffc5c5b"
+    }
+  ],
+  "scope": "synthetic graph tensors, many isomorphic duplicates; not independent tasks or raw LLM prompts",
+  "test_protocol": "Three evaluation conditions were fixed before fitting; four permission/match strata in each.",
+  "entity_identity": "exact graph binding is supplied by representation; model does not learn string equality",
+  "gpu_training_eligible": false
+}

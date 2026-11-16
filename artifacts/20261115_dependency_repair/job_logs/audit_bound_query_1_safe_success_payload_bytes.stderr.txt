@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "D:\research\longhistory\artifacts\20261115_dependency_repair\audit_execution.py", line 79, in <module>
+    p=argparse.ArgumentParser();p.add_argument('input');p.add_argument('output');a=p.parse_args();audit(Path(a.input),Path(a.output))
+                                                                                                  ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\research\longhistory\artifacts\20261115_dependency_repair\audit_execution.py", line 71, in audit
+    result={'file':str(path.relative_to(ROOT)),'executed_steps_replayed':replayed,
+                       ~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Python313\Lib\pathlib\_local.py", line 385, in relative_to
+    raise ValueError(f"{str(self)!r} is not in the subpath of {str(other)!r}")
+ValueError: '..\\artifacts\\20261115_dependency_repair\\calibration_bound_v3\\bound_query_1_safe_success_payload_bytes.json' is not in the subpath of 'D:\\research\\longhistory'

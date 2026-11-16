@@ -7,10 +7,16 @@
 
 ## 当前进度
 
-最新报告：[GPU 前提审计：关系规律与任务依赖](artifacts/20261115_relation_gate/REPORT.md)。
-当前判断为 **GPU训练 NO-GO**：严格等长的新符号测试中，历史监督模型仅答对384/768，
-成对历史两侧同时正确0/384；部分任务消费者绕过消息读取全局状态，路线偏好还依赖人工额外步骤权重。
-该审计取代此前“可准备GPU工程试跑”的建议。原研究目标不变。
+最新报告：[消息依赖修复、严格 CCE 与关系学习审计](artifacts/20261115_dependency_repair/REPORT.md)。
+当前判断仍为 **GPU训练 NO-GO**。Meeting/Query 已实际消费必要消息，统一 TEDT 通过，
+完整回归 153 项通过。新增执行网关使严格 CCE 可用于明确受控的参考策略；
+Qwen 16 个分支续跑成功，但只有 6 个全程无需网关替换，不能据此宣称模型学会了规律。
+三跳图分类器通过辅助诊断；原文本策略的符号泛化仍未证明，成本单位变化也会改变路线排序。
+原研究目标不变。工程修复不等于通过完整研究验收。
+
+[此前 GPU 前提审计](artifacts/20261115_relation_gate/REPORT.md)及其负面证据保留：
+历史文本模型严格等长新符号测试 384/768、配对两侧同时正确 0/384。
+消息旁路已在本轮修复，不能据此改写旧模型的泛化结论。
 
 以下为[第三阶段研究报告](artifacts/20261113_stage3/REPORT.md)的历史结果，不能单独作为当前GPU就绪依据。
 
@@ -24,18 +30,20 @@
 | DPR | 158 个可修复状态，独立新增偏好 0 | 不支持额外方法收益 |
 | 本地回归 | 124 项测试通过 | 包含固定 Windows tokenizer 依赖合同 |
 
-真实训练前须先通过新的关系泛化、消息依赖和成本依据门槛。
+消息依赖门槛已在当前有限任务合同内通过；真实训练前仍须通过策略关系泛化和业务成本依据门槛。
 独立任务留出、规范验证和 GPU 长上下文测试仍待完成。
 
 ## 阅读与数据入口
 
+- [当前修复后的数据与主监督](artifacts/20261115_dependency_repair/training_steps_v2_final/summary.json)：198 条唯一偏好、8 条主监督，明确禁止解读为 GPU 就绪。
+- [执行器与 CCE 合同补充](docs/KCI_Align_Task_Evidence_Addendum.md)
 - [训练信号覆盖](artifacts/20261113_stage3/SIGNAL_COVERAGE.md)
 - [任务合同与来源边界](artifacts/20261113_stage3/TASK_CONTRACTS.md)
 - [历史主监督](artifacts/20261113_stage3/training_v3/history_primary.jsonl)
 - [全部训练偏好](artifacts/20261113_stage3/training_v3/all_preferences.jsonl)
 - [机器结果](artifacts/20261113_stage3/results_summary.json)与[就绪性](artifacts/20261113_stage3/readiness.json)
 - [第二阶段报告](artifacts/20261113_iteration2/REPORT.md)、[首轮报告](artifacts/20261112_cpu_pilot/REPORT.md)
-- [原型接口说明](code/README.md)：该文件保留早期审计状态，当前结论以第三阶段报告为准。
+- [原型接口说明](code/README.md)：该文件保留早期审计状态，当前结论以最新修复报告为准。
 
 ## 快速运行
 
@@ -46,6 +54,8 @@ cd code
 python -B -m unittest discover -s tests -p "test_dynamic*.py" -v
 python -B -m unittest discover -s tests -p "test_stream_cce.py" -v
 python -B -m unittest discover -s tests -p "test_stratified.py" -v
+python -B -m unittest discover -s tests -p "test_task_evidence_dependency.py" -v
+python -B -m unittest discover -s tests -p "test_execution_envelope.py" -v
 ```
 
 重新生成动态任务数据（输出到新目录，避免覆盖研究归档）：
@@ -54,7 +64,7 @@ python -B -m unittest discover -s tests -p "test_stratified.py" -v
 python -B -m experiments.dynamic_signal_dataset ../artifacts/local_replay ../artifacts/20261113_iteration2/source_anchors
 ```
 
-当前完整 129 项回归涉及原始 Windows CPython 3.13 / amd64 的固定 wheel 校验，
+当前完整 153 项回归涉及原始 Windows CPython 3.13 / amd64 的固定 wheel 校验，
 新增关系探针还需 NumPy（验证版本2.5.2；建议在独立虚拟环境安装）。
 在兼容环境中，从仓库根目录先恢复依赖资产，再运行：
 
@@ -70,7 +80,8 @@ python -B -m unittest discover -s tests -v
 
 ## 本次上传范围
 
-这是可审阅的研究快照，不是整台机器的备份：包含当前代码/文档、最终第三阶段数据与原始实验结果、关键审计、任务源锚点和完整测试所需的旧偏好输入。
+这是可审阅的研究快照，不是整台机器的备份：包含当前代码/文档、消息依赖修复的数据与实验记录、最终第三阶段结果、关键审计、任务源锚点和完整测试所需的旧偏好输入。
+本轮大体积 CCE 原始记录采用逐字节核验的无损 gzip，见修复报告中的压缩清单。
 第三阶段早期数据/模型版本、重复源码快照、论文 PDF、模型权重、依赖缓存及大量旧轮次中间文件留在本地。
 报告中的部分历史索引因此指向本地完整归档，不代表这些文件已上传。
 

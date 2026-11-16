@@ -2,7 +2,7 @@ import unittest
 from copy import deepcopy
 from dataclasses import asdict
 from experiments.relation_gate_probe import BindingProbe,make_map,rename,independent_join,SOURCE
-from kci.dynamic_tasks import DynamicTask
+from kci.legacy_dynamic_tasks_v1 import DynamicTask
 
 
 class RelationProbeTests(unittest.TestCase):

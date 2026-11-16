@@ -1,0 +1,783 @@
+{
+  "cases": [
+    {
+      "kind": "meeting",
+      "related": false,
+      "allow": false,
+      "horizon": 30,
+      "branches": [
+        {
+          "first_action": "SEND_ROSTER",
+          "safe_successful_routes": [
+            {
+              "path": [
+                "SEND_ROSTER",
+                "REQUEST_SANITIZED",
+                "COMPUTE_CONSTRAINTS",
+                "SEND_CONSTRAINTS",
+                "RESERVE",
+                "DELIVER_RESULT"
+              ],
+              "steps": 7,
+              "payload_bytes": 1386,
+              "task_value_without_cost_or_deadline": [
+                1,
+                1,
+                0
+              ],
+              "client_ancestor_sources": [
+                {
+                  "access_id": "source:0",
+                  "reader": "HR",
+                  "resource": "business_constraints",
+                  "source_files": {
+                    "pisas_hf/meeting_allocation/scenario_01/scenario.json": "fa0e044e1f68ff7dced3e3ecc3a70b7bd8939d8fbb2957363deb8db758210e5b",
+                    "pisas_hf/meeting_allocation/scenario_01/utility.json": "de8cb5c091a97114582e613a276ce89f10d4cb45ab50172d6b02fbc6b23d9e8e"
+                  },
+                  "value_sha256": "ac8b4cfa9daa63de1700be735a1cf0894c4c0e90d6810da0ddef1da53f8bc3b7",
+                  "sha256": "ea1d872d16cf5ef78f188bce4512ccc697b1c922d1120ba6543eb4d33f07f797"
+                },
+                {
+                  "access_id": "source:1",
+                  "reader": "Room",
+                  "resource": "public_schedule",
+                  "source_files": {
+                    "pisas_hf/meeting_allocation/scenario_01/scenario.json": "fa0e044e1f68ff7dced3e3ecc3a70b7bd8939d8fbb2957363deb8db758210e5b",
+                    "pisas_hf/meeting_allocation/scenario_01/utility.json": "de8cb5c091a97114582e613a276ce89f10d4cb45ab50172d6b02fbc6b23d9e8e"
+                  },
+                  "value_sha256": "ead682ce9da81b0fbf675ba7b648707cd774a315cbc00651d0903657e713d010",
+                  "sha256": "8279e280249b85fe8eb6e687716d4ff8be4cad62e90f8ff6ca005469f6436455"
+                }
+              ],
+              "final_state_sha256": "8f6e5dbd95cbc15d5c30ea562eddfc1214a5da259e9e63d8c95066875266dacf"
+            },
+            {
+              "path": [
+                "SEND_ROSTER",
+                "SEND_CASE_LINK",
+                "RESERVE",
+                "DELIVER_RESULT"
+              ],
+              "steps": 5,
+              "payload_bytes": 757,
+              "task_value_without_cost_or_deadline": [
+                1,
+                1,
+                0
+              ],
+              "client_ancestor_sources": [
+                {
+                  "access_id": "source:0",
+                  "reader": "HR",
+                  "resource": "business_constraints",
+                  "source_files": {
+                    "pisas_hf/meeting_allocation/scenario_01/scenario.json": "fa0e044e1f68ff7dced3e3ecc3a70b7bd8939d8fbb2957363deb8db758210e5b",
+                    "pisas_hf/meeting_allocation/scenario_01/utility.json": "de8cb5c091a97114582e613a276ce89f10d4cb45ab50172d6b02fbc6b23d9e8e"
+                  },
+                  "value_sha256": "ac8b4cfa9daa63de1700be735a1cf0894c4c0e90d6810da0ddef1da53f8bc3b7",
+                  "sha256": "ea1d872d16cf5ef78f188bce4512ccc697b1c922d1120ba6543eb4d33f07f797"
+                },
+                {
+                  "access_id": "source:1",
+                  "reader": "Room",
+                  "resource": "public_schedule",
+                  "source_files": {
+                    "pisas_hf/meeting_allocation/scenario_01/scenario.json": "fa0e044e1f68ff7dced3e3ecc3a70b7bd8939d8fbb2957363deb8db758210e5b",
+                    "pisas_hf/meeting_allocation/scenario_01/utility.json": "de8cb5c091a97114582e613a276ce89f10d4cb45ab50172d6b02fbc6b23d9e8e"
+                  },
+                  "value_sha256": "ead682ce9da81b0fbf675ba7b648707cd774a315cbc00651d0903657e713d010",
+                  "sha256": "8279e280249b85fe8eb6e687716d4ff8be4cad62e90f8ff6ca005469f6436455"
+                }
+              ],
+              "final_state_sha256": "f1ecc578dfd9d8a9ae2c4f71a5001d3f897dcf3ed64375bd087a2ef2c86a83a8"
+            }
+          ],
+          "min_steps": 5,
+          "min_payload_bytes": 757,
+          "cost_removed_best_value": [
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "first_action": "PRIVATE_BOOKING",
+          "safe_successful_routes": [
+            {
+              "path": [
+                "PRIVATE_BOOKING",
+                "ACK_PRIVATE",
+                "REQUEST_SANITIZED",
+                "COMPUTE_CONSTRAINTS",
+                "SEND_CONSTRAINTS",
+                "RESERVE",
+                "DELIVER_RESULT"
+              ],
+              "steps": 8,
+              "payload_bytes": 1404,
+              "task_value_without_cost_or_deadline": [
+                1,
+                1,
+                0
+              ],
+              "client_ancestor_sources": [
+                {
+                  "access_id": "source:0",
+                  "reader": "HR",
+                  "resource": "business_constraints",
+                  "source_files": {
+                    "pisas_hf/meeting_allocation/scenario_01/scenario.json": "fa0e044e1f68ff7dced3e3ecc3a70b7bd8939d8fbb2957363deb8db758210e5b",
+                    "pisas_hf/meeting_allocation/scenario_01/utility.json": "de8cb5c091a97114582e613a276ce89f10d4cb45ab50172d6b02fbc6b23d9e8e"
+                  },
+                  "value_sha256": "ac8b4cfa9daa63de1700be735a1cf0894c4c0e90d6810da0ddef1da53f8bc3b7",
+                  "sha256": "ea1d872d16cf5ef78f188bce4512ccc697b1c922d1120ba6543eb4d33f07f797"
+                },
+                {
+                  "access_id": "source:1",
+                  "reader": "Room",
+                  "resource": "public_schedule",
+                  "source_files": {
+                    "pisas_hf/meeting_allocation/scenario_01/scenario.json": "fa0e044e1f68ff7dced3e3ecc3a70b7bd8939d8fbb2957363deb8db758210e5b",
+                    "pisas_hf/meeting_allocation/scenario_01/utility.json": "de8cb5c091a97114582e613a276ce89f10d4cb45ab50172d6b02fbc6b23d9e8e"
+                  },
+                  "value_sha256": "ead682ce9da81b0fbf675ba7b648707cd774a315cbc00651d0903657e713d010",
+                  "sha256": "8279e280249b85fe8eb6e687716d4ff8be4cad62e90f8ff6ca005469f6436455"
+                }
+              ],
+              "final_state_sha256": "ec3367a160298c26c38587f89a8917c2e3364a1b90a67715d762f35da873e645"
+            },
+            {
+              "path": [
+                "PRIVATE_BOOKING",
+                "ACK_PRIVATE",
+                "SEND_CASE_LINK",
+                "RESERVE",
+                "DELIVER_RESULT"
+              ],
+              "steps": 6,
+              "payload_bytes": 775,
+              "task_value_without_cost_or_deadline": [
+                1,
+                1,
+                0
+              ],
+              "client_ancestor_sources": [
+                {
+                  "access_id": "source:0",
+                  "reader": "HR",
+                  "resource": "business_constraints",
+                  "source_files": {
+                    "pisas_hf/meeting_allocation/scenario_01/scenario.json": "fa0e044e1f68ff7dced3e3ecc3a70b7bd8939d8fbb2957363deb8db758210e5b",
+                    "pisas_hf/meeting_allocation/scenario_01/utility.json": "de8cb5c091a97114582e613a276ce89f10d4cb45ab50172d6b02fbc6b23d9e8e"
+                  },
+                  "value_sha256": "ac8b4cfa9daa63de1700be735a1cf0894c4c0e90d6810da0ddef1da53f8bc3b7",
+                  "sha256": "ea1d872d16cf5ef78f188bce4512ccc697b1c922d1120ba6543eb4d33f07f797"
+                },
+                {
+                  "access_id": "source:1",
+                  "reader": "Room",
+                  "resource": "public_schedule",
+                  "source_files": {
+                    "pisas_hf/meeting_allocation/scenario_01/scenario.json": "fa0e044e1f68ff7dced3e3ecc3a70b7bd8939d8fbb2957363deb8db758210e5b",
+                    "pisas_hf/meeting_allocation/scenario_01/utility.json": "de8cb5c091a97114582e613a276ce89f10d4cb45ab50172d6b02fbc6b23d9e8e"
+                  },
+                  "value_sha256": "ead682ce9da81b0fbf675ba7b648707cd774a315cbc00651d0903657e713d010",
+                  "sha256": "8279e280249b85fe8eb6e687716d4ff8be4cad62e90f8ff6ca005469f6436455"
+                }
+              ],
+              "final_state_sha256": "bfd6b95d149a7d70cf4bbd7e5b1c4c021b3b536e8d3088839c3106ba24c0e935"
+            }
+          ],
+          "min_steps": 6,
+          "min_payload_bytes": 775,
+          "cost_removed_best_value": [
+            1,
+            1,
+            0
+          ]
+        }
+      ],
+      "best_continuation_choices": {
+        "min_steps": 0,
+        "min_payload_bytes": 0,
+        "cost_removed": null
+      },
+      "scope": "exact finite legal continuation optimum; not a reference-policy mean"
+    },
+    {
+      "kind": "meeting",
+      "related": false,
+      "allow": true,
+      "horizon": 30,
+      "branches": [
+        {
+          "first_action": "SEND_ROSTER",
+          "safe_successful_routes": [
+            {
+              "path": [
+                "SEND_ROSTER",
+                "REQUEST_SANITIZED",
+                "COMPUTE_CONSTRAINTS",
+                "SEND_CONSTRAINTS",
+                "RESERVE",
+                "DELIVER_RESULT"
+              ],
+              "steps": 7,
+              "payload_bytes": 1386,
+              "task_value_without_cost_or_deadline": [
+                1,
+                1,
+                0
+              ],
+              "client_ancestor_sources": [
+                {
+                  "access_id": "source:0",
+                  "reader": "HR",
+                  "resource": "business_constraints",
+                  "source_files": {
+                    "pisas_hf/meeting_allocation/scenario_01/scenario.json": "fa0e044e1f68ff7dced3e3ecc3a70b7bd8939d8fbb2957363deb8db758210e5b",
+                    "pisas_hf/meeting_allocation/scenario_01/utility.json": "de8cb5c091a97114582e613a276ce89f10d4cb45ab50172d6b02fbc6b23d9e8e"
+                  },
+                  "value_sha256": "ac8b4cfa9daa63de1700be735a1cf0894c4c0e90d6810da0ddef1da53f8bc3b7",
+                  "sha256": "ea1d872d16cf5ef78f188bce4512ccc697b1c922d1120ba6543eb4d33f07f797"
+                },
+                {
+                  "access_id": "source:1",
+                  "reader": "Room",
+                  "resource": "public_schedule",
+                  "source_files": {
+                    "pisas_hf/meeting_allocation/scenario_01/scenario.json": "fa0e044e1f68ff7dced3e3ecc3a70b7bd8939d8fbb2957363deb8db758210e5b",
+                    "pisas_hf/meeting_allocation/scenario_01/utility.json": "de8cb5c091a97114582e613a276ce89f10d4cb45ab50172d6b02fbc6b23d9e8e"
+                  },
+                  "value_sha256": "ead682ce9da81b0fbf675ba7b648707cd774a315cbc00651d0903657e713d010",
+                  "sha256": "8279e280249b85fe8eb6e687716d4ff8be4cad62e90f8ff6ca005469f6436455"
+                }
+              ],
+              "final_state_sha256": "8f6e5dbd95cbc15d5c30ea562eddfc1214a5da259e9e63d8c95066875266dacf"
+            },
+            {
+              "path": [
+                "SEND_ROSTER",
+                "SEND_CASE_LINK",
+                "RESERVE",
+                "DELIVER_RESULT"
+              ],
+              "steps": 5,
+              "payload_bytes": 757,
+              "task_value_without_cost_or_deadline": [
+                1,
+                1,
+                0
+              ],
+              "client_ancestor_sources": [
+                {
+                  "access_id": "source:0",
+                  "reader": "HR",
+                  "resource": "business_constraints",
+                  "source_files": {
+                    "pisas_hf/meeting_allocation/scenario_01/scenario.json": "fa0e044e1f68ff7dced3e3ecc3a70b7bd8939d8fbb2957363deb8db758210e5b",
+                    "pisas_hf/meeting_allocation/scenario_01/utility.json": "de8cb5c091a97114582e613a276ce89f10d4cb45ab50172d6b02fbc6b23d9e8e"
+                  },
+                  "value_sha256": "ac8b4cfa9daa63de1700be735a1cf0894c4c0e90d6810da0ddef1da53f8bc3b7",
+                  "sha256": "ea1d872d16cf5ef78f188bce4512ccc697b1c922d1120ba6543eb4d33f07f797"
+                },
+                {
+                  "access_id": "source:1",
+                  "reader": "Room",
+                  "resource": "public_schedule",
+                  "source_files": {
+                    "pisas_hf/meeting_allocation/scenario_01/scenario.json": "fa0e044e1f68ff7dced3e3ecc3a70b7bd8939d8fbb2957363deb8db758210e5b",
+                    "pisas_hf/meeting_allocation/scenario_01/utility.json": "de8cb5c091a97114582e613a276ce89f10d4cb45ab50172d6b02fbc6b23d9e8e"
+                  },
+                  "value_sha256": "ead682ce9da81b0fbf675ba7b648707cd774a315cbc00651d0903657e713d010",
+                  "sha256": "8279e280249b85fe8eb6e687716d4ff8be4cad62e90f8ff6ca005469f6436455"
+                }
+              ],
+              "final_state_sha256": "f1ecc578dfd9d8a9ae2c4f71a5001d3f897dcf3ed64375bd087a2ef2c86a83a8"
+            }
+          ],
+          "min_steps": 5,
+          "min_payload_bytes": 757,
+          "cost_removed_best_value": [
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "first_action": "PRIVATE_BOOKING",
+          "safe_successful_routes": [
+            {
+              "path": [
+                "PRIVATE_BOOKING",
+                "ACK_PRIVATE",
+                "REQUEST_SANITIZED",
+                "COMPUTE_CONSTRAINTS",
+                "SEND_CONSTRAINTS",
+                "RESERVE",
+                "DELIVER_RESULT"
+              ],
+              "steps": 8,
+              "payload_bytes": 1404,
+              "task_value_without_cost_or_deadline": [
+                1,
+                1,
+                0
+              ],
+              "client_ancestor_sources": [
+                {
+                  "access_id": "source:0",
+                  "reader": "HR",
+                  "resource": "business_constraints",
+                  "source_files": {
+                    "pisas_hf/meeting_allocation/scenario_01/scenario.json": "fa0e044e1f68ff7dced3e3ecc3a70b7bd8939d8fbb2957363deb8db758210e5b",
+                    "pisas_hf/meeting_allocation/scenario_01/utility.json": "de8cb5c091a97114582e613a276ce89f10d4cb45ab50172d6b02fbc6b23d9e8e"
+                  },
+                  "value_sha256": "ac8b4cfa9daa63de1700be735a1cf0894c4c0e90d6810da0ddef1da53f8bc3b7",
+                  "sha256": "ea1d872d16cf5ef78f188bce4512ccc697b1c922d1120ba6543eb4d33f07f797"
+                },
+                {
+                  "access_id": "source:1",
+                  "reader": "Room",
+                  "resource": "public_schedule",
+                  "source_files": {
+                    "pisas_hf/meeting_allocation/scenario_01/scenario.json": "fa0e044e1f68ff7dced3e3ecc3a70b7bd8939d8fbb2957363deb8db758210e5b",
+                    "pisas_hf/meeting_allocation/scenario_01/utility.json": "de8cb5c091a97114582e613a276ce89f10d4cb45ab50172d6b02fbc6b23d9e8e"
+                  },
+                  "value_sha256": "ead682ce9da81b0fbf675ba7b648707cd774a315cbc00651d0903657e713d010",
+                  "sha256": "8279e280249b85fe8eb6e687716d4ff8be4cad62e90f8ff6ca005469f6436455"
+                }
+              ],
+              "final_state_sha256": "ec3367a160298c26c38587f89a8917c2e3364a1b90a67715d762f35da873e645"
+            },
+            {
+              "path": [
+                "PRIVATE_BOOKING",
+                "ACK_PRIVATE",
+                "SEND_CASE_LINK",
+                "RESERVE",
+                "DELIVER_RESULT"
+              ],
+              "steps": 6,
+              "payload_bytes": 775,
+              "task_value_without_cost_or_deadline": [
+                1,
+                1,
+                0
+              ],
+              "client_ancestor_sources": [
+                {
+                  "access_id": "source:0",
+                  "reader": "HR",
+                  "resource": "business_constraints",
+                  "source_files": {
+                    "pisas_hf/meeting_allocation/scenario_01/scenario.json": "fa0e044e1f68ff7dced3e3ecc3a70b7bd8939d8fbb2957363deb8db758210e5b",
+                    "pisas_hf/meeting_allocation/scenario_01/utility.json": "de8cb5c091a97114582e613a276ce89f10d4cb45ab50172d6b02fbc6b23d9e8e"
+                  },
+                  "value_sha256": "ac8b4cfa9daa63de1700be735a1cf0894c4c0e90d6810da0ddef1da53f8bc3b7",
+                  "sha256": "ea1d872d16cf5ef78f188bce4512ccc697b1c922d1120ba6543eb4d33f07f797"
+                },
+                {
+                  "access_id": "source:1",
+                  "reader": "Room",
+                  "resource": "public_schedule",
+                  "source_files": {
+                    "pisas_hf/meeting_allocation/scenario_01/scenario.json": "fa0e044e1f68ff7dced3e3ecc3a70b7bd8939d8fbb2957363deb8db758210e5b",
+                    "pisas_hf/meeting_allocation/scenario_01/utility.json": "de8cb5c091a97114582e613a276ce89f10d4cb45ab50172d6b02fbc6b23d9e8e"
+                  },
+                  "value_sha256": "ead682ce9da81b0fbf675ba7b648707cd774a315cbc00651d0903657e713d010",
+                  "sha256": "8279e280249b85fe8eb6e687716d4ff8be4cad62e90f8ff6ca005469f6436455"
+                }
+              ],
+              "final_state_sha256": "bfd6b95d149a7d70cf4bbd7e5b1c4c021b3b536e8d3088839c3106ba24c0e935"
+            }
+          ],
+          "min_steps": 6,
+          "min_payload_bytes": 775,
+          "cost_removed_best_value": [
+            1,
+            1,
+            0
+          ]
+        }
+      ],
+      "best_continuation_choices": {
+        "min_steps": 0,
+        "min_payload_bytes": 0,
+        "cost_removed": null
+      },
+      "scope": "exact finite legal continuation optimum; not a reference-policy mean"
+    },
+    {
+      "kind": "meeting",
+      "related": true,
+      "allow": false,
+      "horizon": 30,
+      "branches": [
+        {
+          "first_action": "SEND_ROSTER",
+          "safe_successful_routes": [
+            {
+              "path": [
+                "SEND_ROSTER",
+                "REQUEST_SANITIZED",
+                "COMPUTE_CONSTRAINTS",
+                "SEND_CONSTRAINTS",
+                "RESERVE",
+                "DELIVER_RESULT"
+              ],
+              "steps": 7,
+              "payload_bytes": 1386,
+              "task_value_without_cost_or_deadline": [
+                1,
+                1,
+                0
+              ],
+              "client_ancestor_sources": [
+                {
+                  "access_id": "source:0",
+                  "reader": "HR",
+                  "resource": "business_constraints",
+                  "source_files": {
+                    "pisas_hf/meeting_allocation/scenario_01/scenario.json": "fa0e044e1f68ff7dced3e3ecc3a70b7bd8939d8fbb2957363deb8db758210e5b",
+                    "pisas_hf/meeting_allocation/scenario_01/utility.json": "de8cb5c091a97114582e613a276ce89f10d4cb45ab50172d6b02fbc6b23d9e8e"
+                  },
+                  "value_sha256": "ac8b4cfa9daa63de1700be735a1cf0894c4c0e90d6810da0ddef1da53f8bc3b7",
+                  "sha256": "ea1d872d16cf5ef78f188bce4512ccc697b1c922d1120ba6543eb4d33f07f797"
+                },
+                {
+                  "access_id": "source:1",
+                  "reader": "Room",
+                  "resource": "public_schedule",
+                  "source_files": {
+                    "pisas_hf/meeting_allocation/scenario_01/scenario.json": "fa0e044e1f68ff7dced3e3ecc3a70b7bd8939d8fbb2957363deb8db758210e5b",
+                    "pisas_hf/meeting_allocation/scenario_01/utility.json": "de8cb5c091a97114582e613a276ce89f10d4cb45ab50172d6b02fbc6b23d9e8e"
+                  },
+                  "value_sha256": "ead682ce9da81b0fbf675ba7b648707cd774a315cbc00651d0903657e713d010",
+                  "sha256": "8279e280249b85fe8eb6e687716d4ff8be4cad62e90f8ff6ca005469f6436455"
+                }
+              ],
+              "final_state_sha256": "78e174d8975565f49cdd4e2bc3a71713dc6736f2d65be3faac523512d0634aa8"
+            }
+          ],
+          "min_steps": 7,
+          "min_payload_bytes": 1386,
+          "cost_removed_best_value": [
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "first_action": "PRIVATE_BOOKING",
+          "safe_successful_routes": [
+            {
+              "path": [
+                "PRIVATE_BOOKING",
+                "ACK_PRIVATE",
+                "REQUEST_SANITIZED",
+                "COMPUTE_CONSTRAINTS",
+                "SEND_CONSTRAINTS",
+                "RESERVE",
+                "DELIVER_RESULT"
+              ],
+              "steps": 8,
+              "payload_bytes": 1404,
+              "task_value_without_cost_or_deadline": [
+                1,
+                1,
+                0
+              ],
+              "client_ancestor_sources": [
+                {
+                  "access_id": "source:0",
+                  "reader": "HR",
+                  "resource": "business_constraints",
+                  "source_files": {
+                    "pisas_hf/meeting_allocation/scenario_01/scenario.json": "fa0e044e1f68ff7dced3e3ecc3a70b7bd8939d8fbb2957363deb8db758210e5b",
+                    "pisas_hf/meeting_allocation/scenario_01/utility.json": "de8cb5c091a97114582e613a276ce89f10d4cb45ab50172d6b02fbc6b23d9e8e"
+                  },
+                  "value_sha256": "ac8b4cfa9daa63de1700be735a1cf0894c4c0e90d6810da0ddef1da53f8bc3b7",
+                  "sha256": "ea1d872d16cf5ef78f188bce4512ccc697b1c922d1120ba6543eb4d33f07f797"
+                },
+                {
+                  "access_id": "source:1",
+                  "reader": "Room",
+                  "resource": "public_schedule",
+                  "source_files": {
+                    "pisas_hf/meeting_allocation/scenario_01/scenario.json": "fa0e044e1f68ff7dced3e3ecc3a70b7bd8939d8fbb2957363deb8db758210e5b",
+                    "pisas_hf/meeting_allocation/scenario_01/utility.json": "de8cb5c091a97114582e613a276ce89f10d4cb45ab50172d6b02fbc6b23d9e8e"
+                  },
+                  "value_sha256": "ead682ce9da81b0fbf675ba7b648707cd774a315cbc00651d0903657e713d010",
+                  "sha256": "8279e280249b85fe8eb6e687716d4ff8be4cad62e90f8ff6ca005469f6436455"
+                }
+              ],
+              "final_state_sha256": "206e484030933224d1c4881404c34bf4c78cf2846293460c06d3fdbadab1a4e6"
+            },
+            {
+              "path": [
+                "PRIVATE_BOOKING",
+                "ACK_PRIVATE",
+                "SEND_CASE_LINK",
+                "RESERVE",
+                "DELIVER_RESULT"
+              ],
+              "steps": 6,
+              "payload_bytes": 775,
+              "task_value_without_cost_or_deadline": [
+                1,
+                1,
+                0
+              ],
+              "client_ancestor_sources": [
+                {
+                  "access_id": "source:0",
+                  "reader": "HR",
+                  "resource": "business_constraints",
+                  "source_files": {
+                    "pisas_hf/meeting_allocation/scenario_01/scenario.json": "fa0e044e1f68ff7dced3e3ecc3a70b7bd8939d8fbb2957363deb8db758210e5b",
+                    "pisas_hf/meeting_allocation/scenario_01/utility.json": "de8cb5c091a97114582e613a276ce89f10d4cb45ab50172d6b02fbc6b23d9e8e"
+                  },
+                  "value_sha256": "ac8b4cfa9daa63de1700be735a1cf0894c4c0e90d6810da0ddef1da53f8bc3b7",
+                  "sha256": "ea1d872d16cf5ef78f188bce4512ccc697b1c922d1120ba6543eb4d33f07f797"
+                },
+                {
+                  "access_id": "source:1",
+                  "reader": "Room",
+                  "resource": "public_schedule",
+                  "source_files": {
+                    "pisas_hf/meeting_allocation/scenario_01/scenario.json": "fa0e044e1f68ff7dced3e3ecc3a70b7bd8939d8fbb2957363deb8db758210e5b",
+                    "pisas_hf/meeting_allocation/scenario_01/utility.json": "de8cb5c091a97114582e613a276ce89f10d4cb45ab50172d6b02fbc6b23d9e8e"
+                  },
+                  "value_sha256": "ead682ce9da81b0fbf675ba7b648707cd774a315cbc00651d0903657e713d010",
+                  "sha256": "8279e280249b85fe8eb6e687716d4ff8be4cad62e90f8ff6ca005469f6436455"
+                }
+              ],
+              "final_state_sha256": "1c3df4cda1c95bcd193ec85bf922bbb2888e33625fde95dcf6dfdd570fcaa0c0"
+            }
+          ],
+          "min_steps": 6,
+          "min_payload_bytes": 775,
+          "cost_removed_best_value": [
+            1,
+            1,
+            0
+          ]
+        }
+      ],
+      "best_continuation_choices": {
+        "min_steps": 1,
+        "min_payload_bytes": 1,
+        "cost_removed": null
+      },
+      "scope": "exact finite legal continuation optimum; not a reference-policy mean"
+    },
+    {
+      "kind": "meeting",
+      "related": true,
+      "allow": true,
+      "horizon": 30,
+      "branches": [
+        {
+          "first_action": "SEND_ROSTER",
+          "safe_successful_routes": [
+            {
+              "path": [
+                "SEND_ROSTER",
+                "REQUEST_SANITIZED",
+                "COMPUTE_CONSTRAINTS",
+                "SEND_CONSTRAINTS",
+                "RESERVE",
+                "DELIVER_RESULT"
+              ],
+              "steps": 7,
+              "payload_bytes": 1386,
+              "task_value_without_cost_or_deadline": [
+                1,
+                1,
+                0
+              ],
+              "client_ancestor_sources": [
+                {
+                  "access_id": "source:0",
+                  "reader": "HR",
+                  "resource": "business_constraints",
+                  "source_files": {
+                    "pisas_hf/meeting_allocation/scenario_01/scenario.json": "fa0e044e1f68ff7dced3e3ecc3a70b7bd8939d8fbb2957363deb8db758210e5b",
+                    "pisas_hf/meeting_allocation/scenario_01/utility.json": "de8cb5c091a97114582e613a276ce89f10d4cb45ab50172d6b02fbc6b23d9e8e"
+                  },
+                  "value_sha256": "ac8b4cfa9daa63de1700be735a1cf0894c4c0e90d6810da0ddef1da53f8bc3b7",
+                  "sha256": "ea1d872d16cf5ef78f188bce4512ccc697b1c922d1120ba6543eb4d33f07f797"
+                },
+                {
+                  "access_id": "source:1",
+                  "reader": "Room",
+                  "resource": "public_schedule",
+                  "source_files": {
+                    "pisas_hf/meeting_allocation/scenario_01/scenario.json": "fa0e044e1f68ff7dced3e3ecc3a70b7bd8939d8fbb2957363deb8db758210e5b",
+                    "pisas_hf/meeting_allocation/scenario_01/utility.json": "de8cb5c091a97114582e613a276ce89f10d4cb45ab50172d6b02fbc6b23d9e8e"
+                  },
+                  "value_sha256": "ead682ce9da81b0fbf675ba7b648707cd774a315cbc00651d0903657e713d010",
+                  "sha256": "8279e280249b85fe8eb6e687716d4ff8be4cad62e90f8ff6ca005469f6436455"
+                }
+              ],
+              "final_state_sha256": "78e174d8975565f49cdd4e2bc3a71713dc6736f2d65be3faac523512d0634aa8"
+            },
+            {
+              "path": [
+                "SEND_ROSTER",
+                "SEND_CASE_LINK",
+                "RESERVE",
+                "DELIVER_RESULT"
+              ],
+              "steps": 5,
+              "payload_bytes": 757,
+              "task_value_without_cost_or_deadline": [
+                1,
+                1,
+                0
+              ],
+              "client_ancestor_sources": [
+                {
+                  "access_id": "source:0",
+                  "reader": "HR",
+                  "resource": "business_constraints",
+                  "source_files": {
+                    "pisas_hf/meeting_allocation/scenario_01/scenario.json": "fa0e044e1f68ff7dced3e3ecc3a70b7bd8939d8fbb2957363deb8db758210e5b",
+                    "pisas_hf/meeting_allocation/scenario_01/utility.json": "de8cb5c091a97114582e613a276ce89f10d4cb45ab50172d6b02fbc6b23d9e8e"
+                  },
+                  "value_sha256": "ac8b4cfa9daa63de1700be735a1cf0894c4c0e90d6810da0ddef1da53f8bc3b7",
+                  "sha256": "ea1d872d16cf5ef78f188bce4512ccc697b1c922d1120ba6543eb4d33f07f797"
+                },
+                {
+                  "access_id": "source:1",
+                  "reader": "Room",
+                  "resource": "public_schedule",
+                  "source_files": {
+                    "pisas_hf/meeting_allocation/scenario_01/scenario.json": "fa0e044e1f68ff7dced3e3ecc3a70b7bd8939d8fbb2957363deb8db758210e5b",
+                    "pisas_hf/meeting_allocation/scenario_01/utility.json": "de8cb5c091a97114582e613a276ce89f10d4cb45ab50172d6b02fbc6b23d9e8e"
+                  },
+                  "value_sha256": "ead682ce9da81b0fbf675ba7b648707cd774a315cbc00651d0903657e713d010",
+                  "sha256": "8279e280249b85fe8eb6e687716d4ff8be4cad62e90f8ff6ca005469f6436455"
+                }
+              ],
+              "final_state_sha256": "c9eb06bf927fc4535371cf0ab6a95d80f9fbb385e70a2461ba02a7e71b676d16"
+            }
+          ],
+          "min_steps": 5,
+          "min_payload_bytes": 757,
+          "cost_removed_best_value": [
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "first_action": "PRIVATE_BOOKING",
+          "safe_successful_routes": [
+            {
+              "path": [
+                "PRIVATE_BOOKING",
+                "ACK_PRIVATE",
+                "REQUEST_SANITIZED",
+                "COMPUTE_CONSTRAINTS",
+                "SEND_CONSTRAINTS",
+                "RESERVE",
+                "DELIVER_RESULT"
+              ],
+              "steps": 8,
+              "payload_bytes": 1404,
+              "task_value_without_cost_or_deadline": [
+                1,
+                1,
+                0
+              ],
+              "client_ancestor_sources": [
+                {
+                  "access_id": "source:0",
+                  "reader": "HR",
+                  "resource": "business_constraints",
+                  "source_files": {
+                    "pisas_hf/meeting_allocation/scenario_01/scenario.json": "fa0e044e1f68ff7dced3e3ecc3a70b7bd8939d8fbb2957363deb8db758210e5b",
+                    "pisas_hf/meeting_allocation/scenario_01/utility.json": "de8cb5c091a97114582e613a276ce89f10d4cb45ab50172d6b02fbc6b23d9e8e"
+                  },
+                  "value_sha256": "ac8b4cfa9daa63de1700be735a1cf0894c4c0e90d6810da0ddef1da53f8bc3b7",
+                  "sha256": "ea1d872d16cf5ef78f188bce4512ccc697b1c922d1120ba6543eb4d33f07f797"
+                },
+                {
+                  "access_id": "source:1",
+                  "reader": "Room",
+                  "resource": "public_schedule",
+                  "source_files": {
+                    "pisas_hf/meeting_allocation/scenario_01/scenario.json": "fa0e044e1f68ff7dced3e3ecc3a70b7bd8939d8fbb2957363deb8db758210e5b",
+                    "pisas_hf/meeting_allocation/scenario_01/utility.json": "de8cb5c091a97114582e613a276ce89f10d4cb45ab50172d6b02fbc6b23d9e8e"
+                  },
+                  "value_sha256": "ead682ce9da81b0fbf675ba7b648707cd774a315cbc00651d0903657e713d010",
+                  "sha256": "8279e280249b85fe8eb6e687716d4ff8be4cad62e90f8ff6ca005469f6436455"
+                }
+              ],
+              "final_state_sha256": "206e484030933224d1c4881404c34bf4c78cf2846293460c06d3fdbadab1a4e6"
+            },
+            {
+              "path": [
+                "PRIVATE_BOOKING",
+                "ACK_PRIVATE",
+                "SEND_CASE_LINK",
+                "RESERVE",
+                "DELIVER_RESULT"
+              ],
+              "steps": 6,
+              "payload_bytes": 775,
+              "task_value_without_cost_or_deadline": [
+                1,
+                1,
+                0
+              ],
+              "client_ancestor_sources": [
+                {
+                  "access_id": "source:0",
+                  "reader": "HR",
+                  "resource": "business_constraints",
+                  "source_files": {
+                    "pisas_hf/meeting_allocation/scenario_01/scenario.json": "fa0e044e1f68ff7dced3e3ecc3a70b7bd8939d8fbb2957363deb8db758210e5b",
+                    "pisas_hf/meeting_allocation/scenario_01/utility.json": "de8cb5c091a97114582e613a276ce89f10d4cb45ab50172d6b02fbc6b23d9e8e"
+                  },
+                  "value_sha256": "ac8b4cfa9daa63de1700be735a1cf0894c4c0e90d6810da0ddef1da53f8bc3b7",
+                  "sha256": "ea1d872d16cf5ef78f188bce4512ccc697b1c922d1120ba6543eb4d33f07f797"
+                },
+                {
+                  "access_id": "source:1",
+                  "reader": "Room",
+                  "resource": "public_schedule",
+                  "source_files": {
+                    "pisas_hf/meeting_allocation/scenario_01/scenario.json": "fa0e044e1f68ff7dced3e3ecc3a70b7bd8939d8fbb2957363deb8db758210e5b",
+                    "pisas_hf/meeting_allocation/scenario_01/utility.json": "de8cb5c091a97114582e613a276ce89f10d4cb45ab50172d6b02fbc6b23d9e8e"
+                  },
+                  "value_sha256": "ead682ce9da81b0fbf675ba7b648707cd774a315cbc00651d0903657e713d010",
+                  "sha256": "8279e280249b85fe8eb6e687716d4ff8be4cad62e90f8ff6ca005469f6436455"
+                }
+              ],
+              "final_state_sha256": "1c3df4cda1c95bcd193ec85bf922bbb2888e33625fde95dcf6dfdd570fcaa0c0"
+            }
+          ],
+          "min_steps": 6,
+          "min_payload_bytes": 775,
+          "cost_removed_best_value": [
+            1,
+            1,
+            0
+          ]
+        }
+      ],
+      "best_continuation_choices": {
+        "min_steps": 0,
+        "min_payload_bytes": 0,
+        "cost_removed": null
+      },
+      "scope": "exact finite legal continuation optimum; not a reference-policy mean"
+    }
+  ],
+  "all_source_ancestor_checks_passed": true,
+  "units": "UTF-8 canonical content bytes, excluding provenance envelope/network/compute; steps are synthetic API calls",
+  "finding": "Both first actions admit safe success when deadlines and cost are removed; no strict initial task-value ordering then."
+}

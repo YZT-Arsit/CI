@@ -47,6 +47,7 @@ def generate(root,source):
                 raw.append({'case_id':case,'state_id':sid,'prefix':prefix,'prompt':canonical(prompt),
                     'chosen':good['action'],'rejected':bad['action'],'level':level,
                     'proof':{'chosen':good,'rejected':bad},'workflow':kind,
+                    'environment_version':e.version,'cost_metric':'synthetic_api_steps',
                     'source_hashes':e.source_hashes,'human_verified':False,'norm_source':'explicit_synthetic_adaptation'})
             record={'case_id':case,'state_id':sid,'state':asdict(s),'prefix':prefix,
                     'prompt':canonical(prompt),'deprived_prompt':canonical(e.observation(s,hide_receipts=True)),
@@ -101,6 +102,8 @@ def generate(root,source):
        'states':len(states),'visible_prompt_classes':len(classes),'deprived_conflict_classes':conflict_classes,
        'repair_states':len(repairs),'unique_repair_pairs':len(repair_keys),'repair_pairs_not_in_main':len(independent),
        'human_verified':False,'real_llm_learning_established':False}
+    summary['environment_version']=DynamicTask.version
+    summary['gpu_training_eligible']=False
     (root/'summary.json').write_text(json.dumps(summary,indent=2),encoding='utf-8')
     print(json.dumps({k:v for k,v in summary.items() if k!='cases'}))
 

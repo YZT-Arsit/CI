@@ -1,0 +1,26 @@
+{
+  "checked_staged_tree": "74b335d7c11fb244170488dd2bdf81cfa758ff3f",
+  "verified_manifest_files": 3495,
+  "archive_exact_file_set_and_sha256_passed": true,
+  "new_source_and_evidence_bytes": 20958349,
+  "credential_pattern_scan_hit_files": [],
+  "isolated_snapshot_tests": [
+    {
+      "status": "fulfilled",
+      "chunk_id": "aaf2d2",
+      "wall_time_seconds": 1.9666828,
+      "exit_code": 0,
+      "original_token_count": 411,
+      "output": "test_acl_revocation (test_task_evidence_dependency.TaskEvidenceDependencyTests.test_acl_revocation) ... ok\r\ntest_meeting_task_evidence_dependency (test_task_evidence_dependency.TaskEvidenceDependencyTests.test_meeting_task_evidence_dependency) ... ok\r\ntest_meeting_values_actually_affect_schedule (test_task_evidence_dependency.TaskEvidenceDependencyTests.test_meeting_values_actually_affect_schedule) ... ok\r\ntest_missing_ancestor_rejected_and_no_partial_side_effect (test_task_evidence_dependency.TaskEvidenceDependencyTests.test_missing_ancestor_rejected_and_no_partial_side_effect) ... ok\r\ntest_no_internal_provenance_in_policy_prompt (test_task_evidence_dependency.TaskEvidenceDependencyTests.test_no_internal_provenance_in_policy_prompt) ... ok\r\ntest_projection_forward_cannot_reread_source (test_task_evidence_dependency.TaskEvidenceDependencyTests.test_projection_forward_cannot_reread_source) ... ok\r\ntest_query_task_evidence_dependency (test_task_evidence_dependency.TaskEvidenceDependencyTests.test_query_task_evidence_dependency) ... ok\r\ntest_query_values_actually_affect_join (test_task_evidence_dependency.TaskEvidenceDependencyTests.test_query_values_actually_affect_join) ... ok\r\ntest_resealed_malformed_table_is_rejected_without_exception (test_task_evidence_dependency.TaskEvidenceDependencyTests.test_resealed_malformed_table_is_rejected_without_exception) ... ok\r\ntest_room_solver_cannot_read_private_source (test_task_evidence_dependency.TaskEvidenceDependencyTests.test_room_solver_cannot_read_private_source) ... ok\r\n\r\n----------------------------------------------------------------------\r\nRan 10 tests in 0.122s\r\n\r\nOK\r\n"
+    },
+    {
+      "status": "fulfilled",
+      "chunk_id": "22c640",
+      "wall_time_seconds": 2.5349443000000003,
+      "exit_code": 0,
+      "original_token_count": 535,
+      "output": "test_callback_failure_is_recorded_as_blocked_proposal (test_execution_envelope.ExecutionEnvelopeTests.test_callback_failure_is_recorded_as_blocked_proposal) ... ok\r\ntest_ci_only_does_not_claim_equal_success (test_execution_envelope.ExecutionEnvelopeTests.test_ci_only_does_not_claim_equal_success) ... ok\r\ntest_every_canonical_and_malformed_proposal_is_contained (test_execution_envelope.ExecutionEnvelopeTests.test_every_canonical_and_malformed_proposal_is_contained) ... ok\r\ntest_execution_certificate_allows_success_tier (test_execution_envelope.ExecutionEnvelopeTests.test_execution_certificate_allows_success_tier) ... ok\r\ntest_falsey_payload_types_are_not_silently_coerced (test_execution_envelope.ExecutionEnvelopeTests.test_falsey_payload_types_are_not_silently_coerced) ... ok\r\ntest_graph_tamper_rejected (test_execution_envelope.ExecutionEnvelopeTests.test_graph_tamper_rejected) ... ok\r\ntest_infeasible_first_branch_cannot_get_success_proof (test_execution_envelope.ExecutionEnvelopeTests.test_infeasible_first_branch_cannot_get_success_proof) ... ok\r\ntest_payload_cost_bound_checked (test_execution_envelope.ExecutionEnvelopeTests.test_payload_cost_bound_checked) ... ok\r\ntest_raw_trials_cannot_borrow_execution_certificate (test_execution_envelope.ExecutionEnvelopeTests.test_raw_trials_cannot_borrow_execution_certificate) ... ok\r\ntest_record_seed_and_content_bound (test_execution_envelope.ExecutionEnvelopeTests.test_record_seed_and_content_bound) ... ok\r\ntest_reference_binding_mismatch_rejected (test_execution_envelope.ExecutionEnvelopeTests.test_reference_binding_mismatch_rejected) ... ok\r\ntest_source_or_acl_drift_revokes_proof (test_execution_envelope.ExecutionEnvelopeTests.test_source_or_acl_drift_revokes_proof) ... ok\r\ntest_unsafe_first_action_not_replaced (test_execution_envelope.ExecutionEnvelopeTests.test_unsafe_first_action_not_replaced) ... ok\r\ntest_verified_cost_ranges_cover_executed_samples (test_execution_envelope.ExecutionEnvelopeTests.test_verified_cost_ranges_cover_executed_samples) ... ok\r\n\r\n----------------------------------------------------------------------\r\nRan 14 tests in 0.730s\r\n\r\nOK\r\n"
+    }
+  ],
+  "scope": "Clean staged snapshot core tests, not an additional independent research experiment; this receipt itself is added after checking that tree."
+}

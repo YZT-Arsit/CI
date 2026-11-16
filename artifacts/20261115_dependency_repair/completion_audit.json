@@ -1,0 +1,170 @@
+{
+  "completed_at_utc": "2026-11-16T03:11:43.008930+00:00",
+  "branch": "main",
+  "overall": "ENGINEERING_REPAIR_PASSED_WITHIN_FINITE_CONTRACT; FULL_RESEARCH_PROOF_NOT_ESTABLISHED",
+  "gpu_decision": "NO_GO",
+  "real_LLM_training": false,
+  "requirements": {
+    "Meeting_consumes_delivered_constraints": "PASS_FINITE_CONTRACT",
+    "Query_company_names_source_permission": "PASS_FINITE_CONTRACT",
+    "Task_Evidence_Dependency_Test": "PASS_FINITE_CONTRACT",
+    "strict_CCE_without_raw_distribution_enumeration": "PASS_FOR_VERIFIED_EXECUTED_REFERENCE_ONLY",
+    "exact_CI_risk_equality_from_finite_unrestricted_LLM_samples": "NOT_PROVABLE_WITHOUT_ADDITIONAL_ASSUMPTIONS",
+    "value_difference_independent_of_artificial_cost_or_deadline": "NOT_ESTABLISHED_COUNTEREXAMPLE_RECORDED",
+    "learned_relation_given_structured_entity_binding": "PASS_AUXILIARY_SYNTHETIC_CLASSIFIER_ONLY",
+    "shared_text_policy_learns_relations_and_generalizes": "NOT_ESTABLISHED",
+    "independent_source_norm_and_business_cost_validation": "NOT_ESTABLISHED"
+  },
+  "tedt": {
+    "dependency": 65,
+    "computation": 8,
+    "acl": 4
+  },
+  "regression_tests_passed": 153,
+  "calibration": {
+    "UNKNOWN": 9,
+    "STATISTICAL_PREFERENCE": 7
+  },
+  "independent_execution_replay": {
+    "files": 20,
+    "transitions": 39814,
+    "all_passed": true
+  },
+  "qwen": {
+    "task_calls": 88,
+    "warmup": 1,
+    "completed_suffixes": 16,
+    "unassisted_suffixes": 6,
+    "blocked_drafts": 16,
+    "prompt_eval_count_range": [
+      296,
+      733
+    ],
+    "max_request_seconds": 8.69859520002501,
+    "source_and_model_digest_unchanged": true,
+    "raw_policy_safety_proven": false
+  },
+  "graph_diagnostic": [
+    {
+      "arm": "depth0",
+      "seed": 17,
+      "correct": 576,
+      "total": 768,
+      "all_strata_gate": false
+    },
+    {
+      "arm": "depth0",
+      "seed": 29,
+      "correct": 576,
+      "total": 768,
+      "all_strata_gate": false
+    },
+    {
+      "arm": "depth0",
+      "seed": 41,
+      "correct": 576,
+      "total": 768,
+      "all_strata_gate": false
+    },
+    {
+      "arm": "depth2",
+      "seed": 17,
+      "correct": 576,
+      "total": 768,
+      "all_strata_gate": false
+    },
+    {
+      "arm": "depth2",
+      "seed": 29,
+      "correct": 576,
+      "total": 768,
+      "all_strata_gate": false
+    },
+    {
+      "arm": "depth2",
+      "seed": 41,
+      "correct": 576,
+      "total": 768,
+      "all_strata_gate": false
+    },
+    {
+      "arm": "depth3",
+      "seed": 17,
+      "correct": 768,
+      "total": 768,
+      "all_strata_gate": true
+    },
+    {
+      "arm": "depth3",
+      "seed": 29,
+      "correct": 768,
+      "total": 768,
+      "all_strata_gate": true
+    },
+    {
+      "arm": "depth3",
+      "seed": 41,
+      "correct": 768,
+      "total": 768,
+      "all_strata_gate": true
+    },
+    {
+      "arm": "shuffled",
+      "seed": 17,
+      "correct": 384,
+      "total": 768,
+      "all_strata_gate": false
+    },
+    {
+      "arm": "shuffled",
+      "seed": 29,
+      "correct": 640,
+      "total": 768,
+      "all_strata_gate": false
+    },
+    {
+      "arm": "shuffled",
+      "seed": 41,
+      "correct": 384,
+      "total": 768,
+      "all_strata_gate": false
+    }
+  ],
+  "new_preferences": {
+    "raw": 208,
+    "unique": 198,
+    "primary": 8,
+    "primary_groups": 4,
+    "source_instances": 2,
+    "gpu_training_eligible": false
+  },
+  "preservation": {
+    "historical_checkpoints": {
+      "artifacts/20261113_stage3/finite_v2/ci_17/weights.npz": true,
+      "artifacts/20261113_stage3/finite_v2/ci_29/weights.npz": true,
+      "artifacts/20261113_stage3/finite_v2/ci_41/weights.npz": true,
+      "artifacts/20261113_stage3/finite_v2/history_17/weights.npz": true,
+      "artifacts/20261113_stage3/finite_v2/history_29/weights.npz": true,
+      "artifacts/20261113_stage3/finite_v2/history_41/weights.npz": true,
+      "artifacts/20261113_stage3/finite_v2/ordinary_17/weights.npz": true,
+      "artifacts/20261113_stage3/finite_v2/ordinary_29/weights.npz": true,
+      "artifacts/20261113_stage3/finite_v2/ordinary_41/weights.npz": true,
+      "artifacts/20261113_stage3/finite_v2/sft_only_17/weights.npz": true,
+      "artifacts/20261113_stage3/finite_v2/sft_only_29/weights.npz": true,
+      "artifacts/20261113_stage3/finite_v2/sft_only_41/weights.npz": true
+    },
+    "source_anchors_unchanged": true,
+    "legacy_engine_byte_identical": true
+  },
+  "recorded_workers": {
+    "count": 110,
+    "statuses": {
+      "completed": 94,
+      "failed": 16
+    },
+    "maximum_seconds": 3.2372176999924704,
+    "failed_explanation": "16 initial execution-audit report writes failed due relative Windows path, fixed and rerun without resampling"
+  },
+  "compressed_raw_files": 48,
+  "compressed_roundtrip_all_passed": true
+}

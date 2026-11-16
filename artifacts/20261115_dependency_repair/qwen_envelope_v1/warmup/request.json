@@ -1,0 +1,17 @@
+{
+  "scope": "one fixed warmup, no retry",
+  "ollama_payload": {
+    "model": "qwen2.5:7b-instruct-q4_K_M",
+    "system": "Choose one listed tool action for the current role using only its authorized observation. Prioritize the stated CI rules, then task completion, then communication cost. Output only the integer menu index, with no explanation.",
+    "prompt": "Return 0.",
+    "stream": true,
+    "keep_alive": "5m",
+    "options": {
+      "num_gpu": 0,
+      "num_ctx": 4096,
+      "num_predict": 8,
+      "temperature": 0.7,
+      "seed": 20261115
+    }
+  }
+}
