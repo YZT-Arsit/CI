@@ -1,0 +1,15 @@
+{
+  "certificate": {
+    "population_sha256": "fbb125aee814a0fd59b820108681010b805ee20e413d638ec95334e241aeed3b",
+    "support_size": 2,
+    "known": true,
+    "ci_equal": true,
+    "safe_success_equal": true,
+    "all_success": false,
+    "scope": "exact_declared_uniform_finite_reference_support"
+  },
+  "actual_status": "STATISTICAL_PREFERENCE",
+  "actual_level": "ci",
+  "sampling": "adversarial imbalance control, not IID empirical result",
+  "expected": "UNKNOWN because exact certificate proves equality and cost tier unsupported"
+}

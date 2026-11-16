@@ -1,0 +1,37 @@
+{
+  "A_SKIP": {
+    "reference_status": "exact_within_horizon",
+    "safe_success_cost": 4.0
+  },
+  "A_SEND_IDENTITY": {
+    "reference_status": "exact_within_horizon",
+    "safe_success_cost": 7.0
+  },
+  "A_long_term_preference": [
+    "SKIP",
+    "SEND"
+  ],
+  "actual_policy_after_A_SKIP": {
+    "safe_success_rate": 1.0,
+    "ci_violation_rate": 0.0
+  },
+  "actual_policy_after_A_SEND": {
+    "safe_success_rate": 0.0,
+    "ci_violation_rate": 1.0
+  },
+  "actual_bad_trace": [
+    "A:SEND",
+    "B:SEND"
+  ],
+  "failure_audit": [
+    "new-unauthorized-inference:R:person_band"
+  ],
+  "DPR": {
+    "repair_at_step_index": 1,
+    "actor": "B",
+    "chosen": "REQUEST_RULES",
+    "rejected": "SEND"
+  },
+  "verified_dpo_records": 2,
+  "output": "D:\\research\\longhistory\\code\\data\\verified_demo_preferences.jsonl"
+}

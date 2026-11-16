@@ -1,0 +1,68 @@
+[
+  {
+    "id": "ollama_warmup",
+    "args": [
+      "-m",
+      "experiments.ollama_probe",
+      "--case",
+      "warmup",
+      "--output",
+      "D:\\research\\longhistory\\artifacts\\20261112_cpu_pilot\\ollama\\warmup.json"
+    ]
+  },
+  {
+    "id": "ollama_no_identity",
+    "args": [
+      "-m",
+      "experiments.ollama_probe",
+      "--case",
+      "no_identity",
+      "--output",
+      "D:\\research\\longhistory\\artifacts\\20261112_cpu_pilot\\ollama\\no_identity.json"
+    ]
+  },
+  {
+    "id": "ollama_identity",
+    "args": [
+      "-m",
+      "experiments.ollama_probe",
+      "--case",
+      "identity",
+      "--output",
+      "D:\\research\\longhistory\\artifacts\\20261112_cpu_pilot\\ollama\\identity.json"
+    ]
+  },
+  {
+    "id": "ollama_unrelated",
+    "args": [
+      "-m",
+      "experiments.ollama_probe",
+      "--case",
+      "unrelated",
+      "--output",
+      "D:\\research\\longhistory\\artifacts\\20261112_cpu_pilot\\ollama\\unrelated.json"
+    ]
+  },
+  {
+    "id": "ollama_authorized",
+    "args": [
+      "-m",
+      "experiments.ollama_probe",
+      "--case",
+      "authorized",
+      "--output",
+      "D:\\research\\longhistory\\artifacts\\20261112_cpu_pilot\\ollama\\authorized.json"
+    ]
+  },
+  {
+    "id": "ollama_future",
+    "args": [
+      "-m",
+      "experiments.ollama_probe",
+      "--case",
+      "future",
+      "--output",
+      "D:\\research\\longhistory\\artifacts\\20261112_cpu_pilot\\ollama\\future.json"
+    ]
+  }
+]

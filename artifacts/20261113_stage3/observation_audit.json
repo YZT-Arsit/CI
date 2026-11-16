@@ -1,0 +1,343 @@
+{
+  "deprived_conflict_classes": 10,
+  "quarantined_deprived_directions": 32,
+  "conflicts": [
+    {
+      "prompt_sha256": "7c1eee09c24a1037a1cf82abcf985935af06e1dcfbe5957eb975c5e16070347c",
+      "states": [
+        [
+          "meeting_h0_a0_t6",
+          "934b66ecf0e89952ac23a904b64321988a9552dee0876cb665518ee0e8a643f0"
+        ],
+        [
+          "meeting_h1_a0_t6",
+          "db02a97dff63ca2f200bb31afce1cac6204a3252e7d0a26b41af77babb9f9143"
+        ]
+      ],
+      "nonuniform_directions": [
+        [
+          "PRIVATE_BOOKING",
+          "SEND_ROSTER"
+        ],
+        [
+          "SEND_ROSTER",
+          "PRIVATE_BOOKING"
+        ]
+      ],
+      "opposite_directions": [
+        [
+          "PRIVATE_BOOKING",
+          "SEND_ROSTER"
+        ],
+        [
+          "SEND_ROSTER",
+          "PRIVATE_BOOKING"
+        ]
+      ]
+    },
+    {
+      "prompt_sha256": "921650f417f73ab173e8768fec893ff5b0c7d31c500fd7091beb8ba2da1d1447",
+      "states": [
+        [
+          "meeting_h0_a0_t6",
+          "e8af9be4fbd88f9bcac5f89045bbf07fc86dd593d6a1af64a0af5baa37542c05"
+        ],
+        [
+          "meeting_h1_a0_t6",
+          "a5a04c4c1434c3b17af85a93e640681f9aeec748be981666a73b3e3e118f29a2"
+        ]
+      ],
+      "nonuniform_directions": [
+        [
+          "SEND_CASE_LINK",
+          "REQUEST_SANITIZED"
+        ]
+      ],
+      "opposite_directions": []
+    },
+    {
+      "prompt_sha256": "29a813b77999e81a03bc36ee4917a9c7bb5d61d4d8e1e26778ab0e2eed10635d",
+      "states": [
+        [
+          "meeting_h0_a0_t9",
+          "34ca93b8d18cadf6273ad0cdced477bb01dd1e75ff212af0db590bf912c0dfeb"
+        ],
+        [
+          "meeting_h1_a0_t9",
+          "dfb260d1fb29f47b9091586afd42431893fd3041ef4c5c8e1e766b8c60df4581"
+        ]
+      ],
+      "nonuniform_directions": [
+        [
+          "PRIVATE_BOOKING",
+          "SEND_ROSTER"
+        ],
+        [
+          "SEND_ROSTER",
+          "PRIVATE_BOOKING"
+        ]
+      ],
+      "opposite_directions": [
+        [
+          "PRIVATE_BOOKING",
+          "SEND_ROSTER"
+        ],
+        [
+          "SEND_ROSTER",
+          "PRIVATE_BOOKING"
+        ]
+      ]
+    },
+    {
+      "prompt_sha256": "9eae2014a7b27f7db97fafe45909cf377536571f4bb6a69c817134229bb390b6",
+      "states": [
+        [
+          "meeting_h0_a0_t9",
+          "47b90ce6de8104a59e77f2d6b9029a043d1ea3f441af64153f229aa0a9285f27"
+        ],
+        [
+          "meeting_h1_a0_t9",
+          "7199645a9afbe393dd74d2800c822f179cb14a83e420b534ec018b9e28426d06"
+        ]
+      ],
+      "nonuniform_directions": [
+        [
+          "REQUEST_SANITIZED",
+          "SEND_CASE_LINK"
+        ],
+        [
+          "SEND_CASE_LINK",
+          "REQUEST_SANITIZED"
+        ]
+      ],
+      "opposite_directions": [
+        [
+          "REQUEST_SANITIZED",
+          "SEND_CASE_LINK"
+        ],
+        [
+          "SEND_CASE_LINK",
+          "REQUEST_SANITIZED"
+        ]
+      ]
+    },
+    {
+      "prompt_sha256": "366fe40c33cb18ea353742d3eeb85f398f5213948663f0ee928baea96829a637",
+      "states": [
+        [
+          "query_h0_a0_t7",
+          "49d085e6b836c442eb1d411492166fb3c19d30702d4a1a77c591f75f433aab45"
+        ],
+        [
+          "query_h1_a0_t7",
+          "c7f07b82bef7f02022d5722f9d198deaef957099b9f4e3b8960e83cca7dffb6b"
+        ]
+      ],
+      "nonuniform_directions": [
+        [
+          "OPEN_INDEX",
+          "OPEN_VAULT"
+        ],
+        [
+          "OPEN_VAULT",
+          "OPEN_INDEX"
+        ]
+      ],
+      "opposite_directions": [
+        [
+          "OPEN_INDEX",
+          "OPEN_VAULT"
+        ],
+        [
+          "OPEN_VAULT",
+          "OPEN_INDEX"
+        ]
+      ]
+    },
+    {
+      "prompt_sha256": "ce25cd99b3acdf319da515c3639433c65ee7da1783a8725f09e53f1a0d559de8",
+      "states": [
+        [
+          "query_h0_a0_t7",
+          "2bd7873a85906ccb57f8b247edb58d8f7699a7209837806f14fc0ad6a576f9ae"
+        ],
+        [
+          "query_h0_a0_t7",
+          "87ebaa684a4f6b1027f01e1bdfd2f4ef180a068f8f2bf66c8dfa26bc4413501c"
+        ],
+        [
+          "query_h1_a0_t7",
+          "c598878e9db06f0409dc93b4aaa5bd5391df25022eca284e5760cd15c53fc51a"
+        ],
+        [
+          "query_h1_a0_t7",
+          "b2df4e2d12119365e7382ce8392763582763608072c422c1704e7fe7b027b77a"
+        ]
+      ],
+      "nonuniform_directions": [
+        [
+          "FETCH_CITY_BUNDLE",
+          "REQUEST_CITY_PROJECTION"
+        ],
+        [
+          "FETCH_COUNTS",
+          "REQUEST_CITY_PROJECTION"
+        ]
+      ],
+      "opposite_directions": []
+    },
+    {
+      "prompt_sha256": "446000b60c53250508bfd8a226102f2bf805600ed83ae1ef0251972fc360f283",
+      "states": [
+        [
+          "query_h0_a0_t7",
+          "ca6ad50cde3e8fab186eabfd69caa386863e6521febf37b259e1e0bcfcea4315"
+        ],
+        [
+          "query_h0_a0_t7",
+          "a91c9083f5e9024b4b974e6c597269459196a04519ddd5d4896cfd4f1df1a045"
+        ],
+        [
+          "query_h1_a0_t7",
+          "f28da57077589303be7166b6087476b046b185d1ca8be261b8683dd08fb168ff"
+        ],
+        [
+          "query_h1_a0_t7",
+          "1ecaa1bd15c094ca2f569201ce871647a0b90117f2614b11eeae5afcb44cf889"
+        ]
+      ],
+      "nonuniform_directions": [
+        [
+          "FETCH_CITY_BUNDLE",
+          "REQUEST_CITY_PROJECTION"
+        ]
+      ],
+      "opposite_directions": []
+    },
+    {
+      "prompt_sha256": "46f459dc5af72406993a1ed2542c0ff6bd439ef7906f39f7044cca2f81986ff7",
+      "states": [
+        [
+          "query_h0_a0_t10",
+          "d2c230818bcd10ec7844c8cc88e537e1bc54a72defbfe3217f3ce055f0785c43"
+        ],
+        [
+          "query_h1_a0_t10",
+          "26b5bf149fc53832a1d7a9bcdc9e69409f19b0619f869d409749cf66eaca2f4a"
+        ]
+      ],
+      "nonuniform_directions": [
+        [
+          "OPEN_INDEX",
+          "OPEN_VAULT"
+        ],
+        [
+          "OPEN_VAULT",
+          "OPEN_INDEX"
+        ]
+      ],
+      "opposite_directions": [
+        [
+          "OPEN_INDEX",
+          "OPEN_VAULT"
+        ],
+        [
+          "OPEN_VAULT",
+          "OPEN_INDEX"
+        ]
+      ]
+    },
+    {
+      "prompt_sha256": "beda7f2aa277638066d850a79afe56e65d87862af6aa4c3188043e6cd3c268e1",
+      "states": [
+        [
+          "query_h0_a0_t10",
+          "f608187ababca78f458c03d132f3976bf96b7d8ce113c9b15df48381c94a9adc"
+        ],
+        [
+          "query_h0_a0_t10",
+          "3c8397280407f0259563c9e5ab672267ac24fc29e3f0da698044978d613f68d2"
+        ],
+        [
+          "query_h1_a0_t10",
+          "d6793dcf5d0478c265d0b4be9ce3d87349660f18df365fe421798500a5d16e15"
+        ],
+        [
+          "query_h1_a0_t10",
+          "a45302c74643cda10fd16c3f777173ac237440f26343adaafbdd1949034b3ca6"
+        ]
+      ],
+      "nonuniform_directions": [
+        [
+          "FETCH_CITY_BUNDLE",
+          "REQUEST_CITY_PROJECTION"
+        ],
+        [
+          "FETCH_COUNTS",
+          "FETCH_CITY_BUNDLE"
+        ],
+        [
+          "FETCH_COUNTS",
+          "REQUEST_CITY_PROJECTION"
+        ],
+        [
+          "REQUEST_CITY_PROJECTION",
+          "FETCH_CITY_BUNDLE"
+        ]
+      ],
+      "opposite_directions": [
+        [
+          "FETCH_CITY_BUNDLE",
+          "REQUEST_CITY_PROJECTION"
+        ],
+        [
+          "REQUEST_CITY_PROJECTION",
+          "FETCH_CITY_BUNDLE"
+        ]
+      ]
+    },
+    {
+      "prompt_sha256": "3801087ed6154171bc55addb9fa80a967b02c8e9f27e44a9e23bd36566178a1f",
+      "states": [
+        [
+          "query_h0_a0_t10",
+          "2685c7c09792a34ffb0b4cea3f64f1a8c1b8e3bbcc8d94d4a53bfe90a52b0352"
+        ],
+        [
+          "query_h0_a0_t10",
+          "5921a3370d853a31d19bb8ff89595a43491a9289b08825167286376bf088b337"
+        ],
+        [
+          "query_h1_a0_t10",
+          "cf86e99db246795a4361ceca72d15702c249b38cbbc4f11865a73ab1f6a2f996"
+        ],
+        [
+          "query_h1_a0_t10",
+          "8a69a017446f34ca816b7d8faa5727197d54e09f7a73339013bd2aff4da9035a"
+        ]
+      ],
+      "nonuniform_directions": [
+        [
+          "FETCH_CITY_BUNDLE",
+          "REQUEST_CITY_PROJECTION"
+        ],
+        [
+          "REQUEST_CITY_PROJECTION",
+          "FETCH_CITY_BUNDLE"
+        ]
+      ],
+      "opposite_directions": [
+        [
+          "FETCH_CITY_BUNDLE",
+          "REQUEST_CITY_PROJECTION"
+        ],
+        [
+          "REQUEST_CITY_PROJECTION",
+          "FETCH_CITY_BUNDLE"
+        ]
+      ]
+    }
+  ],
+  "history_groups_equal_character_length": 4,
+  "default_observation_scope": "374 declared observations; no global hidden-world guarantee"
+}

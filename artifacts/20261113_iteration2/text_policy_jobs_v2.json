@@ -1,0 +1,682 @@
+[
+  {
+    "id": "text_identity_attribute_sft_only_17",
+    "args": [
+      "-m",
+      "experiments.text_policy_probe",
+      "--features",
+      "..\\artifacts\\20261113_iteration2\\text_features_v2",
+      "--heldout",
+      "identity_attribute",
+      "--variant",
+      "sft_only",
+      "--seed",
+      "17",
+      "--output",
+      "..\\artifacts\\20261113_iteration2\\text_policy_v2\\identity_attribute_sft_only_17"
+    ]
+  },
+  {
+    "id": "text_identity_attribute_sft_only_29",
+    "args": [
+      "-m",
+      "experiments.text_policy_probe",
+      "--features",
+      "..\\artifacts\\20261113_iteration2\\text_features_v2",
+      "--heldout",
+      "identity_attribute",
+      "--variant",
+      "sft_only",
+      "--seed",
+      "29",
+      "--output",
+      "..\\artifacts\\20261113_iteration2\\text_policy_v2\\identity_attribute_sft_only_29"
+    ]
+  },
+  {
+    "id": "text_identity_attribute_ci_17",
+    "args": [
+      "-m",
+      "experiments.text_policy_probe",
+      "--features",
+      "..\\artifacts\\20261113_iteration2\\text_features_v2",
+      "--heldout",
+      "identity_attribute",
+      "--variant",
+      "ci",
+      "--seed",
+      "17",
+      "--output",
+      "..\\artifacts\\20261113_iteration2\\text_policy_v2\\identity_attribute_ci_17"
+    ]
+  },
+  {
+    "id": "text_identity_attribute_ci_29",
+    "args": [
+      "-m",
+      "experiments.text_policy_probe",
+      "--features",
+      "..\\artifacts\\20261113_iteration2\\text_features_v2",
+      "--heldout",
+      "identity_attribute",
+      "--variant",
+      "ci",
+      "--seed",
+      "29",
+      "--output",
+      "..\\artifacts\\20261113_iteration2\\text_policy_v2\\identity_attribute_ci_29"
+    ]
+  },
+  {
+    "id": "text_identity_attribute_future_17",
+    "args": [
+      "-m",
+      "experiments.text_policy_probe",
+      "--features",
+      "..\\artifacts\\20261113_iteration2\\text_features_v2",
+      "--heldout",
+      "identity_attribute",
+      "--variant",
+      "future",
+      "--seed",
+      "17",
+      "--output",
+      "..\\artifacts\\20261113_iteration2\\text_policy_v2\\identity_attribute_future_17"
+    ]
+  },
+  {
+    "id": "text_identity_attribute_future_29",
+    "args": [
+      "-m",
+      "experiments.text_policy_probe",
+      "--features",
+      "..\\artifacts\\20261113_iteration2\\text_features_v2",
+      "--heldout",
+      "identity_attribute",
+      "--variant",
+      "future",
+      "--seed",
+      "29",
+      "--output",
+      "..\\artifacts\\20261113_iteration2\\text_policy_v2\\identity_attribute_future_29"
+    ]
+  },
+  {
+    "id": "text_identity_attribute_all_17",
+    "args": [
+      "-m",
+      "experiments.text_policy_probe",
+      "--features",
+      "..\\artifacts\\20261113_iteration2\\text_features_v2",
+      "--heldout",
+      "identity_attribute",
+      "--variant",
+      "all",
+      "--seed",
+      "17",
+      "--output",
+      "..\\artifacts\\20261113_iteration2\\text_policy_v2\\identity_attribute_all_17"
+    ]
+  },
+  {
+    "id": "text_identity_attribute_all_29",
+    "args": [
+      "-m",
+      "experiments.text_policy_probe",
+      "--features",
+      "..\\artifacts\\20261113_iteration2\\text_features_v2",
+      "--heldout",
+      "identity_attribute",
+      "--variant",
+      "all",
+      "--seed",
+      "29",
+      "--output",
+      "..\\artifacts\\20261113_iteration2\\text_policy_v2\\identity_attribute_all_29"
+    ]
+  },
+  {
+    "id": "text_identity_attribute_balanced_17",
+    "args": [
+      "-m",
+      "experiments.text_policy_probe",
+      "--features",
+      "..\\artifacts\\20261113_iteration2\\text_features_v2",
+      "--heldout",
+      "identity_attribute",
+      "--variant",
+      "balanced",
+      "--seed",
+      "17",
+      "--output",
+      "..\\artifacts\\20261113_iteration2\\text_policy_v2\\identity_attribute_balanced_17"
+    ]
+  },
+  {
+    "id": "text_identity_attribute_balanced_29",
+    "args": [
+      "-m",
+      "experiments.text_policy_probe",
+      "--features",
+      "..\\artifacts\\20261113_iteration2\\text_features_v2",
+      "--heldout",
+      "identity_attribute",
+      "--variant",
+      "balanced",
+      "--seed",
+      "29",
+      "--output",
+      "..\\artifacts\\20261113_iteration2\\text_policy_v2\\identity_attribute_balanced_29"
+    ]
+  },
+  {
+    "id": "text_alias_chain_3_sft_only_17",
+    "args": [
+      "-m",
+      "experiments.text_policy_probe",
+      "--features",
+      "..\\artifacts\\20261113_iteration2\\text_features_v2",
+      "--heldout",
+      "alias_chain_3",
+      "--variant",
+      "sft_only",
+      "--seed",
+      "17",
+      "--output",
+      "..\\artifacts\\20261113_iteration2\\text_policy_v2\\alias_chain_3_sft_only_17"
+    ]
+  },
+  {
+    "id": "text_alias_chain_3_sft_only_29",
+    "args": [
+      "-m",
+      "experiments.text_policy_probe",
+      "--features",
+      "..\\artifacts\\20261113_iteration2\\text_features_v2",
+      "--heldout",
+      "alias_chain_3",
+      "--variant",
+      "sft_only",
+      "--seed",
+      "29",
+      "--output",
+      "..\\artifacts\\20261113_iteration2\\text_policy_v2\\alias_chain_3_sft_only_29"
+    ]
+  },
+  {
+    "id": "text_alias_chain_3_ci_17",
+    "args": [
+      "-m",
+      "experiments.text_policy_probe",
+      "--features",
+      "..\\artifacts\\20261113_iteration2\\text_features_v2",
+      "--heldout",
+      "alias_chain_3",
+      "--variant",
+      "ci",
+      "--seed",
+      "17",
+      "--output",
+      "..\\artifacts\\20261113_iteration2\\text_policy_v2\\alias_chain_3_ci_17"
+    ]
+  },
+  {
+    "id": "text_alias_chain_3_ci_29",
+    "args": [
+      "-m",
+      "experiments.text_policy_probe",
+      "--features",
+      "..\\artifacts\\20261113_iteration2\\text_features_v2",
+      "--heldout",
+      "alias_chain_3",
+      "--variant",
+      "ci",
+      "--seed",
+      "29",
+      "--output",
+      "..\\artifacts\\20261113_iteration2\\text_policy_v2\\alias_chain_3_ci_29"
+    ]
+  },
+  {
+    "id": "text_alias_chain_3_future_17",
+    "args": [
+      "-m",
+      "experiments.text_policy_probe",
+      "--features",
+      "..\\artifacts\\20261113_iteration2\\text_features_v2",
+      "--heldout",
+      "alias_chain_3",
+      "--variant",
+      "future",
+      "--seed",
+      "17",
+      "--output",
+      "..\\artifacts\\20261113_iteration2\\text_policy_v2\\alias_chain_3_future_17"
+    ]
+  },
+  {
+    "id": "text_alias_chain_3_future_29",
+    "args": [
+      "-m",
+      "experiments.text_policy_probe",
+      "--features",
+      "..\\artifacts\\20261113_iteration2\\text_features_v2",
+      "--heldout",
+      "alias_chain_3",
+      "--variant",
+      "future",
+      "--seed",
+      "29",
+      "--output",
+      "..\\artifacts\\20261113_iteration2\\text_policy_v2\\alias_chain_3_future_29"
+    ]
+  },
+  {
+    "id": "text_alias_chain_3_all_17",
+    "args": [
+      "-m",
+      "experiments.text_policy_probe",
+      "--features",
+      "..\\artifacts\\20261113_iteration2\\text_features_v2",
+      "--heldout",
+      "alias_chain_3",
+      "--variant",
+      "all",
+      "--seed",
+      "17",
+      "--output",
+      "..\\artifacts\\20261113_iteration2\\text_policy_v2\\alias_chain_3_all_17"
+    ]
+  },
+  {
+    "id": "text_alias_chain_3_all_29",
+    "args": [
+      "-m",
+      "experiments.text_policy_probe",
+      "--features",
+      "..\\artifacts\\20261113_iteration2\\text_features_v2",
+      "--heldout",
+      "alias_chain_3",
+      "--variant",
+      "all",
+      "--seed",
+      "29",
+      "--output",
+      "..\\artifacts\\20261113_iteration2\\text_policy_v2\\alias_chain_3_all_29"
+    ]
+  },
+  {
+    "id": "text_alias_chain_3_balanced_17",
+    "args": [
+      "-m",
+      "experiments.text_policy_probe",
+      "--features",
+      "..\\artifacts\\20261113_iteration2\\text_features_v2",
+      "--heldout",
+      "alias_chain_3",
+      "--variant",
+      "balanced",
+      "--seed",
+      "17",
+      "--output",
+      "..\\artifacts\\20261113_iteration2\\text_policy_v2\\alias_chain_3_balanced_17"
+    ]
+  },
+  {
+    "id": "text_alias_chain_3_balanced_29",
+    "args": [
+      "-m",
+      "experiments.text_policy_probe",
+      "--features",
+      "..\\artifacts\\20261113_iteration2\\text_features_v2",
+      "--heldout",
+      "alias_chain_3",
+      "--variant",
+      "balanced",
+      "--seed",
+      "29",
+      "--output",
+      "..\\artifacts\\20261113_iteration2\\text_policy_v2\\alias_chain_3_balanced_29"
+    ]
+  },
+  {
+    "id": "text_aggregate_difference_sft_only_17",
+    "args": [
+      "-m",
+      "experiments.text_policy_probe",
+      "--features",
+      "..\\artifacts\\20261113_iteration2\\text_features_v2",
+      "--heldout",
+      "aggregate_difference",
+      "--variant",
+      "sft_only",
+      "--seed",
+      "17",
+      "--output",
+      "..\\artifacts\\20261113_iteration2\\text_policy_v2\\aggregate_difference_sft_only_17"
+    ]
+  },
+  {
+    "id": "text_aggregate_difference_sft_only_29",
+    "args": [
+      "-m",
+      "experiments.text_policy_probe",
+      "--features",
+      "..\\artifacts\\20261113_iteration2\\text_features_v2",
+      "--heldout",
+      "aggregate_difference",
+      "--variant",
+      "sft_only",
+      "--seed",
+      "29",
+      "--output",
+      "..\\artifacts\\20261113_iteration2\\text_policy_v2\\aggregate_difference_sft_only_29"
+    ]
+  },
+  {
+    "id": "text_aggregate_difference_ci_17",
+    "args": [
+      "-m",
+      "experiments.text_policy_probe",
+      "--features",
+      "..\\artifacts\\20261113_iteration2\\text_features_v2",
+      "--heldout",
+      "aggregate_difference",
+      "--variant",
+      "ci",
+      "--seed",
+      "17",
+      "--output",
+      "..\\artifacts\\20261113_iteration2\\text_policy_v2\\aggregate_difference_ci_17"
+    ]
+  },
+  {
+    "id": "text_aggregate_difference_ci_29",
+    "args": [
+      "-m",
+      "experiments.text_policy_probe",
+      "--features",
+      "..\\artifacts\\20261113_iteration2\\text_features_v2",
+      "--heldout",
+      "aggregate_difference",
+      "--variant",
+      "ci",
+      "--seed",
+      "29",
+      "--output",
+      "..\\artifacts\\20261113_iteration2\\text_policy_v2\\aggregate_difference_ci_29"
+    ]
+  },
+  {
+    "id": "text_aggregate_difference_future_17",
+    "args": [
+      "-m",
+      "experiments.text_policy_probe",
+      "--features",
+      "..\\artifacts\\20261113_iteration2\\text_features_v2",
+      "--heldout",
+      "aggregate_difference",
+      "--variant",
+      "future",
+      "--seed",
+      "17",
+      "--output",
+      "..\\artifacts\\20261113_iteration2\\text_policy_v2\\aggregate_difference_future_17"
+    ]
+  },
+  {
+    "id": "text_aggregate_difference_future_29",
+    "args": [
+      "-m",
+      "experiments.text_policy_probe",
+      "--features",
+      "..\\artifacts\\20261113_iteration2\\text_features_v2",
+      "--heldout",
+      "aggregate_difference",
+      "--variant",
+      "future",
+      "--seed",
+      "29",
+      "--output",
+      "..\\artifacts\\20261113_iteration2\\text_policy_v2\\aggregate_difference_future_29"
+    ]
+  },
+  {
+    "id": "text_aggregate_difference_all_17",
+    "args": [
+      "-m",
+      "experiments.text_policy_probe",
+      "--features",
+      "..\\artifacts\\20261113_iteration2\\text_features_v2",
+      "--heldout",
+      "aggregate_difference",
+      "--variant",
+      "all",
+      "--seed",
+      "17",
+      "--output",
+      "..\\artifacts\\20261113_iteration2\\text_policy_v2\\aggregate_difference_all_17"
+    ]
+  },
+  {
+    "id": "text_aggregate_difference_all_29",
+    "args": [
+      "-m",
+      "experiments.text_policy_probe",
+      "--features",
+      "..\\artifacts\\20261113_iteration2\\text_features_v2",
+      "--heldout",
+      "aggregate_difference",
+      "--variant",
+      "all",
+      "--seed",
+      "29",
+      "--output",
+      "..\\artifacts\\20261113_iteration2\\text_policy_v2\\aggregate_difference_all_29"
+    ]
+  },
+  {
+    "id": "text_aggregate_difference_balanced_17",
+    "args": [
+      "-m",
+      "experiments.text_policy_probe",
+      "--features",
+      "..\\artifacts\\20261113_iteration2\\text_features_v2",
+      "--heldout",
+      "aggregate_difference",
+      "--variant",
+      "balanced",
+      "--seed",
+      "17",
+      "--output",
+      "..\\artifacts\\20261113_iteration2\\text_policy_v2\\aggregate_difference_balanced_17"
+    ]
+  },
+  {
+    "id": "text_aggregate_difference_balanced_29",
+    "args": [
+      "-m",
+      "experiments.text_policy_probe",
+      "--features",
+      "..\\artifacts\\20261113_iteration2\\text_features_v2",
+      "--heldout",
+      "aggregate_difference",
+      "--variant",
+      "balanced",
+      "--seed",
+      "29",
+      "--output",
+      "..\\artifacts\\20261113_iteration2\\text_policy_v2\\aggregate_difference_balanced_29"
+    ]
+  },
+  {
+    "id": "text_set_intersection_sft_only_17",
+    "args": [
+      "-m",
+      "experiments.text_policy_probe",
+      "--features",
+      "..\\artifacts\\20261113_iteration2\\text_features_v2",
+      "--heldout",
+      "set_intersection",
+      "--variant",
+      "sft_only",
+      "--seed",
+      "17",
+      "--output",
+      "..\\artifacts\\20261113_iteration2\\text_policy_v2\\set_intersection_sft_only_17"
+    ]
+  },
+  {
+    "id": "text_set_intersection_sft_only_29",
+    "args": [
+      "-m",
+      "experiments.text_policy_probe",
+      "--features",
+      "..\\artifacts\\20261113_iteration2\\text_features_v2",
+      "--heldout",
+      "set_intersection",
+      "--variant",
+      "sft_only",
+      "--seed",
+      "29",
+      "--output",
+      "..\\artifacts\\20261113_iteration2\\text_policy_v2\\set_intersection_sft_only_29"
+    ]
+  },
+  {
+    "id": "text_set_intersection_ci_17",
+    "args": [
+      "-m",
+      "experiments.text_policy_probe",
+      "--features",
+      "..\\artifacts\\20261113_iteration2\\text_features_v2",
+      "--heldout",
+      "set_intersection",
+      "--variant",
+      "ci",
+      "--seed",
+      "17",
+      "--output",
+      "..\\artifacts\\20261113_iteration2\\text_policy_v2\\set_intersection_ci_17"
+    ]
+  },
+  {
+    "id": "text_set_intersection_ci_29",
+    "args": [
+      "-m",
+      "experiments.text_policy_probe",
+      "--features",
+      "..\\artifacts\\20261113_iteration2\\text_features_v2",
+      "--heldout",
+      "set_intersection",
+      "--variant",
+      "ci",
+      "--seed",
+      "29",
+      "--output",
+      "..\\artifacts\\20261113_iteration2\\text_policy_v2\\set_intersection_ci_29"
+    ]
+  },
+  {
+    "id": "text_set_intersection_future_17",
+    "args": [
+      "-m",
+      "experiments.text_policy_probe",
+      "--features",
+      "..\\artifacts\\20261113_iteration2\\text_features_v2",
+      "--heldout",
+      "set_intersection",
+      "--variant",
+      "future",
+      "--seed",
+      "17",
+      "--output",
+      "..\\artifacts\\20261113_iteration2\\text_policy_v2\\set_intersection_future_17"
+    ]
+  },
+  {
+    "id": "text_set_intersection_future_29",
+    "args": [
+      "-m",
+      "experiments.text_policy_probe",
+      "--features",
+      "..\\artifacts\\20261113_iteration2\\text_features_v2",
+      "--heldout",
+      "set_intersection",
+      "--variant",
+      "future",
+      "--seed",
+      "29",
+      "--output",
+      "..\\artifacts\\20261113_iteration2\\text_policy_v2\\set_intersection_future_29"
+    ]
+  },
+  {
+    "id": "text_set_intersection_all_17",
+    "args": [
+      "-m",
+      "experiments.text_policy_probe",
+      "--features",
+      "..\\artifacts\\20261113_iteration2\\text_features_v2",
+      "--heldout",
+      "set_intersection",
+      "--variant",
+      "all",
+      "--seed",
+      "17",
+      "--output",
+      "..\\artifacts\\20261113_iteration2\\text_policy_v2\\set_intersection_all_17"
+    ]
+  },
+  {
+    "id": "text_set_intersection_all_29",
+    "args": [
+      "-m",
+      "experiments.text_policy_probe",
+      "--features",
+      "..\\artifacts\\20261113_iteration2\\text_features_v2",
+      "--heldout",
+      "set_intersection",
+      "--variant",
+      "all",
+      "--seed",
+      "29",
+      "--output",
+      "..\\artifacts\\20261113_iteration2\\text_policy_v2\\set_intersection_all_29"
+    ]
+  },
+  {
+    "id": "text_set_intersection_balanced_17",
+    "args": [
+      "-m",
+      "experiments.text_policy_probe",
+      "--features",
+      "..\\artifacts\\20261113_iteration2\\text_features_v2",
+      "--heldout",
+      "set_intersection",
+      "--variant",
+      "balanced",
+      "--seed",
+      "17",
+      "--output",
+      "..\\artifacts\\20261113_iteration2\\text_policy_v2\\set_intersection_balanced_17"
+    ]
+  },
+  {
+    "id": "text_set_intersection_balanced_29",
+    "args": [
+      "-m",
+      "experiments.text_policy_probe",
+      "--features",
+      "..\\artifacts\\20261113_iteration2\\text_features_v2",
+      "--heldout",
+      "set_intersection",
+      "--variant",
+      "balanced",
+      "--seed",
+      "29",
+      "--output",
+      "..\\artifacts\\20261113_iteration2\\text_policy_v2\\set_intersection_balanced_29"
+    ]
+  }
+]

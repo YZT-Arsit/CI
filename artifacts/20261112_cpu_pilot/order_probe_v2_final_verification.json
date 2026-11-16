@@ -1,0 +1,92 @@
+{
+  "seconds": 1.5306042000011075,
+  "checks": [
+    {
+      "file": "balanced_ci_future_17.json",
+      "sha256": "d8790670e888db92f04ad11f96990e88b30c9cdf15d81fad61f84d272b241579",
+      "replay_pass": true,
+      "safe_successes": 0,
+      "feasible": 11,
+      "violations": 0
+    },
+    {
+      "file": "balanced_ci_future_29.json",
+      "sha256": "c67c01f27ca7d145d4007d756bd43325ea7b55841a8b6d88c0b79f5a41591703",
+      "replay_pass": true,
+      "safe_successes": 0,
+      "feasible": 11,
+      "violations": 0
+    },
+    {
+      "file": "balanced_ci_future_43.json",
+      "sha256": "c4cde37012563e6ede73b07004dd3b1d5750e1f2409f7aef4152d4baf24c0ce0",
+      "replay_pass": true,
+      "safe_successes": 0,
+      "feasible": 11,
+      "violations": 0
+    },
+    {
+      "file": "ci_then_future_17.json",
+      "sha256": "098fd6343a91c7aba92e326a14fb9b87d91add7e498a628181079293c9a3039e",
+      "replay_pass": true,
+      "safe_successes": 0,
+      "feasible": 11,
+      "violations": 2
+    },
+    {
+      "file": "ci_then_future_29.json",
+      "sha256": "11f359bd13004e1d1ffc4cf074138c3d6008c38890bbf00288ea1f3093e78ee8",
+      "replay_pass": true,
+      "safe_successes": 0,
+      "feasible": 11,
+      "violations": 2
+    },
+    {
+      "file": "ci_then_future_43.json",
+      "sha256": "241662df1729181be0a31ea10533033a9df2c7997b29ef89d59d25365184eff6",
+      "replay_pass": true,
+      "safe_successes": 0,
+      "feasible": 11,
+      "violations": 2
+    },
+    {
+      "file": "future_then_ci_17.json",
+      "sha256": "978ab2a9118bfda1cd3a730b815b676085cc70bc57397c657cc4732dc46210d8",
+      "replay_pass": true,
+      "safe_successes": 0,
+      "feasible": 11,
+      "violations": 0
+    },
+    {
+      "file": "future_then_ci_29.json",
+      "sha256": "6e04c751aa513abfc7d64c8d2183d7cc44e845e9525dd270a54395b8623ca287",
+      "replay_pass": true,
+      "safe_successes": 0,
+      "feasible": 11,
+      "violations": 0
+    },
+    {
+      "file": "future_then_ci_43.json",
+      "sha256": "49c81c9cbfda21a4a7760edd08089198772c7bade6d16ca0888a2def72591a6f",
+      "replay_pass": true,
+      "safe_successes": 0,
+      "feasible": 11,
+      "violations": 0
+    }
+  ],
+  "all_pass": true,
+  "core_sha256": {
+    "__init__.py": "9a5bc441896f06c62aef1fbed5a9783bb5519f2af72985e601169e1376406ec4",
+    "candidates.py": "b47ca449b6cd3dde7492be17c6003fb6a53f314e3d54ee7a3bc0da64ed82bb56",
+    "continuation.py": "717065c2882b77c5d7cda8de7f35f1603718206aa1dfbb3e610697e1615b651b",
+    "contracts.py": "416e1efd3823e581289b356d12f840e98d6d7e2af3f9dfe18f418db71a61d7ce",
+    "datasets.py": "87f4f1348ffd15de4b58e460a528d1486a8df189ac782299f2afd225011606be",
+    "interfaces.py": "bc2ebab9b85ae62cece956b06b0ce853365f7934e482200ce0421cc20c016f6f",
+    "paired.py": "b279c076d8f3c6e4db452f3bf06759002bf3433b0e8a5869773d7090f44760ef",
+    "repair.py": "d395851ac5a0756d3eaa0f92139672ee779e77fc700b76f56f2a82aceaa3c9c6",
+    "rewards.py": "54023bccaf5d295e7bc106f63ca93b79897075965c487528fe6710e0841b6892",
+    "toy_env.py": "618390ca75fdf1c503e6d8c8942a25656cbdc8a939349104704cee0bef2a47d0"
+  },
+  "dataset_sha256": "ce19d5f38edc0828d9d4995dfbf7dea0035b8156b818c3f1efee161372086722",
+  "scope": "saved_weight_replay_only_no_new_fit_or_new_llm_calls"
+}

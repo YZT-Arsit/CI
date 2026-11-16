@@ -1,0 +1,32 @@
+{
+  "evidence_class": "finite_shared_text_feature_policy_NOT_LLM",
+  "primary_independent_holdout": false,
+  "folds": [
+    "identity_attribute",
+    "alias_chain_3",
+    "aggregate_difference",
+    "set_intersection"
+  ],
+  "variants": [
+    "sft_only",
+    "ci",
+    "future",
+    "all",
+    "balanced"
+  ],
+  "seeds": [
+    17,
+    29
+  ],
+  "sft_steps": 200,
+  "dpo_steps": 200,
+  "batch_size": 16,
+  "sft_lr": 0.3,
+  "dpo_lr": 0.2,
+  "beta": 1,
+  "hidden_units": 24,
+  "text_dim": 512,
+  "balanced_schedule": "cycle ci/future/repair per batch; repeated membership counts as reweighting, not independent repair gain",
+  "no_test_tuning": true,
+  "evaluation_scope": "all four family folds, shared source and workflow, no independent task-template holdout"
+}

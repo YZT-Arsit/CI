@@ -1,0 +1,133 @@
+[
+  {
+    "id": "full_regression_v1",
+    "args": [
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-v"
+    ]
+  },
+  {
+    "id": "verify_worlds_000",
+    "args": [
+      "-m",
+      "experiments.build_dataset",
+      "--verify",
+      "--output",
+      "D:\\research\\longhistory\\artifacts\\20261112_cpu_pilot\\dataset\\shards\\worlds_000.jsonl"
+    ]
+  },
+  {
+    "id": "verify_worlds_004",
+    "args": [
+      "-m",
+      "experiments.build_dataset",
+      "--verify",
+      "--output",
+      "D:\\research\\longhistory\\artifacts\\20261112_cpu_pilot\\dataset\\shards\\worlds_004.jsonl"
+    ]
+  },
+  {
+    "id": "verify_worlds_008",
+    "args": [
+      "-m",
+      "experiments.build_dataset",
+      "--verify",
+      "--output",
+      "D:\\research\\longhistory\\artifacts\\20261112_cpu_pilot\\dataset\\shards\\worlds_008.jsonl"
+    ]
+  },
+  {
+    "id": "verify_worlds_012",
+    "args": [
+      "-m",
+      "experiments.build_dataset",
+      "--verify",
+      "--output",
+      "D:\\research\\longhistory\\artifacts\\20261112_cpu_pilot\\dataset\\shards\\worlds_012.jsonl"
+    ]
+  },
+  {
+    "id": "verify_worlds_016",
+    "args": [
+      "-m",
+      "experiments.build_dataset",
+      "--verify",
+      "--output",
+      "D:\\research\\longhistory\\artifacts\\20261112_cpu_pilot\\dataset\\shards\\worlds_016.jsonl"
+    ]
+  },
+  {
+    "id": "verify_worlds_020",
+    "args": [
+      "-m",
+      "experiments.build_dataset",
+      "--verify",
+      "--output",
+      "D:\\research\\longhistory\\artifacts\\20261112_cpu_pilot\\dataset\\shards\\worlds_020.jsonl"
+    ]
+  },
+  {
+    "id": "verify_worlds_024",
+    "args": [
+      "-m",
+      "experiments.build_dataset",
+      "--verify",
+      "--output",
+      "D:\\research\\longhistory\\artifacts\\20261112_cpu_pilot\\dataset\\shards\\worlds_024.jsonl"
+    ]
+  },
+  {
+    "id": "verify_worlds_028",
+    "args": [
+      "-m",
+      "experiments.build_dataset",
+      "--verify",
+      "--output",
+      "D:\\research\\longhistory\\artifacts\\20261112_cpu_pilot\\dataset\\shards\\worlds_028.jsonl"
+    ]
+  },
+  {
+    "id": "verify_worlds_032",
+    "args": [
+      "-m",
+      "experiments.build_dataset",
+      "--verify",
+      "--output",
+      "D:\\research\\longhistory\\artifacts\\20261112_cpu_pilot\\dataset\\shards\\worlds_032.jsonl"
+    ]
+  },
+  {
+    "id": "verify_worlds_036",
+    "args": [
+      "-m",
+      "experiments.build_dataset",
+      "--verify",
+      "--output",
+      "D:\\research\\longhistory\\artifacts\\20261112_cpu_pilot\\dataset\\shards\\worlds_036.jsonl"
+    ]
+  },
+  {
+    "id": "verify_worlds_040",
+    "args": [
+      "-m",
+      "experiments.build_dataset",
+      "--verify",
+      "--output",
+      "D:\\research\\longhistory\\artifacts\\20261112_cpu_pilot\\dataset\\shards\\worlds_040.jsonl"
+    ]
+  },
+  {
+    "id": "verify_worlds_044",
+    "args": [
+      "-m",
+      "experiments.build_dataset",
+      "--verify",
+      "--output",
+      "D:\\research\\longhistory\\artifacts\\20261112_cpu_pilot\\dataset\\shards\\worlds_044.jsonl"
+    ]
+  }
+]

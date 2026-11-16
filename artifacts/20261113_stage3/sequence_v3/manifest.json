@@ -1,0 +1,45 @@
+{
+  "asset_manifest": "D:\\research\\longhistory\\artifacts\\20261112_cpu_pilot\\tokenization\\config.json",
+  "asset_manifest_sha256": "e1242b65a53ea00e4747af4af876f7c867ed53510e80ff0f8edc4f3911012d21",
+  "budgets": [
+    256,
+    512,
+    1024,
+    2048,
+    4096,
+    8192,
+    16384,
+    32768,
+    65536
+  ],
+  "chunk_size": 64,
+  "corpus_index": {
+    "base_groups": 2,
+    "family_split_enforced": false,
+    "independent_task_generalization_established": false,
+    "rows": 208,
+    "rule_families": 1,
+    "same_direction_duplicates": 0,
+    "shared_workflows_across_splits": []
+  },
+  "created_utc": "2026-11-13T09:20:46.436545+00:00",
+  "dataset_path": "D:\\research\\longhistory\\artifacts\\20261113_stage3\\training_v3\\all_preferences.jsonl",
+  "input_rows": 208,
+  "input_sha256": "bc830f02e183493db89c49d1d8ba1af132f3425fc30db05480ce7222a846fcc6",
+  "long_control_policy": "uncertified structural-only sequences, excluded from preference corpus and training collator",
+  "long_controls": 0,
+  "long_history_counts": [
+    0,
+    8,
+    32,
+    128,
+    256,
+    512
+  ],
+  "skip_legacy_long_controls": true,
+  "source_sha256": {
+    "D:\\research\\longhistory\\code\\experiments\\sequence_adapter_probe.py": "c2da21491cab50eab3febf6499e23ea45218ca7cc75bf6ddae6a1a3296f4d9db",
+    "D:\\research\\longhistory\\code\\kci\\training_data.py": "411d6c107c2f34baa1b8a93ff1ea4c1a7e42942b3e7a44bd9a5295e559dafd9f"
+  },
+  "worker_timeout_seconds": 9.2
+}

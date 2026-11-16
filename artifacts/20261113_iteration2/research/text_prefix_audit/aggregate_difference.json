@@ -1,0 +1,141 @@
+{
+  "family": "aggregate_difference",
+  "source_cases": 32,
+  "prefix_states_independently_enumerated": 64,
+  "prefixes_all_valid_at_B_turn1_cost1": true,
+  "replayed_episodes": 640,
+  "replayed_policy_actions": 1920,
+  "by_variant": {
+    "all": {
+      "episodes": 128,
+      "feasible": 112,
+      "TASK_FAILURE": 96,
+      "feasible_TASK_FAILURE": 96,
+      "skip_TASK_FAILURE": 64,
+      "infeasible": 16,
+      "VIOLATION": 32,
+      "infeasible_VIOLATION": 16,
+      "context_VIOLATION": 32,
+      "feasible_VIOLATION": 16,
+      "context_TASK_FAILURE": 32
+    },
+    "balanced": {
+      "episodes": 128,
+      "feasible": 112,
+      "TASK_FAILURE": 78,
+      "feasible_TASK_FAILURE": 78,
+      "skip_TASK_FAILURE": 52,
+      "infeasible": 16,
+      "VIOLATION": 32,
+      "infeasible_VIOLATION": 16,
+      "context_VIOLATION": 32,
+      "feasible_VIOLATION": 16,
+      "context_TASK_FAILURE": 26,
+      "SAFE_SUCCESS": 18,
+      "feasible_SAFE_SUCCESS": 18,
+      "skip_SAFE_SUCCESS": 12,
+      "context_SAFE_SUCCESS": 6
+    },
+    "ci": {
+      "episodes": 128,
+      "feasible": 112,
+      "TASK_FAILURE": 102,
+      "feasible_TASK_FAILURE": 86,
+      "skip_TASK_FAILURE": 50,
+      "infeasible": 16,
+      "infeasible_TASK_FAILURE": 16,
+      "context_TASK_FAILURE": 52,
+      "SAFE_SUCCESS": 26,
+      "feasible_SAFE_SUCCESS": 26,
+      "skip_SAFE_SUCCESS": 14,
+      "context_SAFE_SUCCESS": 12
+    },
+    "future": {
+      "episodes": 128,
+      "feasible": 112,
+      "SAFE_SUCCESS": 24,
+      "feasible_SAFE_SUCCESS": 24,
+      "skip_SAFE_SUCCESS": 16,
+      "infeasible": 16,
+      "VIOLATION": 32,
+      "infeasible_VIOLATION": 16,
+      "context_VIOLATION": 32,
+      "feasible_VIOLATION": 16,
+      "context_SAFE_SUCCESS": 8,
+      "TASK_FAILURE": 72,
+      "feasible_TASK_FAILURE": 72,
+      "skip_TASK_FAILURE": 48,
+      "context_TASK_FAILURE": 24
+    },
+    "sft_only": {
+      "episodes": 128,
+      "feasible": 112,
+      "SAFE_SUCCESS": 36,
+      "feasible_SAFE_SUCCESS": 36,
+      "skip_SAFE_SUCCESS": 24,
+      "infeasible": 16,
+      "VIOLATION": 32,
+      "infeasible_VIOLATION": 16,
+      "context_VIOLATION": 32,
+      "feasible_VIOLATION": 16,
+      "TASK_FAILURE": 60,
+      "feasible_TASK_FAILURE": 60,
+      "skip_TASK_FAILURE": 40,
+      "context_SAFE_SUCCESS": 12,
+      "context_TASK_FAILURE": 20
+    }
+  },
+  "original_initial_rollout_counts": {
+    "all": {
+      "TASK_FAILURE": 64
+    },
+    "balanced": {
+      "TASK_FAILURE": 52,
+      "SAFE_SUCCESS": 12
+    },
+    "ci": {
+      "TASK_FAILURE": 50,
+      "SAFE_SUCCESS": 14
+    },
+    "future": {
+      "SAFE_SUCCESS": 16,
+      "TASK_FAILURE": 48
+    },
+    "sft_only": {
+      "SAFE_SUCCESS": 24,
+      "TASK_FAILURE": 40
+    }
+  },
+  "original_initial_A_action_counts": {
+    "all": {
+      "SKIP": 64
+    },
+    "balanced": {
+      "SKIP": 64
+    },
+    "ci": {
+      "SKIP": 64
+    },
+    "future": {
+      "SKIP": 64
+    },
+    "sft_only": {
+      "SKIP": 64
+    }
+  },
+  "source_results_sha256": {
+    "aggregate_difference_all_17.json": "b5d52344ed5da7fb9d65f59eabc586c1024b9eb139d801d73932e632060e7920",
+    "aggregate_difference_all_29.json": "d3b585e8be085f61a0f1a0f9908415db33dd816aec0a5da47b51e84ca620dcb1",
+    "aggregate_difference_balanced_17.json": "32883082f983ff98a2bc1aff08ed97e10325919414d0823ab675aa3c9a3a3eaa",
+    "aggregate_difference_balanced_29.json": "d2cfdaebf265ce5ecbcbd018eebd5649866f70e81c56efdd2204459e7b8aaa8e",
+    "aggregate_difference_ci_17.json": "8d9a2fdc2a0ac3805b4e31a06e46cc8a0a8eb61464c5ab6f2bc42b3b07909658",
+    "aggregate_difference_ci_29.json": "4590a59379ed4d3f9bb1aa9dc29c51aa946f382d44e57f80288bf6a6d1de34e3",
+    "aggregate_difference_future_17.json": "47fc753810b6044e520044c62a31345792968ef0bcfc2903de3da1c2a7547ae9",
+    "aggregate_difference_future_29.json": "497cf8fcb9cdf6d461d562d24d6129f50b0d052bd5b0c02fa4e60fa9ce9eb88f",
+    "aggregate_difference_sft_only_17.json": "8bf8178985dafbf75affbe56ed410c110a49ba1bd1d965e0e55983c958aa2045",
+    "aggregate_difference_sft_only_29.json": "6931b9b8623b165e521609d8c463bf5da7d1b58c55cd6c805c6b6f593fefc542"
+  },
+  "scope": "exploratory intervention in existing heldout synthetic cases; no new independent test or training effect estimate",
+  "audit_sha256": "fdef580e9cc1596816b3bae61767c35d1fbbce20c29a49884020bee7d1a8ed9c",
+  "seconds": 1.906029399979161
+}

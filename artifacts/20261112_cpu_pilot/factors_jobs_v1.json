@@ -1,0 +1,79 @@
+[
+  {
+    "id": "knowledge",
+    "args": [
+      "-m",
+      "experiments.factor_sweep",
+      "--suite",
+      "knowledge",
+      "--output",
+      "D:\\research\\longhistory\\artifacts\\20261112_cpu_pilot\\factors\\knowledge.json"
+    ]
+  },
+  {
+    "id": "history_length",
+    "args": [
+      "-m",
+      "experiments.factor_sweep",
+      "--suite",
+      "history_length",
+      "--output",
+      "D:\\research\\longhistory\\artifacts\\20261112_cpu_pilot\\factors\\history_length.json"
+    ]
+  },
+  {
+    "id": "search_budget",
+    "args": [
+      "-m",
+      "experiments.factor_sweep",
+      "--suite",
+      "search_budget",
+      "--output",
+      "D:\\research\\longhistory\\artifacts\\20261112_cpu_pilot\\factors\\search_budget.json"
+    ]
+  },
+  {
+    "id": "horizons_costs",
+    "args": [
+      "-m",
+      "experiments.factor_sweep",
+      "--suite",
+      "horizons_costs",
+      "--output",
+      "D:\\research\\longhistory\\artifacts\\20261112_cpu_pilot\\factors\\horizons_costs.json"
+    ]
+  },
+  {
+    "id": "reference_policies",
+    "args": [
+      "-m",
+      "experiments.factor_sweep",
+      "--suite",
+      "reference_policies",
+      "--output",
+      "D:\\research\\longhistory\\artifacts\\20261112_cpu_pilot\\factors\\reference_policies.json"
+    ]
+  },
+  {
+    "id": "statistics",
+    "args": [
+      "-m",
+      "experiments.factor_sweep",
+      "--suite",
+      "statistics",
+      "--output",
+      "D:\\research\\longhistory\\artifacts\\20261112_cpu_pilot\\factors\\statistics.json"
+    ]
+  },
+  {
+    "id": "semantic_faults",
+    "args": [
+      "-m",
+      "experiments.factor_sweep",
+      "--suite",
+      "semantic_faults",
+      "--output",
+      "D:\\research\\longhistory\\artifacts\\20261112_cpu_pilot\\factors\\semantic_faults.json"
+    ]
+  }
+]

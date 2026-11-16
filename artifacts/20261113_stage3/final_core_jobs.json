@@ -1,0 +1,31 @@
+[
+  {
+    "id": "dynamic_data_v2",
+    "args": [
+      "-m",
+      "experiments.dynamic_signal_dataset",
+      "..\\artifacts\\20261113_stage3\\dynamic_data_v2",
+      "../artifacts/20261113_iteration2/source_anchors"
+    ]
+  },
+  {
+    "id": "dynamic_export_v2",
+    "args": [
+      "-m",
+      "experiments.dynamic_export",
+      "..\\artifacts\\20261113_stage3\\dynamic_data_v2",
+      "..\\artifacts\\20261113_stage3\\training_v2"
+    ]
+  },
+  {
+    "id": "full_regression_v3",
+    "args": [
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-v"
+    ]
+  }
+]

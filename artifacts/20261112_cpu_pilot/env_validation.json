@@ -1,0 +1,38 @@
+[
+  {
+    "command": [
+      "C:\\Python313\\python.exe",
+      "-B",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-p",
+      "test_env_data_regressions.py",
+      "-v"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 0.17034469998907298,
+    "stdout": "",
+    "stderr": "test_example_contract_and_event_failures (test_env_data_regressions.DataRegressionTests.test_example_contract_and_event_failures) ... ok\ntest_export_hashes_bind_prompt_actions_and_evidence (test_env_data_regressions.DataRegressionTests.test_export_hashes_bind_prompt_actions_and_evidence) ... ok\ntest_reference_is_bound_to_candidate_and_bounded_evidence (test_env_data_regressions.DataRegressionTests.test_reference_is_bound_to_candidate_and_bounded_evidence) ... ok\ntest_rule_family_holdout_keeps_the_whole_world_together (test_env_data_regressions.DataRegressionTests.test_rule_family_holdout_keeps_the_whole_world_together) ... ok\ntest_statistical_evidence_is_explicit_and_structurally_supported (test_env_data_regressions.DataRegressionTests.test_statistical_evidence_is_explicit_and_structurally_supported) ... ok\ntest_decision_messages_do_not_encode_hidden_correctness (test_env_data_regressions.EnvironmentRegressionTests.test_decision_messages_do_not_encode_hidden_correctness) ... ok\ntest_declared_safe_bundles_are_enumerated (test_env_data_regressions.EnvironmentRegressionTests.test_declared_safe_bundles_are_enumerated) ... ok\ntest_initial_background_and_visible_delivered_ledger_enter_knowledge (test_env_data_regressions.EnvironmentRegressionTests.test_initial_background_and_visible_delivered_ledger_enter_knowledge) ... ok\ntest_non_message_fields_and_decision_body_cannot_hide_text (test_env_data_regressions.EnvironmentRegressionTests.test_non_message_fields_and_decision_body_cannot_hide_text) ... ok\ntest_renamed_facts_preserve_join_and_notification_target (test_env_data_regressions.EnvironmentRegressionTests.test_renamed_facts_preserve_join_and_notification_target) ... ok\ntest_semantic_configuration_versions_are_distinct (test_env_data_regressions.EnvironmentRegressionTests.test_semantic_configuration_versions_are_distinct) ... ok\ntest_task_norms_and_costs_match_observable_configuration (test_env_data_regressions.EnvironmentRegressionTests.test_task_norms_and_costs_match_observable_configuration) ... ok\ntest_unknown_recipient_is_invalid_and_returns_an_independent_state (test_env_data_regressions.EnvironmentRegressionTests.test_unknown_recipient_is_invalid_and_returns_an_independent_state) ... ok\n\n----------------------------------------------------------------------\nRan 13 tests in 0.022s\n\nOK\n"
+  },
+  {
+    "command": [
+      "C:\\Python313\\python.exe",
+      "-B",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-p",
+      "test_kci.py",
+      "-v"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 0.17646690001129173,
+    "stdout": "",
+    "stderr": "test_abstain_does_not_win_when_safe_task_success_exists (test_kci.KCITest.test_abstain_does_not_win_when_safe_task_success_exists) ... ok\ntest_allow_derived_but_unrelated_fact (test_kci.KCITest.test_allow_derived_but_unrelated_fact) ... ok\ntest_bounded_search_misses_are_unknown_not_negative (test_kci.KCITest.test_bounded_search_misses_are_unknown_not_negative) ... ok\ntest_ci_preference_requires_safe_success_witness (test_kci.KCITest.test_ci_preference_requires_safe_success_witness) ... ok\ntest_current_same_message_history_changes_ci_verdict (test_kci.KCITest.test_current_same_message_history_changes_ci_verdict) ... ok\ntest_downstream_repair_targets_actual_violator (test_kci.KCITest.test_downstream_repair_targets_actual_violator) ... ok\ntest_fabricated_source_cannot_be_sent (test_kci.KCITest.test_fabricated_source_cannot_be_sent) ... ok\ntest_future_reference_costs_are_exhaustive (test_kci.KCITest.test_future_reference_costs_are_exhaustive) ... ok\ntest_historical_knowledge_updates_only_after_delivery (test_kci.KCITest.test_historical_knowledge_updates_only_after_delivery) ... ok\ntest_nonexhaustive_llm_candidates_cannot_certify_optimality (test_kci.KCITest.test_nonexhaustive_llm_candidates_cannot_certify_optimality) ... ok\ntest_pisas_static_labels_cannot_be_treated_as_dynamic (test_kci.KCITest.test_pisas_static_labels_cannot_be_treated_as_dynamic) ... ok\ntest_ref_unknown_action_will_not_export (test_kci.KCITest.test_ref_unknown_action_will_not_export) ... ok\ntest_repeat_directly_denied_fact_even_if_no_increment (test_kci.KCITest.test_repeat_directly_denied_fact_even_if_no_increment) ... ok\ntest_source_visibility_and_ledger_are_distinct (test_kci.KCITest.test_source_visibility_and_ledger_are_distinct) ... ok\ntest_undeclared_semantic_content_unknown_not_safe (test_kci.KCITest.test_undeclared_semantic_content_unknown_not_safe) ... ok\n\n----------------------------------------------------------------------\nRan 15 tests in 0.030s\n\nOK\n"
+  }
+]

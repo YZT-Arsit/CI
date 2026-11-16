@@ -1,0 +1,148 @@
+{
+  "cases": 14,
+  "all_passed": true,
+  "rows": [
+    {
+      "family": "identity_attribute",
+      "case": "different_join_key",
+      "rejected": false,
+      "declared_expected_protected": false,
+      "actual_verdict": "valid",
+      "minimum_safe_cost": 4.0,
+      "enumerated_states": 58,
+      "task_answer": "yes",
+      "inference_evidence": []
+    },
+    {
+      "family": "alias_chain_3",
+      "case": "disconnected_alias_edge",
+      "rejected": false,
+      "declared_expected_protected": false,
+      "actual_verdict": "valid",
+      "minimum_safe_cost": 4.0,
+      "enumerated_states": 58,
+      "task_answer": "yes",
+      "inference_evidence": []
+    },
+    {
+      "family": "aggregate_difference",
+      "case": "population_order_only",
+      "rejected": false,
+      "declared_expected_protected": true,
+      "actual_verdict": "violation",
+      "minimum_safe_cost": 7.0,
+      "enumerated_states": 18,
+      "task_answer": "yes",
+      "inference_evidence": [
+        "new-unauthorized-inference:R:protected:[\"Person000\",\"period_1\",\"integer_credits\",7];premises=context_0,payload_0"
+      ]
+    },
+    {
+      "family": "aggregate_difference",
+      "case": "different_period",
+      "rejected": false,
+      "declared_expected_protected": false,
+      "actual_verdict": "valid",
+      "minimum_safe_cost": 4.0,
+      "enumerated_states": 58,
+      "task_answer": "yes",
+      "inference_evidence": []
+    },
+    {
+      "family": "aggregate_difference",
+      "case": "different_unit",
+      "rejected": false,
+      "declared_expected_protected": false,
+      "actual_verdict": "valid",
+      "minimum_safe_cost": 4.0,
+      "enumerated_states": 58,
+      "task_answer": "yes",
+      "inference_evidence": []
+    },
+    {
+      "family": "aggregate_difference",
+      "case": "two_person_difference",
+      "rejected": false,
+      "declared_expected_protected": false,
+      "actual_verdict": "valid",
+      "minimum_safe_cost": 4.0,
+      "enumerated_states": 58,
+      "task_answer": "yes",
+      "inference_evidence": []
+    },
+    {
+      "family": "aggregate_difference",
+      "case": "excluded_not_in_population",
+      "rejected": false,
+      "declared_expected_protected": false,
+      "actual_verdict": "valid",
+      "minimum_safe_cost": 4.0,
+      "enumerated_states": 58,
+      "task_answer": "yes",
+      "inference_evidence": []
+    },
+    {
+      "family": "aggregate_difference",
+      "case": "noninteger_total",
+      "rejected": true,
+      "reason": "aggregate facts require integer totals and explicit non-singleton population/time/unit scopes"
+    },
+    {
+      "family": "aggregate_difference",
+      "case": "duplicate_contributor",
+      "rejected": true,
+      "reason": "aggregate facts require integer totals and explicit non-singleton population/time/unit scopes"
+    },
+    {
+      "family": "set_intersection",
+      "case": "two_member_intersection",
+      "rejected": false,
+      "declared_expected_protected": false,
+      "actual_verdict": "valid",
+      "minimum_safe_cost": 4.0,
+      "enumerated_states": 58,
+      "task_answer": "no",
+      "inference_evidence": []
+    },
+    {
+      "family": "set_intersection",
+      "case": "empty_intersection",
+      "rejected": false,
+      "declared_expected_protected": false,
+      "actual_verdict": "valid",
+      "minimum_safe_cost": 4.0,
+      "enumerated_states": 58,
+      "task_answer": "no",
+      "inference_evidence": []
+    },
+    {
+      "family": "set_intersection",
+      "case": "different_scope",
+      "rejected": false,
+      "declared_expected_protected": false,
+      "actual_verdict": "valid",
+      "minimum_safe_cost": 4.0,
+      "enumerated_states": 58,
+      "task_answer": "yes",
+      "inference_evidence": []
+    },
+    {
+      "family": "set_intersection",
+      "case": "incomplete_set_source",
+      "rejected": true,
+      "reason": "supported set sources must be complete closed-world sets with at least two candidates"
+    },
+    {
+      "family": "set_intersection",
+      "case": "singleton_source",
+      "rejected": true,
+      "reason": "supported set sources must be complete closed-world sets with at least two candidates"
+    }
+  ],
+  "scope": "supported typed-rule counterfactuals and explicit constructor-rejection controls, not natural-language validation",
+  "empty_set_note": "Only the declared singleton-inference rule is checked; no general consistency or open-world claim.",
+  "source_sha256": {
+    "artifacts\\20261113_iteration2\\research\\rule_counterfactual_audit.py": "7040d5ed4e3a34037a49e980e0f67c71e7a2dce32d9ac7399a4275f79b15b896",
+    "code\\kci\\multi_env.py": "9445b753f3cbf5d82db2871b5a830b54b7a84b8e2551b0484d8116b4306a997b"
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "family": "set_intersection",
+  "configurations": 12,
+  "rows": [
+    {
+      "answer": "yes",
+      "task_op": "membership",
+      "allow": false,
+      "horizon": 3,
+      "enumerated_states": 16,
+      "initial_best_cost": null,
+      "after_all_context_best_cost": null
+    },
+    {
+      "answer": "yes",
+      "task_op": "membership",
+      "allow": false,
+      "horizon": 6,
+      "enumerated_states": 54,
+      "initial_best_cost": 4.0,
+      "after_all_context_best_cost": null
+    },
+    {
+      "answer": "yes",
+      "task_op": "membership",
+      "allow": false,
+      "horizon": 9,
+      "enumerated_states": 78,
+      "initial_best_cost": 4.0,
+      "after_all_context_best_cost": 7.0
+    },
+    {
+      "answer": "yes",
+      "task_op": "membership",
+      "allow": true,
+      "horizon": 3,
+      "enumerated_states": 20,
+      "initial_best_cost": null,
+      "after_all_context_best_cost": null
+    },
+    {
+      "answer": "yes",
+      "task_op": "membership",
+      "allow": true,
+      "horizon": 6,
+      "enumerated_states": 82,
+      "initial_best_cost": 4.0,
+      "after_all_context_best_cost": 4.0
+    },
+    {
+      "answer": "yes",
+      "task_op": "membership",
+      "allow": true,
+      "horizon": 9,
+      "enumerated_states": 118,
+      "initial_best_cost": 4.0,
+      "after_all_context_best_cost": 4.0
+    },
+    {
+      "answer": "no",
+      "task_op": "membership",
+      "allow": false,
+      "horizon": 3,
+      "enumerated_states": 16,
+      "initial_best_cost": null,
+      "after_all_context_best_cost": null
+    },
+    {
+      "answer": "no",
+      "task_op": "membership",
+      "allow": false,
+      "horizon": 6,
+      "enumerated_states": 54,
+      "initial_best_cost": 4.0,
+      "after_all_context_best_cost": null
+    },
+    {
+      "answer": "no",
+      "task_op": "membership",
+      "allow": false,
+      "horizon": 9,
+      "enumerated_states": 78,
+      "initial_best_cost": 4.0,
+      "after_all_context_best_cost": 7.0
+    },
+    {
+      "answer": "no",
+      "task_op": "membership",
+      "allow": true,
+      "horizon": 3,
+      "enumerated_states": 20,
+      "initial_best_cost": null,
+      "after_all_context_best_cost": null
+    },
+    {
+      "answer": "no",
+      "task_op": "membership",
+      "allow": true,
+      "horizon": 6,
+      "enumerated_states": 82,
+      "initial_best_cost": 4.0,
+      "after_all_context_best_cost": 4.0
+    },
+    {
+      "answer": "no",
+      "task_op": "membership",
+      "allow": true,
+      "horizon": 9,
+      "enumerated_states": 118,
+      "initial_best_cost": 4.0,
+      "after_all_context_best_cost": 4.0
+    }
+  ],
+  "closure_subset_checks": 48,
+  "same_observation_action_classes": 598,
+  "primary_ci_label_conflicts": 0,
+  "hidden_background_counterexample": {
+    "same_B_prompt": true,
+    "clean_label": "valid",
+    "hidden_label": "violation",
+    "scope": "injected background outside primary complete-information support; must not be exported"
+  },
+  "scope": "independent finite action enumeration and primitive closure checks; transition engine reused; no natural-language or model claim",
+  "future_equivalence_audit": "not included in this first checker; pending data/label audit",
+  "source_sha256": {
+    "artifacts\\20261113_iteration2\\research\\multi_env_independent_audit.py": "247aab7517a1cc7ac306b6d707cc434eddd3293762a00529146fae8722ee3b30",
+    "code\\kci\\multi_env.py": "8e63919adb6c89be015f0fe2156470c819feb4dc8d4d4aa4eb6b27f41bd9b54d",
+    "code\\kci\\multi_candidates.py": "96fe990025f50e14457319cf56df4f9a6ec79a6c18a343e6f0a4c7449963e5b8"
+  },
+  "seconds": 0.2369108000129927
+}

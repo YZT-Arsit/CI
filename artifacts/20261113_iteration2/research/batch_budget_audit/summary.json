@@ -1,0 +1,27 @@
+{
+  "scope": "independent deterministic local wrapper audit, not model calibration",
+  "same_declared_version_accepts_different_callable": true,
+  "first_look_status": "estimated_preference",
+  "different_callable_later_look_status": "inconclusive",
+  "interrupted_reservation_survives_reopen": true,
+  "interrupted_accounting": {
+    "plan_id": "709b5495c5da5254f8bfd8d9bc8080caa59bc8a21e70c37b44bcf905ee268af9",
+    "reserved_looks": 1,
+    "completed_looks": 0,
+    "spent_delta": 0.05,
+    "maximum_delta": 0.05,
+    "scope": "one declared campaign and its one persistent local ledger"
+  },
+  "manually_truncated_copy_reserved_looks": 0,
+  "interpretation": {
+    "version": "Caller must bind truthful version to immutable code/weights; wrapper checks declared identity only.",
+    "durability": "Reserve-before-run survives normal reopening and an in-process BaseException.",
+    "storage": "The local API is append-only, not tamper-evident; copied/truncated files are outside its trusted-ledger guarantee.",
+    "hard_crash": "Not simulated; a stale lock can fail closed and needs explicit safe recovery."
+  },
+  "source_sha256": {
+    "artifacts\\20261113_iteration2\\research\\batch_budget_audit.py": "216b214ec6f70e4e05f32fb1417ee2dd3ee20bc5c0460ee9f43e6018f354d8cd",
+    "code\\kci\\batch_evidence.py": "d8e159f518ff21526877b0e6136b27b134b79caeb624bccbb8847c3134e02718",
+    "code\\kci\\paired.py": "b279c076d8f3c6e4db452f3bf06759002bf3433b0e8a5869773d7090f44760ef"
+  }
+}

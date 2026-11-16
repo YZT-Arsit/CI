@@ -1,0 +1,26 @@
+{
+  "input_case_files": 4,
+  "enumerated_nonterminal_states": 146,
+  "exact_prompt_classes": 146,
+  "multi_state_prompt_classes": 0,
+  "raw_preferences": 244,
+  "unique_prompt_preferences": 244,
+  "conflicting_observation_action_counts": {
+    "menu": 0,
+    "immediate": 0,
+    "safe_reachability": 0,
+    "minimum_total_cost": 0
+  },
+  "strict_preferences_not_uniformly_supported": 0,
+  "strict_preferences_with_actual_reverse": 0,
+  "input_sha256": {
+    "aggregate_difference_threshold_yes_0_0_9.json": "6e02a4d016b302a2d834f547e79a520b03b5d860582ad3af23c1bd4c7563fac6",
+    "alias_chain_3_threshold_yes_0_0_9.json": "1abbd99b8b5974a3a96be8de61b368d670ad923dc5f27da3d07f5a5df92c0e00",
+    "identity_attribute_threshold_yes_0_0_9.json": "66023832b7ee41a8d76ea24c65660e47ec5c2ffe98272350ca25c888997b591c",
+    "set_intersection_membership_yes_0_0_9.json": "bc01692979922fa9a784d9544c0f48ea446e37f8f03b2ae6354b2562c9a8b72e"
+  },
+  "source_sha256": "3ca6ab8e003c4c28f8edfccc9190bdc0be6277b92b27f05d9bc59d600c564a87",
+  "scope": "exact prompt equality across enumerated declared cases only; future values reuse production reference and require independent oracle audit",
+  "rule": "A hard strict preference must retain direction +1 in every enumerated state with the same full training prompt.",
+  "seconds": 0.021220199996605515
+}

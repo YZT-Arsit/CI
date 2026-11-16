@@ -1,0 +1,33 @@
+{
+  "research_objective_changed": false,
+  "bounded_cpu_pipeline": "GO_WITH_DECLARED_SYNTHETIC_SCOPE",
+  "bulk_llm_training": "NO_GO",
+  "method_effectiveness": "NOT_ESTABLISHED",
+  "independent_task_generalization": "NOT_ESTABLISHED",
+  "gates": {
+    "software_regression": true,
+    "canonical_source_consistency": true,
+    "finite_declared_observation_gate": true,
+    "fresh_synthetic_replay": true,
+    "complete_token_sequence_adapter": true,
+    "finite_batch_budget_wrapper": true,
+    "restricted_source_task_checks": true,
+    "finite_padding_load_simulation": true,
+    "independent_executable_source_workflows": false,
+    "human_dynamic_ci_validation": false,
+    "free_text_semantic_verifier": false,
+    "real_llm_parameter_training": false,
+    "real_model_long_context_execution": false,
+    "distributed_training_runtime": false
+  },
+  "next_cpu": [
+    "resolve native source exposure versus normative visibility before adaptation",
+    "build executable source-grounded tasks and independently review derived norms",
+    "collect actual delivered long multi-agent histories with identifiable supervision"
+  ],
+  "gpu_deferred": [
+    "actual tokenizer-to-trainer/model integration and numerical equivalence",
+    "small matched shared-LLM SFT/DPO pilot after data gates",
+    "actual long-context throughput, memory and behavior"
+  ]
+}

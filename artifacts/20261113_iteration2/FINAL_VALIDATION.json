@@ -1,0 +1,142 @@
+{
+  "generated_utc": "2026-11-13T06:16:50.995884+00:00",
+  "all_passed": true,
+  "previous_manifest_files_verified": 1109,
+  "paper_files_verified": 29,
+  "all_distinct_protected_files_verified": 1138,
+  "protected_mismatches": [],
+  "previous_manifest_sha256": "80dfbdac986007d87c37069b40a7fdc828727963bce5fa3c9c924399041d318b",
+  "final_core_dependency_and_environment_hashes_match": true,
+  "final_training_adapter_schema_hash_matches": true,
+  "source_anchor_and_clarification_manifests_match": true,
+  "all_40_frozen_weights_match_original_training_result": true,
+  "fresh_replay_accepted_pairs": 4286,
+  "regression_tests": 99,
+  "ollama_replay_all_passed": true,
+  "ollama_released_at_recorded_cleanup": true,
+  "restricted_source_task_instances": 2,
+  "source_task_candidates": 4000,
+  "source_task_inputs_and_outputs_hashes_match": true,
+  "batch_shape_simulations": 72,
+  "batch_shape_truncated_pairs": 0,
+  "batch_shape_plan_and_script_hashes_match": true,
+  "old_code_and_docs_modified": [],
+  "new_code_and_docs_files": 22,
+  "copied_source_files": 62,
+  "integrity_worker_receipts": [
+    {
+      "label": "protected",
+      "shard": 0,
+      "files": 89,
+      "seconds": 0.12389960000291467,
+      "hard_timeout_seconds": 9.5,
+      "status": "completed"
+    },
+    {
+      "label": "protected",
+      "shard": 1,
+      "files": 100,
+      "seconds": 0.12527769998996519,
+      "hard_timeout_seconds": 9.5,
+      "status": "completed"
+    },
+    {
+      "label": "protected",
+      "shard": 2,
+      "files": 100,
+      "seconds": 0.11129069997696206,
+      "hard_timeout_seconds": 9.5,
+      "status": "completed"
+    },
+    {
+      "label": "protected",
+      "shard": 3,
+      "files": 100,
+      "seconds": 0.10161750001134351,
+      "hard_timeout_seconds": 9.5,
+      "status": "completed"
+    },
+    {
+      "label": "protected",
+      "shard": 4,
+      "files": 100,
+      "seconds": 0.1173236999893561,
+      "hard_timeout_seconds": 9.5,
+      "status": "completed"
+    },
+    {
+      "label": "protected",
+      "shard": 5,
+      "files": 100,
+      "seconds": 0.11316460001398809,
+      "hard_timeout_seconds": 9.5,
+      "status": "completed"
+    },
+    {
+      "label": "protected",
+      "shard": 6,
+      "files": 100,
+      "seconds": 0.12211940000997856,
+      "hard_timeout_seconds": 9.5,
+      "status": "completed"
+    },
+    {
+      "label": "protected",
+      "shard": 7,
+      "files": 100,
+      "seconds": 0.11709650000557303,
+      "hard_timeout_seconds": 9.5,
+      "status": "completed"
+    },
+    {
+      "label": "protected",
+      "shard": 8,
+      "files": 100,
+      "seconds": 0.1136310999863781,
+      "hard_timeout_seconds": 9.5,
+      "status": "completed"
+    },
+    {
+      "label": "protected",
+      "shard": 9,
+      "files": 100,
+      "seconds": 0.12680600001476705,
+      "hard_timeout_seconds": 9.5,
+      "status": "completed"
+    },
+    {
+      "label": "protected",
+      "shard": 10,
+      "files": 31,
+      "seconds": 0.11918330000480637,
+      "hard_timeout_seconds": 9.5,
+      "status": "completed"
+    },
+    {
+      "label": "protected",
+      "shard": 11,
+      "files": 100,
+      "seconds": 0.1277985000051558,
+      "hard_timeout_seconds": 9.5,
+      "status": "completed"
+    },
+    {
+      "label": "protected",
+      "shard": 12,
+      "files": 17,
+      "seconds": 0.11858639999991283,
+      "hard_timeout_seconds": 9.5,
+      "status": "completed"
+    },
+    {
+      "label": "protected",
+      "shard": 13,
+      "files": 1,
+      "seconds": 0.09722550000878982,
+      "hard_timeout_seconds": 9.5,
+      "status": "completed"
+    }
+  ],
+  "scope": "file integrity and saved evidence consistency, not independent scientific validation",
+  "bulk_llm_training": "NO_GO"
+}

@@ -1,0 +1,146 @@
+{
+  "family": "identity_attribute",
+  "source_cases": 32,
+  "prefix_states_independently_enumerated": 64,
+  "prefixes_all_valid_at_B_turn1_cost1": true,
+  "replayed_episodes": 640,
+  "replayed_policy_actions": 1920,
+  "by_variant": {
+    "all": {
+      "episodes": 128,
+      "feasible": 112,
+      "TASK_FAILURE": 72,
+      "feasible_TASK_FAILURE": 72,
+      "skip_TASK_FAILURE": 48,
+      "infeasible": 16,
+      "VIOLATION": 32,
+      "infeasible_VIOLATION": 16,
+      "context_VIOLATION": 32,
+      "feasible_VIOLATION": 16,
+      "context_TASK_FAILURE": 24,
+      "SAFE_SUCCESS": 24,
+      "feasible_SAFE_SUCCESS": 24,
+      "skip_SAFE_SUCCESS": 16,
+      "context_SAFE_SUCCESS": 8
+    },
+    "balanced": {
+      "episodes": 128,
+      "feasible": 112,
+      "TASK_FAILURE": 48,
+      "feasible_TASK_FAILURE": 48,
+      "skip_TASK_FAILURE": 32,
+      "infeasible": 16,
+      "VIOLATION": 32,
+      "infeasible_VIOLATION": 16,
+      "context_VIOLATION": 32,
+      "feasible_VIOLATION": 16,
+      "context_TASK_FAILURE": 16,
+      "SAFE_SUCCESS": 48,
+      "feasible_SAFE_SUCCESS": 48,
+      "skip_SAFE_SUCCESS": 32,
+      "context_SAFE_SUCCESS": 16
+    },
+    "ci": {
+      "episodes": 128,
+      "feasible": 112,
+      "TASK_FAILURE": 112,
+      "feasible_TASK_FAILURE": 96,
+      "skip_TASK_FAILURE": 56,
+      "infeasible": 16,
+      "infeasible_TASK_FAILURE": 16,
+      "context_TASK_FAILURE": 56,
+      "SAFE_SUCCESS": 16,
+      "feasible_SAFE_SUCCESS": 16,
+      "skip_SAFE_SUCCESS": 8,
+      "context_SAFE_SUCCESS": 8
+    },
+    "future": {
+      "episodes": 128,
+      "feasible": 112,
+      "TASK_FAILURE": 72,
+      "feasible_TASK_FAILURE": 72,
+      "skip_TASK_FAILURE": 48,
+      "infeasible": 16,
+      "VIOLATION": 32,
+      "infeasible_VIOLATION": 16,
+      "context_VIOLATION": 32,
+      "feasible_VIOLATION": 16,
+      "context_TASK_FAILURE": 24,
+      "SAFE_SUCCESS": 24,
+      "feasible_SAFE_SUCCESS": 24,
+      "skip_SAFE_SUCCESS": 16,
+      "context_SAFE_SUCCESS": 8
+    },
+    "sft_only": {
+      "episodes": 128,
+      "feasible": 112,
+      "TASK_FAILURE": 72,
+      "feasible_TASK_FAILURE": 72,
+      "skip_TASK_FAILURE": 48,
+      "infeasible": 16,
+      "VIOLATION": 32,
+      "infeasible_VIOLATION": 16,
+      "context_VIOLATION": 32,
+      "feasible_VIOLATION": 16,
+      "context_TASK_FAILURE": 24,
+      "SAFE_SUCCESS": 24,
+      "feasible_SAFE_SUCCESS": 24,
+      "skip_SAFE_SUCCESS": 16,
+      "context_SAFE_SUCCESS": 8
+    }
+  },
+  "original_initial_rollout_counts": {
+    "all": {
+      "TASK_FAILURE": 48,
+      "SAFE_SUCCESS": 16
+    },
+    "balanced": {
+      "TASK_FAILURE": 32,
+      "SAFE_SUCCESS": 32
+    },
+    "ci": {
+      "TASK_FAILURE": 56,
+      "SAFE_SUCCESS": 8
+    },
+    "future": {
+      "TASK_FAILURE": 48,
+      "SAFE_SUCCESS": 16
+    },
+    "sft_only": {
+      "TASK_FAILURE": 48,
+      "SAFE_SUCCESS": 16
+    }
+  },
+  "original_initial_A_action_counts": {
+    "all": {
+      "SKIP": 64
+    },
+    "balanced": {
+      "SKIP": 64
+    },
+    "ci": {
+      "SKIP": 64
+    },
+    "future": {
+      "SKIP": 64
+    },
+    "sft_only": {
+      "SKIP": 64
+    }
+  },
+  "source_results_sha256": {
+    "identity_attribute_all_17.json": "0410d49fc30f8c0dbcde4634846197a25c385fb05a4c6b246e879ef4e6b6767f",
+    "identity_attribute_all_29.json": "8bcb94ebd760544c3ac147fb0815e73ddba537c0e92e744e01943012f8496321",
+    "identity_attribute_balanced_17.json": "624b214748bce5364e313045a522e135f6001ecd3a56b5c2a08330b3e4fcbdc9",
+    "identity_attribute_balanced_29.json": "69e5812977647ce51ef0559912f07c4dfb0a6583d94a6dadacb674a008b6cc7a",
+    "identity_attribute_ci_17.json": "919e9aad2ac1ec3d9f9e01985aaf8920e646813c56998f920518e75093cd5554",
+    "identity_attribute_ci_29.json": "0857797b6b54067a20e05c3372ba02bd02403a0725c78bdfc896bfcad0eebead",
+    "identity_attribute_future_17.json": "9ce0272e823dff7b0072fda172358b5b7c544cd290ef7e5ac1598f740d8729d7",
+    "identity_attribute_future_29.json": "4645e49d7c050a4b498e57bc4ed85a71ea826ca3a98491b59c2edd402a98bbde",
+    "identity_attribute_sft_only_17.json": "f6e7e74071c998ddc0fc77cb34e8ffedf21346e5e8f2a501ba5a9ad936e19177",
+    "identity_attribute_sft_only_29.json": "efc76eb3249e9c1000a56dbfdbf60be827a10844d5a53033814e7b6e40d7e23d"
+  },
+  "scope": "exploratory intervention in existing heldout synthetic cases; no new independent test or training effect estimate",
+  "audit_sha256": "fdef580e9cc1596816b3bae61767c35d1fbbce20c29a49884020bee7d1a8ed9c",
+  "seconds": 1.7367640000011306
+}

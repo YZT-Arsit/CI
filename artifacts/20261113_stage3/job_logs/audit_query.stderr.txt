@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "D:\research\longhistory\artifacts\20261113_stage3\audit_release.py", line 131, in <module>
+    if mode in ('meeting','query'):task_audit(mode)
+                                   ~~~~~~~~~~^^^^^^
+  File "D:\research\longhistory\artifacts\20261113_stage3\audit_release.py", line 59, in task_audit
+    n,audit=env.transition(s,item['action']);assert audit==item['audit']
+                                                    ^^^^^^^^^^^^^^^^^^^^
+AssertionError

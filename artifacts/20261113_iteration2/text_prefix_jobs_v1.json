@@ -1,0 +1,522 @@
+[
+  {
+    "id": "prefix_aggregate_difference_all_17",
+    "args": [
+      "-m",
+      "experiments.text_prefix_probe",
+      "--model",
+      "..\\artifacts\\20261113_iteration2\\text_policy_v2\\aggregate_difference_all_17",
+      "--raw",
+      "..\\artifacts\\20261113_iteration2\\dataset_raw_v2",
+      "--output",
+      "..\\artifacts\\20261113_iteration2\\text_prefix_stress\\aggregate_difference_all_17.json"
+    ]
+  },
+  {
+    "id": "prefix_aggregate_difference_all_29",
+    "args": [
+      "-m",
+      "experiments.text_prefix_probe",
+      "--model",
+      "..\\artifacts\\20261113_iteration2\\text_policy_v2\\aggregate_difference_all_29",
+      "--raw",
+      "..\\artifacts\\20261113_iteration2\\dataset_raw_v2",
+      "--output",
+      "..\\artifacts\\20261113_iteration2\\text_prefix_stress\\aggregate_difference_all_29.json"
+    ]
+  },
+  {
+    "id": "prefix_aggregate_difference_balanced_17",
+    "args": [
+      "-m",
+      "experiments.text_prefix_probe",
+      "--model",
+      "..\\artifacts\\20261113_iteration2\\text_policy_v2\\aggregate_difference_balanced_17",
+      "--raw",
+      "..\\artifacts\\20261113_iteration2\\dataset_raw_v2",
+      "--output",
+      "..\\artifacts\\20261113_iteration2\\text_prefix_stress\\aggregate_difference_balanced_17.json"
+    ]
+  },
+  {
+    "id": "prefix_aggregate_difference_balanced_29",
+    "args": [
+      "-m",
+      "experiments.text_prefix_probe",
+      "--model",
+      "..\\artifacts\\20261113_iteration2\\text_policy_v2\\aggregate_difference_balanced_29",
+      "--raw",
+      "..\\artifacts\\20261113_iteration2\\dataset_raw_v2",
+      "--output",
+      "..\\artifacts\\20261113_iteration2\\text_prefix_stress\\aggregate_difference_balanced_29.json"
+    ]
+  },
+  {
+    "id": "prefix_aggregate_difference_ci_17",
+    "args": [
+      "-m",
+      "experiments.text_prefix_probe",
+      "--model",
+      "..\\artifacts\\20261113_iteration2\\text_policy_v2\\aggregate_difference_ci_17",
+      "--raw",
+      "..\\artifacts\\20261113_iteration2\\dataset_raw_v2",
+      "--output",
+      "..\\artifacts\\20261113_iteration2\\text_prefix_stress\\aggregate_difference_ci_17.json"
+    ]
+  },
+  {
+    "id": "prefix_aggregate_difference_ci_29",
+    "args": [
+      "-m",
+      "experiments.text_prefix_probe",
+      "--model",
+      "..\\artifacts\\20261113_iteration2\\text_policy_v2\\aggregate_difference_ci_29",
+      "--raw",
+      "..\\artifacts\\20261113_iteration2\\dataset_raw_v2",
+      "--output",
+      "..\\artifacts\\20261113_iteration2\\text_prefix_stress\\aggregate_difference_ci_29.json"
+    ]
+  },
+  {
+    "id": "prefix_aggregate_difference_future_17",
+    "args": [
+      "-m",
+      "experiments.text_prefix_probe",
+      "--model",
+      "..\\artifacts\\20261113_iteration2\\text_policy_v2\\aggregate_difference_future_17",
+      "--raw",
+      "..\\artifacts\\20261113_iteration2\\dataset_raw_v2",
+      "--output",
+      "..\\artifacts\\20261113_iteration2\\text_prefix_stress\\aggregate_difference_future_17.json"
+    ]
+  },
+  {
+    "id": "prefix_aggregate_difference_future_29",
+    "args": [
+      "-m",
+      "experiments.text_prefix_probe",
+      "--model",
+      "..\\artifacts\\20261113_iteration2\\text_policy_v2\\aggregate_difference_future_29",
+      "--raw",
+      "..\\artifacts\\20261113_iteration2\\dataset_raw_v2",
+      "--output",
+      "..\\artifacts\\20261113_iteration2\\text_prefix_stress\\aggregate_difference_future_29.json"
+    ]
+  },
+  {
+    "id": "prefix_aggregate_difference_sft_only_17",
+    "args": [
+      "-m",
+      "experiments.text_prefix_probe",
+      "--model",
+      "..\\artifacts\\20261113_iteration2\\text_policy_v2\\aggregate_difference_sft_only_17",
+      "--raw",
+      "..\\artifacts\\20261113_iteration2\\dataset_raw_v2",
+      "--output",
+      "..\\artifacts\\20261113_iteration2\\text_prefix_stress\\aggregate_difference_sft_only_17.json"
+    ]
+  },
+  {
+    "id": "prefix_aggregate_difference_sft_only_29",
+    "args": [
+      "-m",
+      "experiments.text_prefix_probe",
+      "--model",
+      "..\\artifacts\\20261113_iteration2\\text_policy_v2\\aggregate_difference_sft_only_29",
+      "--raw",
+      "..\\artifacts\\20261113_iteration2\\dataset_raw_v2",
+      "--output",
+      "..\\artifacts\\20261113_iteration2\\text_prefix_stress\\aggregate_difference_sft_only_29.json"
+    ]
+  },
+  {
+    "id": "prefix_alias_chain_3_all_17",
+    "args": [
+      "-m",
+      "experiments.text_prefix_probe",
+      "--model",
+      "..\\artifacts\\20261113_iteration2\\text_policy_v2\\alias_chain_3_all_17",
+      "--raw",
+      "..\\artifacts\\20261113_iteration2\\dataset_raw_v2",
+      "--output",
+      "..\\artifacts\\20261113_iteration2\\text_prefix_stress\\alias_chain_3_all_17.json"
+    ]
+  },
+  {
+    "id": "prefix_alias_chain_3_all_29",
+    "args": [
+      "-m",
+      "experiments.text_prefix_probe",
+      "--model",
+      "..\\artifacts\\20261113_iteration2\\text_policy_v2\\alias_chain_3_all_29",
+      "--raw",
+      "..\\artifacts\\20261113_iteration2\\dataset_raw_v2",
+      "--output",
+      "..\\artifacts\\20261113_iteration2\\text_prefix_stress\\alias_chain_3_all_29.json"
+    ]
+  },
+  {
+    "id": "prefix_alias_chain_3_balanced_17",
+    "args": [
+      "-m",
+      "experiments.text_prefix_probe",
+      "--model",
+      "..\\artifacts\\20261113_iteration2\\text_policy_v2\\alias_chain_3_balanced_17",
+      "--raw",
+      "..\\artifacts\\20261113_iteration2\\dataset_raw_v2",
+      "--output",
+      "..\\artifacts\\20261113_iteration2\\text_prefix_stress\\alias_chain_3_balanced_17.json"
+    ]
+  },
+  {
+    "id": "prefix_alias_chain_3_balanced_29",
+    "args": [
+      "-m",
+      "experiments.text_prefix_probe",
+      "--model",
+      "..\\artifacts\\20261113_iteration2\\text_policy_v2\\alias_chain_3_balanced_29",
+      "--raw",
+      "..\\artifacts\\20261113_iteration2\\dataset_raw_v2",
+      "--output",
+      "..\\artifacts\\20261113_iteration2\\text_prefix_stress\\alias_chain_3_balanced_29.json"
+    ]
+  },
+  {
+    "id": "prefix_alias_chain_3_ci_17",
+    "args": [
+      "-m",
+      "experiments.text_prefix_probe",
+      "--model",
+      "..\\artifacts\\20261113_iteration2\\text_policy_v2\\alias_chain_3_ci_17",
+      "--raw",
+      "..\\artifacts\\20261113_iteration2\\dataset_raw_v2",
+      "--output",
+      "..\\artifacts\\20261113_iteration2\\text_prefix_stress\\alias_chain_3_ci_17.json"
+    ]
+  },
+  {
+    "id": "prefix_alias_chain_3_ci_29",
+    "args": [
+      "-m",
+      "experiments.text_prefix_probe",
+      "--model",
+      "..\\artifacts\\20261113_iteration2\\text_policy_v2\\alias_chain_3_ci_29",
+      "--raw",
+      "..\\artifacts\\20261113_iteration2\\dataset_raw_v2",
+      "--output",
+      "..\\artifacts\\20261113_iteration2\\text_prefix_stress\\alias_chain_3_ci_29.json"
+    ]
+  },
+  {
+    "id": "prefix_alias_chain_3_future_17",
+    "args": [
+      "-m",
+      "experiments.text_prefix_probe",
+      "--model",
+      "..\\artifacts\\20261113_iteration2\\text_policy_v2\\alias_chain_3_future_17",
+      "--raw",
+      "..\\artifacts\\20261113_iteration2\\dataset_raw_v2",
+      "--output",
+      "..\\artifacts\\20261113_iteration2\\text_prefix_stress\\alias_chain_3_future_17.json"
+    ]
+  },
+  {
+    "id": "prefix_alias_chain_3_future_29",
+    "args": [
+      "-m",
+      "experiments.text_prefix_probe",
+      "--model",
+      "..\\artifacts\\20261113_iteration2\\text_policy_v2\\alias_chain_3_future_29",
+      "--raw",
+      "..\\artifacts\\20261113_iteration2\\dataset_raw_v2",
+      "--output",
+      "..\\artifacts\\20261113_iteration2\\text_prefix_stress\\alias_chain_3_future_29.json"
+    ]
+  },
+  {
+    "id": "prefix_alias_chain_3_sft_only_17",
+    "args": [
+      "-m",
+      "experiments.text_prefix_probe",
+      "--model",
+      "..\\artifacts\\20261113_iteration2\\text_policy_v2\\alias_chain_3_sft_only_17",
+      "--raw",
+      "..\\artifacts\\20261113_iteration2\\dataset_raw_v2",
+      "--output",
+      "..\\artifacts\\20261113_iteration2\\text_prefix_stress\\alias_chain_3_sft_only_17.json"
+    ]
+  },
+  {
+    "id": "prefix_alias_chain_3_sft_only_29",
+    "args": [
+      "-m",
+      "experiments.text_prefix_probe",
+      "--model",
+      "..\\artifacts\\20261113_iteration2\\text_policy_v2\\alias_chain_3_sft_only_29",
+      "--raw",
+      "..\\artifacts\\20261113_iteration2\\dataset_raw_v2",
+      "--output",
+      "..\\artifacts\\20261113_iteration2\\text_prefix_stress\\alias_chain_3_sft_only_29.json"
+    ]
+  },
+  {
+    "id": "prefix_identity_attribute_all_17",
+    "args": [
+      "-m",
+      "experiments.text_prefix_probe",
+      "--model",
+      "..\\artifacts\\20261113_iteration2\\text_policy_v2\\identity_attribute_all_17",
+      "--raw",
+      "..\\artifacts\\20261113_iteration2\\dataset_raw_v2",
+      "--output",
+      "..\\artifacts\\20261113_iteration2\\text_prefix_stress\\identity_attribute_all_17.json"
+    ]
+  },
+  {
+    "id": "prefix_identity_attribute_all_29",
+    "args": [
+      "-m",
+      "experiments.text_prefix_probe",
+      "--model",
+      "..\\artifacts\\20261113_iteration2\\text_policy_v2\\identity_attribute_all_29",
+      "--raw",
+      "..\\artifacts\\20261113_iteration2\\dataset_raw_v2",
+      "--output",
+      "..\\artifacts\\20261113_iteration2\\text_prefix_stress\\identity_attribute_all_29.json"
+    ]
+  },
+  {
+    "id": "prefix_identity_attribute_balanced_17",
+    "args": [
+      "-m",
+      "experiments.text_prefix_probe",
+      "--model",
+      "..\\artifacts\\20261113_iteration2\\text_policy_v2\\identity_attribute_balanced_17",
+      "--raw",
+      "..\\artifacts\\20261113_iteration2\\dataset_raw_v2",
+      "--output",
+      "..\\artifacts\\20261113_iteration2\\text_prefix_stress\\identity_attribute_balanced_17.json"
+    ]
+  },
+  {
+    "id": "prefix_identity_attribute_balanced_29",
+    "args": [
+      "-m",
+      "experiments.text_prefix_probe",
+      "--model",
+      "..\\artifacts\\20261113_iteration2\\text_policy_v2\\identity_attribute_balanced_29",
+      "--raw",
+      "..\\artifacts\\20261113_iteration2\\dataset_raw_v2",
+      "--output",
+      "..\\artifacts\\20261113_iteration2\\text_prefix_stress\\identity_attribute_balanced_29.json"
+    ]
+  },
+  {
+    "id": "prefix_identity_attribute_ci_17",
+    "args": [
+      "-m",
+      "experiments.text_prefix_probe",
+      "--model",
+      "..\\artifacts\\20261113_iteration2\\text_policy_v2\\identity_attribute_ci_17",
+      "--raw",
+      "..\\artifacts\\20261113_iteration2\\dataset_raw_v2",
+      "--output",
+      "..\\artifacts\\20261113_iteration2\\text_prefix_stress\\identity_attribute_ci_17.json"
+    ]
+  },
+  {
+    "id": "prefix_identity_attribute_ci_29",
+    "args": [
+      "-m",
+      "experiments.text_prefix_probe",
+      "--model",
+      "..\\artifacts\\20261113_iteration2\\text_policy_v2\\identity_attribute_ci_29",
+      "--raw",
+      "..\\artifacts\\20261113_iteration2\\dataset_raw_v2",
+      "--output",
+      "..\\artifacts\\20261113_iteration2\\text_prefix_stress\\identity_attribute_ci_29.json"
+    ]
+  },
+  {
+    "id": "prefix_identity_attribute_future_17",
+    "args": [
+      "-m",
+      "experiments.text_prefix_probe",
+      "--model",
+      "..\\artifacts\\20261113_iteration2\\text_policy_v2\\identity_attribute_future_17",
+      "--raw",
+      "..\\artifacts\\20261113_iteration2\\dataset_raw_v2",
+      "--output",
+      "..\\artifacts\\20261113_iteration2\\text_prefix_stress\\identity_attribute_future_17.json"
+    ]
+  },
+  {
+    "id": "prefix_identity_attribute_future_29",
+    "args": [
+      "-m",
+      "experiments.text_prefix_probe",
+      "--model",
+      "..\\artifacts\\20261113_iteration2\\text_policy_v2\\identity_attribute_future_29",
+      "--raw",
+      "..\\artifacts\\20261113_iteration2\\dataset_raw_v2",
+      "--output",
+      "..\\artifacts\\20261113_iteration2\\text_prefix_stress\\identity_attribute_future_29.json"
+    ]
+  },
+  {
+    "id": "prefix_identity_attribute_sft_only_17",
+    "args": [
+      "-m",
+      "experiments.text_prefix_probe",
+      "--model",
+      "..\\artifacts\\20261113_iteration2\\text_policy_v2\\identity_attribute_sft_only_17",
+      "--raw",
+      "..\\artifacts\\20261113_iteration2\\dataset_raw_v2",
+      "--output",
+      "..\\artifacts\\20261113_iteration2\\text_prefix_stress\\identity_attribute_sft_only_17.json"
+    ]
+  },
+  {
+    "id": "prefix_identity_attribute_sft_only_29",
+    "args": [
+      "-m",
+      "experiments.text_prefix_probe",
+      "--model",
+      "..\\artifacts\\20261113_iteration2\\text_policy_v2\\identity_attribute_sft_only_29",
+      "--raw",
+      "..\\artifacts\\20261113_iteration2\\dataset_raw_v2",
+      "--output",
+      "..\\artifacts\\20261113_iteration2\\text_prefix_stress\\identity_attribute_sft_only_29.json"
+    ]
+  },
+  {
+    "id": "prefix_set_intersection_all_17",
+    "args": [
+      "-m",
+      "experiments.text_prefix_probe",
+      "--model",
+      "..\\artifacts\\20261113_iteration2\\text_policy_v2\\set_intersection_all_17",
+      "--raw",
+      "..\\artifacts\\20261113_iteration2\\dataset_raw_v2",
+      "--output",
+      "..\\artifacts\\20261113_iteration2\\text_prefix_stress\\set_intersection_all_17.json"
+    ]
+  },
+  {
+    "id": "prefix_set_intersection_all_29",
+    "args": [
+      "-m",
+      "experiments.text_prefix_probe",
+      "--model",
+      "..\\artifacts\\20261113_iteration2\\text_policy_v2\\set_intersection_all_29",
+      "--raw",
+      "..\\artifacts\\20261113_iteration2\\dataset_raw_v2",
+      "--output",
+      "..\\artifacts\\20261113_iteration2\\text_prefix_stress\\set_intersection_all_29.json"
+    ]
+  },
+  {
+    "id": "prefix_set_intersection_balanced_17",
+    "args": [
+      "-m",
+      "experiments.text_prefix_probe",
+      "--model",
+      "..\\artifacts\\20261113_iteration2\\text_policy_v2\\set_intersection_balanced_17",
+      "--raw",
+      "..\\artifacts\\20261113_iteration2\\dataset_raw_v2",
+      "--output",
+      "..\\artifacts\\20261113_iteration2\\text_prefix_stress\\set_intersection_balanced_17.json"
+    ]
+  },
+  {
+    "id": "prefix_set_intersection_balanced_29",
+    "args": [
+      "-m",
+      "experiments.text_prefix_probe",
+      "--model",
+      "..\\artifacts\\20261113_iteration2\\text_policy_v2\\set_intersection_balanced_29",
+      "--raw",
+      "..\\artifacts\\20261113_iteration2\\dataset_raw_v2",
+      "--output",
+      "..\\artifacts\\20261113_iteration2\\text_prefix_stress\\set_intersection_balanced_29.json"
+    ]
+  },
+  {
+    "id": "prefix_set_intersection_ci_17",
+    "args": [
+      "-m",
+      "experiments.text_prefix_probe",
+      "--model",
+      "..\\artifacts\\20261113_iteration2\\text_policy_v2\\set_intersection_ci_17",
+      "--raw",
+      "..\\artifacts\\20261113_iteration2\\dataset_raw_v2",
+      "--output",
+      "..\\artifacts\\20261113_iteration2\\text_prefix_stress\\set_intersection_ci_17.json"
+    ]
+  },
+  {
+    "id": "prefix_set_intersection_ci_29",
+    "args": [
+      "-m",
+      "experiments.text_prefix_probe",
+      "--model",
+      "..\\artifacts\\20261113_iteration2\\text_policy_v2\\set_intersection_ci_29",
+      "--raw",
+      "..\\artifacts\\20261113_iteration2\\dataset_raw_v2",
+      "--output",
+      "..\\artifacts\\20261113_iteration2\\text_prefix_stress\\set_intersection_ci_29.json"
+    ]
+  },
+  {
+    "id": "prefix_set_intersection_future_17",
+    "args": [
+      "-m",
+      "experiments.text_prefix_probe",
+      "--model",
+      "..\\artifacts\\20261113_iteration2\\text_policy_v2\\set_intersection_future_17",
+      "--raw",
+      "..\\artifacts\\20261113_iteration2\\dataset_raw_v2",
+      "--output",
+      "..\\artifacts\\20261113_iteration2\\text_prefix_stress\\set_intersection_future_17.json"
+    ]
+  },
+  {
+    "id": "prefix_set_intersection_future_29",
+    "args": [
+      "-m",
+      "experiments.text_prefix_probe",
+      "--model",
+      "..\\artifacts\\20261113_iteration2\\text_policy_v2\\set_intersection_future_29",
+      "--raw",
+      "..\\artifacts\\20261113_iteration2\\dataset_raw_v2",
+      "--output",
+      "..\\artifacts\\20261113_iteration2\\text_prefix_stress\\set_intersection_future_29.json"
+    ]
+  },
+  {
+    "id": "prefix_set_intersection_sft_only_17",
+    "args": [
+      "-m",
+      "experiments.text_prefix_probe",
+      "--model",
+      "..\\artifacts\\20261113_iteration2\\text_policy_v2\\set_intersection_sft_only_17",
+      "--raw",
+      "..\\artifacts\\20261113_iteration2\\dataset_raw_v2",
+      "--output",
+      "..\\artifacts\\20261113_iteration2\\text_prefix_stress\\set_intersection_sft_only_17.json"
+    ]
+  },
+  {
+    "id": "prefix_set_intersection_sft_only_29",
+    "args": [
+      "-m",
+      "experiments.text_prefix_probe",
+      "--model",
+      "..\\artifacts\\20261113_iteration2\\text_policy_v2\\set_intersection_sft_only_29",
+      "--raw",
+      "..\\artifacts\\20261113_iteration2\\dataset_raw_v2",
+      "--output",
+      "..\\artifacts\\20261113_iteration2\\text_prefix_stress\\set_intersection_sft_only_29.json"
+    ]
+  }
+]

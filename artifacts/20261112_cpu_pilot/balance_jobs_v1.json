@@ -1,0 +1,92 @@
+[
+  {
+    "id": "balance_all_sft_ci_x4_17",
+    "args": [
+      "-m",
+      "experiments.preference_probe",
+      "--dataset",
+      "D:\\research\\longhistory\\artifacts\\20261112_cpu_pilot\\dataset\\canonical_preferences.jsonl",
+      "--variant",
+      "all_sft_ci_x4",
+      "--seed",
+      "17",
+      "--output",
+      "D:\\research\\longhistory\\artifacts\\20261112_cpu_pilot\\balance_probe\\all_sft_ci_x4_17.json"
+    ]
+  },
+  {
+    "id": "balance_all_sft_ci_x4_29",
+    "args": [
+      "-m",
+      "experiments.preference_probe",
+      "--dataset",
+      "D:\\research\\longhistory\\artifacts\\20261112_cpu_pilot\\dataset\\canonical_preferences.jsonl",
+      "--variant",
+      "all_sft_ci_x4",
+      "--seed",
+      "29",
+      "--output",
+      "D:\\research\\longhistory\\artifacts\\20261112_cpu_pilot\\balance_probe\\all_sft_ci_x4_29.json"
+    ]
+  },
+  {
+    "id": "balance_all_sft_ci_x4_43",
+    "args": [
+      "-m",
+      "experiments.preference_probe",
+      "--dataset",
+      "D:\\research\\longhistory\\artifacts\\20261112_cpu_pilot\\dataset\\canonical_preferences.jsonl",
+      "--variant",
+      "all_sft_ci_x4",
+      "--seed",
+      "43",
+      "--output",
+      "D:\\research\\longhistory\\artifacts\\20261112_cpu_pilot\\balance_probe\\all_sft_ci_x4_43.json"
+    ]
+  },
+  {
+    "id": "balance_all_sft_ci_x14_17",
+    "args": [
+      "-m",
+      "experiments.preference_probe",
+      "--dataset",
+      "D:\\research\\longhistory\\artifacts\\20261112_cpu_pilot\\dataset\\canonical_preferences.jsonl",
+      "--variant",
+      "all_sft_ci_x14",
+      "--seed",
+      "17",
+      "--output",
+      "D:\\research\\longhistory\\artifacts\\20261112_cpu_pilot\\balance_probe\\all_sft_ci_x14_17.json"
+    ]
+  },
+  {
+    "id": "balance_all_sft_ci_x14_29",
+    "args": [
+      "-m",
+      "experiments.preference_probe",
+      "--dataset",
+      "D:\\research\\longhistory\\artifacts\\20261112_cpu_pilot\\dataset\\canonical_preferences.jsonl",
+      "--variant",
+      "all_sft_ci_x14",
+      "--seed",
+      "29",
+      "--output",
+      "D:\\research\\longhistory\\artifacts\\20261112_cpu_pilot\\balance_probe\\all_sft_ci_x14_29.json"
+    ]
+  },
+  {
+    "id": "balance_all_sft_ci_x14_43",
+    "args": [
+      "-m",
+      "experiments.preference_probe",
+      "--dataset",
+      "D:\\research\\longhistory\\artifacts\\20261112_cpu_pilot\\dataset\\canonical_preferences.jsonl",
+      "--variant",
+      "all_sft_ci_x14",
+      "--seed",
+      "43",
+      "--output",
+      "D:\\research\\longhistory\\artifacts\\20261112_cpu_pilot\\balance_probe\\all_sft_ci_x14_43.json"
+    ]
+  }
+]

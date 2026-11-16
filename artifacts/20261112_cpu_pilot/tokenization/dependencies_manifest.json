@@ -1,0 +1,31 @@
+{
+  "global_interpreter_unchanged_check": {
+    "jinja2": false,
+    "markupsafe": false,
+    "tokenizers": false,
+    "torch": false,
+    "transformers": false
+  },
+  "isolation_directory": "artifacts\\20261112_cpu_pilot\\tokenization\\dependencies",
+  "note": "Initial pip target deps was renamed within this artifact directory to dependencies before diagnostics.",
+  "package_versions": {
+    "Jinja2": "3.1.6",
+    "MarkupSafe": "3.0.4",
+    "tokenizers": "0.23.3"
+  },
+  "source_index": "https://pypi.org/simple",
+  "wheel_files": {
+    "jinja2-3.1.6-py3-none-any.whl": {
+      "bytes": 134899,
+      "sha256": "85ece4451f492d0c13c5dd7c13a64681a86afae63a5f347908daf103ce6d2f67"
+    },
+    "markupsafe-3.0.4-cp313-cp313-win_amd64.whl": {
+      "bytes": 14313,
+      "sha256": "1f1f9477e174582b0a1b583d60b66e1f2cf5d3fe12cee985e4aedf44766600e5"
+    },
+    "tokenizers-0.23.3-cp310-abi3-win_amd64.whl": {
+      "bytes": 2872101,
+      "sha256": "1f0823bb00c5fdc98e487354d54dd55a03848d61a1a0bf29a68c77f24f3b26c3"
+    }
+  }
+}

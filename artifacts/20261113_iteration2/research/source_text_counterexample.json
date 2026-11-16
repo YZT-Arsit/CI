@@ -1,0 +1,65 @@
+{
+  "classification": "constructor source-consistency defect outside factory-generated primary data",
+  "original_payload": {
+    "id": "payload_0",
+    "predicate": "attribute_value",
+    "subject": "Record000",
+    "value": "9",
+    "text": "Record000 has attribute value 9."
+  },
+  "altered_payload": {
+    "id": "payload_0",
+    "predicate": "attribute_value",
+    "subject": "Record000",
+    "value": "1",
+    "text": "Record000 has attribute value 9."
+  },
+  "constructor_accepted_inconsistent_value_and_text": true,
+  "same_B_prompt": true,
+  "same_R_prompt": true,
+  "R_prompt_sha256": "589d5b81f252bae7e39e31807cd5a5a935bd0c10461dfcd863965b05c79ed7c2",
+  "original_expected_answer": "yes",
+  "altered_expected_answer": "no",
+  "original_preference": {
+    "chosen": {
+      "actor": "R",
+      "kind": "FINALIZE",
+      "recipient": "",
+      "fact_ids": [],
+      "body": "Decision for Record000: yes.",
+      "answer": "yes"
+    },
+    "rejected": {
+      "actor": "R",
+      "kind": "FINALIZE",
+      "recipient": "",
+      "fact_ids": [],
+      "body": "Decision for Record000: no.",
+      "answer": "no"
+    }
+  },
+  "altered_preference": {
+    "chosen": {
+      "actor": "R",
+      "kind": "FINALIZE",
+      "recipient": "",
+      "fact_ids": [],
+      "body": "Decision for Record000: no.",
+      "answer": "no"
+    },
+    "rejected": {
+      "actor": "R",
+      "kind": "FINALIZE",
+      "recipient": "",
+      "fact_ids": [],
+      "body": "Decision for Record000: yes.",
+      "answer": "yes"
+    }
+  },
+  "primary_factory_records_changed": false,
+  "recommended_boundary": "Reject inconsistent canonical source text at construction or restrict trusted API to verified factory source rendering. Schema validity alone is not semantic consistency.",
+  "source_sha256": {
+    "artifacts\\20261113_iteration2\\research\\source_text_counterexample.py": "461ce22d5a6cd7e375fdccd1f84cf84fb36621877b2388ec9e8c0d15cfc04034",
+    "code\\kci\\multi_env.py": "8e63919adb6c89be015f0fe2156470c819feb4dc8d4d4aa4eb6b27f41bd9b54d"
+  }
+}

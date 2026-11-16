@@ -1,0 +1,139 @@
+{
+  "family_workers": 4,
+  "independent_prefix_states": 224,
+  "replayed_episodes": 2240,
+  "replayed_policy_actions": 6720,
+  "by_variant": {
+    "all": {
+      "episodes": 448,
+      "feasible": 392,
+      "TASK_FAILURE": 276,
+      "feasible_TASK_FAILURE": 276,
+      "skip_TASK_FAILURE": 184,
+      "infeasible": 56,
+      "VIOLATION": 112,
+      "infeasible_VIOLATION": 56,
+      "context_VIOLATION": 112,
+      "feasible_VIOLATION": 56,
+      "context_TASK_FAILURE": 92,
+      "SAFE_SUCCESS": 60,
+      "feasible_SAFE_SUCCESS": 60,
+      "skip_SAFE_SUCCESS": 40,
+      "context_SAFE_SUCCESS": 20
+    },
+    "balanced": {
+      "episodes": 448,
+      "feasible": 392,
+      "TASK_FAILURE": 246,
+      "feasible_TASK_FAILURE": 246,
+      "skip_TASK_FAILURE": 164,
+      "infeasible": 56,
+      "VIOLATION": 112,
+      "infeasible_VIOLATION": 56,
+      "context_VIOLATION": 112,
+      "feasible_VIOLATION": 56,
+      "context_TASK_FAILURE": 82,
+      "SAFE_SUCCESS": 90,
+      "feasible_SAFE_SUCCESS": 90,
+      "skip_SAFE_SUCCESS": 60,
+      "context_SAFE_SUCCESS": 30
+    },
+    "ci": {
+      "episodes": 448,
+      "feasible": 392,
+      "TASK_FAILURE": 366,
+      "feasible_TASK_FAILURE": 310,
+      "skip_TASK_FAILURE": 182,
+      "infeasible": 56,
+      "infeasible_TASK_FAILURE": 56,
+      "context_TASK_FAILURE": 184,
+      "SAFE_SUCCESS": 82,
+      "feasible_SAFE_SUCCESS": 82,
+      "skip_SAFE_SUCCESS": 42,
+      "context_SAFE_SUCCESS": 40
+    },
+    "future": {
+      "episodes": 448,
+      "feasible": 392,
+      "TASK_FAILURE": 264,
+      "feasible_TASK_FAILURE": 264,
+      "skip_TASK_FAILURE": 176,
+      "infeasible": 56,
+      "VIOLATION": 112,
+      "infeasible_VIOLATION": 56,
+      "context_VIOLATION": 112,
+      "feasible_VIOLATION": 56,
+      "context_TASK_FAILURE": 88,
+      "SAFE_SUCCESS": 72,
+      "feasible_SAFE_SUCCESS": 72,
+      "skip_SAFE_SUCCESS": 48,
+      "context_SAFE_SUCCESS": 24
+    },
+    "sft_only": {
+      "episodes": 448,
+      "feasible": 392,
+      "TASK_FAILURE": 216,
+      "feasible_TASK_FAILURE": 216,
+      "skip_TASK_FAILURE": 144,
+      "infeasible": 56,
+      "VIOLATION": 112,
+      "infeasible_VIOLATION": 56,
+      "context_VIOLATION": 112,
+      "feasible_VIOLATION": 56,
+      "context_TASK_FAILURE": 72,
+      "SAFE_SUCCESS": 120,
+      "feasible_SAFE_SUCCESS": 120,
+      "skip_SAFE_SUCCESS": 80,
+      "context_SAFE_SUCCESS": 40
+    }
+  },
+  "original_initial_rollout_counts": {
+    "all": {
+      "TASK_FAILURE": 184,
+      "SAFE_SUCCESS": 40
+    },
+    "balanced": {
+      "TASK_FAILURE": 164,
+      "SAFE_SUCCESS": 60
+    },
+    "ci": {
+      "TASK_FAILURE": 182,
+      "SAFE_SUCCESS": 42
+    },
+    "future": {
+      "TASK_FAILURE": 176,
+      "SAFE_SUCCESS": 48
+    },
+    "sft_only": {
+      "TASK_FAILURE": 144,
+      "SAFE_SUCCESS": 80
+    }
+  },
+  "original_initial_A_action_counts": {
+    "all": {
+      "SKIP": 224
+    },
+    "balanced": {
+      "SKIP": 224
+    },
+    "ci": {
+      "SKIP": 224
+    },
+    "future": {
+      "SKIP": 224
+    },
+    "sft_only": {
+      "SKIP": 224
+    }
+  },
+  "max_internal_worker_seconds": 2.0553960999823175,
+  "must_fix_items": [],
+  "scope": "Post-hoc lawful-prefix coverage diagnostic within existing family-heldout synthetic source; no new independent test or learning-efficacy estimate",
+  "input_sha256": {
+    "identity_attribute.json": "9ca87cc84185e05e7c9d0527fb19cb66953eebe443eddde9e59de59be73d726e",
+    "alias_chain_3.json": "1dea340be9788ede9d6b8144f016255349dcdacbe040c2e0436725c5ecb60b58",
+    "aggregate_difference.json": "aa11c2572c1a0eb605aadc660ecbb2a2b6261dd14562e3cda6b64c9445a85b37",
+    "set_intersection.json": "4f448f8971e135ff8983eed098cc7f5da2cebe28a7f7146261fe808b0bf1d4c0"
+  },
+  "aggregate_source_sha256": "cc0280df778e56fd8cbfc3d11e823ebad418146ca618537bb6542a45fc709415"
+}

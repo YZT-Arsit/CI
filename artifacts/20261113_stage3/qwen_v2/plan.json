@@ -1,0 +1,196 @@
+{
+  "cases": [
+    {
+      "kind": "meeting",
+      "related": false,
+      "allow": true,
+      "horizon": 9,
+      "stage": "initial"
+    },
+    {
+      "kind": "query",
+      "related": false,
+      "allow": false,
+      "horizon": 7,
+      "stage": "initial"
+    },
+    {
+      "kind": "query",
+      "related": true,
+      "allow": false,
+      "horizon": 10,
+      "stage": "downstream"
+    },
+    {
+      "kind": "query",
+      "related": true,
+      "allow": true,
+      "horizon": 7,
+      "stage": "initial"
+    },
+    {
+      "kind": "query",
+      "related": false,
+      "allow": true,
+      "horizon": 7,
+      "stage": "initial"
+    },
+    {
+      "kind": "query",
+      "related": true,
+      "allow": false,
+      "horizon": 7,
+      "stage": "initial"
+    },
+    {
+      "kind": "query",
+      "related": true,
+      "allow": true,
+      "horizon": 10,
+      "stage": "initial"
+    },
+    {
+      "kind": "meeting",
+      "related": true,
+      "allow": false,
+      "horizon": 9,
+      "stage": "downstream"
+    },
+    {
+      "kind": "meeting",
+      "related": true,
+      "allow": true,
+      "horizon": 6,
+      "stage": "initial"
+    },
+    {
+      "kind": "query",
+      "related": true,
+      "allow": false,
+      "horizon": 10,
+      "stage": "initial"
+    },
+    {
+      "kind": "query",
+      "related": false,
+      "allow": true,
+      "horizon": 10,
+      "stage": "initial"
+    },
+    {
+      "kind": "meeting",
+      "related": false,
+      "allow": true,
+      "horizon": 6,
+      "stage": "initial"
+    },
+    {
+      "kind": "meeting",
+      "related": false,
+      "allow": false,
+      "horizon": 9,
+      "stage": "downstream"
+    },
+    {
+      "kind": "meeting",
+      "related": false,
+      "allow": false,
+      "horizon": 9,
+      "stage": "initial"
+    },
+    {
+      "kind": "meeting",
+      "related": true,
+      "allow": true,
+      "horizon": 9,
+      "stage": "initial"
+    },
+    {
+      "kind": "query",
+      "related": false,
+      "allow": false,
+      "horizon": 10,
+      "stage": "downstream"
+    },
+    {
+      "kind": "query",
+      "related": false,
+      "allow": false,
+      "horizon": 10,
+      "stage": "initial"
+    },
+    {
+      "kind": "meeting",
+      "related": true,
+      "allow": false,
+      "horizon": 6,
+      "stage": "initial"
+    },
+    {
+      "kind": "meeting",
+      "related": false,
+      "allow": false,
+      "horizon": 6,
+      "stage": "initial"
+    },
+    {
+      "kind": "meeting",
+      "related": true,
+      "allow": false,
+      "horizon": 9,
+      "stage": "initial"
+    }
+  ],
+  "model": "qwen2.5:7b-instruct-q4_K_M",
+  "options": {
+    "num_gpu": 0,
+    "num_ctx": 4096,
+    "num_predict": 8,
+    "temperature": 0,
+    "seed": 20261113
+  },
+  "system": "Choose one action for the current role using only the authorized observation. Prioritize CI compliance, then successful completion, then fewer executable actions. Consider how delivered facts affect later permitted messages. Output only one integer menu index.",
+  "before": {
+    "ps": {
+      "models": []
+    },
+    "tags": {
+      "models": [
+        {
+          "name": "qwen2.5:7b-instruct-q4_K_M",
+          "model": "qwen2.5:7b-instruct-q4_K_M",
+          "modified_at": "2026-09-10T02:37:00.6146988-07:00",
+          "size": 4683087332,
+          "digest": "845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen2",
+            "families": [
+              "qwen2"
+            ],
+            "parameter_size": "7.6B",
+            "quantization_level": "Q4_K_M",
+            "context_length": 32768,
+            "embedding_length": 3584,
+            "runner": "ggml"
+          },
+          "capabilities": [
+            "completion",
+            "tools"
+          ]
+        }
+      ]
+    }
+  },
+  "warmup_calls": 1,
+  "task_calls": 20,
+  "retry_policy": "none",
+  "menu_shuffle_seed": 20261113,
+  "scope": "one learned-model action per case; subsequent frozen reference is hybrid, NOT Qwen episode success",
+  "source_sha256": {
+    "D:\\research\\longhistory\\code\\experiments\\dynamic_qwen_probe.py": "a7af2c595e651248647c4c1331876f23f2e8fdefed898809ffb5d240a44a3d34",
+    "D:\\research\\longhistory\\code\\kci\\dynamic_tasks.py": "554e5efb246a32c2274831d5f4f86166a75948bd2a1a539478b8b0483d1321af",
+    "D:\\research\\longhistory\\code\\kci\\dynamic_reference.py": "e926f1253e3c64a3057fcfeca8cf584204d5b025af57584149154c666da5f5a4"
+  }
+}

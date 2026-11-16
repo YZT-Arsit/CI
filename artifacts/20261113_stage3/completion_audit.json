@@ -1,0 +1,55 @@
+[
+  {
+    "requirement": "1 future分类与历史CI监督",
+    "evidence": [
+      "legacy_signal_summary.json",
+      "dynamic_data_v3/history_pairs.jsonl",
+      "training_v3/history_primary.jsonl",
+      "data_replay_audit.json"
+    ],
+    "status": "bounded_requirement_verified",
+    "limits": "8 primary pairs, 4 matched groups, 2 source instances; not scale or natural-language norm proof"
+  },
+  {
+    "requirement": "2 分层非穷举CCE与交叉校准",
+    "evidence": [
+      "../../code/kci/stream_cce.py",
+      "dynamic_cce_v3",
+      "audit_cce_safe.json",
+      "audit_cce_careless.json",
+      "audit_cce_mixed.json"
+    ],
+    "status": "bounded_requirement_verified",
+    "limits": "strict lower tiers require verified upper equivalence; arbitrary black-box references without proof remain UNKNOWN"
+  },
+  {
+    "requirement": "3 两个动态任务合同",
+    "evidence": [
+      "TASK_CONTRACTS.md",
+      "audit_task_meeting.json",
+      "audit_task_query.json"
+    ],
+    "status": "bounded_requirement_verified",
+    "limits": "different task graphs, shared three-relation privacy grammar; synthetic adaptation, not faithful reproduction"
+  },
+  {
+    "requirement": "4 可见性与标签隔离",
+    "evidence": [
+      "observation_audit.json",
+      "deprived_quarantine.jsonl",
+      "dynamic_data_v3/quarantine.jsonl"
+    ],
+    "status": "bounded_requirement_verified",
+    "limits": "enumerated support only; no global hidden-state identifiability guarantee"
+  },
+  {
+    "requirement": "5 有限模型/Qwen/DPR诊断",
+    "evidence": [
+      "finite_audit.json",
+      "qwen_audit.json",
+      "data_replay_audit.json"
+    ],
+    "status": "bounded_requirement_verified",
+    "limits": "Qwen is next-action only plus separately labelled hybrid suffix; no LLM training; DPR unique increment 0"
+  }
+]

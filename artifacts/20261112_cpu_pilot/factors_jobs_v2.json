@@ -1,0 +1,24 @@
+[
+  {
+    "id": "factors_v2_horizons_costs",
+    "args": [
+      "-m",
+      "experiments.factor_sweep",
+      "--suite",
+      "horizons_costs",
+      "--output",
+      "D:\\research\\longhistory\\artifacts\\20261112_cpu_pilot\\factors_v2\\horizons_costs.json"
+    ]
+  },
+  {
+    "id": "factors_v2_reference_policies",
+    "args": [
+      "-m",
+      "experiments.factor_sweep",
+      "--suite",
+      "reference_policies",
+      "--output",
+      "D:\\research\\longhistory\\artifacts\\20261112_cpu_pilot\\factors_v2\\reference_policies.json"
+    ]
+  }
+]

@@ -1,0 +1,136 @@
+{
+  "family": "set_intersection",
+  "source_cases": 16,
+  "prefix_states_independently_enumerated": 32,
+  "prefixes_all_valid_at_B_turn1_cost1": true,
+  "replayed_episodes": 320,
+  "replayed_policy_actions": 960,
+  "by_variant": {
+    "all": {
+      "episodes": 64,
+      "feasible": 56,
+      "SAFE_SUCCESS": 12,
+      "feasible_SAFE_SUCCESS": 12,
+      "skip_SAFE_SUCCESS": 8,
+      "infeasible": 8,
+      "VIOLATION": 16,
+      "infeasible_VIOLATION": 8,
+      "context_VIOLATION": 16,
+      "feasible_VIOLATION": 8,
+      "context_SAFE_SUCCESS": 4,
+      "TASK_FAILURE": 36,
+      "feasible_TASK_FAILURE": 36,
+      "skip_TASK_FAILURE": 24,
+      "context_TASK_FAILURE": 12
+    },
+    "balanced": {
+      "episodes": 64,
+      "feasible": 56,
+      "TASK_FAILURE": 48,
+      "feasible_TASK_FAILURE": 48,
+      "skip_TASK_FAILURE": 32,
+      "infeasible": 8,
+      "VIOLATION": 16,
+      "infeasible_VIOLATION": 8,
+      "context_VIOLATION": 16,
+      "feasible_VIOLATION": 8,
+      "context_TASK_FAILURE": 16
+    },
+    "ci": {
+      "episodes": 64,
+      "feasible": 56,
+      "TASK_FAILURE": 56,
+      "feasible_TASK_FAILURE": 48,
+      "skip_TASK_FAILURE": 28,
+      "infeasible": 8,
+      "infeasible_TASK_FAILURE": 8,
+      "context_TASK_FAILURE": 28,
+      "SAFE_SUCCESS": 8,
+      "feasible_SAFE_SUCCESS": 8,
+      "skip_SAFE_SUCCESS": 4,
+      "context_SAFE_SUCCESS": 4
+    },
+    "future": {
+      "episodes": 64,
+      "feasible": 56,
+      "TASK_FAILURE": 48,
+      "feasible_TASK_FAILURE": 48,
+      "skip_TASK_FAILURE": 32,
+      "infeasible": 8,
+      "VIOLATION": 16,
+      "infeasible_VIOLATION": 8,
+      "context_VIOLATION": 16,
+      "feasible_VIOLATION": 8,
+      "context_TASK_FAILURE": 16
+    },
+    "sft_only": {
+      "episodes": 64,
+      "feasible": 56,
+      "TASK_FAILURE": 36,
+      "feasible_TASK_FAILURE": 36,
+      "skip_TASK_FAILURE": 24,
+      "infeasible": 8,
+      "VIOLATION": 16,
+      "infeasible_VIOLATION": 8,
+      "context_VIOLATION": 16,
+      "feasible_VIOLATION": 8,
+      "context_TASK_FAILURE": 12,
+      "SAFE_SUCCESS": 12,
+      "feasible_SAFE_SUCCESS": 12,
+      "skip_SAFE_SUCCESS": 8,
+      "context_SAFE_SUCCESS": 4
+    }
+  },
+  "original_initial_rollout_counts": {
+    "all": {
+      "SAFE_SUCCESS": 8,
+      "TASK_FAILURE": 24
+    },
+    "balanced": {
+      "TASK_FAILURE": 32
+    },
+    "ci": {
+      "TASK_FAILURE": 28,
+      "SAFE_SUCCESS": 4
+    },
+    "future": {
+      "TASK_FAILURE": 32
+    },
+    "sft_only": {
+      "TASK_FAILURE": 24,
+      "SAFE_SUCCESS": 8
+    }
+  },
+  "original_initial_A_action_counts": {
+    "all": {
+      "SKIP": 32
+    },
+    "balanced": {
+      "SKIP": 32
+    },
+    "ci": {
+      "SKIP": 32
+    },
+    "future": {
+      "SKIP": 32
+    },
+    "sft_only": {
+      "SKIP": 32
+    }
+  },
+  "source_results_sha256": {
+    "set_intersection_all_17.json": "00c381e4d3d0401e4cfd749be80592bd326c4083b62aade7041ecd094fd37e98",
+    "set_intersection_all_29.json": "d23d48c7395cfe4b766599d2ff06865af297bf5084a72fbbf695fc8bd5495ece",
+    "set_intersection_balanced_17.json": "d32b2014f11c904725ea5a3ce884eb29ad0caa1fe4a8286747ac9aa670392ba2",
+    "set_intersection_balanced_29.json": "fd7f6c6da779bace81ca569fc0fd61161e80c2963d86fc56afdf7a089311c3d4",
+    "set_intersection_ci_17.json": "7db3f4eb34e0d7f3238c22e447dfec242d51095507275af3e3fd1c98c9010435",
+    "set_intersection_ci_29.json": "4af4228726efe2c6e58afd44eb5a4a98ae7c1d842dcf394dd238b21f5eefe763",
+    "set_intersection_future_17.json": "5dd6043b24f80d54f75d31c8cb9027f38f0f72128e77d1214dfc5e965df8f3fc",
+    "set_intersection_future_29.json": "f4cb1a213861fbdb9bf5ca7cd4002cfc0b8d57e102c93dd133c2b593117f1b08",
+    "set_intersection_sft_only_17.json": "e23606ccac7cb74e54ca26e7579126fa7c624f42655085192a9b9212c35248e9",
+    "set_intersection_sft_only_29.json": "85d05e2ea1af402650c8a3102a2e47e1f5775dbc431430f4f72adceee92caab4"
+  },
+  "scope": "exploratory intervention in existing heldout synthetic cases; no new independent test or training effect estimate",
+  "audit_sha256": "fdef580e9cc1596816b3bae61767c35d1fbbce20c29a49884020bee7d1a8ed9c",
+  "seconds": 0.9457463000144344
+}

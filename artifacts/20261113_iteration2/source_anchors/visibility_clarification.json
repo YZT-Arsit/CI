@@ -1,0 +1,200 @@
+{
+  "anchor_sha256_unchanged": "11bfd1cfcc404fcc4646bf45caa5c92e9da9814e8199b8e55c7b25a18401fb3a",
+  "schema_mismatched_attributes": 11,
+  "schema_mismatched_recipient_attribute_pairs": 32,
+  "exact_text_matching_attributes": 4,
+  "exact_text_matching_recipient_attribute_pairs": 14,
+  "details": [
+    {
+      "workflow": "pisas/meeting_allocation",
+      "attribute_id": "a4",
+      "artifact_id": "art_unscheduled_meetings",
+      "artifact_readers_outside_atomic_visibility": [
+        "Avi",
+        "Emery",
+        "Riley"
+      ],
+      "source_value_exact_substring_of_raw_artifact": true,
+      "extra_readers_marked_hidden": [
+        "Avi",
+        "Emery",
+        "Riley"
+      ]
+    },
+    {
+      "workflow": "pisas/meeting_allocation",
+      "attribute_id": "a5",
+      "artifact_id": "art_unscheduled_meetings",
+      "artifact_readers_outside_atomic_visibility": [
+        "Eli",
+        "Emery",
+        "Parker",
+        "Riley"
+      ],
+      "source_value_exact_substring_of_raw_artifact": true,
+      "extra_readers_marked_hidden": [
+        "Eli",
+        "Emery",
+        "Parker",
+        "Riley"
+      ]
+    },
+    {
+      "workflow": "pisas/meeting_allocation",
+      "attribute_id": "a6",
+      "artifact_id": "art_unscheduled_meetings",
+      "artifact_readers_outside_atomic_visibility": [
+        "Avi",
+        "Emery",
+        "Parker"
+      ],
+      "source_value_exact_substring_of_raw_artifact": true,
+      "extra_readers_marked_hidden": [
+        "Avi",
+        "Emery",
+        "Parker"
+      ]
+    },
+    {
+      "workflow": "pisas/JIRA_allocation",
+      "attribute_id": "a1",
+      "artifact_id": "art_01_public_roster",
+      "artifact_readers_outside_atomic_visibility": [
+        "Drew",
+        "Emery",
+        "Parker",
+        "Sasha"
+      ],
+      "source_value_exact_substring_of_raw_artifact": true,
+      "extra_readers_marked_hidden": [
+        "Drew",
+        "Emery",
+        "Parker",
+        "Sasha"
+      ]
+    },
+    {
+      "workflow": "pisas/JIRA_allocation",
+      "attribute_id": "a6",
+      "artifact_id": "art_02_ticket_board",
+      "artifact_readers_outside_atomic_visibility": [
+        "Drew",
+        "Sasha",
+        "Val"
+      ],
+      "source_value_exact_substring_of_raw_artifact": false,
+      "extra_readers_marked_hidden": [
+        "Drew",
+        "Sasha",
+        "Val"
+      ]
+    },
+    {
+      "workflow": "pisas/JIRA_allocation",
+      "attribute_id": "a10",
+      "artifact_id": "art_02_ticket_board",
+      "artifact_readers_outside_atomic_visibility": [
+        "Drew",
+        "Emery",
+        "Parker",
+        "Sasha"
+      ],
+      "source_value_exact_substring_of_raw_artifact": false,
+      "extra_readers_marked_hidden": [
+        "Drew",
+        "Emery",
+        "Parker",
+        "Sasha"
+      ]
+    },
+    {
+      "workflow": "pisas/JIRA_allocation",
+      "attribute_id": "a11",
+      "artifact_id": "art_02_ticket_board",
+      "artifact_readers_outside_atomic_visibility": [
+        "Drew",
+        "Sasha",
+        "Val"
+      ],
+      "source_value_exact_substring_of_raw_artifact": false,
+      "extra_readers_marked_hidden": [
+        "Drew",
+        "Sasha",
+        "Val"
+      ]
+    },
+    {
+      "workflow": "pisas/JIRA_allocation",
+      "attribute_id": "a13",
+      "artifact_id": "art_02_ticket_board",
+      "artifact_readers_outside_atomic_visibility": [
+        "Emery",
+        "Parker"
+      ],
+      "source_value_exact_substring_of_raw_artifact": false,
+      "extra_readers_marked_hidden": [
+        "Emery",
+        "Parker"
+      ]
+    },
+    {
+      "workflow": "pisas/JIRA_allocation",
+      "attribute_id": "a14",
+      "artifact_id": "art_02_ticket_board",
+      "artifact_readers_outside_atomic_visibility": [
+        "Sasha"
+      ],
+      "source_value_exact_substring_of_raw_artifact": false,
+      "extra_readers_marked_hidden": [
+        "Sasha"
+      ]
+    },
+    {
+      "workflow": "pisas/JIRA_allocation",
+      "attribute_id": "a15",
+      "artifact_id": "art_02_ticket_board",
+      "artifact_readers_outside_atomic_visibility": [
+        "Emery",
+        "Parker",
+        "Sasha",
+        "Val"
+      ],
+      "source_value_exact_substring_of_raw_artifact": false,
+      "extra_readers_marked_hidden": [
+        "Emery",
+        "Parker",
+        "Sasha",
+        "Val"
+      ]
+    },
+    {
+      "workflow": "pisas/JIRA_allocation",
+      "attribute_id": "a18",
+      "artifact_id": "art_02_ticket_board",
+      "artifact_readers_outside_atomic_visibility": [
+        "Sasha"
+      ],
+      "source_value_exact_substring_of_raw_artifact": false,
+      "extra_readers_marked_hidden": [
+        "Sasha"
+      ]
+    }
+  ],
+  "source_sha256": {
+    "agents.py": "4ab8ae176ab3dbefdaf0519e285f913d2e00a081df734ffc9f707916c52c0d81",
+    "benchmark.py": "6ac8b77a5d7645917a0661ae4d9451f39aa96881ab4281c15794820aafb07d3d",
+    "eval_utils.py": "07fbb552dc6224b556e33905ad74f421a54ab5e05205c7cf30de7c04c9e3a205",
+    "judges.py": "9a437860504e756b39366552753507058db709ecd760d7309a0c9b97f1984d37",
+    "metrics.py": "4eb7adfa06a2bfe88035eba0f6b414eb935b7ae64d73d55fa3ef53d7c86963b8",
+    "pipeline.py": "ef2f76c164339915f9c330a4da384fe8c701144511cd289c39150d3fe0f47237",
+    "run_evaluation.py": "768aed92e501ed4be990b009c00a822eaedb0c244aa437ac320ecaee453b6747",
+    "run_pipeline.py": "bcc45974f895b9364c1f2098a9c8a3b86be6a47e2c8814bb8ba8f624060699ab"
+  },
+  "native_default_loader": "artifact.visible_to selects recipients; whole artifact.content is appended and rendered",
+  "native_evaluator": "attribute.hidden_from is used after model-based extraction/correctness judgment",
+  "normative_reconciliation": "UNKNOWN; no precedence repair or exemption found in reviewed loader/render/judge path",
+  "executed_external_code": false,
+  "model_calls": 0,
+  "delivered_events_created": 0,
+  "seconds": 0.02740069999708794
+}

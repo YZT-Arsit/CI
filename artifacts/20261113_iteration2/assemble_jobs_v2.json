@@ -1,0 +1,29 @@
+[
+  {
+    "id": "assemble_multi_v2",
+    "args": [
+      "-m",
+      "experiments.assemble_multi_dataset",
+      "--input",
+      "..\\artifacts\\20261113_iteration2\\dataset_raw_v2",
+      "--audit",
+      "..\\artifacts\\20261113_iteration2\\research\\observable_full_v2",
+      "--output",
+      "..\\artifacts\\20261113_iteration2\\dataset_v2"
+    ]
+  },
+  {
+    "id": "prepare_text_features_v2",
+    "args": [
+      "-m",
+      "experiments.text_policy_probe",
+      "--prepare",
+      "--dataset",
+      "..\\artifacts\\20261113_iteration2\\dataset_v2",
+      "--raw",
+      "..\\artifacts\\20261113_iteration2\\dataset_raw_v2",
+      "--output",
+      "..\\artifacts\\20261113_iteration2\\text_features_v2"
+    ]
+  }
+]

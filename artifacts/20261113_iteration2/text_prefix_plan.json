@@ -1,0 +1,12 @@
+{
+  "models": 40,
+  "retraining": false,
+  "tuning": false,
+  "interventions": [
+    "actual A SKIP",
+    "actual A SEND all context"
+  ],
+  "selection": "every heldout-family case from fixed112case plan",
+  "reason": "zero initial-rollout violations despite CI pair failures warrants off-policy prefix coverage diagnostic",
+  "report_infeasible_separately": true
+}

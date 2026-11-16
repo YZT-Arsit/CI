@@ -1,0 +1,154 @@
+{
+  "family": "aggregate_difference",
+  "cases_rechecked": 20,
+  "passed": true,
+  "cases": [
+    {
+      "case": "aggregate_difference_no_0_front",
+      "tokens": 579,
+      "closure_flip": true,
+      "prompt_only_context_body_changes": true,
+      "case_sha256": "e23e1727be59fd389b72d603ce9c910e9c0301e74839690d1477a8f72913afe7"
+    },
+    {
+      "case": "aggregate_difference_no_256_end",
+      "tokens": 20949,
+      "closure_flip": true,
+      "prompt_only_context_body_changes": true,
+      "case_sha256": "3cac57aa58f516c4121ac7e5bade75656aed0f938918c140afb6780110f6d4e0"
+    },
+    {
+      "case": "aggregate_difference_no_256_front",
+      "tokens": 20949,
+      "closure_flip": true,
+      "prompt_only_context_body_changes": true,
+      "case_sha256": "36e6db3074c3e4073b30ea75d8815dd4edac74467fca6a19eaf3f3a27db2cbfd"
+    },
+    {
+      "case": "aggregate_difference_no_256_middle",
+      "tokens": 20949,
+      "closure_flip": true,
+      "prompt_only_context_body_changes": true,
+      "case_sha256": "7335c7c2b844bd2e5438b6f6aa8e782989cbc6e51888d808f60e5c47116dd8eb"
+    },
+    {
+      "case": "aggregate_difference_no_64_end",
+      "tokens": 5625,
+      "closure_flip": true,
+      "prompt_only_context_body_changes": true,
+      "case_sha256": "c6758504326630d690eb49433e346a6d78a5ee66e271206da9251ea9b286858e"
+    },
+    {
+      "case": "aggregate_difference_no_64_front",
+      "tokens": 5625,
+      "closure_flip": true,
+      "prompt_only_context_body_changes": true,
+      "case_sha256": "eb210513566b425f11e62aa55fa56c1423ecb680d68dc610e456b8f4059c3e00"
+    },
+    {
+      "case": "aggregate_difference_no_64_middle",
+      "tokens": 5625,
+      "closure_flip": true,
+      "prompt_only_context_body_changes": true,
+      "case_sha256": "0f388d5db23977d7666120bd8ec18dcfb6e50b1a7f54cc41d97d6c174634e402"
+    },
+    {
+      "case": "aggregate_difference_no_8_end",
+      "tokens": 1203,
+      "closure_flip": true,
+      "prompt_only_context_body_changes": true,
+      "case_sha256": "6507f64297e72b902da3d19688ee8b8324f6cbf1aa9c3bc654135695c70d1f8f"
+    },
+    {
+      "case": "aggregate_difference_no_8_front",
+      "tokens": 1203,
+      "closure_flip": true,
+      "prompt_only_context_body_changes": true,
+      "case_sha256": "7cb4174cd5b6d50f1ff7bf81880a9e7d07f8a1c2ffa1a63dc22998619a892f2d"
+    },
+    {
+      "case": "aggregate_difference_no_8_middle",
+      "tokens": 1203,
+      "closure_flip": true,
+      "prompt_only_context_body_changes": true,
+      "case_sha256": "e0667bc406830251043387ee169a197b30ce5aa284034d41fd66c2dcb717666a"
+    },
+    {
+      "case": "aggregate_difference_yes_0_front",
+      "tokens": 579,
+      "closure_flip": true,
+      "prompt_only_context_body_changes": true,
+      "case_sha256": "ac4b071a342ec2932ee2e0a9744d4bbf5b7a527acdf56dd598eea9efd16a6969"
+    },
+    {
+      "case": "aggregate_difference_yes_256_end",
+      "tokens": 20949,
+      "closure_flip": true,
+      "prompt_only_context_body_changes": true,
+      "case_sha256": "4f371872c5a973519dbe3f93a08a500665f91562b4daa3eecc05f7b7561eaa4f"
+    },
+    {
+      "case": "aggregate_difference_yes_256_front",
+      "tokens": 20949,
+      "closure_flip": true,
+      "prompt_only_context_body_changes": true,
+      "case_sha256": "aaeca69fab6c6fed9a97bfac087bc0ce53bd3cae97e33ee112e01f5344e960a5"
+    },
+    {
+      "case": "aggregate_difference_yes_256_middle",
+      "tokens": 20949,
+      "closure_flip": true,
+      "prompt_only_context_body_changes": true,
+      "case_sha256": "1861e5e2ae90c86b76f4da9e6f2dd959b486f4846a0f26758be2243f2347b25f"
+    },
+    {
+      "case": "aggregate_difference_yes_64_end",
+      "tokens": 5625,
+      "closure_flip": true,
+      "prompt_only_context_body_changes": true,
+      "case_sha256": "e556c6e6618909eb5cff99ca5965545470ceaf68e2e754aad9faf82da911ca71"
+    },
+    {
+      "case": "aggregate_difference_yes_64_front",
+      "tokens": 5625,
+      "closure_flip": true,
+      "prompt_only_context_body_changes": true,
+      "case_sha256": "64de4e608443cbd596ea74829a8065b017de7b7af51b507093e6d43f77aa54c3"
+    },
+    {
+      "case": "aggregate_difference_yes_64_middle",
+      "tokens": 5625,
+      "closure_flip": true,
+      "prompt_only_context_body_changes": true,
+      "case_sha256": "3e00469c32e0f4d565682e799ec2ffc5f8652a854f56c0c95a6b519d158deeb6"
+    },
+    {
+      "case": "aggregate_difference_yes_8_end",
+      "tokens": 1203,
+      "closure_flip": true,
+      "prompt_only_context_body_changes": true,
+      "case_sha256": "47486c27f233e491a21fe0ed74c0ef8706fbb2c6c2db07760de509fd80d6ff61"
+    },
+    {
+      "case": "aggregate_difference_yes_8_front",
+      "tokens": 1203,
+      "closure_flip": true,
+      "prompt_only_context_body_changes": true,
+      "case_sha256": "3227ce6e86b1f3de86e4cdadcf787f28bbe1b3811c1c3f04ed9e052a56e28fe8"
+    },
+    {
+      "case": "aggregate_difference_yes_8_middle",
+      "tokens": 1203,
+      "closure_flip": true,
+      "prompt_only_context_body_changes": true,
+      "case_sha256": "1795a165192478eb97220b4e429aee118db01f9f9246ade6ce19d4f0258bfe2f"
+    }
+  ],
+  "scope": "independent declared-closure and exact-token/visible-input control; no model forward or human validation",
+  "limits": [
+    "same synthetic workflow; fixed related/unrelated lexical values may remain a shortcut",
+    "external heartbeat ledger is an initial condition, not an executed long agent trajectory"
+  ],
+  "seconds": 1.3727613000082783,
+  "audit_sha256": "19c1ad4a4977d132a8ab8675c3a4f7ab42c31e9a17b4416e0e905da1f21b3bad"
+}

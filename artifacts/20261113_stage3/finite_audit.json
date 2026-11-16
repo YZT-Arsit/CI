@@ -1,0 +1,68 @@
+{
+  "episode_replays": 192,
+  "reference_equal_by_seed": true,
+  "gradient_max_error": 1.7809531627221986e-11,
+  "arms": {
+    "ci": {
+      "episodes": {
+        "TASK_FAILURE": 24,
+        "SAFE_SUCCESS": 24
+      },
+      "pair_correct": {
+        "heldout_horizon": 6,
+        "train_horizon": 6
+      },
+      "pair_total": {
+        "heldout_horizon": 12,
+        "train_horizon": 12
+      },
+      "models": 3
+    },
+    "history": {
+      "episodes": {
+        "SAFE_SUCCESS": 43,
+        "VIOLATION": 5
+      },
+      "pair_correct": {
+        "heldout_horizon": 10,
+        "train_horizon": 9
+      },
+      "pair_total": {
+        "heldout_horizon": 12,
+        "train_horizon": 12
+      },
+      "models": 3
+    },
+    "ordinary": {
+      "episodes": {
+        "SAFE_SUCCESS": 40,
+        "VIOLATION": 8
+      },
+      "pair_correct": {
+        "heldout_horizon": 6,
+        "train_horizon": 6
+      },
+      "pair_total": {
+        "heldout_horizon": 12,
+        "train_horizon": 12
+      },
+      "models": 3
+    },
+    "sft_only": {
+      "episodes": {
+        "SAFE_SUCCESS": 40,
+        "VIOLATION": 8
+      },
+      "pair_correct": {
+        "heldout_horizon": 6,
+        "train_horizon": 6
+      },
+      "pair_total": {
+        "heldout_horizon": 12,
+        "train_horizon": 12
+      },
+      "models": 3
+    }
+  },
+  "all_passed": true
+}

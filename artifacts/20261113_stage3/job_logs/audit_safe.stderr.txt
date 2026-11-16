@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "D:\research\longhistory\artifacts\20261113_stage3\audit_release.py", line 133, in <module>
+    else:cce_audit(mode)
+         ~~~~~~~~~^^^^^^
+  File "D:\research\longhistory\artifacts\20261113_stage3\audit_release.py", line 115, in cce_audit
+    assert env.observation(s)==step['observation'];s,audit=env.transition(s,step['action']);assert audit==step['audit']
+                                                                                                   ^^^^^^^^^^^^^^^^^^^^
+AssertionError

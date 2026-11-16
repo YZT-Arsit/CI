@@ -1,0 +1,54 @@
+[
+  {
+    "id": "final_proxy_replay_preference_proxy",
+    "args": [
+      "-m",
+      "experiments.validate_proxy_artifacts",
+      "--folder",
+      "D:\\research\\longhistory\\artifacts\\20261112_cpu_pilot\\preference_proxy",
+      "--dataset",
+      "D:\\research\\longhistory\\artifacts\\20261112_cpu_pilot\\dataset\\canonical_preferences.jsonl",
+      "--output",
+      "D:\\research\\longhistory\\artifacts\\20261112_cpu_pilot\\preference_proxy_final_verification.json"
+    ]
+  },
+  {
+    "id": "final_proxy_replay_preference_proxy_v2",
+    "args": [
+      "-m",
+      "experiments.validate_proxy_artifacts",
+      "--folder",
+      "D:\\research\\longhistory\\artifacts\\20261112_cpu_pilot\\preference_proxy_v2",
+      "--dataset",
+      "D:\\research\\longhistory\\artifacts\\20261112_cpu_pilot\\dataset\\canonical_preferences.jsonl",
+      "--output",
+      "D:\\research\\longhistory\\artifacts\\20261112_cpu_pilot\\preference_proxy_v2_final_verification.json"
+    ]
+  },
+  {
+    "id": "final_proxy_replay_order_probe_v2",
+    "args": [
+      "-m",
+      "experiments.validate_proxy_artifacts",
+      "--folder",
+      "D:\\research\\longhistory\\artifacts\\20261112_cpu_pilot\\order_probe_v2",
+      "--dataset",
+      "D:\\research\\longhistory\\artifacts\\20261112_cpu_pilot\\dataset\\canonical_preferences.jsonl",
+      "--output",
+      "D:\\research\\longhistory\\artifacts\\20261112_cpu_pilot\\order_probe_v2_final_verification.json"
+    ]
+  },
+  {
+    "id": "final_proxy_replay_balance_probe",
+    "args": [
+      "-m",
+      "experiments.validate_proxy_artifacts",
+      "--folder",
+      "D:\\research\\longhistory\\artifacts\\20261112_cpu_pilot\\balance_probe",
+      "--dataset",
+      "D:\\research\\longhistory\\artifacts\\20261112_cpu_pilot\\dataset\\canonical_preferences.jsonl",
+      "--output",
+      "D:\\research\\longhistory\\artifacts\\20261112_cpu_pilot\\balance_probe_final_verification.json"
+    ]
+  }
+]

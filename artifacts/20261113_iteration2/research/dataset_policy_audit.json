@@ -1,0 +1,247 @@
+{
+  "scope": "independent export/optimization audit, finite text-feature policy, not LLM evidence",
+  "raw_preferences": 4860,
+  "accepted_unique_preferences": 4286,
+  "quarantined_raw_preferences": 96,
+  "sft_controls_recomputed": 1982,
+  "sft_classes_rejected": 1170,
+  "same_prompt_cross_family_classes": 0,
+  "within_state_action_class_collisions": 0,
+  "source_membership_sets": {
+    "future|repair": 1132,
+    "future": 3044,
+    "ci|repair": 46,
+    "ci": 64
+  },
+  "repair_adds_unique_pairs_beyond_ci_future": 0,
+  "train_or_sft_vs_test_exact_prompt_overlaps": {
+    "aggregate_difference": 0,
+    "alias_chain_3": 0,
+    "identity_attribute": 0,
+    "set_intersection": 0
+  },
+  "jobs_checked": 40,
+  "same_fold_seed_reference_weight_equality_checks": 32,
+  "both_parameter_gradient_max_absolute_error": 3.7180097889333297e-10,
+  "balanced_source_batch_counts": {
+    "ci": 67,
+    "future": 67,
+    "repair": 66
+  },
+  "job_checks": [
+    {
+      "job": "aggregate_difference_all_17",
+      "batches": 200,
+      "passed": true
+    },
+    {
+      "job": "aggregate_difference_all_29",
+      "batches": 200,
+      "passed": true
+    },
+    {
+      "job": "aggregate_difference_balanced_17",
+      "batches": 200,
+      "passed": true
+    },
+    {
+      "job": "aggregate_difference_balanced_29",
+      "batches": 200,
+      "passed": true
+    },
+    {
+      "job": "aggregate_difference_ci_17",
+      "batches": 200,
+      "passed": true
+    },
+    {
+      "job": "aggregate_difference_ci_29",
+      "batches": 200,
+      "passed": true
+    },
+    {
+      "job": "aggregate_difference_future_17",
+      "batches": 200,
+      "passed": true
+    },
+    {
+      "job": "aggregate_difference_future_29",
+      "batches": 200,
+      "passed": true
+    },
+    {
+      "job": "aggregate_difference_sft_only_17",
+      "batches": 0,
+      "passed": true
+    },
+    {
+      "job": "aggregate_difference_sft_only_29",
+      "batches": 0,
+      "passed": true
+    },
+    {
+      "job": "alias_chain_3_all_17",
+      "batches": 200,
+      "passed": true
+    },
+    {
+      "job": "alias_chain_3_all_29",
+      "batches": 200,
+      "passed": true
+    },
+    {
+      "job": "alias_chain_3_balanced_17",
+      "batches": 200,
+      "passed": true
+    },
+    {
+      "job": "alias_chain_3_balanced_29",
+      "batches": 200,
+      "passed": true
+    },
+    {
+      "job": "alias_chain_3_ci_17",
+      "batches": 200,
+      "passed": true
+    },
+    {
+      "job": "alias_chain_3_ci_29",
+      "batches": 200,
+      "passed": true
+    },
+    {
+      "job": "alias_chain_3_future_17",
+      "batches": 200,
+      "passed": true
+    },
+    {
+      "job": "alias_chain_3_future_29",
+      "batches": 200,
+      "passed": true
+    },
+    {
+      "job": "alias_chain_3_sft_only_17",
+      "batches": 0,
+      "passed": true
+    },
+    {
+      "job": "alias_chain_3_sft_only_29",
+      "batches": 0,
+      "passed": true
+    },
+    {
+      "job": "identity_attribute_all_17",
+      "batches": 200,
+      "passed": true
+    },
+    {
+      "job": "identity_attribute_all_29",
+      "batches": 200,
+      "passed": true
+    },
+    {
+      "job": "identity_attribute_balanced_17",
+      "batches": 200,
+      "passed": true
+    },
+    {
+      "job": "identity_attribute_balanced_29",
+      "batches": 200,
+      "passed": true
+    },
+    {
+      "job": "identity_attribute_ci_17",
+      "batches": 200,
+      "passed": true
+    },
+    {
+      "job": "identity_attribute_ci_29",
+      "batches": 200,
+      "passed": true
+    },
+    {
+      "job": "identity_attribute_future_17",
+      "batches": 200,
+      "passed": true
+    },
+    {
+      "job": "identity_attribute_future_29",
+      "batches": 200,
+      "passed": true
+    },
+    {
+      "job": "identity_attribute_sft_only_17",
+      "batches": 0,
+      "passed": true
+    },
+    {
+      "job": "identity_attribute_sft_only_29",
+      "batches": 0,
+      "passed": true
+    },
+    {
+      "job": "set_intersection_all_17",
+      "batches": 200,
+      "passed": true
+    },
+    {
+      "job": "set_intersection_all_29",
+      "batches": 200,
+      "passed": true
+    },
+    {
+      "job": "set_intersection_balanced_17",
+      "batches": 200,
+      "passed": true
+    },
+    {
+      "job": "set_intersection_balanced_29",
+      "batches": 200,
+      "passed": true
+    },
+    {
+      "job": "set_intersection_ci_17",
+      "batches": 200,
+      "passed": true
+    },
+    {
+      "job": "set_intersection_ci_29",
+      "batches": 200,
+      "passed": true
+    },
+    {
+      "job": "set_intersection_future_17",
+      "batches": 200,
+      "passed": true
+    },
+    {
+      "job": "set_intersection_future_29",
+      "batches": 200,
+      "passed": true
+    },
+    {
+      "job": "set_intersection_sft_only_17",
+      "batches": 0,
+      "passed": true
+    },
+    {
+      "job": "set_intersection_sft_only_29",
+      "batches": 0,
+      "passed": true
+    }
+  ],
+  "limits": [
+    "one workflow/source; four declared structural families, not four independent tasks",
+    "hashed visible text and fixed canonical action menu, no autoregressive language modeling",
+    "SFT targets conditional on finite enumerated compatible support and frozen exact-action grammar",
+    "repair source overlaps existing CI/future pairs; balanced is reweighting",
+    "two seeds are engineering sensitivity, not population-level method evidence"
+  ],
+  "inputs_sha256": {
+    "preferences": "505eacecb91e1090e8cc9b06c54a4bea218acb847f8f690ad979df2c95c90f4f",
+    "sft": "4cb3340a531a7606c7c86039e7a765eff9225da86461a8d0451e4b86c27fc19b",
+    "policy_source": "186e5f227f560cb3f9fbba97114d0123f59ffeeab576b0a9bf5ce29454031f26",
+    "audit_source": "a9a2bb436d28f04e2536a0bde030d7917816b8d66e36ba66fcdb60f82e63243b"
+  },
+  "seconds": 1.92751369997859
+}

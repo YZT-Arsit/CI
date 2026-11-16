@@ -1,0 +1,137 @@
+[
+  {
+    "id": "order_v2_future_then_ci_17",
+    "args": [
+      "-m",
+      "experiments.preference_probe",
+      "--dataset",
+      "D:\\research\\longhistory\\artifacts\\20261112_cpu_pilot\\dataset\\canonical_preferences.jsonl",
+      "--variant",
+      "future_then_ci",
+      "--seed",
+      "17",
+      "--output",
+      "D:\\research\\longhistory\\artifacts\\20261112_cpu_pilot\\order_probe_v2\\future_then_ci_17.json"
+    ]
+  },
+  {
+    "id": "order_v2_future_then_ci_29",
+    "args": [
+      "-m",
+      "experiments.preference_probe",
+      "--dataset",
+      "D:\\research\\longhistory\\artifacts\\20261112_cpu_pilot\\dataset\\canonical_preferences.jsonl",
+      "--variant",
+      "future_then_ci",
+      "--seed",
+      "29",
+      "--output",
+      "D:\\research\\longhistory\\artifacts\\20261112_cpu_pilot\\order_probe_v2\\future_then_ci_29.json"
+    ]
+  },
+  {
+    "id": "order_v2_future_then_ci_43",
+    "args": [
+      "-m",
+      "experiments.preference_probe",
+      "--dataset",
+      "D:\\research\\longhistory\\artifacts\\20261112_cpu_pilot\\dataset\\canonical_preferences.jsonl",
+      "--variant",
+      "future_then_ci",
+      "--seed",
+      "43",
+      "--output",
+      "D:\\research\\longhistory\\artifacts\\20261112_cpu_pilot\\order_probe_v2\\future_then_ci_43.json"
+    ]
+  },
+  {
+    "id": "order_v2_ci_then_future_17",
+    "args": [
+      "-m",
+      "experiments.preference_probe",
+      "--dataset",
+      "D:\\research\\longhistory\\artifacts\\20261112_cpu_pilot\\dataset\\canonical_preferences.jsonl",
+      "--variant",
+      "ci_then_future",
+      "--seed",
+      "17",
+      "--output",
+      "D:\\research\\longhistory\\artifacts\\20261112_cpu_pilot\\order_probe_v2\\ci_then_future_17.json"
+    ]
+  },
+  {
+    "id": "order_v2_ci_then_future_29",
+    "args": [
+      "-m",
+      "experiments.preference_probe",
+      "--dataset",
+      "D:\\research\\longhistory\\artifacts\\20261112_cpu_pilot\\dataset\\canonical_preferences.jsonl",
+      "--variant",
+      "ci_then_future",
+      "--seed",
+      "29",
+      "--output",
+      "D:\\research\\longhistory\\artifacts\\20261112_cpu_pilot\\order_probe_v2\\ci_then_future_29.json"
+    ]
+  },
+  {
+    "id": "order_v2_ci_then_future_43",
+    "args": [
+      "-m",
+      "experiments.preference_probe",
+      "--dataset",
+      "D:\\research\\longhistory\\artifacts\\20261112_cpu_pilot\\dataset\\canonical_preferences.jsonl",
+      "--variant",
+      "ci_then_future",
+      "--seed",
+      "43",
+      "--output",
+      "D:\\research\\longhistory\\artifacts\\20261112_cpu_pilot\\order_probe_v2\\ci_then_future_43.json"
+    ]
+  },
+  {
+    "id": "order_v2_balanced_ci_future_17",
+    "args": [
+      "-m",
+      "experiments.preference_probe",
+      "--dataset",
+      "D:\\research\\longhistory\\artifacts\\20261112_cpu_pilot\\dataset\\canonical_preferences.jsonl",
+      "--variant",
+      "balanced_ci_future",
+      "--seed",
+      "17",
+      "--output",
+      "D:\\research\\longhistory\\artifacts\\20261112_cpu_pilot\\order_probe_v2\\balanced_ci_future_17.json"
+    ]
+  },
+  {
+    "id": "order_v2_balanced_ci_future_29",
+    "args": [
+      "-m",
+      "experiments.preference_probe",
+      "--dataset",
+      "D:\\research\\longhistory\\artifacts\\20261112_cpu_pilot\\dataset\\canonical_preferences.jsonl",
+      "--variant",
+      "balanced_ci_future",
+      "--seed",
+      "29",
+      "--output",
+      "D:\\research\\longhistory\\artifacts\\20261112_cpu_pilot\\order_probe_v2\\balanced_ci_future_29.json"
+    ]
+  },
+  {
+    "id": "order_v2_balanced_ci_future_43",
+    "args": [
+      "-m",
+      "experiments.preference_probe",
+      "--dataset",
+      "D:\\research\\longhistory\\artifacts\\20261112_cpu_pilot\\dataset\\canonical_preferences.jsonl",
+      "--variant",
+      "balanced_ci_future",
+      "--seed",
+      "43",
+      "--output",
+      "D:\\research\\longhistory\\artifacts\\20261112_cpu_pilot\\order_probe_v2\\balanced_ci_future_43.json"
+    ]
+  }
+]

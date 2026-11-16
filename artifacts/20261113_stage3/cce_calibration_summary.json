@@ -1,0 +1,106 @@
+{
+  "rows": [
+    {
+      "case": "null",
+      "upper_certificate": false,
+      "status": "UNKNOWN",
+      "level": "None",
+      "count": 8
+    },
+    {
+      "case": "null",
+      "upper_certificate": true,
+      "status": "UNKNOWN",
+      "level": "None",
+      "count": 8
+    },
+    {
+      "case": "success",
+      "upper_certificate": false,
+      "status": "UNKNOWN",
+      "level": "None",
+      "count": 8
+    },
+    {
+      "case": "success",
+      "upper_certificate": true,
+      "status": "STATISTICAL_PREFERENCE",
+      "level": "safe_success",
+      "count": 8
+    },
+    {
+      "case": "cost",
+      "upper_certificate": false,
+      "status": "UNKNOWN",
+      "level": "None",
+      "count": 8
+    },
+    {
+      "case": "cost",
+      "upper_certificate": true,
+      "status": "STATISTICAL_PREFERENCE",
+      "level": "completion_cost",
+      "count": 8
+    },
+    {
+      "case": "risk_priority",
+      "upper_certificate": false,
+      "status": "STATISTICAL_PREFERENCE",
+      "level": "ci",
+      "count": 8
+    },
+    {
+      "case": "risk_priority",
+      "upper_certificate": true,
+      "status": "STATISTICAL_PREFERENCE",
+      "level": "ci",
+      "count": 8
+    },
+    {
+      "case": "tiny_risk_blocks_cost",
+      "upper_certificate": false,
+      "status": "UNKNOWN",
+      "level": "None",
+      "count": 8
+    },
+    {
+      "case": "tiny_risk_blocks_cost",
+      "upper_certificate": true,
+      "status": "UNKNOWN",
+      "level": "None",
+      "count": 8
+    },
+    {
+      "case": "unknown",
+      "upper_certificate": false,
+      "status": "UNKNOWN",
+      "level": "None",
+      "count": 8
+    },
+    {
+      "case": "unknown",
+      "upper_certificate": true,
+      "status": "UNKNOWN",
+      "level": "None",
+      "count": 8
+    },
+    {
+      "case": "conditional_cost_unresolved",
+      "upper_certificate": false,
+      "status": "UNKNOWN",
+      "level": "None",
+      "count": 8
+    },
+    {
+      "case": "conditional_cost_unresolved",
+      "upper_certificate": true,
+      "status": "UNKNOWN",
+      "level": "None",
+      "count": 8
+    }
+  ],
+  "comparisons": 112,
+  "per_comparison_delta": 0.01,
+  "family_wise_guarantee_claimed": false,
+  "scope": "finite paired outcome tables, not new environment rollouts or LLM policy proof"
+}

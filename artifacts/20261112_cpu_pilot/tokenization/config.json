@@ -1,0 +1,42 @@
+{
+  "chunk_size": 128,
+  "dependencies": {
+    "Jinja2": "3.1.6",
+    "MarkupSafe": "3.0.4",
+    "tokenizers": "0.23.3"
+  },
+  "input_path": "D:\\research\\longhistory\\artifacts\\20261112_cpu_pilot\\dataset\\preferences.jsonl",
+  "input_rows": 1824,
+  "input_sha256": "76a502402833d2f4618ff50e8ce39ae904200b9ebb53d065a80e269bff60f1e3",
+  "maximum_lengths": [
+    256,
+    512,
+    1024,
+    2048,
+    4096
+  ],
+  "official_repo": "Qwen/Qwen2.5-7B-Instruct",
+  "official_revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+  "runtime_python": "3.13.14 (tags/v3.13.14:fd17997, Jun 10 2026, 13:03:48) [MSC v.1944 64 bit (AMD64)]",
+  "scope": "CPU tokenizer/preprocessing and synthetic reduction only; NO model forward/backward",
+  "source_sha256": "cc89495adb67a7e0ec02f5ac07d9c17d58dc1db14cf766a871af5e7aa55f07be",
+  "tokenizer_files": {
+    "tokenizer.json": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+    "tokenizer_config.json": "5b5d4f65d0acd3b2d56a35b56d374a36cbc1c8fa5cf3b3febbbfabf22f359583"
+  },
+  "wheels": {
+    "jinja2-3.1.6-py3-none-any.whl": {
+      "bytes": 134899,
+      "sha256": "85ece4451f492d0c13c5dd7c13a64681a86afae63a5f347908daf103ce6d2f67"
+    },
+    "markupsafe-3.0.4-cp313-cp313-win_amd64.whl": {
+      "bytes": 14313,
+      "sha256": "1f1f9477e174582b0a1b583d60b66e1f2cf5d3fe12cee985e4aedf44766600e5"
+    },
+    "tokenizers-0.23.3-cp310-abi3-win_amd64.whl": {
+      "bytes": 2872101,
+      "sha256": "1f0823bb00c5fdc98e487354d54dd55a03848d61a1a0bf29a68c77f24f3b26c3"
+    }
+  },
+  "worker_timeout_seconds": 9.5
+}

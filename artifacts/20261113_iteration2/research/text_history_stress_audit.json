@@ -1,0 +1,34 @@
+{
+  "models": 40,
+  "side_rows": 1600,
+  "model_group_rows": 800,
+  "correct_sides": 800,
+  "joint_correct_groups": 0,
+  "ties": 0,
+  "by_count": {
+    "0": {
+      "sides": 160,
+      "correct": 80
+    },
+    "8": {
+      "sides": 480,
+      "correct": 240
+    },
+    "64": {
+      "sides": 480,
+      "correct": 240
+    },
+    "256": {
+      "sides": 480,
+      "correct": 240
+    }
+  },
+  "max_recomputed_logit_absolute_error": 3.552713678800501e-15,
+  "all_saved_weights_bound": true,
+  "full_prompt_features_recomputed": 160,
+  "scope": "exploratory frozen finite-policy pair scores, no actual policy rollouts, no LLM inference, no independent-task evidence",
+  "report_scientific_boundaries_accepted": true,
+  "must_fix_items": [],
+  "audit_sha256": "007abffc773b82cf24c767c344f4e6a5e8dff4a59b287c5c915bd551cec68557",
+  "seconds": 1.0958440999966115
+}

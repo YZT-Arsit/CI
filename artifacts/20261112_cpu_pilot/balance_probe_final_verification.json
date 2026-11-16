@@ -1,0 +1,68 @@
+{
+  "seconds": 1.024576600000728,
+  "checks": [
+    {
+      "file": "all_sft_ci_x14_17.json",
+      "sha256": "82687827097c8d86ea197a2d087950d5659338fb0c97417c743cc61c4cbbcdc7",
+      "replay_pass": true,
+      "safe_successes": 10,
+      "feasible": 11,
+      "violations": 0
+    },
+    {
+      "file": "all_sft_ci_x14_29.json",
+      "sha256": "3d60e6e78c52cf804e35d4d532b1b53b42d4adf533ce45ab3d2d5f5c604b7ca0",
+      "replay_pass": true,
+      "safe_successes": 10,
+      "feasible": 11,
+      "violations": 0
+    },
+    {
+      "file": "all_sft_ci_x14_43.json",
+      "sha256": "a9ece5e2dbf66b58d081d632b1f25a2435faa181b3bbf6a3d6b968b17f2bd1a4",
+      "replay_pass": true,
+      "safe_successes": 10,
+      "feasible": 11,
+      "violations": 0
+    },
+    {
+      "file": "all_sft_ci_x4_17.json",
+      "sha256": "6be12e3c36d932c93c5f2f2f601012c95c0e8042ce85922c2fdd50b2951818b0",
+      "replay_pass": true,
+      "safe_successes": 10,
+      "feasible": 11,
+      "violations": 2
+    },
+    {
+      "file": "all_sft_ci_x4_29.json",
+      "sha256": "2ad932b85954a24cad466bf0e1b7bccde988e9997014e4798ce29d68489190b5",
+      "replay_pass": true,
+      "safe_successes": 10,
+      "feasible": 11,
+      "violations": 0
+    },
+    {
+      "file": "all_sft_ci_x4_43.json",
+      "sha256": "5ae92c93e41ec32d90b4283c3a1051cc19e6c505ebeeaa415c0cc86b9727e0c1",
+      "replay_pass": true,
+      "safe_successes": 10,
+      "feasible": 11,
+      "violations": 0
+    }
+  ],
+  "all_pass": true,
+  "core_sha256": {
+    "__init__.py": "9a5bc441896f06c62aef1fbed5a9783bb5519f2af72985e601169e1376406ec4",
+    "candidates.py": "b47ca449b6cd3dde7492be17c6003fb6a53f314e3d54ee7a3bc0da64ed82bb56",
+    "continuation.py": "717065c2882b77c5d7cda8de7f35f1603718206aa1dfbb3e610697e1615b651b",
+    "contracts.py": "416e1efd3823e581289b356d12f840e98d6d7e2af3f9dfe18f418db71a61d7ce",
+    "datasets.py": "87f4f1348ffd15de4b58e460a528d1486a8df189ac782299f2afd225011606be",
+    "interfaces.py": "bc2ebab9b85ae62cece956b06b0ce853365f7934e482200ce0421cc20c016f6f",
+    "paired.py": "b279c076d8f3c6e4db452f3bf06759002bf3433b0e8a5869773d7090f44760ef",
+    "repair.py": "d395851ac5a0756d3eaa0f92139672ee779e77fc700b76f56f2a82aceaa3c9c6",
+    "rewards.py": "54023bccaf5d295e7bc106f63ca93b79897075965c487528fe6710e0841b6892",
+    "toy_env.py": "618390ca75fdf1c503e6d8c8942a25656cbdc8a939349104704cee0bef2a47d0"
+  },
+  "dataset_sha256": "ce19d5f38edc0828d9d4995dfbf7dea0035b8156b818c3f1efee161372086722",
+  "scope": "saved_weight_replay_only_no_new_fit_or_new_llm_calls"
+}

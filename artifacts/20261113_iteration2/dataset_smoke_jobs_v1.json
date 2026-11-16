@@ -1,0 +1,54 @@
+[
+  {
+    "id": "data_smoke_identity_attribute",
+    "args": [
+      "-m",
+      "experiments.multi_dataset",
+      "--plan",
+      "..\\artifacts\\20261113_iteration2\\dataset_plan.json",
+      "--case-id",
+      "identity_attribute_threshold_yes_0_0_9",
+      "--output",
+      "..\\artifacts\\20261113_iteration2\\dataset_smoke\\identity_attribute_threshold_yes_0_0_9.json"
+    ]
+  },
+  {
+    "id": "data_smoke_alias_chain_3",
+    "args": [
+      "-m",
+      "experiments.multi_dataset",
+      "--plan",
+      "..\\artifacts\\20261113_iteration2\\dataset_plan.json",
+      "--case-id",
+      "alias_chain_3_threshold_yes_0_0_9",
+      "--output",
+      "..\\artifacts\\20261113_iteration2\\dataset_smoke\\alias_chain_3_threshold_yes_0_0_9.json"
+    ]
+  },
+  {
+    "id": "data_smoke_aggregate_difference",
+    "args": [
+      "-m",
+      "experiments.multi_dataset",
+      "--plan",
+      "..\\artifacts\\20261113_iteration2\\dataset_plan.json",
+      "--case-id",
+      "aggregate_difference_threshold_yes_0_0_9",
+      "--output",
+      "..\\artifacts\\20261113_iteration2\\dataset_smoke\\aggregate_difference_threshold_yes_0_0_9.json"
+    ]
+  },
+  {
+    "id": "data_smoke_set_intersection",
+    "args": [
+      "-m",
+      "experiments.multi_dataset",
+      "--plan",
+      "..\\artifacts\\20261113_iteration2\\dataset_plan.json",
+      "--case-id",
+      "set_intersection_membership_yes_0_0_9",
+      "--output",
+      "..\\artifacts\\20261113_iteration2\\dataset_smoke\\set_intersection_membership_yes_0_0_9.json"
+    ]
+  }
+]

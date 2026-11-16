@@ -1,0 +1,489 @@
+{
+  "generated_utc": "2026-11-13T09:30:36.798365+00:00",
+  "tests": 124,
+  "legacy": {
+    "unique_future_pairs": 4176,
+    "categories": {
+      "CI_mediated_task_reachability": 12,
+      "ordinary_task_reachability": 3926,
+      "CI_mediated_compliant_path_cost": 12,
+      "ordinary_compliant_path_cost": 226
+    },
+    "mixed_contributor_pairs": [],
+    "workers": 112,
+    "all_completed": true,
+    "max_worker_seconds": 0.3098255000077188,
+    "history_flip_proven_by_this_audit": 0,
+    "independent_workflows": 1,
+    "scope": "authorization intervention; no history-flip inference"
+  },
+  "data": {
+    "cases": [
+      {
+        "case_id": "meeting_h0_a0_t6",
+        "contract": {
+          "version": "dynamic_tasks_v1",
+          "kind": "meeting",
+          "related": false,
+          "allow": false,
+          "horizon": 6,
+          "source_hashes": {
+            "pisas_hf/meeting_allocation/scenario_01/scenario.json": "fa0e044e1f68ff7dced3e3ecc3a70b7bd8939d8fbb2957363deb8db758210e5b",
+            "pisas_hf/meeting_allocation/scenario_01/utility.json": "de8cb5c091a97114582e613a276ce89f10d4cb45ab50172d6b02fbc6b23d9e8e"
+          }
+        },
+        "states": 13
+      },
+      {
+        "case_id": "meeting_h0_a0_t9",
+        "contract": {
+          "version": "dynamic_tasks_v1",
+          "kind": "meeting",
+          "related": false,
+          "allow": false,
+          "horizon": 9,
+          "source_hashes": {
+            "pisas_hf/meeting_allocation/scenario_01/scenario.json": "fa0e044e1f68ff7dced3e3ecc3a70b7bd8939d8fbb2957363deb8db758210e5b",
+            "pisas_hf/meeting_allocation/scenario_01/utility.json": "de8cb5c091a97114582e613a276ce89f10d4cb45ab50172d6b02fbc6b23d9e8e"
+          }
+        },
+        "states": 16
+      },
+      {
+        "case_id": "meeting_h0_a1_t6",
+        "contract": {
+          "version": "dynamic_tasks_v1",
+          "kind": "meeting",
+          "related": false,
+          "allow": true,
+          "horizon": 6,
+          "source_hashes": {
+            "pisas_hf/meeting_allocation/scenario_01/scenario.json": "fa0e044e1f68ff7dced3e3ecc3a70b7bd8939d8fbb2957363deb8db758210e5b",
+            "pisas_hf/meeting_allocation/scenario_01/utility.json": "de8cb5c091a97114582e613a276ce89f10d4cb45ab50172d6b02fbc6b23d9e8e"
+          }
+        },
+        "states": 13
+      },
+      {
+        "case_id": "meeting_h0_a1_t9",
+        "contract": {
+          "version": "dynamic_tasks_v1",
+          "kind": "meeting",
+          "related": false,
+          "allow": true,
+          "horizon": 9,
+          "source_hashes": {
+            "pisas_hf/meeting_allocation/scenario_01/scenario.json": "fa0e044e1f68ff7dced3e3ecc3a70b7bd8939d8fbb2957363deb8db758210e5b",
+            "pisas_hf/meeting_allocation/scenario_01/utility.json": "de8cb5c091a97114582e613a276ce89f10d4cb45ab50172d6b02fbc6b23d9e8e"
+          }
+        },
+        "states": 16
+      },
+      {
+        "case_id": "meeting_h1_a0_t6",
+        "contract": {
+          "version": "dynamic_tasks_v1",
+          "kind": "meeting",
+          "related": true,
+          "allow": false,
+          "horizon": 6,
+          "source_hashes": {
+            "pisas_hf/meeting_allocation/scenario_01/scenario.json": "fa0e044e1f68ff7dced3e3ecc3a70b7bd8939d8fbb2957363deb8db758210e5b",
+            "pisas_hf/meeting_allocation/scenario_01/utility.json": "de8cb5c091a97114582e613a276ce89f10d4cb45ab50172d6b02fbc6b23d9e8e"
+          }
+        },
+        "states": 11
+      },
+      {
+        "case_id": "meeting_h1_a0_t9",
+        "contract": {
+          "version": "dynamic_tasks_v1",
+          "kind": "meeting",
+          "related": true,
+          "allow": false,
+          "horizon": 9,
+          "source_hashes": {
+            "pisas_hf/meeting_allocation/scenario_01/scenario.json": "fa0e044e1f68ff7dced3e3ecc3a70b7bd8939d8fbb2957363deb8db758210e5b",
+            "pisas_hf/meeting_allocation/scenario_01/utility.json": "de8cb5c091a97114582e613a276ce89f10d4cb45ab50172d6b02fbc6b23d9e8e"
+          }
+        },
+        "states": 14
+      },
+      {
+        "case_id": "meeting_h1_a1_t6",
+        "contract": {
+          "version": "dynamic_tasks_v1",
+          "kind": "meeting",
+          "related": true,
+          "allow": true,
+          "horizon": 6,
+          "source_hashes": {
+            "pisas_hf/meeting_allocation/scenario_01/scenario.json": "fa0e044e1f68ff7dced3e3ecc3a70b7bd8939d8fbb2957363deb8db758210e5b",
+            "pisas_hf/meeting_allocation/scenario_01/utility.json": "de8cb5c091a97114582e613a276ce89f10d4cb45ab50172d6b02fbc6b23d9e8e"
+          }
+        },
+        "states": 13
+      },
+      {
+        "case_id": "meeting_h1_a1_t9",
+        "contract": {
+          "version": "dynamic_tasks_v1",
+          "kind": "meeting",
+          "related": true,
+          "allow": true,
+          "horizon": 9,
+          "source_hashes": {
+            "pisas_hf/meeting_allocation/scenario_01/scenario.json": "fa0e044e1f68ff7dced3e3ecc3a70b7bd8939d8fbb2957363deb8db758210e5b",
+            "pisas_hf/meeting_allocation/scenario_01/utility.json": "de8cb5c091a97114582e613a276ce89f10d4cb45ab50172d6b02fbc6b23d9e8e"
+          }
+        },
+        "states": 16
+      },
+      {
+        "case_id": "query_h0_a0_t7",
+        "contract": {
+          "version": "dynamic_tasks_v1",
+          "kind": "query",
+          "related": false,
+          "allow": false,
+          "horizon": 7,
+          "source_hashes": {
+            "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+          }
+        },
+        "states": 31
+      },
+      {
+        "case_id": "query_h0_a0_t10",
+        "contract": {
+          "version": "dynamic_tasks_v1",
+          "kind": "query",
+          "related": false,
+          "allow": false,
+          "horizon": 10,
+          "source_hashes": {
+            "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+          }
+        },
+        "states": 37
+      },
+      {
+        "case_id": "query_h0_a1_t7",
+        "contract": {
+          "version": "dynamic_tasks_v1",
+          "kind": "query",
+          "related": false,
+          "allow": true,
+          "horizon": 7,
+          "source_hashes": {
+            "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+          }
+        },
+        "states": 31
+      },
+      {
+        "case_id": "query_h0_a1_t10",
+        "contract": {
+          "version": "dynamic_tasks_v1",
+          "kind": "query",
+          "related": false,
+          "allow": true,
+          "horizon": 10,
+          "source_hashes": {
+            "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+          }
+        },
+        "states": 37
+      },
+      {
+        "case_id": "query_h1_a0_t7",
+        "contract": {
+          "version": "dynamic_tasks_v1",
+          "kind": "query",
+          "related": true,
+          "allow": false,
+          "horizon": 7,
+          "source_hashes": {
+            "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+          }
+        },
+        "states": 26
+      },
+      {
+        "case_id": "query_h1_a0_t10",
+        "contract": {
+          "version": "dynamic_tasks_v1",
+          "kind": "query",
+          "related": true,
+          "allow": false,
+          "horizon": 10,
+          "source_hashes": {
+            "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+          }
+        },
+        "states": 32
+      },
+      {
+        "case_id": "query_h1_a1_t7",
+        "contract": {
+          "version": "dynamic_tasks_v1",
+          "kind": "query",
+          "related": true,
+          "allow": true,
+          "horizon": 7,
+          "source_hashes": {
+            "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+          }
+        },
+        "states": 31
+      },
+      {
+        "case_id": "query_h1_a1_t10",
+        "contract": {
+          "version": "dynamic_tasks_v1",
+          "kind": "query",
+          "related": true,
+          "allow": true,
+          "horizon": 10,
+          "source_hashes": {
+            "multiagentprivacy/data/experiment_10_def_adv_both.json": "f2cffd8efa48ae17fcb8cd0d384c03baf9d9bf065ab442c9b667d71825f8690a"
+          }
+        },
+        "states": 37
+      }
+    ],
+    "raw_pairs": 208,
+    "unique_pairs": 208,
+    "quarantined_rows": 0,
+    "levels": {
+      "future_cost": 42,
+      "future_reachability": 162,
+      "immediate_CI": 4
+    },
+    "history_flip_groups": 4,
+    "history_flip_unique_preferences": 8,
+    "workflow_contracts": 2,
+    "source_instances": 2,
+    "parameter_configs_not_independent_tasks": true,
+    "states": 374,
+    "visible_prompt_classes": 374,
+    "deprived_conflict_classes": 10,
+    "repair_states": 158,
+    "unique_repair_pairs": 158,
+    "repair_pairs_not_in_main": 0,
+    "human_verified": false,
+    "real_llm_learning_established": false
+  },
+  "finite": {
+    "episode_replays": 192,
+    "reference_equal_by_seed": true,
+    "gradient_max_error": 1.7809531627221986e-11,
+    "arms": {
+      "ci": {
+        "episodes": {
+          "TASK_FAILURE": 24,
+          "SAFE_SUCCESS": 24
+        },
+        "pair_correct": {
+          "heldout_horizon": 6,
+          "train_horizon": 6
+        },
+        "pair_total": {
+          "heldout_horizon": 12,
+          "train_horizon": 12
+        },
+        "models": 3
+      },
+      "history": {
+        "episodes": {
+          "SAFE_SUCCESS": 43,
+          "VIOLATION": 5
+        },
+        "pair_correct": {
+          "heldout_horizon": 10,
+          "train_horizon": 9
+        },
+        "pair_total": {
+          "heldout_horizon": 12,
+          "train_horizon": 12
+        },
+        "models": 3
+      },
+      "ordinary": {
+        "episodes": {
+          "SAFE_SUCCESS": 40,
+          "VIOLATION": 8
+        },
+        "pair_correct": {
+          "heldout_horizon": 6,
+          "train_horizon": 6
+        },
+        "pair_total": {
+          "heldout_horizon": 12,
+          "train_horizon": 12
+        },
+        "models": 3
+      },
+      "sft_only": {
+        "episodes": {
+          "SAFE_SUCCESS": 40,
+          "VIOLATION": 8
+        },
+        "pair_correct": {
+          "heldout_horizon": 6,
+          "train_horizon": 6
+        },
+        "pair_total": {
+          "heldout_horizon": 12,
+          "train_horizon": 12
+        },
+        "models": 3
+      }
+    },
+    "all_passed": true
+  },
+  "qwen": {
+    "replayed_decisions": 20,
+    "metrics": {
+      "initial_correct": 12,
+      "initial_count": 16,
+      "downstream_correct": 1,
+      "downstream_count": 4,
+      "joint_history_groups": 4,
+      "joint_history_correct": 0,
+      "offline_repairable_decisions": 3
+    },
+    "completed_tokens": {
+      "prompt": 7192,
+      "generated": 40,
+      "completed": 20
+    },
+    "max_request_seconds": 6.039247900014743,
+    "total_request_seconds": 58.5171629000688,
+    "model_released": true,
+    "actual_full_qwen_episodes": 0,
+    "all_passed": true
+  },
+  "cce_counts": {
+    "n256_proofFalse_UNKNOWN_None": 40,
+    "n256_proofTrue_UNKNOWN_None": 38,
+    "n8192_proofFalse_UNKNOWN_None": 40,
+    "n8192_proofTrue_STATISTICAL_PREFERENCE_completion_cost": 38,
+    "n256_proofTrue_STATISTICAL_PREFERENCE_safe_success": 2,
+    "n8192_proofTrue_STATISTICAL_PREFERENCE_safe_success": 2,
+    "n256_proofFalse_STATISTICAL_PREFERENCE_ci": 8,
+    "n256_proofTrue_STATISTICAL_PREFERENCE_ci": 8,
+    "n8192_proofFalse_STATISTICAL_PREFERENCE_ci": 8,
+    "n8192_proofTrue_STATISTICAL_PREFERENCE_ci": 8
+  },
+  "cce_certified": 74,
+  "cce_unknown": 118,
+  "replay": {
+    "token_equal_history_groups": [
+      {
+        "cases": [
+          "meeting_h0_a0_t6",
+          "meeting_h1_a0_t6"
+        ],
+        "prompt_tokens": 362
+      },
+      {
+        "cases": [
+          "meeting_h0_a0_t9",
+          "meeting_h1_a0_t9"
+        ],
+        "prompt_tokens": 362
+      },
+      {
+        "cases": [
+          "query_h0_a0_t7",
+          "query_h1_a0_t7"
+        ],
+        "prompt_tokens": 473
+      },
+      {
+        "cases": [
+          "query_h0_a0_t10",
+          "query_h1_a0_t10"
+        ],
+        "prompt_tokens": 473
+      }
+    ],
+    "encoded_rows": 208,
+    "repair_diagnostics": 158,
+    "distinct_repair_states": 158,
+    "immediate_CI_repairs": 3,
+    "repair_only_pairs": 0,
+    "all_passed": true
+  },
+  "readiness": {
+    "synthetic_history_signal": "GO_WITH_EXPLICIT_FINITE_CONTRACT",
+    "small_real_llm_training": "CONDITIONAL_GO_FOR_ENGINEERING_PILOT_ONLY",
+    "conditions": [
+      "implement and verify actual Trainer/model forward and masked sequence loss",
+      "allocate GPU and verify checkpoint/reference/optimizer/numerical equivalence",
+      "retain synthetic norm and two-source-instance scope; no independent task claim"
+    ],
+    "large_method_experiments": "NO_GO",
+    "real_llm_learning_effect": "NOT_ESTABLISHED",
+    "arbitrary_black_box_CCE_lower_tiers_without_proof": "UNKNOWN",
+    "independent_task_holdout": false,
+    "human_norm_verification": false,
+    "objective_changed": false
+  },
+  "requirements": [
+    {
+      "requirement": "1 future分类与历史CI监督",
+      "evidence": [
+        "legacy_signal_summary.json",
+        "dynamic_data_v3/history_pairs.jsonl",
+        "training_v3/history_primary.jsonl",
+        "data_replay_audit.json"
+      ],
+      "status": "bounded_requirement_verified",
+      "limits": "8 primary pairs, 4 matched groups, 2 source instances; not scale or natural-language norm proof"
+    },
+    {
+      "requirement": "2 分层非穷举CCE与交叉校准",
+      "evidence": [
+        "../../code/kci/stream_cce.py",
+        "dynamic_cce_v3",
+        "audit_cce_safe.json",
+        "audit_cce_careless.json",
+        "audit_cce_mixed.json"
+      ],
+      "status": "bounded_requirement_verified",
+      "limits": "strict lower tiers require verified upper equivalence; arbitrary black-box references without proof remain UNKNOWN"
+    },
+    {
+      "requirement": "3 两个动态任务合同",
+      "evidence": [
+        "TASK_CONTRACTS.md",
+        "audit_task_meeting.json",
+        "audit_task_query.json"
+      ],
+      "status": "bounded_requirement_verified",
+      "limits": "different task graphs, shared three-relation privacy grammar; synthetic adaptation, not faithful reproduction"
+    },
+    {
+      "requirement": "4 可见性与标签隔离",
+      "evidence": [
+        "observation_audit.json",
+        "deprived_quarantine.jsonl",
+        "dynamic_data_v3/quarantine.jsonl"
+      ],
+      "status": "bounded_requirement_verified",
+      "limits": "enumerated support only; no global hidden-state identifiability guarantee"
+    },
+    {
+      "requirement": "5 有限模型/Qwen/DPR诊断",
+      "evidence": [
+        "finite_audit.json",
+        "qwen_audit.json",
+        "data_replay_audit.json"
+      ],
+      "status": "bounded_requirement_verified",
+      "limits": "Qwen is next-action only plus separately labelled hybrid suffix; no LLM training; DPR unique increment 0"
+    }
+  ]
+}

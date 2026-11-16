@@ -1,0 +1,33 @@
+{
+  "research_objective_changed": false,
+  "bounded_cpu_engineering": "GO_WITHIN_DECLARED_TOY_SCOPE",
+  "bulk_synthetic_replication": "DO_NOT_TREAT_AS_MORE_INDEPENDENT_DATA",
+  "bulk_llm_training": "NO_GO",
+  "method_effectiveness": "NOT_ESTABLISHED",
+  "gates": {
+    "software_regression": true,
+    "synthetic_record_replay": true,
+    "local_model_adapter_smoke": true,
+    "independent_base_worlds_and_holdout": false,
+    "natural_language_semantic_validation": false,
+    "independent_dynamic_ci_norm_labels": false,
+    "reference_statistical_batch_error_control": false,
+    "real_llm_training_and_matched_ablations": false,
+    "cpu_token_sequence_precheck": true,
+    "finite_optimizer_invariants": true
+  },
+  "gpu_deferred": [
+    "4B-8B shared LoRA/SFT/DPO",
+    "actual model precision and batch forward/backward equivalence",
+    "multi-seed matched full-model ablations",
+    "batched frozen-reference inference"
+  ],
+  "cpu_first": [
+    "independent worlds and rule families",
+    "observable-state/label consistency",
+    "human-calibrated derived-fact authorization",
+    "free-text verifier and unknown routing",
+    "predeclared batch-level statistical error and cost budget",
+    "integrate checked sequence contract into the actual trainer; preserve long-history supervision"
+  ]
+}

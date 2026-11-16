@@ -1,0 +1,36 @@
+{
+  "raw_records": 2016,
+  "replayed_records": 2016,
+  "unique_surface_pairs": 1824,
+  "canonical_patterns": 38,
+  "surface_renderings": 48,
+  "independent_base_worlds": 1,
+  "rule_families": 1,
+  "eligible_answers": [
+    "yes"
+  ],
+  "raw_source_counts": {
+    "future": 1344,
+    "repair": 576,
+    "ci": 96
+  },
+  "unique_source_counts": {
+    "ci": 96,
+    "future": 1344,
+    "repair": 576
+  },
+  "source_overlaps": {
+    "ci_future": 0,
+    "ci_repair": 96,
+    "future_repair": 96
+  },
+  "contradictory_identical_prompt_pairs": [],
+  "primary_split": {
+    "train_base_worlds": 1,
+    "validation_base_worlds": 0,
+    "test_base_worlds": 0
+  },
+  "generalization_evaluation_ready": false,
+  "llm_training_ready": false,
+  "reason": "All renderings share one eligible-yes relation/task template; no independent evaluation split exists."
+}
