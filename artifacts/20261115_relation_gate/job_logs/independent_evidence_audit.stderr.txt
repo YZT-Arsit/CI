@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "D:\research\longhistory\artifacts\20261115_relation_gate\audit_and_report.py", line 133, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "D:\research\longhistory\artifacts\20261115_relation_gate\audit_and_report.py", line 57, in main
+    assert all(x['equal'] for x in token_counts)
+           ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

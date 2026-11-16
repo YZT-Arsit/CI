@@ -1,0 +1,429 @@
+[
+  {
+    "id": "probe_unit_tests",
+    "args": [
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-p",
+      "test_relation_gate_probe.py",
+      "-v"
+    ]
+  },
+  {
+    "id": "dependency",
+    "args": [
+      "-m",
+      "experiments.relation_gate_probe",
+      "dependency",
+      "..\\artifacts\\20261115_relation_gate\\dependency.json"
+    ]
+  },
+  {
+    "id": "causal",
+    "args": [
+      "-m",
+      "experiments.relation_gate_probe",
+      "causal",
+      "..\\artifacts\\20261115_relation_gate\\causal.json"
+    ]
+  },
+  {
+    "id": "cost_meeting",
+    "args": [
+      "-m",
+      "experiments.relation_gate_probe",
+      "cost",
+      "..\\artifacts\\20261115_relation_gate\\cost_meeting.json",
+      "--kind",
+      "meeting"
+    ]
+  },
+  {
+    "id": "cost_query",
+    "args": [
+      "-m",
+      "experiments.relation_gate_probe",
+      "cost",
+      "..\\artifacts\\20261115_relation_gate\\cost_query.json",
+      "--kind",
+      "query"
+    ]
+  },
+  {
+    "id": "map_00",
+    "args": [
+      "-m",
+      "experiments.relation_gate_probe",
+      "generate",
+      "..\\artifacts\\20261115_relation_gate\\cases\\map_00.json",
+      "--index",
+      "0"
+    ]
+  },
+  {
+    "id": "map_01",
+    "args": [
+      "-m",
+      "experiments.relation_gate_probe",
+      "generate",
+      "..\\artifacts\\20261115_relation_gate\\cases\\map_01.json",
+      "--index",
+      "1"
+    ]
+  },
+  {
+    "id": "map_02",
+    "args": [
+      "-m",
+      "experiments.relation_gate_probe",
+      "generate",
+      "..\\artifacts\\20261115_relation_gate\\cases\\map_02.json",
+      "--index",
+      "2"
+    ]
+  },
+  {
+    "id": "map_03",
+    "args": [
+      "-m",
+      "experiments.relation_gate_probe",
+      "generate",
+      "..\\artifacts\\20261115_relation_gate\\cases\\map_03.json",
+      "--index",
+      "3"
+    ]
+  },
+  {
+    "id": "map_04",
+    "args": [
+      "-m",
+      "experiments.relation_gate_probe",
+      "generate",
+      "..\\artifacts\\20261115_relation_gate\\cases\\map_04.json",
+      "--index",
+      "4"
+    ]
+  },
+  {
+    "id": "map_05",
+    "args": [
+      "-m",
+      "experiments.relation_gate_probe",
+      "generate",
+      "..\\artifacts\\20261115_relation_gate\\cases\\map_05.json",
+      "--index",
+      "5"
+    ]
+  },
+  {
+    "id": "map_06",
+    "args": [
+      "-m",
+      "experiments.relation_gate_probe",
+      "generate",
+      "..\\artifacts\\20261115_relation_gate\\cases\\map_06.json",
+      "--index",
+      "6"
+    ]
+  },
+  {
+    "id": "map_07",
+    "args": [
+      "-m",
+      "experiments.relation_gate_probe",
+      "generate",
+      "..\\artifacts\\20261115_relation_gate\\cases\\map_07.json",
+      "--index",
+      "7"
+    ]
+  },
+  {
+    "id": "map_08",
+    "args": [
+      "-m",
+      "experiments.relation_gate_probe",
+      "generate",
+      "..\\artifacts\\20261115_relation_gate\\cases\\map_08.json",
+      "--index",
+      "8"
+    ]
+  },
+  {
+    "id": "map_09",
+    "args": [
+      "-m",
+      "experiments.relation_gate_probe",
+      "generate",
+      "..\\artifacts\\20261115_relation_gate\\cases\\map_09.json",
+      "--index",
+      "9"
+    ]
+  },
+  {
+    "id": "map_10",
+    "args": [
+      "-m",
+      "experiments.relation_gate_probe",
+      "generate",
+      "..\\artifacts\\20261115_relation_gate\\cases\\map_10.json",
+      "--index",
+      "10"
+    ]
+  },
+  {
+    "id": "map_11",
+    "args": [
+      "-m",
+      "experiments.relation_gate_probe",
+      "generate",
+      "..\\artifacts\\20261115_relation_gate\\cases\\map_11.json",
+      "--index",
+      "11"
+    ]
+  },
+  {
+    "id": "map_12",
+    "args": [
+      "-m",
+      "experiments.relation_gate_probe",
+      "generate",
+      "..\\artifacts\\20261115_relation_gate\\cases\\map_12.json",
+      "--index",
+      "12"
+    ]
+  },
+  {
+    "id": "map_13",
+    "args": [
+      "-m",
+      "experiments.relation_gate_probe",
+      "generate",
+      "..\\artifacts\\20261115_relation_gate\\cases\\map_13.json",
+      "--index",
+      "13"
+    ]
+  },
+  {
+    "id": "map_14",
+    "args": [
+      "-m",
+      "experiments.relation_gate_probe",
+      "generate",
+      "..\\artifacts\\20261115_relation_gate\\cases\\map_14.json",
+      "--index",
+      "14"
+    ]
+  },
+  {
+    "id": "map_15",
+    "args": [
+      "-m",
+      "experiments.relation_gate_probe",
+      "generate",
+      "..\\artifacts\\20261115_relation_gate\\cases\\map_15.json",
+      "--index",
+      "15"
+    ]
+  },
+  {
+    "id": "map_16",
+    "args": [
+      "-m",
+      "experiments.relation_gate_probe",
+      "generate",
+      "..\\artifacts\\20261115_relation_gate\\cases\\map_16.json",
+      "--index",
+      "16"
+    ]
+  },
+  {
+    "id": "map_17",
+    "args": [
+      "-m",
+      "experiments.relation_gate_probe",
+      "generate",
+      "..\\artifacts\\20261115_relation_gate\\cases\\map_17.json",
+      "--index",
+      "17"
+    ]
+  },
+  {
+    "id": "map_18",
+    "args": [
+      "-m",
+      "experiments.relation_gate_probe",
+      "generate",
+      "..\\artifacts\\20261115_relation_gate\\cases\\map_18.json",
+      "--index",
+      "18"
+    ]
+  },
+  {
+    "id": "map_19",
+    "args": [
+      "-m",
+      "experiments.relation_gate_probe",
+      "generate",
+      "..\\artifacts\\20261115_relation_gate\\cases\\map_19.json",
+      "--index",
+      "19"
+    ]
+  },
+  {
+    "id": "map_20",
+    "args": [
+      "-m",
+      "experiments.relation_gate_probe",
+      "generate",
+      "..\\artifacts\\20261115_relation_gate\\cases\\map_20.json",
+      "--index",
+      "20"
+    ]
+  },
+  {
+    "id": "map_21",
+    "args": [
+      "-m",
+      "experiments.relation_gate_probe",
+      "generate",
+      "..\\artifacts\\20261115_relation_gate\\cases\\map_21.json",
+      "--index",
+      "21"
+    ]
+  },
+  {
+    "id": "map_22",
+    "args": [
+      "-m",
+      "experiments.relation_gate_probe",
+      "generate",
+      "..\\artifacts\\20261115_relation_gate\\cases\\map_22.json",
+      "--index",
+      "22"
+    ]
+  },
+  {
+    "id": "map_23",
+    "args": [
+      "-m",
+      "experiments.relation_gate_probe",
+      "generate",
+      "..\\artifacts\\20261115_relation_gate\\cases\\map_23.json",
+      "--index",
+      "23"
+    ]
+  },
+  {
+    "id": "map_24",
+    "args": [
+      "-m",
+      "experiments.relation_gate_probe",
+      "generate",
+      "..\\artifacts\\20261115_relation_gate\\cases\\map_24.json",
+      "--index",
+      "24"
+    ]
+  },
+  {
+    "id": "map_25",
+    "args": [
+      "-m",
+      "experiments.relation_gate_probe",
+      "generate",
+      "..\\artifacts\\20261115_relation_gate\\cases\\map_25.json",
+      "--index",
+      "25"
+    ]
+  },
+  {
+    "id": "map_26",
+    "args": [
+      "-m",
+      "experiments.relation_gate_probe",
+      "generate",
+      "..\\artifacts\\20261115_relation_gate\\cases\\map_26.json",
+      "--index",
+      "26"
+    ]
+  },
+  {
+    "id": "map_27",
+    "args": [
+      "-m",
+      "experiments.relation_gate_probe",
+      "generate",
+      "..\\artifacts\\20261115_relation_gate\\cases\\map_27.json",
+      "--index",
+      "27"
+    ]
+  },
+  {
+    "id": "map_28",
+    "args": [
+      "-m",
+      "experiments.relation_gate_probe",
+      "generate",
+      "..\\artifacts\\20261115_relation_gate\\cases\\map_28.json",
+      "--index",
+      "28"
+    ]
+  },
+  {
+    "id": "map_29",
+    "args": [
+      "-m",
+      "experiments.relation_gate_probe",
+      "generate",
+      "..\\artifacts\\20261115_relation_gate\\cases\\map_29.json",
+      "--index",
+      "29"
+    ]
+  },
+  {
+    "id": "map_30",
+    "args": [
+      "-m",
+      "experiments.relation_gate_probe",
+      "generate",
+      "..\\artifacts\\20261115_relation_gate\\cases\\map_30.json",
+      "--index",
+      "30"
+    ]
+  },
+  {
+    "id": "map_31",
+    "args": [
+      "-m",
+      "experiments.relation_gate_probe",
+      "generate",
+      "..\\artifacts\\20261115_relation_gate\\cases\\map_31.json",
+      "--index",
+      "31"
+    ]
+  },
+  {
+    "id": "map_32",
+    "args": [
+      "-m",
+      "experiments.relation_gate_probe",
+      "generate",
+      "..\\artifacts\\20261115_relation_gate\\cases\\map_32.json",
+      "--index",
+      "32"
+    ]
+  },
+  {
+    "id": "map_33",
+    "args": [
+      "-m",
+      "experiments.relation_gate_probe",
+      "generate",
+      "..\\artifacts\\20261115_relation_gate\\cases\\map_33.json",
+      "--index",
+      "33"
+    ]
+  }
+]

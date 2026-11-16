@@ -1,0 +1,158 @@
+[
+  {
+    "id": "matched_sft_only_17",
+    "args": [
+      "-m",
+      "experiments.relation_gate_probe",
+      "evaluate",
+      "..\\artifacts\\20261115_relation_gate\\models_length_matched\\sft_only_17.json",
+      "--data",
+      "..\\artifacts\\20261115_relation_gate\\cases_length_matched",
+      "--model",
+      "sft_only_17"
+    ]
+  },
+  {
+    "id": "matched_sft_only_29",
+    "args": [
+      "-m",
+      "experiments.relation_gate_probe",
+      "evaluate",
+      "..\\artifacts\\20261115_relation_gate\\models_length_matched\\sft_only_29.json",
+      "--data",
+      "..\\artifacts\\20261115_relation_gate\\cases_length_matched",
+      "--model",
+      "sft_only_29"
+    ]
+  },
+  {
+    "id": "matched_sft_only_41",
+    "args": [
+      "-m",
+      "experiments.relation_gate_probe",
+      "evaluate",
+      "..\\artifacts\\20261115_relation_gate\\models_length_matched\\sft_only_41.json",
+      "--data",
+      "..\\artifacts\\20261115_relation_gate\\cases_length_matched",
+      "--model",
+      "sft_only_41"
+    ]
+  },
+  {
+    "id": "matched_ci_17",
+    "args": [
+      "-m",
+      "experiments.relation_gate_probe",
+      "evaluate",
+      "..\\artifacts\\20261115_relation_gate\\models_length_matched\\ci_17.json",
+      "--data",
+      "..\\artifacts\\20261115_relation_gate\\cases_length_matched",
+      "--model",
+      "ci_17"
+    ]
+  },
+  {
+    "id": "matched_ci_29",
+    "args": [
+      "-m",
+      "experiments.relation_gate_probe",
+      "evaluate",
+      "..\\artifacts\\20261115_relation_gate\\models_length_matched\\ci_29.json",
+      "--data",
+      "..\\artifacts\\20261115_relation_gate\\cases_length_matched",
+      "--model",
+      "ci_29"
+    ]
+  },
+  {
+    "id": "matched_ci_41",
+    "args": [
+      "-m",
+      "experiments.relation_gate_probe",
+      "evaluate",
+      "..\\artifacts\\20261115_relation_gate\\models_length_matched\\ci_41.json",
+      "--data",
+      "..\\artifacts\\20261115_relation_gate\\cases_length_matched",
+      "--model",
+      "ci_41"
+    ]
+  },
+  {
+    "id": "matched_history_17",
+    "args": [
+      "-m",
+      "experiments.relation_gate_probe",
+      "evaluate",
+      "..\\artifacts\\20261115_relation_gate\\models_length_matched\\history_17.json",
+      "--data",
+      "..\\artifacts\\20261115_relation_gate\\cases_length_matched",
+      "--model",
+      "history_17"
+    ]
+  },
+  {
+    "id": "matched_history_29",
+    "args": [
+      "-m",
+      "experiments.relation_gate_probe",
+      "evaluate",
+      "..\\artifacts\\20261115_relation_gate\\models_length_matched\\history_29.json",
+      "--data",
+      "..\\artifacts\\20261115_relation_gate\\cases_length_matched",
+      "--model",
+      "history_29"
+    ]
+  },
+  {
+    "id": "matched_history_41",
+    "args": [
+      "-m",
+      "experiments.relation_gate_probe",
+      "evaluate",
+      "..\\artifacts\\20261115_relation_gate\\models_length_matched\\history_41.json",
+      "--data",
+      "..\\artifacts\\20261115_relation_gate\\cases_length_matched",
+      "--model",
+      "history_41"
+    ]
+  },
+  {
+    "id": "matched_ordinary_17",
+    "args": [
+      "-m",
+      "experiments.relation_gate_probe",
+      "evaluate",
+      "..\\artifacts\\20261115_relation_gate\\models_length_matched\\ordinary_17.json",
+      "--data",
+      "..\\artifacts\\20261115_relation_gate\\cases_length_matched",
+      "--model",
+      "ordinary_17"
+    ]
+  },
+  {
+    "id": "matched_ordinary_29",
+    "args": [
+      "-m",
+      "experiments.relation_gate_probe",
+      "evaluate",
+      "..\\artifacts\\20261115_relation_gate\\models_length_matched\\ordinary_29.json",
+      "--data",
+      "..\\artifacts\\20261115_relation_gate\\cases_length_matched",
+      "--model",
+      "ordinary_29"
+    ]
+  },
+  {
+    "id": "matched_ordinary_41",
+    "args": [
+      "-m",
+      "experiments.relation_gate_probe",
+      "evaluate",
+      "..\\artifacts\\20261115_relation_gate\\models_length_matched\\ordinary_41.json",
+      "--data",
+      "..\\artifacts\\20261115_relation_gate\\cases_length_matched",
+      "--model",
+      "ordinary_41"
+    ]
+  }
+]

@@ -1,0 +1,19 @@
+[
+  {
+    "id": "independent_evidence_audit",
+    "args": [
+      "..\\artifacts\\20261115_relation_gate\\audit_and_report.py"
+    ]
+  },
+  {
+    "id": "full_129_regression",
+    "args": [
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-v"
+    ]
+  }
+]

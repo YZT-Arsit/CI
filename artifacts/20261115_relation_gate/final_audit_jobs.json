@@ -1,0 +1,26 @@
+[
+  {
+    "id": "audit_original_maps_v2",
+    "args": [
+      "..\\artifacts\\20261115_relation_gate\\audit_and_report.py"
+    ]
+  },
+  {
+    "id": "audit_matched_maps",
+    "args": [
+      "..\\artifacts\\20261115_relation_gate\\audit_and_report.py",
+      "--matched"
+    ]
+  },
+  {
+    "id": "final_129_regression",
+    "args": [
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-v"
+    ]
+  }
+]

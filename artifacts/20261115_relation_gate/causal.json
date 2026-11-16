@@ -1,0 +1,531 @@
+[
+  {
+    "kind": "meeting",
+    "intervention": "identity",
+    "verdict": "VIOLATION",
+    "closure": [
+      [
+        "eli",
+        "hyperacusis"
+      ]
+    ],
+    "ledger": [
+      {
+        "event_id": 0,
+        "sender": "Archive",
+        "recipient": "R",
+        "content": {
+          "type": "case_cause",
+          "case": "case9",
+          "cause": "hyperacusis"
+        }
+      },
+      {
+        "event_id": 1,
+        "sender": "Planner",
+        "recipient": "R",
+        "content": {
+          "type": "roster",
+          "alias": "e7",
+          "person": "eli"
+        }
+      },
+      {
+        "event_id": 2,
+        "sender": "HR",
+        "recipient": "R",
+        "content": {
+          "type": "case_link",
+          "alias": "e7",
+          "case": "case9"
+        }
+      }
+    ]
+  },
+  {
+    "kind": "meeting",
+    "intervention": "delete_history",
+    "verdict": "VALID",
+    "closure": [],
+    "ledger": [
+      {
+        "event_id": 0,
+        "sender": "Planner",
+        "recipient": "R",
+        "content": {
+          "type": "roster",
+          "alias": "e7",
+          "person": "eli"
+        }
+      },
+      {
+        "event_id": 1,
+        "sender": "HR",
+        "recipient": "R",
+        "content": {
+          "type": "case_link",
+          "alias": "e7",
+          "case": "case9"
+        }
+      }
+    ]
+  },
+  {
+    "kind": "meeting",
+    "intervention": "redirect_history",
+    "verdict": "VALID",
+    "closure": [],
+    "ledger": [
+      {
+        "event_id": 0,
+        "sender": "Archive",
+        "recipient": "UnrelatedSink",
+        "content": {
+          "type": "case_cause",
+          "case": "case9",
+          "cause": "hyperacusis"
+        }
+      },
+      {
+        "event_id": 1,
+        "sender": "Planner",
+        "recipient": "R",
+        "content": {
+          "type": "roster",
+          "alias": "e7",
+          "person": "eli"
+        }
+      },
+      {
+        "event_id": 2,
+        "sender": "HR",
+        "recipient": "R",
+        "content": {
+          "type": "case_link",
+          "alias": "e7",
+          "case": "case9"
+        }
+      }
+    ]
+  },
+  {
+    "kind": "meeting",
+    "intervention": "permission",
+    "verdict": "VALID",
+    "closure": [
+      [
+        "eli",
+        "hyperacusis"
+      ]
+    ],
+    "ledger": [
+      {
+        "event_id": 0,
+        "sender": "Archive",
+        "recipient": "R",
+        "content": {
+          "type": "case_cause",
+          "case": "case9",
+          "cause": "hyperacusis"
+        }
+      },
+      {
+        "event_id": 1,
+        "sender": "Planner",
+        "recipient": "R",
+        "content": {
+          "type": "roster",
+          "alias": "e7",
+          "person": "eli"
+        }
+      },
+      {
+        "event_id": 2,
+        "sender": "HR",
+        "recipient": "R",
+        "content": {
+          "type": "case_link",
+          "alias": "e7",
+          "case": "case9"
+        }
+      }
+    ]
+  },
+  {
+    "kind": "query",
+    "intervention": "identity",
+    "verdict": "VIOLATION",
+    "closure": [
+      [
+        "James Chen",
+        "789 Maple St"
+      ],
+      [
+        "John Smith",
+        "123 Oak St"
+      ],
+      [
+        "Maria Lopez",
+        "456 Pine St"
+      ]
+    ],
+    "ledger": [
+      {
+        "event_id": 0,
+        "sender": "Archive",
+        "recipient": "R",
+        "content": {
+          "type": "owner_names",
+          "rows": [
+            {
+              "company_id": 201,
+              "owner_name": "John Smith",
+              "owner_age": 55
+            },
+            {
+              "company_id": 202,
+              "owner_name": "Maria Lopez",
+              "owner_age": 42
+            },
+            {
+              "company_id": 203,
+              "owner_name": "James Chen",
+              "owner_age": 60
+            }
+          ]
+        }
+      },
+      {
+        "event_id": 1,
+        "sender": "Broker",
+        "recipient": "R",
+        "content": {
+          "type": "owner_index",
+          "rows": [
+            {
+              "company_id": 201,
+              "owner_id": 701
+            },
+            {
+              "company_id": 202,
+              "owner_id": 702
+            },
+            {
+              "company_id": 203,
+              "owner_id": 703
+            }
+          ]
+        }
+      },
+      {
+        "event_id": 2,
+        "sender": "Cassie",
+        "recipient": "R",
+        "content": {
+          "type": "city_bundle",
+          "rows": [
+            {
+              "company_id": 201,
+              "city": "Dallas"
+            },
+            {
+              "company_id": 202,
+              "city": "Chicago"
+            },
+            {
+              "company_id": 203,
+              "city": "Houston"
+            }
+          ],
+          "addresses": [
+            {
+              "owner_id": 701,
+              "address": "123 Oak St",
+              "city": "Dallas"
+            },
+            {
+              "owner_id": 702,
+              "address": "456 Pine St",
+              "city": "Chicago"
+            },
+            {
+              "owner_id": 703,
+              "address": "789 Maple St",
+              "city": "Houston"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "kind": "query",
+    "intervention": "delete_history",
+    "verdict": "VALID",
+    "closure": [],
+    "ledger": [
+      {
+        "event_id": 0,
+        "sender": "Broker",
+        "recipient": "R",
+        "content": {
+          "type": "owner_index",
+          "rows": [
+            {
+              "company_id": 201,
+              "owner_id": 701
+            },
+            {
+              "company_id": 202,
+              "owner_id": 702
+            },
+            {
+              "company_id": 203,
+              "owner_id": 703
+            }
+          ]
+        }
+      },
+      {
+        "event_id": 1,
+        "sender": "Cassie",
+        "recipient": "R",
+        "content": {
+          "type": "city_bundle",
+          "rows": [
+            {
+              "company_id": 201,
+              "city": "Dallas"
+            },
+            {
+              "company_id": 202,
+              "city": "Chicago"
+            },
+            {
+              "company_id": 203,
+              "city": "Houston"
+            }
+          ],
+          "addresses": [
+            {
+              "owner_id": 701,
+              "address": "123 Oak St",
+              "city": "Dallas"
+            },
+            {
+              "owner_id": 702,
+              "address": "456 Pine St",
+              "city": "Chicago"
+            },
+            {
+              "owner_id": 703,
+              "address": "789 Maple St",
+              "city": "Houston"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "kind": "query",
+    "intervention": "redirect_history",
+    "verdict": "VALID",
+    "closure": [],
+    "ledger": [
+      {
+        "event_id": 0,
+        "sender": "Archive",
+        "recipient": "UnrelatedSink",
+        "content": {
+          "type": "owner_names",
+          "rows": [
+            {
+              "company_id": 201,
+              "owner_name": "John Smith",
+              "owner_age": 55
+            },
+            {
+              "company_id": 202,
+              "owner_name": "Maria Lopez",
+              "owner_age": 42
+            },
+            {
+              "company_id": 203,
+              "owner_name": "James Chen",
+              "owner_age": 60
+            }
+          ]
+        }
+      },
+      {
+        "event_id": 1,
+        "sender": "Broker",
+        "recipient": "R",
+        "content": {
+          "type": "owner_index",
+          "rows": [
+            {
+              "company_id": 201,
+              "owner_id": 701
+            },
+            {
+              "company_id": 202,
+              "owner_id": 702
+            },
+            {
+              "company_id": 203,
+              "owner_id": 703
+            }
+          ]
+        }
+      },
+      {
+        "event_id": 2,
+        "sender": "Cassie",
+        "recipient": "R",
+        "content": {
+          "type": "city_bundle",
+          "rows": [
+            {
+              "company_id": 201,
+              "city": "Dallas"
+            },
+            {
+              "company_id": 202,
+              "city": "Chicago"
+            },
+            {
+              "company_id": 203,
+              "city": "Houston"
+            }
+          ],
+          "addresses": [
+            {
+              "owner_id": 701,
+              "address": "123 Oak St",
+              "city": "Dallas"
+            },
+            {
+              "owner_id": 702,
+              "address": "456 Pine St",
+              "city": "Chicago"
+            },
+            {
+              "owner_id": 703,
+              "address": "789 Maple St",
+              "city": "Houston"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "kind": "query",
+    "intervention": "permission",
+    "verdict": "VALID",
+    "closure": [
+      [
+        "James Chen",
+        "789 Maple St"
+      ],
+      [
+        "John Smith",
+        "123 Oak St"
+      ],
+      [
+        "Maria Lopez",
+        "456 Pine St"
+      ]
+    ],
+    "ledger": [
+      {
+        "event_id": 0,
+        "sender": "Archive",
+        "recipient": "R",
+        "content": {
+          "type": "owner_names",
+          "rows": [
+            {
+              "company_id": 201,
+              "owner_name": "John Smith",
+              "owner_age": 55
+            },
+            {
+              "company_id": 202,
+              "owner_name": "Maria Lopez",
+              "owner_age": 42
+            },
+            {
+              "company_id": 203,
+              "owner_name": "James Chen",
+              "owner_age": 60
+            }
+          ]
+        }
+      },
+      {
+        "event_id": 1,
+        "sender": "Broker",
+        "recipient": "R",
+        "content": {
+          "type": "owner_index",
+          "rows": [
+            {
+              "company_id": 201,
+              "owner_id": 701
+            },
+            {
+              "company_id": 202,
+              "owner_id": 702
+            },
+            {
+              "company_id": 203,
+              "owner_id": 703
+            }
+          ]
+        }
+      },
+      {
+        "event_id": 2,
+        "sender": "Cassie",
+        "recipient": "R",
+        "content": {
+          "type": "city_bundle",
+          "rows": [
+            {
+              "company_id": 201,
+              "city": "Dallas"
+            },
+            {
+              "company_id": 202,
+              "city": "Chicago"
+            },
+            {
+              "company_id": 203,
+              "city": "Houston"
+            }
+          ],
+          "addresses": [
+            {
+              "owner_id": 701,
+              "address": "123 Oak St",
+              "city": "Dallas"
+            },
+            {
+              "owner_id": 702,
+              "address": "456 Pine St",
+              "city": "Chicago"
+            },
+            {
+              "owner_id": 703,
+              "address": "789 Maple St",
+              "city": "Houston"
+            }
+          ]
+        }
+      }
+    ]
+  }
+]

@@ -7,7 +7,12 @@
 
 ## 当前进度
 
-最新报告：[第三阶段研究报告](artifacts/20261113_stage3/REPORT.md)。
+最新报告：[GPU 前提审计：关系规律与任务依赖](artifacts/20261115_relation_gate/REPORT.md)。
+当前判断为 **GPU训练 NO-GO**：严格等长的新符号测试中，历史监督模型仅答对384/768，
+成对历史两侧同时正确0/384；部分任务消费者绕过消息读取全局状态，路线偏好还依赖人工额外步骤权重。
+该审计取代此前“可准备GPU工程试跑”的建议。原研究目标不变。
+
+以下为[第三阶段研究报告](artifacts/20261113_stage3/REPORT.md)的历史结果，不能单独作为当前GPU就绪依据。
 
 | 项目 | 已验证结果 | 证据边界 |
 |---|---|---|
@@ -19,8 +24,8 @@
 | DPR | 158 个可修复状态，独立新增偏好 0 | 不支持额外方法收益 |
 | 本地回归 | 124 项测试通过 | 包含固定 Windows tokenizer 依赖合同 |
 
-**就绪性：小规模真实模型工程试跑为条件 GO；大批量方法实验为 NO-GO。**
-真实训练、独立任务留出、规范验证和 GPU 长上下文测试仍待完成。
+真实训练前须先通过新的关系泛化、消息依赖和成本依据门槛。
+独立任务留出、规范验证和 GPU 长上下文测试仍待完成。
 
 ## 阅读与数据入口
 
@@ -49,10 +54,12 @@ python -B -m unittest discover -s tests -p "test_stratified.py" -v
 python -B -m experiments.dynamic_signal_dataset ../artifacts/local_replay ../artifacts/20261113_iteration2/source_anchors
 ```
 
-完整 124 项回归涉及原始 Windows CPython 3.13 / amd64 的固定 wheel 校验。
+当前完整 129 项回归涉及原始 Windows CPython 3.13 / amd64 的固定 wheel 校验，
+新增关系探针还需 NumPy（验证版本2.5.2；建议在独立虚拟环境安装）。
 在兼容环境中，从仓库根目录先恢复依赖资产，再运行：
 
 ```sh
+python -m pip install numpy==2.5.2
 python -B tools/prepare_tokenizer_assets.py
 cd code
 python -B -m unittest discover -s tests -v

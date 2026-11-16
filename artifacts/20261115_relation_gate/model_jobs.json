@@ -1,0 +1,158 @@
+[
+  {
+    "id": "sft_only_17",
+    "args": [
+      "-m",
+      "experiments.relation_gate_probe",
+      "evaluate",
+      "..\\artifacts\\20261115_relation_gate\\models\\sft_only_17.json",
+      "--data",
+      "..\\artifacts\\20261115_relation_gate\\cases",
+      "--model",
+      "sft_only_17"
+    ]
+  },
+  {
+    "id": "sft_only_29",
+    "args": [
+      "-m",
+      "experiments.relation_gate_probe",
+      "evaluate",
+      "..\\artifacts\\20261115_relation_gate\\models\\sft_only_29.json",
+      "--data",
+      "..\\artifacts\\20261115_relation_gate\\cases",
+      "--model",
+      "sft_only_29"
+    ]
+  },
+  {
+    "id": "sft_only_41",
+    "args": [
+      "-m",
+      "experiments.relation_gate_probe",
+      "evaluate",
+      "..\\artifacts\\20261115_relation_gate\\models\\sft_only_41.json",
+      "--data",
+      "..\\artifacts\\20261115_relation_gate\\cases",
+      "--model",
+      "sft_only_41"
+    ]
+  },
+  {
+    "id": "ci_17",
+    "args": [
+      "-m",
+      "experiments.relation_gate_probe",
+      "evaluate",
+      "..\\artifacts\\20261115_relation_gate\\models\\ci_17.json",
+      "--data",
+      "..\\artifacts\\20261115_relation_gate\\cases",
+      "--model",
+      "ci_17"
+    ]
+  },
+  {
+    "id": "ci_29",
+    "args": [
+      "-m",
+      "experiments.relation_gate_probe",
+      "evaluate",
+      "..\\artifacts\\20261115_relation_gate\\models\\ci_29.json",
+      "--data",
+      "..\\artifacts\\20261115_relation_gate\\cases",
+      "--model",
+      "ci_29"
+    ]
+  },
+  {
+    "id": "ci_41",
+    "args": [
+      "-m",
+      "experiments.relation_gate_probe",
+      "evaluate",
+      "..\\artifacts\\20261115_relation_gate\\models\\ci_41.json",
+      "--data",
+      "..\\artifacts\\20261115_relation_gate\\cases",
+      "--model",
+      "ci_41"
+    ]
+  },
+  {
+    "id": "history_17",
+    "args": [
+      "-m",
+      "experiments.relation_gate_probe",
+      "evaluate",
+      "..\\artifacts\\20261115_relation_gate\\models\\history_17.json",
+      "--data",
+      "..\\artifacts\\20261115_relation_gate\\cases",
+      "--model",
+      "history_17"
+    ]
+  },
+  {
+    "id": "history_29",
+    "args": [
+      "-m",
+      "experiments.relation_gate_probe",
+      "evaluate",
+      "..\\artifacts\\20261115_relation_gate\\models\\history_29.json",
+      "--data",
+      "..\\artifacts\\20261115_relation_gate\\cases",
+      "--model",
+      "history_29"
+    ]
+  },
+  {
+    "id": "history_41",
+    "args": [
+      "-m",
+      "experiments.relation_gate_probe",
+      "evaluate",
+      "..\\artifacts\\20261115_relation_gate\\models\\history_41.json",
+      "--data",
+      "..\\artifacts\\20261115_relation_gate\\cases",
+      "--model",
+      "history_41"
+    ]
+  },
+  {
+    "id": "ordinary_17",
+    "args": [
+      "-m",
+      "experiments.relation_gate_probe",
+      "evaluate",
+      "..\\artifacts\\20261115_relation_gate\\models\\ordinary_17.json",
+      "--data",
+      "..\\artifacts\\20261115_relation_gate\\cases",
+      "--model",
+      "ordinary_17"
+    ]
+  },
+  {
+    "id": "ordinary_29",
+    "args": [
+      "-m",
+      "experiments.relation_gate_probe",
+      "evaluate",
+      "..\\artifacts\\20261115_relation_gate\\models\\ordinary_29.json",
+      "--data",
+      "..\\artifacts\\20261115_relation_gate\\cases",
+      "--model",
+      "ordinary_29"
+    ]
+  },
+  {
+    "id": "ordinary_41",
+    "args": [
+      "-m",
+      "experiments.relation_gate_probe",
+      "evaluate",
+      "..\\artifacts\\20261115_relation_gate\\models\\ordinary_41.json",
+      "--data",
+      "..\\artifacts\\20261115_relation_gate\\cases",
+      "--model",
+      "ordinary_41"
+    ]
+  }
+]
