@@ -1,0 +1,17 @@
+Traceback (most recent call last):
+  File "/mnt/d/research/longhistory/artifacts/20261116_relation_solution/train_structured.py", line 65, in <module>
+    if __name__=='__main__':run()
+                            ^^^^^
+  File "/mnt/d/research/longhistory/artifacts/20261116_relation_solution/train_structured.py", line 50, in run
+    feature.append(short(feature_batch,ledger,'cache_learned_features'))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/research/longhistory/artifacts/20261116_relation_solution/train_structured.py", line 8, in short
+    try:return operation()
+               ^^^^^^^^^^^
+  File "/mnt/d/research/longhistory/artifacts/20261116_relation_solution/train_structured.py", line 48, in feature_batch
+    batch=collate(encoded[start:start+64])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/research/longhistory/code/kci/relation_solution.py", line 37, in collate
+    return [torch.tensor(np.array([x[i][:maximum] if i<4 else x[i] for x in items])) for i in range(5)]
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (64,) + inhomogeneous part.

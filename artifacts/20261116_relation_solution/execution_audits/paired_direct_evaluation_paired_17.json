@@ -1,0 +1,35 @@
+{
+  "evaluation": "paired_direct_evaluation",
+  "model": "paired_17",
+  "episodes": 1120,
+  "replay_errors": [],
+  "proofs": {
+    "complete": 0,
+    "labels_correct": 0,
+    "paths_correct": 0,
+    "faithful": 0,
+    "total": 0
+  },
+  "max_episode_seconds": 0.005140899971593171,
+  "raw_hashes": {
+    "authorized.jsonl": "d806e4cf2d81c1a1e8164623e1143028c470209f13512c85089e4c113aaa14de",
+    "both.jsonl": "430346bd846beee30a5a28073964978af226f445de88b070d5290c29d5f1ff75",
+    "branch.jsonl": "980caa2ffa39389f400e90073e6cb5bb9b3831a44609827695bf28583a8caa58",
+    "broken.jsonl": "f0a1808b38d56e1deb3c2a6112cc5b08753601a7dfd31f72b8cf03994c73142b",
+    "cycle.jsonl": "f182de8bfa2d52d79cdfef9fb74bb37d5b1d1e0750d13f86044f467fb4d9fd2c",
+    "depth10.jsonl": "9fb48d29d2d6463081638549fb91efc94750c83bbf9869eea93072fe9d47d598",
+    "depth10_swap.jsonl": "7e0026b9c905996a9c1e20d14d0f9e1ad738fefda234a63d2560bb389be5a525",
+    "depth4.jsonl": "de6ce046f65c832ae960bb41373cff16002bf632d094b50b5348c85599754a64",
+    "depth4_swap.jsonl": "cfac3f40f654f37e533375327a75a04e7d16fe358a554a13d29585b4ec57f6fe",
+    "depth6.jsonl": "9e033ce46ea3691650a6e98666d3fc94f1c89b23e8d228ff8fda174425ab715e",
+    "depth6_swap.jsonl": "887e5db03a9cab11acc87d4ad4012590c531bc220a820145a8946f19646b5afd",
+    "draft.jsonl": "382e252ac6f9361ed7583009aa843f81d9a7bed1d062d6741fba75c1807cc1cc",
+    "external_complete.jsonl": "ca8bc88cabbe37f466ee4980615165d1787ba3f8da8370dc8a02e2135ecf102e",
+    "external_complete_swap.jsonl": "c63660fe104e181e8d557605121593e2e382979c7d88c26418ef64f86e6d84cc",
+    "noise.jsonl": "d36d3516bbce551f58e2702049dc3a355a0f1c93930f49608320418d611c6f4c",
+    "optional.jsonl": "c6ca99059dfafcf944d6623ec6bff7bb741f33c14ed90424d7ee3385121ba657",
+    "reverse.jsonl": "b82b488d7869e789b9bf3c44146e8db2690f2fa163dc135bcaeab640822cdfbb",
+    "test.jsonl": "1dae8ebd650ef236fca7906ef8fd13df32034fa327046a8daba91615ce2013c5",
+    "test_swap.jsonl": "fe8db0aa8405367b789670f185a42ced8b07a7d4ac1b0c915b27bbca124b5610"
+  }
+}

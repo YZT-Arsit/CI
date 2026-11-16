@@ -1,0 +1,167 @@
+{
+  "records": [
+    {
+      "model": "plain_17",
+      "condition": "test",
+      "groups": 16,
+      "both_planner_valid": 16,
+      "same_route_when_both_valid": 16,
+      "both_planner_optimal": 0,
+      "both_episodes_safe_success": 0
+    },
+    {
+      "model": "plain_17",
+      "condition": "depth10",
+      "groups": 16,
+      "both_planner_valid": 16,
+      "same_route_when_both_valid": 16,
+      "both_planner_optimal": 0,
+      "both_episodes_safe_success": 0
+    },
+    {
+      "model": "plain_29",
+      "condition": "test",
+      "groups": 16,
+      "both_planner_valid": 16,
+      "same_route_when_both_valid": 16,
+      "both_planner_optimal": 0,
+      "both_episodes_safe_success": 0
+    },
+    {
+      "model": "plain_29",
+      "condition": "depth10",
+      "groups": 16,
+      "both_planner_valid": 16,
+      "same_route_when_both_valid": 16,
+      "both_planner_optimal": 0,
+      "both_episodes_safe_success": 0
+    },
+    {
+      "model": "plain_41",
+      "condition": "test",
+      "groups": 16,
+      "both_planner_valid": 16,
+      "same_route_when_both_valid": 16,
+      "both_planner_optimal": 0,
+      "both_episodes_safe_success": 0
+    },
+    {
+      "model": "plain_41",
+      "condition": "depth10",
+      "groups": 16,
+      "both_planner_valid": 16,
+      "same_route_when_both_valid": 16,
+      "both_planner_optimal": 0,
+      "both_episodes_safe_success": 0
+    },
+    {
+      "model": "trace_17",
+      "condition": "test",
+      "groups": 16,
+      "both_planner_valid": 16,
+      "same_route_when_both_valid": 15,
+      "both_planner_optimal": 1,
+      "both_episodes_safe_success": 0
+    },
+    {
+      "model": "trace_17",
+      "condition": "depth10",
+      "groups": 16,
+      "both_planner_valid": 16,
+      "same_route_when_both_valid": 16,
+      "both_planner_optimal": 0,
+      "both_episodes_safe_success": 0
+    },
+    {
+      "model": "trace_29",
+      "condition": "test",
+      "groups": 16,
+      "both_planner_valid": 16,
+      "same_route_when_both_valid": 16,
+      "both_planner_optimal": 0,
+      "both_episodes_safe_success": 0
+    },
+    {
+      "model": "trace_29",
+      "condition": "depth10",
+      "groups": 16,
+      "both_planner_valid": 16,
+      "same_route_when_both_valid": 15,
+      "both_planner_optimal": 0,
+      "both_episodes_safe_success": 0
+    },
+    {
+      "model": "trace_41",
+      "condition": "test",
+      "groups": 16,
+      "both_planner_valid": 16,
+      "same_route_when_both_valid": 16,
+      "both_planner_optimal": 0,
+      "both_episodes_safe_success": 0
+    },
+    {
+      "model": "trace_41",
+      "condition": "depth10",
+      "groups": 16,
+      "both_planner_valid": 15,
+      "same_route_when_both_valid": 15,
+      "both_planner_optimal": 0,
+      "both_episodes_safe_success": 0
+    },
+    {
+      "model": "balanced_17",
+      "condition": "test",
+      "groups": 16,
+      "both_planner_valid": 16,
+      "same_route_when_both_valid": 16,
+      "both_planner_optimal": 0,
+      "both_episodes_safe_success": 0
+    },
+    {
+      "model": "balanced_17",
+      "condition": "depth10",
+      "groups": 16,
+      "both_planner_valid": 13,
+      "same_route_when_both_valid": 13,
+      "both_planner_optimal": 0,
+      "both_episodes_safe_success": 0
+    },
+    {
+      "model": "balanced_29",
+      "condition": "test",
+      "groups": 16,
+      "both_planner_valid": 12,
+      "same_route_when_both_valid": 9,
+      "both_planner_optimal": 1,
+      "both_episodes_safe_success": 0
+    },
+    {
+      "model": "balanced_29",
+      "condition": "depth10",
+      "groups": 16,
+      "both_planner_valid": 11,
+      "same_route_when_both_valid": 10,
+      "both_planner_optimal": 0,
+      "both_episodes_safe_success": 0
+    },
+    {
+      "model": "balanced_41",
+      "condition": "test",
+      "groups": 16,
+      "both_planner_valid": 16,
+      "same_route_when_both_valid": 16,
+      "both_planner_optimal": 0,
+      "both_episodes_safe_success": 0
+    },
+    {
+      "model": "balanced_41",
+      "condition": "depth10",
+      "groups": 16,
+      "both_planner_valid": 14,
+      "same_route_when_both_valid": 14,
+      "both_planner_optimal": 0,
+      "both_episodes_safe_success": 0
+    }
+  ],
+  "scope": "offline first-action scoring only; no tuning or intervention"
+}

@@ -1,0 +1,342 @@
+{
+  "independent_buckets": 7,
+  "paired_factor_buckets": 36,
+  "strata": [
+    {
+      "stratum": [
+        "Planner",
+        "COMMIT",
+        false,
+        false,
+        1,
+        1
+      ],
+      "independent_probability": 0.038095238095238036,
+      "paired_probability": 0.02777777777777789
+    },
+    {
+      "stratum": [
+        "Planner",
+        "COMMIT",
+        false,
+        true,
+        1,
+        0
+      ],
+      "independent_probability": 0.14285714285714246,
+      "paired_probability": 0.05555555555555565
+    },
+    {
+      "stratum": [
+        "Planner",
+        "COMMIT",
+        false,
+        true,
+        1,
+        1
+      ],
+      "independent_probability": 0.028571428571428355,
+      "paired_probability": 0.05555555555555546
+    },
+    {
+      "stratum": [
+        "Planner",
+        "COMMIT",
+        true,
+        false,
+        1,
+        1
+      ],
+      "independent_probability": 0.038095238095238036,
+      "paired_probability": 0.02777777777777789
+    },
+    {
+      "stratum": [
+        "Planner",
+        "COMMIT",
+        true,
+        true,
+        1,
+        1
+      ],
+      "independent_probability": 0.038095238095238036,
+      "paired_probability": 0.02777777777777789
+    },
+    {
+      "stratum": [
+        "Source",
+        "DELIVER_INPUTS",
+        false,
+        false,
+        1,
+        1
+      ],
+      "independent_probability": 0.038095238095238036,
+      "paired_probability": 0.02777777777777789
+    },
+    {
+      "stratum": [
+        "Source",
+        "DELIVER_INPUTS",
+        false,
+        true,
+        1,
+        0
+      ],
+      "independent_probability": 0.008403361344537792,
+      "paired_probability": 0.05555555555555565
+    },
+    {
+      "stratum": [
+        "Source",
+        "DELIVER_INPUTS",
+        false,
+        true,
+        1,
+        1
+      ],
+      "independent_probability": 0.028571428571428355,
+      "paired_probability": 0.05555555555555546
+    },
+    {
+      "stratum": [
+        "Source",
+        "DELIVER_INPUTS",
+        true,
+        false,
+        1,
+        1
+      ],
+      "independent_probability": 0.038095238095238036,
+      "paired_probability": 0.02777777777777789
+    },
+    {
+      "stratum": [
+        "Source",
+        "DELIVER_INPUTS",
+        true,
+        true,
+        1,
+        1
+      ],
+      "independent_probability": 0.038095238095238036,
+      "paired_probability": 0.02777777777777789
+    },
+    {
+      "stratum": [
+        "Source",
+        "WITHHOLD",
+        false,
+        false,
+        1,
+        0
+      ],
+      "independent_probability": 0.03361344537815115,
+      "paired_probability": 0.02777777777777789
+    },
+    {
+      "stratum": [
+        "Source",
+        "WITHHOLD",
+        false,
+        true,
+        1,
+        0
+      ],
+      "independent_probability": 0.03361344537815115,
+      "paired_probability": 0.02777777777777789
+    },
+    {
+      "stratum": [
+        "Source",
+        "WITHHOLD",
+        true,
+        false,
+        1,
+        0
+      ],
+      "independent_probability": 0.03361344537815115,
+      "paired_probability": 0.02777777777777789
+    },
+    {
+      "stratum": [
+        "Source",
+        "WITHHOLD",
+        true,
+        true,
+        1,
+        0
+      ],
+      "independent_probability": 0.03361344537815115,
+      "paired_probability": 0.02777777777777789
+    },
+    {
+      "stratum": [
+        "Worker",
+        "PUBLISH_FULL",
+        false,
+        false,
+        0,
+        0
+      ],
+      "independent_probability": 0.07142857142857123,
+      "paired_probability": 0.05555555555555565
+    },
+    {
+      "stratum": [
+        "Worker",
+        "PUBLISH_FULL",
+        false,
+        false,
+        1,
+        1
+      ],
+      "independent_probability": 0.01948051948051967,
+      "paired_probability": 0.05555555555555546
+    },
+    {
+      "stratum": [
+        "Worker",
+        "PUBLISH_FULL",
+        false,
+        true,
+        0,
+        0
+      ],
+      "independent_probability": 0.07142857142857123,
+      "paired_probability": 0.05555555555555565
+    },
+    {
+      "stratum": [
+        "Worker",
+        "PUBLISH_FULL",
+        false,
+        true,
+        1,
+        1
+      ],
+      "independent_probability": 0.01948051948051967,
+      "paired_probability": 0.05555555555555546
+    },
+    {
+      "stratum": [
+        "Worker",
+        "PUBLISH_FULL",
+        true,
+        false,
+        1,
+        1
+      ],
+      "independent_probability": 0.025974025974026278,
+      "paired_probability": 0.02777777777777789
+    },
+    {
+      "stratum": [
+        "Worker",
+        "PUBLISH_FULL",
+        true,
+        true,
+        1,
+        1
+      ],
+      "independent_probability": 0.025974025974026278,
+      "paired_probability": 0.02777777777777789
+    },
+    {
+      "stratum": [
+        "Worker",
+        "PUBLISH_MINIMAL",
+        false,
+        false,
+        1,
+        1
+      ],
+      "independent_probability": 0.025974025974026278,
+      "paired_probability": 0.02777777777777789
+    },
+    {
+      "stratum": [
+        "Worker",
+        "PUBLISH_MINIMAL",
+        false,
+        true,
+        1,
+        0
+      ],
+      "independent_probability": 0.023809523809523673,
+      "paired_probability": 0.02777777777777789
+    },
+    {
+      "stratum": [
+        "Worker",
+        "PUBLISH_MINIMAL",
+        true,
+        false,
+        1,
+        1
+      ],
+      "independent_probability": 0.025974025974026278,
+      "paired_probability": 0.02777777777777789
+    },
+    {
+      "stratum": [
+        "Worker",
+        "PUBLISH_MINIMAL",
+        true,
+        true,
+        1,
+        0
+      ],
+      "independent_probability": 0.023809523809523673,
+      "paired_probability": 0.02777777777777789
+    },
+    {
+      "stratum": [
+        "Worker",
+        "WITHHOLD",
+        false,
+        false,
+        1,
+        0
+      ],
+      "independent_probability": 0.023809523809523673,
+      "paired_probability": 0.02777777777777789
+    },
+    {
+      "stratum": [
+        "Worker",
+        "WITHHOLD",
+        false,
+        true,
+        1,
+        0
+      ],
+      "independent_probability": 0.023809523809523673,
+      "paired_probability": 0.02777777777777789
+    },
+    {
+      "stratum": [
+        "Worker",
+        "WITHHOLD",
+        true,
+        false,
+        1,
+        0
+      ],
+      "independent_probability": 0.023809523809523673,
+      "paired_probability": 0.02777777777777789
+    },
+    {
+      "stratum": [
+        "Worker",
+        "WITHHOLD",
+        true,
+        true,
+        1,
+        0
+      ],
+      "independent_probability": 0.023809523809523673,
+      "paired_probability": 0.02777777777777789
+    }
+  ]
+}

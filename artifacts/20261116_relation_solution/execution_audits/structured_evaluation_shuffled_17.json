@@ -1,0 +1,36 @@
+{
+  "evaluation": "structured_evaluation",
+  "model": "shuffled_17",
+  "episodes": 1156,
+  "replay_errors": [],
+  "proofs": {
+    "complete": 0,
+    "labels_correct": 0,
+    "paths_correct": 0,
+    "faithful": 0,
+    "total": 0
+  },
+  "max_episode_seconds": 0.004982499987818301,
+  "raw_hashes": {
+    "authorized.jsonl": "204c8fa916d592aa14c0f69393871863128e8d6a3e90f1cde06af7566dfa3756",
+    "both.jsonl": "06097f769ef9ed4bfae020a41151c4432bc3407e94aaab0267ad8ffb8a8672e0",
+    "branch.jsonl": "c0e94e6841b1c8088ec46c374698394f0a726de45a1adc952639d40b7304dd52",
+    "broken.jsonl": "50ea716aa9fdec38a05801dfe005c891df636e2c73bd6ce10dfa549d7c8f89fa",
+    "cycle.jsonl": "716baa2dd36dc81838b330b9aa05185bc2f18065b44c49d7d96f580dfe62a75f",
+    "depth10.jsonl": "ce7db093bc3851a26b3256958f74a1a013bafbcdb43a04b98ecf8e9c3822f8f3",
+    "depth10_swap.jsonl": "15de8c4e55e857017c6d86107781f5d8871b6d56b409edb664e1ef132e2faf52",
+    "depth4.jsonl": "c603fdabe2e38758f2050c57416dda68a5267198d5a3247de89658a37e89132d",
+    "depth4_swap.jsonl": "f9876bb4b95fa20a216997efab831981a1809f481621f7f84ce527e1a1501f16",
+    "depth6.jsonl": "8b4d28cdd690704e19f0e40eead049e43b7ddd8be1370dc653c9b33aa0dddd48",
+    "depth6_swap.jsonl": "e2a818722b364bafbf11acdf3df3ab265e38afd6fb5d459a4f492b8590e695ac",
+    "draft.jsonl": "b1eda0152f38d1a46e2d5ae10968e91c30278a168a4e19832954175752140e5f",
+    "external.jsonl": "24bff7e6797c4e0bc2892f75150e7cb7d3e59a4af4db7a831d467446f91e8340",
+    "external_swap.jsonl": "f9c891df736e7077a40ed6db58a5d66ab0136875622282fa98803dbcff482b34",
+    "noise.jsonl": "272ef1da72f7e0072453d70e5db33e491c428783ff8150e745793a547e9c27e4",
+    "optional.jsonl": "ee66a29e1484fcab6e05a97184a791a9e262f5122bbed3441512a0426300aed6",
+    "reverse.jsonl": "43d7bc83e5ae5332ee61107d52de1517aa6c32ea913b54db589d4bc5d7e0ab84",
+    "test.jsonl": "924b94000d2c7f7c55297e906c15697ebf3e4ea07de29c72683f167d4edf5476",
+    "test_fresh_vectors.jsonl": "0f23e33f46fdd8f18b5b64126e1ef264fac2ec83c0491dd19dee5ebd31cf282c",
+    "test_swap.jsonl": "ec54388a0c8ec3e737679a2ecb7309cb6fc9c91653b6556ffbff960e370560c9"
+  }
+}

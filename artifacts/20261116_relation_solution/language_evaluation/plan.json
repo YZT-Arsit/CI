@@ -1,0 +1,38 @@
+{
+  "conditions": [
+    "test",
+    "test_swap",
+    "depth4",
+    "depth4_swap",
+    "depth6",
+    "depth6_swap",
+    "depth10",
+    "depth10_swap",
+    "noise",
+    "optional",
+    "authorized",
+    "draft",
+    "both",
+    "broken",
+    "reverse",
+    "branch",
+    "cycle",
+    "external",
+    "external_swap",
+    "test_seen"
+  ],
+  "first_worlds_per_stratum": 16,
+  "batch": 4,
+  "max_time": 8,
+  "max_new_tokens": {
+    "plain": 16,
+    "trace": 256
+  },
+  "source_hashes": {
+    "artifacts/20261116_relation_solution/evaluate_language.py": "8b632bde117b9569dfa9b3a1f3feb815033577e4146c742ec6b43781bce21577",
+    "artifacts/20261116_relation_solution/lm_common.py": "02bddaf84a7b82f6b527d3256e6c226f11f4ffcebdce517347cb5fdbfd0bdede",
+    "code/kci/relation_language.py": "a966b9375e7243b78b1f0baf9b4a9b42a21246bc70f9e85a1cc39d7dd01ae771"
+  },
+  "oracle_masks": false,
+  "parse_failures_count_as_failures": true
+}

@@ -1,0 +1,29 @@
+{
+  "depths": [
+    2,
+    10
+  ],
+  "noise": [
+    0,
+    12,
+    32,
+    64,
+    120,
+    128
+  ],
+  "worlds_per_cell": 16,
+  "seeds": [
+    17,
+    29,
+    41
+  ],
+  "timing_batch_sizes": [
+    1,
+    4,
+    16,
+    64
+  ],
+  "new_world_seed_start": 30000000,
+  "purpose": "post-freeze scaling diagnosis, not a replacement main test or model tuning",
+  "source_sha256": "9635005e26b1023d41c70888fe0587ba4b63226045ff8603fecbb1309121998e"
+}

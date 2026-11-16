@@ -1,0 +1,35 @@
+{
+  "evaluation": "old_baseline_evaluation",
+  "model": "old_17",
+  "episodes": 1120,
+  "replay_errors": [],
+  "proofs": {
+    "complete": 0,
+    "labels_correct": 0,
+    "paths_correct": 0,
+    "faithful": 0,
+    "total": 0
+  },
+  "max_episode_seconds": 0.004601499997079372,
+  "raw_hashes": {
+    "authorized.jsonl": "126206e1ad9bf52fe65b2640b011187124aea57d5df7ff468aa60dc0cbc9ec2e",
+    "both.jsonl": "9d0d52b81870d307cf63019cff66c24199df3fd417ab5b82998e781476b7c3b1",
+    "branch.jsonl": "2fda30842a40084ee17900ca1f4650df1a546d464474bc9f926705082a92e81e",
+    "broken.jsonl": "e9d392bfe77a0221b45a5a65133c98d4fceb9bf4375cbd5f8c57cf64f69c488a",
+    "cycle.jsonl": "70a2afa0fca2bdf493569c51aa939973afb83f8530985f28d53c61d2a7e4872d",
+    "depth10.jsonl": "bb481aed7ec0aa92148c6b787afc49af1c3ba9b62f67a6859212d6fd37bb13eb",
+    "depth10_swap.jsonl": "b26cc287ccf88cc9d41b6435141182dfdcbbda6d16c207c8f5d849724486a945",
+    "depth4.jsonl": "14397789fdc34576bef98fcab224459680df1ed7a39f353568fdee75c46cf7e2",
+    "depth4_swap.jsonl": "28f91ec581f71f6929666f096142cd09d28f3abc79e945a428337382a53e3cff",
+    "depth6.jsonl": "c2b64e56dc95d477752011011a9f9c5bff943e053a573e5057657aac0e2869bb",
+    "depth6_swap.jsonl": "e16b2042c3f5de974602c7137a24e6dea7e3053ed82b0411d21e8b00eeb680de",
+    "draft.jsonl": "a6dc9de112258f9fdebdcd6d87f49da512295ab2ddb4b4e6da9e7f036e981eb7",
+    "external_complete.jsonl": "5d39d92bac0c3130ccdfbee9d05237f4dc5724421cbaaae175e6e966d8628a3c",
+    "external_complete_swap.jsonl": "45a830da768d2e0038d018084ab6de3814af04d14357fc372ac0a8134b338f67",
+    "noise.jsonl": "17492efef4701f2cd772b13bb7605f0383dca8c114ec0b42cc412469dc516ea9",
+    "optional.jsonl": "3aa085fb3b1fb66e37a23d8d07bd437a4184c22ce88b5bb08ab372f0b6a5b8b5",
+    "reverse.jsonl": "85690392420fd8868c48bd9c831ed4d8aa10cb1bd89a5b6c1c95575872bf48f9",
+    "test.jsonl": "c11dec05e5dd9544ce8df94955c0d66e0dea4167b080f4d18bd381a54ae6eb56",
+    "test_swap.jsonl": "f13336dbc069ee1c85009b58d7737bd9660a60e4432957dcc855d38e0e4183be"
+  }
+}

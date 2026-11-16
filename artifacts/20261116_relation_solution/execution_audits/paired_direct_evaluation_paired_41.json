@@ -1,0 +1,35 @@
+{
+  "evaluation": "paired_direct_evaluation",
+  "model": "paired_41",
+  "episodes": 1120,
+  "replay_errors": [],
+  "proofs": {
+    "complete": 0,
+    "labels_correct": 0,
+    "paths_correct": 0,
+    "faithful": 0,
+    "total": 0
+  },
+  "max_episode_seconds": 0.005457199993543327,
+  "raw_hashes": {
+    "authorized.jsonl": "6554b7e1aa503e83db8b5056380b1964a3ee1594469c3e2db7b990c44a4a26c9",
+    "both.jsonl": "e50f4a63e3b4ee94d5d402d844d5c7fa9da367484f7cfd3583394cb8ef112e89",
+    "branch.jsonl": "fe5784594c09c3ba20bc9921f6b292aebc035d40fd208ce19badf15789275c7f",
+    "broken.jsonl": "e02d0e10cf263fc7d87aa0c613c2df9cff4caed63195d52bb8bb2eabdb7d2193",
+    "cycle.jsonl": "0a7cbd930f173e4672c87dfb2f0ea61e28b96031d1faf101ece46fd7bf262438",
+    "depth10.jsonl": "4c6e9da8a431b6c0c81fd3ed06e3586e592b61e0820ef332488bc972dcf2a762",
+    "depth10_swap.jsonl": "2fd0299c6eca58c5a6de277c6920d064517df5d72284bb48b9369fee16b95d7a",
+    "depth4.jsonl": "59967586aaee46388ed54be9376b1467bb2a8044f381f6ea1789205a5fa62e23",
+    "depth4_swap.jsonl": "3c255e89029aa43283eb9886fa531e3c060060e07714a7b63b48d4cd92ff433d",
+    "depth6.jsonl": "5f38d471085e5fb7a86ff80632fd41999e2aaa6c3d0158f30d2d4f8acaaaddde",
+    "depth6_swap.jsonl": "ceb22b4726e33f6d18eb240d4dc6784f8ab39ac665a02e6bf6cc37f61ded8e32",
+    "draft.jsonl": "acdde9283dd0da20f316425608e13d69f949b03d1a40dcc799f432b12769599f",
+    "external_complete.jsonl": "d67744882c57618726189c1de885050f197d611fc984941c863cf4e92c5ef688",
+    "external_complete_swap.jsonl": "357cc25e948d97b5b75c2e35f0a502956a443f07f296a84fc933e6e9a61dc91a",
+    "noise.jsonl": "913d440d760d961ac514e75039f13a1968db8145fc1fe5ef615e8ef9f9c62d6d",
+    "optional.jsonl": "ea710a21ebb5f1103545a43c8abd6123eabcde704550ebe8ef93b54ea70f14ff",
+    "reverse.jsonl": "6454a89351f8a3ac2b28700082bc49cd056d818b7bffccb3bc00a7a1f6991802",
+    "test.jsonl": "9bf62f8207813aa128e7fc1c1b7ada531f8702cc92fdcf451addd3d8743879b5",
+    "test_swap.jsonl": "ac35553dda67ddc3311259a166d4e44596f04e00edd790c0671e9ffa6cce8591"
+  }
+}

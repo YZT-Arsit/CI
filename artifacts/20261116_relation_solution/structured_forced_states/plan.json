@@ -1,0 +1,15 @@
+{
+  "conditions": [
+    "test",
+    "depth10",
+    "optional",
+    "authorized",
+    "both"
+  ],
+  "worlds_per_condition": 8,
+  "states_per_world": 4,
+  "all_tickets": true,
+  "selection": "first fixed worlds, not model errors",
+  "purpose": "supplemental off-policy diagnostic; no model tuning",
+  "source_sha256": "77c2546a5806be3c34ca761860e35f13ecbdc78fd8523961b60bbf1e68443533"
+}

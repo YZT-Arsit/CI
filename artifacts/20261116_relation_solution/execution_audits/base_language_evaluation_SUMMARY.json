@@ -1,0 +1,30 @@
+{
+  "episodes": 128,
+  "errors": 0,
+  "models": [
+    {
+      "evaluation": "base_language_evaluation",
+      "model": "base",
+      "episodes": 128,
+      "replay_errors": [],
+      "proofs": {
+        "complete": 0,
+        "labels_correct": 0,
+        "paths_correct": 0,
+        "faithful": 0,
+        "total": 0
+      },
+      "max_episode_seconds": 0.003091100021265447,
+      "raw_hashes": {
+        "authorized.jsonl": "148f6a0ed064e396b9ab8d3e2d68d2cfe664cf6b6b5345cd96ff3281308bf741",
+        "both.jsonl": "622a8b3a442fbc990b523f384c0ebe6773673cc311c74154f32a4a610b13ba50",
+        "depth10.jsonl": "c0bc657129d243f769e21ee86f28606c122dff34891ad5631f49b41b7dace823",
+        "depth10_swap.jsonl": "da04e65e2860c8a90a6468e54457dab107cff416cc03efc7d0bcd1c367d8b913",
+        "external_complete.jsonl": "9726cf1c83a792da11b92bacc4fa69a73abb119e199bb4b4b03a7f7c2112e88e",
+        "optional.jsonl": "7f1d77979a9d7db4087faac2235065c7f8677c0ad724b23b151bc9be505f26d3",
+        "test.jsonl": "9bb07d1dea84c15bba2d2df41f8ebc62f3703e17ad9484ba4aaf145de04d2685",
+        "test_swap.jsonl": "7c26a241a2c170c1c1678f8f107df81257cdec30f0375013c2f6f9014b343c59"
+      }
+    }
+  ]
+}

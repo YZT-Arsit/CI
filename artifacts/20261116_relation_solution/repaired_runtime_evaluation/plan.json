@@ -1,0 +1,28 @@
+{
+  "models": "all three local-rule checkpoints unchanged; 64D runtime; no selection",
+  "splits": [
+    "test",
+    "depth4",
+    "depth6",
+    "depth10",
+    "noise",
+    "optional",
+    "authorized",
+    "draft",
+    "both",
+    "broken",
+    "reverse",
+    "branch",
+    "cycle"
+  ],
+  "worlds_per_split": 64,
+  "new_seed_offset": 100000000,
+  "width": 64,
+  "max_facts": 256,
+  "extra_controls": [
+    "paired test/depth4/depth6/depth10 swaps",
+    "external complete"
+  ],
+  "scope": "fresh confirmatory structured experiment; fixed max-min architecture remains supplied; not a language-model result",
+  "source_sha256": "94b956799e5baca65ef7998cce70715db0f525e46e46dfbabdb6f006e5c249f9"
+}

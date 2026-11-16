@@ -1,0 +1,29 @@
+{
+  "widths": [
+    16,
+    64
+  ],
+  "max_facts": 256,
+  "depths": [
+    2,
+    10,
+    32
+  ],
+  "noise": [
+    0,
+    32,
+    64,
+    128
+  ],
+  "worlds_per_cell": 16,
+  "seeds": [
+    17,
+    29,
+    41
+  ],
+  "new_world_seed_start": 40000000,
+  "model_weights": "all existing local checkpoints unchanged, trained width16",
+  "hypothesis": "higher random-code dimension concentrates non-identical distances; same learned mean-distance matcher, no equality oracle",
+  "selection": "width64 fixed from identified 16D collision issue; no sweep",
+  "source_sha256": "998b2e56cfafefd83030d060b4bd7e8181c58210ae61198c8eadda15ffc926fe"
+}

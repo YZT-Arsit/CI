@@ -1,0 +1,38 @@
+{
+  "evaluation": "balanced_language_evaluation",
+  "model": "balanced_41",
+  "episodes": 324,
+  "replay_errors": [],
+  "proofs": {
+    "complete": 844,
+    "labels_correct": 495,
+    "paths_correct": 450,
+    "faithful": 289,
+    "total": 936
+  },
+  "max_episode_seconds": 0.0026876210004047607,
+  "raw_hashes": {
+    "authorized.jsonl": "eeab27ab76510c43115eac03964a74986016c1f9e72b609cfd364c22552822c6",
+    "both.jsonl": "254a12c10b1ae64a31059e4e6339e010de57ca7ddeba5fc871de0610248cfa2c",
+    "branch.jsonl": "5edd960ce4a60bea8b668c7d019bf909f2b1760f5a1102cb64257fff6f1c257b",
+    "broken.jsonl": "9661fdef5c35e253151b5f2de0ff19fec8ccaa395b75be1f0a0e125316e58237",
+    "cycle.jsonl": "8121572688d994d18c74a10a9c2d061e9355eefafb311ebc6faa80c9c6db4be1",
+    "depth10.jsonl": "2530d919f5af47b04d64611df5871b71bdb9287e6cd7bbe130b2b9ab1c3c6abc",
+    "depth10_swap.jsonl": "d6ab09926a110a22bde55af57337f147ac01f675437437269491c26b837b09c5",
+    "depth4.jsonl": "0bc11edc6279ec515ac3d4284f036867b56abcfcffc3a7d1394f994e02aa1e05",
+    "depth4_swap.jsonl": "eecabd79923759bae45b3f54c4271f30e8872ae6921d488402988083be96e773",
+    "depth6.jsonl": "f3b919ab3cd9dbfc614a7fb71027cf6bdc1f43388f718f746f5aa97cd07717e7",
+    "depth6_swap.jsonl": "c6a1c32954b3bbedf0ce565f9d69655a80dd4685da0afb2394b868fe459ddbf8",
+    "draft.jsonl": "ca66f6691c32f7ac4c2fba78e63acee9c4e45a5199fbe1d89f54a49d52b5d874",
+    "external.jsonl": "e220f6e8259234c3157bbe837b8f0571d42d2246dca564268bb1aae0b7396edb",
+    "external_complete.jsonl": "acbb7e1a7fd339b7176075c31cf38283492ab9e9f3127ea5bc3479cc4b0cb299",
+    "external_complete_swap.jsonl": "35dc2c8d9183041a424bd174a1907ea561a8fa376438c8599a27861e6f6bb8e8",
+    "external_swap.jsonl": "0cdb4bbaf220ce88ec77907654f5c724fe5ad1566c85d234e0c5569a7a33be23",
+    "noise.jsonl": "67178dbe57b149cf3cd095ca272440d254a5f1ac79a6f8bdb26a16c528809e1b",
+    "optional.jsonl": "390b053fcac090d436bae4e6a3a79edccdbd7c99f66b8e65445eabf2986fd521",
+    "reverse.jsonl": "0737ffbe3ec4e33a87da1ed53ded17074215a2fb444930c2895c7476e0529660",
+    "test.jsonl": "39ab5371d608b020a647fb9d7139e40fb029530aeeebca0b50a5aef3484a9f2b",
+    "test_seen.jsonl": "af8bdb14722cdc6b376407592456531c90201c44f608e2b18fb44902aff82f26",
+    "test_swap.jsonl": "f987c4ddf78330c31ada16184d242d23d6ce50042cbec3ae95ce7570072cccda"
+  }
+}

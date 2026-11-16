@@ -1,0 +1,120 @@
+{
+  "episodes": 972,
+  "errors": 0,
+  "models": [
+    {
+      "evaluation": "balanced_language_evaluation",
+      "model": "balanced_17",
+      "episodes": 324,
+      "replay_errors": [],
+      "proofs": {
+        "complete": 828,
+        "labels_correct": 416,
+        "paths_correct": 394,
+        "faithful": 317,
+        "total": 932
+      },
+      "max_episode_seconds": 0.03186261700011528,
+      "raw_hashes": {
+        "authorized.jsonl": "511ed322d4b90e2e636ef4bd0cbddcf02094fd284272fe245a3a1550d16775eb",
+        "both.jsonl": "a0f3cf295fb458744120389981d9113554d962f9597f651e291368c287fd6b8b",
+        "branch.jsonl": "601d38c7d1391fb010898d5384193287f4246562732d329e74f0c1beeea7a9c2",
+        "broken.jsonl": "cfc1a145bcf985d58c91315def9e4d6f700bbaf031a3c3c22e5d7b689800adbe",
+        "cycle.jsonl": "abdca529ff6dab1135681367cb428d21afaf14707e7bb1006c5c6eff0a5ef5c8",
+        "depth10.jsonl": "28dbe06c0db6e78989bf3c72205b35cea310b678283c4e75923bc4112b2e95b5",
+        "depth10_swap.jsonl": "549a35edfed41be39561479357bd977a508deb4c06ca512530201bb32c871cda",
+        "depth4.jsonl": "5a9297f40253de211839bf9fce2d97d4ad077c7d91cde321b3ed2df51ceff227",
+        "depth4_swap.jsonl": "6625d1f5f143eaab084d875252139d5b60ca7c882b6730c29262fbf784402f30",
+        "depth6.jsonl": "1f18e0d0e973d975d27007f85d3dff29e36626628f8d867a386cefd6fa69b90a",
+        "depth6_swap.jsonl": "3160fe58e11f79c840cb4530e24dc83b498d96e76437c8914e09c6b6204d3361",
+        "draft.jsonl": "03c5d7155f83c1cb5bbf313a89460beb38cf15f9dd917a94380f54f944003d8b",
+        "external.jsonl": "b8c2c31e274ab45e9db395061b0a6fd9d575e21dc357c3fc0bc2b9e5953223f4",
+        "external_complete.jsonl": "08a5648d60f4613b76279890fdaee419a4b1293459c866386061ff7a9f3ded88",
+        "external_complete_swap.jsonl": "c9446ce0c35ee49e772afd00e9d13b958480aff58171ef9a19c7ab2c07222bbf",
+        "external_swap.jsonl": "8b91a547291cf9d324fd351309e44f417eb1ddcd2169e134a81b8f5385f189b0",
+        "noise.jsonl": "d24ac0a8ce490a40f33173175ce9cab6328d5e420dc673905aeb202b080b74d7",
+        "optional.jsonl": "19fb095a1cffc5bd86a34a659dfeace567cdf9a941068ed601642702fa8e0a40",
+        "reverse.jsonl": "e0716641b7d04f43fc59acfb4e17172e387a72ca477bb70abcc13bad7949815a",
+        "test.jsonl": "fd0d04d96c14d8fbfb644dfe8aafc12d693e26cc09c7e9878a8808b6ba27f490",
+        "test_seen.jsonl": "84ce202f15f4480d947a6c39634d07e76ddbbae193bf52ed5d8de5446e8651bb",
+        "test_swap.jsonl": "eabc4d69547034ad53adda6af48ecaced147ba3c5bff4020c410843bcee2ba43"
+      }
+    },
+    {
+      "evaluation": "balanced_language_evaluation",
+      "model": "balanced_29",
+      "episodes": 324,
+      "replay_errors": [],
+      "proofs": {
+        "complete": 654,
+        "labels_correct": 533,
+        "paths_correct": 406,
+        "faithful": 129,
+        "total": 875
+      },
+      "max_episode_seconds": 0.0029373420002229977,
+      "raw_hashes": {
+        "authorized.jsonl": "2723c179a69d4034633a74f072846afd996573d319c062e98bdc020612dbf79f",
+        "both.jsonl": "ccee49dcef3d017c5aaacf50f21a8f6ddb8943bccf3ee60f72995155ad6378e2",
+        "branch.jsonl": "a038f3a1c84073ca4aa0405f741038cf0cf4011f1f0623cf79a09ed77c5df32c",
+        "broken.jsonl": "18623b1f1b2ec81d5e583c2c244719b08d3988e63391214a6ae176565d694e21",
+        "cycle.jsonl": "82abe4884221b50bddcefe7f652a5c4027f67908193793e31110e4993ba2f311",
+        "depth10.jsonl": "fe62141f8c442f382ae8705b096e04fea69508864cb3901aa8b1a6819b46b36e",
+        "depth10_swap.jsonl": "bff2fea30abef07c1af8140cd5f85413ea6f8da16da5af59946cae48ff120f8e",
+        "depth4.jsonl": "8191ad5510e3180a40033bf90ced0399abb810f56df766779655b97e358bbe30",
+        "depth4_swap.jsonl": "2c5f1472ff353d4d8a11e47ceb496895442906d1e9c757ccfca2dc7a32375838",
+        "depth6.jsonl": "75890cd6511ee79ef225012ab8f78028b605a17ea53188a038f2b5b25c896bac",
+        "depth6_swap.jsonl": "beb96cc4341779adabf38aca4f05e7b4127f8bd0dfd30f84082119c8f4a20fbc",
+        "draft.jsonl": "bf9f25596f529b0db63e6b3f84647d9f852c8780dda386b961783d01062cc58c",
+        "external.jsonl": "1c6cff41463bc4e003210eca5c980511a0fe02062ed07f33c789f3b4fcf26094",
+        "external_complete.jsonl": "3b45072ca36a71fbbfed3707ccff8669fda897f42ee8406a184f3c58f8687171",
+        "external_complete_swap.jsonl": "bbcb1df57a8140ae7bf69d75805a95e9926f95ef1813aba6f971b182961132d7",
+        "external_swap.jsonl": "7a2e50b43a62d03eed4764342ea2729390d59dfd21d0bcfa175b744508c432c1",
+        "noise.jsonl": "40f83e3c29b1a9073c829f80885c54b0b3cbf6a04016be651e8ba3cbb8c49a09",
+        "optional.jsonl": "a0992b11ebf437150e374198256c9eda57c5041469a249b98c4a739de4cfa6c7",
+        "reverse.jsonl": "fed797288345676f489fe9bec5db72d8c3f5ca4451edeb940c04b14bc9c7d0dd",
+        "test.jsonl": "a2b8314c5a41cc7ff4f28b1bc96dabf2a3b7fad4b995c894f2eb602aefab2a5a",
+        "test_seen.jsonl": "bb4e3776e551f46f49e89acca63cb59ff7ed2bb505ad42169d034e41b67ad2b9",
+        "test_swap.jsonl": "63c584d612d737ac64eaf07e2683b8cb152ce10b6abdd8d5dc566d3cd3091a1d"
+      }
+    },
+    {
+      "evaluation": "balanced_language_evaluation",
+      "model": "balanced_41",
+      "episodes": 324,
+      "replay_errors": [],
+      "proofs": {
+        "complete": 844,
+        "labels_correct": 495,
+        "paths_correct": 450,
+        "faithful": 289,
+        "total": 936
+      },
+      "max_episode_seconds": 0.0026876210004047607,
+      "raw_hashes": {
+        "authorized.jsonl": "eeab27ab76510c43115eac03964a74986016c1f9e72b609cfd364c22552822c6",
+        "both.jsonl": "254a12c10b1ae64a31059e4e6339e010de57ca7ddeba5fc871de0610248cfa2c",
+        "branch.jsonl": "5edd960ce4a60bea8b668c7d019bf909f2b1760f5a1102cb64257fff6f1c257b",
+        "broken.jsonl": "9661fdef5c35e253151b5f2de0ff19fec8ccaa395b75be1f0a0e125316e58237",
+        "cycle.jsonl": "8121572688d994d18c74a10a9c2d061e9355eefafb311ebc6faa80c9c6db4be1",
+        "depth10.jsonl": "2530d919f5af47b04d64611df5871b71bdb9287e6cd7bbe130b2b9ab1c3c6abc",
+        "depth10_swap.jsonl": "d6ab09926a110a22bde55af57337f147ac01f675437437269491c26b837b09c5",
+        "depth4.jsonl": "0bc11edc6279ec515ac3d4284f036867b56abcfcffc3a7d1394f994e02aa1e05",
+        "depth4_swap.jsonl": "eecabd79923759bae45b3f54c4271f30e8872ae6921d488402988083be96e773",
+        "depth6.jsonl": "f3b919ab3cd9dbfc614a7fb71027cf6bdc1f43388f718f746f5aa97cd07717e7",
+        "depth6_swap.jsonl": "c6a1c32954b3bbedf0ce565f9d69655a80dd4685da0afb2394b868fe459ddbf8",
+        "draft.jsonl": "ca66f6691c32f7ac4c2fba78e63acee9c4e45a5199fbe1d89f54a49d52b5d874",
+        "external.jsonl": "e220f6e8259234c3157bbe837b8f0571d42d2246dca564268bb1aae0b7396edb",
+        "external_complete.jsonl": "acbb7e1a7fd339b7176075c31cf38283492ab9e9f3127ea5bc3479cc4b0cb299",
+        "external_complete_swap.jsonl": "35dc2c8d9183041a424bd174a1907ea561a8fa376438c8599a27861e6f6bb8e8",
+        "external_swap.jsonl": "0cdb4bbaf220ce88ec77907654f5c724fe5ad1566c85d234e0c5569a7a33be23",
+        "noise.jsonl": "67178dbe57b149cf3cd095ca272440d254a5f1ac79a6f8bdb26a16c528809e1b",
+        "optional.jsonl": "390b053fcac090d436bae4e6a3a79edccdbd7c99f66b8e65445eabf2986fd521",
+        "reverse.jsonl": "0737ffbe3ec4e33a87da1ed53ded17074215a2fb444930c2895c7476e0529660",
+        "test.jsonl": "39ab5371d608b020a647fb9d7139e40fb029530aeeebca0b50a5aef3484a9f2b",
+        "test_seen.jsonl": "af8bdb14722cdc6b376407592456531c90201c44f608e2b18fb44902aff82f26",
+        "test_swap.jsonl": "f987c4ddf78330c31ada16184d242d23d6ce50042cbec3ae95ce7570072cccda"
+      }
+    }
+  ]
+}

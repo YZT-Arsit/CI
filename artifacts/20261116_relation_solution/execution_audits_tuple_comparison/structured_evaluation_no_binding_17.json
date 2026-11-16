@@ -1,0 +1,162 @@
+{
+  "evaluation": "structured_evaluation",
+  "model": "no_binding_17",
+  "episodes": 1156,
+  "replay_errors": [
+    [
+      "authorized",
+      "meeting_9000000",
+      "transition audit"
+    ],
+    [
+      "authorized",
+      "query_9000007",
+      "transition audit"
+    ],
+    [
+      "authorized",
+      "meeting_9000008",
+      "transition audit"
+    ],
+    [
+      "authorized",
+      "meeting_9000016",
+      "transition audit"
+    ],
+    [
+      "authorized",
+      "query_9000017",
+      "transition audit"
+    ],
+    [
+      "authorized",
+      "meeting_9000018",
+      "transition audit"
+    ],
+    [
+      "authorized",
+      "query_9000019",
+      "transition audit"
+    ],
+    [
+      "authorized",
+      "meeting_9000020",
+      "transition audit"
+    ],
+    [
+      "authorized",
+      "meeting_9000022",
+      "transition audit"
+    ],
+    [
+      "authorized",
+      "query_9000023",
+      "transition audit"
+    ],
+    [
+      "authorized",
+      "meeting_9000026",
+      "transition audit"
+    ],
+    [
+      "authorized",
+      "meeting_9000028",
+      "transition audit"
+    ],
+    [
+      "authorized",
+      "meeting_9000030",
+      "transition audit"
+    ],
+    [
+      "authorized",
+      "meeting_9000032",
+      "transition audit"
+    ],
+    [
+      "authorized",
+      "meeting_9000036",
+      "transition audit"
+    ],
+    [
+      "authorized",
+      "meeting_9000038",
+      "transition audit"
+    ],
+    [
+      "authorized",
+      "query_9000041",
+      "transition audit"
+    ],
+    [
+      "authorized",
+      "meeting_9000042",
+      "transition audit"
+    ],
+    [
+      "authorized",
+      "query_9000043",
+      "transition audit"
+    ],
+    [
+      "authorized",
+      "meeting_9000046",
+      "transition audit"
+    ],
+    [
+      "authorized",
+      "meeting_9000048",
+      "transition audit"
+    ],
+    [
+      "authorized",
+      "query_9000051",
+      "transition audit"
+    ],
+    [
+      "authorized",
+      "meeting_9000052",
+      "transition audit"
+    ],
+    [
+      "authorized",
+      "query_9000059",
+      "transition audit"
+    ],
+    [
+      "authorized",
+      "query_9000061",
+      "transition audit"
+    ]
+  ],
+  "proofs": {
+    "complete": 0,
+    "labels_correct": 0,
+    "paths_correct": 0,
+    "faithful": 0,
+    "total": 0
+  },
+  "max_episode_seconds": 0.003381500020623207,
+  "raw_hashes": {
+    "authorized.jsonl": "10b1fecf0a4a58fc2d3d1c295b4c2f0a522c5bc14f107c2d79d018ec805dd5d9",
+    "both.jsonl": "8d6807c48bf320619c56ccfcff4916958a9d3672b00133ee8777033e0156773b",
+    "branch.jsonl": "3c34c2b1c5ae2e54e1fab13a4a243daf314e79cd8f5738164b91219a34e207de",
+    "broken.jsonl": "df9826f48c995e635a2880ec0979bf81ec5ff570f0404d7fb20717166ce95786",
+    "cycle.jsonl": "50ac5032d231418a4486f45527e3492fce5850856ce60dabf549d353304557e6",
+    "depth10.jsonl": "f36fbe7baa4d8204270d1a212bc2e3daf016ec8428961dc6a380398778a44b36",
+    "depth10_swap.jsonl": "a888e3c47730137030e3f55fe984a3782578b3e33d4e6917577728b0a545f68c",
+    "depth4.jsonl": "b6c0eea582f7c646bd99f262277fdd6552c5e41983b4314ea9c81a4a9cd89999",
+    "depth4_swap.jsonl": "d48db05e1e60cfe9ff262fe2b2eac385677272302ddb08a4098826f23c5b4534",
+    "depth6.jsonl": "a670e72809f6416f0c8da45efd56e6f89c938211a074c56a67ac9792351500b7",
+    "depth6_swap.jsonl": "bd46eae0ca4de7ddd3780b3b31f958e79946b5707c4d300b04a92d63b0da9c2b",
+    "draft.jsonl": "7e5350267e07b10c01edca526462393688c3100eefcd9498d1ec46446dd13bf8",
+    "external.jsonl": "f109b827aff36a0d71b3777928e06ff96d3cd58c951c029ea10d8e14fe3c6362",
+    "external_swap.jsonl": "7f7bfcfd07ae5b33355364a2658bcba190e4965c71fa79182c3fd6792d42a804",
+    "noise.jsonl": "7c81081e6d8eec30ebeae9b9d94e4d06b03cff6d0eb731b2a1a2b4070415e539",
+    "optional.jsonl": "9adf998343c155e55ba1d5752c8d46b730970a53c8955b393de7f23b0ea13478",
+    "reverse.jsonl": "9293a3c26e4574a353213f5a03f279c9b8b902a5603411c3e70f66976c6f0ed8",
+    "test.jsonl": "80d6eeb8cad94e73602342375adc07b14d9e252f7775e48398a82012fa42569a",
+    "test_fresh_vectors.jsonl": "80d6eeb8cad94e73602342375adc07b14d9e252f7775e48398a82012fa42569a",
+    "test_swap.jsonl": "1a0425c6e8d1c90942e4ef203c0f13a04a4df39b201de1729707b1b9472b3569"
+  }
+}

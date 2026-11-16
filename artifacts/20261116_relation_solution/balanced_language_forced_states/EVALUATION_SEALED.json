@@ -1,0 +1,139 @@
+{
+  "summaries": [
+    {
+      "model": "balanced_17",
+      "condition": "test",
+      "states": 32,
+      "correct": 26,
+      "ci": 28,
+      "feasible": 16,
+      "preserves_safe_completion": 12
+    },
+    {
+      "model": "balanced_17",
+      "condition": "depth10",
+      "states": 32,
+      "correct": 20,
+      "ci": 22,
+      "feasible": 16,
+      "preserves_safe_completion": 10
+    },
+    {
+      "model": "balanced_17",
+      "condition": "optional",
+      "states": 32,
+      "correct": 25,
+      "ci": 25,
+      "feasible": 32,
+      "preserves_safe_completion": 25
+    },
+    {
+      "model": "balanced_17",
+      "condition": "authorized",
+      "states": 32,
+      "correct": 26,
+      "ci": 26,
+      "feasible": 32,
+      "preserves_safe_completion": 26
+    },
+    {
+      "model": "balanced_17",
+      "condition": "both",
+      "states": 32,
+      "correct": 24,
+      "ci": 24,
+      "feasible": 0,
+      "preserves_safe_completion": 0
+    },
+    {
+      "model": "balanced_29",
+      "condition": "test",
+      "states": 32,
+      "correct": 23,
+      "ci": 29,
+      "feasible": 16,
+      "preserves_safe_completion": 8
+    },
+    {
+      "model": "balanced_29",
+      "condition": "depth10",
+      "states": 32,
+      "correct": 24,
+      "ci": 30,
+      "feasible": 16,
+      "preserves_safe_completion": 9
+    },
+    {
+      "model": "balanced_29",
+      "condition": "optional",
+      "states": 32,
+      "correct": 30,
+      "ci": 30,
+      "feasible": 32,
+      "preserves_safe_completion": 30
+    },
+    {
+      "model": "balanced_29",
+      "condition": "authorized",
+      "states": 32,
+      "correct": 29,
+      "ci": 29,
+      "feasible": 32,
+      "preserves_safe_completion": 29
+    },
+    {
+      "model": "balanced_29",
+      "condition": "both",
+      "states": 32,
+      "correct": 29,
+      "ci": 29,
+      "feasible": 0,
+      "preserves_safe_completion": 0
+    },
+    {
+      "model": "balanced_41",
+      "condition": "test",
+      "states": 32,
+      "correct": 25,
+      "ci": 26,
+      "feasible": 16,
+      "preserves_safe_completion": 15
+    },
+    {
+      "model": "balanced_41",
+      "condition": "depth10",
+      "states": 32,
+      "correct": 28,
+      "ci": 30,
+      "feasible": 16,
+      "preserves_safe_completion": 14
+    },
+    {
+      "model": "balanced_41",
+      "condition": "optional",
+      "states": 32,
+      "correct": 27,
+      "ci": 27,
+      "feasible": 32,
+      "preserves_safe_completion": 27
+    },
+    {
+      "model": "balanced_41",
+      "condition": "authorized",
+      "states": 32,
+      "correct": 25,
+      "ci": 32,
+      "feasible": 32,
+      "preserves_safe_completion": 25
+    },
+    {
+      "model": "balanced_41",
+      "condition": "both",
+      "states": 32,
+      "correct": 19,
+      "ci": 19,
+      "feasible": 0,
+      "preserves_safe_completion": 0
+    }
+  ]
+}

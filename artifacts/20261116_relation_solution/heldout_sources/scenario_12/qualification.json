@@ -1,0 +1,10 @@
+{
+  "scenario": 12,
+  "native_CI_obligation": false,
+  "constraint_types": [
+    "meeting_requires_room_feature",
+    "person_unavailable"
+  ],
+  "status": "INCOMPATIBLE_OR_MISSING",
+  "reason": "ValueError(\"unsupported native constraints: {'meeting_requires_room_feature', 'person_unavailable'}\")"
+}

@@ -1,0 +1,36 @@
+{
+  "evaluation": "structured_evaluation",
+  "model": "safety_only_17",
+  "episodes": 1156,
+  "replay_errors": [],
+  "proofs": {
+    "complete": 0,
+    "labels_correct": 0,
+    "paths_correct": 0,
+    "faithful": 0,
+    "total": 0
+  },
+  "max_episode_seconds": 0.004780300019774586,
+  "raw_hashes": {
+    "authorized.jsonl": "94f999d85643cae788323eeef4eea0c6c2f875d17d51759b8666958ba4ce554b",
+    "both.jsonl": "b0271e18c161c48fa833242111dfbf097d34df52daebd13c88d6f367e100129f",
+    "branch.jsonl": "612861adec19147f2c29b682ffd5591adf02d91e37251896911d951964bd4b90",
+    "broken.jsonl": "f019a64d24900c2a15bda6ffec7c52c2782bb8f4eff200b038c0741ed6bece1f",
+    "cycle.jsonl": "8c722c27cdd987fb8fef58bef4d8138403a26d80e67cc35b0feebf1b3cd5bece",
+    "depth10.jsonl": "d3e9b37ca8ca97b62e0ff5ffcc891c5ce5fbfeaf96bb67365b5736fe4d1f6b10",
+    "depth10_swap.jsonl": "52094af70f8db498b0708f860fcc0aeb83f7fe5d16662219c081762bebab7992",
+    "depth4.jsonl": "0f597a80e078a4f7c1e94772712eb488c2635ffb84505d1f0e03b0b4e5df37fc",
+    "depth4_swap.jsonl": "2f0d3475a46608251e7e7a64789b15bc6b9b5077f429b0f690000a03fbd45ea7",
+    "depth6.jsonl": "77bef801f7459da33c0a99553ca71511516351ae499c6ad5b6139e1cda18f851",
+    "depth6_swap.jsonl": "2ef7b2ab1cc5018915dc50a792e746f1c777536c1952eddc89b8bc6704bdac99",
+    "draft.jsonl": "9b8660c6a47b805774d5a94efbd126c34fb88eb957ffc68ba71894fba8adfdb0",
+    "external.jsonl": "b90a1f80799f37688c0dbc343f111bd1599fd932c22826bfddf21ec76f098062",
+    "external_swap.jsonl": "d5befb620ac84d422eb7b3048c87d39f36a620967d2068a165af75cd996329ac",
+    "noise.jsonl": "295bfebda9ab4cc5060877d81a6d0bb595294e4eeec8168a150adc33a7a7ae5c",
+    "optional.jsonl": "84ef7ec76d57a12413dcebdbddae14758988a49d51046db7b82ca32b897b0176",
+    "reverse.jsonl": "0e1daff9534673d5940c16f8bb2df68a92d45b3214a4c6909b9ab639d59aa81b",
+    "test.jsonl": "dbe9803c9c047c843d28f3ebf6f4bde04e904879a317d06ebc64f417e2ebd3e5",
+    "test_fresh_vectors.jsonl": "afd260ab62571b2e5edad8b426e3c9225087252179faa5a7bb863540b1247c66",
+    "test_swap.jsonl": "6a995dff416e9536744d48bd5560ea7222603844336b8f5f0d068464224a5d0e"
+  }
+}

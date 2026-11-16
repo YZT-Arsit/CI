@@ -1,0 +1,27 @@
+{
+  "arms": [
+    "local",
+    "no_binding",
+    "safety_only",
+    "shuffled",
+    "dense_graph"
+  ],
+  "seeds": [
+    17,
+    29,
+    41
+  ],
+  "primitive_steps": 1000,
+  "head_steps": 1200,
+  "graph_steps": 600,
+  "primitive_lr": 0.05,
+  "head_lr": 0.01,
+  "graph_lr": 0.003,
+  "batch": 64,
+  "embedding_width": 16,
+  "teacher": "explicit local relation gates and equality supervision, architectural max-min composition; NOT an LLM method",
+  "source_hashes": {
+    "artifacts/20261116_relation_solution/train_structured.py": "622912f75bf724ddca3342005c325f9e03dc8b9ce420c2310b3d7ce1ac3933fe",
+    "code/kci/relation_solution.py": "5934460ae73905250227a89a0635c6c56f663f72dd02bbb6c8c086e10ecf7838"
+  }
+}

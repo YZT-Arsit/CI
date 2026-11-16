@@ -1,0 +1,140 @@
+{
+  "models": [
+    {
+      "model": "local_17",
+      "arm": "local",
+      "seed": 17,
+      "checkpoint_sha256": "b1d10671f53d7d99c2056f71d50b351d6b4a894368627e645104ca580a53cc49",
+      "final_loss": 0.0006680833175778389,
+      "max_chunk_seconds": 0.011866736000001765,
+      "parameters": 508
+    },
+    {
+      "model": "local_29",
+      "arm": "local",
+      "seed": 29,
+      "checkpoint_sha256": "e386271eeaa1576bb8fa6870f4253237a7235d9ffa5e9d52263a046f15932375",
+      "final_loss": 0.0002644393825903535,
+      "max_chunk_seconds": 0.0017085650000581154,
+      "parameters": 508
+    },
+    {
+      "model": "local_41",
+      "arm": "local",
+      "seed": 41,
+      "checkpoint_sha256": "ff5cce360e49a906e474db6d7109e9a6b8fde61d7743f502d4417004741781aa",
+      "final_loss": 0.0002769390121102333,
+      "max_chunk_seconds": 0.002995124999984,
+      "parameters": 508
+    },
+    {
+      "model": "no_binding_17",
+      "arm": "no_binding",
+      "seed": 17,
+      "checkpoint_sha256": "4718fdf552a6485e540741c1ae92cc325ec1f29211bc976cfddc83c1bfd9b2e6",
+      "final_loss": 0.1407441794872284,
+      "max_chunk_seconds": 0.0016102440000622664,
+      "parameters": 508
+    },
+    {
+      "model": "no_binding_29",
+      "arm": "no_binding",
+      "seed": 29,
+      "checkpoint_sha256": "7ae55f11c652236c24d4e351e9384b71e65c7f40537e633e9e89e494450f6e52",
+      "final_loss": 0.16840678453445435,
+      "max_chunk_seconds": 0.0014415190000818257,
+      "parameters": 508
+    },
+    {
+      "model": "no_binding_41",
+      "arm": "no_binding",
+      "seed": 41,
+      "checkpoint_sha256": "d3fec3e392e7ee10108db0776972d8d0dd298749ba2db473ddf0e05fadd6c519",
+      "final_loss": 0.08984850347042084,
+      "max_chunk_seconds": 0.0014897559999553778,
+      "parameters": 508
+    },
+    {
+      "model": "safety_only_17",
+      "arm": "safety_only",
+      "seed": 17,
+      "checkpoint_sha256": "98b6d098fa5a1b488a6b64925ae7013368c75428696ad3bfa999d7fdcc667606",
+      "final_loss": 0.00014978618128225207,
+      "max_chunk_seconds": 0.001470807000032437,
+      "parameters": 508
+    },
+    {
+      "model": "safety_only_29",
+      "arm": "safety_only",
+      "seed": 29,
+      "checkpoint_sha256": "72698aad78b09062bcd6583af5a6246f2733e1d0899363dc2dbe98be9b4f0655",
+      "final_loss": 5.655322456732392e-05,
+      "max_chunk_seconds": 0.0015234520000149132,
+      "parameters": 508
+    },
+    {
+      "model": "safety_only_41",
+      "arm": "safety_only",
+      "seed": 41,
+      "checkpoint_sha256": "bba7a54aa32737f7b4f022e2c7ad09bbe678d54e06d7410e7233cdf621d7248d",
+      "final_loss": 4.812844781554304e-05,
+      "max_chunk_seconds": 0.0013157790000377645,
+      "parameters": 508
+    },
+    {
+      "model": "shuffled_17",
+      "arm": "shuffled",
+      "seed": 17,
+      "checkpoint_sha256": "fec406511dbf018c430bba48484995dd21af46b84b54c5f8f15cbc37e5e56977",
+      "final_loss": 0.11494144052267075,
+      "max_chunk_seconds": 0.0014170099999546437,
+      "parameters": 508
+    },
+    {
+      "model": "shuffled_29",
+      "arm": "shuffled",
+      "seed": 29,
+      "checkpoint_sha256": "2d6e854e7b38ff0254792c5e25d4858dbed68f94d05a157a3a0ab655c6e29399",
+      "final_loss": 0.1620752364397049,
+      "max_chunk_seconds": 0.0013557079998918198,
+      "parameters": 508
+    },
+    {
+      "model": "shuffled_41",
+      "arm": "shuffled",
+      "seed": 41,
+      "checkpoint_sha256": "df22fc46a6ea3b80c19916f430a3a224785099e00df6ec6dd3dd6566cd3bd689",
+      "final_loss": 0.15781038999557495,
+      "max_chunk_seconds": 0.002619466999931319,
+      "parameters": 508
+    },
+    {
+      "model": "dense_graph_17",
+      "arm": "dense_graph",
+      "seed": 17,
+      "checkpoint_sha256": "762a2aa4bd856030c3ea855732316b01d117f687e7a5c7668c9d6755c3cb3a48",
+      "final_loss": 0.0024614431895315647,
+      "max_chunk_seconds": 0.007373230999974112,
+      "parameters": 1810
+    },
+    {
+      "model": "dense_graph_29",
+      "arm": "dense_graph",
+      "seed": 29,
+      "checkpoint_sha256": "047012b99945d64215c102b0c0e818d3c0708518c85e92546b5477217b7fa2dd",
+      "final_loss": 0.0026502173859626055,
+      "max_chunk_seconds": 0.007862544999966303,
+      "parameters": 1810
+    },
+    {
+      "model": "dense_graph_41",
+      "arm": "dense_graph",
+      "seed": 41,
+      "checkpoint_sha256": "b1af89cf9e43a7bacb175eaffdb5b4f0804ca264b438e9a8229fb99b22c243d8",
+      "final_loss": 0.0023993533104658127,
+      "max_chunk_seconds": 0.010325538999950368,
+      "parameters": 1810
+    }
+  ],
+  "test_seen": false
+}

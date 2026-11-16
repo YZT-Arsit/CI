@@ -1,0 +1,111 @@
+{
+  "episodes": 3360,
+  "errors": 0,
+  "models": [
+    {
+      "evaluation": "paired_direct_evaluation",
+      "model": "paired_17",
+      "episodes": 1120,
+      "replay_errors": [],
+      "proofs": {
+        "complete": 0,
+        "labels_correct": 0,
+        "paths_correct": 0,
+        "faithful": 0,
+        "total": 0
+      },
+      "max_episode_seconds": 0.005140899971593171,
+      "raw_hashes": {
+        "authorized.jsonl": "d806e4cf2d81c1a1e8164623e1143028c470209f13512c85089e4c113aaa14de",
+        "both.jsonl": "430346bd846beee30a5a28073964978af226f445de88b070d5290c29d5f1ff75",
+        "branch.jsonl": "980caa2ffa39389f400e90073e6cb5bb9b3831a44609827695bf28583a8caa58",
+        "broken.jsonl": "f0a1808b38d56e1deb3c2a6112cc5b08753601a7dfd31f72b8cf03994c73142b",
+        "cycle.jsonl": "f182de8bfa2d52d79cdfef9fb74bb37d5b1d1e0750d13f86044f467fb4d9fd2c",
+        "depth10.jsonl": "9fb48d29d2d6463081638549fb91efc94750c83bbf9869eea93072fe9d47d598",
+        "depth10_swap.jsonl": "7e0026b9c905996a9c1e20d14d0f9e1ad738fefda234a63d2560bb389be5a525",
+        "depth4.jsonl": "de6ce046f65c832ae960bb41373cff16002bf632d094b50b5348c85599754a64",
+        "depth4_swap.jsonl": "cfac3f40f654f37e533375327a75a04e7d16fe358a554a13d29585b4ec57f6fe",
+        "depth6.jsonl": "9e033ce46ea3691650a6e98666d3fc94f1c89b23e8d228ff8fda174425ab715e",
+        "depth6_swap.jsonl": "887e5db03a9cab11acc87d4ad4012590c531bc220a820145a8946f19646b5afd",
+        "draft.jsonl": "382e252ac6f9361ed7583009aa843f81d9a7bed1d062d6741fba75c1807cc1cc",
+        "external_complete.jsonl": "ca8bc88cabbe37f466ee4980615165d1787ba3f8da8370dc8a02e2135ecf102e",
+        "external_complete_swap.jsonl": "c63660fe104e181e8d557605121593e2e382979c7d88c26418ef64f86e6d84cc",
+        "noise.jsonl": "d36d3516bbce551f58e2702049dc3a355a0f1c93930f49608320418d611c6f4c",
+        "optional.jsonl": "c6ca99059dfafcf944d6623ec6bff7bb741f33c14ed90424d7ee3385121ba657",
+        "reverse.jsonl": "b82b488d7869e789b9bf3c44146e8db2690f2fa163dc135bcaeab640822cdfbb",
+        "test.jsonl": "1dae8ebd650ef236fca7906ef8fd13df32034fa327046a8daba91615ce2013c5",
+        "test_swap.jsonl": "fe8db0aa8405367b789670f185a42ced8b07a7d4ac1b0c915b27bbca124b5610"
+      }
+    },
+    {
+      "evaluation": "paired_direct_evaluation",
+      "model": "paired_29",
+      "episodes": 1120,
+      "replay_errors": [],
+      "proofs": {
+        "complete": 0,
+        "labels_correct": 0,
+        "paths_correct": 0,
+        "faithful": 0,
+        "total": 0
+      },
+      "max_episode_seconds": 0.003407199983485043,
+      "raw_hashes": {
+        "authorized.jsonl": "98136a073161eab3f1aaa21475c9e289de2561530a923d86fab716e1b6ab27ff",
+        "both.jsonl": "23e2c3db72432b7e757ff5b06b853798fa4dbff721e6ee8ee98bf47ccf828f04",
+        "branch.jsonl": "6f2ebf52efd348cd222c3486168af810184990d281e13df04278bd64a7c6a001",
+        "broken.jsonl": "840463643ad0abaf83833df587ff7ed48416efb53ad253ca06bb9f6c436518ed",
+        "cycle.jsonl": "e44587d371e8f6434aed0ca51d4b2eeb4648cb29ae67d8d2a452411d3b49e1a6",
+        "depth10.jsonl": "1857c70971a950529f65093e15efdbdb726241fe5673b09f9126fbc483ccf230",
+        "depth10_swap.jsonl": "976036b6498b8d91f1b213f834a13ea97ee529a3d5086d0143875dd672bd39a9",
+        "depth4.jsonl": "fce0a381cd286301518b9523fc9292948e176d29705f9a3bb9d75ddf1b25fc9d",
+        "depth4_swap.jsonl": "07a9a55d5d571af2f7b1a98bf4f242d840facb234f216eaf5fa9a6a5b28d68f4",
+        "depth6.jsonl": "f36fd292dacf3f5766c872a9825e0c2d10c948a68fe9c77e7a8e971798d2c1ec",
+        "depth6_swap.jsonl": "9596c1d36bee15802615aa263be76d3b68e00c29ca0f6a319b72ec4fa03854aa",
+        "draft.jsonl": "19b7a2f58a3667700a44b048b31c0bf4fe8daecad56716b1824715affe9291f0",
+        "external_complete.jsonl": "1e9dc812189c96062ce7c12a8b67a329b55ea3314dda25d456b7376aa76eb5c8",
+        "external_complete_swap.jsonl": "87518d4b177f295390d1b944f7226bd954aa6f87c41cbf9b2f16d53bc651a4bc",
+        "noise.jsonl": "696dbeca75adfc810769b7254c727a0504628e6db3f4cc1c4b3300db31957f0a",
+        "optional.jsonl": "a2c349b0b203d2a83d9a11bf1c19f6c1ad0b17a5583ee29b1a05223653161af6",
+        "reverse.jsonl": "b5445e495ea141a7e540b39e50fb803a983b60d8c0bbc7e5157feff2923f76b9",
+        "test.jsonl": "2c9de6c76ef3da9be0b569b62e4441342e8d9f5669f98027de98625e458f46ec",
+        "test_swap.jsonl": "56abed920100a2dff0432f47dad74ec34f271fa9ee7380af851de12ddf9f3fda"
+      }
+    },
+    {
+      "evaluation": "paired_direct_evaluation",
+      "model": "paired_41",
+      "episodes": 1120,
+      "replay_errors": [],
+      "proofs": {
+        "complete": 0,
+        "labels_correct": 0,
+        "paths_correct": 0,
+        "faithful": 0,
+        "total": 0
+      },
+      "max_episode_seconds": 0.005457199993543327,
+      "raw_hashes": {
+        "authorized.jsonl": "6554b7e1aa503e83db8b5056380b1964a3ee1594469c3e2db7b990c44a4a26c9",
+        "both.jsonl": "e50f4a63e3b4ee94d5d402d844d5c7fa9da367484f7cfd3583394cb8ef112e89",
+        "branch.jsonl": "fe5784594c09c3ba20bc9921f6b292aebc035d40fd208ce19badf15789275c7f",
+        "broken.jsonl": "e02d0e10cf263fc7d87aa0c613c2df9cff4caed63195d52bb8bb2eabdb7d2193",
+        "cycle.jsonl": "0a7cbd930f173e4672c87dfb2f0ea61e28b96031d1faf101ece46fd7bf262438",
+        "depth10.jsonl": "4c6e9da8a431b6c0c81fd3ed06e3586e592b61e0820ef332488bc972dcf2a762",
+        "depth10_swap.jsonl": "2fd0299c6eca58c5a6de277c6920d064517df5d72284bb48b9369fee16b95d7a",
+        "depth4.jsonl": "59967586aaee46388ed54be9376b1467bb2a8044f381f6ea1789205a5fa62e23",
+        "depth4_swap.jsonl": "3c255e89029aa43283eb9886fa531e3c060060e07714a7b63b48d4cd92ff433d",
+        "depth6.jsonl": "5f38d471085e5fb7a86ff80632fd41999e2aaa6c3d0158f30d2d4f8acaaaddde",
+        "depth6_swap.jsonl": "ceb22b4726e33f6d18eb240d4dc6784f8ab39ac665a02e6bf6cc37f61ded8e32",
+        "draft.jsonl": "acdde9283dd0da20f316425608e13d69f949b03d1a40dcc799f432b12769599f",
+        "external_complete.jsonl": "d67744882c57618726189c1de885050f197d611fc984941c863cf4e92c5ef688",
+        "external_complete_swap.jsonl": "357cc25e948d97b5b75c2e35f0a502956a443f07f296a84fc933e6e9a61dc91a",
+        "noise.jsonl": "913d440d760d961ac514e75039f13a1968db8145fc1fe5ef615e8ef9f9c62d6d",
+        "optional.jsonl": "ea710a21ebb5f1103545a43c8abd6123eabcde704550ebe8ef93b54ea70f14ff",
+        "reverse.jsonl": "6454a89351f8a3ac2b28700082bc49cd056d818b7bffccb3bc00a7a1f6991802",
+        "test.jsonl": "9bf62f8207813aa128e7fc1c1b7ada531f8702cc92fdcf451addd3d8743879b5",
+        "test_swap.jsonl": "ac35553dda67ddc3311259a166d4e44596f04e00edd790c0671e9ffa6cce8591"
+      }
+    }
+  ]
+}

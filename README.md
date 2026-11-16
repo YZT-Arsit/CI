@@ -3,11 +3,19 @@
 共享执行模型根据动态接收者知识状态，学习即时 contextual integrity（CI）与长期合规任务策略。
 研究目标以 [Proposal v0.6](docs/KCI_Align_Research_Proposal.md) 为准。
 
-这是研究原型及 CPU 实验归档，尚无真实 LLM 训练收益或大规模实验结论。
+这是研究原型及 CPU 实验归档；已进行真实预训练语言模型的 CPU LoRA 学习诊断，尚未证明完整 KCI 方法收益或大规模实验就绪。
 
 ## 当前进度
 
-最新报告：[无成本任务依赖、原生输出对照与关系学习验证](artifacts/20261115_semantic_repair/REPORT.md)。
+最新报告：[关系泛化与安全—效用修复](artifacts/20261116_relation_solution/REPORT.md)，通俗方案见 [SOLUTION.md](artifacts/20261116_relation_solution/SOLUTION.md)。
+采用外部任务计算与自建配对干预，建立 1,152 个训练世界、5,760 个状态和 13,824 个动作标签；新增 8 个外部会议实例均核验原始计算结果。
+修复 Source 任务依赖编码与实体表示误匹配后，结构参考模型在新的 3,360 个完整条件回合中全部符合各自验收标准，原生输出迁移 384/384；它仍具有明确提供的组合结构和局部关系监督。
+本轮训练了 9 个 SmolLM2-135M CPU LoRA 检查点，语言模型仍未通过关系学习门槛，**GPU 大批量 NO-GO**。180 项回归通过；直接学习的不稳定种子、证明幻觉和所有负结果保留。
+数据、原始输出、模型与审计见 [复跑说明](artifacts/20261116_relation_solution/REPRODUCE.md)；先运行 `python -B tools/restore_relation_artifacts.py` 恢复本轮 JSONL。
+
+以下保留上一轮结果：
+
+上一轮报告：[无成本任务依赖、原生输出对照与关系学习验证](artifacts/20261115_semantic_repair/REPORT.md)。
 当前仍为 **GPU 大批量训练 NO-GO**。本轮完成 69 个小型策略检查点、94,368 个主评测回合与 2,688 个原生输出迁移回合，173 项回归通过。
 任务层面的条件性价值差异已能在零成本、无截止时间下成立；原生输出对照无需新增凭据字段。
 图策略基础历史反转配对三种子均为 128/128，但长链与无解状态仍失败；token 策略尚未学会可靠关系，强化安全后出现拒答/删减退化。

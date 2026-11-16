@@ -1,0 +1,13 @@
+{
+  "scenario": 10,
+  "native_CI_obligation": false,
+  "supersedes_coverage_only": "qualification.json",
+  "model_outputs_used_for_repair": false,
+  "constraint_types": [
+    "cannot_use_room",
+    "meeting_ordering",
+    "person_unavailable"
+  ],
+  "status": "COMPUTATION_QUALIFIED",
+  "oracle_match": true
+}

@@ -1,0 +1,114 @@
+{
+  "episodes": 192,
+  "errors": 0,
+  "models": [
+    {
+      "evaluation": "language_external_complete",
+      "model": "plain_17",
+      "episodes": 32,
+      "replay_errors": [],
+      "proofs": {
+        "complete": 0,
+        "labels_correct": 0,
+        "paths_correct": 0,
+        "faithful": 0,
+        "total": 0
+      },
+      "max_episode_seconds": 0.04032388199993875,
+      "raw_hashes": {
+        "external_complete.jsonl": "2e25e9a3b5c61c888eea859710cf50a1790934f80a3c70afbee6031452d2bda7",
+        "external_complete_swap.jsonl": "6beb80dc8ea944c88a2e0927e3b719c97f9a690a351875a57d56c013eabfbd01"
+      }
+    },
+    {
+      "evaluation": "language_external_complete",
+      "model": "plain_29",
+      "episodes": 32,
+      "replay_errors": [],
+      "proofs": {
+        "complete": 0,
+        "labels_correct": 0,
+        "paths_correct": 0,
+        "faithful": 0,
+        "total": 0
+      },
+      "max_episode_seconds": 0.0024935390001701307,
+      "raw_hashes": {
+        "external_complete.jsonl": "7a9915e581dc7e8cf1b63c993d66bfe2c7ce9a6740b92bb755b21efa75ab8c3d",
+        "external_complete_swap.jsonl": "4714bfe84c619284f839acb2c4b1e8f10765117b882c22c8343f23dba95dc862"
+      }
+    },
+    {
+      "evaluation": "language_external_complete",
+      "model": "plain_41",
+      "episodes": 32,
+      "replay_errors": [],
+      "proofs": {
+        "complete": 0,
+        "labels_correct": 0,
+        "paths_correct": 0,
+        "faithful": 0,
+        "total": 0
+      },
+      "max_episode_seconds": 0.0023678999996263883,
+      "raw_hashes": {
+        "external_complete.jsonl": "091243bd0767ef7b3d2200d80a354c035508dc1c18e7b9f9cebc935738db67fb",
+        "external_complete_swap.jsonl": "9ca0a676347391905f63c77107b4fca3b06307d4dde85b0b131aa5b1ace30ce8"
+      }
+    },
+    {
+      "evaluation": "language_external_complete",
+      "model": "trace_17",
+      "episodes": 32,
+      "replay_errors": [],
+      "proofs": {
+        "complete": 96,
+        "labels_correct": 48,
+        "paths_correct": 44,
+        "faithful": 36,
+        "total": 96
+      },
+      "max_episode_seconds": 0.0031290719998651184,
+      "raw_hashes": {
+        "external_complete.jsonl": "d9eacd8566e9f3cc1478a336682d6d502617c16072dcae2d8539cf93dec5e0bc",
+        "external_complete_swap.jsonl": "9f9abe4a1682dd0a20ff10a39fbbf193861803a87b98c87f48d63c0a286b89be"
+      }
+    },
+    {
+      "evaluation": "language_external_complete",
+      "model": "trace_29",
+      "episodes": 32,
+      "replay_errors": [],
+      "proofs": {
+        "complete": 96,
+        "labels_correct": 48,
+        "paths_correct": 45,
+        "faithful": 39,
+        "total": 96
+      },
+      "max_episode_seconds": 0.0029792719997203676,
+      "raw_hashes": {
+        "external_complete.jsonl": "cdab593e75e2ae43948dafc75ef35345bcff52109a96306533de296172243e06",
+        "external_complete_swap.jsonl": "b026c5edc9e0420741470a7da2b77d7a1ca3365d64ad8829495f2e9684fbac42"
+      }
+    },
+    {
+      "evaluation": "language_external_complete",
+      "model": "trace_41",
+      "episodes": 32,
+      "replay_errors": [],
+      "proofs": {
+        "complete": 88,
+        "labels_correct": 30,
+        "paths_correct": 39,
+        "faithful": 13,
+        "total": 92
+      },
+      "max_episode_seconds": 0.00362152999969112,
+      "raw_hashes": {
+        "external_complete.jsonl": "b29755f804a89747ccd539b5e54280d9b5d03c260a73c8048c7ef994d11989be",
+        "external_complete_swap.jsonl": "ea35b158c6729cf81e16f1b5440204cc86171f0e83a82ae3181c2e5900163ab2"
+      }
+    }
+  ]
+}

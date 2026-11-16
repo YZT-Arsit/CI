@@ -1,0 +1,36 @@
+{
+  "evaluation": "structured_evaluation",
+  "model": "local_17",
+  "episodes": 1156,
+  "replay_errors": [],
+  "proofs": {
+    "complete": 0,
+    "labels_correct": 0,
+    "paths_correct": 0,
+    "faithful": 0,
+    "total": 0
+  },
+  "max_episode_seconds": 0.002590299991425127,
+  "raw_hashes": {
+    "authorized.jsonl": "f46844c34843b4af8316c72357bd09640927dbfe6a0627261e6abf78efe30000",
+    "both.jsonl": "58ca77236e0f976256a22f3e24d908fa47f61048796bb3c8ec57980d87a501cc",
+    "branch.jsonl": "226079f376aadda98d0abe61eb4e41910ea52be26b40e9e94df34a25dc138cdc",
+    "broken.jsonl": "68edbb70df21d094fa7db131a7d782e87830f563c77f43cc4f6f5e6de2bcd465",
+    "cycle.jsonl": "05071741caccfe9e3115cbf9b845298dff0db59d7ea35b1915ea86746df4ddbb",
+    "depth10.jsonl": "c50c2af8793f25358f0393089c211f5d24ecb689931129a4c75c4ce46582e0ee",
+    "depth10_swap.jsonl": "e4526e43febd0646fb97f13de6a92b53681fd297f29fe2fa2d20b0394a20b820",
+    "depth4.jsonl": "68eb5627a0f680a97d3c9cf98e0628bfa8954197228da5b5f2dd0417cb4e894d",
+    "depth4_swap.jsonl": "9d10e822f5e407ceeff727f5ed89fc9a16c78055483c4b01736fde11aee86f06",
+    "depth6.jsonl": "2194df3ae9ac87226adbaf37cbae463fad3de9c0afa082d880a3669b8820e692",
+    "depth6_swap.jsonl": "c350836378ece63542bf62b58c00beaefcc97b53dcce5feaa3e5982bc6002794",
+    "draft.jsonl": "7d3e634c6c4cc86244c26e00c77f5b5df5ae7ccae1f7b7d8af6196183d4e7a4a",
+    "external.jsonl": "a34733286871ffc6f4ca40de92b102ac89f887fa4370ac37defd29986022029e",
+    "external_swap.jsonl": "091a51fd1ec844a62aad31ada292d45c082f6138e75270eff2ef0fe6132c41e0",
+    "noise.jsonl": "bcd8ff54afdf3ab55a02b462e286e4db8070b823a9324709c1962b6b1b1b2431",
+    "optional.jsonl": "2e9b982b1fd8ed4146b01055724dcf4838f28a8ae05e42bea5564fd6772b21ca",
+    "reverse.jsonl": "2318134a658117afbf1c147fff8f8b20528c2c7c2b8b973321755efa7f1585ec",
+    "test.jsonl": "f3556b56cb160bfaecd1830f2c07077aff8d649fb479b0f71fb4a8015ecaace1",
+    "test_fresh_vectors.jsonl": "393e50af9914c2db0bfa56d87d34c54d67253e5850146c6dda3cb043127103a5",
+    "test_swap.jsonl": "08ef413c2225ac7263bb8134ba8a7c86e78ac417329ce2f0f6613232567ba4a9"
+  }
+}

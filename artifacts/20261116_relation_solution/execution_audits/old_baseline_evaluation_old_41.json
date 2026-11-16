@@ -1,0 +1,35 @@
+{
+  "evaluation": "old_baseline_evaluation",
+  "model": "old_41",
+  "episodes": 1120,
+  "replay_errors": [],
+  "proofs": {
+    "complete": 0,
+    "labels_correct": 0,
+    "paths_correct": 0,
+    "faithful": 0,
+    "total": 0
+  },
+  "max_episode_seconds": 0.00633529998594895,
+  "raw_hashes": {
+    "authorized.jsonl": "22c0f57a70ac34fc613041f1c8a0553d5d63ff1c95605498986490e8ba356d54",
+    "both.jsonl": "b4e08b71fe159d9dd8d65b64945aaca52337c4b307cd9f71cd3b690b22727d92",
+    "branch.jsonl": "4ba165e1532699fa6b965fd66db9823a90e6d35cfde454caf7bda580df924c63",
+    "broken.jsonl": "d49a18bae280d59f8061415ef3195dd5954a986a69d31251e8e07ad182967cc0",
+    "cycle.jsonl": "4db3189aaa6ee19f00fbb16893969f039a84f8ab2129df306ac247ae621dea64",
+    "depth10.jsonl": "f34d66d2f917c2ee2e0acaee0c10c1608cafce2bcee770a437f1f802f39f0df5",
+    "depth10_swap.jsonl": "d84c5a9f4da7dbe7efc4ce5778fde4ffa1ae3ed53fe6a4028c3bd167e57a100e",
+    "depth4.jsonl": "9647184808838ff2d22cca1817e247426d37c70394f571a04753df4d2eca4b01",
+    "depth4_swap.jsonl": "721268285d7637ee31bc4332c45307e66924723961a2712336dace5b56e8b02d",
+    "depth6.jsonl": "dab2bdd10def011961e752575d186467acfb38e5a5a4ea6e2de505ae559a7197",
+    "depth6_swap.jsonl": "2aa606807d1df5b68b2904f8190c28701af33aa347e78cfaabd09920d48dd620",
+    "draft.jsonl": "ea76b87dc1f3697e56c77accfaeda8a2d200745562038c3051b259df306d31af",
+    "external_complete.jsonl": "059037daf4b80721cbd329f1e55e0a6e92aafe43360d17ea854621ddfd1f5ae5",
+    "external_complete_swap.jsonl": "80716a83a4f7b013a2cfe90bd941cfc3cbdd891671f624348a6144b0bc71921a",
+    "noise.jsonl": "bac5ef836d77193552dc3001d7343429585ac5700c8511f6e99d139af54f0aa6",
+    "optional.jsonl": "6b5d24f528a675efc815bfc2a60b47baa58beee722b2a8c162f8f523ac9d51e4",
+    "reverse.jsonl": "b2c21555f9830bdbb112cc48e800d2b673accfdbfe2d842d750213455cf24098",
+    "test.jsonl": "dafbfe022e9a4d4c8c29d9b9764c4087fe13e0b8adea4479f066dfea64e43cc3",
+    "test_swap.jsonl": "a407fe8c8b185470d9522f7bc6dfaee0f96f7b743095d009654e019f8e34c01f"
+  }
+}

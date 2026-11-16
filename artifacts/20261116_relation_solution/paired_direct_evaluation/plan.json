@@ -1,0 +1,28 @@
+{
+  "models": "all three direct-learning checkpoints; no selection",
+  "splits": [
+    "test",
+    "depth4",
+    "depth6",
+    "depth10",
+    "noise",
+    "optional",
+    "authorized",
+    "draft",
+    "both",
+    "broken",
+    "reverse",
+    "branch",
+    "cycle"
+  ],
+  "worlds_per_split": 64,
+  "new_seed_offset": 120000000,
+  "width": 64,
+  "max_facts": 256,
+  "extra_controls": [
+    "paired test/depth4/depth6/depth10 swaps",
+    "external complete"
+  ],
+  "scope": "fresh confirmatory structured experiment; fixed max-min architecture remains supplied; not a language-model result",
+  "source_sha256": "f9d54986b54279f4dd42886ebab2b5aaa86d7dad4a5f6710df06cb7807cbe840"
+}

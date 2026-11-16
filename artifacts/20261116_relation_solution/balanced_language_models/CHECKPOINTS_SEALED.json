@@ -1,0 +1,48 @@
+{
+  "models": [
+    {
+      "model": "balanced_17",
+      "arm": "trace",
+      "seed": 17,
+      "steps": 600,
+      "target_tokens": 57748,
+      "trainable_parameters": 460800,
+      "test_seen": false,
+      "adapter_hashes": {
+        "adapter_config.json": "317dc54d0fcd6fb3b630eec143c04640103d5388e4a41e5bdedf7f327c2613a7",
+        "adapter_model.safetensors": "2e4b96c0384b140e48ed017d729691b268f3970cafb86b8bbc382f0a92ef1806",
+        "README.md": "39d3d3aa2d89a2b4ab09cecd018fbbc4cebc3f4b2c6d9e85b81abc38a1dc4045"
+      }
+    },
+    {
+      "model": "balanced_29",
+      "arm": "trace",
+      "seed": 29,
+      "steps": 600,
+      "target_tokens": 57544,
+      "trainable_parameters": 460800,
+      "test_seen": false,
+      "adapter_hashes": {
+        "adapter_config.json": "317dc54d0fcd6fb3b630eec143c04640103d5388e4a41e5bdedf7f327c2613a7",
+        "adapter_model.safetensors": "90d77da23fcb39ec0341c7b82114b554d931f00a853fa224f9ed3f97c0f71113",
+        "README.md": "39d3d3aa2d89a2b4ab09cecd018fbbc4cebc3f4b2c6d9e85b81abc38a1dc4045"
+      }
+    },
+    {
+      "model": "balanced_41",
+      "arm": "trace",
+      "seed": 41,
+      "steps": 600,
+      "target_tokens": 57236,
+      "trainable_parameters": 460800,
+      "test_seen": false,
+      "adapter_hashes": {
+        "adapter_config.json": "317dc54d0fcd6fb3b630eec143c04640103d5388e4a41e5bdedf7f327c2613a7",
+        "adapter_model.safetensors": "4ed017472b309d728636856469ca4515e00bcc4860efed9e57bcae3a8bf26d40",
+        "README.md": "39d3d3aa2d89a2b4ab09cecd018fbbc4cebc3f4b2c6d9e85b81abc38a1dc4045"
+      }
+    }
+  ],
+  "source_unchanged": true,
+  "test_seen": false
+}

@@ -1,0 +1,38 @@
+{
+  "evaluation": "balanced_language_evaluation",
+  "model": "balanced_29",
+  "episodes": 324,
+  "replay_errors": [],
+  "proofs": {
+    "complete": 654,
+    "labels_correct": 533,
+    "paths_correct": 406,
+    "faithful": 129,
+    "total": 875
+  },
+  "max_episode_seconds": 0.0029373420002229977,
+  "raw_hashes": {
+    "authorized.jsonl": "2723c179a69d4034633a74f072846afd996573d319c062e98bdc020612dbf79f",
+    "both.jsonl": "ccee49dcef3d017c5aaacf50f21a8f6ddb8943bccf3ee60f72995155ad6378e2",
+    "branch.jsonl": "a038f3a1c84073ca4aa0405f741038cf0cf4011f1f0623cf79a09ed77c5df32c",
+    "broken.jsonl": "18623b1f1b2ec81d5e583c2c244719b08d3988e63391214a6ae176565d694e21",
+    "cycle.jsonl": "82abe4884221b50bddcefe7f652a5c4027f67908193793e31110e4993ba2f311",
+    "depth10.jsonl": "fe62141f8c442f382ae8705b096e04fea69508864cb3901aa8b1a6819b46b36e",
+    "depth10_swap.jsonl": "bff2fea30abef07c1af8140cd5f85413ea6f8da16da5af59946cae48ff120f8e",
+    "depth4.jsonl": "8191ad5510e3180a40033bf90ced0399abb810f56df766779655b97e358bbe30",
+    "depth4_swap.jsonl": "2c5f1472ff353d4d8a11e47ceb496895442906d1e9c757ccfca2dc7a32375838",
+    "depth6.jsonl": "75890cd6511ee79ef225012ab8f78028b605a17ea53188a038f2b5b25c896bac",
+    "depth6_swap.jsonl": "beb96cc4341779adabf38aca4f05e7b4127f8bd0dfd30f84082119c8f4a20fbc",
+    "draft.jsonl": "bf9f25596f529b0db63e6b3f84647d9f852c8780dda386b961783d01062cc58c",
+    "external.jsonl": "1c6cff41463bc4e003210eca5c980511a0fe02062ed07f33c789f3b4fcf26094",
+    "external_complete.jsonl": "3b45072ca36a71fbbfed3707ccff8669fda897f42ee8406a184f3c58f8687171",
+    "external_complete_swap.jsonl": "bbcb1df57a8140ae7bf69d75805a95e9926f95ef1813aba6f971b182961132d7",
+    "external_swap.jsonl": "7a2e50b43a62d03eed4764342ea2729390d59dfd21d0bcfa175b744508c432c1",
+    "noise.jsonl": "40f83e3c29b1a9073c829f80885c54b0b3cbf6a04016be651e8ba3cbb8c49a09",
+    "optional.jsonl": "a0992b11ebf437150e374198256c9eda57c5041469a249b98c4a739de4cfa6c7",
+    "reverse.jsonl": "fed797288345676f489fe9bec5db72d8c3f5ca4451edeb940c04b14bc9c7d0dd",
+    "test.jsonl": "a2b8314c5a41cc7ff4f28b1bc96dabf2a3b7fad4b995c894f2eb602aefab2a5a",
+    "test_seen.jsonl": "bb4e3776e551f46f49e89acca63cb59ff7ed2bb505ad42169d034e41b67ad2b9",
+    "test_swap.jsonl": "63c584d612d737ac64eaf07e2683b8cb152ce10b6abdd8d5dc566d3cd3091a1d"
+  }
+}

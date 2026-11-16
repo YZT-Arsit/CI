@@ -1,0 +1,17 @@
+{
+  "seeds": [
+    17,
+    29,
+    41
+  ],
+  "updates": 2400,
+  "batch": 64,
+  "lr": 0.01,
+  "width": 64,
+  "max_facts": 256,
+  "primitive_teacher": false,
+  "data": "same dense executed train labels",
+  "evaluation": "new fixed 50M seed worlds; depths2/10/32, noise0/128,16 worlds per cell",
+  "purpose": "post-hoc explanatory ablation, not main-gate selection",
+  "source_sha256": "6f97cbef6d5d9c3dc67e95ba2004a2df0a8cb7fc62fcd9f4196a90d8a455d8a3"
+}

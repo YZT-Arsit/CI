@@ -1,0 +1,1089 @@
+{
+  "summaries": [
+    {
+      "model": "plain_17",
+      "condition": "test",
+      "episodes": 16,
+      "ci": 12,
+      "safe_success": 1,
+      "invalid": 0,
+      "refused": 0
+    },
+    {
+      "model": "plain_17",
+      "condition": "test_swap",
+      "episodes": 16,
+      "ci": 15,
+      "safe_success": 4,
+      "invalid": 0,
+      "refused": 0
+    },
+    {
+      "model": "plain_17",
+      "condition": "depth4",
+      "episodes": 16,
+      "ci": 14,
+      "safe_success": 7,
+      "invalid": 0,
+      "refused": 0
+    },
+    {
+      "model": "plain_17",
+      "condition": "depth4_swap",
+      "episodes": 16,
+      "ci": 9,
+      "safe_success": 2,
+      "invalid": 0,
+      "refused": 0
+    },
+    {
+      "model": "plain_17",
+      "condition": "depth6",
+      "episodes": 16,
+      "ci": 10,
+      "safe_success": 5,
+      "invalid": 0,
+      "refused": 0
+    },
+    {
+      "model": "plain_17",
+      "condition": "depth6_swap",
+      "episodes": 16,
+      "ci": 11,
+      "safe_success": 6,
+      "invalid": 0,
+      "refused": 0
+    },
+    {
+      "model": "plain_17",
+      "condition": "depth10",
+      "episodes": 16,
+      "ci": 14,
+      "safe_success": 5,
+      "invalid": 0,
+      "refused": 0
+    },
+    {
+      "model": "plain_17",
+      "condition": "depth10_swap",
+      "episodes": 16,
+      "ci": 11,
+      "safe_success": 2,
+      "invalid": 0,
+      "refused": 0
+    },
+    {
+      "model": "plain_17",
+      "condition": "noise",
+      "episodes": 16,
+      "ci": 14,
+      "safe_success": 1,
+      "invalid": 0,
+      "refused": 0
+    },
+    {
+      "model": "plain_17",
+      "condition": "optional",
+      "episodes": 16,
+      "ci": 12,
+      "safe_success": 12,
+      "invalid": 0,
+      "refused": 0
+    },
+    {
+      "model": "plain_17",
+      "condition": "authorized",
+      "episodes": 16,
+      "ci": 16,
+      "safe_success": 3,
+      "invalid": 0,
+      "refused": 0
+    },
+    {
+      "model": "plain_17",
+      "condition": "draft",
+      "episodes": 16,
+      "ci": 16,
+      "safe_success": 7,
+      "invalid": 0,
+      "refused": 0
+    },
+    {
+      "model": "plain_17",
+      "condition": "both",
+      "episodes": 16,
+      "ci": 5,
+      "safe_success": 0,
+      "invalid": 0,
+      "refused": 0
+    },
+    {
+      "model": "plain_17",
+      "condition": "broken",
+      "episodes": 16,
+      "ci": 16,
+      "safe_success": 8,
+      "invalid": 0,
+      "refused": 0
+    },
+    {
+      "model": "plain_17",
+      "condition": "reverse",
+      "episodes": 16,
+      "ci": 16,
+      "safe_success": 8,
+      "invalid": 0,
+      "refused": 0
+    },
+    {
+      "model": "plain_17",
+      "condition": "branch",
+      "episodes": 16,
+      "ci": 10,
+      "safe_success": 3,
+      "invalid": 0,
+      "refused": 0
+    },
+    {
+      "model": "plain_17",
+      "condition": "cycle",
+      "episodes": 16,
+      "ci": 11,
+      "safe_success": 3,
+      "invalid": 0,
+      "refused": 0
+    },
+    {
+      "model": "plain_17",
+      "condition": "external",
+      "episodes": 2,
+      "ci": 1,
+      "safe_success": 0,
+      "invalid": 0,
+      "refused": 0
+    },
+    {
+      "model": "plain_17",
+      "condition": "external_swap",
+      "episodes": 2,
+      "ci": 2,
+      "safe_success": 1,
+      "invalid": 0,
+      "refused": 0
+    },
+    {
+      "model": "plain_17",
+      "condition": "test_seen",
+      "episodes": 16,
+      "ci": 13,
+      "safe_success": 2,
+      "invalid": 0,
+      "refused": 0
+    },
+    {
+      "model": "plain_29",
+      "condition": "test",
+      "episodes": 16,
+      "ci": 11,
+      "safe_success": 6,
+      "invalid": 0,
+      "refused": 0
+    },
+    {
+      "model": "plain_29",
+      "condition": "test_swap",
+      "episodes": 16,
+      "ci": 10,
+      "safe_success": 5,
+      "invalid": 0,
+      "refused": 0
+    },
+    {
+      "model": "plain_29",
+      "condition": "depth4",
+      "episodes": 16,
+      "ci": 12,
+      "safe_success": 2,
+      "invalid": 0,
+      "refused": 0
+    },
+    {
+      "model": "plain_29",
+      "condition": "depth4_swap",
+      "episodes": 16,
+      "ci": 14,
+      "safe_success": 4,
+      "invalid": 0,
+      "refused": 0
+    },
+    {
+      "model": "plain_29",
+      "condition": "depth6",
+      "episodes": 16,
+      "ci": 13,
+      "safe_success": 0,
+      "invalid": 0,
+      "refused": 0
+    },
+    {
+      "model": "plain_29",
+      "condition": "depth6_swap",
+      "episodes": 16,
+      "ci": 16,
+      "safe_success": 3,
+      "invalid": 0,
+      "refused": 0
+    },
+    {
+      "model": "plain_29",
+      "condition": "depth10",
+      "episodes": 16,
+      "ci": 11,
+      "safe_success": 0,
+      "invalid": 0,
+      "refused": 0
+    },
+    {
+      "model": "plain_29",
+      "condition": "depth10_swap",
+      "episodes": 16,
+      "ci": 16,
+      "safe_success": 5,
+      "invalid": 0,
+      "refused": 0
+    },
+    {
+      "model": "plain_29",
+      "condition": "noise",
+      "episodes": 16,
+      "ci": 12,
+      "safe_success": 5,
+      "invalid": 0,
+      "refused": 0
+    },
+    {
+      "model": "plain_29",
+      "condition": "optional",
+      "episodes": 16,
+      "ci": 16,
+      "safe_success": 16,
+      "invalid": 0,
+      "refused": 0
+    },
+    {
+      "model": "plain_29",
+      "condition": "authorized",
+      "episodes": 16,
+      "ci": 16,
+      "safe_success": 8,
+      "invalid": 0,
+      "refused": 0
+    },
+    {
+      "model": "plain_29",
+      "condition": "draft",
+      "episodes": 16,
+      "ci": 16,
+      "safe_success": 6,
+      "invalid": 0,
+      "refused": 0
+    },
+    {
+      "model": "plain_29",
+      "condition": "both",
+      "episodes": 16,
+      "ci": 12,
+      "safe_success": 0,
+      "invalid": 0,
+      "refused": 0
+    },
+    {
+      "model": "plain_29",
+      "condition": "broken",
+      "episodes": 16,
+      "ci": 16,
+      "safe_success": 3,
+      "invalid": 0,
+      "refused": 0
+    },
+    {
+      "model": "plain_29",
+      "condition": "reverse",
+      "episodes": 16,
+      "ci": 16,
+      "safe_success": 7,
+      "invalid": 0,
+      "refused": 0
+    },
+    {
+      "model": "plain_29",
+      "condition": "branch",
+      "episodes": 16,
+      "ci": 14,
+      "safe_success": 3,
+      "invalid": 0,
+      "refused": 0
+    },
+    {
+      "model": "plain_29",
+      "condition": "cycle",
+      "episodes": 16,
+      "ci": 12,
+      "safe_success": 3,
+      "invalid": 0,
+      "refused": 0
+    },
+    {
+      "model": "plain_29",
+      "condition": "external",
+      "episodes": 2,
+      "ci": 2,
+      "safe_success": 1,
+      "invalid": 0,
+      "refused": 0
+    },
+    {
+      "model": "plain_29",
+      "condition": "external_swap",
+      "episodes": 2,
+      "ci": 1,
+      "safe_success": 0,
+      "invalid": 0,
+      "refused": 0
+    },
+    {
+      "model": "plain_29",
+      "condition": "test_seen",
+      "episodes": 16,
+      "ci": 10,
+      "safe_success": 3,
+      "invalid": 0,
+      "refused": 0
+    },
+    {
+      "model": "plain_41",
+      "condition": "test",
+      "episodes": 16,
+      "ci": 14,
+      "safe_success": 0,
+      "invalid": 0,
+      "refused": 0
+    },
+    {
+      "model": "plain_41",
+      "condition": "test_swap",
+      "episodes": 16,
+      "ci": 16,
+      "safe_success": 2,
+      "invalid": 0,
+      "refused": 0
+    },
+    {
+      "model": "plain_41",
+      "condition": "depth4",
+      "episodes": 16,
+      "ci": 15,
+      "safe_success": 5,
+      "invalid": 0,
+      "refused": 0
+    },
+    {
+      "model": "plain_41",
+      "condition": "depth4_swap",
+      "episodes": 16,
+      "ci": 11,
+      "safe_success": 1,
+      "invalid": 0,
+      "refused": 0
+    },
+    {
+      "model": "plain_41",
+      "condition": "depth6",
+      "episodes": 16,
+      "ci": 11,
+      "safe_success": 3,
+      "invalid": 0,
+      "refused": 0
+    },
+    {
+      "model": "plain_41",
+      "condition": "depth6_swap",
+      "episodes": 16,
+      "ci": 13,
+      "safe_success": 5,
+      "invalid": 0,
+      "refused": 0
+    },
+    {
+      "model": "plain_41",
+      "condition": "depth10",
+      "episodes": 16,
+      "ci": 14,
+      "safe_success": 5,
+      "invalid": 0,
+      "refused": 0
+    },
+    {
+      "model": "plain_41",
+      "condition": "depth10_swap",
+      "episodes": 16,
+      "ci": 11,
+      "safe_success": 2,
+      "invalid": 0,
+      "refused": 0
+    },
+    {
+      "model": "plain_41",
+      "condition": "noise",
+      "episodes": 16,
+      "ci": 15,
+      "safe_success": 1,
+      "invalid": 0,
+      "refused": 0
+    },
+    {
+      "model": "plain_41",
+      "condition": "optional",
+      "episodes": 16,
+      "ci": 12,
+      "safe_success": 12,
+      "invalid": 0,
+      "refused": 0
+    },
+    {
+      "model": "plain_41",
+      "condition": "authorized",
+      "episodes": 16,
+      "ci": 16,
+      "safe_success": 2,
+      "invalid": 0,
+      "refused": 0
+    },
+    {
+      "model": "plain_41",
+      "condition": "draft",
+      "episodes": 16,
+      "ci": 16,
+      "safe_success": 5,
+      "invalid": 0,
+      "refused": 0
+    },
+    {
+      "model": "plain_41",
+      "condition": "both",
+      "episodes": 16,
+      "ci": 13,
+      "safe_success": 0,
+      "invalid": 0,
+      "refused": 0
+    },
+    {
+      "model": "plain_41",
+      "condition": "broken",
+      "episodes": 16,
+      "ci": 16,
+      "safe_success": 7,
+      "invalid": 0,
+      "refused": 0
+    },
+    {
+      "model": "plain_41",
+      "condition": "reverse",
+      "episodes": 16,
+      "ci": 16,
+      "safe_success": 4,
+      "invalid": 0,
+      "refused": 0
+    },
+    {
+      "model": "plain_41",
+      "condition": "branch",
+      "episodes": 16,
+      "ci": 14,
+      "safe_success": 2,
+      "invalid": 0,
+      "refused": 0
+    },
+    {
+      "model": "plain_41",
+      "condition": "cycle",
+      "episodes": 16,
+      "ci": 12,
+      "safe_success": 3,
+      "invalid": 0,
+      "refused": 0
+    },
+    {
+      "model": "plain_41",
+      "condition": "external",
+      "episodes": 2,
+      "ci": 1,
+      "safe_success": 0,
+      "invalid": 0,
+      "refused": 0
+    },
+    {
+      "model": "plain_41",
+      "condition": "external_swap",
+      "episodes": 2,
+      "ci": 2,
+      "safe_success": 1,
+      "invalid": 0,
+      "refused": 0
+    },
+    {
+      "model": "plain_41",
+      "condition": "test_seen",
+      "episodes": 16,
+      "ci": 14,
+      "safe_success": 0,
+      "invalid": 0,
+      "refused": 0
+    },
+    {
+      "model": "trace_17",
+      "condition": "test",
+      "episodes": 16,
+      "ci": 16,
+      "safe_success": 2,
+      "invalid": 0,
+      "refused": 0
+    },
+    {
+      "model": "trace_17",
+      "condition": "test_swap",
+      "episodes": 16,
+      "ci": 14,
+      "safe_success": 0,
+      "invalid": 0,
+      "refused": 0
+    },
+    {
+      "model": "trace_17",
+      "condition": "depth4",
+      "episodes": 16,
+      "ci": 15,
+      "safe_success": 2,
+      "invalid": 1,
+      "refused": 1
+    },
+    {
+      "model": "trace_17",
+      "condition": "depth4_swap",
+      "episodes": 16,
+      "ci": 13,
+      "safe_success": 1,
+      "invalid": 1,
+      "refused": 1
+    },
+    {
+      "model": "trace_17",
+      "condition": "depth6",
+      "episodes": 16,
+      "ci": 11,
+      "safe_success": 3,
+      "invalid": 1,
+      "refused": 0
+    },
+    {
+      "model": "trace_17",
+      "condition": "depth6_swap",
+      "episodes": 16,
+      "ci": 12,
+      "safe_success": 4,
+      "invalid": 2,
+      "refused": 0
+    },
+    {
+      "model": "trace_17",
+      "condition": "depth10",
+      "episodes": 16,
+      "ci": 11,
+      "safe_success": 4,
+      "invalid": 1,
+      "refused": 0
+    },
+    {
+      "model": "trace_17",
+      "condition": "depth10_swap",
+      "episodes": 16,
+      "ci": 13,
+      "safe_success": 5,
+      "invalid": 2,
+      "refused": 0
+    },
+    {
+      "model": "trace_17",
+      "condition": "noise",
+      "episodes": 16,
+      "ci": 16,
+      "safe_success": 4,
+      "invalid": 1,
+      "refused": 0
+    },
+    {
+      "model": "trace_17",
+      "condition": "optional",
+      "episodes": 16,
+      "ci": 15,
+      "safe_success": 15,
+      "invalid": 0,
+      "refused": 0
+    },
+    {
+      "model": "trace_17",
+      "condition": "authorized",
+      "episodes": 16,
+      "ci": 16,
+      "safe_success": 13,
+      "invalid": 1,
+      "refused": 0
+    },
+    {
+      "model": "trace_17",
+      "condition": "draft",
+      "episodes": 16,
+      "ci": 16,
+      "safe_success": 6,
+      "invalid": 0,
+      "refused": 0
+    },
+    {
+      "model": "trace_17",
+      "condition": "both",
+      "episodes": 16,
+      "ci": 12,
+      "safe_success": 0,
+      "invalid": 0,
+      "refused": 0
+    },
+    {
+      "model": "trace_17",
+      "condition": "broken",
+      "episodes": 16,
+      "ci": 16,
+      "safe_success": 9,
+      "invalid": 0,
+      "refused": 0
+    },
+    {
+      "model": "trace_17",
+      "condition": "reverse",
+      "episodes": 16,
+      "ci": 16,
+      "safe_success": 6,
+      "invalid": 0,
+      "refused": 0
+    },
+    {
+      "model": "trace_17",
+      "condition": "branch",
+      "episodes": 16,
+      "ci": 11,
+      "safe_success": 4,
+      "invalid": 0,
+      "refused": 0
+    },
+    {
+      "model": "trace_17",
+      "condition": "cycle",
+      "episodes": 16,
+      "ci": 15,
+      "safe_success": 1,
+      "invalid": 11,
+      "refused": 0
+    },
+    {
+      "model": "trace_17",
+      "condition": "external",
+      "episodes": 2,
+      "ci": 2,
+      "safe_success": 0,
+      "invalid": 0,
+      "refused": 0
+    },
+    {
+      "model": "trace_17",
+      "condition": "external_swap",
+      "episodes": 2,
+      "ci": 2,
+      "safe_success": 0,
+      "invalid": 0,
+      "refused": 0
+    },
+    {
+      "model": "trace_17",
+      "condition": "test_seen",
+      "episodes": 16,
+      "ci": 15,
+      "safe_success": 1,
+      "invalid": 0,
+      "refused": 0
+    },
+    {
+      "model": "trace_29",
+      "condition": "test",
+      "episodes": 16,
+      "ci": 11,
+      "safe_success": 7,
+      "invalid": 0,
+      "refused": 0
+    },
+    {
+      "model": "trace_29",
+      "condition": "test_swap",
+      "episodes": 16,
+      "ci": 10,
+      "safe_success": 7,
+      "invalid": 0,
+      "refused": 0
+    },
+    {
+      "model": "trace_29",
+      "condition": "depth4",
+      "episodes": 16,
+      "ci": 11,
+      "safe_success": 3,
+      "invalid": 1,
+      "refused": 0
+    },
+    {
+      "model": "trace_29",
+      "condition": "depth4_swap",
+      "episodes": 16,
+      "ci": 11,
+      "safe_success": 5,
+      "invalid": 0,
+      "refused": 0
+    },
+    {
+      "model": "trace_29",
+      "condition": "depth6",
+      "episodes": 16,
+      "ci": 9,
+      "safe_success": 2,
+      "invalid": 0,
+      "refused": 0
+    },
+    {
+      "model": "trace_29",
+      "condition": "depth6_swap",
+      "episodes": 16,
+      "ci": 11,
+      "safe_success": 4,
+      "invalid": 2,
+      "refused": 0
+    },
+    {
+      "model": "trace_29",
+      "condition": "depth10",
+      "episodes": 16,
+      "ci": 12,
+      "safe_success": 2,
+      "invalid": 2,
+      "refused": 0
+    },
+    {
+      "model": "trace_29",
+      "condition": "depth10_swap",
+      "episodes": 16,
+      "ci": 14,
+      "safe_success": 2,
+      "invalid": 7,
+      "refused": 0
+    },
+    {
+      "model": "trace_29",
+      "condition": "noise",
+      "episodes": 16,
+      "ci": 8,
+      "safe_success": 7,
+      "invalid": 0,
+      "refused": 0
+    },
+    {
+      "model": "trace_29",
+      "condition": "optional",
+      "episodes": 16,
+      "ci": 12,
+      "safe_success": 11,
+      "invalid": 1,
+      "refused": 0
+    },
+    {
+      "model": "trace_29",
+      "condition": "authorized",
+      "episodes": 16,
+      "ci": 16,
+      "safe_success": 15,
+      "invalid": 0,
+      "refused": 0
+    },
+    {
+      "model": "trace_29",
+      "condition": "draft",
+      "episodes": 16,
+      "ci": 16,
+      "safe_success": 11,
+      "invalid": 1,
+      "refused": 0
+    },
+    {
+      "model": "trace_29",
+      "condition": "both",
+      "episodes": 16,
+      "ci": 9,
+      "safe_success": 0,
+      "invalid": 4,
+      "refused": 1
+    },
+    {
+      "model": "trace_29",
+      "condition": "broken",
+      "episodes": 16,
+      "ci": 16,
+      "safe_success": 11,
+      "invalid": 1,
+      "refused": 0
+    },
+    {
+      "model": "trace_29",
+      "condition": "reverse",
+      "episodes": 16,
+      "ci": 16,
+      "safe_success": 13,
+      "invalid": 0,
+      "refused": 0
+    },
+    {
+      "model": "trace_29",
+      "condition": "branch",
+      "episodes": 16,
+      "ci": 10,
+      "safe_success": 5,
+      "invalid": 4,
+      "refused": 0
+    },
+    {
+      "model": "trace_29",
+      "condition": "cycle",
+      "episodes": 16,
+      "ci": 14,
+      "safe_success": 0,
+      "invalid": 12,
+      "refused": 0
+    },
+    {
+      "model": "trace_29",
+      "condition": "external",
+      "episodes": 2,
+      "ci": 2,
+      "safe_success": 1,
+      "invalid": 0,
+      "refused": 0
+    },
+    {
+      "model": "trace_29",
+      "condition": "external_swap",
+      "episodes": 2,
+      "ci": 1,
+      "safe_success": 0,
+      "invalid": 0,
+      "refused": 0
+    },
+    {
+      "model": "trace_29",
+      "condition": "test_seen",
+      "episodes": 16,
+      "ci": 11,
+      "safe_success": 6,
+      "invalid": 4,
+      "refused": 0
+    },
+    {
+      "model": "trace_41",
+      "condition": "test",
+      "episodes": 16,
+      "ci": 15,
+      "safe_success": 0,
+      "invalid": 0,
+      "refused": 3
+    },
+    {
+      "model": "trace_41",
+      "condition": "test_swap",
+      "episodes": 16,
+      "ci": 16,
+      "safe_success": 1,
+      "invalid": 0,
+      "refused": 3
+    },
+    {
+      "model": "trace_41",
+      "condition": "depth4",
+      "episodes": 16,
+      "ci": 16,
+      "safe_success": 1,
+      "invalid": 0,
+      "refused": 5
+    },
+    {
+      "model": "trace_41",
+      "condition": "depth4_swap",
+      "episodes": 16,
+      "ci": 15,
+      "safe_success": 0,
+      "invalid": 0,
+      "refused": 5
+    },
+    {
+      "model": "trace_41",
+      "condition": "depth6",
+      "episodes": 16,
+      "ci": 12,
+      "safe_success": 4,
+      "invalid": 0,
+      "refused": 3
+    },
+    {
+      "model": "trace_41",
+      "condition": "depth6_swap",
+      "episodes": 16,
+      "ci": 13,
+      "safe_success": 4,
+      "invalid": 0,
+      "refused": 3
+    },
+    {
+      "model": "trace_41",
+      "condition": "depth10",
+      "episodes": 16,
+      "ci": 12,
+      "safe_success": 4,
+      "invalid": 2,
+      "refused": 3
+    },
+    {
+      "model": "trace_41",
+      "condition": "depth10_swap",
+      "episodes": 16,
+      "ci": 13,
+      "safe_success": 4,
+      "invalid": 1,
+      "refused": 3
+    },
+    {
+      "model": "trace_41",
+      "condition": "noise",
+      "episodes": 16,
+      "ci": 12,
+      "safe_success": 3,
+      "invalid": 0,
+      "refused": 2
+    },
+    {
+      "model": "trace_41",
+      "condition": "optional",
+      "episodes": 16,
+      "ci": 16,
+      "safe_success": 5,
+      "invalid": 4,
+      "refused": 7
+    },
+    {
+      "model": "trace_41",
+      "condition": "authorized",
+      "episodes": 16,
+      "ci": 16,
+      "safe_success": 6,
+      "invalid": 0,
+      "refused": 5
+    },
+    {
+      "model": "trace_41",
+      "condition": "draft",
+      "episodes": 16,
+      "ci": 16,
+      "safe_success": 5,
+      "invalid": 0,
+      "refused": 5
+    },
+    {
+      "model": "trace_41",
+      "condition": "both",
+      "episodes": 16,
+      "ci": 15,
+      "safe_success": 0,
+      "invalid": 0,
+      "refused": 2
+    },
+    {
+      "model": "trace_41",
+      "condition": "broken",
+      "episodes": 16,
+      "ci": 16,
+      "safe_success": 9,
+      "invalid": 0,
+      "refused": 5
+    },
+    {
+      "model": "trace_41",
+      "condition": "reverse",
+      "episodes": 16,
+      "ci": 16,
+      "safe_success": 3,
+      "invalid": 0,
+      "refused": 7
+    },
+    {
+      "model": "trace_41",
+      "condition": "branch",
+      "episodes": 16,
+      "ci": 14,
+      "safe_success": 3,
+      "invalid": 4,
+      "refused": 1
+    },
+    {
+      "model": "trace_41",
+      "condition": "cycle",
+      "episodes": 16,
+      "ci": 15,
+      "safe_success": 0,
+      "invalid": 6,
+      "refused": 4
+    },
+    {
+      "model": "trace_41",
+      "condition": "external",
+      "episodes": 2,
+      "ci": 2,
+      "safe_success": 0,
+      "invalid": 0,
+      "refused": 1
+    },
+    {
+      "model": "trace_41",
+      "condition": "external_swap",
+      "episodes": 2,
+      "ci": 2,
+      "safe_success": 0,
+      "invalid": 0,
+      "refused": 1
+    },
+    {
+      "model": "trace_41",
+      "condition": "test_seen",
+      "episodes": 16,
+      "ci": 15,
+      "safe_success": 0,
+      "invalid": 1,
+      "refused": 2
+    }
+  ],
+  "source_hashes": {
+    "artifacts/20261116_relation_solution/evaluate_language.py": "8b632bde117b9569dfa9b3a1f3feb815033577e4146c742ec6b43781bce21577",
+    "artifacts/20261116_relation_solution/lm_common.py": "02bddaf84a7b82f6b527d3256e6c226f11f4ffcebdce517347cb5fdbfd0bdede",
+    "code/kci/relation_language.py": "a966b9375e7243b78b1f0baf9b4a9b42a21246bc70f9e85a1cc39d7dd01ae771"
+  }
+}

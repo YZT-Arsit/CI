@@ -1,0 +1,35 @@
+{
+  "evaluation": "old_baseline_evaluation",
+  "model": "old_29",
+  "episodes": 1120,
+  "replay_errors": [],
+  "proofs": {
+    "complete": 0,
+    "labels_correct": 0,
+    "paths_correct": 0,
+    "faithful": 0,
+    "total": 0
+  },
+  "max_episode_seconds": 0.0018785000429488719,
+  "raw_hashes": {
+    "authorized.jsonl": "626dbab8c62b2f3f5965347b3f06f5a83a2ab8adc3419d2091d37aab762ab9c3",
+    "both.jsonl": "35ff2f0bdbc7a86ffea4fad699265e13cafc1ccce7ab1761944aa3b855cd80e3",
+    "branch.jsonl": "186631e8ee0115420157bbd291ac9297558e0f4168213c8c7573da4fc76dd205",
+    "broken.jsonl": "df0d20394e582829080c69ffcb66129110119b4bea6dfeebcdd93c916b6761df",
+    "cycle.jsonl": "19c826e62b44723eec4a7b9bce4def051c68a99bec828954f0ad46eeae56adba",
+    "depth10.jsonl": "1235cc7caaf0b6ee083e2d6fa3c944d32d1d49e118f8b57724cc265c4a3842c1",
+    "depth10_swap.jsonl": "f1587e5696cdc5b8dff790d4bd5617fd231142f40eb1fc452971a5f277a9e039",
+    "depth4.jsonl": "df5299587ded3992742cdf61b6ccdee373fb9b812d72cbf2cbfe17f990ffcd15",
+    "depth4_swap.jsonl": "6dd677ed62181ac92208397ec8587346ed1395f0cafb6ac1c6a344036b2e21f1",
+    "depth6.jsonl": "990e66d71566f18d23fccc296ae003f6184bc56252c532eb5d50403afd6a18e8",
+    "depth6_swap.jsonl": "6e41cf0302340ae51cb518d09918cc60d058ce7158f6eb65961766cd01f5c8f8",
+    "draft.jsonl": "67001d1c23f255cafdc16fe15f1dfdae72260cc4f40908bd449b809465de5922",
+    "external_complete.jsonl": "f9045143d0ebc4e2a4c06d9b2733016a3fba1fdfa35dde2a30f8df190ddbe42c",
+    "external_complete_swap.jsonl": "dfce08ce79b1ce61bb7ddf2218974e559f90e8cc937627702313e0ea9706f935",
+    "noise.jsonl": "5c2afb56ca7fae36f089782084267bdad29a817bd0d550ba962571fb088455e1",
+    "optional.jsonl": "e388a7af6d3bba8f949672d5d52073797edd8734bd76b926c1c3aad212d374ce",
+    "reverse.jsonl": "ef90f6958ec123edced9438b1ebd4f37ab396d47c9fae5f5be3d133490d1fc62",
+    "test.jsonl": "b6571746ae5b7917775330e16e4eb43111b13c75685e39325ebeaba9906905a7",
+    "test_swap.jsonl": "01396f8c9c708bd49c3b68862ef409270ca73765a1f3e20b9fc3df9820d9bfdf"
+  }
+}

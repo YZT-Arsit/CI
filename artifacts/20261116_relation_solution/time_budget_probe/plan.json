@@ -1,0 +1,11 @@
+{
+  "models": "all trace and balanced final checkpoints",
+  "selection": "first two capped invalid batches per model in frozen condition/phase/batch order; never selected by task reward",
+  "max_time_seconds": 12,
+  "max_new_tokens": 256,
+  "original_time_seconds": 8,
+  "original_token_limit": 256,
+  "same_prompts_and_batch_members": true,
+  "purpose": "supplemental timing sensitivity, not replacement primary score",
+  "source_sha256": "bf92e858341ae8ca3c764b9640fef1313db9a2b13765e72653aab3d38fcd0c8b"
+}

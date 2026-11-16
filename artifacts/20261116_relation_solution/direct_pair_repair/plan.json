@@ -1,0 +1,17 @@
+{
+  "seeds": [
+    17,
+    29,
+    41
+  ],
+  "updates": 2400,
+  "batch": 64,
+  "lr": 0.01,
+  "width": 64,
+  "max_facts": 256,
+  "primitive_teacher": false,
+  "data": "same dense executed train labels, paired history variants and factor-balanced role/action/permission/obligation/label buckets",
+  "evaluation": "new fixed 80M seed worlds; depths2/10/32, noise0/128,16 worlds per cell",
+  "purpose": "post-hoc coverage repair after seed29 Worker failure; no retries/seed selection",
+  "source_sha256": "516203459cd02c4f0cfa3317120ea0c3ba6c5d4ae34a90661e9249ae783e2e7b"
+}

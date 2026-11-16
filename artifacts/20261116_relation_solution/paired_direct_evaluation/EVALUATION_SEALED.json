@@ -1,0 +1,519 @@
+{
+  "summaries": [
+    {
+      "model": "paired_17",
+      "condition": "test",
+      "episodes": 64,
+      "ci": 64,
+      "safe_success": 0,
+      "refused": 64,
+      "max_episode_seconds": 0.03130674300018654
+    },
+    {
+      "model": "paired_17",
+      "condition": "depth4",
+      "episodes": 64,
+      "ci": 64,
+      "safe_success": 0,
+      "refused": 64,
+      "max_episode_seconds": 0.009479807000388973
+    },
+    {
+      "model": "paired_17",
+      "condition": "depth6",
+      "episodes": 64,
+      "ci": 64,
+      "safe_success": 0,
+      "refused": 64,
+      "max_episode_seconds": 0.011780885000007402
+    },
+    {
+      "model": "paired_17",
+      "condition": "depth10",
+      "episodes": 64,
+      "ci": 64,
+      "safe_success": 0,
+      "refused": 64,
+      "max_episode_seconds": 0.13055295899994235
+    },
+    {
+      "model": "paired_17",
+      "condition": "noise",
+      "episodes": 64,
+      "ci": 64,
+      "safe_success": 0,
+      "refused": 64,
+      "max_episode_seconds": 0.019458362000023044
+    },
+    {
+      "model": "paired_17",
+      "condition": "optional",
+      "episodes": 64,
+      "ci": 64,
+      "safe_success": 64,
+      "refused": 0,
+      "max_episode_seconds": 0.013248963999558327
+    },
+    {
+      "model": "paired_17",
+      "condition": "authorized",
+      "episodes": 64,
+      "ci": 64,
+      "safe_success": 64,
+      "refused": 0,
+      "max_episode_seconds": 0.010276836000230105
+    },
+    {
+      "model": "paired_17",
+      "condition": "draft",
+      "episodes": 64,
+      "ci": 64,
+      "safe_success": 0,
+      "refused": 64,
+      "max_episode_seconds": 0.007573501000024407
+    },
+    {
+      "model": "paired_17",
+      "condition": "both",
+      "episodes": 64,
+      "ci": 64,
+      "safe_success": 0,
+      "refused": 64,
+      "max_episode_seconds": 0.01492039700042369
+    },
+    {
+      "model": "paired_17",
+      "condition": "broken",
+      "episodes": 64,
+      "ci": 64,
+      "safe_success": 0,
+      "refused": 64,
+      "max_episode_seconds": 0.009902391999730753
+    },
+    {
+      "model": "paired_17",
+      "condition": "reverse",
+      "episodes": 64,
+      "ci": 64,
+      "safe_success": 0,
+      "refused": 64,
+      "max_episode_seconds": 0.00886490099992443
+    },
+    {
+      "model": "paired_17",
+      "condition": "branch",
+      "episodes": 64,
+      "ci": 64,
+      "safe_success": 0,
+      "refused": 64,
+      "max_episode_seconds": 0.011080880999998044
+    },
+    {
+      "model": "paired_17",
+      "condition": "cycle",
+      "episodes": 64,
+      "ci": 64,
+      "safe_success": 0,
+      "refused": 64,
+      "max_episode_seconds": 0.011518897999849287
+    },
+    {
+      "model": "paired_17",
+      "condition": "test_swap",
+      "episodes": 64,
+      "ci": 64,
+      "safe_success": 0,
+      "refused": 64,
+      "max_episode_seconds": 0.011680545000217535
+    },
+    {
+      "model": "paired_17",
+      "condition": "depth4_swap",
+      "episodes": 64,
+      "ci": 64,
+      "safe_success": 0,
+      "refused": 64,
+      "max_episode_seconds": 0.01337575299976379
+    },
+    {
+      "model": "paired_17",
+      "condition": "depth6_swap",
+      "episodes": 64,
+      "ci": 64,
+      "safe_success": 0,
+      "refused": 64,
+      "max_episode_seconds": 0.012687824000295223
+    },
+    {
+      "model": "paired_17",
+      "condition": "depth10_swap",
+      "episodes": 64,
+      "ci": 64,
+      "safe_success": 0,
+      "refused": 64,
+      "max_episode_seconds": 0.014301024999895162
+    },
+    {
+      "model": "paired_17",
+      "condition": "external_complete",
+      "episodes": 16,
+      "ci": 16,
+      "safe_success": 0,
+      "refused": 16,
+      "max_episode_seconds": 0.05037172399988776
+    },
+    {
+      "model": "paired_17",
+      "condition": "external_complete_swap",
+      "episodes": 16,
+      "ci": 16,
+      "safe_success": 0,
+      "refused": 16,
+      "max_episode_seconds": 0.010244023999803176
+    },
+    {
+      "model": "paired_29",
+      "condition": "test",
+      "episodes": 64,
+      "ci": 64,
+      "safe_success": 64,
+      "refused": 0,
+      "max_episode_seconds": 0.010632107000219548
+    },
+    {
+      "model": "paired_29",
+      "condition": "depth4",
+      "episodes": 64,
+      "ci": 64,
+      "safe_success": 64,
+      "refused": 0,
+      "max_episode_seconds": 0.011338387000250805
+    },
+    {
+      "model": "paired_29",
+      "condition": "depth6",
+      "episodes": 64,
+      "ci": 64,
+      "safe_success": 64,
+      "refused": 0,
+      "max_episode_seconds": 0.013654149000103644
+    },
+    {
+      "model": "paired_29",
+      "condition": "depth10",
+      "episodes": 64,
+      "ci": 64,
+      "safe_success": 64,
+      "refused": 0,
+      "max_episode_seconds": 0.015568967000035627
+    },
+    {
+      "model": "paired_29",
+      "condition": "noise",
+      "episodes": 64,
+      "ci": 64,
+      "safe_success": 64,
+      "refused": 0,
+      "max_episode_seconds": 0.01840649999985544
+    },
+    {
+      "model": "paired_29",
+      "condition": "optional",
+      "episodes": 64,
+      "ci": 64,
+      "safe_success": 64,
+      "refused": 0,
+      "max_episode_seconds": 0.009523423000246112
+    },
+    {
+      "model": "paired_29",
+      "condition": "authorized",
+      "episodes": 64,
+      "ci": 64,
+      "safe_success": 64,
+      "refused": 0,
+      "max_episode_seconds": 0.010288704999766196
+    },
+    {
+      "model": "paired_29",
+      "condition": "draft",
+      "episodes": 64,
+      "ci": 64,
+      "safe_success": 64,
+      "refused": 0,
+      "max_episode_seconds": 0.008145610000156012
+    },
+    {
+      "model": "paired_29",
+      "condition": "both",
+      "episodes": 64,
+      "ci": 64,
+      "safe_success": 0,
+      "refused": 64,
+      "max_episode_seconds": 0.007185102000221377
+    },
+    {
+      "model": "paired_29",
+      "condition": "broken",
+      "episodes": 64,
+      "ci": 64,
+      "safe_success": 64,
+      "refused": 0,
+      "max_episode_seconds": 0.13200432699977682
+    },
+    {
+      "model": "paired_29",
+      "condition": "reverse",
+      "episodes": 64,
+      "ci": 64,
+      "safe_success": 64,
+      "refused": 0,
+      "max_episode_seconds": 0.010844450000149664
+    },
+    {
+      "model": "paired_29",
+      "condition": "branch",
+      "episodes": 64,
+      "ci": 64,
+      "safe_success": 64,
+      "refused": 0,
+      "max_episode_seconds": 0.012136384000314138
+    },
+    {
+      "model": "paired_29",
+      "condition": "cycle",
+      "episodes": 64,
+      "ci": 64,
+      "safe_success": 64,
+      "refused": 0,
+      "max_episode_seconds": 0.01071697600036714
+    },
+    {
+      "model": "paired_29",
+      "condition": "test_swap",
+      "episodes": 64,
+      "ci": 64,
+      "safe_success": 64,
+      "refused": 0,
+      "max_episode_seconds": 0.010304271000222798
+    },
+    {
+      "model": "paired_29",
+      "condition": "depth4_swap",
+      "episodes": 64,
+      "ci": 64,
+      "safe_success": 64,
+      "refused": 0,
+      "max_episode_seconds": 0.010166808999656496
+    },
+    {
+      "model": "paired_29",
+      "condition": "depth6_swap",
+      "episodes": 64,
+      "ci": 64,
+      "safe_success": 64,
+      "refused": 0,
+      "max_episode_seconds": 0.013203030000113358
+    },
+    {
+      "model": "paired_29",
+      "condition": "depth10_swap",
+      "episodes": 64,
+      "ci": 64,
+      "safe_success": 64,
+      "refused": 0,
+      "max_episode_seconds": 0.013651952999680361
+    },
+    {
+      "model": "paired_29",
+      "condition": "external_complete",
+      "episodes": 16,
+      "ci": 16,
+      "safe_success": 16,
+      "refused": 0,
+      "max_episode_seconds": 0.011403852000057668
+    },
+    {
+      "model": "paired_29",
+      "condition": "external_complete_swap",
+      "episodes": 16,
+      "ci": 16,
+      "safe_success": 16,
+      "refused": 0,
+      "max_episode_seconds": 0.011149509999995644
+    },
+    {
+      "model": "paired_41",
+      "condition": "test",
+      "episodes": 64,
+      "ci": 64,
+      "safe_success": 64,
+      "refused": 0,
+      "max_episode_seconds": 0.012710550000065268
+    },
+    {
+      "model": "paired_41",
+      "condition": "depth4",
+      "episodes": 64,
+      "ci": 64,
+      "safe_success": 64,
+      "refused": 0,
+      "max_episode_seconds": 0.012477963999572239
+    },
+    {
+      "model": "paired_41",
+      "condition": "depth6",
+      "episodes": 64,
+      "ci": 64,
+      "safe_success": 64,
+      "refused": 0,
+      "max_episode_seconds": 0.01326554400020541
+    },
+    {
+      "model": "paired_41",
+      "condition": "depth10",
+      "episodes": 64,
+      "ci": 64,
+      "safe_success": 64,
+      "refused": 0,
+      "max_episode_seconds": 0.015551432999927783
+    },
+    {
+      "model": "paired_41",
+      "condition": "noise",
+      "episodes": 64,
+      "ci": 64,
+      "safe_success": 64,
+      "refused": 0,
+      "max_episode_seconds": 0.02139183300005243
+    },
+    {
+      "model": "paired_41",
+      "condition": "optional",
+      "episodes": 64,
+      "ci": 64,
+      "safe_success": 64,
+      "refused": 0,
+      "max_episode_seconds": 0.009788665999622026
+    },
+    {
+      "model": "paired_41",
+      "condition": "authorized",
+      "episodes": 64,
+      "ci": 64,
+      "safe_success": 64,
+      "refused": 0,
+      "max_episode_seconds": 0.010100888000124542
+    },
+    {
+      "model": "paired_41",
+      "condition": "draft",
+      "episodes": 64,
+      "ci": 64,
+      "safe_success": 64,
+      "refused": 0,
+      "max_episode_seconds": 0.008082915000159119
+    },
+    {
+      "model": "paired_41",
+      "condition": "both",
+      "episodes": 64,
+      "ci": 64,
+      "safe_success": 0,
+      "refused": 64,
+      "max_episode_seconds": 0.0075649430000339635
+    },
+    {
+      "model": "paired_41",
+      "condition": "broken",
+      "episodes": 64,
+      "ci": 64,
+      "safe_success": 64,
+      "refused": 0,
+      "max_episode_seconds": 0.009799632000067504
+    },
+    {
+      "model": "paired_41",
+      "condition": "reverse",
+      "episodes": 64,
+      "ci": 64,
+      "safe_success": 64,
+      "refused": 0,
+      "max_episode_seconds": 0.013245260000076087
+    },
+    {
+      "model": "paired_41",
+      "condition": "branch",
+      "episodes": 64,
+      "ci": 64,
+      "safe_success": 64,
+      "refused": 0,
+      "max_episode_seconds": 0.010715037999943888
+    },
+    {
+      "model": "paired_41",
+      "condition": "cycle",
+      "episodes": 64,
+      "ci": 64,
+      "safe_success": 64,
+      "refused": 0,
+      "max_episode_seconds": 0.0130363190000935
+    },
+    {
+      "model": "paired_41",
+      "condition": "test_swap",
+      "episodes": 64,
+      "ci": 64,
+      "safe_success": 64,
+      "refused": 0,
+      "max_episode_seconds": 0.010715400999742997
+    },
+    {
+      "model": "paired_41",
+      "condition": "depth4_swap",
+      "episodes": 64,
+      "ci": 64,
+      "safe_success": 64,
+      "refused": 0,
+      "max_episode_seconds": 0.009830216999944241
+    },
+    {
+      "model": "paired_41",
+      "condition": "depth6_swap",
+      "episodes": 64,
+      "ci": 64,
+      "safe_success": 64,
+      "refused": 0,
+      "max_episode_seconds": 0.10861657899977217
+    },
+    {
+      "model": "paired_41",
+      "condition": "depth10_swap",
+      "episodes": 64,
+      "ci": 64,
+      "safe_success": 64,
+      "refused": 0,
+      "max_episode_seconds": 0.01333654000018214
+    },
+    {
+      "model": "paired_41",
+      "condition": "external_complete",
+      "episodes": 16,
+      "ci": 16,
+      "safe_success": 16,
+      "refused": 0,
+      "max_episode_seconds": 0.007800344999850495
+    },
+    {
+      "model": "paired_41",
+      "condition": "external_complete_swap",
+      "episodes": 16,
+      "ci": 16,
+      "safe_success": 16,
+      "refused": 0,
+      "max_episode_seconds": 0.008807005000107893
+    }
+  ],
+  "training_updates_matched_to_primary": false,
+  "primitive_teacher_used": false
+}

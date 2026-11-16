@@ -1,0 +1,598 @@
+{
+  "summaries": [
+    {
+      "model": "balanced_17",
+      "condition": "test",
+      "episodes": 16,
+      "ci": 14,
+      "safe_success": 4,
+      "invalid": 0,
+      "refused": 0
+    },
+    {
+      "model": "balanced_17",
+      "condition": "test_swap",
+      "episodes": 16,
+      "ci": 12,
+      "safe_success": 3,
+      "invalid": 0,
+      "refused": 0
+    },
+    {
+      "model": "balanced_17",
+      "condition": "depth4",
+      "episodes": 16,
+      "ci": 11,
+      "safe_success": 0,
+      "invalid": 4,
+      "refused": 0
+    },
+    {
+      "model": "balanced_17",
+      "condition": "depth4_swap",
+      "episodes": 16,
+      "ci": 16,
+      "safe_success": 5,
+      "invalid": 4,
+      "refused": 0
+    },
+    {
+      "model": "balanced_17",
+      "condition": "depth6",
+      "episodes": 16,
+      "ci": 14,
+      "safe_success": 1,
+      "invalid": 8,
+      "refused": 0
+    },
+    {
+      "model": "balanced_17",
+      "condition": "depth6_swap",
+      "episodes": 16,
+      "ci": 16,
+      "safe_success": 2,
+      "invalid": 6,
+      "refused": 0
+    },
+    {
+      "model": "balanced_17",
+      "condition": "depth10",
+      "episodes": 16,
+      "ci": 15,
+      "safe_success": 1,
+      "invalid": 7,
+      "refused": 0
+    },
+    {
+      "model": "balanced_17",
+      "condition": "depth10_swap",
+      "episodes": 16,
+      "ci": 15,
+      "safe_success": 1,
+      "invalid": 9,
+      "refused": 0
+    },
+    {
+      "model": "balanced_17",
+      "condition": "noise",
+      "episodes": 16,
+      "ci": 13,
+      "safe_success": 2,
+      "invalid": 2,
+      "refused": 0
+    },
+    {
+      "model": "balanced_17",
+      "condition": "optional",
+      "episodes": 16,
+      "ci": 14,
+      "safe_success": 9,
+      "invalid": 5,
+      "refused": 0
+    },
+    {
+      "model": "balanced_17",
+      "condition": "authorized",
+      "episodes": 16,
+      "ci": 16,
+      "safe_success": 13,
+      "invalid": 3,
+      "refused": 0
+    },
+    {
+      "model": "balanced_17",
+      "condition": "draft",
+      "episodes": 16,
+      "ci": 16,
+      "safe_success": 6,
+      "invalid": 4,
+      "refused": 0
+    },
+    {
+      "model": "balanced_17",
+      "condition": "both",
+      "episodes": 16,
+      "ci": 6,
+      "safe_success": 0,
+      "invalid": 3,
+      "refused": 0
+    },
+    {
+      "model": "balanced_17",
+      "condition": "broken",
+      "episodes": 16,
+      "ci": 16,
+      "safe_success": 11,
+      "invalid": 2,
+      "refused": 0
+    },
+    {
+      "model": "balanced_17",
+      "condition": "reverse",
+      "episodes": 16,
+      "ci": 16,
+      "safe_success": 5,
+      "invalid": 7,
+      "refused": 0
+    },
+    {
+      "model": "balanced_17",
+      "condition": "branch",
+      "episodes": 16,
+      "ci": 14,
+      "safe_success": 3,
+      "invalid": 7,
+      "refused": 0
+    },
+    {
+      "model": "balanced_17",
+      "condition": "cycle",
+      "episodes": 16,
+      "ci": 16,
+      "safe_success": 0,
+      "invalid": 15,
+      "refused": 0
+    },
+    {
+      "model": "balanced_17",
+      "condition": "external",
+      "episodes": 2,
+      "ci": 2,
+      "safe_success": 1,
+      "invalid": 0,
+      "refused": 0
+    },
+    {
+      "model": "balanced_17",
+      "condition": "external_swap",
+      "episodes": 2,
+      "ci": 1,
+      "safe_success": 0,
+      "invalid": 0,
+      "refused": 0
+    },
+    {
+      "model": "balanced_17",
+      "condition": "test_seen",
+      "episodes": 16,
+      "ci": 15,
+      "safe_success": 3,
+      "invalid": 3,
+      "refused": 0
+    },
+    {
+      "model": "balanced_17",
+      "condition": "external_complete",
+      "episodes": 16,
+      "ci": 14,
+      "safe_success": 6,
+      "invalid": 2,
+      "refused": 0
+    },
+    {
+      "model": "balanced_17",
+      "condition": "external_complete_swap",
+      "episodes": 16,
+      "ci": 9,
+      "safe_success": 2,
+      "invalid": 2,
+      "refused": 0
+    },
+    {
+      "model": "balanced_29",
+      "condition": "test",
+      "episodes": 16,
+      "ci": 16,
+      "safe_success": 0,
+      "invalid": 7,
+      "refused": 3
+    },
+    {
+      "model": "balanced_29",
+      "condition": "test_swap",
+      "episodes": 16,
+      "ci": 15,
+      "safe_success": 1,
+      "invalid": 1,
+      "refused": 6
+    },
+    {
+      "model": "balanced_29",
+      "condition": "depth4",
+      "episodes": 16,
+      "ci": 15,
+      "safe_success": 1,
+      "invalid": 0,
+      "refused": 1
+    },
+    {
+      "model": "balanced_29",
+      "condition": "depth4_swap",
+      "episodes": 16,
+      "ci": 15,
+      "safe_success": 0,
+      "invalid": 4,
+      "refused": 2
+    },
+    {
+      "model": "balanced_29",
+      "condition": "depth6",
+      "episodes": 16,
+      "ci": 16,
+      "safe_success": 1,
+      "invalid": 3,
+      "refused": 0
+    },
+    {
+      "model": "balanced_29",
+      "condition": "depth6_swap",
+      "episodes": 16,
+      "ci": 15,
+      "safe_success": 0,
+      "invalid": 4,
+      "refused": 0
+    },
+    {
+      "model": "balanced_29",
+      "condition": "depth10",
+      "episodes": 16,
+      "ci": 15,
+      "safe_success": 0,
+      "invalid": 9,
+      "refused": 0
+    },
+    {
+      "model": "balanced_29",
+      "condition": "depth10_swap",
+      "episodes": 16,
+      "ci": 15,
+      "safe_success": 0,
+      "invalid": 7,
+      "refused": 1
+    },
+    {
+      "model": "balanced_29",
+      "condition": "noise",
+      "episodes": 16,
+      "ci": 15,
+      "safe_success": 2,
+      "invalid": 6,
+      "refused": 1
+    },
+    {
+      "model": "balanced_29",
+      "condition": "optional",
+      "episodes": 16,
+      "ci": 16,
+      "safe_success": 12,
+      "invalid": 4,
+      "refused": 0
+    },
+    {
+      "model": "balanced_29",
+      "condition": "authorized",
+      "episodes": 16,
+      "ci": 16,
+      "safe_success": 10,
+      "invalid": 6,
+      "refused": 0
+    },
+    {
+      "model": "balanced_29",
+      "condition": "draft",
+      "episodes": 16,
+      "ci": 16,
+      "safe_success": 2,
+      "invalid": 2,
+      "refused": 3
+    },
+    {
+      "model": "balanced_29",
+      "condition": "both",
+      "episodes": 16,
+      "ci": 14,
+      "safe_success": 0,
+      "invalid": 3,
+      "refused": 2
+    },
+    {
+      "model": "balanced_29",
+      "condition": "broken",
+      "episodes": 16,
+      "ci": 16,
+      "safe_success": 2,
+      "invalid": 1,
+      "refused": 0
+    },
+    {
+      "model": "balanced_29",
+      "condition": "reverse",
+      "episodes": 16,
+      "ci": 16,
+      "safe_success": 2,
+      "invalid": 5,
+      "refused": 0
+    },
+    {
+      "model": "balanced_29",
+      "condition": "branch",
+      "episodes": 16,
+      "ci": 15,
+      "safe_success": 2,
+      "invalid": 5,
+      "refused": 0
+    },
+    {
+      "model": "balanced_29",
+      "condition": "cycle",
+      "episodes": 16,
+      "ci": 16,
+      "safe_success": 0,
+      "invalid": 12,
+      "refused": 1
+    },
+    {
+      "model": "balanced_29",
+      "condition": "external",
+      "episodes": 2,
+      "ci": 2,
+      "safe_success": 1,
+      "invalid": 0,
+      "refused": 0
+    },
+    {
+      "model": "balanced_29",
+      "condition": "external_swap",
+      "episodes": 2,
+      "ci": 1,
+      "safe_success": 0,
+      "invalid": 0,
+      "refused": 0
+    },
+    {
+      "model": "balanced_29",
+      "condition": "test_seen",
+      "episodes": 16,
+      "ci": 15,
+      "safe_success": 0,
+      "invalid": 0,
+      "refused": 6
+    },
+    {
+      "model": "balanced_29",
+      "condition": "external_complete",
+      "episodes": 16,
+      "ci": 15,
+      "safe_success": 1,
+      "invalid": 5,
+      "refused": 1
+    },
+    {
+      "model": "balanced_29",
+      "condition": "external_complete_swap",
+      "episodes": 16,
+      "ci": 14,
+      "safe_success": 0,
+      "invalid": 4,
+      "refused": 2
+    },
+    {
+      "model": "balanced_41",
+      "condition": "test",
+      "episodes": 16,
+      "ci": 13,
+      "safe_success": 3,
+      "invalid": 0,
+      "refused": 0
+    },
+    {
+      "model": "balanced_41",
+      "condition": "test_swap",
+      "episodes": 16,
+      "ci": 13,
+      "safe_success": 3,
+      "invalid": 0,
+      "refused": 0
+    },
+    {
+      "model": "balanced_41",
+      "condition": "depth4",
+      "episodes": 16,
+      "ci": 13,
+      "safe_success": 4,
+      "invalid": 4,
+      "refused": 0
+    },
+    {
+      "model": "balanced_41",
+      "condition": "depth4_swap",
+      "episodes": 16,
+      "ci": 11,
+      "safe_success": 3,
+      "invalid": 0,
+      "refused": 0
+    },
+    {
+      "model": "balanced_41",
+      "condition": "depth6",
+      "episodes": 16,
+      "ci": 10,
+      "safe_success": 4,
+      "invalid": 4,
+      "refused": 0
+    },
+    {
+      "model": "balanced_41",
+      "condition": "depth6_swap",
+      "episodes": 16,
+      "ci": 14,
+      "safe_success": 5,
+      "invalid": 5,
+      "refused": 0
+    },
+    {
+      "model": "balanced_41",
+      "condition": "depth10",
+      "episodes": 16,
+      "ci": 9,
+      "safe_success": 4,
+      "invalid": 3,
+      "refused": 0
+    },
+    {
+      "model": "balanced_41",
+      "condition": "depth10_swap",
+      "episodes": 16,
+      "ci": 11,
+      "safe_success": 8,
+      "invalid": 1,
+      "refused": 0
+    },
+    {
+      "model": "balanced_41",
+      "condition": "noise",
+      "episodes": 16,
+      "ci": 12,
+      "safe_success": 4,
+      "invalid": 1,
+      "refused": 0
+    },
+    {
+      "model": "balanced_41",
+      "condition": "optional",
+      "episodes": 16,
+      "ci": 15,
+      "safe_success": 14,
+      "invalid": 1,
+      "refused": 0
+    },
+    {
+      "model": "balanced_41",
+      "condition": "authorized",
+      "episodes": 16,
+      "ci": 16,
+      "safe_success": 9,
+      "invalid": 4,
+      "refused": 0
+    },
+    {
+      "model": "balanced_41",
+      "condition": "draft",
+      "episodes": 16,
+      "ci": 16,
+      "safe_success": 7,
+      "invalid": 0,
+      "refused": 0
+    },
+    {
+      "model": "balanced_41",
+      "condition": "both",
+      "episodes": 16,
+      "ci": 14,
+      "safe_success": 0,
+      "invalid": 1,
+      "refused": 0
+    },
+    {
+      "model": "balanced_41",
+      "condition": "broken",
+      "episodes": 16,
+      "ci": 16,
+      "safe_success": 12,
+      "invalid": 0,
+      "refused": 0
+    },
+    {
+      "model": "balanced_41",
+      "condition": "reverse",
+      "episodes": 16,
+      "ci": 16,
+      "safe_success": 7,
+      "invalid": 4,
+      "refused": 0
+    },
+    {
+      "model": "balanced_41",
+      "condition": "branch",
+      "episodes": 16,
+      "ci": 14,
+      "safe_success": 5,
+      "invalid": 2,
+      "refused": 0
+    },
+    {
+      "model": "balanced_41",
+      "condition": "cycle",
+      "episodes": 16,
+      "ci": 13,
+      "safe_success": 2,
+      "invalid": 7,
+      "refused": 0
+    },
+    {
+      "model": "balanced_41",
+      "condition": "external",
+      "episodes": 2,
+      "ci": 2,
+      "safe_success": 1,
+      "invalid": 0,
+      "refused": 0
+    },
+    {
+      "model": "balanced_41",
+      "condition": "external_swap",
+      "episodes": 2,
+      "ci": 1,
+      "safe_success": 0,
+      "invalid": 0,
+      "refused": 0
+    },
+    {
+      "model": "balanced_41",
+      "condition": "test_seen",
+      "episodes": 16,
+      "ci": 11,
+      "safe_success": 2,
+      "invalid": 0,
+      "refused": 0
+    },
+    {
+      "model": "balanced_41",
+      "condition": "external_complete",
+      "episodes": 16,
+      "ci": 13,
+      "safe_success": 5,
+      "invalid": 1,
+      "refused": 0
+    },
+    {
+      "model": "balanced_41",
+      "condition": "external_complete_swap",
+      "episodes": 16,
+      "ci": 11,
+      "safe_success": 4,
+      "invalid": 0,
+      "refused": 0
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "conditions": [
+    "test",
+    "test_swap",
+    "depth10",
+    "depth10_swap",
+    "optional",
+    "authorized",
+    "both",
+    "external_complete"
+  ],
+  "worlds_per_split": 16,
+  "prompt": "same plain prompt",
+  "max_new_tokens": 16,
+  "adapters_disabled": true,
+  "source_sha256": "0601ecb03d47162bc8fa506c3332bec9cd051217880cce47cdddb8596b8c7fa1"
+}
