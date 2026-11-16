@@ -1,0 +1,139 @@
+[
+  {
+    "id": "native_replay_graph_ci_only_17",
+    "args": [
+      "../artifacts/20261115_semantic_repair/replay_native.py",
+      "graph_ci_only_17"
+    ]
+  },
+  {
+    "id": "native_replay_graph_ci_only_29",
+    "args": [
+      "../artifacts/20261115_semantic_repair/replay_native.py",
+      "graph_ci_only_29"
+    ]
+  },
+  {
+    "id": "native_replay_graph_ci_only_41",
+    "args": [
+      "../artifacts/20261115_semantic_repair/replay_native.py",
+      "graph_ci_only_41"
+    ]
+  },
+  {
+    "id": "native_replay_graph_combined_17",
+    "args": [
+      "../artifacts/20261115_semantic_repair/replay_native.py",
+      "graph_combined_17"
+    ]
+  },
+  {
+    "id": "native_replay_graph_combined_29",
+    "args": [
+      "../artifacts/20261115_semantic_repair/replay_native.py",
+      "graph_combined_29"
+    ]
+  },
+  {
+    "id": "native_replay_graph_combined_41",
+    "args": [
+      "../artifacts/20261115_semantic_repair/replay_native.py",
+      "graph_combined_41"
+    ]
+  },
+  {
+    "id": "native_replay_graph_shuffled_17",
+    "args": [
+      "../artifacts/20261115_semantic_repair/replay_native.py",
+      "graph_shuffled_17"
+    ]
+  },
+  {
+    "id": "native_replay_graph_shuffled_29",
+    "args": [
+      "../artifacts/20261115_semantic_repair/replay_native.py",
+      "graph_shuffled_29"
+    ]
+  },
+  {
+    "id": "native_replay_graph_shuffled_41",
+    "args": [
+      "../artifacts/20261115_semantic_repair/replay_native.py",
+      "graph_shuffled_41"
+    ]
+  },
+  {
+    "id": "native_replay_graph_no_relations_17",
+    "args": [
+      "../artifacts/20261115_semantic_repair/replay_native.py",
+      "graph_no_relations_17"
+    ]
+  },
+  {
+    "id": "native_replay_graph_no_relations_29",
+    "args": [
+      "../artifacts/20261115_semantic_repair/replay_native.py",
+      "graph_no_relations_29"
+    ]
+  },
+  {
+    "id": "native_replay_graph_no_relations_41",
+    "args": [
+      "../artifacts/20261115_semantic_repair/replay_native.py",
+      "graph_no_relations_41"
+    ]
+  },
+  {
+    "id": "native_replay_token_ci_only_17",
+    "args": [
+      "../artifacts/20261115_semantic_repair/replay_native.py",
+      "token_ci_only_17"
+    ]
+  },
+  {
+    "id": "native_replay_token_ci_only_29",
+    "args": [
+      "../artifacts/20261115_semantic_repair/replay_native.py",
+      "token_ci_only_29"
+    ]
+  },
+  {
+    "id": "native_replay_token_ci_only_41",
+    "args": [
+      "../artifacts/20261115_semantic_repair/replay_native.py",
+      "token_ci_only_41"
+    ]
+  },
+  {
+    "id": "native_replay_token_combined_17",
+    "args": [
+      "../artifacts/20261115_semantic_repair/replay_native.py",
+      "token_combined_17"
+    ]
+  },
+  {
+    "id": "native_replay_token_combined_29",
+    "args": [
+      "../artifacts/20261115_semantic_repair/replay_native.py",
+      "token_combined_29"
+    ]
+  },
+  {
+    "id": "native_replay_token_combined_41",
+    "args": [
+      "../artifacts/20261115_semantic_repair/replay_native.py",
+      "token_combined_41"
+    ]
+  },
+  {
+    "id": "final_regression",
+    "args": [
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-v"
+    ]
+  }
+]

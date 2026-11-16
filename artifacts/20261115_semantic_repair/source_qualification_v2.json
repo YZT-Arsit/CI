@@ -1,0 +1,205 @@
+{
+  "preselected": 8,
+  "records": [
+    {
+      "scenario": 2,
+      "selection": "fixed before download/model evaluation",
+      "native_CI_obligation": false,
+      "status": "COMPUTATION_QUALIFIED",
+      "source_scenario_id": "meeting_nf_cannot_use_room_s0002_seed20260503",
+      "constraint_types": [
+        "cannot_use_room",
+        "person_unavailable"
+      ],
+      "task_oracle_matches_native": true,
+      "source_files": {
+        "pisas_hf/meeting_allocation/scenario_01/scenario.json": {
+          "sha256": "0d50bf5b45df4bc8ef2a3f5d354ce4718e56b7ad3851889d4bd2d7bbb703afaf",
+          "bytes": 7615,
+          "original_source_path": "meeting_allocation/scenario_02/scenario.json"
+        },
+        "pisas_hf/meeting_allocation/scenario_01/utility.json": {
+          "sha256": "227070bd3f91aac31ca3224637785be9baf2e7c492c83f4c80ca31abc4b9d2c4",
+          "bytes": 16027,
+          "original_source_path": "meeting_allocation/scenario_02/utility.json"
+        }
+      }
+    },
+    {
+      "scenario": 3,
+      "selection": "fixed before download/model evaluation",
+      "native_CI_obligation": false,
+      "status": "COMPUTATION_QUALIFIED",
+      "source_scenario_id": "meeting_nf_cannot_use_room_s0003_seed20260503",
+      "constraint_types": [
+        "cannot_use_room",
+        "person_unavailable"
+      ],
+      "task_oracle_matches_native": true,
+      "source_files": {
+        "pisas_hf/meeting_allocation/scenario_01/scenario.json": {
+          "sha256": "05819360fc0b5d96e85bf6bb8deaad0b996a14492543dab65caa18aaf4e8b796",
+          "bytes": 11232,
+          "original_source_path": "meeting_allocation/scenario_03/scenario.json"
+        },
+        "pisas_hf/meeting_allocation/scenario_01/utility.json": {
+          "sha256": "87baa3140e0af4b9ed9d842a01c37702c2893654831f17de099f67aa9c4cae74",
+          "bytes": 22458,
+          "original_source_path": "meeting_allocation/scenario_03/utility.json"
+        }
+      }
+    },
+    {
+      "scenario": 4,
+      "selection": "fixed before download/model evaluation",
+      "native_CI_obligation": false,
+      "status": "COMPUTATION_QUALIFIED",
+      "source_scenario_id": "meeting_nf_cannot_use_room_s0004_seed20260503",
+      "constraint_types": [
+        "cannot_use_room",
+        "person_unavailable"
+      ],
+      "task_oracle_matches_native": true,
+      "source_files": {
+        "pisas_hf/meeting_allocation/scenario_01/scenario.json": {
+          "sha256": "9864a1c60b2ecfa81de44bfcf68f571aeba15dcd6519dc7a458d0a68cad3711c",
+          "bytes": 11431,
+          "original_source_path": "meeting_allocation/scenario_04/scenario.json"
+        },
+        "pisas_hf/meeting_allocation/scenario_01/utility.json": {
+          "sha256": "b62832c1d3d03424cbe0d2ed365d1728fd5e095149d1d5dff2f3fa5757073001",
+          "bytes": 22686,
+          "original_source_path": "meeting_allocation/scenario_04/utility.json"
+        }
+      }
+    },
+    {
+      "scenario": 5,
+      "selection": "fixed before download/model evaluation",
+      "native_CI_obligation": false,
+      "status": "COMPUTATION_QUALIFIED",
+      "source_scenario_id": "meeting_nf_cannot_use_room_s0005_seed20260503",
+      "constraint_types": [
+        "cannot_use_room",
+        "person_unavailable"
+      ],
+      "task_oracle_matches_native": true,
+      "source_files": {
+        "pisas_hf/meeting_allocation/scenario_01/scenario.json": {
+          "sha256": "ca4c40fe6307256984d75726cb9061f950c3e89ccf878fe5cfd8292ce6344752",
+          "bytes": 7652,
+          "original_source_path": "meeting_allocation/scenario_05/scenario.json"
+        },
+        "pisas_hf/meeting_allocation/scenario_01/utility.json": {
+          "sha256": "687caa96b55c65aa1090ef0ca3701dfa59084963bcc57af4a46954f7e7e27420",
+          "bytes": 15838,
+          "original_source_path": "meeting_allocation/scenario_05/utility.json"
+        }
+      }
+    },
+    {
+      "scenario": 6,
+      "selection": "fixed before download/model evaluation",
+      "native_CI_obligation": false,
+      "status": "COMPUTATION_QUALIFIED",
+      "source_scenario_id": "meeting_nf_meeting_ordering_s0001_seed20260503",
+      "constraint_types": [
+        "cannot_use_room",
+        "meeting_ordering",
+        "person_unavailable"
+      ],
+      "task_oracle_matches_native": true,
+      "source_files": {
+        "pisas_hf/meeting_allocation/scenario_01/scenario.json": {
+          "sha256": "0fdadb37081db08036c65c0f7c28b1bf13430c9bc4d7eafe0e4e34a9c5ecf269",
+          "bytes": 9021,
+          "original_source_path": "meeting_allocation/scenario_06/scenario.json"
+        },
+        "pisas_hf/meeting_allocation/scenario_01/utility.json": {
+          "sha256": "0cd40dbac5e33b7efc437e6bc2d75fa76042734291fe74003f8a785a8847dd1d",
+          "bytes": 28619,
+          "original_source_path": "meeting_allocation/scenario_06/utility.json"
+        }
+      }
+    },
+    {
+      "scenario": 7,
+      "selection": "fixed before download/model evaluation",
+      "native_CI_obligation": false,
+      "status": "COMPUTATION_QUALIFIED",
+      "source_scenario_id": "meeting_nf_meeting_ordering_s0002_seed20260503",
+      "constraint_types": [
+        "cannot_use_room",
+        "meeting_ordering",
+        "person_unavailable"
+      ],
+      "task_oracle_matches_native": true,
+      "source_files": {
+        "pisas_hf/meeting_allocation/scenario_01/scenario.json": {
+          "sha256": "bf63ce06995dc0d89d18818ed213bec0bc0b6fc4d165e47366bb04fe15b99b98",
+          "bytes": 9129,
+          "original_source_path": "meeting_allocation/scenario_07/scenario.json"
+        },
+        "pisas_hf/meeting_allocation/scenario_01/utility.json": {
+          "sha256": "175096a702b13d7da1d5ef2f2d1a4c35418cbaa93e0b64b2d78afbdab6c49a49",
+          "bytes": 28830,
+          "original_source_path": "meeting_allocation/scenario_07/utility.json"
+        }
+      }
+    },
+    {
+      "scenario": 8,
+      "selection": "fixed before download/model evaluation",
+      "native_CI_obligation": false,
+      "status": "COMPUTATION_QUALIFIED",
+      "source_scenario_id": "meeting_nf_meeting_ordering_s0003_seed20260503",
+      "constraint_types": [
+        "cannot_use_room",
+        "meeting_ordering",
+        "person_unavailable"
+      ],
+      "task_oracle_matches_native": true,
+      "source_files": {
+        "pisas_hf/meeting_allocation/scenario_01/scenario.json": {
+          "sha256": "db1dddf9b019e583b787bdeef18c6ac52c51edf5581263ec0cfca499be71389e",
+          "bytes": 10996,
+          "original_source_path": "meeting_allocation/scenario_08/scenario.json"
+        },
+        "pisas_hf/meeting_allocation/scenario_01/utility.json": {
+          "sha256": "9d70d8ec64c96de2d9fce0810eb17d9145d049d695da48f9ef0a05eaa913b085",
+          "bytes": 35393,
+          "original_source_path": "meeting_allocation/scenario_08/utility.json"
+        }
+      }
+    },
+    {
+      "scenario": 9,
+      "selection": "fixed before download/model evaluation",
+      "native_CI_obligation": false,
+      "status": "COMPUTATION_QUALIFIED",
+      "source_scenario_id": "meeting_nf_meeting_ordering_s0004_seed20260503",
+      "constraint_types": [
+        "cannot_use_room",
+        "meeting_ordering",
+        "person_unavailable"
+      ],
+      "task_oracle_matches_native": true,
+      "source_files": {
+        "pisas_hf/meeting_allocation/scenario_01/scenario.json": {
+          "sha256": "7145222366669b80a0e14809757da06e18e90b03b9c3b450e5977333e298bc44",
+          "bytes": 11021,
+          "original_source_path": "meeting_allocation/scenario_09/scenario.json"
+        },
+        "pisas_hf/meeting_allocation/scenario_01/utility.json": {
+          "sha256": "4c36446fa74148c6183864317bd830a6dbbadf1c352a81238147886ec431220f",
+          "bytes": 35562,
+          "original_source_path": "meeting_allocation/scenario_09/utility.json"
+        }
+      }
+    }
+  ],
+  "qualified": 8,
+  "worlds": 64,
+  "source_obligation_validation": false,
+  "all_results_reported": true
+}

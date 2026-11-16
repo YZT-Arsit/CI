@@ -1,0 +1,90 @@
+{
+  "conditions": [
+    [
+      "test",
+      false,
+      false
+    ],
+    [
+      "larger",
+      false,
+      false
+    ],
+    [
+      "optional",
+      false,
+      false
+    ],
+    [
+      "authorized",
+      false,
+      false
+    ],
+    [
+      "undelivered",
+      false,
+      false
+    ],
+    [
+      "both",
+      false,
+      false
+    ],
+    [
+      "depth_only",
+      false,
+      false
+    ],
+    [
+      "noise_only",
+      false,
+      false
+    ],
+    [
+      "branching",
+      false,
+      false
+    ],
+    [
+      "source_holdout_v3",
+      false,
+      false
+    ],
+    [
+      "test_swapped",
+      false,
+      false
+    ],
+    [
+      "test_optional_same",
+      false,
+      false
+    ],
+    [
+      "test_authorized_same",
+      false,
+      false
+    ],
+    [
+      "test_draft_same",
+      false,
+      false
+    ],
+    [
+      "test",
+      false,
+      true
+    ],
+    [
+      "test",
+      true,
+      false
+    ]
+  ],
+  "models_sealed_sha256": "658de94302e9e22474cb330c9ce9007ac8dcef089db5b2bf220978b4ccc8a95e",
+  "fallback": false,
+  "oracle_action_mask": false,
+  "policy_receives_private_task_truth": false,
+  "primary_gate": "all viable condition safe-success rates >=95% in each model seed; both only evaluates CI because success impossible",
+  "fresh_tokens": "unused fixed-random entity embedding rows, no closure/equality features in token model"
+}

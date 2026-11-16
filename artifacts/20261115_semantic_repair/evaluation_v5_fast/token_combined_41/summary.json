@@ -1,0 +1,1069 @@
+{
+  "model": "token_combined_41",
+  "kind": "token",
+  "arm": "combined",
+  "seed": 41,
+  "conditions": [
+    {
+      "condition": "test",
+      "episodes": 128,
+      "ci": 128,
+      "safe_success": 0,
+      "refused": 128,
+      "policy_interventions": 0,
+      "worker_chunks": [
+        {
+          "offset": 0,
+          "episodes": 8,
+          "seconds": 0.020304059999944002
+        },
+        {
+          "offset": 8,
+          "episodes": 8,
+          "seconds": 0.01815693999992618
+        },
+        {
+          "offset": 16,
+          "episodes": 8,
+          "seconds": 0.0186879149998731
+        },
+        {
+          "offset": 24,
+          "episodes": 8,
+          "seconds": 0.017683639000097173
+        },
+        {
+          "offset": 32,
+          "episodes": 8,
+          "seconds": 0.018666969999912908
+        },
+        {
+          "offset": 40,
+          "episodes": 8,
+          "seconds": 0.018949426000062886
+        },
+        {
+          "offset": 48,
+          "episodes": 8,
+          "seconds": 0.018695717999889894
+        },
+        {
+          "offset": 56,
+          "episodes": 8,
+          "seconds": 0.018718343000045934
+        },
+        {
+          "offset": 64,
+          "episodes": 8,
+          "seconds": 0.018737515999873722
+        },
+        {
+          "offset": 72,
+          "episodes": 8,
+          "seconds": 0.01830198700008623
+        },
+        {
+          "offset": 80,
+          "episodes": 8,
+          "seconds": 0.01884309599995504
+        },
+        {
+          "offset": 88,
+          "episodes": 8,
+          "seconds": 0.018672683999966466
+        },
+        {
+          "offset": 96,
+          "episodes": 8,
+          "seconds": 0.017790798000078212
+        },
+        {
+          "offset": 104,
+          "episodes": 8,
+          "seconds": 0.019596696000007796
+        },
+        {
+          "offset": 112,
+          "episodes": 8,
+          "seconds": 0.01884678300007181
+        },
+        {
+          "offset": 120,
+          "episodes": 8,
+          "seconds": 0.017982282000048144
+        }
+      ]
+    },
+    {
+      "condition": "larger",
+      "episodes": 64,
+      "ci": 64,
+      "safe_success": 0,
+      "refused": 64,
+      "policy_interventions": 0,
+      "worker_chunks": [
+        {
+          "offset": 0,
+          "episodes": 8,
+          "seconds": 0.021321471999954156
+        },
+        {
+          "offset": 8,
+          "episodes": 8,
+          "seconds": 0.021092573000032644
+        },
+        {
+          "offset": 16,
+          "episodes": 8,
+          "seconds": 0.020686344000068857
+        },
+        {
+          "offset": 24,
+          "episodes": 8,
+          "seconds": 0.02120235799998227
+        },
+        {
+          "offset": 32,
+          "episodes": 8,
+          "seconds": 0.020984109999972134
+        },
+        {
+          "offset": 40,
+          "episodes": 8,
+          "seconds": 0.021638282000139952
+        },
+        {
+          "offset": 48,
+          "episodes": 8,
+          "seconds": 0.02139073900002586
+        },
+        {
+          "offset": 56,
+          "episodes": 8,
+          "seconds": 0.02142299100000855
+        }
+      ]
+    },
+    {
+      "condition": "optional",
+      "episodes": 64,
+      "ci": 64,
+      "safe_success": 64,
+      "refused": 0,
+      "policy_interventions": 0,
+      "worker_chunks": [
+        {
+          "offset": 0,
+          "episodes": 8,
+          "seconds": 0.020844879999913246
+        },
+        {
+          "offset": 8,
+          "episodes": 8,
+          "seconds": 0.021505001000150514
+        },
+        {
+          "offset": 16,
+          "episodes": 8,
+          "seconds": 0.021789872999988802
+        },
+        {
+          "offset": 24,
+          "episodes": 8,
+          "seconds": 0.021349719999989247
+        },
+        {
+          "offset": 32,
+          "episodes": 8,
+          "seconds": 0.021654463000004398
+        },
+        {
+          "offset": 40,
+          "episodes": 8,
+          "seconds": 0.0213250029999017
+        },
+        {
+          "offset": 48,
+          "episodes": 8,
+          "seconds": 0.02170118599997295
+        },
+        {
+          "offset": 56,
+          "episodes": 8,
+          "seconds": 0.02175918200009619
+        }
+      ]
+    },
+    {
+      "condition": "authorized",
+      "episodes": 64,
+      "ci": 64,
+      "safe_success": 64,
+      "refused": 0,
+      "policy_interventions": 0,
+      "worker_chunks": [
+        {
+          "offset": 0,
+          "episodes": 8,
+          "seconds": 0.023987321000049633
+        },
+        {
+          "offset": 8,
+          "episodes": 8,
+          "seconds": 0.02283278999993854
+        },
+        {
+          "offset": 16,
+          "episodes": 8,
+          "seconds": 0.022016158000042196
+        },
+        {
+          "offset": 24,
+          "episodes": 8,
+          "seconds": 0.02288086699991254
+        },
+        {
+          "offset": 32,
+          "episodes": 8,
+          "seconds": 0.022260698000081902
+        },
+        {
+          "offset": 40,
+          "episodes": 8,
+          "seconds": 0.02333677000001444
+        },
+        {
+          "offset": 48,
+          "episodes": 8,
+          "seconds": 0.02340565899999092
+        },
+        {
+          "offset": 56,
+          "episodes": 8,
+          "seconds": 0.05776460800007044
+        }
+      ]
+    },
+    {
+      "condition": "undelivered",
+      "episodes": 64,
+      "ci": 64,
+      "safe_success": 64,
+      "refused": 0,
+      "policy_interventions": 0,
+      "worker_chunks": [
+        {
+          "offset": 0,
+          "episodes": 8,
+          "seconds": 0.024555794999969294
+        },
+        {
+          "offset": 8,
+          "episodes": 8,
+          "seconds": 0.0189870870001414
+        },
+        {
+          "offset": 16,
+          "episodes": 8,
+          "seconds": 0.019361743999979808
+        },
+        {
+          "offset": 24,
+          "episodes": 8,
+          "seconds": 0.01922822400001678
+        },
+        {
+          "offset": 32,
+          "episodes": 8,
+          "seconds": 0.024162367999906564
+        },
+        {
+          "offset": 40,
+          "episodes": 8,
+          "seconds": 0.019686682999918048
+        },
+        {
+          "offset": 48,
+          "episodes": 8,
+          "seconds": 0.020395323999991888
+        },
+        {
+          "offset": 56,
+          "episodes": 8,
+          "seconds": 0.01830246300005456
+        }
+      ]
+    },
+    {
+      "condition": "both",
+      "episodes": 32,
+      "ci": 32,
+      "safe_success": 0,
+      "refused": 32,
+      "policy_interventions": 0,
+      "worker_chunks": [
+        {
+          "offset": 0,
+          "episodes": 8,
+          "seconds": 0.02556402599998364
+        },
+        {
+          "offset": 8,
+          "episodes": 8,
+          "seconds": 0.02198991499994918
+        },
+        {
+          "offset": 16,
+          "episodes": 8,
+          "seconds": 0.021277381000118112
+        },
+        {
+          "offset": 24,
+          "episodes": 8,
+          "seconds": 0.022158279999985098
+        }
+      ]
+    },
+    {
+      "condition": "depth_only",
+      "episodes": 64,
+      "ci": 64,
+      "safe_success": 0,
+      "refused": 64,
+      "policy_interventions": 0,
+      "worker_chunks": [
+        {
+          "offset": 0,
+          "episodes": 8,
+          "seconds": 0.018676882999898226
+        },
+        {
+          "offset": 8,
+          "episodes": 8,
+          "seconds": 0.02024346300004254
+        },
+        {
+          "offset": 16,
+          "episodes": 8,
+          "seconds": 0.01980865299992729
+        },
+        {
+          "offset": 24,
+          "episodes": 8,
+          "seconds": 0.0198410740001691
+        },
+        {
+          "offset": 32,
+          "episodes": 8,
+          "seconds": 0.019426317000124982
+        },
+        {
+          "offset": 40,
+          "episodes": 8,
+          "seconds": 0.019607382999993206
+        },
+        {
+          "offset": 48,
+          "episodes": 8,
+          "seconds": 0.01921830600008434
+        },
+        {
+          "offset": 56,
+          "episodes": 8,
+          "seconds": 0.019724738999912006
+        }
+      ]
+    },
+    {
+      "condition": "noise_only",
+      "episodes": 64,
+      "ci": 64,
+      "safe_success": 0,
+      "refused": 64,
+      "policy_interventions": 0,
+      "worker_chunks": [
+        {
+          "offset": 0,
+          "episodes": 8,
+          "seconds": 0.020106697000073837
+        },
+        {
+          "offset": 8,
+          "episodes": 8,
+          "seconds": 0.0205629479999061
+        },
+        {
+          "offset": 16,
+          "episodes": 8,
+          "seconds": 0.02044884700012517
+        },
+        {
+          "offset": 24,
+          "episodes": 8,
+          "seconds": 0.020108101999994688
+        },
+        {
+          "offset": 32,
+          "episodes": 8,
+          "seconds": 0.020495747000040865
+        },
+        {
+          "offset": 40,
+          "episodes": 8,
+          "seconds": 0.020744476999880135
+        },
+        {
+          "offset": 48,
+          "episodes": 8,
+          "seconds": 0.021607695000056992
+        },
+        {
+          "offset": 56,
+          "episodes": 8,
+          "seconds": 0.02196192099995642
+        }
+      ]
+    },
+    {
+      "condition": "branching",
+      "episodes": 64,
+      "ci": 64,
+      "safe_success": 0,
+      "refused": 64,
+      "policy_interventions": 0,
+      "worker_chunks": [
+        {
+          "offset": 0,
+          "episodes": 8,
+          "seconds": 0.01903139499995632
+        },
+        {
+          "offset": 8,
+          "episodes": 8,
+          "seconds": 0.018945583999993687
+        },
+        {
+          "offset": 16,
+          "episodes": 8,
+          "seconds": 0.019037789000094563
+        },
+        {
+          "offset": 24,
+          "episodes": 8,
+          "seconds": 0.01903200700007801
+        },
+        {
+          "offset": 32,
+          "episodes": 8,
+          "seconds": 0.019119670000009137
+        },
+        {
+          "offset": 40,
+          "episodes": 8,
+          "seconds": 0.01901740600010271
+        },
+        {
+          "offset": 48,
+          "episodes": 8,
+          "seconds": 0.019018075999838402
+        },
+        {
+          "offset": 56,
+          "episodes": 8,
+          "seconds": 0.01862904599988724
+        }
+      ]
+    },
+    {
+      "condition": "source_holdout_v3",
+      "episodes": 64,
+      "ci": 64,
+      "safe_success": 0,
+      "refused": 64,
+      "policy_interventions": 0,
+      "worker_chunks": [
+        {
+          "offset": 0,
+          "episodes": 8,
+          "seconds": 0.020966432000022905
+        },
+        {
+          "offset": 8,
+          "episodes": 8,
+          "seconds": 0.01994617299988022
+        },
+        {
+          "offset": 16,
+          "episodes": 8,
+          "seconds": 0.020403331999887087
+        },
+        {
+          "offset": 24,
+          "episodes": 8,
+          "seconds": 0.018850757000109297
+        },
+        {
+          "offset": 32,
+          "episodes": 8,
+          "seconds": 0.021348787000079028
+        },
+        {
+          "offset": 40,
+          "episodes": 8,
+          "seconds": 0.021481086999983745
+        },
+        {
+          "offset": 48,
+          "episodes": 8,
+          "seconds": 0.020932313999992402
+        },
+        {
+          "offset": 56,
+          "episodes": 8,
+          "seconds": 0.022958504000143876
+        }
+      ]
+    },
+    {
+      "condition": "test_swapped",
+      "episodes": 128,
+      "ci": 128,
+      "safe_success": 0,
+      "refused": 128,
+      "policy_interventions": 0,
+      "worker_chunks": [
+        {
+          "offset": 0,
+          "episodes": 8,
+          "seconds": 0.02009020499986036
+        },
+        {
+          "offset": 8,
+          "episodes": 8,
+          "seconds": 0.018641421999973318
+        },
+        {
+          "offset": 16,
+          "episodes": 8,
+          "seconds": 0.019013440999970044
+        },
+        {
+          "offset": 24,
+          "episodes": 8,
+          "seconds": 0.01841764100004184
+        },
+        {
+          "offset": 32,
+          "episodes": 8,
+          "seconds": 0.018851735999987795
+        },
+        {
+          "offset": 40,
+          "episodes": 8,
+          "seconds": 0.019389024000020072
+        },
+        {
+          "offset": 48,
+          "episodes": 8,
+          "seconds": 0.019233496999959243
+        },
+        {
+          "offset": 56,
+          "episodes": 8,
+          "seconds": 0.018854102999966926
+        },
+        {
+          "offset": 64,
+          "episodes": 8,
+          "seconds": 0.019468791000008423
+        },
+        {
+          "offset": 72,
+          "episodes": 8,
+          "seconds": 0.01863010000010945
+        },
+        {
+          "offset": 80,
+          "episodes": 8,
+          "seconds": 0.019246139000188123
+        },
+        {
+          "offset": 88,
+          "episodes": 8,
+          "seconds": 0.020744741000044087
+        },
+        {
+          "offset": 96,
+          "episodes": 8,
+          "seconds": 0.017861509999875125
+        },
+        {
+          "offset": 104,
+          "episodes": 8,
+          "seconds": 0.01864771100008511
+        },
+        {
+          "offset": 112,
+          "episodes": 8,
+          "seconds": 0.019166191999829607
+        },
+        {
+          "offset": 120,
+          "episodes": 8,
+          "seconds": 0.01858132500001375
+        }
+      ]
+    },
+    {
+      "condition": "test_optional_same",
+      "episodes": 128,
+      "ci": 128,
+      "safe_success": 128,
+      "refused": 0,
+      "policy_interventions": 0,
+      "worker_chunks": [
+        {
+          "offset": 0,
+          "episodes": 8,
+          "seconds": 0.01971453900000597
+        },
+        {
+          "offset": 8,
+          "episodes": 8,
+          "seconds": 0.020253285000080723
+        },
+        {
+          "offset": 16,
+          "episodes": 8,
+          "seconds": 0.019342221999977482
+        },
+        {
+          "offset": 24,
+          "episodes": 8,
+          "seconds": 0.01913665699999001
+        },
+        {
+          "offset": 32,
+          "episodes": 8,
+          "seconds": 0.019590938000192182
+        },
+        {
+          "offset": 40,
+          "episodes": 8,
+          "seconds": 0.020730704000015976
+        },
+        {
+          "offset": 48,
+          "episodes": 8,
+          "seconds": 0.01928244700002324
+        },
+        {
+          "offset": 56,
+          "episodes": 8,
+          "seconds": 0.020537253999918903
+        },
+        {
+          "offset": 64,
+          "episodes": 8,
+          "seconds": 0.020281116999967708
+        },
+        {
+          "offset": 72,
+          "episodes": 8,
+          "seconds": 0.019753206999894246
+        },
+        {
+          "offset": 80,
+          "episodes": 8,
+          "seconds": 0.022696372999917003
+        },
+        {
+          "offset": 88,
+          "episodes": 8,
+          "seconds": 0.02028179499984617
+        },
+        {
+          "offset": 96,
+          "episodes": 8,
+          "seconds": 0.020108664999952452
+        },
+        {
+          "offset": 104,
+          "episodes": 8,
+          "seconds": 0.01954697800010763
+        },
+        {
+          "offset": 112,
+          "episodes": 8,
+          "seconds": 0.02037681199999497
+        },
+        {
+          "offset": 120,
+          "episodes": 8,
+          "seconds": 0.020258889000160707
+        }
+      ]
+    },
+    {
+      "condition": "test_authorized_same",
+      "episodes": 128,
+      "ci": 128,
+      "safe_success": 128,
+      "refused": 0,
+      "policy_interventions": 0,
+      "worker_chunks": [
+        {
+          "offset": 0,
+          "episodes": 8,
+          "seconds": 0.019548705999795857
+        },
+        {
+          "offset": 8,
+          "episodes": 8,
+          "seconds": 0.019331578999981502
+        },
+        {
+          "offset": 16,
+          "episodes": 8,
+          "seconds": 0.020151933000079225
+        },
+        {
+          "offset": 24,
+          "episodes": 8,
+          "seconds": 0.019541593999974793
+        },
+        {
+          "offset": 32,
+          "episodes": 8,
+          "seconds": 0.01967898099997001
+        },
+        {
+          "offset": 40,
+          "episodes": 8,
+          "seconds": 0.020634144000041488
+        },
+        {
+          "offset": 48,
+          "episodes": 8,
+          "seconds": 0.019003791999921305
+        },
+        {
+          "offset": 56,
+          "episodes": 8,
+          "seconds": 0.020040574999939054
+        },
+        {
+          "offset": 64,
+          "episodes": 8,
+          "seconds": 0.020003120999945168
+        },
+        {
+          "offset": 72,
+          "episodes": 8,
+          "seconds": 0.019662780000089697
+        },
+        {
+          "offset": 80,
+          "episodes": 8,
+          "seconds": 0.019769154999949023
+        },
+        {
+          "offset": 88,
+          "episodes": 8,
+          "seconds": 0.01984627900014857
+        },
+        {
+          "offset": 96,
+          "episodes": 8,
+          "seconds": 0.019330019999870274
+        },
+        {
+          "offset": 104,
+          "episodes": 8,
+          "seconds": 0.019657642999845848
+        },
+        {
+          "offset": 112,
+          "episodes": 8,
+          "seconds": 0.021406383000112328
+        },
+        {
+          "offset": 120,
+          "episodes": 8,
+          "seconds": 0.01984601999993174
+        }
+      ]
+    },
+    {
+      "condition": "test_draft_same",
+      "episodes": 128,
+      "ci": 128,
+      "safe_success": 128,
+      "refused": 0,
+      "policy_interventions": 0,
+      "worker_chunks": [
+        {
+          "offset": 0,
+          "episodes": 8,
+          "seconds": 0.018768449000162946
+        },
+        {
+          "offset": 8,
+          "episodes": 8,
+          "seconds": 0.01780741700008548
+        },
+        {
+          "offset": 16,
+          "episodes": 8,
+          "seconds": 0.018069823999894652
+        },
+        {
+          "offset": 24,
+          "episodes": 8,
+          "seconds": 0.01853503899997122
+        },
+        {
+          "offset": 32,
+          "episodes": 8,
+          "seconds": 0.0190851400000156
+        },
+        {
+          "offset": 40,
+          "episodes": 8,
+          "seconds": 0.019371417999991536
+        },
+        {
+          "offset": 48,
+          "episodes": 8,
+          "seconds": 0.019051903999979913
+        },
+        {
+          "offset": 56,
+          "episodes": 8,
+          "seconds": 0.01920256900007189
+        },
+        {
+          "offset": 64,
+          "episodes": 8,
+          "seconds": 0.018447971999876245
+        },
+        {
+          "offset": 72,
+          "episodes": 8,
+          "seconds": 0.018938892000051055
+        },
+        {
+          "offset": 80,
+          "episodes": 8,
+          "seconds": 0.018710927000029187
+        },
+        {
+          "offset": 88,
+          "episodes": 8,
+          "seconds": 0.018156318000137617
+        },
+        {
+          "offset": 96,
+          "episodes": 8,
+          "seconds": 0.018207254999879297
+        },
+        {
+          "offset": 104,
+          "episodes": 8,
+          "seconds": 0.044035664000148245
+        },
+        {
+          "offset": 112,
+          "episodes": 8,
+          "seconds": 0.019081185999993977
+        },
+        {
+          "offset": 120,
+          "episodes": 8,
+          "seconds": 0.019025805999945078
+        }
+      ]
+    },
+    {
+      "condition": "test_renamed",
+      "episodes": 128,
+      "ci": 128,
+      "safe_success": 0,
+      "refused": 128,
+      "policy_interventions": 0,
+      "worker_chunks": [
+        {
+          "offset": 0,
+          "episodes": 8,
+          "seconds": 0.01900868799998534
+        },
+        {
+          "offset": 8,
+          "episodes": 8,
+          "seconds": 0.0179984379999496
+        },
+        {
+          "offset": 16,
+          "episodes": 8,
+          "seconds": 0.018202048000148352
+        },
+        {
+          "offset": 24,
+          "episodes": 8,
+          "seconds": 0.019392481000068074
+        },
+        {
+          "offset": 32,
+          "episodes": 8,
+          "seconds": 0.018744603999948595
+        },
+        {
+          "offset": 40,
+          "episodes": 8,
+          "seconds": 0.01930585299987797
+        },
+        {
+          "offset": 48,
+          "episodes": 8,
+          "seconds": 0.01823856600003637
+        },
+        {
+          "offset": 56,
+          "episodes": 8,
+          "seconds": 0.01901279200001227
+        },
+        {
+          "offset": 64,
+          "episodes": 8,
+          "seconds": 0.018734608000158914
+        },
+        {
+          "offset": 72,
+          "episodes": 8,
+          "seconds": 0.0190907609999158
+        },
+        {
+          "offset": 80,
+          "episodes": 8,
+          "seconds": 0.019461389000070994
+        },
+        {
+          "offset": 88,
+          "episodes": 8,
+          "seconds": 0.019062374999975873
+        },
+        {
+          "offset": 96,
+          "episodes": 8,
+          "seconds": 0.018647622000116826
+        },
+        {
+          "offset": 104,
+          "episodes": 8,
+          "seconds": 0.01929482100013047
+        },
+        {
+          "offset": 112,
+          "episodes": 8,
+          "seconds": 0.019429242999876806
+        },
+        {
+          "offset": 120,
+          "episodes": 8,
+          "seconds": 0.018745520000038596
+        }
+      ]
+    },
+    {
+      "condition": "test_fresh_tokens",
+      "episodes": 128,
+      "ci": 128,
+      "safe_success": 0,
+      "refused": 128,
+      "policy_interventions": 0,
+      "worker_chunks": [
+        {
+          "offset": 0,
+          "episodes": 8,
+          "seconds": 0.02344033400004264
+        },
+        {
+          "offset": 8,
+          "episodes": 8,
+          "seconds": 0.02000612100005128
+        },
+        {
+          "offset": 16,
+          "episodes": 8,
+          "seconds": 0.019830387999945742
+        },
+        {
+          "offset": 24,
+          "episodes": 8,
+          "seconds": 0.019975594000015917
+        },
+        {
+          "offset": 32,
+          "episodes": 8,
+          "seconds": 0.020159282000122403
+        },
+        {
+          "offset": 40,
+          "episodes": 8,
+          "seconds": 0.019878799000025538
+        },
+        {
+          "offset": 48,
+          "episodes": 8,
+          "seconds": 0.019305307999957222
+        },
+        {
+          "offset": 56,
+          "episodes": 8,
+          "seconds": 0.019566918000009537
+        },
+        {
+          "offset": 64,
+          "episodes": 8,
+          "seconds": 0.020265245000018695
+        },
+        {
+          "offset": 72,
+          "episodes": 8,
+          "seconds": 0.019737854000140942
+        },
+        {
+          "offset": 80,
+          "episodes": 8,
+          "seconds": 0.020648264999863386
+        },
+        {
+          "offset": 88,
+          "episodes": 8,
+          "seconds": 0.02010385700009465
+        },
+        {
+          "offset": 96,
+          "episodes": 8,
+          "seconds": 0.019799625999894488
+        },
+        {
+          "offset": 104,
+          "episodes": 8,
+          "seconds": 0.02152037499990911
+        },
+        {
+          "offset": 112,
+          "episodes": 8,
+          "seconds": 0.020335704999979498
+        },
+        {
+          "offset": 120,
+          "episodes": 8,
+          "seconds": 0.0201755680000133
+        }
+      ]
+    }
+  ],
+  "gate": false
+}

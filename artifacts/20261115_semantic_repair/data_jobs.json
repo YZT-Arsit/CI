@@ -1,0 +1,499 @@
+[
+  {
+    "id": "receipt_unit_tests",
+    "args": [
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-p",
+      "test_receipt_tasks.py",
+      "-v"
+    ]
+  },
+  {
+    "id": "data_train_0000",
+    "args": [
+      "-m",
+      "experiments.receipt_dataset",
+      "../artifacts/20261115_semantic_repair/dataset",
+      "train",
+      "0",
+      "16"
+    ]
+  },
+  {
+    "id": "data_train_0016",
+    "args": [
+      "-m",
+      "experiments.receipt_dataset",
+      "../artifacts/20261115_semantic_repair/dataset",
+      "train",
+      "16",
+      "16"
+    ]
+  },
+  {
+    "id": "data_train_0032",
+    "args": [
+      "-m",
+      "experiments.receipt_dataset",
+      "../artifacts/20261115_semantic_repair/dataset",
+      "train",
+      "32",
+      "16"
+    ]
+  },
+  {
+    "id": "data_train_0048",
+    "args": [
+      "-m",
+      "experiments.receipt_dataset",
+      "../artifacts/20261115_semantic_repair/dataset",
+      "train",
+      "48",
+      "16"
+    ]
+  },
+  {
+    "id": "data_train_0064",
+    "args": [
+      "-m",
+      "experiments.receipt_dataset",
+      "../artifacts/20261115_semantic_repair/dataset",
+      "train",
+      "64",
+      "16"
+    ]
+  },
+  {
+    "id": "data_train_0080",
+    "args": [
+      "-m",
+      "experiments.receipt_dataset",
+      "../artifacts/20261115_semantic_repair/dataset",
+      "train",
+      "80",
+      "16"
+    ]
+  },
+  {
+    "id": "data_train_0096",
+    "args": [
+      "-m",
+      "experiments.receipt_dataset",
+      "../artifacts/20261115_semantic_repair/dataset",
+      "train",
+      "96",
+      "16"
+    ]
+  },
+  {
+    "id": "data_train_0112",
+    "args": [
+      "-m",
+      "experiments.receipt_dataset",
+      "../artifacts/20261115_semantic_repair/dataset",
+      "train",
+      "112",
+      "16"
+    ]
+  },
+  {
+    "id": "data_train_0128",
+    "args": [
+      "-m",
+      "experiments.receipt_dataset",
+      "../artifacts/20261115_semantic_repair/dataset",
+      "train",
+      "128",
+      "16"
+    ]
+  },
+  {
+    "id": "data_train_0144",
+    "args": [
+      "-m",
+      "experiments.receipt_dataset",
+      "../artifacts/20261115_semantic_repair/dataset",
+      "train",
+      "144",
+      "16"
+    ]
+  },
+  {
+    "id": "data_train_0160",
+    "args": [
+      "-m",
+      "experiments.receipt_dataset",
+      "../artifacts/20261115_semantic_repair/dataset",
+      "train",
+      "160",
+      "16"
+    ]
+  },
+  {
+    "id": "data_train_0176",
+    "args": [
+      "-m",
+      "experiments.receipt_dataset",
+      "../artifacts/20261115_semantic_repair/dataset",
+      "train",
+      "176",
+      "16"
+    ]
+  },
+  {
+    "id": "data_train_0192",
+    "args": [
+      "-m",
+      "experiments.receipt_dataset",
+      "../artifacts/20261115_semantic_repair/dataset",
+      "train",
+      "192",
+      "16"
+    ]
+  },
+  {
+    "id": "data_train_0208",
+    "args": [
+      "-m",
+      "experiments.receipt_dataset",
+      "../artifacts/20261115_semantic_repair/dataset",
+      "train",
+      "208",
+      "16"
+    ]
+  },
+  {
+    "id": "data_train_0224",
+    "args": [
+      "-m",
+      "experiments.receipt_dataset",
+      "../artifacts/20261115_semantic_repair/dataset",
+      "train",
+      "224",
+      "16"
+    ]
+  },
+  {
+    "id": "data_train_0240",
+    "args": [
+      "-m",
+      "experiments.receipt_dataset",
+      "../artifacts/20261115_semantic_repair/dataset",
+      "train",
+      "240",
+      "16"
+    ]
+  },
+  {
+    "id": "data_dev_0000",
+    "args": [
+      "-m",
+      "experiments.receipt_dataset",
+      "../artifacts/20261115_semantic_repair/dataset",
+      "dev",
+      "0",
+      "16"
+    ]
+  },
+  {
+    "id": "data_dev_0016",
+    "args": [
+      "-m",
+      "experiments.receipt_dataset",
+      "../artifacts/20261115_semantic_repair/dataset",
+      "dev",
+      "16",
+      "16"
+    ]
+  },
+  {
+    "id": "data_test_0000",
+    "args": [
+      "-m",
+      "experiments.receipt_dataset",
+      "../artifacts/20261115_semantic_repair/dataset",
+      "test",
+      "0",
+      "16"
+    ]
+  },
+  {
+    "id": "data_test_0016",
+    "args": [
+      "-m",
+      "experiments.receipt_dataset",
+      "../artifacts/20261115_semantic_repair/dataset",
+      "test",
+      "16",
+      "16"
+    ]
+  },
+  {
+    "id": "data_test_0032",
+    "args": [
+      "-m",
+      "experiments.receipt_dataset",
+      "../artifacts/20261115_semantic_repair/dataset",
+      "test",
+      "32",
+      "16"
+    ]
+  },
+  {
+    "id": "data_test_0048",
+    "args": [
+      "-m",
+      "experiments.receipt_dataset",
+      "../artifacts/20261115_semantic_repair/dataset",
+      "test",
+      "48",
+      "16"
+    ]
+  },
+  {
+    "id": "data_test_0064",
+    "args": [
+      "-m",
+      "experiments.receipt_dataset",
+      "../artifacts/20261115_semantic_repair/dataset",
+      "test",
+      "64",
+      "16"
+    ]
+  },
+  {
+    "id": "data_test_0080",
+    "args": [
+      "-m",
+      "experiments.receipt_dataset",
+      "../artifacts/20261115_semantic_repair/dataset",
+      "test",
+      "80",
+      "16"
+    ]
+  },
+  {
+    "id": "data_test_0096",
+    "args": [
+      "-m",
+      "experiments.receipt_dataset",
+      "../artifacts/20261115_semantic_repair/dataset",
+      "test",
+      "96",
+      "16"
+    ]
+  },
+  {
+    "id": "data_test_0112",
+    "args": [
+      "-m",
+      "experiments.receipt_dataset",
+      "../artifacts/20261115_semantic_repair/dataset",
+      "test",
+      "112",
+      "16"
+    ]
+  },
+  {
+    "id": "data_larger_0000",
+    "args": [
+      "-m",
+      "experiments.receipt_dataset",
+      "../artifacts/20261115_semantic_repair/dataset",
+      "larger",
+      "0",
+      "16"
+    ]
+  },
+  {
+    "id": "data_larger_0016",
+    "args": [
+      "-m",
+      "experiments.receipt_dataset",
+      "../artifacts/20261115_semantic_repair/dataset",
+      "larger",
+      "16",
+      "16"
+    ]
+  },
+  {
+    "id": "data_larger_0032",
+    "args": [
+      "-m",
+      "experiments.receipt_dataset",
+      "../artifacts/20261115_semantic_repair/dataset",
+      "larger",
+      "32",
+      "16"
+    ]
+  },
+  {
+    "id": "data_larger_0048",
+    "args": [
+      "-m",
+      "experiments.receipt_dataset",
+      "../artifacts/20261115_semantic_repair/dataset",
+      "larger",
+      "48",
+      "16"
+    ]
+  },
+  {
+    "id": "data_optional_0000",
+    "args": [
+      "-m",
+      "experiments.receipt_dataset",
+      "../artifacts/20261115_semantic_repair/dataset",
+      "optional",
+      "0",
+      "16"
+    ]
+  },
+  {
+    "id": "data_optional_0016",
+    "args": [
+      "-m",
+      "experiments.receipt_dataset",
+      "../artifacts/20261115_semantic_repair/dataset",
+      "optional",
+      "16",
+      "16"
+    ]
+  },
+  {
+    "id": "data_optional_0032",
+    "args": [
+      "-m",
+      "experiments.receipt_dataset",
+      "../artifacts/20261115_semantic_repair/dataset",
+      "optional",
+      "32",
+      "16"
+    ]
+  },
+  {
+    "id": "data_optional_0048",
+    "args": [
+      "-m",
+      "experiments.receipt_dataset",
+      "../artifacts/20261115_semantic_repair/dataset",
+      "optional",
+      "48",
+      "16"
+    ]
+  },
+  {
+    "id": "data_authorized_0000",
+    "args": [
+      "-m",
+      "experiments.receipt_dataset",
+      "../artifacts/20261115_semantic_repair/dataset",
+      "authorized",
+      "0",
+      "16"
+    ]
+  },
+  {
+    "id": "data_authorized_0016",
+    "args": [
+      "-m",
+      "experiments.receipt_dataset",
+      "../artifacts/20261115_semantic_repair/dataset",
+      "authorized",
+      "16",
+      "16"
+    ]
+  },
+  {
+    "id": "data_authorized_0032",
+    "args": [
+      "-m",
+      "experiments.receipt_dataset",
+      "../artifacts/20261115_semantic_repair/dataset",
+      "authorized",
+      "32",
+      "16"
+    ]
+  },
+  {
+    "id": "data_authorized_0048",
+    "args": [
+      "-m",
+      "experiments.receipt_dataset",
+      "../artifacts/20261115_semantic_repair/dataset",
+      "authorized",
+      "48",
+      "16"
+    ]
+  },
+  {
+    "id": "data_undelivered_0000",
+    "args": [
+      "-m",
+      "experiments.receipt_dataset",
+      "../artifacts/20261115_semantic_repair/dataset",
+      "undelivered",
+      "0",
+      "16"
+    ]
+  },
+  {
+    "id": "data_undelivered_0016",
+    "args": [
+      "-m",
+      "experiments.receipt_dataset",
+      "../artifacts/20261115_semantic_repair/dataset",
+      "undelivered",
+      "16",
+      "16"
+    ]
+  },
+  {
+    "id": "data_undelivered_0032",
+    "args": [
+      "-m",
+      "experiments.receipt_dataset",
+      "../artifacts/20261115_semantic_repair/dataset",
+      "undelivered",
+      "32",
+      "16"
+    ]
+  },
+  {
+    "id": "data_undelivered_0048",
+    "args": [
+      "-m",
+      "experiments.receipt_dataset",
+      "../artifacts/20261115_semantic_repair/dataset",
+      "undelivered",
+      "48",
+      "16"
+    ]
+  },
+  {
+    "id": "data_both_0000",
+    "args": [
+      "-m",
+      "experiments.receipt_dataset",
+      "../artifacts/20261115_semantic_repair/dataset",
+      "both",
+      "0",
+      "16"
+    ]
+  },
+  {
+    "id": "data_both_0016",
+    "args": [
+      "-m",
+      "experiments.receipt_dataset",
+      "../artifacts/20261115_semantic_repair/dataset",
+      "both",
+      "16",
+      "16"
+    ]
+  }
+]

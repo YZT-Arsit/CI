@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "D:\research\longhistory\artifacts\20261115_semantic_repair\replay_evaluation.py", line 40, in <module>
+    if __name__=='__main__':run(*sys.argv[1:])
+                            ~~~^^^^^^^^^^^^^^^
+  File "D:\research\longhistory\artifacts\20261115_semantic_repair\replay_evaluation.py", line 26, in run
+    s,audit=env.transition(s,step['selected']);assert audit==step['audit']
+                                                      ^^^^^^^^^^^^^^^^^^^^
+AssertionError

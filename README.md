@@ -7,6 +7,15 @@
 
 ## 当前进度
 
+最新报告：[无成本任务依赖、原生输出对照与关系学习验证](artifacts/20261115_semantic_repair/REPORT.md)。
+当前仍为 **GPU 大批量训练 NO-GO**。本轮完成 69 个小型策略检查点、94,368 个主评测回合与 2,688 个原生输出迁移回合，173 项回归通过。
+任务层面的条件性价值差异已能在零成本、无截止时间下成立；原生输出对照无需新增凭据字段。
+图策略基础历史反转配对三种子均为 128/128，但长链与无解状态仍失败；token 策略尚未学会可靠关系，强化安全后出现拒答/删减退化。
+这些是有限合成规范下的 CPU 证据，不是预训练 LLM 收益或完整 GPU 放行证明。各版本及失败结果均保留。
+本轮小型策略检查点已归档；JSONL 使用 SHA256 验证的无损 gzip。先运行 `python -B tools/restore_semantic_artifacts.py`，再按 [复跑说明](artifacts/20261115_semantic_repair/REPRODUCE.md) 操作。
+
+以下为上一轮记录，保留其历史结论：
+
 最新报告：[消息依赖修复、严格 CCE 与关系学习审计](artifacts/20261115_dependency_repair/REPORT.md)。
 当前判断仍为 **GPU训练 NO-GO**。Meeting/Query 已实际消费必要消息，统一 TEDT 通过，
 完整回归 153 项通过。新增执行网关使严格 CCE 可用于明确受控的参考策略；
@@ -64,7 +73,7 @@ python -B -m unittest discover -s tests -p "test_execution_envelope.py" -v
 python -B -m experiments.dynamic_signal_dataset ../artifacts/local_replay ../artifacts/20261113_iteration2/source_anchors
 ```
 
-当前完整 153 项回归涉及原始 Windows CPython 3.13 / amd64 的固定 wheel 校验，
+上一轮完整 153 项回归涉及原始 Windows CPython 3.13 / amd64 的固定 wheel 校验，
 新增关系探针还需 NumPy（验证版本2.5.2；建议在独立虚拟环境安装）。
 在兼容环境中，从仓库根目录先恢复依赖资产，再运行：
 

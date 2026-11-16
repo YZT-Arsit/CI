@@ -1,0 +1,147 @@
+{
+  "training_models": 69,
+  "training_updates": 109800,
+  "frozen_source_hash_checks": 21,
+  "all_checkpoint_hashes_match": true,
+  "token_entity_embedding_rows_fixed": true,
+  "independent_balanced_world_audits": 1024,
+  "independently_replayed_primary_episodes": 24384,
+  "independently_replayed_native_episodes": 2688,
+  "regression_tests": 173,
+  "secret_pattern_paths": [],
+  "failure_receipts_preserved": {
+    "audit_jobs_receipts.jsonl": {
+      "jobs": 11,
+      "unsuccessful_original_jobs": []
+    },
+    "balanced_audit_jobs_receipts.jsonl": {
+      "jobs": 32,
+      "unsuccessful_original_jobs": []
+    },
+    "balanced_jobs_receipts.jsonl": {
+      "jobs": 128,
+      "unsuccessful_original_jobs": []
+    },
+    "cache_jobs_receipts.jsonl": {
+      "jobs": 10,
+      "unsuccessful_original_jobs": []
+    },
+    "data_jobs_receipts.jsonl": {
+      "jobs": 45,
+      "unsuccessful_original_jobs": [
+        "receipt_unit_tests",
+        "data_test_0016",
+        "data_test_0032",
+        "data_test_0048",
+        "data_test_0064",
+        "data_test_0080",
+        "data_test_0096",
+        "data_test_0112",
+        "data_larger_0000",
+        "data_larger_0016",
+        "data_larger_0032",
+        "data_larger_0048",
+        "data_optional_0000",
+        "data_authorized_0000",
+        "data_authorized_0016",
+        "data_authorized_0032",
+        "data_authorized_0048",
+        "data_undelivered_0000",
+        "data_undelivered_0016",
+        "data_undelivered_0032",
+        "data_undelivered_0048",
+        "data_both_0000"
+      ]
+    },
+    "final_jobs_receipts.jsonl": {
+      "jobs": 19,
+      "unsuccessful_original_jobs": [
+        "native_replay_graph_shuffled_41"
+      ]
+    },
+    "native_jobs_receipts.jsonl": {
+      "jobs": 10,
+      "unsuccessful_original_jobs": []
+    },
+    "recovery_jobs_receipts.jsonl": {
+      "jobs": 84,
+      "unsuccessful_original_jobs": []
+    },
+    "replay_jobs_receipts.jsonl": {
+      "jobs": 276,
+      "unsuccessful_original_jobs": [
+        "graph_ci_only_17_authorized",
+        "graph_ci_only_17_test_authorized_same",
+        "graph_ci_only_29_authorized",
+        "graph_ci_only_29_both",
+        "graph_ci_only_41_larger",
+        "graph_ci_only_41_optional",
+        "graph_ci_only_41_authorized",
+        "graph_ci_only_41_both",
+        "graph_ci_only_41_depth_only",
+        "graph_ci_only_41_source_holdout_v3",
+        "graph_ci_only_41_test_authorized_same",
+        "graph_combined_17_optional",
+        "graph_combined_17_both",
+        "graph_combined_29_both",
+        "graph_combined_41_larger",
+        "graph_combined_41_optional",
+        "graph_combined_41_authorized",
+        "graph_combined_41_both",
+        "graph_combined_41_depth_only",
+        "graph_combined_41_source_holdout_v3",
+        "graph_shuffled_17_test",
+        "graph_shuffled_17_optional",
+        "graph_shuffled_17_both",
+        "graph_shuffled_17_noise_only",
+        "graph_shuffled_17_branching",
+        "graph_shuffled_17_source_holdout_v3",
+        "graph_shuffled_17_test_swapped",
+        "graph_shuffled_17_test_optional_same",
+        "graph_shuffled_17_test_renamed",
+        "graph_shuffled_41_test",
+        "graph_shuffled_41_larger",
+        "graph_shuffled_41_both",
+        "graph_shuffled_41_depth_only",
+        "graph_shuffled_41_noise_only",
+        "graph_shuffled_41_branching",
+        "graph_shuffled_41_source_holdout_v3",
+        "graph_shuffled_41_test_swapped",
+        "graph_shuffled_41_test_optional_same",
+        "graph_shuffled_41_test_authorized_same",
+        "graph_shuffled_41_test_renamed",
+        "graph_no_relations_17_authorized",
+        "graph_no_relations_17_test_authorized_same",
+        "graph_no_relations_29_authorized",
+        "graph_no_relations_29_test_authorized_same",
+        "graph_no_relations_41_authorized",
+        "graph_no_relations_41_test_authorized_same",
+        "token_ci_only_17_authorized",
+        "token_ci_only_17_test_authorized_same",
+        "token_ci_only_29_authorized",
+        "token_ci_only_29_test_authorized_same",
+        "token_ci_only_41_authorized",
+        "token_ci_only_41_test_authorized_same",
+        "token_combined_17_authorized",
+        "token_combined_17_test_authorized_same",
+        "token_combined_29_test_authorized_same",
+        "token_combined_41_authorized",
+        "token_combined_41_test_authorized_same"
+      ]
+    },
+    "replay_retry_jobs_receipts.jsonl": {
+      "jobs": 58,
+      "unsuccessful_original_jobs": []
+    },
+    "safety_jobs_receipts.jsonl": {
+      "jobs": 128,
+      "unsuccessful_original_jobs": []
+    },
+    "source_jobs_receipts.jsonl": {
+      "jobs": 16,
+      "unsuccessful_original_jobs": []
+    }
+  },
+  "main_test_predictions_not_changed": true,
+  "gpu_large_scale_ready": false
+}

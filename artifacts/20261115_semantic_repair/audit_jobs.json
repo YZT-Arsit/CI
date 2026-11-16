@@ -1,0 +1,98 @@
+[
+  {
+    "id": "semantic_train",
+    "args": [
+      "../artifacts/20261115_semantic_repair/audit_semantics.py",
+      "../artifacts/20261115_semantic_repair/dataset/train/worlds_0000.jsonl",
+      "../artifacts/20261115_semantic_repair/semantic_audits/train.json"
+    ]
+  },
+  {
+    "id": "semantic_test",
+    "args": [
+      "../artifacts/20261115_semantic_repair/audit_semantics.py",
+      "../artifacts/20261115_semantic_repair/dataset/test/worlds_0000.jsonl",
+      "../artifacts/20261115_semantic_repair/semantic_audits/test.json"
+    ]
+  },
+  {
+    "id": "semantic_optional",
+    "args": [
+      "../artifacts/20261115_semantic_repair/audit_semantics.py",
+      "../artifacts/20261115_semantic_repair/dataset/optional/worlds_0000.jsonl",
+      "../artifacts/20261115_semantic_repair/semantic_audits/optional.json"
+    ]
+  },
+  {
+    "id": "semantic_authorized",
+    "args": [
+      "../artifacts/20261115_semantic_repair/audit_semantics.py",
+      "../artifacts/20261115_semantic_repair/dataset/authorized/worlds_0000.jsonl",
+      "../artifacts/20261115_semantic_repair/semantic_audits/authorized.json"
+    ]
+  },
+  {
+    "id": "semantic_undelivered",
+    "args": [
+      "../artifacts/20261115_semantic_repair/audit_semantics.py",
+      "../artifacts/20261115_semantic_repair/dataset/undelivered/worlds_0000.jsonl",
+      "../artifacts/20261115_semantic_repair/semantic_audits/undelivered.json"
+    ]
+  },
+  {
+    "id": "semantic_both",
+    "args": [
+      "../artifacts/20261115_semantic_repair/audit_semantics.py",
+      "../artifacts/20261115_semantic_repair/dataset/both/worlds_0000.jsonl",
+      "../artifacts/20261115_semantic_repair/semantic_audits/both.json"
+    ]
+  },
+  {
+    "id": "semantic_depth_only",
+    "args": [
+      "../artifacts/20261115_semantic_repair/audit_semantics.py",
+      "../artifacts/20261115_semantic_repair/dataset/depth_only/worlds_0000.jsonl",
+      "../artifacts/20261115_semantic_repair/semantic_audits/depth_only.json"
+    ]
+  },
+  {
+    "id": "semantic_noise_only",
+    "args": [
+      "../artifacts/20261115_semantic_repair/audit_semantics.py",
+      "../artifacts/20261115_semantic_repair/dataset/noise_only/worlds_0000.jsonl",
+      "../artifacts/20261115_semantic_repair/semantic_audits/noise_only.json"
+    ]
+  },
+  {
+    "id": "semantic_branching",
+    "args": [
+      "../artifacts/20261115_semantic_repair/audit_semantics.py",
+      "../artifacts/20261115_semantic_repair/dataset/branching/worlds_0000.jsonl",
+      "../artifacts/20261115_semantic_repair/semantic_audits/branching.json"
+    ]
+  },
+  {
+    "id": "ordering_tests",
+    "args": [
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-p",
+      "test_ordering_receipt_tasks.py",
+      "-v"
+    ]
+  },
+  {
+    "id": "all_regression",
+    "args": [
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-v"
+    ]
+  }
+]

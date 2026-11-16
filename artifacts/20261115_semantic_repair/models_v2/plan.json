@@ -1,0 +1,132 @@
+{
+  "models": [
+    [
+      "graph",
+      "ci_only",
+      17
+    ],
+    [
+      "graph",
+      "ci_only",
+      29
+    ],
+    [
+      "graph",
+      "ci_only",
+      41
+    ],
+    [
+      "graph",
+      "future_only",
+      17
+    ],
+    [
+      "graph",
+      "future_only",
+      29
+    ],
+    [
+      "graph",
+      "future_only",
+      41
+    ],
+    [
+      "graph",
+      "combined",
+      17
+    ],
+    [
+      "graph",
+      "combined",
+      29
+    ],
+    [
+      "graph",
+      "combined",
+      41
+    ],
+    [
+      "graph",
+      "shuffled",
+      17
+    ],
+    [
+      "graph",
+      "shuffled",
+      29
+    ],
+    [
+      "graph",
+      "shuffled",
+      41
+    ],
+    [
+      "graph",
+      "no_relations",
+      17
+    ],
+    [
+      "graph",
+      "no_relations",
+      29
+    ],
+    [
+      "graph",
+      "no_relations",
+      41
+    ],
+    [
+      "token",
+      "ci_only",
+      17
+    ],
+    [
+      "token",
+      "ci_only",
+      29
+    ],
+    [
+      "token",
+      "ci_only",
+      41
+    ],
+    [
+      "token",
+      "combined",
+      17
+    ],
+    [
+      "token",
+      "combined",
+      29
+    ],
+    [
+      "token",
+      "combined",
+      41
+    ]
+  ],
+  "steps": 600,
+  "chunk_steps": {
+    "graph": 5,
+    "token": 2
+  },
+  "batch_pairs": 32,
+  "graph_lr": 0.004,
+  "token_lr": 0.001,
+  "seeded_fixed_training": true,
+  "test_read_during_training": false,
+  "no_gpu": true,
+  "loss": "finite-action DPO with uniform reference, beta=1; softplus(-(score_chosen-score_rejected))",
+  "source_hashes": {
+    "code/kci/receipt_tasks.py": "5bc58c4efe248910fe1429f408cdc42d42e6f89fa5e20570c0612a605c1011db",
+    "code/kci/receipt_policy.py": "0cfbdd3714db1f1d124ce9e6a7470e59640a650547bfcb9ef1e857605a6cd68d",
+    "code/experiments/receipt_dataset.py": "8d46b3f1c74c0fa6405dfa37284175d1afce21016889709b35f8db276fde62f5",
+    "artifacts/20261115_semantic_repair/train_policies.py": "36095eb2bf10f8bbbc11afdb73c0543da8f6b37b3e3393a1a3a3cb89109f66ab"
+  },
+  "torch": "2.15.0+cpu",
+  "torch_setup_seconds": 14.022966209000003,
+  "entity_token_embeddings": "fixed random codes; fresh-token evaluation uses unused rows",
+  "training_rows": 1280,
+  "train_worlds": 256
+}

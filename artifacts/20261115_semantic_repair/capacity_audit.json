@@ -1,0 +1,46 @@
+{
+  "seconds": 0.15342302900012328,
+  "cases": [
+    {
+      "depth": 1,
+      "noise": 0,
+      "graph": "accepted",
+      "token": "accepted"
+    },
+    {
+      "depth": 3,
+      "noise": 4,
+      "graph": "accepted",
+      "token": "accepted"
+    },
+    {
+      "depth": 1,
+      "noise": 16,
+      "graph": "accepted",
+      "token": "accepted"
+    },
+    {
+      "depth": 1,
+      "noise": 18,
+      "graph": "explicit_error: graph exceeds declared padded size",
+      "token": "accepted"
+    },
+    {
+      "depth": 1,
+      "noise": 30,
+      "graph": "explicit_error: graph exceeds declared padded size",
+      "token": "explicit_error: symbol budget"
+    },
+    {
+      "depth": 30,
+      "noise": 0,
+      "graph": "explicit_error: graph exceeds declared padded size",
+      "token": "explicit_error: no truncation"
+    }
+  ],
+  "no_silent_truncation": true,
+  "not_a_generalization_result": true,
+  "graph_message_passing_steps": 6,
+  "largest_evaluated_relation_chain": 3,
+  "large_scale_ready": false
+}

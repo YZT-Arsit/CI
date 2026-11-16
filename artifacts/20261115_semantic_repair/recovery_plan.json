@@ -1,0 +1,38 @@
+{
+  "coverage": {
+    "train": {
+      "complete_worlds": 256,
+      "missing_worlds": 0
+    },
+    "dev": {
+      "complete_worlds": 32,
+      "missing_worlds": 0
+    },
+    "test": {
+      "complete_worlds": 16,
+      "missing_worlds": 112
+    },
+    "larger": {
+      "complete_worlds": 0,
+      "missing_worlds": 64
+    },
+    "optional": {
+      "complete_worlds": 48,
+      "missing_worlds": 16
+    },
+    "authorized": {
+      "complete_worlds": 0,
+      "missing_worlds": 64
+    },
+    "undelivered": {
+      "complete_worlds": 0,
+      "missing_worlds": 64
+    },
+    "both": {
+      "complete_worlds": 16,
+      "missing_worlds": 16
+    }
+  },
+  "jobs": 84,
+  "same_fixed_world_ids": true
+}
