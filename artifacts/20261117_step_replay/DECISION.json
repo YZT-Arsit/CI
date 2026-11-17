@@ -1,0 +1,29 @@
+{
+  "decision": "REHEARSAL_DIAGNOSTIC_FULL_GOAL_UNPROVED",
+  "matched_diagnostics": [
+    {
+      "seed": 17,
+      "paired_delta": 0,
+      "action_retained": true,
+      "retained_and_no_pair_decline": true
+    },
+    {
+      "seed": 29,
+      "paired_delta": 3,
+      "action_retained": true,
+      "retained_and_no_pair_decline": true
+    },
+    {
+      "seed": 41,
+      "paired_delta": -4,
+      "action_retained": true,
+      "retained_and_no_pair_decline": false
+    }
+  ],
+  "all_replay_full_necessary_gates_passed": false,
+  "new_autonomous_episodes": 0,
+  "natural_norm_cross_task_validity_verified": false,
+  "32_step_agent_collaboration_verified": false,
+  "whole_goal_complete": false,
+  "large_gpu": "NO_GO"
+}

@@ -1,0 +1,35 @@
+{
+  "evidence_sha256": {
+    "PLAN.json": "9f83841084c204f7378e33a83b51302b65d1ab8ddd970a4c6089a5e9114559c7",
+    "SEALED.json": "82545ca14490871db01571aa7b17716889d86f0084c6178f16ba34880220e060",
+    "RESULTS.json": "04ec4ca5a4332d4dd1509ac25702bc60eb10d6a2ecef0744f573c09aa4854e1d",
+    "REPORT.md": "e61c921773958e9b6d4e066517be381010ce0251167642f145b7b378389ef36b",
+    "OBJECTIVE_AUDIT.md": "2f868f5cc70621143a0c5dd8fcd64ef4ab2b4c8111bc196baaa8b19ecdf8b114",
+    "REPRODUCE.md": "60984aec59e685714c34c3802fc8412dc838dc88ebf54f6d919eedd7a935f8aa",
+    "REVIEW_NOTES.md": "6b30e684f859c759468086d52d27e93a17970f2644fa3c58653d0bdff9d4a837",
+    "DECISION.json": "19beca46efe5354a391cd70c99e6f4307bfaac70252ecc5db8bae09e3ac442b7",
+    "TOKEN_PREFLIGHT.json": "1b0d2481180b6d152b034edecba3ffaedea1ca95a3c62283c280ffba426ac58f",
+    "SPLIT_CHECK.json": "6fada5ee56b46826bf2b9ba665fa27dbeb12da9e5b955f21093c6aad823ae464",
+    "PRESENTATION_RUNTIME_CHECK.json": "02aa6ad08e4e007edc39beaa3e8914347ca8e440236e7281ca1f50eaa3d2b51f",
+    "compression_manifest.json": "a1f2ce2645a9fb102cf24a165333a96153fe4f930c116a2cf303357c7bcc0452",
+    "ARCHIVE_VERIFIED.json": "4120ea9f1e77712922c5960cb45782210d7723efe5235f0b833377917df6ccfb",
+    "DELIVERY_COST.json": "8de1cf5e7291ee3eeb82015254093516ae306592d74907fa741fbbc84013d2ab",
+    "presentation_factors/PLAN.json": "eb4f5e91ab5d28159fa1c79fcfc956dc7f19d069d1a4f55e3900ddfc625b2732",
+    "presentation_factors/SEALED.json": "835f9806ad2b6d452a01ba9e3dd49e207aa1356061e2b203bdc8b7b27b669970",
+    "presentation_factors/RESULTS.json": "f366b9724784aead947f415dd49656a8c15972985bc3098a81621a0ff2370f86",
+    "presentation_factors/CHANGES.json": "31f0f94e07c599093f23de27dfb7c338748c30e612fc872ac0123f3da801f4ed",
+    "presentation_factors/TOKEN_PREFLIGHT.json": "cfb22e02d141a1767c385e8f3ae6aa61877e5f573e9da43410c8f3cb26a588eb"
+  },
+  "archive_checks": {
+    "archives": 34,
+    "raw_bytes": 3473437,
+    "compressed_bytes": 265949,
+    "fresh_restore": "PASS",
+    "idempotence": "PASS",
+    "different_evidence_refused": "PASS",
+    "python_sources_parsed": 12
+  },
+  "audit_errors": 0,
+  "whole_goal_complete": false,
+  "large_gpu": "NO_GO"
+}
