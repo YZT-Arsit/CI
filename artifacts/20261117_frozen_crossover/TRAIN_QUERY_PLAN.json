@@ -1,0 +1,20 @@
+{
+  "arms": [
+    "own_sft",
+    "teacher_sft"
+  ],
+  "parent_plan_sha256": "6d874c095e0912dc0143375c247c3d3d2e364421ad21cf0b4f45bd993eaad900",
+  "observations_sha256": "c0005e0e1c36d5e61373748a73024d0d66ded3ca47c455992c4f4256d5b0c43e",
+  "labels_sha256": "b3d714dc5ff96ad3b7ac73cabe33785ad162a13e953e12ae358482bf10e1653b",
+  "source_hashes": {
+    "train_queries.py": "c6e101a142ed432afc89ccf188eb3a3f37caa1b7ea2e9cc302977bf528b3b3be",
+    "audit_train_queries.py": "cca3982b7bcbd5fcce60c2b90a58c5f5310c2fd13d4c3790b6c62ac1f10fc485",
+    "build_train_queries.py": "0f3cb78b10c730fe3b2944a384b80d342eccac8d9fe9c1cdf70796cf77fe1336"
+  },
+  "presentations_per_arm": 320,
+  "query_responses_per_arm": 800,
+  "model_updates": 0,
+  "registered_before_main_scoring": true,
+  "read_labels_in_worker": false,
+  "scope": "Exact TRAIN query-prompt diagnostic on the same two preselected models. Distinguish training fit from DEV generalization; no new validation cases or optimization."
+}

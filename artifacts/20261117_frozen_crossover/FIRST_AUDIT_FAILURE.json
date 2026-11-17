@@ -1,0 +1,12 @@
+{
+  "failure": "audit.py first native-label equality assertion failed before output scoring",
+  "auditor_sha256_at_failure": "4650962c5832e97fba90c754d332cbf6971cb0ef0e938e41841b7b273311ae34",
+  "first_case_id": "ae4a0bfc7e0db5f8b6d4b54044d223183963de1f8476e02e41b362f728e5fe8d",
+  "differing_top_level_fields": [
+    "candidates"
+  ],
+  "native_candidate_value_type": "tuple",
+  "json_candidate_value_type": "list",
+  "equal_after_json_roundtrip": true,
+  "model_outputs_changed": false
+}

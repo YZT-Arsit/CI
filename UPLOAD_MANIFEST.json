@@ -1,7 +1,7 @@
 {
   "snapshot_date": "2026-11-17",
   "repository": "YZT-Arsit/CI",
-  "scope": "Research evidence through a matched teacher-input training2x2 and stronger predeclared reference: two new CPU adapters,160updates,560free-running DEV episodes. Separate one-task native role-local probe,initial-state scoring counterexample,and same-task role-conditioning followup. No independent-source multi-hop generalization,natural-norm transfer,or32-step collaboration established. Large GPU NO_GO. JSONL restores losslessly.",
+  "scope": "Research evidence through frozen relation-estimate/actor crossover diagnostics on matched states,with learned predictions sealed before oracle-input and TRAIN-state diagnostics. Shared-model objective retained; off-diagonal checkpoint combinations are diagnostics only. No independent-source,natural-norm transfer,or32-step collaboration proof. Large GPU NO_GO. Raw JSONL restores losslessly.",
   "excluded": [
     "paper PDFs",
     "large pretrained LLM base weights and installed dependencies",
@@ -22,8 +22,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 12684,
-      "sha256": "5772cb082567aa0f1bf85dc20c8a441310b3a17524e3f8a113dea04490c676b4"
+      "bytes": 13432,
+      "sha256": "fa3c1a455b39c91d1a239cdc2a06ea4006ccbebb26701288e83dbec51e132f87"
     },
     {
       "path": "artifacts/20261112_cpu_pilot/FINAL_VALIDATION.json",
@@ -47901,6 +47901,411 @@
       "sha256": "d5348bc8436cb985275124e2382a21ffadbaad5588e6675a3b286e62081bd6a0"
     },
     {
+      "path": "artifacts/20261117_frozen_crossover/ARCHIVE_VERIFIED.json",
+      "bytes": 209,
+      "sha256": "ceac2b398b5551823ac12c70d41c354e3618b96711fe324c0b4dddfb748f5dd6"
+    },
+    {
+      "path": "artifacts/20261117_frozen_crossover/COSTS.json",
+      "bytes": 3651,
+      "sha256": "94287b3642b8b63ad9ba8695054353314cbca5dd5a180be1525120cbc20cde3d"
+    },
+    {
+      "path": "artifacts/20261117_frozen_crossover/DECISION.json",
+      "bytes": 831,
+      "sha256": "b0f9ff6c1ac4d42f4f9e3b0c998d7186fa63ac16ada6a6b38a7978f1b21c6e7e"
+    },
+    {
+      "path": "artifacts/20261117_frozen_crossover/FIRST_AUDIT_FAILURE.json",
+      "bytes": 500,
+      "sha256": "d6383fcf8dfc20b1efe09819667cad6fa133a213b2f0cc1989c0bc6358b388e0"
+    },
+    {
+      "path": "artifacts/20261117_frozen_crossover/LEARNED_SEALED.json",
+      "bytes": 1461,
+      "sha256": "885da7bb934417ac8ea73f6d04c20c2351745a8d5109be605fdf86155ac063cf"
+    },
+    {
+      "path": "artifacts/20261117_frozen_crossover/METHOD_SCOPE.md",
+      "bytes": 2758,
+      "sha256": "77e801dbbcbef8b6670dc555a0d1d3c129393ab42f3137a45e7101ebd3e4466d"
+    },
+    {
+      "path": "artifacts/20261117_frozen_crossover/ORACLE_RUN_PLAN.json",
+      "bytes": 261,
+      "sha256": "27b36a79a6bdc396376e3b1f4d3370f74fb8775291a8b624932f17bbaec5937e"
+    },
+    {
+      "path": "artifacts/20261117_frozen_crossover/ORACLE_SEALED.json",
+      "bytes": 617,
+      "sha256": "6b4526cb8f1ad9d257c897d308c490f6160f1c3c8eeac0ea3ef2c1b21d385f03"
+    },
+    {
+      "path": "artifacts/20261117_frozen_crossover/PACKAGE_CHECKS.json",
+      "bytes": 557,
+      "sha256": "0817f2b7c929989ef714d69c53f4608c534db5dac173b15795fb4a3d3eb3cf84"
+    },
+    {
+      "path": "artifacts/20261117_frozen_crossover/PLAN.json",
+      "bytes": 4703,
+      "sha256": "6d874c095e0912dc0143375c247c3d3d2e364421ad21cf0b4f45bd993eaad900"
+    },
+    {
+      "path": "artifacts/20261117_frozen_crossover/PLAN.md",
+      "bytes": 3416,
+      "sha256": "9f4cdd239a5a863e497152a9d2276e9b9fdbfec7230c837b8b89e329e95484b3"
+    },
+    {
+      "path": "artifacts/20261117_frozen_crossover/PREFLIGHT.json",
+      "bytes": 12909,
+      "sha256": "07a966d41e25f7ddfdf10c7e141575c32d3b0fb38f6de1659156cceb10b59161"
+    },
+    {
+      "path": "artifacts/20261117_frozen_crossover/QUERIES_SEALED.json",
+      "bytes": 364,
+      "sha256": "6ddfbc4647f7ccb2970ff675e201ed82cf7c593e95cd183003e8b8a3199fc6ac"
+    },
+    {
+      "path": "artifacts/20261117_frozen_crossover/RECONSTRUCTED_ROLLOUTS.jsonl.gz",
+      "bytes": 413429,
+      "sha256": "4a5b191ad67cf824b60bab3d8fe69ca1262b92d42e8fbc005eee2365f00d53a3"
+    },
+    {
+      "path": "artifacts/20261117_frozen_crossover/REPORT.md",
+      "bytes": 8022,
+      "sha256": "748f953e473361a935ee9bf1338f813672d4dccdf4a2284e45a00c14a033847e"
+    },
+    {
+      "path": "artifacts/20261117_frozen_crossover/REPRODUCE.md",
+      "bytes": 4419,
+      "sha256": "2e9b5d15b67c1e20dd32aedaad168ea1224de7cdfc9c1adf5e6945bc6e54843d"
+    },
+    {
+      "path": "artifacts/20261117_frozen_crossover/RESULTS.json",
+      "bytes": 111806,
+      "sha256": "c1f36101ae2dd54cfc6b46be4c9ed423be3183ed4806b220ea82736935fbd020"
+    },
+    {
+      "path": "artifacts/20261117_frozen_crossover/RUN_PLAN.json",
+      "bytes": 154,
+      "sha256": "992765f2a585e97186c93b623a821f47f9339837c4aa20cc98496650d5037749"
+    },
+    {
+      "path": "artifacts/20261117_frozen_crossover/SCORED.jsonl.gz",
+      "bytes": 280778,
+      "sha256": "c233b6f3e167bfa0b07e1299d9726a8a492764c60bef168c0ef4e6227182040e"
+    },
+    {
+      "path": "artifacts/20261117_frozen_crossover/SCORING_PLAN.json",
+      "bytes": 639,
+      "sha256": "228ecd7e652bd03b06f5e68cf6feb7cabe873fd92d311ee95dd13f89ed32131a"
+    },
+    {
+      "path": "artifacts/20261117_frozen_crossover/SUMMARY_SUPPORT.json",
+      "bytes": 1730,
+      "sha256": "a7da0a0f41f771ec5871bce10ea253123c789f688657dd99533408d2ef5096ce"
+    },
+    {
+      "path": "artifacts/20261117_frozen_crossover/SUMMARY_SUPPORT_CHECK.json",
+      "bytes": 198,
+      "sha256": "0a401c2654271de5f4b468c86c492b53e1321a98e6c79ceb6a70d1cc59a399d9"
+    },
+    {
+      "path": "artifacts/20261117_frozen_crossover/TRAIN_QUERIES_SEALED.json",
+      "bytes": 299,
+      "sha256": "e94a39b05a23579de94a56a1d183938b78e57bbbaf7e7e0b172726a758982c90"
+    },
+    {
+      "path": "artifacts/20261117_frozen_crossover/TRAIN_QUERY_PLAN.json",
+      "bytes": 997,
+      "sha256": "788a4c5d9b75478aa673ae5a5316074ecaa68249bcadbb8aab091496862294d9"
+    },
+    {
+      "path": "artifacts/20261117_frozen_crossover/TRAIN_QUERY_RESULTS.json",
+      "bytes": 2041,
+      "sha256": "2881e28c2dc86dc8a600fb158f24be9877afd85efd5c4bab45b08ef806d70c49"
+    },
+    {
+      "path": "artifacts/20261117_frozen_crossover/TRAIN_QUERY_RUN_PLAN.json",
+      "bytes": 133,
+      "sha256": "3726fd6ffdcfef1b422cf2add6bb753f439a09f2143f5e32782b040120fefece"
+    },
+    {
+      "path": "artifacts/20261117_frozen_crossover/actor_earlier_sft__query_earlier_sft.jsonl.gz",
+      "bytes": 55037,
+      "sha256": "5580abb5f6484c55bd34358acdd5c15de4aca973e17615b02e3c2f9b1d0613a4"
+    },
+    {
+      "path": "artifacts/20261117_frozen_crossover/actor_earlier_sft__query_own_sft.jsonl.gz",
+      "bytes": 55042,
+      "sha256": "4fd4697d0ae1ebc7754c4214cc9694a595e650b9381f38ff1b0302f13d8b1ab6"
+    },
+    {
+      "path": "artifacts/20261117_frozen_crossover/actor_earlier_sft__query_teacher_sft.jsonl.gz",
+      "bytes": 54964,
+      "sha256": "7a1596299652f6b60d0d055ce349a6c5fef2777c5760843ba731ed12de91c22c"
+    },
+    {
+      "path": "artifacts/20261117_frozen_crossover/actor_own_sft__query_earlier_sft.jsonl.gz",
+      "bytes": 55109,
+      "sha256": "84bb7c054d3d9125bf261f789cc65e90f48c12eb226d2706d97d7804375e8f27"
+    },
+    {
+      "path": "artifacts/20261117_frozen_crossover/actor_own_sft__query_own_sft.jsonl.gz",
+      "bytes": 54948,
+      "sha256": "4b3d999f41d3f49aa2776b379af5506aa64d44fc1580d49e4360341c3b1893ef"
+    },
+    {
+      "path": "artifacts/20261117_frozen_crossover/actor_own_sft__query_teacher_sft.jsonl.gz",
+      "bytes": 54917,
+      "sha256": "eabff5f285b0d927008cd3fe9b3af948b18c6fc3df9a54c466694a399ca11224"
+    },
+    {
+      "path": "artifacts/20261117_frozen_crossover/actor_teacher_sft__query_earlier_sft.jsonl.gz",
+      "bytes": 55117,
+      "sha256": "b6f10517667b8bfd0fc11a78479b3aba8449407ae335c4ecf2f174b327ceafae"
+    },
+    {
+      "path": "artifacts/20261117_frozen_crossover/actor_teacher_sft__query_own_sft.jsonl.gz",
+      "bytes": 55050,
+      "sha256": "ee0cb7b23f71abedcfe4ab9cf25366ace4df69ace62310f89eafc12a1279335e"
+    },
+    {
+      "path": "artifacts/20261117_frozen_crossover/actor_teacher_sft__query_teacher_sft.jsonl.gz",
+      "bytes": 54978,
+      "sha256": "b120a40cd673f32713c70bd8fb7b412c3ddcf8420c38c84467673f4d919b1ab7"
+    },
+    {
+      "path": "artifacts/20261117_frozen_crossover/audit.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "artifacts/20261117_frozen_crossover/audit.py",
+      "bytes": 17535,
+      "sha256": "431a73fae63f0ff29fa1f89c7859f0db99fbc7523e4a5e5d3ddf5139ae187d0e"
+    },
+    {
+      "path": "artifacts/20261117_frozen_crossover/audit_summary_support.py",
+      "bytes": 3442,
+      "sha256": "bfbbe6dce93f042a59970ad89849eb8244847fdde68536bbcf236faab82686af"
+    },
+    {
+      "path": "artifacts/20261117_frozen_crossover/audit_train_queries.py",
+      "bytes": 4403,
+      "sha256": "cca3982b7bcbd5fcce60c2b90a58c5f5310c2fd13d4c3790b6c62ac1f10fc485"
+    },
+    {
+      "path": "artifacts/20261117_frozen_crossover/build.py",
+      "bytes": 4334,
+      "sha256": "ef8a2591283918ef03f9b98bfc336159f2639bcacddab9495960ab1b61af27a7"
+    },
+    {
+      "path": "artifacts/20261117_frozen_crossover/build_train_queries.py",
+      "bytes": 1604,
+      "sha256": "0f3cb78b10c730fe3b2944a384b80d342eccac8d9fe9c1cdf70796cf77fe1336"
+    },
+    {
+      "path": "artifacts/20261117_frozen_crossover/check_summary_support.py",
+      "bytes": 1219,
+      "sha256": "c227f854b3859c7bbc6d0249939bad91978d8740a400ff88f578b605b7c20a13"
+    },
+    {
+      "path": "artifacts/20261117_frozen_crossover/common.py",
+      "bytes": 2667,
+      "sha256": "dcd23f7191532fb86b8c14b21e08045cdc2615c036720c6215bdc4759f1d4e79"
+    },
+    {
+      "path": "artifacts/20261117_frozen_crossover/compression_manifest.json",
+      "bytes": 11219,
+      "sha256": "07ae1c9bffd01621f59943ca5dd5cd9b3a078582f1ae81af0cdb9b3e1f6608e1"
+    },
+    {
+      "path": "artifacts/20261117_frozen_crossover/costs.py",
+      "bytes": 1969,
+      "sha256": "ee8b8ec96466982d90514da9b7b6c54dddb8981acfdbe11df9caccacbdd7dcef"
+    },
+    {
+      "path": "artifacts/20261117_frozen_crossover/freeze_scoring.py",
+      "bytes": 1448,
+      "sha256": "798124da65c1f3b1f747e725787b8115109b3dba63e4f24b6c558a2682a34471"
+    },
+    {
+      "path": "artifacts/20261117_frozen_crossover/inspect_audit_failure.py",
+      "bytes": 1450,
+      "sha256": "3a6bcbb9415f56d1673934c958e059ea7602471e84b61afed31619c1db6a4b18"
+    },
+    {
+      "path": "artifacts/20261117_frozen_crossover/labels.jsonl.gz",
+      "bytes": 80387,
+      "sha256": "559efc832c4d87778793e07e008050918da849059f78dbab962df7f44cb1484d"
+    },
+    {
+      "path": "artifacts/20261117_frozen_crossover/observations.jsonl.gz",
+      "bytes": 67380,
+      "sha256": "0e35f9bcec9954ad0a0738c17c9c76b67a7160eaec3f09f080218889077deff3"
+    },
+    {
+      "path": "artifacts/20261117_frozen_crossover/oracle.log",
+      "bytes": 361,
+      "sha256": "0af0dc622afa0cb735166357446ebb5a75030a8cd780fa991c34eb70f2204468"
+    },
+    {
+      "path": "artifacts/20261117_frozen_crossover/oracle.py",
+      "bytes": 2561,
+      "sha256": "1eea28a27c49c5432f38048883b7f97dc1dd52bf384ff7e5948697105d9fc0b4"
+    },
+    {
+      "path": "artifacts/20261117_frozen_crossover/oracle_dev_earlier_sft.jsonl.gz",
+      "bytes": 56037,
+      "sha256": "55ce27c17ed0543ae20387874ba2a66273ce9bd3618762069434a868174c16c0"
+    },
+    {
+      "path": "artifacts/20261117_frozen_crossover/oracle_dev_own_sft.jsonl.gz",
+      "bytes": 56046,
+      "sha256": "bf5aecf36f68c88fc5c2e7faab4a0657d420f8d203e7fb27b3654d75ecaf8745"
+    },
+    {
+      "path": "artifacts/20261117_frozen_crossover/oracle_dev_teacher_sft.jsonl.gz",
+      "bytes": 56136,
+      "sha256": "c1173f8f9512c1aa2140710798403af5ebbb9ab9d84487fdef6564786be037c1"
+    },
+    {
+      "path": "artifacts/20261117_frozen_crossover/oracle_train_own_sft.jsonl.gz",
+      "bytes": 14413,
+      "sha256": "ffde7f94d4b8764a3a7ab1e43b3c4697272144e82a7efb1b6c062b61822117b0"
+    },
+    {
+      "path": "artifacts/20261117_frozen_crossover/oracle_train_teacher_sft.jsonl.gz",
+      "bytes": 14445,
+      "sha256": "b4d0061921d169c9e9679d9bbffc9d16119f4ef37d1cbeb9d4c027e876017db1"
+    },
+    {
+      "path": "artifacts/20261117_frozen_crossover/preflight.log",
+      "bytes": 240,
+      "sha256": "68e5ef73df1002c5cce56760635b5713534c377dc8123d6448927a6bfec3d191"
+    },
+    {
+      "path": "artifacts/20261117_frozen_crossover/preflight.py",
+      "bytes": 1843,
+      "sha256": "070140d16dd55a97b72cf8cb8de67d48db61cdfdfbe328464d614806c1f0074f"
+    },
+    {
+      "path": "artifacts/20261117_frozen_crossover/prelaunch_revision/PLAN.md",
+      "bytes": 3226,
+      "sha256": "5e0ec217917dc5f5c031e2759f4d60788b6b01358a31a5967db8602702331b12"
+    },
+    {
+      "path": "artifacts/20261117_frozen_crossover/prelaunch_revision/PLAN_before_review.json",
+      "bytes": 4093,
+      "sha256": "96525b249bfb8d8bb5e11866bd7e466949301c59c556cb4254b4b0b4351fee36"
+    },
+    {
+      "path": "artifacts/20261117_frozen_crossover/prelaunch_revision/build.py",
+      "bytes": 4089,
+      "sha256": "dd43f4a75d9fbcc2f728b89d57c011447cbde2659a1f766625a5c5a61bb2dfa2"
+    },
+    {
+      "path": "artifacts/20261117_frozen_crossover/prelaunch_revision/common.py",
+      "bytes": 2211,
+      "sha256": "333c3ec163d598d8e3853f1e2e313d8b6d652a255d2d7018bac1b70432480381"
+    },
+    {
+      "path": "artifacts/20261117_frozen_crossover/prelaunch_revision/oracle.py",
+      "bytes": 2552,
+      "sha256": "1d2b2ff126f6d6fc91f131e6a8ccdcd053ba7731b66f4a6be4e254ba5ceccff3"
+    },
+    {
+      "path": "artifacts/20261117_frozen_crossover/queries_earlier_sft.jsonl.gz",
+      "bytes": 67697,
+      "sha256": "734c6b9f1ca1fa98e82cf5b0de933e51b6a613f6b0d0290e4d00b1ee5405423b"
+    },
+    {
+      "path": "artifacts/20261117_frozen_crossover/queries_own_sft.jsonl.gz",
+      "bytes": 67697,
+      "sha256": "a983965a87504f50c5b33c2f1d9046b35f40d389988ece4708d648fa59dfb906"
+    },
+    {
+      "path": "artifacts/20261117_frozen_crossover/queries_teacher_sft.jsonl.gz",
+      "bytes": 67689,
+      "sha256": "d638d106d83290ef9c8def87c2ba7d9ab9934f7fdf9cddc3b78a9dc8da8e3341"
+    },
+    {
+      "path": "artifacts/20261117_frozen_crossover/run.log",
+      "bytes": 2505,
+      "sha256": "e39c4a4569cfebd63073f63ea1dfa84f63d242b84a29990a28d52471e8e963b2"
+    },
+    {
+      "path": "artifacts/20261117_frozen_crossover/run.py",
+      "bytes": 3333,
+      "sha256": "30e31f798595bd40acb05cad253331bb540227bb32329576b768dd7fd39e8b40"
+    },
+    {
+      "path": "artifacts/20261117_frozen_crossover/scoring_revision/SCORING_PLAN_before_integrity.json",
+      "bytes": 344,
+      "sha256": "e4efd5d3d2974d2a8eb859638a341aedc8c91c225999580e3fb1213d0aba462e"
+    },
+    {
+      "path": "artifacts/20261117_frozen_crossover/scoring_revision/SCORING_PLAN_before_json_fix.json",
+      "bytes": 639,
+      "sha256": "79d72fd424e08fdaae6f999cb63e58cfe58bad12020c971d8631fdf95b68135c"
+    },
+    {
+      "path": "artifacts/20261117_frozen_crossover/scoring_revision/TRAIN_QUERY_PLAN_initial.json",
+      "bytes": 997,
+      "sha256": "4e9b1de54b03412a33a332a8f25251df5afe73fc8d630697d8f048ecfdb744fb"
+    },
+    {
+      "path": "artifacts/20261117_frozen_crossover/scoring_revision/audit.py",
+      "bytes": 16584,
+      "sha256": "e6df3b6673c1a2111e38340b9067dea76b463dacf77fd38e3c413c30bc7b0575"
+    },
+    {
+      "path": "artifacts/20261117_frozen_crossover/scoring_revision/audit_before_json_fix.py",
+      "bytes": 17511,
+      "sha256": "4650962c5832e97fba90c754d332cbf6971cb0ef0e938e41841b7b273311ae34"
+    },
+    {
+      "path": "artifacts/20261117_frozen_crossover/scoring_revision/audit_train_queries_initial.py",
+      "bytes": 3702,
+      "sha256": "41af568d923d8816f75640121be481a61097528b94bdbddc3aa30e15cb3153ea"
+    },
+    {
+      "path": "artifacts/20261117_frozen_crossover/scoring_revision/freeze_scoring.py",
+      "bytes": 692,
+      "sha256": "be97f67df8eb24b4b415e20c9622467ac159b4a4481360708f2767ce590437ef"
+    },
+    {
+      "path": "artifacts/20261117_frozen_crossover/train_observations.jsonl.gz",
+      "bytes": 21432,
+      "sha256": "32de357e237450d7b106d694f1fe0b2b8155bbd86b04b8d31d6e14b06fdb90c0"
+    },
+    {
+      "path": "artifacts/20261117_frozen_crossover/train_oracle.jsonl.gz",
+      "bytes": 35080,
+      "sha256": "9ea0568b6c7a2bdee6e5dfb14b542dda8e5912121e1d0429f49d1aad12096127"
+    },
+    {
+      "path": "artifacts/20261117_frozen_crossover/train_queries.log",
+      "bytes": 478,
+      "sha256": "10c52641c2ce640e2e984911fd58bb06de3b05523aedc40684b6e91ab39b4436"
+    },
+    {
+      "path": "artifacts/20261117_frozen_crossover/train_queries.py",
+      "bytes": 2370,
+      "sha256": "c6e101a142ed432afc89ccf188eb3a3f37caa1b7ea2e9cc302977bf528b3b3be"
+    },
+    {
+      "path": "artifacts/20261117_frozen_crossover/train_queries_own_sft.jsonl.gz",
+      "bytes": 17346,
+      "sha256": "3cc39afe3e4f9c5b64bc3245206cdb414ac33b8cf9c527445643d828d67117ff"
+    },
+    {
+      "path": "artifacts/20261117_frozen_crossover/train_queries_teacher_sft.jsonl.gz",
+      "bytes": 17401,
+      "sha256": "7cc8ae6cac1372f3a1b6204a448557d29629ac2d0b2caeae0f4859d5726d79f0"
+    },
+    {
       "path": "artifacts/20261117_native_agent_probe/COMPLETION_AUDIT.json",
       "bytes": 1579,
       "sha256": "4009e361b896b8ff94cec4a66bc4b6fdb5816b48ebecb3c2b39e30f7b08b7eef"
@@ -51319,6 +51724,11 @@
       "path": "tools/restore_fixed_state_artifacts.py",
       "bytes": 1647,
       "sha256": "4d97a6cbbcd2cc4db6c08683bb2a394e09ab1a575c00e1c54d8d9fedbe6323c0"
+    },
+    {
+      "path": "tools/restore_frozen_crossover_artifacts.py",
+      "bytes": 1623,
+      "sha256": "52e7a1b427ee59cccc9ab1d58e920482e3ce1bed1bea9b67f9d58af749eb591e"
     },
     {
       "path": "tools/restore_relation_artifacts.py",

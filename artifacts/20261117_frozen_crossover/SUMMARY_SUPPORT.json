@@ -1,0 +1,66 @@
+{
+  "results": {
+    "train": {
+      "presentations": 320,
+      "completion_only": {
+        "summary_groups": 10,
+        "incompatible_groups": 0,
+        "collisions": []
+      },
+      "safety_and_completion": {
+        "summary_groups": 10,
+        "incompatible_groups": 0,
+        "collisions": []
+      }
+    },
+    "dev": {
+      "presentations": 560,
+      "completion_only": {
+        "summary_groups": 10,
+        "incompatible_groups": 0,
+        "collisions": []
+      },
+      "safety_and_completion": {
+        "summary_groups": 10,
+        "incompatible_groups": 0,
+        "collisions": []
+      }
+    },
+    "train_and_dev": {
+      "presentations": 880,
+      "completion_only": {
+        "summary_groups": 10,
+        "incompatible_groups": 0,
+        "collisions": []
+      },
+      "safety_and_completion": {
+        "summary_groups": 10,
+        "incompatible_groups": 0,
+        "collisions": []
+      }
+    }
+  },
+  "model_calls": 0,
+  "model_outputs_read": false,
+  "dev_constant_action_optimal_counts": {
+    "Planner": {
+      "states": 112,
+      "COMMIT:1": 72,
+      "COMMIT:0": 72
+    },
+    "Source": {
+      "states": 224,
+      "DELIVER_INPUTS": 224,
+      "WITHHOLD": 96
+    },
+    "Worker": {
+      "states": 224,
+      "PUBLISH_MINIMAL": 112,
+      "WITHHOLD": 96,
+      "PUBLISH_FULL": 120
+    }
+  },
+  "constant_action_scope": "Finite label diagnostic including ties and repeated views; COMMIT normalized by provider index, not a learned policy.",
+  "scope": "Finite label-only summary compatibility; actor also sees full observations. Not proof of learnability or natural-norm validity.",
+  "whole_goal_complete": false
+}

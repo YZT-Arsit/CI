@@ -1,0 +1,84 @@
+{
+  "arms": [
+    "own_sft",
+    "teacher_sft",
+    "earlier_sft"
+  ],
+  "train_arms": [
+    "own_sft",
+    "teacher_sft"
+  ],
+  "batch_states": 4,
+  "model_updates": 0,
+  "state_versions": 560,
+  "observation_states": 280,
+  "train_presentations_per_arm": 320,
+  "learned_actor_responses": 5040,
+  "oracle_dev_responses": 1680,
+  "oracle_train_responses": 640,
+  "source_dev_path": "artifacts/20261117_teacher_binding/repair/dev_worlds.json",
+  "source_dev_sha256": "4a66dd6ee5a493c9fa697dfb7fdce401ac91e3d45744b7e8008fc8ad861b7019",
+  "checkpoints": {
+    "own_sft": {
+      "path": "artifacts/20261117_teacher_binding/repair/own_sft",
+      "seal": {
+        "adapter_hashes": {
+          "adapter_config.json": "317dc54d0fcd6fb3b630eec143c04640103d5388e4a41e5bdedf7f327c2613a7",
+          "adapter_model.safetensors": "19ce84b982ab7c4ed9cd65f5d918a5331f5e7c55e20c6f94ca62044eb648f83c",
+          "README.md": "39d3d3aa2d89a2b4ab09cecd018fbbc4cebc3f4b2c6d9e85b81abc38a1dc4045"
+        },
+        "steps": 80,
+        "input_tokens": 238888
+      }
+    },
+    "teacher_sft": {
+      "path": "artifacts/20261117_teacher_binding/repair/teacher_sft",
+      "seal": {
+        "adapter_hashes": {
+          "adapter_config.json": "317dc54d0fcd6fb3b630eec143c04640103d5388e4a41e5bdedf7f327c2613a7",
+          "adapter_model.safetensors": "b311df52c508b8d2142f9fcaa26b04dae0d92cd1806608eab59207e24dc0a42f",
+          "README.md": "39d3d3aa2d89a2b4ab09cecd018fbbc4cebc3f4b2c6d9e85b81abc38a1dc4045"
+        },
+        "steps": 80,
+        "input_tokens": 238888
+      }
+    },
+    "earlier_sft": {
+      "path": "artifacts/20261117_teacher_binding/repair/earlier_sft",
+      "seal": {
+        "adapter_hashes": {
+          "adapter_config.json": "317dc54d0fcd6fb3b630eec143c04640103d5388e4a41e5bdedf7f327c2613a7",
+          "adapter_model.safetensors": "ba44581f6285b002761a8b57393b17dad2a59af3844e9f4b06e5b912ca955e35",
+          "README.md": "39d3d3aa2d89a2b4ab09cecd018fbbc4cebc3f4b2c6d9e85b81abc38a1dc4045"
+        },
+        "steps": 80,
+        "input_tokens": 238768
+      }
+    }
+  },
+  "source_hashes": {
+    "build.py": "dd43f4a75d9fbcc2f728b89d57c011447cbde2659a1f766625a5c5a61bb2dfa2",
+    "common.py": "333c3ec163d598d8e3853f1e2e313d8b6d652a255d2d7018bac1b70432480381",
+    "oracle.py": "1d2b2ff126f6d6fc91f131e6a8ccdcd053ba7731b66f4a6be4e254ba5ceccff3",
+    "run.py": "30e31f798595bd40acb05cad253331bb540227bb32329576b768dd7fd39e8b40"
+  },
+  "dependency_hashes": {
+    "code/kci/relation_language.py": "a966b9375e7243b78b1f0baf9b4a9b42a21246bc70f9e85a1cc39d7dd01ae771",
+    "code/experiments/relation_solution_data.py": "89a5ebd7499dca4b22e9d9f3d542490777a6d879c3f44fd1465e82193dd20bbf",
+    "artifacts/20261116_relation_solution/lm_common.py": "02bddaf84a7b82f6b527d3256e6c226f11f4ffcebdce517347cb5fdbfd0bdede",
+    "artifacts/20261116_relation_solution/entity_palettes.json": "bcbb3ec5ef509cbcebd6ba9dae3347f33e01fd2e2e9e5e013418610e6d082fbf",
+    "artifacts/20261116_relation_solution/environment.json": "31cb6b1408920f942df6ece7ce73314075a0859e5c1289d5b414a897f1960872",
+    "artifacts/20261117_action_binding/learned_evidence.py": "aee9664d6880fe716d6bf3cf99fa31ca76d0768a546272e047e77b9cea13d663",
+    "artifacts/20261117_action_binding/query_pilot.py": "c3d6df2de82610bc6759f0eb0e79f25aad2885d5594ecd0cda999c93b9696de5",
+    "artifacts/20261117_binding_factors/render.py": "f15b7da32b9af10871909cc4b3ca92862785b518d0b7c49845358757b67224e4"
+  },
+  "data_hashes": {
+    "observations.jsonl": "ecb9a6d3ebe1335fa2e73e8b89ab2d989284207ad7ed6c7d103a67ae81b0ec3d",
+    "labels.jsonl": "11bea42e0a343c2e6bebf5179cf4e5575c18e7aead61d3356ff37fe680f836e8",
+    "train_oracle.jsonl": "b3d714dc5ff96ad3b7ac73cabe33785ad162a13e953e12ae358482bf10e1653b"
+  },
+  "same_DEV_reused": true,
+  "source_holdout": false,
+  "scope": "Frozen cross-checkpoint diagnosis; diagonal shared policy, off-diagonal intervention, oracle separate; not a substitute for shared-model research goal.",
+  "whole_goal_complete": false
+}

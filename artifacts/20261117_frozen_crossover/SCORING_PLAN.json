@@ -1,0 +1,15 @@
+{
+  "auditor_sha256": "431a73fae63f0ff29fa1f89c7859f0db99fbc7523e4a5e5d3ddf5139ae187d0e",
+  "prior_train_plan_sha256": "000e11f8795bf02bc735ada771a3f986054091763761235adc0dbcdd4ce0a290",
+  "prior_results_sha256": "190e0f7a14e68a8a48ecb04c1e8783fd406c275f4baef582c0edfc3b3649358e",
+  "preflight_sha256": "07a966d41e25f7ddfdf10c7e141575c32d3b0fb38f6de1659156cceb10b59161",
+  "prior_expected_decisions": {
+    "own_sft": 283,
+    "teacher_sft": 306,
+    "earlier_sft": 336
+  },
+  "scorer_frozen_after_worker_launch": true,
+  "outputs_scored_so_far": false,
+  "metrics_predeclared_in": "PLAN.md",
+  "whole_goal_complete": false
+}

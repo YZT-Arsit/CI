@@ -1,0 +1,16 @@
+{
+  "status": "progress",
+  "whole_goal_complete": false,
+  "large_gpu": "NO_GO",
+  "model_updates": 0,
+  "same_dev_reused": true,
+  "main_responses": 11392,
+  "train_query_responses": 1600,
+  "total_responses_excluding_preflight": 12992,
+  "preflight_responses": 13,
+  "reconstructed_episodes": 1344,
+  "independent_new_validation_cases": 0,
+  "finding": "Text estimate channel affects action. Query TRAIN fit and Worker TRAIN fit remain incomplete; natural norms and 32-step collaboration unproved.",
+  "audit_correction": "Native tuple versus JSON list equality normalized before first output scoring; original scorer and failure preserved.",
+  "next_priority": "Shared-model query and Worker TRAIN fit with matched update controls, then fresh validation; no oracle or cross-checkpoint diagnostic deployment."
+}

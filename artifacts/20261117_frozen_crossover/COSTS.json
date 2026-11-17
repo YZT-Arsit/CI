@@ -1,0 +1,131 @@
+{
+  "files": [
+    {
+      "file": "queries_own_sft.jsonl",
+      "batches": 140,
+      "seconds": 247.992028044,
+      "max_seconds": 2.41026046799999,
+      "responses": 1344
+    },
+    {
+      "file": "queries_teacher_sft.jsonl",
+      "batches": 140,
+      "seconds": 249.1003898209998,
+      "max_seconds": 2.4590129019999836,
+      "responses": 1344
+    },
+    {
+      "file": "queries_earlier_sft.jsonl",
+      "batches": 140,
+      "seconds": 250.29744335400085,
+      "max_seconds": 2.5168616820000125,
+      "responses": 1344
+    },
+    {
+      "file": "actor_own_sft__query_own_sft.jsonl",
+      "batches": 140,
+      "seconds": 108.77454743400006,
+      "max_seconds": 1.1107038339999917,
+      "responses": 560
+    },
+    {
+      "file": "actor_own_sft__query_teacher_sft.jsonl",
+      "batches": 140,
+      "seconds": 112.70027181600062,
+      "max_seconds": 1.1731025859999136,
+      "responses": 560
+    },
+    {
+      "file": "actor_own_sft__query_earlier_sft.jsonl",
+      "batches": 140,
+      "seconds": 109.18054442099833,
+      "max_seconds": 1.0447544169999219,
+      "responses": 560
+    },
+    {
+      "file": "actor_teacher_sft__query_own_sft.jsonl",
+      "batches": 140,
+      "seconds": 110.17075156100123,
+      "max_seconds": 1.0961875350001264,
+      "responses": 560
+    },
+    {
+      "file": "actor_teacher_sft__query_teacher_sft.jsonl",
+      "batches": 140,
+      "seconds": 112.86494174700078,
+      "max_seconds": 1.0801100010000937,
+      "responses": 560
+    },
+    {
+      "file": "actor_teacher_sft__query_earlier_sft.jsonl",
+      "batches": 140,
+      "seconds": 112.69866119499875,
+      "max_seconds": 1.095068025000046,
+      "responses": 560
+    },
+    {
+      "file": "actor_earlier_sft__query_own_sft.jsonl",
+      "batches": 140,
+      "seconds": 109.07764630300039,
+      "max_seconds": 1.0669878319999953,
+      "responses": 560
+    },
+    {
+      "file": "actor_earlier_sft__query_teacher_sft.jsonl",
+      "batches": 140,
+      "seconds": 110.06432757999823,
+      "max_seconds": 1.112420013000019,
+      "responses": 560
+    },
+    {
+      "file": "actor_earlier_sft__query_earlier_sft.jsonl",
+      "batches": 140,
+      "seconds": 111.05690116999904,
+      "max_seconds": 1.059514014999877,
+      "responses": 560
+    },
+    {
+      "file": "oracle_dev_own_sft.jsonl",
+      "batches": 140,
+      "seconds": 118.4004927089984,
+      "max_seconds": 1.0505932139999459,
+      "responses": 560
+    },
+    {
+      "file": "oracle_train_own_sft.jsonl",
+      "batches": 80,
+      "seconds": 58.04983057299978,
+      "max_seconds": 0.9035433210001429,
+      "responses": 320
+    },
+    {
+      "file": "oracle_dev_teacher_sft.jsonl",
+      "batches": 140,
+      "seconds": 118.04310241500025,
+      "max_seconds": 1.080177668000033,
+      "responses": 560
+    },
+    {
+      "file": "oracle_train_teacher_sft.jsonl",
+      "batches": 80,
+      "seconds": 62.8812659859982,
+      "max_seconds": 0.9261240789996918,
+      "responses": 320
+    },
+    {
+      "file": "oracle_dev_earlier_sft.jsonl",
+      "batches": 140,
+      "seconds": 122.37429599999768,
+      "max_seconds": 1.1964884310000343,
+      "responses": 560
+    }
+  ],
+  "main_generation_batches": 2260,
+  "main_generated_responses": 11392,
+  "generation_seconds_sum": 2223.727442128992,
+  "max_generation_seconds": 2.5168616820000125,
+  "preflight_excluded_responses": 13,
+  "preflight_excluded_batches": 2,
+  "excludes_model_loading_tokenization_preparation_and_auditing": true,
+  "optimizer_updates": 0
+}

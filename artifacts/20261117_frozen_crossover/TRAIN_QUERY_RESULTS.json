@@ -1,0 +1,90 @@
+{
+  "metrics": [
+    {
+      "arm": "own_sft",
+      "role": "Planner",
+      "queries": 160,
+      "correct": 158,
+      "invalid": 0,
+      "truth_0": 72,
+      "correct_truth_0": 72,
+      "truth_1": 88,
+      "correct_truth_1": 86,
+      "presentations": 80,
+      "all_correct": 78
+    },
+    {
+      "arm": "own_sft",
+      "role": "Source",
+      "queries": 160,
+      "correct": 142,
+      "invalid": 0,
+      "truth_0": 92,
+      "correct_truth_0": 92,
+      "presentations": 80,
+      "all_correct": 62,
+      "truth_1": 68,
+      "correct_truth_1": 50
+    },
+    {
+      "arm": "own_sft",
+      "role": "Worker",
+      "queries": 480,
+      "correct": 438,
+      "invalid": 0,
+      "truth_1": 184,
+      "correct_truth_1": 178,
+      "truth_0": 296,
+      "correct_truth_0": 260,
+      "presentations": 160,
+      "all_correct": 118
+    },
+    {
+      "arm": "teacher_sft",
+      "role": "Planner",
+      "queries": 160,
+      "correct": 158,
+      "invalid": 0,
+      "truth_0": 72,
+      "correct_truth_0": 72,
+      "truth_1": 88,
+      "correct_truth_1": 86,
+      "presentations": 80,
+      "all_correct": 78
+    },
+    {
+      "arm": "teacher_sft",
+      "role": "Source",
+      "queries": 160,
+      "correct": 140,
+      "invalid": 0,
+      "truth_0": 92,
+      "correct_truth_0": 92,
+      "presentations": 80,
+      "all_correct": 60,
+      "truth_1": 68,
+      "correct_truth_1": 48
+    },
+    {
+      "arm": "teacher_sft",
+      "role": "Worker",
+      "queries": 480,
+      "correct": 439,
+      "invalid": 0,
+      "truth_1": 184,
+      "correct_truth_1": 177,
+      "truth_0": 296,
+      "correct_truth_0": 262,
+      "presentations": 160,
+      "all_correct": 119
+    }
+  ],
+  "query_responses": 1600,
+  "generation_batches": 160,
+  "generation_seconds_sum": 256.79266295099984,
+  "max_generation_seconds": 2.336551496999988,
+  "errors": 0,
+  "new_validation_cases": 0,
+  "model_updates": 0,
+  "whole_goal_complete": false
+}
