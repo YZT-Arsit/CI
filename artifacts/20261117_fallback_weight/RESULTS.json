@@ -1,0 +1,488 @@
+{
+  "dev": [
+    {
+      "arm": "uniform",
+      "episodes": 112,
+      "strict_success": 56,
+      "valid_ci": 101,
+      "invalid": 0,
+      "invalid_queries": 0,
+      "paired": {
+        "base": {
+          "groups": 8,
+          "all_four_success": 2
+        },
+        "depth3": {
+          "groups": 4,
+          "all_four_success": 0
+        },
+        "internal3": {
+          "groups": 4,
+          "all_four_success": 0
+        },
+        "cycle4": {
+          "groups": 4,
+          "all_four_success": 0
+        }
+      }
+    },
+    {
+      "arm": "weighted",
+      "episodes": 112,
+      "strict_success": 50,
+      "valid_ci": 103,
+      "invalid": 0,
+      "invalid_queries": 0,
+      "paired": {
+        "base": {
+          "groups": 8,
+          "all_four_success": 1
+        },
+        "depth3": {
+          "groups": 4,
+          "all_four_success": 0
+        },
+        "internal3": {
+          "groups": 4,
+          "all_four_success": 0
+        },
+        "cycle4": {
+          "groups": 4,
+          "all_four_success": 0
+        }
+      }
+    },
+    {
+      "arm": "initial",
+      "episodes": 112,
+      "strict_success": 52,
+      "valid_ci": 100,
+      "invalid": 0,
+      "invalid_queries": 0,
+      "paired": {
+        "base": {
+          "groups": 8,
+          "all_four_success": 2
+        },
+        "depth3": {
+          "groups": 4,
+          "all_four_success": 0
+        },
+        "internal3": {
+          "groups": 4,
+          "all_four_success": 0
+        },
+        "cycle4": {
+          "groups": 4,
+          "all_four_success": 0
+        }
+      }
+    }
+  ],
+  "oracle_diagnostics": [
+    {
+      "arm": "uniform",
+      "split": "train",
+      "positions": [
+        {
+          "group": "zero",
+          "full_position": "A",
+          "n": 36,
+          "optimal": 36,
+          "unsafe": 0,
+          "invalid": 0
+        },
+        {
+          "group": "zero",
+          "full_position": "B",
+          "n": 36,
+          "optimal": 18,
+          "unsafe": 18,
+          "invalid": 0
+        },
+        {
+          "group": "zero",
+          "full_position": "C",
+          "n": 36,
+          "optimal": 4,
+          "unsafe": 32,
+          "invalid": 0
+        },
+        {
+          "group": "positive",
+          "full_position": "A",
+          "n": 36,
+          "optimal": 36,
+          "unsafe": 0,
+          "invalid": 0
+        },
+        {
+          "group": "positive",
+          "full_position": "B",
+          "n": 36,
+          "optimal": 36,
+          "unsafe": 0,
+          "invalid": 0
+        },
+        {
+          "group": "positive",
+          "full_position": "C",
+          "n": 36,
+          "optimal": 36,
+          "unsafe": 0,
+          "invalid": 0
+        }
+      ],
+      "all_six": {
+        "zero": {
+          "cases": 18,
+          "optimal": 0
+        },
+        "positive": {
+          "cases": 18,
+          "optimal": 18
+        }
+      },
+      "identical_checkpoint_raw_disagreements": null
+    },
+    {
+      "arm": "uniform",
+      "split": "fresh",
+      "positions": [
+        {
+          "group": "zero",
+          "full_position": "A",
+          "n": 24,
+          "optimal": 24,
+          "unsafe": 0,
+          "invalid": 0
+        },
+        {
+          "group": "zero",
+          "full_position": "B",
+          "n": 24,
+          "optimal": 12,
+          "unsafe": 12,
+          "invalid": 0
+        },
+        {
+          "group": "zero",
+          "full_position": "C",
+          "n": 24,
+          "optimal": 1,
+          "unsafe": 23,
+          "invalid": 0
+        },
+        {
+          "group": "positive",
+          "full_position": "A",
+          "n": 24,
+          "optimal": 24,
+          "unsafe": 0,
+          "invalid": 0
+        },
+        {
+          "group": "positive",
+          "full_position": "B",
+          "n": 24,
+          "optimal": 24,
+          "unsafe": 0,
+          "invalid": 0
+        },
+        {
+          "group": "positive",
+          "full_position": "C",
+          "n": 24,
+          "optimal": 24,
+          "unsafe": 0,
+          "invalid": 0
+        }
+      ],
+      "all_six": {
+        "zero": {
+          "cases": 12,
+          "optimal": 0
+        },
+        "positive": {
+          "cases": 12,
+          "optimal": 12
+        }
+      },
+      "identical_checkpoint_raw_disagreements": null
+    },
+    {
+      "arm": "weighted",
+      "split": "train",
+      "positions": [
+        {
+          "group": "zero",
+          "full_position": "A",
+          "n": 36,
+          "optimal": 36,
+          "unsafe": 0,
+          "invalid": 0
+        },
+        {
+          "group": "zero",
+          "full_position": "B",
+          "n": 36,
+          "optimal": 18,
+          "unsafe": 18,
+          "invalid": 0
+        },
+        {
+          "group": "zero",
+          "full_position": "C",
+          "n": 36,
+          "optimal": 1,
+          "unsafe": 35,
+          "invalid": 0
+        },
+        {
+          "group": "positive",
+          "full_position": "A",
+          "n": 36,
+          "optimal": 36,
+          "unsafe": 0,
+          "invalid": 0
+        },
+        {
+          "group": "positive",
+          "full_position": "B",
+          "n": 36,
+          "optimal": 36,
+          "unsafe": 0,
+          "invalid": 0
+        },
+        {
+          "group": "positive",
+          "full_position": "C",
+          "n": 36,
+          "optimal": 36,
+          "unsafe": 0,
+          "invalid": 0
+        }
+      ],
+      "all_six": {
+        "zero": {
+          "cases": 18,
+          "optimal": 0
+        },
+        "positive": {
+          "cases": 18,
+          "optimal": 18
+        }
+      },
+      "identical_checkpoint_raw_disagreements": null
+    },
+    {
+      "arm": "weighted",
+      "split": "fresh",
+      "positions": [
+        {
+          "group": "zero",
+          "full_position": "A",
+          "n": 24,
+          "optimal": 24,
+          "unsafe": 0,
+          "invalid": 0
+        },
+        {
+          "group": "zero",
+          "full_position": "B",
+          "n": 24,
+          "optimal": 12,
+          "unsafe": 12,
+          "invalid": 0
+        },
+        {
+          "group": "zero",
+          "full_position": "C",
+          "n": 24,
+          "optimal": 0,
+          "unsafe": 24,
+          "invalid": 0
+        },
+        {
+          "group": "positive",
+          "full_position": "A",
+          "n": 24,
+          "optimal": 24,
+          "unsafe": 0,
+          "invalid": 0
+        },
+        {
+          "group": "positive",
+          "full_position": "B",
+          "n": 24,
+          "optimal": 24,
+          "unsafe": 0,
+          "invalid": 0
+        },
+        {
+          "group": "positive",
+          "full_position": "C",
+          "n": 24,
+          "optimal": 24,
+          "unsafe": 0,
+          "invalid": 0
+        }
+      ],
+      "all_six": {
+        "zero": {
+          "cases": 12,
+          "optimal": 0
+        },
+        "positive": {
+          "cases": 12,
+          "optimal": 12
+        }
+      },
+      "identical_checkpoint_raw_disagreements": null
+    },
+    {
+      "arm": "initial",
+      "split": "train",
+      "positions": [
+        {
+          "group": "zero",
+          "full_position": "A",
+          "n": 36,
+          "optimal": 36,
+          "unsafe": 0,
+          "invalid": 0
+        },
+        {
+          "group": "zero",
+          "full_position": "B",
+          "n": 36,
+          "optimal": 18,
+          "unsafe": 18,
+          "invalid": 0
+        },
+        {
+          "group": "zero",
+          "full_position": "C",
+          "n": 36,
+          "optimal": 0,
+          "unsafe": 36,
+          "invalid": 0
+        },
+        {
+          "group": "positive",
+          "full_position": "A",
+          "n": 36,
+          "optimal": 36,
+          "unsafe": 0,
+          "invalid": 0
+        },
+        {
+          "group": "positive",
+          "full_position": "B",
+          "n": 36,
+          "optimal": 36,
+          "unsafe": 0,
+          "invalid": 0
+        },
+        {
+          "group": "positive",
+          "full_position": "C",
+          "n": 36,
+          "optimal": 36,
+          "unsafe": 0,
+          "invalid": 0
+        }
+      ],
+      "all_six": {
+        "zero": {
+          "cases": 18,
+          "optimal": 0
+        },
+        "positive": {
+          "cases": 18,
+          "optimal": 18
+        }
+      },
+      "identical_checkpoint_raw_disagreements": 0
+    },
+    {
+      "arm": "initial",
+      "split": "fresh",
+      "positions": [
+        {
+          "group": "zero",
+          "full_position": "A",
+          "n": 24,
+          "optimal": 24,
+          "unsafe": 0,
+          "invalid": 0
+        },
+        {
+          "group": "zero",
+          "full_position": "B",
+          "n": 24,
+          "optimal": 12,
+          "unsafe": 12,
+          "invalid": 0
+        },
+        {
+          "group": "zero",
+          "full_position": "C",
+          "n": 24,
+          "optimal": 0,
+          "unsafe": 24,
+          "invalid": 0
+        },
+        {
+          "group": "positive",
+          "full_position": "A",
+          "n": 24,
+          "optimal": 24,
+          "unsafe": 0,
+          "invalid": 0
+        },
+        {
+          "group": "positive",
+          "full_position": "B",
+          "n": 24,
+          "optimal": 24,
+          "unsafe": 0,
+          "invalid": 0
+        },
+        {
+          "group": "positive",
+          "full_position": "C",
+          "n": 24,
+          "optimal": 24,
+          "unsafe": 0,
+          "invalid": 0
+        }
+      ],
+      "all_six": {
+        "zero": {
+          "cases": 12,
+          "optimal": 0
+        },
+        "positive": {
+          "cases": 12,
+          "optimal": 12
+        }
+      },
+      "identical_checkpoint_raw_disagreements": null
+    }
+  ],
+  "pilot_gate": false,
+  "new_updates": 160,
+  "training_seconds": 611.2658833369989,
+  "max_update_seconds": 4.9380207270000085,
+  "tokens": {
+    "uniform": 238888,
+    "weighted": 238888
+  },
+  "responses": 4268,
+  "generation_seconds": 806.087249423008,
+  "max_generation_seconds": 1.343287840999892,
+  "errors": 0,
+  "large_gpu": "NO_GO",
+  "whole_goal_complete": false
+}

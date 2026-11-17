@@ -1,0 +1,43 @@
+{
+  "records": 324,
+  "summaries": [
+    {
+      "arm": "uniform",
+      "n": 108,
+      "optimal": 58,
+      "unsafe_greedy": 50,
+      "union_wins_but_greedy_unsafe": 1,
+      "qualified_union_wins_but_greedy_unsafe": 1,
+      "other_argmax": 0,
+      "prefix_matches": 108,
+      "free_agrees": 108,
+      "all_cases_interpretation_eligible": true
+    },
+    {
+      "arm": "weighted",
+      "n": 108,
+      "optimal": 55,
+      "unsafe_greedy": 53,
+      "union_wins_but_greedy_unsafe": 1,
+      "qualified_union_wins_but_greedy_unsafe": 1,
+      "other_argmax": 0,
+      "prefix_matches": 108,
+      "free_agrees": 108,
+      "all_cases_interpretation_eligible": true
+    },
+    {
+      "arm": "initial",
+      "n": 108,
+      "optimal": 54,
+      "unsafe_greedy": 54,
+      "union_wins_but_greedy_unsafe": 0,
+      "qualified_union_wins_but_greedy_unsafe": 0,
+      "other_argmax": 0,
+      "prefix_matches": 108,
+      "free_agrees": 108,
+      "all_cases_interpretation_eligible": true
+    }
+  ],
+  "errors": 0,
+  "source_sha256": "000fdbfe2d6772ec23b673be4dc22e003e5b4412d6e43d544fab513f0d4562d2"
+}

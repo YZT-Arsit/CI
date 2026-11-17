@@ -1,0 +1,10 @@
+{
+  "reason": "Native reconstructed candidate tuples differ in Python type from JSON lists; round-trip only the independent targets output before structural comparison. No labels, loss, prompts or generated outputs changed.",
+  "registered_during": "uniform training, before DEV scoring",
+  "sources": {
+    "audit.py": "7856cdfec3a07b40de8c42a38847b9c7505523891f0bcc5ba744c080d58342e4",
+    "audit_native.py": "df7711f404467a2100e04d684ba19cc0c39de7cf93a6ad241b58030689a64dd4",
+    "PLAN.json": "b7b066fce859b5c280ac91af4e54b13adb8ba9a077c3030d712540aa6f27456c"
+  },
+  "original_worker_and_plan_unchanged": true
+}

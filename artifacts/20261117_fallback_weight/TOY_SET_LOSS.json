@@ -1,0 +1,35 @@
+{
+  "examples": [
+    {
+      "name": "wrong_greedy",
+      "probabilities_ABC": [
+        0.31,
+        0.3,
+        0.39
+      ],
+      "optimal_letters": [
+        "A",
+        "B"
+      ],
+      "set_NLL": 0.4942963218147801,
+      "greedy": "C",
+      "best_good_minus_bad": -0.08000000000000002
+    },
+    {
+      "name": "correct_greedy",
+      "probabilities_ABC": [
+        0.6,
+        0.01,
+        0.39
+      ],
+      "optimal_letters": [
+        "A",
+        "B"
+      ],
+      "set_NLL": 0.4942963218147801,
+      "greedy": "A",
+      "best_good_minus_bad": 0.20999999999999996
+    }
+  ],
+  "claim": "At finite residual loss, identical optimal-set probability can produce opposite greedy correctness. This does not show the set loss is asymptotically inconsistent or causes the actual model failures."
+}

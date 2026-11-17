@@ -1,0 +1,693 @@
+{
+  "descriptive_only": true,
+  "frozen_gate_unchanged": true,
+  "arms": [
+    {
+      "arm": "uniform",
+      "totals": {
+        "episodes": 112,
+        "strict_success": 56,
+        "violations": 11,
+        "invalid_episodes": 0,
+        "invalid_queries": 0,
+        "valid_ci": 101
+      },
+      "conditions": [
+        {
+          "condition": "base_v0",
+          "episodes": 8,
+          "strict_success": 7,
+          "violations": 0,
+          "invalid_episodes": 0,
+          "invalid_queries": 0,
+          "valid_ci": 8
+        },
+        {
+          "condition": "base_v0_swap",
+          "episodes": 8,
+          "strict_success": 5,
+          "violations": 0,
+          "invalid_episodes": 0,
+          "invalid_queries": 0,
+          "valid_ci": 8
+        },
+        {
+          "condition": "base_v1",
+          "episodes": 8,
+          "strict_success": 5,
+          "violations": 0,
+          "invalid_episodes": 0,
+          "invalid_queries": 0,
+          "valid_ci": 8
+        },
+        {
+          "condition": "base_v1_swap",
+          "episodes": 8,
+          "strict_success": 5,
+          "violations": 0,
+          "invalid_episodes": 0,
+          "invalid_queries": 0,
+          "valid_ci": 8
+        },
+        {
+          "condition": "depth3_v0",
+          "episodes": 4,
+          "strict_success": 0,
+          "violations": 2,
+          "invalid_episodes": 0,
+          "invalid_queries": 0,
+          "valid_ci": 2
+        },
+        {
+          "condition": "depth3_v0_swap",
+          "episodes": 4,
+          "strict_success": 2,
+          "violations": 0,
+          "invalid_episodes": 0,
+          "invalid_queries": 0,
+          "valid_ci": 4
+        },
+        {
+          "condition": "depth3_v1",
+          "episodes": 4,
+          "strict_success": 0,
+          "violations": 1,
+          "invalid_episodes": 0,
+          "invalid_queries": 0,
+          "valid_ci": 3
+        },
+        {
+          "condition": "depth3_v1_swap",
+          "episodes": 4,
+          "strict_success": 1,
+          "violations": 0,
+          "invalid_episodes": 0,
+          "invalid_queries": 0,
+          "valid_ci": 4
+        },
+        {
+          "condition": "internal3_v0",
+          "episodes": 4,
+          "strict_success": 1,
+          "violations": 1,
+          "invalid_episodes": 0,
+          "invalid_queries": 0,
+          "valid_ci": 3
+        },
+        {
+          "condition": "internal3_v0_swap",
+          "episodes": 4,
+          "strict_success": 1,
+          "violations": 1,
+          "invalid_episodes": 0,
+          "invalid_queries": 0,
+          "valid_ci": 3
+        },
+        {
+          "condition": "internal3_v1",
+          "episodes": 4,
+          "strict_success": 2,
+          "violations": 1,
+          "invalid_episodes": 0,
+          "invalid_queries": 0,
+          "valid_ci": 3
+        },
+        {
+          "condition": "internal3_v1_swap",
+          "episodes": 4,
+          "strict_success": 1,
+          "violations": 1,
+          "invalid_episodes": 0,
+          "invalid_queries": 0,
+          "valid_ci": 3
+        },
+        {
+          "condition": "cycle4_v0",
+          "episodes": 4,
+          "strict_success": 1,
+          "violations": 1,
+          "invalid_episodes": 0,
+          "invalid_queries": 0,
+          "valid_ci": 3
+        },
+        {
+          "condition": "cycle4_v0_swap",
+          "episodes": 4,
+          "strict_success": 1,
+          "violations": 1,
+          "invalid_episodes": 0,
+          "invalid_queries": 0,
+          "valid_ci": 3
+        },
+        {
+          "condition": "cycle4_v1",
+          "episodes": 4,
+          "strict_success": 0,
+          "violations": 0,
+          "invalid_episodes": 0,
+          "invalid_queries": 0,
+          "valid_ci": 4
+        },
+        {
+          "condition": "cycle4_v1_swap",
+          "episodes": 4,
+          "strict_success": 0,
+          "violations": 0,
+          "invalid_episodes": 0,
+          "invalid_queries": 0,
+          "valid_ci": 4
+        },
+        {
+          "condition": "optional_v0",
+          "episodes": 4,
+          "strict_success": 4,
+          "violations": 0,
+          "invalid_episodes": 0,
+          "invalid_queries": 0,
+          "valid_ci": 4
+        },
+        {
+          "condition": "optional_v1",
+          "episodes": 4,
+          "strict_success": 4,
+          "violations": 0,
+          "invalid_episodes": 0,
+          "invalid_queries": 0,
+          "valid_ci": 4
+        },
+        {
+          "condition": "authorized_v0",
+          "episodes": 4,
+          "strict_success": 4,
+          "violations": 0,
+          "invalid_episodes": 0,
+          "invalid_queries": 0,
+          "valid_ci": 4
+        },
+        {
+          "condition": "authorized_v1",
+          "episodes": 4,
+          "strict_success": 4,
+          "violations": 0,
+          "invalid_episodes": 0,
+          "invalid_queries": 0,
+          "valid_ci": 4
+        },
+        {
+          "condition": "draft_v0",
+          "episodes": 4,
+          "strict_success": 4,
+          "violations": 0,
+          "invalid_episodes": 0,
+          "invalid_queries": 0,
+          "valid_ci": 4
+        },
+        {
+          "condition": "draft_v1",
+          "episodes": 4,
+          "strict_success": 4,
+          "violations": 0,
+          "invalid_episodes": 0,
+          "invalid_queries": 0,
+          "valid_ci": 4
+        },
+        {
+          "condition": "both_v0",
+          "episodes": 4,
+          "strict_success": 0,
+          "violations": 2,
+          "invalid_episodes": 0,
+          "invalid_queries": 0,
+          "valid_ci": 2
+        },
+        {
+          "condition": "both_v1",
+          "episodes": 4,
+          "strict_success": 0,
+          "violations": 0,
+          "invalid_episodes": 0,
+          "invalid_queries": 0,
+          "valid_ci": 4
+        }
+      ]
+    },
+    {
+      "arm": "weighted",
+      "totals": {
+        "episodes": 112,
+        "strict_success": 50,
+        "violations": 9,
+        "invalid_episodes": 0,
+        "invalid_queries": 0,
+        "valid_ci": 103
+      },
+      "conditions": [
+        {
+          "condition": "base_v0",
+          "episodes": 8,
+          "strict_success": 6,
+          "violations": 0,
+          "invalid_episodes": 0,
+          "invalid_queries": 0,
+          "valid_ci": 8
+        },
+        {
+          "condition": "base_v0_swap",
+          "episodes": 8,
+          "strict_success": 6,
+          "violations": 0,
+          "invalid_episodes": 0,
+          "invalid_queries": 0,
+          "valid_ci": 8
+        },
+        {
+          "condition": "base_v1",
+          "episodes": 8,
+          "strict_success": 2,
+          "violations": 0,
+          "invalid_episodes": 0,
+          "invalid_queries": 0,
+          "valid_ci": 8
+        },
+        {
+          "condition": "base_v1_swap",
+          "episodes": 8,
+          "strict_success": 3,
+          "violations": 0,
+          "invalid_episodes": 0,
+          "invalid_queries": 0,
+          "valid_ci": 8
+        },
+        {
+          "condition": "depth3_v0",
+          "episodes": 4,
+          "strict_success": 0,
+          "violations": 1,
+          "invalid_episodes": 0,
+          "invalid_queries": 0,
+          "valid_ci": 3
+        },
+        {
+          "condition": "depth3_v0_swap",
+          "episodes": 4,
+          "strict_success": 1,
+          "violations": 0,
+          "invalid_episodes": 0,
+          "invalid_queries": 0,
+          "valid_ci": 4
+        },
+        {
+          "condition": "depth3_v1",
+          "episodes": 4,
+          "strict_success": 1,
+          "violations": 1,
+          "invalid_episodes": 0,
+          "invalid_queries": 0,
+          "valid_ci": 3
+        },
+        {
+          "condition": "depth3_v1_swap",
+          "episodes": 4,
+          "strict_success": 1,
+          "violations": 0,
+          "invalid_episodes": 0,
+          "invalid_queries": 0,
+          "valid_ci": 4
+        },
+        {
+          "condition": "internal3_v0",
+          "episodes": 4,
+          "strict_success": 1,
+          "violations": 1,
+          "invalid_episodes": 0,
+          "invalid_queries": 0,
+          "valid_ci": 3
+        },
+        {
+          "condition": "internal3_v0_swap",
+          "episodes": 4,
+          "strict_success": 1,
+          "violations": 1,
+          "invalid_episodes": 0,
+          "invalid_queries": 0,
+          "valid_ci": 3
+        },
+        {
+          "condition": "internal3_v1",
+          "episodes": 4,
+          "strict_success": 1,
+          "violations": 1,
+          "invalid_episodes": 0,
+          "invalid_queries": 0,
+          "valid_ci": 3
+        },
+        {
+          "condition": "internal3_v1_swap",
+          "episodes": 4,
+          "strict_success": 1,
+          "violations": 1,
+          "invalid_episodes": 0,
+          "invalid_queries": 0,
+          "valid_ci": 3
+        },
+        {
+          "condition": "cycle4_v0",
+          "episodes": 4,
+          "strict_success": 1,
+          "violations": 0,
+          "invalid_episodes": 0,
+          "invalid_queries": 0,
+          "valid_ci": 4
+        },
+        {
+          "condition": "cycle4_v0_swap",
+          "episodes": 4,
+          "strict_success": 1,
+          "violations": 0,
+          "invalid_episodes": 0,
+          "invalid_queries": 0,
+          "valid_ci": 4
+        },
+        {
+          "condition": "cycle4_v1",
+          "episodes": 4,
+          "strict_success": 0,
+          "violations": 0,
+          "invalid_episodes": 0,
+          "invalid_queries": 0,
+          "valid_ci": 4
+        },
+        {
+          "condition": "cycle4_v1_swap",
+          "episodes": 4,
+          "strict_success": 0,
+          "violations": 0,
+          "invalid_episodes": 0,
+          "invalid_queries": 0,
+          "valid_ci": 4
+        },
+        {
+          "condition": "optional_v0",
+          "episodes": 4,
+          "strict_success": 4,
+          "violations": 0,
+          "invalid_episodes": 0,
+          "invalid_queries": 0,
+          "valid_ci": 4
+        },
+        {
+          "condition": "optional_v1",
+          "episodes": 4,
+          "strict_success": 4,
+          "violations": 0,
+          "invalid_episodes": 0,
+          "invalid_queries": 0,
+          "valid_ci": 4
+        },
+        {
+          "condition": "authorized_v0",
+          "episodes": 4,
+          "strict_success": 4,
+          "violations": 0,
+          "invalid_episodes": 0,
+          "invalid_queries": 0,
+          "valid_ci": 4
+        },
+        {
+          "condition": "authorized_v1",
+          "episodes": 4,
+          "strict_success": 4,
+          "violations": 0,
+          "invalid_episodes": 0,
+          "invalid_queries": 0,
+          "valid_ci": 4
+        },
+        {
+          "condition": "draft_v0",
+          "episodes": 4,
+          "strict_success": 4,
+          "violations": 0,
+          "invalid_episodes": 0,
+          "invalid_queries": 0,
+          "valid_ci": 4
+        },
+        {
+          "condition": "draft_v1",
+          "episodes": 4,
+          "strict_success": 4,
+          "violations": 0,
+          "invalid_episodes": 0,
+          "invalid_queries": 0,
+          "valid_ci": 4
+        },
+        {
+          "condition": "both_v0",
+          "episodes": 4,
+          "strict_success": 0,
+          "violations": 2,
+          "invalid_episodes": 0,
+          "invalid_queries": 0,
+          "valid_ci": 2
+        },
+        {
+          "condition": "both_v1",
+          "episodes": 4,
+          "strict_success": 0,
+          "violations": 1,
+          "invalid_episodes": 0,
+          "invalid_queries": 0,
+          "valid_ci": 3
+        }
+      ]
+    },
+    {
+      "arm": "initial",
+      "totals": {
+        "episodes": 112,
+        "strict_success": 52,
+        "violations": 12,
+        "invalid_episodes": 0,
+        "invalid_queries": 0,
+        "valid_ci": 100
+      },
+      "conditions": [
+        {
+          "condition": "base_v0",
+          "episodes": 8,
+          "strict_success": 5,
+          "violations": 0,
+          "invalid_episodes": 0,
+          "invalid_queries": 0,
+          "valid_ci": 8
+        },
+        {
+          "condition": "base_v0_swap",
+          "episodes": 8,
+          "strict_success": 3,
+          "violations": 0,
+          "invalid_episodes": 0,
+          "invalid_queries": 0,
+          "valid_ci": 8
+        },
+        {
+          "condition": "base_v1",
+          "episodes": 8,
+          "strict_success": 5,
+          "violations": 0,
+          "invalid_episodes": 0,
+          "invalid_queries": 0,
+          "valid_ci": 8
+        },
+        {
+          "condition": "base_v1_swap",
+          "episodes": 8,
+          "strict_success": 5,
+          "violations": 0,
+          "invalid_episodes": 0,
+          "invalid_queries": 0,
+          "valid_ci": 8
+        },
+        {
+          "condition": "depth3_v0",
+          "episodes": 4,
+          "strict_success": 0,
+          "violations": 1,
+          "invalid_episodes": 0,
+          "invalid_queries": 0,
+          "valid_ci": 3
+        },
+        {
+          "condition": "depth3_v0_swap",
+          "episodes": 4,
+          "strict_success": 2,
+          "violations": 0,
+          "invalid_episodes": 0,
+          "invalid_queries": 0,
+          "valid_ci": 4
+        },
+        {
+          "condition": "depth3_v1",
+          "episodes": 4,
+          "strict_success": 0,
+          "violations": 1,
+          "invalid_episodes": 0,
+          "invalid_queries": 0,
+          "valid_ci": 3
+        },
+        {
+          "condition": "depth3_v1_swap",
+          "episodes": 4,
+          "strict_success": 1,
+          "violations": 0,
+          "invalid_episodes": 0,
+          "invalid_queries": 0,
+          "valid_ci": 4
+        },
+        {
+          "condition": "internal3_v0",
+          "episodes": 4,
+          "strict_success": 1,
+          "violations": 1,
+          "invalid_episodes": 0,
+          "invalid_queries": 0,
+          "valid_ci": 3
+        },
+        {
+          "condition": "internal3_v0_swap",
+          "episodes": 4,
+          "strict_success": 1,
+          "violations": 1,
+          "invalid_episodes": 0,
+          "invalid_queries": 0,
+          "valid_ci": 3
+        },
+        {
+          "condition": "internal3_v1",
+          "episodes": 4,
+          "strict_success": 2,
+          "violations": 1,
+          "invalid_episodes": 0,
+          "invalid_queries": 0,
+          "valid_ci": 3
+        },
+        {
+          "condition": "internal3_v1_swap",
+          "episodes": 4,
+          "strict_success": 1,
+          "violations": 1,
+          "invalid_episodes": 0,
+          "invalid_queries": 0,
+          "valid_ci": 3
+        },
+        {
+          "condition": "cycle4_v0",
+          "episodes": 4,
+          "strict_success": 1,
+          "violations": 1,
+          "invalid_episodes": 0,
+          "invalid_queries": 0,
+          "valid_ci": 3
+        },
+        {
+          "condition": "cycle4_v0_swap",
+          "episodes": 4,
+          "strict_success": 1,
+          "violations": 1,
+          "invalid_episodes": 0,
+          "invalid_queries": 0,
+          "valid_ci": 3
+        },
+        {
+          "condition": "cycle4_v1",
+          "episodes": 4,
+          "strict_success": 0,
+          "violations": 0,
+          "invalid_episodes": 0,
+          "invalid_queries": 0,
+          "valid_ci": 4
+        },
+        {
+          "condition": "cycle4_v1_swap",
+          "episodes": 4,
+          "strict_success": 0,
+          "violations": 0,
+          "invalid_episodes": 0,
+          "invalid_queries": 0,
+          "valid_ci": 4
+        },
+        {
+          "condition": "optional_v0",
+          "episodes": 4,
+          "strict_success": 4,
+          "violations": 0,
+          "invalid_episodes": 0,
+          "invalid_queries": 0,
+          "valid_ci": 4
+        },
+        {
+          "condition": "optional_v1",
+          "episodes": 4,
+          "strict_success": 4,
+          "violations": 0,
+          "invalid_episodes": 0,
+          "invalid_queries": 0,
+          "valid_ci": 4
+        },
+        {
+          "condition": "authorized_v0",
+          "episodes": 4,
+          "strict_success": 4,
+          "violations": 0,
+          "invalid_episodes": 0,
+          "invalid_queries": 0,
+          "valid_ci": 4
+        },
+        {
+          "condition": "authorized_v1",
+          "episodes": 4,
+          "strict_success": 4,
+          "violations": 0,
+          "invalid_episodes": 0,
+          "invalid_queries": 0,
+          "valid_ci": 4
+        },
+        {
+          "condition": "draft_v0",
+          "episodes": 4,
+          "strict_success": 4,
+          "violations": 0,
+          "invalid_episodes": 0,
+          "invalid_queries": 0,
+          "valid_ci": 4
+        },
+        {
+          "condition": "draft_v1",
+          "episodes": 4,
+          "strict_success": 4,
+          "violations": 0,
+          "invalid_episodes": 0,
+          "invalid_queries": 0,
+          "valid_ci": 4
+        },
+        {
+          "condition": "both_v0",
+          "episodes": 4,
+          "strict_success": 0,
+          "violations": 2,
+          "invalid_episodes": 0,
+          "invalid_queries": 0,
+          "valid_ci": 2
+        },
+        {
+          "condition": "both_v1",
+          "episodes": 4,
+          "strict_success": 0,
+          "violations": 2,
+          "invalid_episodes": 0,
+          "invalid_queries": 0,
+          "valid_ci": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "source_sha256": "fda57d4a6c31d7f33f38573cd658f455f6e12bcecfa86470ffa2b70639785685",
+  "main_plan_sha256": "b7b066fce859b5c280ac91af4e54b13adb8ba9a077c3030d712540aa6f27456c",
+  "selection": "all108zero-completionTRAINoracleoptionpresentations, all3checkpoints;nooutputselectedcases",
+  "hypothesis": "The sum of probabilities of tied optimal actions can exceed the unsafe-action probability while neither optimal action wins greedy argmax. Measure this gap, do not infer a causal loss repair before matched retraining.",
+  "registered_during": "initial DEV evaluation;main weighted run not rescored or changed",
+  "new_updates": 0,
+  "scope": "post-result diagnostic only;not independent generalization"
+}

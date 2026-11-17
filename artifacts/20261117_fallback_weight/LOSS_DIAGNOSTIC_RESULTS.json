@@ -1,0 +1,47 @@
+{
+  "scope": "TRAIN oracle-input post-result loss diagnostic, not new generalization or causal training proof",
+  "summaries": [
+    {
+      "arm": "uniform",
+      "n": 108,
+      "optimal": 58,
+      "unsafe_greedy": 50,
+      "union_wins_but_greedy_unsafe": 1,
+      "qualified_union_wins_but_greedy_unsafe": 1,
+      "other_argmax": 0,
+      "prefix_matches": 108,
+      "free_agrees": 108,
+      "all_cases_interpretation_eligible": true
+    },
+    {
+      "arm": "weighted",
+      "n": 108,
+      "optimal": 55,
+      "unsafe_greedy": 53,
+      "union_wins_but_greedy_unsafe": 1,
+      "qualified_union_wins_but_greedy_unsafe": 1,
+      "other_argmax": 0,
+      "prefix_matches": 108,
+      "free_agrees": 108,
+      "all_cases_interpretation_eligible": true
+    },
+    {
+      "arm": "initial",
+      "n": 108,
+      "optimal": 54,
+      "unsafe_greedy": 54,
+      "union_wins_but_greedy_unsafe": 0,
+      "qualified_union_wins_but_greedy_unsafe": 0,
+      "other_argmax": 0,
+      "prefix_matches": 108,
+      "free_agrees": 108,
+      "all_cases_interpretation_eligible": true
+    }
+  ],
+  "forwards": 81,
+  "seconds": 51.43142024500071,
+  "max_seconds": 0.8354948409998997,
+  "model_updates": 0,
+  "probabilities_sha256": "480f6dfb04ca8cb4876128cb1af90fb60b71d12e5b960134b4bfb578662b3add",
+  "whole_goal_complete": false
+}
