@@ -1,0 +1,73 @@
+{
+  "model": {
+    "name": "qwen2.5:7b-instruct-q4_K_M",
+    "model": "qwen2.5:7b-instruct-q4_K_M",
+    "modified_at": "2026-09-10T02:37:00.6146988-07:00",
+    "size": 4683087332,
+    "digest": "845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e",
+    "details": {
+      "parent_model": "",
+      "format": "gguf",
+      "family": "qwen2",
+      "families": [
+        "qwen2"
+      ],
+      "parameter_size": "7.6B",
+      "quantization_level": "Q4_K_M",
+      "context_length": 32768,
+      "embedding_length": 3584,
+      "runner": "ggml"
+    },
+    "capabilities": [
+      "completion",
+      "tools"
+    ]
+  },
+  "cases": 28,
+  "presentations": 84,
+  "condition_groups": 14,
+  "source_files": [
+    {
+      "path": "content/handbook/support/workflows/data_handling.md",
+      "sha256": "e4589749be7a6e4983ae8c27f8154ed90d6bbb12f313e7bf43490afd43ae03bf",
+      "permalink": "https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/e1c706abbe174add18ac09a72976df2a79d0178c/content/handbook/support/workflows/data_handling.md",
+      "revision": "e1c706abbe174add18ac09a72976df2a79d0178c"
+    },
+    {
+      "path": "content/handbook/people-group/acceptable-use-policy.md",
+      "sha256": "31811c955c6a36c1e4cd1af4328bf3c1e40a5687082c3bea9521151c24bd0ba3",
+      "permalink": "https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/e1c706abbe174add18ac09a72976df2a79d0178c/content/handbook/people-group/acceptable-use-policy.md",
+      "revision": "e1c706abbe174add18ac09a72976df2a79d0178c"
+    }
+  ],
+  "source_cases_sha256": "78410cda08bc1346f6e455100c340a74830b9003046f21ae656f3d2f2201562a",
+  "source_labels_sha256": "64e794302f0f871f3417863fe287ec46c985672a7dfec3bb0a124661b856ddc7",
+  "contexts_sha256": "f6d54be5b5180ed21dad87430f42d4644289069c69c19ebeb0481abf5f129beb",
+  "observations_sha256": "73108e82d1b31a94ba4ea6826e5e58e81fa180dd610bdf2027e0f8411ddb8b7a",
+  "sources": {
+    "audit.py": "ae39691dccfbf874f6225f51c00dd79efea47f7e2bca6ba274af724987658fa5",
+    "build.py": "ace9f840a284c83013367a21835e7918ebb26adc38165f88ee4423e3f8f06cd0",
+    "run.py": "a61dd2f311d885b7628722e02368e6b3719e18dd006e22077cededdea936c8fc"
+  },
+  "tokenizer": {
+    "official_repo": "Qwen/Qwen2.5-7B-Instruct",
+    "official_revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+    "tokenizer_files": {
+      "tokenizer.json": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+      "tokenizer_config.json": "5b5d4f65d0acd3b2d56a35b56d374a36cbc1c8fa5cf3b3febbbfabf22f359583"
+    }
+  },
+  "tokens_source_sha256": "7fb473c622ab10bc99432d3be0b77d6eb232b4cd5f0986d2661d1bfdc85d07e7",
+  "options": {
+    "temperature": 0,
+    "seed": 17,
+    "num_ctx": 2048,
+    "num_predict": 12,
+    "num_gpu": 0,
+    "num_thread": 4
+  },
+  "request_timeout_seconds": 25,
+  "max_prompt_tokens": 398,
+  "training_updates": 0,
+  "whole_goal_complete": false
+}

@@ -1,0 +1,49 @@
+{
+  "checkpoint": "artifacts/20261117_optimization_repair/repair/continue_lower_lr",
+  "checkpoint_seal": {
+    "adapter_hashes": {
+      "adapter_config.json": "962ed6e71f0f3cd8f563679a110b736742c093f5421841fab629b557a171ba48",
+      "adapter_model.safetensors": "7bfe9d26bd532787032a19dfdcf48a3cd01099128834f46cc24ebbec72c13f72",
+      "README.md": "39d3d3aa2d89a2b4ab09cecd018fbbc4cebc3f4b2c6d9e85b81abc38a1dc4045"
+    },
+    "steps": 80,
+    "input_tokens": 238888,
+    "initial_adapter_hashes": {
+      "adapter_config.json": "317dc54d0fcd6fb3b630eec143c04640103d5388e4a41e5bdedf7f327c2613a7",
+      "adapter_model.safetensors": "b311df52c508b8d2142f9fcaa26b04dae0d92cd1806608eab59207e24dc0a42f",
+      "README.md": "39d3d3aa2d89a2b4ab09cecd018fbbc4cebc3f4b2c6d9e85b81abc38a1dc4045"
+    }
+  },
+  "cases": 36,
+  "presentations": 216,
+  "oracle_estimates": true,
+  "model_updates": 0,
+  "data_hashes": {
+    "observations.jsonl": "881ce81a7685dbcaaa3847b6d34a049788cafeb251664661b517bfede7c52a43",
+    "labels.jsonl": "d47fde746e5c4ba9b0ecfda6649e29f28591f05bb17ccfd86c6d5d9ded3354dd"
+  },
+  "dependencies": {
+    "code/kci/relation_language.py": "a966b9375e7243b78b1f0baf9b4a9b42a21246bc70f9e85a1cc39d7dd01ae771",
+    "code/experiments/relation_solution_data.py": "89a5ebd7499dca4b22e9d9f3d542490777a6d879c3f44fd1465e82193dd20bbf",
+    "artifacts/20261116_relation_solution/lm_common.py": "02bddaf84a7b82f6b527d3256e6c226f11f4ffcebdce517347cb5fdbfd0bdede",
+    "artifacts/20261116_relation_solution/entity_palettes.json": "bcbb3ec5ef509cbcebd6ba9dae3347f33e01fd2e2e9e5e013418610e6d082fbf",
+    "artifacts/20261116_relation_solution/environment.json": "31cb6b1408920f942df6ece7ce73314075a0859e5c1289d5b414a897f1960872",
+    "artifacts/20261117_action_binding/learned_evidence.py": "aee9664d6880fe716d6bf3cf99fa31ca76d0768a546272e047e77b9cea13d663",
+    "artifacts/20261117_action_binding/query_pilot.py": "c3d6df2de82610bc6759f0eb0e79f25aad2885d5594ecd0cda999c93b9696de5",
+    "artifacts/20261117_binding_factors/render.py": "f15b7da32b9af10871909cc4b3ca92862785b518d0b7c49845358757b67224e4",
+    "artifacts/20261117_action_binding/probe_frozen.py": "f9b363eb88edf603c7a95f0487ca722da318ebc444a0c18a82e9ebffbf68fc8e",
+    "artifacts/20261117_action_binding/actor_transfer.py": "552d00ee01742051a5243b41b984349f38d54da1737b66b15a14fac083bbc2c2",
+    "artifacts/20261116_relation_solution/proof_targets.py": "62ab389404033dfba3315ef5dfb13e577c0333fa0c29b48e8439e2b8b9a66286",
+    "artifacts/20261116_relation_solution/lm_source_manifest.json": "ca4dd318927b5a5de472e050eb4dc56fa4f014bc100d7757b8746f1044ff9100",
+    "artifacts/20261117_frozen_crossover/PLAN.json": "6d874c095e0912dc0143375c247c3d3d2e364421ad21cf0b4f45bd993eaad900",
+    "artifacts/20261117_frozen_crossover/common.py": "dcd23f7191532fb86b8c14b21e08045cdc2615c036720c6215bdc4759f1d4e79",
+    "artifacts/20261117_frozen_crossover/train_oracle.jsonl": "b3d714dc5ff96ad3b7ac73cabe33785ad162a13e953e12ae358482bf10e1653b",
+    "artifacts/20261117_optimization_repair/repair/continue_lower_lr/train_fit.jsonl": "9a6df79ad914d74c1f08b8104149a86976549656b8aa68eb22c1b2f4327daa37"
+  },
+  "sources": {
+    "audit.py": "ec577d78d6e45eca1cf5f4ef73c9b233e974ecba85d47daa611001f85d23d3cb",
+    "build.py": "96e27ca54251785fe66f34b9b300497fa9aac9ca23e5714f92f0ebe12a6e6408",
+    "run.py": "c70bfc067c67c34235482867ff4e79da0538c2a82435e627e306b599abf2b316"
+  },
+  "whole_goal_complete": false
+}

@@ -1,0 +1,9 @@
+# Post-result option-order intervention on residual TRAIN errors
+
+The completed optimization repair leaves the exact same8oracle-input Worker errors in both new models and their initial teacher checkpoint. All8have zero safe-completion bits,Full-required true,permission false,and Full at optionC;the model generatesC. This is an observed association,not yet an isolated position effect.
+
+Freeze a diagnostic of continue_lower_lr,selected after the completed repair results;no model selection or new validation claim. Include all18originalTRAINWorkerpresentations with no safe completion plus18positive-completionWorkerpresentations selected by smallestSHA256(case_id) without looking at their errors. For each,preserve all original names,facts,plans,links and true estimate map;enumerate all6option permutations. Change only Options order and the corresponding letter-to-estimate alignment.216free actor responses,oracle estimates throughout,no query calls,no updates. Repeated presentations are not independent tasks.
+
+Metrics: optimality under every order;chosen-letter counts;unsafe-Full rates by Full's position;within-case original-prompt reproduction. Allow distinct equally optimal actions: semantic action invariance is not required when there are ties. Compare to the initial order's already sealed raw response as an inference-stability control. If repeated identical prompts disagree,report it before attributing changes solely to order. This cannot establish self-generated relation accuracy or natural norms.
+
+CPUFP32,seed17,4threads,batch4states,greedy,max16tokens,existing8ssoftlimit and>=9.5sinvalid. Pin all sources,input/checkpoint hashes before calls. The model worker reads only precompiled diagnostic prompts; action labels stay in a separate audit file. Intentional oracle estimates are explicitly marked. Preserve existing models,metrics and raw outputs.

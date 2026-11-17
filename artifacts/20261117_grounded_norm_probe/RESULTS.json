@@ -1,0 +1,73 @@
+{
+  "completed": 84,
+  "planned": 84,
+  "complete": true,
+  "metrics": [
+    {
+      "mode": "strict",
+      "labels": {
+        "PASS": {
+          "presentations": 12,
+          "agree": 12,
+          "unknown": 0,
+          "invalid": 0
+        },
+        "FAIL": {
+          "presentations": 36,
+          "agree": 36,
+          "unknown": 0,
+          "invalid": 0
+        },
+        "UNKNOWN": {
+          "presentations": 36,
+          "agree": 0,
+          "unknown": 0,
+          "invalid": 0
+        }
+      },
+      "all_three_agree": 16,
+      "all_three_valid_same_choice": 28,
+      "all_six_paired_task_agree": 8,
+      "macro_agreement": 0.6666666666666666
+    },
+    {
+      "mode": "secondary",
+      "labels": {
+        "PASS": {
+          "presentations": 12,
+          "agree": 12,
+          "unknown": 0,
+          "invalid": 0
+        },
+        "FAIL": {
+          "presentations": 36,
+          "agree": 36,
+          "unknown": 0,
+          "invalid": 0
+        },
+        "UNKNOWN": {
+          "presentations": 36,
+          "agree": 0,
+          "unknown": 0,
+          "invalid": 0
+        }
+      },
+      "all_three_agree": 16,
+      "all_three_valid_same_choice": 28,
+      "all_six_paired_task_agree": 8,
+      "macro_agreement": 0.6666666666666666
+    }
+  ],
+  "constant_baseline_agreement": {
+    "PASS": 12,
+    "FAIL": 36,
+    "UNKNOWN": 36
+  },
+  "max_seconds": 7.128535000025295,
+  "seconds_sum": 130.2142907003872,
+  "release_verified": true,
+  "human_verified": false,
+  "trained_policy_transfer": false,
+  "executed_business_tasks": 0,
+  "whole_goal_complete": false
+}

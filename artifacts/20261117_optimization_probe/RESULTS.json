@@ -1,0 +1,191 @@
+{
+  "cases": 17,
+  "negative_gradient_cosines": 2,
+  "metrics": [
+    {
+      "arm": "none",
+      "location": "anchor",
+      "loss": "query",
+      "cases": 17,
+      "reduced": 0,
+      "increased": 0,
+      "mean_delta": 0.0,
+      "min_delta": 0.0,
+      "max_delta": 0.0
+    },
+    {
+      "arm": "none",
+      "location": "anchor",
+      "loss": "actor",
+      "cases": 17,
+      "reduced": 0,
+      "increased": 0,
+      "mean_delta": 0.0,
+      "min_delta": 0.0,
+      "max_delta": 0.0
+    },
+    {
+      "arm": "none",
+      "location": "companion",
+      "loss": "query",
+      "cases": 17,
+      "reduced": 0,
+      "increased": 0,
+      "mean_delta": 0.0,
+      "min_delta": 0.0,
+      "max_delta": 0.0
+    },
+    {
+      "arm": "none",
+      "location": "companion",
+      "loss": "actor",
+      "cases": 17,
+      "reduced": 0,
+      "increased": 0,
+      "mean_delta": 0.0,
+      "min_delta": 0.0,
+      "max_delta": 0.0
+    },
+    {
+      "arm": "query",
+      "location": "anchor",
+      "loss": "query",
+      "cases": 17,
+      "reduced": 16,
+      "increased": 1,
+      "mean_delta": -0.14383822900451967,
+      "min_delta": -1.4640869891736656,
+      "max_delta": 0.17350733280181885
+    },
+    {
+      "arm": "query",
+      "location": "anchor",
+      "loss": "actor",
+      "cases": 17,
+      "reduced": 13,
+      "increased": 3,
+      "mean_delta": -0.0049537343960871704,
+      "min_delta": -0.09073567390441895,
+      "max_delta": 0.011232055723667145
+    },
+    {
+      "arm": "query",
+      "location": "companion",
+      "loss": "query",
+      "cases": 17,
+      "reduced": 16,
+      "increased": 1,
+      "mean_delta": -0.04718706248497577,
+      "min_delta": -0.5141208011191338,
+      "max_delta": 0.20509520173072815
+    },
+    {
+      "arm": "query",
+      "location": "companion",
+      "loss": "actor",
+      "cases": 17,
+      "reduced": 14,
+      "increased": 2,
+      "mean_delta": -0.009994949011289625,
+      "min_delta": -0.16323113441467285,
+      "max_delta": 0.0002558020642027259
+    },
+    {
+      "arm": "actor",
+      "location": "anchor",
+      "loss": "query",
+      "cases": 17,
+      "reduced": 14,
+      "increased": 3,
+      "mean_delta": -0.032136365397223816,
+      "min_delta": -0.40599584579467773,
+      "max_delta": 0.013448059558868408
+    },
+    {
+      "arm": "actor",
+      "location": "anchor",
+      "loss": "actor",
+      "cases": 17,
+      "reduced": 17,
+      "increased": 0,
+      "mean_delta": -0.07208232221402046,
+      "min_delta": -1.0966608300805092,
+      "max_delta": -7.940161594888195e-05
+    },
+    {
+      "arm": "actor",
+      "location": "companion",
+      "loss": "query",
+      "cases": 17,
+      "reduced": 13,
+      "increased": 4,
+      "mean_delta": -0.023853009479353204,
+      "min_delta": -0.36041639745235443,
+      "max_delta": 0.030495941638946533
+    },
+    {
+      "arm": "actor",
+      "location": "companion",
+      "loss": "actor",
+      "cases": 17,
+      "reduced": 17,
+      "increased": 0,
+      "mean_delta": -0.1302374672564731,
+      "min_delta": -2.1603625118732452,
+      "max_delta": -6.730236054863781e-05
+    },
+    {
+      "arm": "joint",
+      "location": "anchor",
+      "loss": "query",
+      "cases": 17,
+      "reduced": 16,
+      "increased": 1,
+      "mean_delta": -0.1435145709418815,
+      "min_delta": -1.4640867817215621,
+      "max_delta": 0.1720244288444519
+    },
+    {
+      "arm": "joint",
+      "location": "anchor",
+      "loss": "actor",
+      "cases": 17,
+      "reduced": 15,
+      "increased": 1,
+      "mean_delta": -0.06979548021669923,
+      "min_delta": -1.0939623266458511,
+      "max_delta": 1.8417456885799766e-05
+    },
+    {
+      "arm": "joint",
+      "location": "companion",
+      "loss": "query",
+      "cases": 17,
+      "reduced": 16,
+      "increased": 1,
+      "mean_delta": -0.04831412949672941,
+      "min_delta": -0.5141206595581025,
+      "max_delta": 0.20352575182914734
+    },
+    {
+      "arm": "joint",
+      "location": "companion",
+      "loss": "actor",
+      "cases": 17,
+      "reduced": 14,
+      "increased": 2,
+      "mean_delta": -0.12816094877352419,
+      "min_delta": -2.1539719253778458,
+      "max_delta": 0.00011696683941408992
+    }
+  ],
+  "operations": 170,
+  "max_seconds": 4.952533392999982,
+  "operation_seconds_sum": 335.97831082999994,
+  "errors": 0,
+  "scope": "Restored one-step fresh-Adam TRAIN diagnostics only; no generated-policy or generalization evidence.",
+  "temporary_optimizer_steps": 51,
+  "persistent_model_updates": 0,
+  "whole_goal_complete": false,
+  "auditor_sha256": "0d5c4cc8075f058f63384f6f8c36cfd962502487e272e3aef4974374a0d514af"
+}

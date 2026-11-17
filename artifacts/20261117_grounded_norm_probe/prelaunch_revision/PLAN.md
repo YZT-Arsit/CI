@@ -1,0 +1,11 @@
+# Source-grounded clause comprehension, separate from trained-policy transfer
+
+Use all28existing GitLab policy_cases_v2 DEV cases without editing facts or labels. They are authored hypotheticals under two pinned real organization clauses,with four task descriptions and14condition groups. Labels have model review only,not human or executed-business validation; training remains prohibited by dataset qualification.
+
+Expose only the scoped question,natural task description,hypothetical facts and a clause-level paraphrase of the pinned source. IDs,group names,labels,review judgments and metadata are excluded from policy input. contexts.json contains shared rule context for every case of its clause,not per-case answers. Context paraphrases are reviewed against the exact pinned official source before calls. Full source text remains in local cache,not redistributed. Missing facts remain UNKNOWN. PASS means the named requirements,not complete workflow compliance; promised future duties are not executed duties.
+
+Each case appears under three cyclic orders of the words PASS,FAIL,UNKNOWN:84calls. Use the same frozen Qwen2.5-7B CPU model as earlier natural-norm probes. This is an independent clause-comprehension diagnostic on a different dataset,not a matched causal comparison to PrivacyLens,not transfer of the trained135Mmodel,and not proof of cross-task validity. Task wording pairs share conditions and source; do not count them as independent policies.
+
+Predeclare exact one-word response parsing (outer whitespace ignored); secondary parsing admits one unambiguous PASS/FAIL/UNKNOWN word and is reported separately. Preserve raw outputs,no retries. Report per-label agreement,UNKNOWN behavior,invalids,all-order consistency,and paired-task all-six agreement. Constant PASS/FAIL/UNKNOWN baselines and macro agreement prevent treating blanket UNKNOWN as success. No safety claim is made from unresolved answers.
+
+Use official pinned tokenizer/raw chat rendering and compare server token count to expected; no silent truncation. CPUonly,num_ctx2048,num_predict12,temperature0,seed17,4threads,25srequest limit. Run sequentially after the optimization worker finishes; require no preexisting Ollama model and unload only this model afterward. Seal responses before labels are opened by scorer. No training or business tool execution.

@@ -1,0 +1,90 @@
+{
+  "positions": [
+    {
+      "group": "zero",
+      "full_position": "A",
+      "presentations": 36,
+      "optimal": 36,
+      "full": 0,
+      "unsafe": 0,
+      "unsafe_full": 0,
+      "invalid": 0
+    },
+    {
+      "group": "zero",
+      "full_position": "B",
+      "presentations": 36,
+      "optimal": 18,
+      "full": 18,
+      "unsafe": 18,
+      "unsafe_full": 18,
+      "invalid": 0
+    },
+    {
+      "group": "zero",
+      "full_position": "C",
+      "presentations": 36,
+      "optimal": 0,
+      "full": 36,
+      "unsafe": 36,
+      "unsafe_full": 36,
+      "invalid": 0
+    },
+    {
+      "group": "positive",
+      "full_position": "A",
+      "presentations": 36,
+      "optimal": 36,
+      "full": 30,
+      "unsafe": 0,
+      "unsafe_full": 0,
+      "invalid": 0
+    },
+    {
+      "group": "positive",
+      "full_position": "B",
+      "presentations": 36,
+      "optimal": 36,
+      "full": 24,
+      "unsafe": 0,
+      "unsafe_full": 0,
+      "invalid": 0
+    },
+    {
+      "group": "positive",
+      "full_position": "C",
+      "presentations": 36,
+      "optimal": 36,
+      "full": 18,
+      "unsafe": 0,
+      "unsafe_full": 0,
+      "invalid": 0
+    }
+  ],
+  "letters": {
+    "zero": {
+      "B": 36,
+      "C": 72
+    },
+    "positive": {
+      "A": 48,
+      "B": 36,
+      "C": 24
+    }
+  },
+  "all_six_optimal": {
+    "zero": 0,
+    "positive": 18
+  },
+  "identical_prompt_control": {
+    "prompts": 36,
+    "raw_disagreements": 0
+  },
+  "responses": 216,
+  "batches": 54,
+  "max_seconds": 0.9784399099999987,
+  "seconds_sum": 41.51425554300003,
+  "errors": 0,
+  "oracle_estimates": true,
+  "whole_goal_complete": false
+}

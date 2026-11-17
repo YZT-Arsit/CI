@@ -7,6 +7,10 @@
 
 ## 当前进度
 
+最新续轮：[续训局部改善与无解时的选项绑定问题](artifacts/20261117_optimization_repair/REPORT.md)。新增两个检查点、160 次更新；同一新 DEV 上严格成功从 43/112 增至 54/112，合规从 92/112 增至 94/112、95/112，但深层完整配对仍全失败。冻结排列干预发现：无合规完成路径时，仅将危险 Full 放到 A/B/C，违规就变为 0/36、18/36、36/36；有解对照全部通过。另完成 [84 次真实条款依据探针](artifacts/20261117_grounded_norm_probe/REPORT.md)，明确 PASS/FAIL 全对，但 UNKNOWN 全部被误判为确定结论。**完整目标未完成，GPU 大批量 NO_GO。** 四组原始归档恢复：`python -B tools/restore_optimization_artifacts.py`。
+
+以下保留上一轮结果：
+
 最新续轮：[冻结模型交叉：关系判断如何影响行动](artifacts/20261117_frozen_crossover/REPORT.md)。三个冻结检查点在 560 个相同状态呈现上交叉测试，未训练新模型。正确输入 SFT 自身判断的严格成功为 39/112，输入环境真值后为 104/112；固定行动模型的干预修复 92 个状态动作错误，但 oracle 下 Worker 全状态仍有 46/224 个错误。关系判断能进入行动，可靠自预测与安全行动仍未解决。主实验 11,392 条生成响应、1,344 个重构回合；训练拟合补充单独记账。**完整目标未完成，GPU 大批量 NO_GO。** 原始记录恢复：`python -B tools/restore_frozen_crossover_artifacts.py`。
 
 以下保留上一轮结果：

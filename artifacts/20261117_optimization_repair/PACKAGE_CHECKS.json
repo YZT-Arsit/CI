@@ -1,0 +1,13 @@
+{
+  "native_replay": "448 episodes,1275 actions,2929 queries;PASS",
+  "training_update_audit": "160 updates;PASS",
+  "restored_optimizer_diagnostic": "17 cases,51temporaryupdates;PASS",
+  "option_permutation_audit": "216responses,36identicalpromptcontrols;PASS",
+  "norm_probe_audit": "84responses,CPUreleaseverified;PASS",
+  "parser_controls": 14,
+  "archive_restore": "107archives;fresh,idempotent,anddifferent-evidence-refusal PASS",
+  "final_read_only_review": "No remaining material issue; structural-versus-history wording corrected",
+  "git_whitespace_check": "PASS",
+  "all_model_jobs_terminal_exit_zero": true,
+  "whole_goal_complete": false
+}

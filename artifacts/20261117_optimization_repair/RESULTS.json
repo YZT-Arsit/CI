@@ -1,0 +1,189 @@
+{
+  "dev": [
+    {
+      "arm": "continue_original_lr",
+      "episodes": 112,
+      "strict_success": 54,
+      "valid_ci": 94,
+      "invalid": 0,
+      "invalid_queries": 0,
+      "paired": {
+        "base": {
+          "groups": 8,
+          "all_four_success": 1
+        },
+        "depth3": {
+          "groups": 4,
+          "all_four_success": 0
+        },
+        "internal3": {
+          "groups": 4,
+          "all_four_success": 0
+        },
+        "cycle4": {
+          "groups": 4,
+          "all_four_success": 0
+        }
+      }
+    },
+    {
+      "arm": "continue_lower_lr",
+      "episodes": 112,
+      "strict_success": 54,
+      "valid_ci": 95,
+      "invalid": 0,
+      "invalid_queries": 0,
+      "paired": {
+        "base": {
+          "groups": 8,
+          "all_four_success": 3
+        },
+        "depth3": {
+          "groups": 4,
+          "all_four_success": 0
+        },
+        "internal3": {
+          "groups": 4,
+          "all_four_success": 0
+        },
+        "cycle4": {
+          "groups": 4,
+          "all_four_success": 0
+        }
+      }
+    },
+    {
+      "arm": "teacher_sft",
+      "episodes": 112,
+      "strict_success": 43,
+      "valid_ci": 92,
+      "invalid": 0,
+      "invalid_queries": 0,
+      "paired": {
+        "base": {
+          "groups": 8,
+          "all_four_success": 1
+        },
+        "depth3": {
+          "groups": 4,
+          "all_four_success": 0
+        },
+        "internal3": {
+          "groups": 4,
+          "all_four_success": 0
+        },
+        "cycle4": {
+          "groups": 4,
+          "all_four_success": 0
+        }
+      }
+    },
+    {
+      "arm": "earlier_sft",
+      "episodes": 112,
+      "strict_success": 77,
+      "valid_ci": 78,
+      "invalid": 0,
+      "invalid_queries": 0,
+      "paired": {
+        "base": {
+          "groups": 8,
+          "all_four_success": 8
+        },
+        "depth3": {
+          "groups": 4,
+          "all_four_success": 0
+        },
+        "internal3": {
+          "groups": 4,
+          "all_four_success": 0
+        },
+        "cycle4": {
+          "groups": 4,
+          "all_four_success": 0
+        }
+      }
+    }
+  ],
+  "train_fit": [
+    {
+      "arm": "continue_original_lr",
+      "role": "Planner",
+      "queries": 160,
+      "query_correct": 158,
+      "invalid_queries": 0,
+      "presentations": 80,
+      "all_queries_correct": 78,
+      "actor_optimal": 80,
+      "invalid_actions": 0
+    },
+    {
+      "arm": "continue_original_lr",
+      "role": "Source",
+      "queries": 160,
+      "query_correct": 156,
+      "invalid_queries": 0,
+      "presentations": 80,
+      "all_queries_correct": 76,
+      "actor_optimal": 80,
+      "invalid_actions": 0
+    },
+    {
+      "arm": "continue_original_lr",
+      "role": "Worker",
+      "queries": 480,
+      "query_correct": 458,
+      "invalid_queries": 0,
+      "presentations": 160,
+      "all_queries_correct": 138,
+      "actor_optimal": 152,
+      "invalid_actions": 0
+    },
+    {
+      "arm": "continue_lower_lr",
+      "role": "Planner",
+      "queries": 160,
+      "query_correct": 158,
+      "invalid_queries": 0,
+      "presentations": 80,
+      "all_queries_correct": 78,
+      "actor_optimal": 80,
+      "invalid_actions": 0
+    },
+    {
+      "arm": "continue_lower_lr",
+      "role": "Source",
+      "queries": 160,
+      "query_correct": 156,
+      "invalid_queries": 0,
+      "presentations": 80,
+      "all_queries_correct": 76,
+      "actor_optimal": 80,
+      "invalid_actions": 0
+    },
+    {
+      "arm": "continue_lower_lr",
+      "role": "Worker",
+      "queries": 480,
+      "query_correct": 458,
+      "invalid_queries": 0,
+      "presentations": 160,
+      "all_queries_correct": 138,
+      "actor_optimal": 152,
+      "invalid_actions": 0
+    }
+  ],
+  "new_optimizer_updates": 160,
+  "training_input_tokens": {
+    "continue_original_lr": 238888,
+    "continue_lower_lr": 238888
+  },
+  "max_update_seconds": 5.3998755799998435,
+  "training_seconds_sum": 647.1502621029999,
+  "generated_responses": 6444,
+  "generation_batches": 1650,
+  "max_generation_seconds": 2.011652892000029,
+  "generation_seconds_sum": 1196.5695848589964,
+  "errors": 0,
+  "whole_goal_complete": false
+}
