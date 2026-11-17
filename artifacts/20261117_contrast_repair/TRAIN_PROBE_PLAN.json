@@ -1,0 +1,13 @@
+{
+  "scope": "Supplementary diagnostic registered during repair training, before completed repair results. Original TRAIN prompts and same-world renamed prompts; in-sample fit and symbol transfer, not independent generalization or full policy success.",
+  "source_sha256": "ada66cf9353f0a090299188aefeae588c1d48ea215428cfb4d9a258910a5ee69",
+  "main_plan_sha256": "8e2719f620ef7d1a96fe319595d136e9ea011fbafc8e3cf4f8ada18b12e147bb",
+  "data_hashes": {
+    "train_probe_observations.jsonl": "7b5b31d9a8d1bc957c9f1a8fa2ce71e1aa048c22aa3d16b6260fe995fa11e02a",
+    "train_probe_labels.jsonl": "592cc122714587153cc7fd97c477f4b53ea2bc22a785eacf67c709b02539b102"
+  },
+  "responses": 1152,
+  "new_updates": 0,
+  "primary_gate_changed": false,
+  "rename_interpretation_gate": "All four prompts in each original/renamed relationship pair have identical token counts. Preserve and report all outputs even if gate fails."
+}

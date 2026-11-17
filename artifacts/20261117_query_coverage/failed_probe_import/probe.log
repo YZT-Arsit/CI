@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/mnt/d/research/longhistory/artifacts/20261117_query_coverage/probe.py", line 27, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/mnt/d/research/longhistory/artifacts/20261117_query_coverage/probe.py", line 21, in main
+    for j,value in enumerate(raw):f.write(json.dumps({'batch':i,'index':j,'raw':value,'seconds_batch':seconds})+'\n');count+=1
+                                          ^^^^
+NameError: name 'json' is not defined. Did you forget to import 'json'?

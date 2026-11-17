@@ -7,6 +7,12 @@
 
 ## 当前进度
 
+最新续轮：[对照采样修复、一跳恢复与训练内拟合失败](artifacts/20261117_contrast_repair/REPORT.md)，通俗解释见 [SOLUTION.md](artifacts/20261117_contrast_repair/SOLUTION.md)。本次两组实验合计新增 4 个 CPU LoRA 检查点、492 次更新、18,789 条已留存生成响应，最长单次更新 5.81 秒。先完成[下游输入干预与深度覆盖实验](artifacts/20261117_query_coverage/REPORT.md)，再将关系翻转批次从 10/96 修复为 59/96。一跳完整配对恢复至 8/8，但一跳／多跳方案违规升至 29/128、41/128，深层及结构变化的完整配对仍全部失败。训练内探针进一步发现，多跳模型在原训练名称下，三跳 Planner 为 0/24 配对，Source、Worker 各为 0/36；换名后也失败。**工程采样缺口已修复，可靠关系学习与安全—效用联合要求仍未解决，GPU 大批量 NO_GO。** 数据、负面证据、参考复用与复核命令均保留；运行 `python -B tools/restore_contrast_repair_artifacts.py` 恢复本次两组记录。
+
+训练来源更正：本实验的祖先 trace 模型早已采样一到三跳，三跳不能称为整条模型训练来源中的未见深度。详见 [SCOPE_CORRECTION.md](artifacts/20261117_query_coverage/SCOPE_CORRECTION.md)。本轮修复自适应复用 DEV，尚无独立确认；自然业务规范迁移和 32 步 Agent 协作仍未证明。
+
+以下保留上一轮结果：
+
 最新续轮：[行动绑定的局部修复与自主任务退步](artifacts/20261117_fallback_order/REPORT.md)。相同训练数据与初始模型，比较先纠正后重放、反向和交错训练，共 321 次 CPU LoRA 更新、6,616 条生成响应。正确判断输入下，先纠正后重放和交错方案的新无解/有解状态均为 12/12 通过全部选项排列；但同一新 DEV 的严格成功由初始 59/112 降至 25/112、24/112，反向为 43/112。初始 Planner 判断替换控制证明输入会影响动作；下游错误定位仍属描述性证据。**联合修复门槛未通过，完整目标未完成，GPU 大批量 NO_GO。** 原始记录恢复：`python -B tools/restore_fallback_order_artifacts.py`。
 
 以下保留上一轮结果：

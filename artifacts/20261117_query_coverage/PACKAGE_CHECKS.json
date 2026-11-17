@@ -1,0 +1,31 @@
+{
+  "main_audit_errors": 0,
+  "paired_audit_errors": 0,
+  "main_seal_verified": true,
+  "whole_goal_complete": false,
+  "large_gpu": "NO_GO",
+  "archive_checks": {
+    "archives": 260,
+    "raw_bytes": 23773397,
+    "compressed_bytes": 1908453,
+    "fresh_restore": "PASS",
+    "idempotence": "PASS",
+    "different_evidence_refused": "PASS",
+    "python_sources_parsed": 28
+  },
+  "evidence_sha256": {
+    "RESULTS.json": "23eb991f3b9353305cdd1c47356c03d823053a28cffc061f0a5c30b9c04178d7",
+    "PAIR_QUERY_RESULTS.json": "80b1776c98c0967d02d99f0ffd792057271a2c90e77f70d754d8cc571dbb82b9",
+    "DECISION.json": "e1e32916e109cf55258aef13656d16a70c1d5e698ae5ab6880ec3b9c214c076b",
+    "REPORT.md": "3cae424d274305c15361b104df990723d6924475542841efc091f748e0cd7654",
+    "REVIEW_NOTES.md": "411981ceb36a4dfe1c3b0142ae80a9ed24b7085fdff0021626be99f5e218fd0c",
+    "SEALED.json": "3af67bac30653927f7cef400480a9bc5acebfb7ae1d6061f245b004977ae6aa1",
+    "compression_manifest.json": "6496ef1cc92411c02fd9e6e4a06fcaadbc43f05f64478153a309407c07f42f95",
+    "PROBE_RESULTS.json": "784cd834cf47d3f73814ad161548f6e04120971f69aced0300f9e552988de15b",
+    "PROBE_SEALED.json": "ee34f4566d7ff0330e549c6cd5c51bb09e853aec1eb7642e6a5be85adf5c53d9",
+    "LINEAGE_AUDIT.json": "2efd7f47a7ec04af0078fae55c154e6de1916538bb61b07e64e59a8eda97fc9a",
+    "SCOPE_CORRECTION.md": "2353cbd3606d473809b1ee9c5965edae29ad27d2b6d7b736a9b577b086d69a7e",
+    "CONTRAST_EXPOSURE.json": "acc7e2e2658f4e19f92286cc22288dd0e514a92c1d67bbad7adcf635879be624",
+    "ARCHIVE_VERIFIED.json": "c6302b80acf36241c59d572f2689b2870424668d97f62c06feba5bb8f1c7ef20"
+  }
+}

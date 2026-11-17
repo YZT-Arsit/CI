@@ -1,0 +1,13 @@
+# Independent agent review
+
+The downstream probe review reconstructed405states in214originalbatches. It checked prompt/label matching, first-error subsets and identical-input controls in every arm-role group. The plan wording was tightened from per-arm to per-arm-role controls before successful inference. A missing json import then caused an output-writer failure; its source, plan, empty raw file and traceback remain archived. The import was fixed and the plan re-frozen before the successful405response run. No model result was selected or discarded on performance.
+
+The coverage prelaunch review verified allfourarms and the frozen gate,248dependencyhashes,96matchedtrainingbatches, the123updateschedule,1536fixed-queryprompts/labels, and144oracleprompts covering24states and allsixorders. It independently rebuilt128DEVworlds and checked allthreeTRAINdepth versions. No remaining substantive launch blocker was found.
+
+Review explicitly retained the compute caveat: depth changes token/entity exposure despite matched labels, factors, roles and update count. Depth3 is seen-depth for mixed training; depth4 and structural families are held out. This is agent code/evidence review, not independent human validation of natural norms.
+
+Supplementary paired-query review independently rebuilt288label-changing native query pairs and144action-query groups with two sides and two presentations. Matching by role, committed ticket and candidate action was verified. The auditor gained frozen main source/data/dependency checks before scoring, with earlier source/plan preserved. Unique observation and base-group exposure differences in DATASET_CARD are explicit. No primary gate or training change was made.
+
+Later ancestry review independently verified seven checkpoints, six parent links, five original trace source hashes, and reconstructed depth counts212/190/198. SCOPE_CORRECTION now overrides any earlier broad "depth3 becomes seen" wording: the trace ancestor already sampled depths1/2/3. The current comparison concerns recent supervision re-exposure, not first introduction, a wholly one-hop lineage, or depth3 extrapolation. It does not establish forgetting. The frozen experiment and thresholds remain unchanged.
+
+Final result review checked all 149 main sealed files, 512 episodes, 6,144 fixed queries across four arms, and the ten contrast batches. Reported numbers matched the native records. Two wording corrections were applied: sparse direct contrast coverage is an observed gap, not a proven cause of failure; the child repair explicitly reuses these DEV results adaptively and had no completed outcome when this parent report was written. No independent generalization or full-goal claim was approved.

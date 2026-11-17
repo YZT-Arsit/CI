@@ -1,0 +1,36 @@
+{
+  "arms": {
+    "one_hop": {
+      "state_presentations_before_two_views": 192,
+      "unique_observations": 119,
+      "unique_base_groups": 42,
+      "query_target_counts_before_two_views": {
+        "0": 285,
+        "1": 163
+      },
+      "permission_required_counts": {
+        "(False, True)": 148,
+        "(True, False)": 14,
+        "(True, True)": 10,
+        "(False, False)": 20
+      }
+    },
+    "mixed_depth": {
+      "state_presentations_before_two_views": 192,
+      "unique_observations": 157,
+      "unique_base_groups": 59,
+      "query_target_counts_before_two_views": {
+        "0": 285,
+        "1": 163
+      },
+      "permission_required_counts": {
+        "(False, True)": 148,
+        "(True, False)": 14,
+        "(True, True)": 10,
+        "(False, False)": 20
+      }
+    }
+  },
+  "development_reused": true,
+  "note": "Sampler repair changes contrast density and condition frequencies together; no isolated causal claim about contrast density."
+}

@@ -1,0 +1,13 @@
+# Independent agent review
+
+Prelaunch review verified267dependencies and all local source/data hashes, byte-identical reusedDEV/query/oracle inputs, all96regeneratedbatches,54forcedslots (3meeting/3query per cell),59actualvalue-reversingbatches, and42unchangedanchors coveringall17conditionbuckets. Both sampler regression tests passed after witnessing the original coverage failure.
+
+The reviewer checked that initial/earlier arms skip model loading and generation entirely, and that the auditor validates source copies and reuse receipts while separating new generation from reused scored outputs. Training remains123updates per arm with identical initial weights, seeds, losses, target-selection indices and optimizer settings. No launch blocker remained. The repair output directory was absent before launch.
+
+The scientific qualification is essential: these DEV results already informed the repair. Reuse is explicitly adaptive development, not independent confirmation; no source task, naturalnorm or32stepAgentcollaboration result follows.
+
+Supplementary TRAIN-probe prelaunch review independently reconstructed all 1,152 prompts and labels, including all 288 four-prompt groups. Each group contains both original/renamed vocabularies and both opposing-label sides. There are 144 query pairs per vocabulary/model: Planner 72, Source 36 and Worker 36. Source, main-plan, data and dependency hashes matched. The worker requires the completed main seal, never updates parameters and retains all responses if the token-count control fails. No probe responses existed at review time. Equal token counts do not establish independent-world generalization.
+
+Final review independently checked all 151 main sealed files, 512 scored episodes, all 70 first-violation records and bytewise reference reuse. It confirmed 5,888 new main responses plus 5,736 reused responses equals 11,624 scored responses. All 1,152 TRAIN-probe answers, role/depth/vocabulary pair scores and 288 equal-token-count groups were independently recomputed. Zero invalid probe answers and the reported counts matched.
+
+The report now states that every coverage cell reached the predeclared six-batch minimum, without claiming that this is sufficient for learning. The rise in violations is stated with counts, without a statistical-significance claim. Failure on actual TRAIN prompts is supported; capacity, forgetting, independent generalization and counterfactual repair remain unproved. Combined new counts of 492 updates and 18,789 retained responses were confirmed. The referenced DELIVERY_COST.json was generated during final packaging. No substantive numerical or scope blocker remained. This is agent code/evidence review, not independent human validation of natural norms.

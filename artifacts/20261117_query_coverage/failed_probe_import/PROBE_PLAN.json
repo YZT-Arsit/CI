@@ -1,0 +1,21 @@
+{
+  "scope": "Fixed reached Source/Worker states, oracle estimates only; not full oracle rollouts or learned-query success",
+  "arms": [
+    "initial",
+    "interleaved"
+  ],
+  "responses": 405,
+  "batches": 214,
+  "model_updates": 0,
+  "prior_plan_sha256": "27838f24f601bcad0c631c8a08c68f14104cfda1460f0080c83f27c0fedb4c75",
+  "prior_seal_sha256": "a4906f271a8a67f0bac04225e028ba99b3a71fa1c3a9a00631c08ba49fea21ed",
+  "prior_failure_locations_sha256": "ce2747e34181faf50ab2a59832828472f13f2547db1e0fa7ce2424f383812e44",
+  "data_sha256": "89a7a5f680992387e4ff83549c11fe72651dbc291faa36cfe4878f9b6a71847c",
+  "sources": {
+    "probe_data.py": "c43b07011d61aa19a76cb5415df798ae5e0ca459500c0a5a33a7e423383c4c83",
+    "probe.py": "b428b690ee475a86a465e83b8716444393bce265faa65fc9e015bd88a77542f3",
+    "audit_probe.py": "bf1c84ba78e2925d952a2925df714a75f6215ea9f662ea25f7b224741648b956"
+  },
+  "interpretation_gate": "Each arm-role group has identical-prompt controls; zero raw disagreements on identical inputs; zero invalid oracle actions. Report first-error subset and all reached states separately.",
+  "whole_goal_complete": false
+}

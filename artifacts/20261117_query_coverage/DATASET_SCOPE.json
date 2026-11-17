@@ -1,0 +1,66 @@
+{
+  "train": {
+    "one_hop": {
+      "joint_state_presentations_before_two_views": 192,
+      "unique_base_groups": 70,
+      "unique_observations": 136,
+      "role_counts": {
+        "Planner": 64,
+        "Source": 64,
+        "Worker": 64
+      },
+      "query_target_counts_before_two_views": {
+        "1": 215,
+        "0": 233
+      }
+    },
+    "mixed_depth": {
+      "joint_state_presentations_before_two_views": 192,
+      "unique_base_groups": 89,
+      "unique_observations": 145,
+      "role_counts": {
+        "Planner": 64,
+        "Source": 64,
+        "Worker": 64
+      },
+      "query_target_counts_before_two_views": {
+        "1": 215,
+        "0": 233
+      }
+    }
+  },
+  "dev_presentations": 128,
+  "dev_unique_world_ids": 48,
+  "fixed_queries": 1536,
+  "fixed_query_labels": {
+    "0": 1096,
+    "1": 440
+  },
+  "fixed_query_roles": {
+    "Planner": 256,
+    "Source": 512,
+    "Worker": 768
+  },
+  "oracle_diagnostic": {
+    "zero": {
+      "states": 12,
+      "base_groups": 11,
+      "optimal_set_counts": {
+        "['PUBLISH_MINIMAL', 'WITHHOLD']": 12
+      }
+    },
+    "positive": {
+      "states": 12,
+      "base_groups": 9,
+      "optimal_set_counts": {
+        "['PUBLISH_FULL']": 12
+      }
+    }
+  },
+  "scope": "Related views/world pairs are not independent samples; TRAIN source task computations reused; no source holdout.",
+  "dev_semantic_worlds": 64,
+  "dev_base_groups_without_view_suffix": 40,
+  "constant_zero_query_correct": 1096,
+  "constant_one_query_correct": 440,
+  "unique_train_observation_exposure_differs": true
+}

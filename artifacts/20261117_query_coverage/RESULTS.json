@@ -1,0 +1,1206 @@
+{
+  "arms": [
+    {
+      "arm": "one_hop",
+      "episodes": 128,
+      "strict_success": 45,
+      "violations": 8,
+      "invalid_actions": 0,
+      "invalid_queries": 0,
+      "all_four_groups": {
+        "base": 0,
+        "depth3": 0,
+        "depth4": 0,
+        "internal3": 0,
+        "cycle4": 0
+      },
+      "fixed_query_count": 1536,
+      "fixed_query_correct": 1286,
+      "fixed_all_correct_states": 391,
+      "fixed_states": 640,
+      "query_by_family_role": [
+        {
+          "family": "base",
+          "role": "Planner",
+          "queries": 64,
+          "correct": 64,
+          "invalid": 0,
+          "positive": 32,
+          "false_negative": 0,
+          "false_positive": 0
+        },
+        {
+          "family": "base",
+          "role": "Source",
+          "queries": 128,
+          "correct": 103,
+          "invalid": 0,
+          "positive": 32,
+          "false_negative": 18,
+          "false_positive": 7
+        },
+        {
+          "family": "base",
+          "role": "Worker",
+          "queries": 192,
+          "correct": 168,
+          "invalid": 0,
+          "positive": 32,
+          "false_negative": 14,
+          "false_positive": 10
+        },
+        {
+          "family": "depth3",
+          "role": "Planner",
+          "queries": 32,
+          "correct": 16,
+          "invalid": 0,
+          "positive": 16,
+          "false_negative": 12,
+          "false_positive": 4
+        },
+        {
+          "family": "depth3",
+          "role": "Source",
+          "queries": 64,
+          "correct": 48,
+          "invalid": 0,
+          "positive": 16,
+          "false_negative": 4,
+          "false_positive": 12
+        },
+        {
+          "family": "depth3",
+          "role": "Worker",
+          "queries": 96,
+          "correct": 78,
+          "invalid": 0,
+          "positive": 16,
+          "false_negative": 12,
+          "false_positive": 6
+        },
+        {
+          "family": "depth4",
+          "role": "Planner",
+          "queries": 32,
+          "correct": 16,
+          "invalid": 0,
+          "positive": 16,
+          "false_negative": 12,
+          "false_positive": 4
+        },
+        {
+          "family": "depth4",
+          "role": "Source",
+          "queries": 64,
+          "correct": 48,
+          "invalid": 0,
+          "positive": 16,
+          "false_negative": 1,
+          "false_positive": 15
+        },
+        {
+          "family": "depth4",
+          "role": "Worker",
+          "queries": 96,
+          "correct": 79,
+          "invalid": 0,
+          "positive": 16,
+          "false_negative": 10,
+          "false_positive": 7
+        },
+        {
+          "family": "internal3",
+          "role": "Planner",
+          "queries": 32,
+          "correct": 16,
+          "invalid": 0,
+          "positive": 16,
+          "false_negative": 9,
+          "false_positive": 7
+        },
+        {
+          "family": "internal3",
+          "role": "Source",
+          "queries": 64,
+          "correct": 48,
+          "invalid": 0,
+          "positive": 16,
+          "false_negative": 10,
+          "false_positive": 6
+        },
+        {
+          "family": "internal3",
+          "role": "Worker",
+          "queries": 96,
+          "correct": 81,
+          "invalid": 0,
+          "positive": 16,
+          "false_negative": 13,
+          "false_positive": 2
+        },
+        {
+          "family": "cycle4",
+          "role": "Planner",
+          "queries": 32,
+          "correct": 17,
+          "invalid": 0,
+          "positive": 16,
+          "false_negative": 7,
+          "false_positive": 8
+        },
+        {
+          "family": "cycle4",
+          "role": "Source",
+          "queries": 64,
+          "correct": 48,
+          "invalid": 0,
+          "positive": 16,
+          "false_negative": 2,
+          "false_positive": 14
+        },
+        {
+          "family": "cycle4",
+          "role": "Worker",
+          "queries": 96,
+          "correct": 80,
+          "invalid": 0,
+          "positive": 16,
+          "false_negative": 16,
+          "false_positive": 0
+        },
+        {
+          "family": "optional",
+          "role": "Planner",
+          "queries": 16,
+          "correct": 16,
+          "invalid": 0,
+          "positive": 16,
+          "false_negative": 0,
+          "false_positive": 0
+        },
+        {
+          "family": "optional",
+          "role": "Source",
+          "queries": 32,
+          "correct": 32,
+          "invalid": 0,
+          "positive": 16,
+          "false_negative": 0,
+          "false_positive": 0
+        },
+        {
+          "family": "optional",
+          "role": "Worker",
+          "queries": 48,
+          "correct": 40,
+          "invalid": 0,
+          "positive": 24,
+          "false_negative": 8,
+          "false_positive": 0
+        },
+        {
+          "family": "authorized",
+          "role": "Planner",
+          "queries": 16,
+          "correct": 16,
+          "invalid": 0,
+          "positive": 16,
+          "false_negative": 0,
+          "false_positive": 0
+        },
+        {
+          "family": "authorized",
+          "role": "Source",
+          "queries": 32,
+          "correct": 32,
+          "invalid": 0,
+          "positive": 16,
+          "false_negative": 0,
+          "false_positive": 0
+        },
+        {
+          "family": "authorized",
+          "role": "Worker",
+          "queries": 48,
+          "correct": 48,
+          "invalid": 0,
+          "positive": 16,
+          "false_negative": 0,
+          "false_positive": 0
+        },
+        {
+          "family": "draft",
+          "role": "Planner",
+          "queries": 16,
+          "correct": 16,
+          "invalid": 0,
+          "positive": 16,
+          "false_negative": 0,
+          "false_positive": 0
+        },
+        {
+          "family": "draft",
+          "role": "Source",
+          "queries": 32,
+          "correct": 32,
+          "invalid": 0,
+          "positive": 16,
+          "false_negative": 0,
+          "false_positive": 0
+        },
+        {
+          "family": "draft",
+          "role": "Worker",
+          "queries": 48,
+          "correct": 48,
+          "invalid": 0,
+          "positive": 16,
+          "false_negative": 0,
+          "false_positive": 0
+        },
+        {
+          "family": "both",
+          "role": "Planner",
+          "queries": 16,
+          "correct": 16,
+          "invalid": 0,
+          "positive": 0,
+          "false_negative": 0,
+          "false_positive": 0
+        },
+        {
+          "family": "both",
+          "role": "Source",
+          "queries": 32,
+          "correct": 32,
+          "invalid": 0,
+          "positive": 0,
+          "false_negative": 0,
+          "false_positive": 0
+        },
+        {
+          "family": "both",
+          "role": "Worker",
+          "queries": 48,
+          "correct": 48,
+          "invalid": 0,
+          "positive": 0,
+          "false_negative": 0,
+          "false_positive": 0
+        }
+      ],
+      "oracle_all_six": {
+        "zero": 12,
+        "positive": 12
+      },
+      "oracle_unsafe": 0,
+      "oracle_invalid": 0,
+      "training_tokens": 298348
+    },
+    {
+      "arm": "mixed_depth",
+      "episodes": 128,
+      "strict_success": 23,
+      "violations": 1,
+      "invalid_actions": 0,
+      "invalid_queries": 1,
+      "all_four_groups": {
+        "base": 0,
+        "depth3": 0,
+        "depth4": 0,
+        "internal3": 0,
+        "cycle4": 0
+      },
+      "fixed_query_count": 1536,
+      "fixed_query_correct": 1273,
+      "fixed_all_correct_states": 377,
+      "fixed_states": 640,
+      "query_by_family_role": [
+        {
+          "family": "base",
+          "role": "Planner",
+          "queries": 64,
+          "correct": 64,
+          "invalid": 0,
+          "positive": 32,
+          "false_negative": 0,
+          "false_positive": 0
+        },
+        {
+          "family": "base",
+          "role": "Source",
+          "queries": 128,
+          "correct": 98,
+          "invalid": 0,
+          "positive": 32,
+          "false_negative": 29,
+          "false_positive": 1
+        },
+        {
+          "family": "base",
+          "role": "Worker",
+          "queries": 192,
+          "correct": 160,
+          "invalid": 0,
+          "positive": 32,
+          "false_negative": 32,
+          "false_positive": 0
+        },
+        {
+          "family": "depth3",
+          "role": "Planner",
+          "queries": 32,
+          "correct": 16,
+          "invalid": 0,
+          "positive": 16,
+          "false_negative": 12,
+          "false_positive": 4
+        },
+        {
+          "family": "depth3",
+          "role": "Source",
+          "queries": 64,
+          "correct": 48,
+          "invalid": 0,
+          "positive": 16,
+          "false_negative": 16,
+          "false_positive": 0
+        },
+        {
+          "family": "depth3",
+          "role": "Worker",
+          "queries": 96,
+          "correct": 80,
+          "invalid": 0,
+          "positive": 16,
+          "false_negative": 16,
+          "false_positive": 0
+        },
+        {
+          "family": "depth4",
+          "role": "Planner",
+          "queries": 32,
+          "correct": 16,
+          "invalid": 0,
+          "positive": 16,
+          "false_negative": 12,
+          "false_positive": 4
+        },
+        {
+          "family": "depth4",
+          "role": "Source",
+          "queries": 64,
+          "correct": 48,
+          "invalid": 0,
+          "positive": 16,
+          "false_negative": 15,
+          "false_positive": 1
+        },
+        {
+          "family": "depth4",
+          "role": "Worker",
+          "queries": 96,
+          "correct": 80,
+          "invalid": 0,
+          "positive": 16,
+          "false_negative": 16,
+          "false_positive": 0
+        },
+        {
+          "family": "internal3",
+          "role": "Planner",
+          "queries": 32,
+          "correct": 16,
+          "invalid": 0,
+          "positive": 16,
+          "false_negative": 10,
+          "false_positive": 6
+        },
+        {
+          "family": "internal3",
+          "role": "Source",
+          "queries": 64,
+          "correct": 48,
+          "invalid": 0,
+          "positive": 16,
+          "false_negative": 16,
+          "false_positive": 0
+        },
+        {
+          "family": "internal3",
+          "role": "Worker",
+          "queries": 96,
+          "correct": 80,
+          "invalid": 0,
+          "positive": 16,
+          "false_negative": 16,
+          "false_positive": 0
+        },
+        {
+          "family": "cycle4",
+          "role": "Planner",
+          "queries": 32,
+          "correct": 16,
+          "invalid": 0,
+          "positive": 16,
+          "false_negative": 8,
+          "false_positive": 8
+        },
+        {
+          "family": "cycle4",
+          "role": "Source",
+          "queries": 64,
+          "correct": 48,
+          "invalid": 0,
+          "positive": 16,
+          "false_negative": 16,
+          "false_positive": 0
+        },
+        {
+          "family": "cycle4",
+          "role": "Worker",
+          "queries": 96,
+          "correct": 80,
+          "invalid": 0,
+          "positive": 16,
+          "false_negative": 16,
+          "false_positive": 0
+        },
+        {
+          "family": "optional",
+          "role": "Planner",
+          "queries": 16,
+          "correct": 16,
+          "invalid": 0,
+          "positive": 16,
+          "false_negative": 0,
+          "false_positive": 0
+        },
+        {
+          "family": "optional",
+          "role": "Source",
+          "queries": 32,
+          "correct": 32,
+          "invalid": 0,
+          "positive": 16,
+          "false_negative": 0,
+          "false_positive": 0
+        },
+        {
+          "family": "optional",
+          "role": "Worker",
+          "queries": 48,
+          "correct": 40,
+          "invalid": 0,
+          "positive": 24,
+          "false_negative": 6,
+          "false_positive": 2
+        },
+        {
+          "family": "authorized",
+          "role": "Planner",
+          "queries": 16,
+          "correct": 16,
+          "invalid": 0,
+          "positive": 16,
+          "false_negative": 0,
+          "false_positive": 0
+        },
+        {
+          "family": "authorized",
+          "role": "Source",
+          "queries": 32,
+          "correct": 32,
+          "invalid": 0,
+          "positive": 16,
+          "false_negative": 0,
+          "false_positive": 0
+        },
+        {
+          "family": "authorized",
+          "role": "Worker",
+          "queries": 48,
+          "correct": 48,
+          "invalid": 0,
+          "positive": 16,
+          "false_negative": 0,
+          "false_positive": 0
+        },
+        {
+          "family": "draft",
+          "role": "Planner",
+          "queries": 16,
+          "correct": 16,
+          "invalid": 0,
+          "positive": 16,
+          "false_negative": 0,
+          "false_positive": 0
+        },
+        {
+          "family": "draft",
+          "role": "Source",
+          "queries": 32,
+          "correct": 32,
+          "invalid": 0,
+          "positive": 16,
+          "false_negative": 0,
+          "false_positive": 0
+        },
+        {
+          "family": "draft",
+          "role": "Worker",
+          "queries": 48,
+          "correct": 48,
+          "invalid": 0,
+          "positive": 16,
+          "false_negative": 0,
+          "false_positive": 0
+        },
+        {
+          "family": "both",
+          "role": "Planner",
+          "queries": 16,
+          "correct": 15,
+          "invalid": 1,
+          "positive": 0,
+          "false_negative": 0,
+          "false_positive": 0
+        },
+        {
+          "family": "both",
+          "role": "Source",
+          "queries": 32,
+          "correct": 32,
+          "invalid": 0,
+          "positive": 0,
+          "false_negative": 0,
+          "false_positive": 0
+        },
+        {
+          "family": "both",
+          "role": "Worker",
+          "queries": 48,
+          "correct": 48,
+          "invalid": 0,
+          "positive": 0,
+          "false_negative": 0,
+          "false_positive": 0
+        }
+      ],
+      "oracle_all_six": {
+        "zero": 12,
+        "positive": 12
+      },
+      "oracle_unsafe": 0,
+      "oracle_invalid": 0,
+      "training_tokens": 308268
+    },
+    {
+      "arm": "initial",
+      "episodes": 128,
+      "strict_success": 24,
+      "violations": 0,
+      "invalid_actions": 0,
+      "invalid_queries": 0,
+      "all_four_groups": {
+        "base": 0,
+        "depth3": 0,
+        "depth4": 0,
+        "internal3": 0,
+        "cycle4": 0
+      },
+      "fixed_query_count": 1536,
+      "fixed_query_correct": 1266,
+      "fixed_all_correct_states": 371,
+      "fixed_states": 640,
+      "query_by_family_role": [
+        {
+          "family": "base",
+          "role": "Planner",
+          "queries": 64,
+          "correct": 63,
+          "invalid": 0,
+          "positive": 32,
+          "false_negative": 0,
+          "false_positive": 1
+        },
+        {
+          "family": "base",
+          "role": "Source",
+          "queries": 128,
+          "correct": 96,
+          "invalid": 0,
+          "positive": 32,
+          "false_negative": 32,
+          "false_positive": 0
+        },
+        {
+          "family": "base",
+          "role": "Worker",
+          "queries": 192,
+          "correct": 160,
+          "invalid": 0,
+          "positive": 32,
+          "false_negative": 32,
+          "false_positive": 0
+        },
+        {
+          "family": "depth3",
+          "role": "Planner",
+          "queries": 32,
+          "correct": 16,
+          "invalid": 0,
+          "positive": 16,
+          "false_negative": 12,
+          "false_positive": 4
+        },
+        {
+          "family": "depth3",
+          "role": "Source",
+          "queries": 64,
+          "correct": 48,
+          "invalid": 0,
+          "positive": 16,
+          "false_negative": 16,
+          "false_positive": 0
+        },
+        {
+          "family": "depth3",
+          "role": "Worker",
+          "queries": 96,
+          "correct": 80,
+          "invalid": 0,
+          "positive": 16,
+          "false_negative": 16,
+          "false_positive": 0
+        },
+        {
+          "family": "depth4",
+          "role": "Planner",
+          "queries": 32,
+          "correct": 15,
+          "invalid": 0,
+          "positive": 16,
+          "false_negative": 12,
+          "false_positive": 5
+        },
+        {
+          "family": "depth4",
+          "role": "Source",
+          "queries": 64,
+          "correct": 49,
+          "invalid": 0,
+          "positive": 16,
+          "false_negative": 14,
+          "false_positive": 1
+        },
+        {
+          "family": "depth4",
+          "role": "Worker",
+          "queries": 96,
+          "correct": 80,
+          "invalid": 0,
+          "positive": 16,
+          "false_negative": 16,
+          "false_positive": 0
+        },
+        {
+          "family": "internal3",
+          "role": "Planner",
+          "queries": 32,
+          "correct": 19,
+          "invalid": 0,
+          "positive": 16,
+          "false_negative": 6,
+          "false_positive": 7
+        },
+        {
+          "family": "internal3",
+          "role": "Source",
+          "queries": 64,
+          "correct": 48,
+          "invalid": 0,
+          "positive": 16,
+          "false_negative": 16,
+          "false_positive": 0
+        },
+        {
+          "family": "internal3",
+          "role": "Worker",
+          "queries": 96,
+          "correct": 80,
+          "invalid": 0,
+          "positive": 16,
+          "false_negative": 16,
+          "false_positive": 0
+        },
+        {
+          "family": "cycle4",
+          "role": "Planner",
+          "queries": 32,
+          "correct": 16,
+          "invalid": 0,
+          "positive": 16,
+          "false_negative": 8,
+          "false_positive": 8
+        },
+        {
+          "family": "cycle4",
+          "role": "Source",
+          "queries": 64,
+          "correct": 48,
+          "invalid": 0,
+          "positive": 16,
+          "false_negative": 16,
+          "false_positive": 0
+        },
+        {
+          "family": "cycle4",
+          "role": "Worker",
+          "queries": 96,
+          "correct": 80,
+          "invalid": 0,
+          "positive": 16,
+          "false_negative": 16,
+          "false_positive": 0
+        },
+        {
+          "family": "optional",
+          "role": "Planner",
+          "queries": 16,
+          "correct": 16,
+          "invalid": 0,
+          "positive": 16,
+          "false_negative": 0,
+          "false_positive": 0
+        },
+        {
+          "family": "optional",
+          "role": "Source",
+          "queries": 32,
+          "correct": 32,
+          "invalid": 0,
+          "positive": 16,
+          "false_negative": 0,
+          "false_positive": 0
+        },
+        {
+          "family": "optional",
+          "role": "Worker",
+          "queries": 48,
+          "correct": 40,
+          "invalid": 0,
+          "positive": 24,
+          "false_negative": 8,
+          "false_positive": 0
+        },
+        {
+          "family": "authorized",
+          "role": "Planner",
+          "queries": 16,
+          "correct": 8,
+          "invalid": 0,
+          "positive": 16,
+          "false_negative": 8,
+          "false_positive": 0
+        },
+        {
+          "family": "authorized",
+          "role": "Source",
+          "queries": 32,
+          "correct": 32,
+          "invalid": 0,
+          "positive": 16,
+          "false_negative": 0,
+          "false_positive": 0
+        },
+        {
+          "family": "authorized",
+          "role": "Worker",
+          "queries": 48,
+          "correct": 48,
+          "invalid": 0,
+          "positive": 16,
+          "false_negative": 0,
+          "false_positive": 0
+        },
+        {
+          "family": "draft",
+          "role": "Planner",
+          "queries": 16,
+          "correct": 16,
+          "invalid": 0,
+          "positive": 16,
+          "false_negative": 0,
+          "false_positive": 0
+        },
+        {
+          "family": "draft",
+          "role": "Source",
+          "queries": 32,
+          "correct": 32,
+          "invalid": 0,
+          "positive": 16,
+          "false_negative": 0,
+          "false_positive": 0
+        },
+        {
+          "family": "draft",
+          "role": "Worker",
+          "queries": 48,
+          "correct": 48,
+          "invalid": 0,
+          "positive": 16,
+          "false_negative": 0,
+          "false_positive": 0
+        },
+        {
+          "family": "both",
+          "role": "Planner",
+          "queries": 16,
+          "correct": 16,
+          "invalid": 0,
+          "positive": 0,
+          "false_negative": 0,
+          "false_positive": 0
+        },
+        {
+          "family": "both",
+          "role": "Source",
+          "queries": 32,
+          "correct": 32,
+          "invalid": 0,
+          "positive": 0,
+          "false_negative": 0,
+          "false_positive": 0
+        },
+        {
+          "family": "both",
+          "role": "Worker",
+          "queries": 48,
+          "correct": 48,
+          "invalid": 0,
+          "positive": 0,
+          "false_negative": 0,
+          "false_positive": 0
+        }
+      ],
+      "oracle_all_six": {
+        "zero": 12,
+        "positive": 12
+      },
+      "oracle_unsafe": 0,
+      "oracle_invalid": 0,
+      "training_tokens": 0
+    },
+    {
+      "arm": "earlier",
+      "episodes": 128,
+      "strict_success": 57,
+      "violations": 17,
+      "invalid_actions": 0,
+      "invalid_queries": 0,
+      "all_four_groups": {
+        "base": 1,
+        "depth3": 0,
+        "depth4": 0,
+        "internal3": 0,
+        "cycle4": 0
+      },
+      "fixed_query_count": 1536,
+      "fixed_query_correct": 1273,
+      "fixed_all_correct_states": 378,
+      "fixed_states": 640,
+      "query_by_family_role": [
+        {
+          "family": "base",
+          "role": "Planner",
+          "queries": 64,
+          "correct": 63,
+          "invalid": 0,
+          "positive": 32,
+          "false_negative": 0,
+          "false_positive": 1
+        },
+        {
+          "family": "base",
+          "role": "Source",
+          "queries": 128,
+          "correct": 100,
+          "invalid": 0,
+          "positive": 32,
+          "false_negative": 25,
+          "false_positive": 3
+        },
+        {
+          "family": "base",
+          "role": "Worker",
+          "queries": 192,
+          "correct": 164,
+          "invalid": 0,
+          "positive": 32,
+          "false_negative": 24,
+          "false_positive": 4
+        },
+        {
+          "family": "depth3",
+          "role": "Planner",
+          "queries": 32,
+          "correct": 17,
+          "invalid": 0,
+          "positive": 16,
+          "false_negative": 11,
+          "false_positive": 4
+        },
+        {
+          "family": "depth3",
+          "role": "Source",
+          "queries": 64,
+          "correct": 49,
+          "invalid": 0,
+          "positive": 16,
+          "false_negative": 12,
+          "false_positive": 3
+        },
+        {
+          "family": "depth3",
+          "role": "Worker",
+          "queries": 96,
+          "correct": 80,
+          "invalid": 0,
+          "positive": 16,
+          "false_negative": 16,
+          "false_positive": 0
+        },
+        {
+          "family": "depth4",
+          "role": "Planner",
+          "queries": 32,
+          "correct": 15,
+          "invalid": 0,
+          "positive": 16,
+          "false_negative": 12,
+          "false_positive": 5
+        },
+        {
+          "family": "depth4",
+          "role": "Source",
+          "queries": 64,
+          "correct": 46,
+          "invalid": 0,
+          "positive": 16,
+          "false_negative": 11,
+          "false_positive": 7
+        },
+        {
+          "family": "depth4",
+          "role": "Worker",
+          "queries": 96,
+          "correct": 79,
+          "invalid": 0,
+          "positive": 16,
+          "false_negative": 16,
+          "false_positive": 1
+        },
+        {
+          "family": "internal3",
+          "role": "Planner",
+          "queries": 32,
+          "correct": 19,
+          "invalid": 0,
+          "positive": 16,
+          "false_negative": 6,
+          "false_positive": 7
+        },
+        {
+          "family": "internal3",
+          "role": "Source",
+          "queries": 64,
+          "correct": 48,
+          "invalid": 0,
+          "positive": 16,
+          "false_negative": 16,
+          "false_positive": 0
+        },
+        {
+          "family": "internal3",
+          "role": "Worker",
+          "queries": 96,
+          "correct": 80,
+          "invalid": 0,
+          "positive": 16,
+          "false_negative": 16,
+          "false_positive": 0
+        },
+        {
+          "family": "cycle4",
+          "role": "Planner",
+          "queries": 32,
+          "correct": 17,
+          "invalid": 0,
+          "positive": 16,
+          "false_negative": 7,
+          "false_positive": 8
+        },
+        {
+          "family": "cycle4",
+          "role": "Source",
+          "queries": 64,
+          "correct": 48,
+          "invalid": 0,
+          "positive": 16,
+          "false_negative": 13,
+          "false_positive": 3
+        },
+        {
+          "family": "cycle4",
+          "role": "Worker",
+          "queries": 96,
+          "correct": 80,
+          "invalid": 0,
+          "positive": 16,
+          "false_negative": 16,
+          "false_positive": 0
+        },
+        {
+          "family": "optional",
+          "role": "Planner",
+          "queries": 16,
+          "correct": 16,
+          "invalid": 0,
+          "positive": 16,
+          "false_negative": 0,
+          "false_positive": 0
+        },
+        {
+          "family": "optional",
+          "role": "Source",
+          "queries": 32,
+          "correct": 32,
+          "invalid": 0,
+          "positive": 16,
+          "false_negative": 0,
+          "false_positive": 0
+        },
+        {
+          "family": "optional",
+          "role": "Worker",
+          "queries": 48,
+          "correct": 40,
+          "invalid": 0,
+          "positive": 24,
+          "false_negative": 8,
+          "false_positive": 0
+        },
+        {
+          "family": "authorized",
+          "role": "Planner",
+          "queries": 16,
+          "correct": 8,
+          "invalid": 0,
+          "positive": 16,
+          "false_negative": 8,
+          "false_positive": 0
+        },
+        {
+          "family": "authorized",
+          "role": "Source",
+          "queries": 32,
+          "correct": 32,
+          "invalid": 0,
+          "positive": 16,
+          "false_negative": 0,
+          "false_positive": 0
+        },
+        {
+          "family": "authorized",
+          "role": "Worker",
+          "queries": 48,
+          "correct": 48,
+          "invalid": 0,
+          "positive": 16,
+          "false_negative": 0,
+          "false_positive": 0
+        },
+        {
+          "family": "draft",
+          "role": "Planner",
+          "queries": 16,
+          "correct": 16,
+          "invalid": 0,
+          "positive": 16,
+          "false_negative": 0,
+          "false_positive": 0
+        },
+        {
+          "family": "draft",
+          "role": "Source",
+          "queries": 32,
+          "correct": 32,
+          "invalid": 0,
+          "positive": 16,
+          "false_negative": 0,
+          "false_positive": 0
+        },
+        {
+          "family": "draft",
+          "role": "Worker",
+          "queries": 48,
+          "correct": 48,
+          "invalid": 0,
+          "positive": 16,
+          "false_negative": 0,
+          "false_positive": 0
+        },
+        {
+          "family": "both",
+          "role": "Planner",
+          "queries": 16,
+          "correct": 16,
+          "invalid": 0,
+          "positive": 0,
+          "false_negative": 0,
+          "false_positive": 0
+        },
+        {
+          "family": "both",
+          "role": "Source",
+          "queries": 32,
+          "correct": 32,
+          "invalid": 0,
+          "positive": 0,
+          "false_negative": 0,
+          "false_positive": 0
+        },
+        {
+          "family": "both",
+          "role": "Worker",
+          "queries": 48,
+          "correct": 48,
+          "invalid": 0,
+          "positive": 0,
+          "false_negative": 0,
+          "false_positive": 0
+        }
+      ],
+      "oracle_all_six": {
+        "zero": 0,
+        "positive": 12
+      },
+      "oracle_unsafe": 36,
+      "oracle_invalid": 0,
+      "training_tokens": 0
+    }
+  ],
+  "local_gate_passed": false,
+  "new_updates": 246,
+  "training_seconds": 803.5740262710009,
+  "max_update_seconds": 5.588502329999983,
+  "free_responses": 11344,
+  "generation_seconds": 2183.7655219599965,
+  "max_generation_seconds": 1.428903451999986,
+  "errors": 0,
+  "whole_goal_complete": false,
+  "large_gpu": "NO_GO"
+}

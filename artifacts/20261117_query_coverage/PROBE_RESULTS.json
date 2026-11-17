@@ -1,0 +1,5091 @@
+{
+  "summaries": [
+    {
+      "arm": "initial",
+      "role": "Source",
+      "subset": "all_reached",
+      "states": 112,
+      "self_optimal": 111,
+      "oracle_optimal": 112,
+      "wrong_to_correct": 1,
+      "correct_to_wrong": 0,
+      "invalid": 0,
+      "identical_controls": 65,
+      "identical_raw_disagreements": 0
+    },
+    {
+      "arm": "initial",
+      "role": "Source",
+      "subset": "first_nonoptimal",
+      "states": 1,
+      "self_optimal": 0,
+      "oracle_optimal": 1,
+      "wrong_to_correct": 1,
+      "correct_to_wrong": 0,
+      "invalid": 0,
+      "identical_controls": 0,
+      "identical_raw_disagreements": 0
+    },
+    {
+      "arm": "initial",
+      "role": "Worker",
+      "subset": "all_reached",
+      "states": 111,
+      "self_optimal": 77,
+      "oracle_optimal": 97,
+      "wrong_to_correct": 20,
+      "correct_to_wrong": 0,
+      "invalid": 0,
+      "identical_controls": 64,
+      "identical_raw_disagreements": 0
+    },
+    {
+      "arm": "initial",
+      "role": "Worker",
+      "subset": "first_nonoptimal",
+      "states": 23,
+      "self_optimal": 0,
+      "oracle_optimal": 20,
+      "wrong_to_correct": 20,
+      "correct_to_wrong": 0,
+      "invalid": 0,
+      "identical_controls": 3,
+      "identical_raw_disagreements": 0
+    },
+    {
+      "arm": "interleaved",
+      "role": "Source",
+      "subset": "all_reached",
+      "states": 112,
+      "self_optimal": 87,
+      "oracle_optimal": 112,
+      "wrong_to_correct": 25,
+      "correct_to_wrong": 0,
+      "invalid": 0,
+      "identical_controls": 57,
+      "identical_raw_disagreements": 0
+    },
+    {
+      "arm": "interleaved",
+      "role": "Source",
+      "subset": "first_nonoptimal",
+      "states": 25,
+      "self_optimal": 0,
+      "oracle_optimal": 25,
+      "wrong_to_correct": 25,
+      "correct_to_wrong": 0,
+      "invalid": 0,
+      "identical_controls": 0,
+      "identical_raw_disagreements": 0
+    },
+    {
+      "arm": "interleaved",
+      "role": "Worker",
+      "subset": "all_reached",
+      "states": 70,
+      "self_optimal": 40,
+      "oracle_optimal": 70,
+      "wrong_to_correct": 30,
+      "correct_to_wrong": 0,
+      "invalid": 0,
+      "identical_controls": 40,
+      "identical_raw_disagreements": 0
+    },
+    {
+      "arm": "interleaved",
+      "role": "Worker",
+      "subset": "first_nonoptimal",
+      "states": 30,
+      "self_optimal": 0,
+      "oracle_optimal": 30,
+      "wrong_to_correct": 30,
+      "correct_to_wrong": 0,
+      "invalid": 0,
+      "identical_controls": 0,
+      "identical_raw_disagreements": 0
+    }
+  ],
+  "details": [
+    {
+      "arm": "initial",
+      "condition": "base_v0",
+      "index": 0,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "base_v0",
+      "index": 1,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "base_v0",
+      "index": 2,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "base_v0",
+      "index": 3,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "base_v0",
+      "index": 4,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "base_v0",
+      "index": 5,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "base_v0",
+      "index": 6,
+      "role": "Source",
+      "original": "WITHHOLD",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": true
+    },
+    {
+      "arm": "initial",
+      "condition": "base_v0",
+      "index": 7,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "base_v0",
+      "index": 0,
+      "role": "Worker",
+      "original": "PUBLISH_FULL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "base_v0",
+      "index": 1,
+      "role": "Worker",
+      "original": "PUBLISH_FULL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "base_v0",
+      "index": 2,
+      "role": "Worker",
+      "original": "PUBLISH_FULL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "base_v0",
+      "index": 3,
+      "role": "Worker",
+      "original": "PUBLISH_FULL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "base_v0",
+      "index": 4,
+      "role": "Worker",
+      "original": "PUBLISH_FULL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "base_v0",
+      "index": 5,
+      "role": "Worker",
+      "original": "PUBLISH_FULL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "base_v0",
+      "index": 7,
+      "role": "Worker",
+      "original": "PUBLISH_FULL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "base_v0_swap",
+      "index": 0,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "base_v0_swap",
+      "index": 1,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "base_v0_swap",
+      "index": 2,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "base_v0_swap",
+      "index": 3,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "base_v0_swap",
+      "index": 4,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "base_v0_swap",
+      "index": 5,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "base_v0_swap",
+      "index": 6,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "base_v0_swap",
+      "index": 7,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "base_v0_swap",
+      "index": 0,
+      "role": "Worker",
+      "original": "PUBLISH_FULL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "base_v0_swap",
+      "index": 1,
+      "role": "Worker",
+      "original": "PUBLISH_FULL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "base_v0_swap",
+      "index": 2,
+      "role": "Worker",
+      "original": "PUBLISH_FULL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "base_v0_swap",
+      "index": 3,
+      "role": "Worker",
+      "original": "PUBLISH_FULL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "base_v0_swap",
+      "index": 4,
+      "role": "Worker",
+      "original": "PUBLISH_FULL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "base_v0_swap",
+      "index": 5,
+      "role": "Worker",
+      "original": "PUBLISH_FULL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "base_v0_swap",
+      "index": 6,
+      "role": "Worker",
+      "original": "PUBLISH_MINIMAL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": true
+    },
+    {
+      "arm": "initial",
+      "condition": "base_v0_swap",
+      "index": 7,
+      "role": "Worker",
+      "original": "PUBLISH_FULL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "base_v1",
+      "index": 0,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "base_v1",
+      "index": 1,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "base_v1",
+      "index": 2,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "base_v1",
+      "index": 3,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "base_v1",
+      "index": 4,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "base_v1",
+      "index": 5,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "base_v1",
+      "index": 6,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "base_v1",
+      "index": 7,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "base_v1",
+      "index": 0,
+      "role": "Worker",
+      "original": "PUBLISH_MINIMAL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": true
+    },
+    {
+      "arm": "initial",
+      "condition": "base_v1",
+      "index": 1,
+      "role": "Worker",
+      "original": "PUBLISH_FULL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "base_v1",
+      "index": 2,
+      "role": "Worker",
+      "original": "PUBLISH_FULL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "base_v1",
+      "index": 3,
+      "role": "Worker",
+      "original": "PUBLISH_MINIMAL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": true
+    },
+    {
+      "arm": "initial",
+      "condition": "base_v1",
+      "index": 4,
+      "role": "Worker",
+      "original": "PUBLISH_FULL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "base_v1",
+      "index": 5,
+      "role": "Worker",
+      "original": "PUBLISH_FULL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "base_v1",
+      "index": 6,
+      "role": "Worker",
+      "original": "PUBLISH_MINIMAL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": true
+    },
+    {
+      "arm": "initial",
+      "condition": "base_v1",
+      "index": 7,
+      "role": "Worker",
+      "original": "PUBLISH_FULL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "base_v1_swap",
+      "index": 0,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "base_v1_swap",
+      "index": 1,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "base_v1_swap",
+      "index": 2,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "base_v1_swap",
+      "index": 3,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "base_v1_swap",
+      "index": 4,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "base_v1_swap",
+      "index": 5,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "base_v1_swap",
+      "index": 6,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "base_v1_swap",
+      "index": 7,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "base_v1_swap",
+      "index": 0,
+      "role": "Worker",
+      "original": "PUBLISH_MINIMAL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": true
+    },
+    {
+      "arm": "initial",
+      "condition": "base_v1_swap",
+      "index": 1,
+      "role": "Worker",
+      "original": "PUBLISH_FULL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "base_v1_swap",
+      "index": 2,
+      "role": "Worker",
+      "original": "PUBLISH_FULL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "base_v1_swap",
+      "index": 3,
+      "role": "Worker",
+      "original": "PUBLISH_MINIMAL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": true
+    },
+    {
+      "arm": "initial",
+      "condition": "base_v1_swap",
+      "index": 4,
+      "role": "Worker",
+      "original": "PUBLISH_FULL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "base_v1_swap",
+      "index": 5,
+      "role": "Worker",
+      "original": "PUBLISH_FULL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "base_v1_swap",
+      "index": 6,
+      "role": "Worker",
+      "original": "PUBLISH_MINIMAL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": true
+    },
+    {
+      "arm": "initial",
+      "condition": "base_v1_swap",
+      "index": 7,
+      "role": "Worker",
+      "original": "PUBLISH_FULL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "depth3_v0",
+      "index": 0,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "depth3_v0",
+      "index": 1,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "depth3_v0",
+      "index": 2,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "depth3_v0",
+      "index": 3,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "depth3_v0",
+      "index": 0,
+      "role": "Worker",
+      "original": "PUBLISH_FULL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_MINIMAL",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "depth3_v0",
+      "index": 1,
+      "role": "Worker",
+      "original": "PUBLISH_MINIMAL",
+      "oracle": "PUBLISH_MINIMAL",
+      "best": [
+        "PUBLISH_MINIMAL",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "depth3_v0",
+      "index": 2,
+      "role": "Worker",
+      "original": "PUBLISH_MINIMAL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": true
+    },
+    {
+      "arm": "initial",
+      "condition": "depth3_v0",
+      "index": 3,
+      "role": "Worker",
+      "original": "PUBLISH_FULL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_MINIMAL",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "depth3_v0_swap",
+      "index": 0,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "depth3_v0_swap",
+      "index": 1,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "depth3_v0_swap",
+      "index": 2,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "depth3_v0_swap",
+      "index": 3,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "depth3_v0_swap",
+      "index": 0,
+      "role": "Worker",
+      "original": "PUBLISH_FULL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "depth3_v0_swap",
+      "index": 1,
+      "role": "Worker",
+      "original": "PUBLISH_MINIMAL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": true
+    },
+    {
+      "arm": "initial",
+      "condition": "depth3_v0_swap",
+      "index": 2,
+      "role": "Worker",
+      "original": "PUBLISH_MINIMAL",
+      "oracle": "PUBLISH_MINIMAL",
+      "best": [
+        "PUBLISH_MINIMAL",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "depth3_v0_swap",
+      "index": 3,
+      "role": "Worker",
+      "original": "PUBLISH_FULL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "depth3_v1",
+      "index": 0,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "depth3_v1",
+      "index": 1,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "depth3_v1",
+      "index": 2,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "depth3_v1",
+      "index": 3,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "depth3_v1",
+      "index": 0,
+      "role": "Worker",
+      "original": "PUBLISH_MINIMAL",
+      "oracle": "PUBLISH_MINIMAL",
+      "best": [
+        "PUBLISH_MINIMAL",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "depth3_v1",
+      "index": 1,
+      "role": "Worker",
+      "original": "PUBLISH_FULL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "depth3_v1",
+      "index": 2,
+      "role": "Worker",
+      "original": "PUBLISH_MINIMAL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": true
+    },
+    {
+      "arm": "initial",
+      "condition": "depth3_v1",
+      "index": 3,
+      "role": "Worker",
+      "original": "PUBLISH_MINIMAL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": true
+    },
+    {
+      "arm": "initial",
+      "condition": "depth3_v1_swap",
+      "index": 0,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "depth3_v1_swap",
+      "index": 1,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "depth3_v1_swap",
+      "index": 2,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "depth3_v1_swap",
+      "index": 3,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "depth3_v1_swap",
+      "index": 0,
+      "role": "Worker",
+      "original": "PUBLISH_MINIMAL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": true
+    },
+    {
+      "arm": "initial",
+      "condition": "depth3_v1_swap",
+      "index": 1,
+      "role": "Worker",
+      "original": "PUBLISH_FULL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_MINIMAL",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "depth3_v1_swap",
+      "index": 2,
+      "role": "Worker",
+      "original": "PUBLISH_MINIMAL",
+      "oracle": "PUBLISH_MINIMAL",
+      "best": [
+        "PUBLISH_MINIMAL",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "depth3_v1_swap",
+      "index": 3,
+      "role": "Worker",
+      "original": "PUBLISH_MINIMAL",
+      "oracle": "PUBLISH_MINIMAL",
+      "best": [
+        "PUBLISH_MINIMAL",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "internal3_v0",
+      "index": 0,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "internal3_v0",
+      "index": 1,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "internal3_v0",
+      "index": 2,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "internal3_v0",
+      "index": 3,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "internal3_v0",
+      "index": 0,
+      "role": "Worker",
+      "original": "PUBLISH_FULL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "internal3_v0",
+      "index": 1,
+      "role": "Worker",
+      "original": "PUBLISH_FULL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "internal3_v0",
+      "index": 2,
+      "role": "Worker",
+      "original": "PUBLISH_MINIMAL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": true
+    },
+    {
+      "arm": "initial",
+      "condition": "internal3_v0",
+      "index": 3,
+      "role": "Worker",
+      "original": "PUBLISH_FULL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "internal3_v0_swap",
+      "index": 0,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "internal3_v0_swap",
+      "index": 1,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "internal3_v0_swap",
+      "index": 2,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "internal3_v0_swap",
+      "index": 3,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "internal3_v0_swap",
+      "index": 0,
+      "role": "Worker",
+      "original": "PUBLISH_FULL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_MINIMAL",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "internal3_v0_swap",
+      "index": 1,
+      "role": "Worker",
+      "original": "PUBLISH_FULL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_MINIMAL",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "internal3_v0_swap",
+      "index": 2,
+      "role": "Worker",
+      "original": "PUBLISH_MINIMAL",
+      "oracle": "PUBLISH_MINIMAL",
+      "best": [
+        "PUBLISH_MINIMAL",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "internal3_v0_swap",
+      "index": 3,
+      "role": "Worker",
+      "original": "PUBLISH_FULL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_MINIMAL",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "internal3_v1",
+      "index": 0,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "internal3_v1",
+      "index": 1,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "internal3_v1",
+      "index": 2,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "internal3_v1",
+      "index": 3,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "internal3_v1",
+      "index": 0,
+      "role": "Worker",
+      "original": "PUBLISH_MINIMAL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": true
+    },
+    {
+      "arm": "initial",
+      "condition": "internal3_v1",
+      "index": 1,
+      "role": "Worker",
+      "original": "PUBLISH_MINIMAL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": true
+    },
+    {
+      "arm": "initial",
+      "condition": "internal3_v1",
+      "index": 2,
+      "role": "Worker",
+      "original": "PUBLISH_FULL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_MINIMAL",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "internal3_v1",
+      "index": 3,
+      "role": "Worker",
+      "original": "PUBLISH_FULL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "internal3_v1_swap",
+      "index": 0,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "internal3_v1_swap",
+      "index": 1,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "internal3_v1_swap",
+      "index": 2,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "internal3_v1_swap",
+      "index": 3,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "internal3_v1_swap",
+      "index": 0,
+      "role": "Worker",
+      "original": "PUBLISH_MINIMAL",
+      "oracle": "PUBLISH_MINIMAL",
+      "best": [
+        "PUBLISH_MINIMAL",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "internal3_v1_swap",
+      "index": 1,
+      "role": "Worker",
+      "original": "PUBLISH_MINIMAL",
+      "oracle": "PUBLISH_MINIMAL",
+      "best": [
+        "PUBLISH_MINIMAL",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "internal3_v1_swap",
+      "index": 2,
+      "role": "Worker",
+      "original": "PUBLISH_FULL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "internal3_v1_swap",
+      "index": 3,
+      "role": "Worker",
+      "original": "PUBLISH_FULL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_MINIMAL",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "cycle4_v0",
+      "index": 0,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "cycle4_v0",
+      "index": 1,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "cycle4_v0",
+      "index": 2,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "cycle4_v0",
+      "index": 3,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "cycle4_v0",
+      "index": 0,
+      "role": "Worker",
+      "original": "PUBLISH_MINIMAL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": true
+    },
+    {
+      "arm": "initial",
+      "condition": "cycle4_v0",
+      "index": 1,
+      "role": "Worker",
+      "original": "PUBLISH_MINIMAL",
+      "oracle": "PUBLISH_MINIMAL",
+      "best": [
+        "PUBLISH_MINIMAL",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "cycle4_v0",
+      "index": 2,
+      "role": "Worker",
+      "original": "PUBLISH_FULL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_MINIMAL",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "cycle4_v0",
+      "index": 3,
+      "role": "Worker",
+      "original": "PUBLISH_MINIMAL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": true
+    },
+    {
+      "arm": "initial",
+      "condition": "cycle4_v0_swap",
+      "index": 0,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "cycle4_v0_swap",
+      "index": 1,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "cycle4_v0_swap",
+      "index": 2,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "cycle4_v0_swap",
+      "index": 3,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "cycle4_v0_swap",
+      "index": 0,
+      "role": "Worker",
+      "original": "PUBLISH_MINIMAL",
+      "oracle": "PUBLISH_MINIMAL",
+      "best": [
+        "PUBLISH_MINIMAL",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "cycle4_v0_swap",
+      "index": 1,
+      "role": "Worker",
+      "original": "PUBLISH_MINIMAL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": true
+    },
+    {
+      "arm": "initial",
+      "condition": "cycle4_v0_swap",
+      "index": 2,
+      "role": "Worker",
+      "original": "PUBLISH_FULL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "cycle4_v0_swap",
+      "index": 3,
+      "role": "Worker",
+      "original": "PUBLISH_MINIMAL",
+      "oracle": "PUBLISH_MINIMAL",
+      "best": [
+        "PUBLISH_MINIMAL",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "cycle4_v1",
+      "index": 0,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "cycle4_v1",
+      "index": 1,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "cycle4_v1",
+      "index": 2,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "cycle4_v1",
+      "index": 3,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "cycle4_v1",
+      "index": 0,
+      "role": "Worker",
+      "original": "PUBLISH_FULL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_MINIMAL",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "cycle4_v1",
+      "index": 1,
+      "role": "Worker",
+      "original": "PUBLISH_MINIMAL",
+      "oracle": "PUBLISH_MINIMAL",
+      "best": [
+        "PUBLISH_MINIMAL",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "cycle4_v1",
+      "index": 2,
+      "role": "Worker",
+      "original": "PUBLISH_MINIMAL",
+      "oracle": "PUBLISH_MINIMAL",
+      "best": [
+        "PUBLISH_MINIMAL",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "cycle4_v1",
+      "index": 3,
+      "role": "Worker",
+      "original": "PUBLISH_FULL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_MINIMAL",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "cycle4_v1_swap",
+      "index": 0,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "cycle4_v1_swap",
+      "index": 1,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "cycle4_v1_swap",
+      "index": 2,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "cycle4_v1_swap",
+      "index": 3,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "cycle4_v1_swap",
+      "index": 0,
+      "role": "Worker",
+      "original": "PUBLISH_FULL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "cycle4_v1_swap",
+      "index": 1,
+      "role": "Worker",
+      "original": "PUBLISH_MINIMAL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": true
+    },
+    {
+      "arm": "initial",
+      "condition": "cycle4_v1_swap",
+      "index": 2,
+      "role": "Worker",
+      "original": "PUBLISH_MINIMAL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": true
+    },
+    {
+      "arm": "initial",
+      "condition": "cycle4_v1_swap",
+      "index": 3,
+      "role": "Worker",
+      "original": "PUBLISH_FULL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "optional_v0",
+      "index": 0,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "optional_v0",
+      "index": 1,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "optional_v0",
+      "index": 2,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "optional_v0",
+      "index": 3,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "optional_v0",
+      "index": 0,
+      "role": "Worker",
+      "original": "PUBLISH_MINIMAL",
+      "oracle": "PUBLISH_MINIMAL",
+      "best": [
+        "PUBLISH_MINIMAL"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "optional_v0",
+      "index": 1,
+      "role": "Worker",
+      "original": "PUBLISH_MINIMAL",
+      "oracle": "PUBLISH_MINIMAL",
+      "best": [
+        "PUBLISH_MINIMAL"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "optional_v0",
+      "index": 2,
+      "role": "Worker",
+      "original": "PUBLISH_MINIMAL",
+      "oracle": "PUBLISH_MINIMAL",
+      "best": [
+        "PUBLISH_MINIMAL"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "optional_v0",
+      "index": 3,
+      "role": "Worker",
+      "original": "PUBLISH_MINIMAL",
+      "oracle": "PUBLISH_MINIMAL",
+      "best": [
+        "PUBLISH_MINIMAL"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "optional_v1",
+      "index": 0,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "optional_v1",
+      "index": 1,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "optional_v1",
+      "index": 2,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "optional_v1",
+      "index": 3,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "optional_v1",
+      "index": 0,
+      "role": "Worker",
+      "original": "PUBLISH_MINIMAL",
+      "oracle": "PUBLISH_MINIMAL",
+      "best": [
+        "PUBLISH_MINIMAL"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "optional_v1",
+      "index": 1,
+      "role": "Worker",
+      "original": "PUBLISH_MINIMAL",
+      "oracle": "PUBLISH_MINIMAL",
+      "best": [
+        "PUBLISH_MINIMAL"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "optional_v1",
+      "index": 2,
+      "role": "Worker",
+      "original": "PUBLISH_MINIMAL",
+      "oracle": "PUBLISH_MINIMAL",
+      "best": [
+        "PUBLISH_MINIMAL"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "optional_v1",
+      "index": 3,
+      "role": "Worker",
+      "original": "PUBLISH_MINIMAL",
+      "oracle": "PUBLISH_MINIMAL",
+      "best": [
+        "PUBLISH_MINIMAL"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "authorized_v0",
+      "index": 0,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "authorized_v0",
+      "index": 1,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "authorized_v0",
+      "index": 2,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "authorized_v0",
+      "index": 3,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "authorized_v0",
+      "index": 0,
+      "role": "Worker",
+      "original": "PUBLISH_FULL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "authorized_v0",
+      "index": 1,
+      "role": "Worker",
+      "original": "PUBLISH_FULL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "authorized_v0",
+      "index": 2,
+      "role": "Worker",
+      "original": "PUBLISH_FULL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "authorized_v0",
+      "index": 3,
+      "role": "Worker",
+      "original": "PUBLISH_FULL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "authorized_v1",
+      "index": 0,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "authorized_v1",
+      "index": 1,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "authorized_v1",
+      "index": 2,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "authorized_v1",
+      "index": 3,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "authorized_v1",
+      "index": 0,
+      "role": "Worker",
+      "original": "PUBLISH_FULL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "authorized_v1",
+      "index": 1,
+      "role": "Worker",
+      "original": "PUBLISH_FULL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "authorized_v1",
+      "index": 2,
+      "role": "Worker",
+      "original": "PUBLISH_FULL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "authorized_v1",
+      "index": 3,
+      "role": "Worker",
+      "original": "PUBLISH_FULL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "draft_v0",
+      "index": 0,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "draft_v0",
+      "index": 1,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "draft_v0",
+      "index": 2,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "draft_v0",
+      "index": 3,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "draft_v0",
+      "index": 0,
+      "role": "Worker",
+      "original": "PUBLISH_FULL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "draft_v0",
+      "index": 1,
+      "role": "Worker",
+      "original": "PUBLISH_FULL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "draft_v0",
+      "index": 2,
+      "role": "Worker",
+      "original": "PUBLISH_FULL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "draft_v0",
+      "index": 3,
+      "role": "Worker",
+      "original": "PUBLISH_FULL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "draft_v1",
+      "index": 0,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "draft_v1",
+      "index": 1,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "draft_v1",
+      "index": 2,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "draft_v1",
+      "index": 3,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "draft_v1",
+      "index": 0,
+      "role": "Worker",
+      "original": "PUBLISH_FULL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "draft_v1",
+      "index": 1,
+      "role": "Worker",
+      "original": "PUBLISH_FULL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "draft_v1",
+      "index": 2,
+      "role": "Worker",
+      "original": "PUBLISH_FULL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "draft_v1",
+      "index": 3,
+      "role": "Worker",
+      "original": "PUBLISH_FULL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "both_v0",
+      "index": 0,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "both_v0",
+      "index": 1,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "both_v0",
+      "index": 2,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "both_v0",
+      "index": 3,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "both_v0",
+      "index": 0,
+      "role": "Worker",
+      "original": "PUBLISH_MINIMAL",
+      "oracle": "PUBLISH_MINIMAL",
+      "best": [
+        "PUBLISH_MINIMAL",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "both_v0",
+      "index": 1,
+      "role": "Worker",
+      "original": "PUBLISH_MINIMAL",
+      "oracle": "PUBLISH_MINIMAL",
+      "best": [
+        "PUBLISH_MINIMAL",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "both_v0",
+      "index": 2,
+      "role": "Worker",
+      "original": "PUBLISH_MINIMAL",
+      "oracle": "PUBLISH_MINIMAL",
+      "best": [
+        "PUBLISH_MINIMAL",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "both_v0",
+      "index": 3,
+      "role": "Worker",
+      "original": "PUBLISH_MINIMAL",
+      "oracle": "PUBLISH_MINIMAL",
+      "best": [
+        "PUBLISH_MINIMAL",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "both_v1",
+      "index": 0,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "both_v1",
+      "index": 1,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "both_v1",
+      "index": 2,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "both_v1",
+      "index": 3,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "both_v1",
+      "index": 0,
+      "role": "Worker",
+      "original": "PUBLISH_MINIMAL",
+      "oracle": "PUBLISH_MINIMAL",
+      "best": [
+        "PUBLISH_MINIMAL",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "initial",
+      "condition": "both_v1",
+      "index": 1,
+      "role": "Worker",
+      "original": "PUBLISH_FULL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_MINIMAL",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": true
+    },
+    {
+      "arm": "initial",
+      "condition": "both_v1",
+      "index": 2,
+      "role": "Worker",
+      "original": "PUBLISH_FULL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_MINIMAL",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": true
+    },
+    {
+      "arm": "initial",
+      "condition": "both_v1",
+      "index": 3,
+      "role": "Worker",
+      "original": "PUBLISH_FULL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_MINIMAL",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": true
+    },
+    {
+      "arm": "interleaved",
+      "condition": "base_v0",
+      "index": 0,
+      "role": "Source",
+      "original": "WITHHOLD",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": true
+    },
+    {
+      "arm": "interleaved",
+      "condition": "base_v0",
+      "index": 1,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "base_v0",
+      "index": 2,
+      "role": "Source",
+      "original": "WITHHOLD",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": true
+    },
+    {
+      "arm": "interleaved",
+      "condition": "base_v0",
+      "index": 3,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "base_v0",
+      "index": 4,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "base_v0",
+      "index": 5,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "base_v0",
+      "index": 6,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "base_v0",
+      "index": 7,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "base_v0",
+      "index": 1,
+      "role": "Worker",
+      "original": "WITHHOLD",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": true
+    },
+    {
+      "arm": "interleaved",
+      "condition": "base_v0",
+      "index": 3,
+      "role": "Worker",
+      "original": "WITHHOLD",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": true
+    },
+    {
+      "arm": "interleaved",
+      "condition": "base_v0",
+      "index": 4,
+      "role": "Worker",
+      "original": "PUBLISH_MINIMAL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": true
+    },
+    {
+      "arm": "interleaved",
+      "condition": "base_v0",
+      "index": 5,
+      "role": "Worker",
+      "original": "WITHHOLD",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": true
+    },
+    {
+      "arm": "interleaved",
+      "condition": "base_v0",
+      "index": 6,
+      "role": "Worker",
+      "original": "PUBLISH_MINIMAL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": true
+    },
+    {
+      "arm": "interleaved",
+      "condition": "base_v0",
+      "index": 7,
+      "role": "Worker",
+      "original": "WITHHOLD",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": true
+    },
+    {
+      "arm": "interleaved",
+      "condition": "base_v0_swap",
+      "index": 0,
+      "role": "Source",
+      "original": "WITHHOLD",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": true
+    },
+    {
+      "arm": "interleaved",
+      "condition": "base_v0_swap",
+      "index": 1,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "base_v0_swap",
+      "index": 2,
+      "role": "Source",
+      "original": "WITHHOLD",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": true
+    },
+    {
+      "arm": "interleaved",
+      "condition": "base_v0_swap",
+      "index": 3,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "base_v0_swap",
+      "index": 4,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "base_v0_swap",
+      "index": 5,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "base_v0_swap",
+      "index": 6,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "base_v0_swap",
+      "index": 7,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "base_v0_swap",
+      "index": 1,
+      "role": "Worker",
+      "original": "WITHHOLD",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": true
+    },
+    {
+      "arm": "interleaved",
+      "condition": "base_v0_swap",
+      "index": 3,
+      "role": "Worker",
+      "original": "WITHHOLD",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": true
+    },
+    {
+      "arm": "interleaved",
+      "condition": "base_v0_swap",
+      "index": 4,
+      "role": "Worker",
+      "original": "PUBLISH_MINIMAL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": true
+    },
+    {
+      "arm": "interleaved",
+      "condition": "base_v0_swap",
+      "index": 5,
+      "role": "Worker",
+      "original": "WITHHOLD",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": true
+    },
+    {
+      "arm": "interleaved",
+      "condition": "base_v0_swap",
+      "index": 6,
+      "role": "Worker",
+      "original": "PUBLISH_MINIMAL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": true
+    },
+    {
+      "arm": "interleaved",
+      "condition": "base_v0_swap",
+      "index": 7,
+      "role": "Worker",
+      "original": "WITHHOLD",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": true
+    },
+    {
+      "arm": "interleaved",
+      "condition": "base_v1",
+      "index": 0,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "base_v1",
+      "index": 1,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "base_v1",
+      "index": 2,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "base_v1",
+      "index": 3,
+      "role": "Source",
+      "original": "WITHHOLD",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": true
+    },
+    {
+      "arm": "interleaved",
+      "condition": "base_v1",
+      "index": 4,
+      "role": "Source",
+      "original": "WITHHOLD",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": true
+    },
+    {
+      "arm": "interleaved",
+      "condition": "base_v1",
+      "index": 5,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "base_v1",
+      "index": 6,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "base_v1",
+      "index": 7,
+      "role": "Source",
+      "original": "WITHHOLD",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": true
+    },
+    {
+      "arm": "interleaved",
+      "condition": "base_v1",
+      "index": 0,
+      "role": "Worker",
+      "original": "PUBLISH_MINIMAL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": true
+    },
+    {
+      "arm": "interleaved",
+      "condition": "base_v1",
+      "index": 1,
+      "role": "Worker",
+      "original": "PUBLISH_MINIMAL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": true
+    },
+    {
+      "arm": "interleaved",
+      "condition": "base_v1",
+      "index": 2,
+      "role": "Worker",
+      "original": "PUBLISH_MINIMAL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": true
+    },
+    {
+      "arm": "interleaved",
+      "condition": "base_v1",
+      "index": 5,
+      "role": "Worker",
+      "original": "PUBLISH_MINIMAL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": true
+    },
+    {
+      "arm": "interleaved",
+      "condition": "base_v1",
+      "index": 6,
+      "role": "Worker",
+      "original": "PUBLISH_MINIMAL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": true
+    },
+    {
+      "arm": "interleaved",
+      "condition": "base_v1_swap",
+      "index": 0,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "base_v1_swap",
+      "index": 1,
+      "role": "Source",
+      "original": "WITHHOLD",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": true
+    },
+    {
+      "arm": "interleaved",
+      "condition": "base_v1_swap",
+      "index": 2,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "base_v1_swap",
+      "index": 3,
+      "role": "Source",
+      "original": "WITHHOLD",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": true
+    },
+    {
+      "arm": "interleaved",
+      "condition": "base_v1_swap",
+      "index": 4,
+      "role": "Source",
+      "original": "WITHHOLD",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": true
+    },
+    {
+      "arm": "interleaved",
+      "condition": "base_v1_swap",
+      "index": 5,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "base_v1_swap",
+      "index": 6,
+      "role": "Source",
+      "original": "WITHHOLD",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": true
+    },
+    {
+      "arm": "interleaved",
+      "condition": "base_v1_swap",
+      "index": 7,
+      "role": "Source",
+      "original": "WITHHOLD",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": true
+    },
+    {
+      "arm": "interleaved",
+      "condition": "base_v1_swap",
+      "index": 0,
+      "role": "Worker",
+      "original": "PUBLISH_MINIMAL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": true
+    },
+    {
+      "arm": "interleaved",
+      "condition": "base_v1_swap",
+      "index": 2,
+      "role": "Worker",
+      "original": "PUBLISH_MINIMAL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": true
+    },
+    {
+      "arm": "interleaved",
+      "condition": "base_v1_swap",
+      "index": 5,
+      "role": "Worker",
+      "original": "PUBLISH_MINIMAL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": true
+    },
+    {
+      "arm": "interleaved",
+      "condition": "depth3_v0",
+      "index": 0,
+      "role": "Source",
+      "original": "WITHHOLD",
+      "oracle": "WITHHOLD",
+      "best": [
+        "DELIVER_INPUTS",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "depth3_v0",
+      "index": 1,
+      "role": "Source",
+      "original": "WITHHOLD",
+      "oracle": "WITHHOLD",
+      "best": [
+        "DELIVER_INPUTS",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "depth3_v0",
+      "index": 2,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "depth3_v0",
+      "index": 3,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "depth3_v0",
+      "index": 2,
+      "role": "Worker",
+      "original": "PUBLISH_MINIMAL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": true
+    },
+    {
+      "arm": "interleaved",
+      "condition": "depth3_v0",
+      "index": 3,
+      "role": "Worker",
+      "original": "WITHHOLD",
+      "oracle": "WITHHOLD",
+      "best": [
+        "PUBLISH_MINIMAL",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "depth3_v0_swap",
+      "index": 0,
+      "role": "Source",
+      "original": "WITHHOLD",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": true
+    },
+    {
+      "arm": "interleaved",
+      "condition": "depth3_v0_swap",
+      "index": 1,
+      "role": "Source",
+      "original": "WITHHOLD",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": true
+    },
+    {
+      "arm": "interleaved",
+      "condition": "depth3_v0_swap",
+      "index": 2,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "depth3_v0_swap",
+      "index": 3,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "depth3_v0_swap",
+      "index": 2,
+      "role": "Worker",
+      "original": "PUBLISH_MINIMAL",
+      "oracle": "PUBLISH_MINIMAL",
+      "best": [
+        "PUBLISH_MINIMAL",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "depth3_v0_swap",
+      "index": 3,
+      "role": "Worker",
+      "original": "WITHHOLD",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": true
+    },
+    {
+      "arm": "interleaved",
+      "condition": "depth3_v1",
+      "index": 0,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "depth3_v1",
+      "index": 1,
+      "role": "Source",
+      "original": "WITHHOLD",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": true
+    },
+    {
+      "arm": "interleaved",
+      "condition": "depth3_v1",
+      "index": 2,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "depth3_v1",
+      "index": 3,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "depth3_v1",
+      "index": 0,
+      "role": "Worker",
+      "original": "PUBLISH_MINIMAL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": true
+    },
+    {
+      "arm": "interleaved",
+      "condition": "depth3_v1",
+      "index": 2,
+      "role": "Worker",
+      "original": "PUBLISH_MINIMAL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": true
+    },
+    {
+      "arm": "interleaved",
+      "condition": "depth3_v1",
+      "index": 3,
+      "role": "Worker",
+      "original": "PUBLISH_MINIMAL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": true
+    },
+    {
+      "arm": "interleaved",
+      "condition": "depth3_v1_swap",
+      "index": 0,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "depth3_v1_swap",
+      "index": 1,
+      "role": "Source",
+      "original": "WITHHOLD",
+      "oracle": "WITHHOLD",
+      "best": [
+        "DELIVER_INPUTS",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "depth3_v1_swap",
+      "index": 2,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "depth3_v1_swap",
+      "index": 3,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "depth3_v1_swap",
+      "index": 0,
+      "role": "Worker",
+      "original": "PUBLISH_MINIMAL",
+      "oracle": "PUBLISH_MINIMAL",
+      "best": [
+        "PUBLISH_MINIMAL",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "depth3_v1_swap",
+      "index": 2,
+      "role": "Worker",
+      "original": "PUBLISH_MINIMAL",
+      "oracle": "PUBLISH_MINIMAL",
+      "best": [
+        "PUBLISH_MINIMAL",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "depth3_v1_swap",
+      "index": 3,
+      "role": "Worker",
+      "original": "PUBLISH_MINIMAL",
+      "oracle": "PUBLISH_MINIMAL",
+      "best": [
+        "PUBLISH_MINIMAL",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "internal3_v0",
+      "index": 0,
+      "role": "Source",
+      "original": "WITHHOLD",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": true
+    },
+    {
+      "arm": "interleaved",
+      "condition": "internal3_v0",
+      "index": 1,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "internal3_v0",
+      "index": 2,
+      "role": "Source",
+      "original": "WITHHOLD",
+      "oracle": "WITHHOLD",
+      "best": [
+        "DELIVER_INPUTS",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "internal3_v0",
+      "index": 3,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "internal3_v0",
+      "index": 1,
+      "role": "Worker",
+      "original": "WITHHOLD",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": true
+    },
+    {
+      "arm": "interleaved",
+      "condition": "internal3_v0",
+      "index": 3,
+      "role": "Worker",
+      "original": "PUBLISH_MINIMAL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": true
+    },
+    {
+      "arm": "interleaved",
+      "condition": "internal3_v0_swap",
+      "index": 0,
+      "role": "Source",
+      "original": "WITHHOLD",
+      "oracle": "WITHHOLD",
+      "best": [
+        "DELIVER_INPUTS",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "internal3_v0_swap",
+      "index": 1,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "WITHHOLD",
+      "best": [
+        "DELIVER_INPUTS",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "internal3_v0_swap",
+      "index": 2,
+      "role": "Source",
+      "original": "WITHHOLD",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": true
+    },
+    {
+      "arm": "interleaved",
+      "condition": "internal3_v0_swap",
+      "index": 3,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "internal3_v0_swap",
+      "index": 1,
+      "role": "Worker",
+      "original": "WITHHOLD",
+      "oracle": "WITHHOLD",
+      "best": [
+        "PUBLISH_MINIMAL",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "internal3_v0_swap",
+      "index": 3,
+      "role": "Worker",
+      "original": "PUBLISH_MINIMAL",
+      "oracle": "PUBLISH_MINIMAL",
+      "best": [
+        "PUBLISH_MINIMAL",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "internal3_v1",
+      "index": 0,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "internal3_v1",
+      "index": 1,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "internal3_v1",
+      "index": 2,
+      "role": "Source",
+      "original": "WITHHOLD",
+      "oracle": "WITHHOLD",
+      "best": [
+        "DELIVER_INPUTS",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "internal3_v1",
+      "index": 3,
+      "role": "Source",
+      "original": "WITHHOLD",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": true
+    },
+    {
+      "arm": "interleaved",
+      "condition": "internal3_v1",
+      "index": 0,
+      "role": "Worker",
+      "original": "PUBLISH_MINIMAL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": true
+    },
+    {
+      "arm": "interleaved",
+      "condition": "internal3_v1",
+      "index": 1,
+      "role": "Worker",
+      "original": "PUBLISH_MINIMAL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": true
+    },
+    {
+      "arm": "interleaved",
+      "condition": "internal3_v1_swap",
+      "index": 0,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "internal3_v1_swap",
+      "index": 1,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "internal3_v1_swap",
+      "index": 2,
+      "role": "Source",
+      "original": "WITHHOLD",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": true
+    },
+    {
+      "arm": "interleaved",
+      "condition": "internal3_v1_swap",
+      "index": 3,
+      "role": "Source",
+      "original": "WITHHOLD",
+      "oracle": "WITHHOLD",
+      "best": [
+        "DELIVER_INPUTS",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "internal3_v1_swap",
+      "index": 0,
+      "role": "Worker",
+      "original": "PUBLISH_MINIMAL",
+      "oracle": "PUBLISH_MINIMAL",
+      "best": [
+        "PUBLISH_MINIMAL",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "internal3_v1_swap",
+      "index": 1,
+      "role": "Worker",
+      "original": "PUBLISH_MINIMAL",
+      "oracle": "PUBLISH_MINIMAL",
+      "best": [
+        "PUBLISH_MINIMAL",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "cycle4_v0",
+      "index": 0,
+      "role": "Source",
+      "original": "WITHHOLD",
+      "oracle": "WITHHOLD",
+      "best": [
+        "DELIVER_INPUTS",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "cycle4_v0",
+      "index": 1,
+      "role": "Source",
+      "original": "WITHHOLD",
+      "oracle": "WITHHOLD",
+      "best": [
+        "DELIVER_INPUTS",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "cycle4_v0",
+      "index": 2,
+      "role": "Source",
+      "original": "WITHHOLD",
+      "oracle": "WITHHOLD",
+      "best": [
+        "DELIVER_INPUTS",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "cycle4_v0",
+      "index": 3,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "cycle4_v0",
+      "index": 3,
+      "role": "Worker",
+      "original": "PUBLISH_MINIMAL",
+      "oracle": "PUBLISH_MINIMAL",
+      "best": [
+        "PUBLISH_MINIMAL",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "cycle4_v0_swap",
+      "index": 0,
+      "role": "Source",
+      "original": "WITHHOLD",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": true
+    },
+    {
+      "arm": "interleaved",
+      "condition": "cycle4_v0_swap",
+      "index": 1,
+      "role": "Source",
+      "original": "WITHHOLD",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": true
+    },
+    {
+      "arm": "interleaved",
+      "condition": "cycle4_v0_swap",
+      "index": 2,
+      "role": "Source",
+      "original": "WITHHOLD",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": true
+    },
+    {
+      "arm": "interleaved",
+      "condition": "cycle4_v0_swap",
+      "index": 3,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "cycle4_v0_swap",
+      "index": 3,
+      "role": "Worker",
+      "original": "PUBLISH_MINIMAL",
+      "oracle": "PUBLISH_MINIMAL",
+      "best": [
+        "PUBLISH_MINIMAL",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "cycle4_v1",
+      "index": 0,
+      "role": "Source",
+      "original": "WITHHOLD",
+      "oracle": "WITHHOLD",
+      "best": [
+        "DELIVER_INPUTS",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "cycle4_v1",
+      "index": 1,
+      "role": "Source",
+      "original": "WITHHOLD",
+      "oracle": "WITHHOLD",
+      "best": [
+        "DELIVER_INPUTS",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "cycle4_v1",
+      "index": 2,
+      "role": "Source",
+      "original": "WITHHOLD",
+      "oracle": "WITHHOLD",
+      "best": [
+        "DELIVER_INPUTS",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "cycle4_v1",
+      "index": 3,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "cycle4_v1",
+      "index": 3,
+      "role": "Worker",
+      "original": "WITHHOLD",
+      "oracle": "WITHHOLD",
+      "best": [
+        "PUBLISH_MINIMAL",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "cycle4_v1_swap",
+      "index": 0,
+      "role": "Source",
+      "original": "WITHHOLD",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": true
+    },
+    {
+      "arm": "interleaved",
+      "condition": "cycle4_v1_swap",
+      "index": 1,
+      "role": "Source",
+      "original": "WITHHOLD",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": true
+    },
+    {
+      "arm": "interleaved",
+      "condition": "cycle4_v1_swap",
+      "index": 2,
+      "role": "Source",
+      "original": "WITHHOLD",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": true
+    },
+    {
+      "arm": "interleaved",
+      "condition": "cycle4_v1_swap",
+      "index": 3,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "cycle4_v1_swap",
+      "index": 3,
+      "role": "Worker",
+      "original": "WITHHOLD",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": true
+    },
+    {
+      "arm": "interleaved",
+      "condition": "optional_v0",
+      "index": 0,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "optional_v0",
+      "index": 1,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "optional_v0",
+      "index": 2,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "optional_v0",
+      "index": 3,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "optional_v0",
+      "index": 0,
+      "role": "Worker",
+      "original": "PUBLISH_MINIMAL",
+      "oracle": "PUBLISH_MINIMAL",
+      "best": [
+        "PUBLISH_MINIMAL"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "optional_v0",
+      "index": 1,
+      "role": "Worker",
+      "original": "PUBLISH_MINIMAL",
+      "oracle": "PUBLISH_MINIMAL",
+      "best": [
+        "PUBLISH_MINIMAL"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "optional_v0",
+      "index": 2,
+      "role": "Worker",
+      "original": "PUBLISH_MINIMAL",
+      "oracle": "PUBLISH_MINIMAL",
+      "best": [
+        "PUBLISH_MINIMAL"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "optional_v0",
+      "index": 3,
+      "role": "Worker",
+      "original": "PUBLISH_MINIMAL",
+      "oracle": "PUBLISH_MINIMAL",
+      "best": [
+        "PUBLISH_MINIMAL"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "optional_v1",
+      "index": 0,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "optional_v1",
+      "index": 1,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "optional_v1",
+      "index": 2,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "optional_v1",
+      "index": 3,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "optional_v1",
+      "index": 0,
+      "role": "Worker",
+      "original": "PUBLISH_MINIMAL",
+      "oracle": "PUBLISH_MINIMAL",
+      "best": [
+        "PUBLISH_MINIMAL"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "optional_v1",
+      "index": 1,
+      "role": "Worker",
+      "original": "PUBLISH_MINIMAL",
+      "oracle": "PUBLISH_MINIMAL",
+      "best": [
+        "PUBLISH_MINIMAL"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "optional_v1",
+      "index": 2,
+      "role": "Worker",
+      "original": "PUBLISH_MINIMAL",
+      "oracle": "PUBLISH_MINIMAL",
+      "best": [
+        "PUBLISH_MINIMAL"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "optional_v1",
+      "index": 3,
+      "role": "Worker",
+      "original": "PUBLISH_MINIMAL",
+      "oracle": "PUBLISH_MINIMAL",
+      "best": [
+        "PUBLISH_MINIMAL"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "authorized_v0",
+      "index": 0,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "authorized_v0",
+      "index": 1,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "authorized_v0",
+      "index": 2,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "authorized_v0",
+      "index": 3,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "authorized_v0",
+      "index": 0,
+      "role": "Worker",
+      "original": "PUBLISH_FULL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "authorized_v0",
+      "index": 1,
+      "role": "Worker",
+      "original": "PUBLISH_FULL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "authorized_v0",
+      "index": 2,
+      "role": "Worker",
+      "original": "PUBLISH_FULL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "authorized_v0",
+      "index": 3,
+      "role": "Worker",
+      "original": "PUBLISH_FULL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "authorized_v1",
+      "index": 0,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "authorized_v1",
+      "index": 1,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "authorized_v1",
+      "index": 2,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "authorized_v1",
+      "index": 3,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "authorized_v1",
+      "index": 0,
+      "role": "Worker",
+      "original": "PUBLISH_FULL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "authorized_v1",
+      "index": 1,
+      "role": "Worker",
+      "original": "PUBLISH_FULL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "authorized_v1",
+      "index": 2,
+      "role": "Worker",
+      "original": "PUBLISH_FULL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "authorized_v1",
+      "index": 3,
+      "role": "Worker",
+      "original": "PUBLISH_FULL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "draft_v0",
+      "index": 0,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "draft_v0",
+      "index": 1,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "draft_v0",
+      "index": 2,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "draft_v0",
+      "index": 3,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "draft_v0",
+      "index": 0,
+      "role": "Worker",
+      "original": "PUBLISH_FULL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "draft_v0",
+      "index": 1,
+      "role": "Worker",
+      "original": "PUBLISH_FULL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "draft_v0",
+      "index": 2,
+      "role": "Worker",
+      "original": "PUBLISH_FULL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "draft_v0",
+      "index": 3,
+      "role": "Worker",
+      "original": "PUBLISH_FULL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "draft_v1",
+      "index": 0,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "draft_v1",
+      "index": 1,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "draft_v1",
+      "index": 2,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "draft_v1",
+      "index": 3,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "draft_v1",
+      "index": 0,
+      "role": "Worker",
+      "original": "PUBLISH_FULL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "draft_v1",
+      "index": 1,
+      "role": "Worker",
+      "original": "PUBLISH_FULL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "draft_v1",
+      "index": 2,
+      "role": "Worker",
+      "original": "PUBLISH_FULL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "draft_v1",
+      "index": 3,
+      "role": "Worker",
+      "original": "PUBLISH_FULL",
+      "oracle": "PUBLISH_FULL",
+      "best": [
+        "PUBLISH_FULL"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "both_v0",
+      "index": 0,
+      "role": "Source",
+      "original": "WITHHOLD",
+      "oracle": "WITHHOLD",
+      "best": [
+        "DELIVER_INPUTS",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "both_v0",
+      "index": 1,
+      "role": "Source",
+      "original": "WITHHOLD",
+      "oracle": "WITHHOLD",
+      "best": [
+        "DELIVER_INPUTS",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "both_v0",
+      "index": 2,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "both_v0",
+      "index": 3,
+      "role": "Source",
+      "original": "WITHHOLD",
+      "oracle": "WITHHOLD",
+      "best": [
+        "DELIVER_INPUTS",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "both_v0",
+      "index": 2,
+      "role": "Worker",
+      "original": "PUBLISH_MINIMAL",
+      "oracle": "PUBLISH_MINIMAL",
+      "best": [
+        "PUBLISH_MINIMAL",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "both_v1",
+      "index": 0,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "both_v1",
+      "index": 1,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "both_v1",
+      "index": 2,
+      "role": "Source",
+      "original": "DELIVER_INPUTS",
+      "oracle": "DELIVER_INPUTS",
+      "best": [
+        "DELIVER_INPUTS",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "both_v1",
+      "index": 3,
+      "role": "Source",
+      "original": "WITHHOLD",
+      "oracle": "WITHHOLD",
+      "best": [
+        "DELIVER_INPUTS",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "both_v1",
+      "index": 0,
+      "role": "Worker",
+      "original": "PUBLISH_MINIMAL",
+      "oracle": "PUBLISH_MINIMAL",
+      "best": [
+        "PUBLISH_MINIMAL",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "both_v1",
+      "index": 1,
+      "role": "Worker",
+      "original": "PUBLISH_MINIMAL",
+      "oracle": "PUBLISH_MINIMAL",
+      "best": [
+        "PUBLISH_MINIMAL",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    },
+    {
+      "arm": "interleaved",
+      "condition": "both_v1",
+      "index": 2,
+      "role": "Worker",
+      "original": "PUBLISH_MINIMAL",
+      "oracle": "PUBLISH_MINIMAL",
+      "best": [
+        "PUBLISH_MINIMAL",
+        "WITHHOLD"
+      ],
+      "first_nonoptimal_here": false
+    }
+  ],
+  "responses": 405,
+  "generation_seconds": 97.86261537999997,
+  "max_seconds": 0.759778783999991,
+  "intervention_controls_passed": true,
+  "errors": 0,
+  "model_updates": 0,
+  "whole_goal_complete": false,
+  "scope": "Fixed reached Source/Worker states, oracle estimates only; not full oracle rollouts or learned-query success"
+}

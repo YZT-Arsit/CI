@@ -1,0 +1,5 @@
+# Relational generalization scope
+
+Exa source check: [Sinha et al., CLUTRR: A Diagnostic Benchmark for Inductive Reasoning from Text, EMNLP-IJCNLP 2019](https://aclanthology.org/D19-1458/). The original benchmark separates inference of entity relations from generalization to held-out rule combinations and robustness to added noise. Its [official repository](https://github.com/facebookresearch/clutrr/) also describes training/testing at different relation lengths.
+
+This continuation uses these evaluation distinctions, not CLUTRR data or a reproduction of its experiments. The recent continuation adds depth2/3 coverage, but the original trace ancestor already sampled these depths; see SCOPE_CORRECTION.md. A new depth4 family and the internal reversal/degree-matched cycle families are excluded from this continuation's training. Correctness on new names alone cannot establish composition learning. No empirical guarantee follows from this source; the local frozen experiment must test the claim.

@@ -1,0 +1,466 @@
+{
+  "summaries": [
+    {
+      "arm": "one_hop",
+      "paired_queries": 288,
+      "both_sides_correct": 73,
+      "all_four_presentations": 24,
+      "four_presentation_groups": 144,
+      "by_family_role": [
+        {
+          "family": "base",
+          "role": "Planner",
+          "pairs": 32,
+          "both_correct": 31,
+          "individual_correct": 63
+        },
+        {
+          "family": "base",
+          "role": "Source",
+          "pairs": 32,
+          "both_correct": 17,
+          "individual_correct": 49
+        },
+        {
+          "family": "base",
+          "role": "Worker",
+          "pairs": 32,
+          "both_correct": 15,
+          "individual_correct": 47
+        },
+        {
+          "family": "depth3",
+          "role": "Planner",
+          "pairs": 16,
+          "both_correct": 0,
+          "individual_correct": 16
+        },
+        {
+          "family": "depth3",
+          "role": "Source",
+          "pairs": 16,
+          "both_correct": 0,
+          "individual_correct": 16
+        },
+        {
+          "family": "depth3",
+          "role": "Worker",
+          "pairs": 16,
+          "both_correct": 0,
+          "individual_correct": 16
+        },
+        {
+          "family": "depth4",
+          "role": "Planner",
+          "pairs": 16,
+          "both_correct": 0,
+          "individual_correct": 15
+        },
+        {
+          "family": "depth4",
+          "role": "Source",
+          "pairs": 16,
+          "both_correct": 1,
+          "individual_correct": 17
+        },
+        {
+          "family": "depth4",
+          "role": "Worker",
+          "pairs": 16,
+          "both_correct": 1,
+          "individual_correct": 16
+        },
+        {
+          "family": "internal3",
+          "role": "Planner",
+          "pairs": 16,
+          "both_correct": 1,
+          "individual_correct": 17
+        },
+        {
+          "family": "internal3",
+          "role": "Source",
+          "pairs": 16,
+          "both_correct": 1,
+          "individual_correct": 17
+        },
+        {
+          "family": "internal3",
+          "role": "Worker",
+          "pairs": 16,
+          "both_correct": 1,
+          "individual_correct": 16
+        },
+        {
+          "family": "cycle4",
+          "role": "Planner",
+          "pairs": 16,
+          "both_correct": 1,
+          "individual_correct": 17
+        },
+        {
+          "family": "cycle4",
+          "role": "Source",
+          "pairs": 16,
+          "both_correct": 1,
+          "individual_correct": 17
+        },
+        {
+          "family": "cycle4",
+          "role": "Worker",
+          "pairs": 16,
+          "both_correct": 3,
+          "individual_correct": 17
+        }
+      ]
+    },
+    {
+      "arm": "mixed_depth",
+      "paired_queries": 288,
+      "both_sides_correct": 32,
+      "all_four_presentations": 13,
+      "four_presentation_groups": 144,
+      "by_family_role": [
+        {
+          "family": "base",
+          "role": "Planner",
+          "pairs": 32,
+          "both_correct": 29,
+          "individual_correct": 61
+        },
+        {
+          "family": "base",
+          "role": "Source",
+          "pairs": 32,
+          "both_correct": 0,
+          "individual_correct": 32
+        },
+        {
+          "family": "base",
+          "role": "Worker",
+          "pairs": 32,
+          "both_correct": 0,
+          "individual_correct": 32
+        },
+        {
+          "family": "depth3",
+          "role": "Planner",
+          "pairs": 16,
+          "both_correct": 0,
+          "individual_correct": 16
+        },
+        {
+          "family": "depth3",
+          "role": "Source",
+          "pairs": 16,
+          "both_correct": 0,
+          "individual_correct": 16
+        },
+        {
+          "family": "depth3",
+          "role": "Worker",
+          "pairs": 16,
+          "both_correct": 0,
+          "individual_correct": 16
+        },
+        {
+          "family": "depth4",
+          "role": "Planner",
+          "pairs": 16,
+          "both_correct": 1,
+          "individual_correct": 17
+        },
+        {
+          "family": "depth4",
+          "role": "Source",
+          "pairs": 16,
+          "both_correct": 0,
+          "individual_correct": 16
+        },
+        {
+          "family": "depth4",
+          "role": "Worker",
+          "pairs": 16,
+          "both_correct": 0,
+          "individual_correct": 16
+        },
+        {
+          "family": "internal3",
+          "role": "Planner",
+          "pairs": 16,
+          "both_correct": 1,
+          "individual_correct": 17
+        },
+        {
+          "family": "internal3",
+          "role": "Source",
+          "pairs": 16,
+          "both_correct": 0,
+          "individual_correct": 16
+        },
+        {
+          "family": "internal3",
+          "role": "Worker",
+          "pairs": 16,
+          "both_correct": 0,
+          "individual_correct": 16
+        },
+        {
+          "family": "cycle4",
+          "role": "Planner",
+          "pairs": 16,
+          "both_correct": 1,
+          "individual_correct": 17
+        },
+        {
+          "family": "cycle4",
+          "role": "Source",
+          "pairs": 16,
+          "both_correct": 0,
+          "individual_correct": 16
+        },
+        {
+          "family": "cycle4",
+          "role": "Worker",
+          "pairs": 16,
+          "both_correct": 0,
+          "individual_correct": 16
+        }
+      ]
+    },
+    {
+      "arm": "initial",
+      "paired_queries": 288,
+      "both_sides_correct": 35,
+      "all_four_presentations": 15,
+      "four_presentation_groups": 144,
+      "by_family_role": [
+        {
+          "family": "base",
+          "role": "Planner",
+          "pairs": 32,
+          "both_correct": 31,
+          "individual_correct": 63
+        },
+        {
+          "family": "base",
+          "role": "Source",
+          "pairs": 32,
+          "both_correct": 0,
+          "individual_correct": 32
+        },
+        {
+          "family": "base",
+          "role": "Worker",
+          "pairs": 32,
+          "both_correct": 0,
+          "individual_correct": 32
+        },
+        {
+          "family": "depth3",
+          "role": "Planner",
+          "pairs": 16,
+          "both_correct": 0,
+          "individual_correct": 16
+        },
+        {
+          "family": "depth3",
+          "role": "Source",
+          "pairs": 16,
+          "both_correct": 0,
+          "individual_correct": 16
+        },
+        {
+          "family": "depth3",
+          "role": "Worker",
+          "pairs": 16,
+          "both_correct": 0,
+          "individual_correct": 16
+        },
+        {
+          "family": "depth4",
+          "role": "Planner",
+          "pairs": 16,
+          "both_correct": 0,
+          "individual_correct": 15
+        },
+        {
+          "family": "depth4",
+          "role": "Source",
+          "pairs": 16,
+          "both_correct": 1,
+          "individual_correct": 17
+        },
+        {
+          "family": "depth4",
+          "role": "Worker",
+          "pairs": 16,
+          "both_correct": 0,
+          "individual_correct": 16
+        },
+        {
+          "family": "internal3",
+          "role": "Planner",
+          "pairs": 16,
+          "both_correct": 3,
+          "individual_correct": 19
+        },
+        {
+          "family": "internal3",
+          "role": "Source",
+          "pairs": 16,
+          "both_correct": 0,
+          "individual_correct": 16
+        },
+        {
+          "family": "internal3",
+          "role": "Worker",
+          "pairs": 16,
+          "both_correct": 0,
+          "individual_correct": 16
+        },
+        {
+          "family": "cycle4",
+          "role": "Planner",
+          "pairs": 16,
+          "both_correct": 0,
+          "individual_correct": 16
+        },
+        {
+          "family": "cycle4",
+          "role": "Source",
+          "pairs": 16,
+          "both_correct": 0,
+          "individual_correct": 16
+        },
+        {
+          "family": "cycle4",
+          "role": "Worker",
+          "pairs": 16,
+          "both_correct": 0,
+          "individual_correct": 16
+        }
+      ]
+    },
+    {
+      "arm": "earlier",
+      "paired_queries": 288,
+      "both_sides_correct": 46,
+      "all_four_presentations": 15,
+      "four_presentation_groups": 144,
+      "by_family_role": [
+        {
+          "family": "base",
+          "role": "Planner",
+          "pairs": 32,
+          "both_correct": 31,
+          "individual_correct": 63
+        },
+        {
+          "family": "base",
+          "role": "Source",
+          "pairs": 32,
+          "both_correct": 4,
+          "individual_correct": 36
+        },
+        {
+          "family": "base",
+          "role": "Worker",
+          "pairs": 32,
+          "both_correct": 5,
+          "individual_correct": 36
+        },
+        {
+          "family": "depth3",
+          "role": "Planner",
+          "pairs": 16,
+          "both_correct": 1,
+          "individual_correct": 17
+        },
+        {
+          "family": "depth3",
+          "role": "Source",
+          "pairs": 16,
+          "both_correct": 1,
+          "individual_correct": 17
+        },
+        {
+          "family": "depth3",
+          "role": "Worker",
+          "pairs": 16,
+          "both_correct": 0,
+          "individual_correct": 16
+        },
+        {
+          "family": "depth4",
+          "role": "Planner",
+          "pairs": 16,
+          "both_correct": 0,
+          "individual_correct": 15
+        },
+        {
+          "family": "depth4",
+          "role": "Source",
+          "pairs": 16,
+          "both_correct": 0,
+          "individual_correct": 14
+        },
+        {
+          "family": "depth4",
+          "role": "Worker",
+          "pairs": 16,
+          "both_correct": 0,
+          "individual_correct": 15
+        },
+        {
+          "family": "internal3",
+          "role": "Planner",
+          "pairs": 16,
+          "both_correct": 3,
+          "individual_correct": 19
+        },
+        {
+          "family": "internal3",
+          "role": "Source",
+          "pairs": 16,
+          "both_correct": 0,
+          "individual_correct": 16
+        },
+        {
+          "family": "internal3",
+          "role": "Worker",
+          "pairs": 16,
+          "both_correct": 0,
+          "individual_correct": 16
+        },
+        {
+          "family": "cycle4",
+          "role": "Planner",
+          "pairs": 16,
+          "both_correct": 1,
+          "individual_correct": 17
+        },
+        {
+          "family": "cycle4",
+          "role": "Source",
+          "pairs": 16,
+          "both_correct": 0,
+          "individual_correct": 16
+        },
+        {
+          "family": "cycle4",
+          "role": "Worker",
+          "pairs": 16,
+          "both_correct": 0,
+          "individual_correct": 16
+        }
+      ]
+    }
+  ],
+  "model_calls": 0,
+  "errors": 0,
+  "primary_gate_changed": false,
+  "scope": "Prelaunch paired-query diagnostic on reused DEV, all label-changing native pairs. No new independent validation or primary-gate change.",
+  "constant_bit_both_correct": 0,
+  "whole_goal_complete": false
+}

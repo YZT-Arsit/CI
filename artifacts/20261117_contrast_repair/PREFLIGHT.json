@@ -1,0 +1,75 @@
+{
+  "actual_reversal_batches": [
+    {
+      "role": "Planner",
+      "depth": 1,
+      "count": 6
+    },
+    {
+      "role": "Source",
+      "depth": 1,
+      "count": 7
+    },
+    {
+      "role": "Worker",
+      "depth": 1,
+      "count": 6
+    },
+    {
+      "role": "Planner",
+      "depth": 2,
+      "count": 6
+    },
+    {
+      "role": "Source",
+      "depth": 2,
+      "count": 7
+    },
+    {
+      "role": "Worker",
+      "depth": 2,
+      "count": 8
+    },
+    {
+      "role": "Planner",
+      "depth": 3,
+      "count": 6
+    },
+    {
+      "role": "Source",
+      "depth": 3,
+      "count": 6
+    },
+    {
+      "role": "Worker",
+      "depth": 3,
+      "count": 7
+    }
+  ],
+  "forced_role_depth_kind_counts": {
+    "('Planner', 1, 'meeting')": 3,
+    "('Source', 1, 'meeting')": 3,
+    "('Worker', 1, 'meeting')": 3,
+    "('Planner', 2, 'meeting')": 3,
+    "('Source', 2, 'meeting')": 3,
+    "('Worker', 2, 'meeting')": 3,
+    "('Planner', 3, 'meeting')": 3,
+    "('Source', 3, 'meeting')": 3,
+    "('Worker', 3, 'meeting')": 3,
+    "('Planner', 1, 'query')": 3,
+    "('Source', 1, 'query')": 3,
+    "('Worker', 1, 'query')": 3,
+    "('Planner', 2, 'query')": 3,
+    "('Source', 2, 'query')": 3,
+    "('Worker', 2, 'query')": 3,
+    "('Planner', 3, 'query')": 3,
+    "('Source', 3, 'query')": 3,
+    "('Worker', 3, 'query')": 3
+  },
+  "forced_batches": 54,
+  "anchor_batches": 42,
+  "native_train_states_checked": 576,
+  "errors": 0,
+  "development_set_reused": true,
+  "new_updates": 246
+}
