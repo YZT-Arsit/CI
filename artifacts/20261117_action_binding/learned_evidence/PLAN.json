@@ -1,0 +1,4432 @@
+{
+  "arms": [
+    "auxiliary",
+    "evidence"
+  ],
+  "seed": 17,
+  "steps": 400,
+  "lr": 0.0008,
+  "query_weight": 1.0,
+  "action_weight": 1.0,
+  "format_weight": 0.1,
+  "train_depth": 1,
+  "role_updates": {
+    "Planner": 200,
+    "Source": 100,
+    "Worker": 100
+  },
+  "batches": [
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 2,
+      "nonce": 589028564
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 4,
+      "nonce": 445319163
+    },
+    {
+      "key": [
+        "Source",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 72,
+      "nonce": 639194011
+    },
+    {
+      "key": [
+        "Worker",
+        false,
+        true,
+        false,
+        true
+      ],
+      "index": 6,
+      "nonce": 510059226
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 5,
+      "nonce": 169037716
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 1,
+      "nonce": 483997862
+    },
+    {
+      "key": [
+        "Source",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 35,
+      "nonce": 477768133
+    },
+    {
+      "key": [
+        "Worker",
+        true,
+        true,
+        true,
+        false
+      ],
+      "index": 24,
+      "nonce": 30985902
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 2,
+      "nonce": 761621925
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 1,
+      "nonce": 58465385
+    },
+    {
+      "key": [
+        "Source",
+        true,
+        true,
+        true,
+        false
+      ],
+      "index": 7,
+      "nonce": 931096060
+    },
+    {
+      "key": [
+        "Worker",
+        false,
+        false,
+        true,
+        true
+      ],
+      "index": 19,
+      "nonce": 281943350
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 5,
+      "nonce": 41369895
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 5,
+      "nonce": 250821733
+    },
+    {
+      "key": [
+        "Source",
+        true,
+        true,
+        true,
+        false
+      ],
+      "index": 72,
+      "nonce": 454225731
+    },
+    {
+      "key": [
+        "Worker",
+        true,
+        false,
+        true,
+        false
+      ],
+      "index": 47,
+      "nonce": 83374843
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 4,
+      "nonce": 794042400
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 1,
+      "nonce": 282049848
+    },
+    {
+      "key": [
+        "Source",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 27,
+      "nonce": 556853459
+    },
+    {
+      "key": [
+        "Worker",
+        false,
+        true,
+        false,
+        true
+      ],
+      "index": 9,
+      "nonce": 628272296
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 2,
+      "nonce": 535303962
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 6,
+      "nonce": 594601074
+    },
+    {
+      "key": [
+        "Source",
+        false,
+        false,
+        true,
+        false
+      ],
+      "index": 91,
+      "nonce": 149576338
+    },
+    {
+      "key": [
+        "Worker",
+        false,
+        true,
+        false,
+        true
+      ],
+      "index": 2,
+      "nonce": 591417443
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 0,
+      "nonce": 528410884
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 1,
+      "nonce": 883865992
+    },
+    {
+      "key": [
+        "Source",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 59,
+      "nonce": 258579795
+    },
+    {
+      "key": [
+        "Worker",
+        false,
+        false,
+        true,
+        true
+      ],
+      "index": 25,
+      "nonce": 40280079
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 7,
+      "nonce": 980077061
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 1,
+      "nonce": 658762008
+    },
+    {
+      "key": [
+        "Source",
+        false,
+        false,
+        true,
+        false
+      ],
+      "index": 12,
+      "nonce": 347406293
+    },
+    {
+      "key": [
+        "Worker",
+        false,
+        true,
+        true,
+        true
+      ],
+      "index": 2,
+      "nonce": 113353729
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 7,
+      "nonce": 73634435
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 7,
+      "nonce": 353059433
+    },
+    {
+      "key": [
+        "Source",
+        true,
+        false,
+        true,
+        false
+      ],
+      "index": 28,
+      "nonce": 570809114
+    },
+    {
+      "key": [
+        "Worker",
+        true,
+        true,
+        true,
+        false
+      ],
+      "index": 30,
+      "nonce": 697568991
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 1,
+      "nonce": 216693525
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 5,
+      "nonce": 21985435
+    },
+    {
+      "key": [
+        "Source",
+        false,
+        false,
+        true,
+        false
+      ],
+      "index": 75,
+      "nonce": 116414697
+    },
+    {
+      "key": [
+        "Worker",
+        true,
+        true,
+        true,
+        false
+      ],
+      "index": 81,
+      "nonce": 491267921
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 1,
+      "nonce": 973632994
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 0,
+      "nonce": 425161817
+    },
+    {
+      "key": [
+        "Source",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 39,
+      "nonce": 94190494
+    },
+    {
+      "key": [
+        "Worker",
+        false,
+        true,
+        false,
+        true
+      ],
+      "index": 1,
+      "nonce": 212666925
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 1,
+      "nonce": 749413579
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 3,
+      "nonce": 115848799
+    },
+    {
+      "key": [
+        "Source",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 16,
+      "nonce": 745315155
+    },
+    {
+      "key": [
+        "Worker",
+        true,
+        true,
+        true,
+        false
+      ],
+      "index": 27,
+      "nonce": 19423951
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 3,
+      "nonce": 315756747
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 1,
+      "nonce": 51587289
+    },
+    {
+      "key": [
+        "Source",
+        false,
+        false,
+        true,
+        false
+      ],
+      "index": 85,
+      "nonce": 147283860
+    },
+    {
+      "key": [
+        "Worker",
+        true,
+        true,
+        true,
+        false
+      ],
+      "index": 82,
+      "nonce": 114444518
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 4,
+      "nonce": 225423391
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 0,
+      "nonce": 378229356
+    },
+    {
+      "key": [
+        "Source",
+        true,
+        true,
+        true,
+        false
+      ],
+      "index": 87,
+      "nonce": 857695099
+    },
+    {
+      "key": [
+        "Worker",
+        false,
+        true,
+        false,
+        true
+      ],
+      "index": 4,
+      "nonce": 397523823
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 2,
+      "nonce": 321335649
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 7,
+      "nonce": 920774858
+    },
+    {
+      "key": [
+        "Source",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 24,
+      "nonce": 440220774
+    },
+    {
+      "key": [
+        "Worker",
+        false,
+        true,
+        true,
+        true
+      ],
+      "index": 2,
+      "nonce": 657016932
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 0,
+      "nonce": 404329363
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 6,
+      "nonce": 240050747
+    },
+    {
+      "key": [
+        "Source",
+        false,
+        false,
+        true,
+        false
+      ],
+      "index": 92,
+      "nonce": 52884364
+    },
+    {
+      "key": [
+        "Worker",
+        true,
+        false,
+        true,
+        false
+      ],
+      "index": 5,
+      "nonce": 581940010
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 1,
+      "nonce": 128565056
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 1,
+      "nonce": 783292080
+    },
+    {
+      "key": [
+        "Source",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 52,
+      "nonce": 696623172
+    },
+    {
+      "key": [
+        "Worker",
+        false,
+        true,
+        false,
+        true
+      ],
+      "index": 11,
+      "nonce": 852652579
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 1,
+      "nonce": 109415782
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 3,
+      "nonce": 495838881
+    },
+    {
+      "key": [
+        "Source",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 34,
+      "nonce": 506702111
+    },
+    {
+      "key": [
+        "Worker",
+        false,
+        true,
+        false,
+        true
+      ],
+      "index": 0,
+      "nonce": 258159800
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 3,
+      "nonce": 47865302
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 5,
+      "nonce": 868189175
+    },
+    {
+      "key": [
+        "Source",
+        false,
+        false,
+        true,
+        false
+      ],
+      "index": 78,
+      "nonce": 882895906
+    },
+    {
+      "key": [
+        "Worker",
+        true,
+        false,
+        true,
+        false
+      ],
+      "index": 3,
+      "nonce": 465465176
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 4,
+      "nonce": 350755889
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 4,
+      "nonce": 440242384
+    },
+    {
+      "key": [
+        "Source",
+        false,
+        false,
+        true,
+        false
+      ],
+      "index": 26,
+      "nonce": 550859227
+    },
+    {
+      "key": [
+        "Worker",
+        true,
+        true,
+        true,
+        false
+      ],
+      "index": 48,
+      "nonce": 958525032
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 5,
+      "nonce": 920655103
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 5,
+      "nonce": 526979883
+    },
+    {
+      "key": [
+        "Source",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 59,
+      "nonce": 856165178
+    },
+    {
+      "key": [
+        "Worker",
+        true,
+        true,
+        true,
+        false
+      ],
+      "index": 0,
+      "nonce": 832499389
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 7,
+      "nonce": 807374968
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 2,
+      "nonce": 331740294
+    },
+    {
+      "key": [
+        "Source",
+        true,
+        false,
+        true,
+        false
+      ],
+      "index": 32,
+      "nonce": 36484437
+    },
+    {
+      "key": [
+        "Worker",
+        false,
+        false,
+        true,
+        true
+      ],
+      "index": 7,
+      "nonce": 395920101
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 2,
+      "nonce": 137966634
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 3,
+      "nonce": 577072207
+    },
+    {
+      "key": [
+        "Source",
+        false,
+        false,
+        true,
+        false
+      ],
+      "index": 46,
+      "nonce": 483528225
+    },
+    {
+      "key": [
+        "Worker",
+        false,
+        true,
+        false,
+        true
+      ],
+      "index": 15,
+      "nonce": 320967969
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 3,
+      "nonce": 439939895
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 5,
+      "nonce": 327026139
+    },
+    {
+      "key": [
+        "Source",
+        true,
+        false,
+        true,
+        false
+      ],
+      "index": 65,
+      "nonce": 111393172
+    },
+    {
+      "key": [
+        "Worker",
+        false,
+        true,
+        false,
+        true
+      ],
+      "index": 12,
+      "nonce": 523891755
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 0,
+      "nonce": 652740605
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 2,
+      "nonce": 434625053
+    },
+    {
+      "key": [
+        "Source",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 16,
+      "nonce": 293505100
+    },
+    {
+      "key": [
+        "Worker",
+        false,
+        true,
+        true,
+        true
+      ],
+      "index": 0,
+      "nonce": 343340883
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 1,
+      "nonce": 429917049
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 7,
+      "nonce": 282895431
+    },
+    {
+      "key": [
+        "Source",
+        true,
+        false,
+        true,
+        false
+      ],
+      "index": 84,
+      "nonce": 68234912
+    },
+    {
+      "key": [
+        "Worker",
+        false,
+        true,
+        true,
+        true
+      ],
+      "index": 9,
+      "nonce": 753002395
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 1,
+      "nonce": 834758947
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 6,
+      "nonce": 599775578
+    },
+    {
+      "key": [
+        "Source",
+        false,
+        false,
+        true,
+        false
+      ],
+      "index": 8,
+      "nonce": 814838755
+    },
+    {
+      "key": [
+        "Worker",
+        true,
+        true,
+        true,
+        false
+      ],
+      "index": 26,
+      "nonce": 151749158
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 0,
+      "nonce": 901845912
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 3,
+      "nonce": 660167298
+    },
+    {
+      "key": [
+        "Source",
+        true,
+        false,
+        true,
+        false
+      ],
+      "index": 73,
+      "nonce": 304288107
+    },
+    {
+      "key": [
+        "Worker",
+        true,
+        true,
+        true,
+        false
+      ],
+      "index": 4,
+      "nonce": 907034795
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 1,
+      "nonce": 193782360
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 1,
+      "nonce": 205718045
+    },
+    {
+      "key": [
+        "Source",
+        true,
+        true,
+        true,
+        false
+      ],
+      "index": 90,
+      "nonce": 575649821
+    },
+    {
+      "key": [
+        "Worker",
+        true,
+        true,
+        true,
+        false
+      ],
+      "index": 52,
+      "nonce": 185074232
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 6,
+      "nonce": 32463973
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 0,
+      "nonce": 237106636
+    },
+    {
+      "key": [
+        "Source",
+        true,
+        true,
+        true,
+        false
+      ],
+      "index": 78,
+      "nonce": 64895629
+    },
+    {
+      "key": [
+        "Worker",
+        true,
+        true,
+        true,
+        false
+      ],
+      "index": 2,
+      "nonce": 493119560
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 4,
+      "nonce": 832256466
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 1,
+      "nonce": 723197610
+    },
+    {
+      "key": [
+        "Source",
+        true,
+        false,
+        true,
+        false
+      ],
+      "index": 31,
+      "nonce": 488567046
+    },
+    {
+      "key": [
+        "Worker",
+        true,
+        true,
+        true,
+        false
+      ],
+      "index": 56,
+      "nonce": 948873125
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 3,
+      "nonce": 670047847
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 1,
+      "nonce": 70027398
+    },
+    {
+      "key": [
+        "Source",
+        true,
+        false,
+        true,
+        false
+      ],
+      "index": 43,
+      "nonce": 617307753
+    },
+    {
+      "key": [
+        "Worker",
+        false,
+        false,
+        true,
+        false
+      ],
+      "index": 23,
+      "nonce": 611914523
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 3,
+      "nonce": 919504193
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 7,
+      "nonce": 679873894
+    },
+    {
+      "key": [
+        "Source",
+        true,
+        false,
+        true,
+        false
+      ],
+      "index": 10,
+      "nonce": 584950218
+    },
+    {
+      "key": [
+        "Worker",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 14,
+      "nonce": 905980554
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 2,
+      "nonce": 234193580
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 6,
+      "nonce": 999574423
+    },
+    {
+      "key": [
+        "Source",
+        false,
+        false,
+        true,
+        false
+      ],
+      "index": 14,
+      "nonce": 482550151
+    },
+    {
+      "key": [
+        "Worker",
+        false,
+        false,
+        true,
+        false
+      ],
+      "index": 37,
+      "nonce": 522087978
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 5,
+      "nonce": 279408681
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 4,
+      "nonce": 38181373
+    },
+    {
+      "key": [
+        "Source",
+        true,
+        false,
+        true,
+        false
+      ],
+      "index": 58,
+      "nonce": 207036429
+    },
+    {
+      "key": [
+        "Worker",
+        true,
+        false,
+        true,
+        false
+      ],
+      "index": 63,
+      "nonce": 647856415
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 0,
+      "nonce": 999333508
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 7,
+      "nonce": 694280059
+    },
+    {
+      "key": [
+        "Source",
+        true,
+        true,
+        true,
+        false
+      ],
+      "index": 62,
+      "nonce": 903288725
+    },
+    {
+      "key": [
+        "Worker",
+        true,
+        false,
+        true,
+        false
+      ],
+      "index": 39,
+      "nonce": 929720347
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 0,
+      "nonce": 433809053
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 6,
+      "nonce": 458364010
+    },
+    {
+      "key": [
+        "Source",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 40,
+      "nonce": 961560595
+    },
+    {
+      "key": [
+        "Worker",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 16,
+      "nonce": 249020497
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 0,
+      "nonce": 848447970
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 0,
+      "nonce": 54969098
+    },
+    {
+      "key": [
+        "Source",
+        true,
+        true,
+        true,
+        false
+      ],
+      "index": 25,
+      "nonce": 65680155
+    },
+    {
+      "key": [
+        "Worker",
+        true,
+        true,
+        true,
+        false
+      ],
+      "index": 37,
+      "nonce": 732990359
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 4,
+      "nonce": 357782025
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 3,
+      "nonce": 357187247
+    },
+    {
+      "key": [
+        "Source",
+        true,
+        false,
+        true,
+        false
+      ],
+      "index": 67,
+      "nonce": 258837479
+    },
+    {
+      "key": [
+        "Worker",
+        false,
+        false,
+        true,
+        true
+      ],
+      "index": 4,
+      "nonce": 607219944
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 3,
+      "nonce": 313096488
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 4,
+      "nonce": 541746665
+    },
+    {
+      "key": [
+        "Source",
+        true,
+        true,
+        true,
+        false
+      ],
+      "index": 7,
+      "nonce": 471436732
+    },
+    {
+      "key": [
+        "Worker",
+        false,
+        false,
+        true,
+        true
+      ],
+      "index": 1,
+      "nonce": 629409356
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 2,
+      "nonce": 173056808
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 6,
+      "nonce": 626047311
+    },
+    {
+      "key": [
+        "Source",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 36,
+      "nonce": 714285208
+    },
+    {
+      "key": [
+        "Worker",
+        true,
+        false,
+        true,
+        false
+      ],
+      "index": 12,
+      "nonce": 334253286
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 0,
+      "nonce": 201848682
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 0,
+      "nonce": 801208888
+    },
+    {
+      "key": [
+        "Source",
+        false,
+        false,
+        true,
+        false
+      ],
+      "index": 62,
+      "nonce": 631001865
+    },
+    {
+      "key": [
+        "Worker",
+        false,
+        false,
+        true,
+        false
+      ],
+      "index": 44,
+      "nonce": 322229661
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 3,
+      "nonce": 15303865
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 5,
+      "nonce": 755434854
+    },
+    {
+      "key": [
+        "Source",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 71,
+      "nonce": 254638470
+    },
+    {
+      "key": [
+        "Worker",
+        false,
+        true,
+        false,
+        true
+      ],
+      "index": 0,
+      "nonce": 547967155
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 2,
+      "nonce": 468096227
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 1,
+      "nonce": 827305062
+    },
+    {
+      "key": [
+        "Source",
+        true,
+        false,
+        true,
+        false
+      ],
+      "index": 91,
+      "nonce": 364534795
+    },
+    {
+      "key": [
+        "Worker",
+        false,
+        true,
+        true,
+        true
+      ],
+      "index": 4,
+      "nonce": 815744274
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 4,
+      "nonce": 420883378
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 5,
+      "nonce": 104058104
+    },
+    {
+      "key": [
+        "Source",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 69,
+      "nonce": 275557343
+    },
+    {
+      "key": [
+        "Worker",
+        true,
+        false,
+        true,
+        false
+      ],
+      "index": 82,
+      "nonce": 763630687
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 2,
+      "nonce": 722136460
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 4,
+      "nonce": 983690909
+    },
+    {
+      "key": [
+        "Source",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 43,
+      "nonce": 825000098
+    },
+    {
+      "key": [
+        "Worker",
+        false,
+        false,
+        true,
+        false
+      ],
+      "index": 6,
+      "nonce": 127927500
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 3,
+      "nonce": 308260196
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 5,
+      "nonce": 773905428
+    },
+    {
+      "key": [
+        "Source",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 4,
+      "nonce": 483581901
+    },
+    {
+      "key": [
+        "Worker",
+        true,
+        true,
+        true,
+        false
+      ],
+      "index": 9,
+      "nonce": 32880722
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 2,
+      "nonce": 457981451
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 6,
+      "nonce": 137443796
+    },
+    {
+      "key": [
+        "Source",
+        true,
+        true,
+        true,
+        false
+      ],
+      "index": 54,
+      "nonce": 455084405
+    },
+    {
+      "key": [
+        "Worker",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 12,
+      "nonce": 840337484
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 4,
+      "nonce": 538834299
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 1,
+      "nonce": 994660388
+    },
+    {
+      "key": [
+        "Source",
+        true,
+        true,
+        true,
+        false
+      ],
+      "index": 72,
+      "nonce": 77992143
+    },
+    {
+      "key": [
+        "Worker",
+        true,
+        false,
+        true,
+        false
+      ],
+      "index": 64,
+      "nonce": 425605732
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 6,
+      "nonce": 10911543
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 7,
+      "nonce": 941287054
+    },
+    {
+      "key": [
+        "Source",
+        false,
+        false,
+        true,
+        false
+      ],
+      "index": 49,
+      "nonce": 376693985
+    },
+    {
+      "key": [
+        "Worker",
+        false,
+        false,
+        true,
+        true
+      ],
+      "index": 16,
+      "nonce": 836758034
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 3,
+      "nonce": 818032512
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 3,
+      "nonce": 915181401
+    },
+    {
+      "key": [
+        "Source",
+        true,
+        false,
+        true,
+        false
+      ],
+      "index": 41,
+      "nonce": 836247280
+    },
+    {
+      "key": [
+        "Worker",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 48,
+      "nonce": 771814895
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 0,
+      "nonce": 641118180
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 2,
+      "nonce": 638583665
+    },
+    {
+      "key": [
+        "Source",
+        false,
+        false,
+        true,
+        false
+      ],
+      "index": 31,
+      "nonce": 783725101
+    },
+    {
+      "key": [
+        "Worker",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 43,
+      "nonce": 284846824
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 5,
+      "nonce": 762705561
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 5,
+      "nonce": 364675065
+    },
+    {
+      "key": [
+        "Source",
+        true,
+        false,
+        true,
+        false
+      ],
+      "index": 45,
+      "nonce": 759158276
+    },
+    {
+      "key": [
+        "Worker",
+        false,
+        true,
+        true,
+        true
+      ],
+      "index": 3,
+      "nonce": 553472387
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 1,
+      "nonce": 836699573
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 0,
+      "nonce": 431170463
+    },
+    {
+      "key": [
+        "Source",
+        true,
+        false,
+        true,
+        false
+      ],
+      "index": 76,
+      "nonce": 782050607
+    },
+    {
+      "key": [
+        "Worker",
+        false,
+        true,
+        true,
+        true
+      ],
+      "index": 12,
+      "nonce": 621252865
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 5,
+      "nonce": 251086024
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 1,
+      "nonce": 605793199
+    },
+    {
+      "key": [
+        "Source",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 79,
+      "nonce": 471178296
+    },
+    {
+      "key": [
+        "Worker",
+        true,
+        false,
+        true,
+        false
+      ],
+      "index": 38,
+      "nonce": 87199781
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 6,
+      "nonce": 560197065
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 4,
+      "nonce": 614748450
+    },
+    {
+      "key": [
+        "Source",
+        true,
+        true,
+        true,
+        false
+      ],
+      "index": 48,
+      "nonce": 313921531
+    },
+    {
+      "key": [
+        "Worker",
+        true,
+        true,
+        true,
+        false
+      ],
+      "index": 60,
+      "nonce": 268066768
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 2,
+      "nonce": 265414936
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 2,
+      "nonce": 178209770
+    },
+    {
+      "key": [
+        "Source",
+        true,
+        false,
+        true,
+        false
+      ],
+      "index": 4,
+      "nonce": 11178632
+    },
+    {
+      "key": [
+        "Worker",
+        true,
+        true,
+        true,
+        false
+      ],
+      "index": 95,
+      "nonce": 376711776
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 2,
+      "nonce": 240231283
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 6,
+      "nonce": 887486048
+    },
+    {
+      "key": [
+        "Source",
+        true,
+        false,
+        true,
+        false
+      ],
+      "index": 5,
+      "nonce": 922814939
+    },
+    {
+      "key": [
+        "Worker",
+        true,
+        false,
+        true,
+        false
+      ],
+      "index": 12,
+      "nonce": 297902068
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 0,
+      "nonce": 799202125
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 5,
+      "nonce": 961864718
+    },
+    {
+      "key": [
+        "Source",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 44,
+      "nonce": 151207504
+    },
+    {
+      "key": [
+        "Worker",
+        false,
+        false,
+        true,
+        true
+      ],
+      "index": 8,
+      "nonce": 955914906
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 6,
+      "nonce": 299207895
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 4,
+      "nonce": 316098824
+    },
+    {
+      "key": [
+        "Source",
+        true,
+        false,
+        true,
+        false
+      ],
+      "index": 70,
+      "nonce": 887832079
+    },
+    {
+      "key": [
+        "Worker",
+        false,
+        false,
+        true,
+        true
+      ],
+      "index": 14,
+      "nonce": 857428622
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 2,
+      "nonce": 30130067
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 4,
+      "nonce": 876295798
+    },
+    {
+      "key": [
+        "Source",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 22,
+      "nonce": 262295147
+    },
+    {
+      "key": [
+        "Worker",
+        false,
+        true,
+        true,
+        true
+      ],
+      "index": 12,
+      "nonce": 799911504
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 3,
+      "nonce": 108794354
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 4,
+      "nonce": 955914538
+    },
+    {
+      "key": [
+        "Source",
+        false,
+        false,
+        true,
+        false
+      ],
+      "index": 48,
+      "nonce": 366684268
+    },
+    {
+      "key": [
+        "Worker",
+        false,
+        true,
+        true,
+        true
+      ],
+      "index": 11,
+      "nonce": 539259706
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 6,
+      "nonce": 608516151
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 4,
+      "nonce": 978941007
+    },
+    {
+      "key": [
+        "Source",
+        true,
+        true,
+        true,
+        false
+      ],
+      "index": 17,
+      "nonce": 451364621
+    },
+    {
+      "key": [
+        "Worker",
+        true,
+        true,
+        true,
+        false
+      ],
+      "index": 76,
+      "nonce": 813266864
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 5,
+      "nonce": 511844693
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 4,
+      "nonce": 834059457
+    },
+    {
+      "key": [
+        "Source",
+        true,
+        true,
+        true,
+        false
+      ],
+      "index": 91,
+      "nonce": 496696395
+    },
+    {
+      "key": [
+        "Worker",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 47,
+      "nonce": 584443886
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 0,
+      "nonce": 986001310
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 7,
+      "nonce": 837644288
+    },
+    {
+      "key": [
+        "Source",
+        false,
+        false,
+        true,
+        false
+      ],
+      "index": 42,
+      "nonce": 304625234
+    },
+    {
+      "key": [
+        "Worker",
+        false,
+        false,
+        true,
+        true
+      ],
+      "index": 17,
+      "nonce": 183614640
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 5,
+      "nonce": 232028110
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 3,
+      "nonce": 19799575
+    },
+    {
+      "key": [
+        "Source",
+        true,
+        false,
+        true,
+        false
+      ],
+      "index": 1,
+      "nonce": 412656702
+    },
+    {
+      "key": [
+        "Worker",
+        false,
+        false,
+        true,
+        true
+      ],
+      "index": 9,
+      "nonce": 873496670
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 3,
+      "nonce": 431764723
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 5,
+      "nonce": 517223186
+    },
+    {
+      "key": [
+        "Source",
+        true,
+        true,
+        true,
+        false
+      ],
+      "index": 64,
+      "nonce": 878934536
+    },
+    {
+      "key": [
+        "Worker",
+        true,
+        false,
+        true,
+        false
+      ],
+      "index": 2,
+      "nonce": 808204195
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 2,
+      "nonce": 212544272
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 0,
+      "nonce": 158244691
+    },
+    {
+      "key": [
+        "Source",
+        true,
+        true,
+        true,
+        false
+      ],
+      "index": 57,
+      "nonce": 269304560
+    },
+    {
+      "key": [
+        "Worker",
+        false,
+        false,
+        true,
+        true
+      ],
+      "index": 12,
+      "nonce": 491597887
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 7,
+      "nonce": 732613578
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 3,
+      "nonce": 783233239
+    },
+    {
+      "key": [
+        "Source",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 67,
+      "nonce": 970525404
+    },
+    {
+      "key": [
+        "Worker",
+        false,
+        false,
+        true,
+        false
+      ],
+      "index": 52,
+      "nonce": 560065203
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 2,
+      "nonce": 449068068
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 5,
+      "nonce": 467403933
+    },
+    {
+      "key": [
+        "Source",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 3,
+      "nonce": 84829920
+    },
+    {
+      "key": [
+        "Worker",
+        false,
+        true,
+        true,
+        true
+      ],
+      "index": 6,
+      "nonce": 473114286
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 3,
+      "nonce": 301608580
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 5,
+      "nonce": 650140367
+    },
+    {
+      "key": [
+        "Source",
+        true,
+        true,
+        true,
+        false
+      ],
+      "index": 70,
+      "nonce": 269648514
+    },
+    {
+      "key": [
+        "Worker",
+        false,
+        true,
+        true,
+        true
+      ],
+      "index": 12,
+      "nonce": 279135838
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 3,
+      "nonce": 13462388
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 3,
+      "nonce": 621152503
+    },
+    {
+      "key": [
+        "Source",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 38,
+      "nonce": 213461426
+    },
+    {
+      "key": [
+        "Worker",
+        false,
+        true,
+        true,
+        true
+      ],
+      "index": 14,
+      "nonce": 651278159
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 1,
+      "nonce": 170998178
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 1,
+      "nonce": 507935705
+    },
+    {
+      "key": [
+        "Source",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 70,
+      "nonce": 601968403
+    },
+    {
+      "key": [
+        "Worker",
+        false,
+        true,
+        true,
+        true
+      ],
+      "index": 14,
+      "nonce": 925977000
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 5,
+      "nonce": 205517254
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 4,
+      "nonce": 486472275
+    },
+    {
+      "key": [
+        "Source",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 67,
+      "nonce": 214653217
+    },
+    {
+      "key": [
+        "Worker",
+        true,
+        true,
+        true,
+        false
+      ],
+      "index": 84,
+      "nonce": 334722153
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 0,
+      "nonce": 320261822
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 4,
+      "nonce": 352850235
+    },
+    {
+      "key": [
+        "Source",
+        true,
+        false,
+        true,
+        false
+      ],
+      "index": 56,
+      "nonce": 947144654
+    },
+    {
+      "key": [
+        "Worker",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 2,
+      "nonce": 773408503
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 6,
+      "nonce": 140681193
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 7,
+      "nonce": 396041166
+    },
+    {
+      "key": [
+        "Source",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 17,
+      "nonce": 813505179
+    },
+    {
+      "key": [
+        "Worker",
+        false,
+        false,
+        true,
+        false
+      ],
+      "index": 44,
+      "nonce": 314673465
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 7,
+      "nonce": 774592783
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 5,
+      "nonce": 972821682
+    },
+    {
+      "key": [
+        "Source",
+        true,
+        false,
+        true,
+        false
+      ],
+      "index": 77,
+      "nonce": 422007017
+    },
+    {
+      "key": [
+        "Worker",
+        true,
+        false,
+        true,
+        false
+      ],
+      "index": 49,
+      "nonce": 37040468
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 0,
+      "nonce": 17657553
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 7,
+      "nonce": 227729931
+    },
+    {
+      "key": [
+        "Source",
+        true,
+        false,
+        true,
+        false
+      ],
+      "index": 78,
+      "nonce": 733543226
+    },
+    {
+      "key": [
+        "Worker",
+        false,
+        true,
+        true,
+        true
+      ],
+      "index": 15,
+      "nonce": 707423660
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 3,
+      "nonce": 311111687
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 3,
+      "nonce": 166771415
+    },
+    {
+      "key": [
+        "Source",
+        true,
+        false,
+        true,
+        false
+      ],
+      "index": 20,
+      "nonce": 757446458
+    },
+    {
+      "key": [
+        "Worker",
+        true,
+        false,
+        true,
+        false
+      ],
+      "index": 84,
+      "nonce": 689610890
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 2,
+      "nonce": 778399728
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 2,
+      "nonce": 812589601
+    },
+    {
+      "key": [
+        "Source",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 30,
+      "nonce": 436222285
+    },
+    {
+      "key": [
+        "Worker",
+        true,
+        true,
+        true,
+        false
+      ],
+      "index": 44,
+      "nonce": 234678037
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 2,
+      "nonce": 779604369
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 6,
+      "nonce": 788470503
+    },
+    {
+      "key": [
+        "Source",
+        false,
+        false,
+        true,
+        false
+      ],
+      "index": 83,
+      "nonce": 102600280
+    },
+    {
+      "key": [
+        "Worker",
+        false,
+        false,
+        true,
+        true
+      ],
+      "index": 7,
+      "nonce": 395632752
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 0,
+      "nonce": 319800572
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 5,
+      "nonce": 55504703
+    },
+    {
+      "key": [
+        "Source",
+        true,
+        true,
+        true,
+        false
+      ],
+      "index": 18,
+      "nonce": 68436969
+    },
+    {
+      "key": [
+        "Worker",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 2,
+      "nonce": 765937012
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 6,
+      "nonce": 866999999
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 7,
+      "nonce": 343787660
+    },
+    {
+      "key": [
+        "Source",
+        false,
+        false,
+        true,
+        false
+      ],
+      "index": 52,
+      "nonce": 156360855
+    },
+    {
+      "key": [
+        "Worker",
+        true,
+        true,
+        true,
+        false
+      ],
+      "index": 32,
+      "nonce": 478783789
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 4,
+      "nonce": 492918074
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 1,
+      "nonce": 251449984
+    },
+    {
+      "key": [
+        "Source",
+        true,
+        false,
+        true,
+        false
+      ],
+      "index": 85,
+      "nonce": 419114956
+    },
+    {
+      "key": [
+        "Worker",
+        false,
+        true,
+        true,
+        true
+      ],
+      "index": 6,
+      "nonce": 935196713
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 5,
+      "nonce": 766352904
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 1,
+      "nonce": 711166299
+    },
+    {
+      "key": [
+        "Source",
+        true,
+        true,
+        true,
+        false
+      ],
+      "index": 23,
+      "nonce": 574811289
+    },
+    {
+      "key": [
+        "Worker",
+        true,
+        true,
+        true,
+        false
+      ],
+      "index": 60,
+      "nonce": 689617249
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 7,
+      "nonce": 121800657
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 1,
+      "nonce": 995238965
+    },
+    {
+      "key": [
+        "Source",
+        true,
+        false,
+        true,
+        false
+      ],
+      "index": 31,
+      "nonce": 367767812
+    },
+    {
+      "key": [
+        "Worker",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 18,
+      "nonce": 447467745
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 2,
+      "nonce": 880483086
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 4,
+      "nonce": 886511217
+    },
+    {
+      "key": [
+        "Source",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 17,
+      "nonce": 423439762
+    },
+    {
+      "key": [
+        "Worker",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 23,
+      "nonce": 695816544
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 0,
+      "nonce": 630666114
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 7,
+      "nonce": 804554625
+    },
+    {
+      "key": [
+        "Source",
+        true,
+        true,
+        true,
+        false
+      ],
+      "index": 68,
+      "nonce": 481809957
+    },
+    {
+      "key": [
+        "Worker",
+        false,
+        false,
+        true,
+        true
+      ],
+      "index": 7,
+      "nonce": 379699947
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 4,
+      "nonce": 742902651
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 5,
+      "nonce": 336543057
+    },
+    {
+      "key": [
+        "Source",
+        true,
+        false,
+        true,
+        false
+      ],
+      "index": 8,
+      "nonce": 862321007
+    },
+    {
+      "key": [
+        "Worker",
+        true,
+        true,
+        true,
+        false
+      ],
+      "index": 72,
+      "nonce": 812817505
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 0,
+      "nonce": 586062361
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 7,
+      "nonce": 991884279
+    },
+    {
+      "key": [
+        "Source",
+        false,
+        false,
+        true,
+        false
+      ],
+      "index": 36,
+      "nonce": 970760984
+    },
+    {
+      "key": [
+        "Worker",
+        true,
+        true,
+        true,
+        false
+      ],
+      "index": 5,
+      "nonce": 934637192
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 3,
+      "nonce": 569768594
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 2,
+      "nonce": 255455702
+    },
+    {
+      "key": [
+        "Source",
+        false,
+        false,
+        true,
+        false
+      ],
+      "index": 67,
+      "nonce": 435272291
+    },
+    {
+      "key": [
+        "Worker",
+        false,
+        false,
+        true,
+        false
+      ],
+      "index": 33,
+      "nonce": 496036648
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 5,
+      "nonce": 195224330
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 6,
+      "nonce": 140370929
+    },
+    {
+      "key": [
+        "Source",
+        false,
+        false,
+        true,
+        false
+      ],
+      "index": 87,
+      "nonce": 208358783
+    },
+    {
+      "key": [
+        "Worker",
+        false,
+        false,
+        true,
+        true
+      ],
+      "index": 10,
+      "nonce": 312491613
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 2,
+      "nonce": 157549448
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 7,
+      "nonce": 757512576
+    },
+    {
+      "key": [
+        "Source",
+        false,
+        false,
+        true,
+        false
+      ],
+      "index": 63,
+      "nonce": 751424700
+    },
+    {
+      "key": [
+        "Worker",
+        false,
+        true,
+        false,
+        true
+      ],
+      "index": 2,
+      "nonce": 429414146
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 4,
+      "nonce": 388106495
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 5,
+      "nonce": 870972161
+    },
+    {
+      "key": [
+        "Source",
+        false,
+        false,
+        true,
+        false
+      ],
+      "index": 3,
+      "nonce": 975205986
+    },
+    {
+      "key": [
+        "Worker",
+        false,
+        false,
+        true,
+        false
+      ],
+      "index": 53,
+      "nonce": 648654663
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 6,
+      "nonce": 550581600
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 0,
+      "nonce": 780348428
+    },
+    {
+      "key": [
+        "Source",
+        false,
+        false,
+        true,
+        false
+      ],
+      "index": 11,
+      "nonce": 931964351
+    },
+    {
+      "key": [
+        "Worker",
+        true,
+        true,
+        true,
+        false
+      ],
+      "index": 66,
+      "nonce": 24487922
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 3,
+      "nonce": 709478162
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 2,
+      "nonce": 533195809
+    },
+    {
+      "key": [
+        "Source",
+        true,
+        true,
+        true,
+        false
+      ],
+      "index": 18,
+      "nonce": 608019898
+    },
+    {
+      "key": [
+        "Worker",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 59,
+      "nonce": 148945291
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 0,
+      "nonce": 981323531
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 0,
+      "nonce": 628115137
+    },
+    {
+      "key": [
+        "Source",
+        true,
+        true,
+        true,
+        false
+      ],
+      "index": 86,
+      "nonce": 166652306
+    },
+    {
+      "key": [
+        "Worker",
+        false,
+        false,
+        true,
+        true
+      ],
+      "index": 3,
+      "nonce": 689874528
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 2,
+      "nonce": 878489464
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 3,
+      "nonce": 557095010
+    },
+    {
+      "key": [
+        "Source",
+        false,
+        false,
+        true,
+        false
+      ],
+      "index": 66,
+      "nonce": 585858407
+    },
+    {
+      "key": [
+        "Worker",
+        false,
+        true,
+        false,
+        true
+      ],
+      "index": 1,
+      "nonce": 973705614
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 2,
+      "nonce": 379689048
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 7,
+      "nonce": 681095497
+    },
+    {
+      "key": [
+        "Source",
+        false,
+        false,
+        true,
+        false
+      ],
+      "index": 0,
+      "nonce": 327506754
+    },
+    {
+      "key": [
+        "Worker",
+        false,
+        true,
+        false,
+        true
+      ],
+      "index": 5,
+      "nonce": 59355314
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 0,
+      "nonce": 55386364
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 1,
+      "nonce": 948038562
+    },
+    {
+      "key": [
+        "Source",
+        true,
+        true,
+        true,
+        false
+      ],
+      "index": 75,
+      "nonce": 426366783
+    },
+    {
+      "key": [
+        "Worker",
+        false,
+        true,
+        true,
+        true
+      ],
+      "index": 7,
+      "nonce": 321600774
+    }
+  ],
+  "initial_adapter_hashes": {
+    "adapter_config.json": "962ed6e71f0f3cd8f563679a110b736742c093f5421841fab629b557a171ba48",
+    "adapter_model.safetensors": "af7495eb41f05bf0e1e5e77899d0e67e01f40028520d66db07750e30b0bc920a",
+    "README.md": "39d3d3aa2d89a2b4ab09cecd018fbbc4cebc3f4b2c6d9e85b81abc38a1dc4045"
+  },
+  "same_shared_weights_for_queries_and_actor": true,
+  "actor_training_inputs": "predictions from query logits under ANSWER format prefix, no true bits",
+  "evaluation": "free query generation and free action generation",
+  "oracle_at_runtime": false,
+  "baseline_commit": "b476787ba9e0cebf19d6b81569eeaf36b0570fbc",
+  "source_sha256": "aee9664d6880fe716d6bf3cf99fa31ca76d0768a546272e047e77b9cea13d663",
+  "scope": "seed17 DEV pilot only; not a complete solution"
+}

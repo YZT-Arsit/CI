@@ -1,0 +1,52 @@
+{
+  "episodes_replayed": 384,
+  "decisions_replayed": 1152,
+  "independent_label_states": 960,
+  "errors": 0,
+  "paired": [
+    {
+      "arm": "direct",
+      "condition": "base",
+      "groups": 16,
+      "both_safe_success": 9,
+      "same_planner_action": 0
+    },
+    {
+      "arm": "direct",
+      "condition": "depth2",
+      "groups": 16,
+      "both_safe_success": 0,
+      "same_planner_action": 16
+    },
+    {
+      "arm": "direct",
+      "condition": "depth3",
+      "groups": 16,
+      "both_safe_success": 0,
+      "same_planner_action": 15
+    },
+    {
+      "arm": "query_warmup",
+      "condition": "base",
+      "groups": 16,
+      "both_safe_success": 0,
+      "same_planner_action": 15
+    },
+    {
+      "arm": "query_warmup",
+      "condition": "depth2",
+      "groups": 16,
+      "both_safe_success": 0,
+      "same_planner_action": 16
+    },
+    {
+      "arm": "query_warmup",
+      "condition": "depth3",
+      "groups": 16,
+      "both_safe_success": 0,
+      "same_planner_action": 16
+    }
+  ],
+  "scope": "same-environment execution replay plus independently implemented BFS labels; not independent business-norm validation",
+  "whole_goal_complete": false
+}

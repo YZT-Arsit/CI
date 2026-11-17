@@ -1,0 +1,74 @@
+[
+  {
+    "arm": "direct",
+    "condition": "base",
+    "planner_correct": 16,
+    "episodes": 16
+  },
+  {
+    "arm": "direct",
+    "condition": "base_swap",
+    "planner_correct": 16,
+    "episodes": 16
+  },
+  {
+    "arm": "direct",
+    "condition": "depth2",
+    "planner_correct": 11,
+    "episodes": 16
+  },
+  {
+    "arm": "direct",
+    "condition": "depth2_swap",
+    "planner_correct": 5,
+    "episodes": 16
+  },
+  {
+    "arm": "direct",
+    "condition": "depth3",
+    "planner_correct": 10,
+    "episodes": 16
+  },
+  {
+    "arm": "direct",
+    "condition": "depth3_swap",
+    "planner_correct": 5,
+    "episodes": 16
+  },
+  {
+    "arm": "query_warmup",
+    "condition": "base",
+    "planner_correct": 9,
+    "episodes": 16
+  },
+  {
+    "arm": "query_warmup",
+    "condition": "base_swap",
+    "planner_correct": 8,
+    "episodes": 16
+  },
+  {
+    "arm": "query_warmup",
+    "condition": "depth2",
+    "planner_correct": 12,
+    "episodes": 16
+  },
+  {
+    "arm": "query_warmup",
+    "condition": "depth2_swap",
+    "planner_correct": 4,
+    "episodes": 16
+  },
+  {
+    "arm": "query_warmup",
+    "condition": "depth3",
+    "planner_correct": 9,
+    "episodes": 16
+  },
+  {
+    "arm": "query_warmup",
+    "condition": "depth3_swap",
+    "planner_correct": 7,
+    "episodes": 16
+  }
+]

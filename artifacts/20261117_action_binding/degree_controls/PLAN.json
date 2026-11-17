@@ -1,0 +1,19 @@
+{
+  "scope": "new DEV topology diagnostic; directed cycle versus two disconnected directed cycles",
+  "base_world_pairs": 16,
+  "nodes_per_provider": [
+    4,
+    6,
+    8,
+    12
+  ],
+  "same_history": true,
+  "same_provider_nodes": true,
+  "same_each_node_in_and_out_degree": true,
+  "same_fact_counts": true,
+  "different_unique_safe_choice": true,
+  "independent_bfs_passed": true,
+  "source_sha256": "652e54416636d28947b9e796add1f86010ecdbe9e55429d6294b2fe99858e35f",
+  "dataset_sha256": "5420722e15b3976b3de3aec4ed6b52af30c64a492ee49b7c00fe3f6042ea929c",
+  "not_a_proof_of_model_learning": true
+}

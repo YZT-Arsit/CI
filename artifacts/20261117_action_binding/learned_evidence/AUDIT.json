@@ -1,0 +1,204 @@
+{
+  "episodes_replayed": 160,
+  "decisions_replayed": 480,
+  "queries_reconstructed": 560,
+  "independent_label_states": 400,
+  "paired": [
+    {
+      "arm": "auxiliary",
+      "condition": "base",
+      "groups": 8,
+      "both_strict_success": 4,
+      "both_planner_correct": 8
+    },
+    {
+      "arm": "auxiliary",
+      "condition": "depth2",
+      "groups": 8,
+      "both_strict_success": 1,
+      "both_planner_correct": 1
+    },
+    {
+      "arm": "auxiliary",
+      "condition": "depth3",
+      "groups": 8,
+      "both_strict_success": 0,
+      "both_planner_correct": 0
+    },
+    {
+      "arm": "evidence",
+      "condition": "base",
+      "groups": 8,
+      "both_strict_success": 5,
+      "both_planner_correct": 8
+    },
+    {
+      "arm": "evidence",
+      "condition": "depth2",
+      "groups": 8,
+      "both_strict_success": 1,
+      "both_planner_correct": 1
+    },
+    {
+      "arm": "evidence",
+      "condition": "depth3",
+      "groups": 8,
+      "both_strict_success": 1,
+      "both_planner_correct": 1
+    }
+  ],
+  "on_policy_query_accuracy_not_matched_across_arms": {
+    "base_Planner": {
+      "queries": 16,
+      "correct": 16,
+      "invalid": 0
+    },
+    "base_Source": {
+      "queries": 16,
+      "correct": 16,
+      "invalid": 0
+    },
+    "base_Worker": {
+      "queries": 24,
+      "correct": 16,
+      "invalid": 0
+    },
+    "base_swap_Planner": {
+      "queries": 16,
+      "correct": 16,
+      "invalid": 0
+    },
+    "base_swap_Source": {
+      "queries": 16,
+      "correct": 16,
+      "invalid": 0
+    },
+    "base_swap_Worker": {
+      "queries": 24,
+      "correct": 16,
+      "invalid": 0
+    },
+    "depth2_Planner": {
+      "queries": 16,
+      "correct": 10,
+      "invalid": 0
+    },
+    "depth2_Source": {
+      "queries": 16,
+      "correct": 14,
+      "invalid": 0
+    },
+    "depth2_Worker": {
+      "queries": 24,
+      "correct": 18,
+      "invalid": 0
+    },
+    "depth2_swap_Planner": {
+      "queries": 16,
+      "correct": 8,
+      "invalid": 0
+    },
+    "depth2_swap_Source": {
+      "queries": 16,
+      "correct": 11,
+      "invalid": 0
+    },
+    "depth2_swap_Worker": {
+      "queries": 24,
+      "correct": 21,
+      "invalid": 0
+    },
+    "depth3_Planner": {
+      "queries": 16,
+      "correct": 10,
+      "invalid": 0
+    },
+    "depth3_Source": {
+      "queries": 16,
+      "correct": 13,
+      "invalid": 0
+    },
+    "depth3_Worker": {
+      "queries": 24,
+      "correct": 18,
+      "invalid": 0
+    },
+    "depth3_swap_Planner": {
+      "queries": 16,
+      "correct": 7,
+      "invalid": 0
+    },
+    "depth3_swap_Source": {
+      "queries": 16,
+      "correct": 12,
+      "invalid": 0
+    },
+    "depth3_swap_Worker": {
+      "queries": 24,
+      "correct": 21,
+      "invalid": 0
+    },
+    "optional_Planner": {
+      "queries": 16,
+      "correct": 9,
+      "invalid": 0
+    },
+    "optional_Source": {
+      "queries": 16,
+      "correct": 16,
+      "invalid": 0
+    },
+    "optional_Worker": {
+      "queries": 24,
+      "correct": 20,
+      "invalid": 0
+    },
+    "authorized_Planner": {
+      "queries": 16,
+      "correct": 8,
+      "invalid": 0
+    },
+    "authorized_Source": {
+      "queries": 16,
+      "correct": 16,
+      "invalid": 0
+    },
+    "authorized_Worker": {
+      "queries": 24,
+      "correct": 16,
+      "invalid": 0
+    },
+    "draft_Planner": {
+      "queries": 16,
+      "correct": 16,
+      "invalid": 0
+    },
+    "draft_Source": {
+      "queries": 16,
+      "correct": 16,
+      "invalid": 0
+    },
+    "draft_Worker": {
+      "queries": 24,
+      "correct": 21,
+      "invalid": 0
+    },
+    "both_Planner": {
+      "queries": 16,
+      "correct": 16,
+      "invalid": 0
+    },
+    "both_Source": {
+      "queries": 16,
+      "correct": 8,
+      "invalid": 0
+    },
+    "both_Worker": {
+      "queries": 24,
+      "correct": 24,
+      "invalid": 0
+    }
+  },
+  "errors": 0,
+  "whole_goal_complete": false
+}

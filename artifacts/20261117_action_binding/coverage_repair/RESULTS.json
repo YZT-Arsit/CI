@@ -1,0 +1,225 @@
+{
+  "summaries": [
+    {
+      "arm": "coverage_only",
+      "condition": "base",
+      "episodes": 8,
+      "safe_success": 3,
+      "strict_success": 3,
+      "invalid": 0,
+      "invalid_queries": 0,
+      "valid_ci": 7,
+      "raw_sha256": "b38dfe1f0d8ebe7486b0b22b624b45e1c9c379c23f6b0a3c359263bdc501c3ae"
+    },
+    {
+      "arm": "coverage_only",
+      "condition": "base_swap",
+      "episodes": 8,
+      "safe_success": 3,
+      "strict_success": 3,
+      "invalid": 0,
+      "invalid_queries": 0,
+      "valid_ci": 7,
+      "raw_sha256": "e9b11b3164d8923ca83983a956585a9f7d173ec45b734f7651ccdd63acc54b37"
+    },
+    {
+      "arm": "coverage_only",
+      "condition": "depth2",
+      "episodes": 8,
+      "safe_success": 2,
+      "strict_success": 2,
+      "invalid": 0,
+      "invalid_queries": 0,
+      "valid_ci": 7,
+      "raw_sha256": "2f684304a828e692005ca21845d3d5231a41be469aaa84b8d41827946c042210"
+    },
+    {
+      "arm": "coverage_only",
+      "condition": "depth2_swap",
+      "episodes": 8,
+      "safe_success": 1,
+      "strict_success": 1,
+      "invalid": 0,
+      "invalid_queries": 0,
+      "valid_ci": 6,
+      "raw_sha256": "5f8a5771e6cac96cabae0a68ea795f6cd8ab638fab0e48011e93137581eaeb06"
+    },
+    {
+      "arm": "coverage_only",
+      "condition": "depth3",
+      "episodes": 8,
+      "safe_success": 1,
+      "strict_success": 1,
+      "invalid": 0,
+      "invalid_queries": 0,
+      "valid_ci": 5,
+      "raw_sha256": "3912a5c26259e4cd67aa810ef9c52ded9657e6666719ec8a0409f428a152a875"
+    },
+    {
+      "arm": "coverage_only",
+      "condition": "depth3_swap",
+      "episodes": 8,
+      "safe_success": 3,
+      "strict_success": 3,
+      "invalid": 0,
+      "invalid_queries": 0,
+      "valid_ci": 7,
+      "raw_sha256": "7477ce718c0a936ad2e052e2d9718a26c043806a243ca41f6e74ac14e051f263"
+    },
+    {
+      "arm": "coverage_only",
+      "condition": "optional",
+      "episodes": 8,
+      "safe_success": 6,
+      "strict_success": 6,
+      "invalid": 0,
+      "invalid_queries": 0,
+      "valid_ci": 6,
+      "raw_sha256": "f664981c1ddd62623596fd897938b080fbefe977fd774d1253b43bd703403f7e"
+    },
+    {
+      "arm": "coverage_only",
+      "condition": "authorized",
+      "episodes": 8,
+      "safe_success": 3,
+      "strict_success": 3,
+      "invalid": 0,
+      "invalid_queries": 0,
+      "valid_ci": 8,
+      "raw_sha256": "b5d27b00a7bf377c322690a37cae8fe328f6634a4f7a2ad235c698de55be1eaf"
+    },
+    {
+      "arm": "coverage_only",
+      "condition": "draft",
+      "episodes": 8,
+      "safe_success": 5,
+      "strict_success": 5,
+      "invalid": 0,
+      "invalid_queries": 0,
+      "valid_ci": 8,
+      "raw_sha256": "7a49e9aa2723de610ea49958d105a6ac8688a1d3705ea9296bfcf9001791c9b8"
+    },
+    {
+      "arm": "coverage_only",
+      "condition": "both",
+      "episodes": 8,
+      "safe_success": 0,
+      "strict_success": 0,
+      "invalid": 0,
+      "invalid_queries": 0,
+      "valid_ci": 3,
+      "raw_sha256": "964dc05ea3500f5e7f606936d3d0193149a13757cc59b5c2d56f7503baba4eab"
+    },
+    {
+      "arm": "class_balanced",
+      "condition": "base",
+      "episodes": 8,
+      "safe_success": 8,
+      "strict_success": 8,
+      "invalid": 0,
+      "invalid_queries": 0,
+      "valid_ci": 8,
+      "raw_sha256": "92dd6c722faa1cf349d7421c97b9a896aaa240d7669521f76ce7c9de01572af3"
+    },
+    {
+      "arm": "class_balanced",
+      "condition": "base_swap",
+      "episodes": 8,
+      "safe_success": 8,
+      "strict_success": 8,
+      "invalid": 0,
+      "invalid_queries": 0,
+      "valid_ci": 8,
+      "raw_sha256": "15b9db22857868253cacbe9af8aca2f7db129d62cb9ca7dcb9fa2e27977d8908"
+    },
+    {
+      "arm": "class_balanced",
+      "condition": "depth2",
+      "episodes": 8,
+      "safe_success": 5,
+      "strict_success": 5,
+      "invalid": 0,
+      "invalid_queries": 0,
+      "valid_ci": 7,
+      "raw_sha256": "ea84dcbe279f272bde1c754264a716b68b331c21da292518ff93e13d0bbc4046"
+    },
+    {
+      "arm": "class_balanced",
+      "condition": "depth2_swap",
+      "episodes": 8,
+      "safe_success": 3,
+      "strict_success": 3,
+      "invalid": 0,
+      "invalid_queries": 0,
+      "valid_ci": 6,
+      "raw_sha256": "3136e5b8f2223e9543e8190c26697df72e8847b82c86c8dbd8f8a909b0152a6f"
+    },
+    {
+      "arm": "class_balanced",
+      "condition": "depth3",
+      "episodes": 8,
+      "safe_success": 3,
+      "strict_success": 3,
+      "invalid": 0,
+      "invalid_queries": 0,
+      "valid_ci": 5,
+      "raw_sha256": "dfeb7175c283e040ed7e7f42560b604b957e3c6470f5bcc2b1c4b2b346b97c14"
+    },
+    {
+      "arm": "class_balanced",
+      "condition": "depth3_swap",
+      "episodes": 8,
+      "safe_success": 3,
+      "strict_success": 3,
+      "invalid": 0,
+      "invalid_queries": 0,
+      "valid_ci": 5,
+      "raw_sha256": "c51cae162817fb4c02fc4032d8f6c39a063c630e114bcba44ffbd2b9719b797b"
+    },
+    {
+      "arm": "class_balanced",
+      "condition": "optional",
+      "episodes": 8,
+      "safe_success": 6,
+      "strict_success": 6,
+      "invalid": 0,
+      "invalid_queries": 0,
+      "valid_ci": 6,
+      "raw_sha256": "278d2dc80603c3046e1d3904ae3f5a2efe638dac7e2c674172e859789cbf9d69"
+    },
+    {
+      "arm": "class_balanced",
+      "condition": "authorized",
+      "episodes": 8,
+      "safe_success": 7,
+      "strict_success": 7,
+      "invalid": 0,
+      "invalid_queries": 0,
+      "valid_ci": 8,
+      "raw_sha256": "e60456685abf49dfd54a0a122969ea8c45ad3dfab4ee9069e530d25c5da7634e"
+    },
+    {
+      "arm": "class_balanced",
+      "condition": "draft",
+      "episodes": 8,
+      "safe_success": 7,
+      "strict_success": 7,
+      "invalid": 0,
+      "invalid_queries": 0,
+      "valid_ci": 8,
+      "raw_sha256": "239d45f996ef3c56e40e5bc7db1a16ce397ae54d54824e2ac1ffa47da44ea0d6"
+    },
+    {
+      "arm": "class_balanced",
+      "condition": "both",
+      "episodes": 8,
+      "safe_success": 0,
+      "strict_success": 0,
+      "invalid": 0,
+      "invalid_queries": 0,
+      "valid_ci": 2,
+      "raw_sha256": "82e76ab36e694ba86acfaed82d48409c7bae942b9548b9770387d6b3a51d1308"
+    }
+  ],
+  "whole_goal_complete": false
+}

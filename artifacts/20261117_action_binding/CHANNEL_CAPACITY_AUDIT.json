@@ -1,0 +1,172 @@
+{
+  "intervention_queries_checked": 96,
+  "intervention_action_outputs_checked": 240,
+  "effective_interventions": [
+    {
+      "condition": "base",
+      "mode": "self",
+      "states": 16,
+      "changed_estimate_content": 0,
+      "changed_action_given_content_change": 0,
+      "changed_prompt": 0
+    },
+    {
+      "condition": "base",
+      "mode": "identity",
+      "states": 16,
+      "changed_estimate_content": 0,
+      "changed_action_given_content_change": 0,
+      "changed_prompt": 0
+    },
+    {
+      "condition": "base",
+      "mode": "swap_estimates",
+      "states": 16,
+      "changed_estimate_content": 16,
+      "changed_action_given_content_change": 16,
+      "changed_prompt": 16
+    },
+    {
+      "condition": "base",
+      "mode": "erase_estimates",
+      "states": 16,
+      "changed_estimate_content": 16,
+      "changed_action_given_content_change": 8,
+      "changed_prompt": 16
+    },
+    {
+      "condition": "base",
+      "mode": "irrelevant_tag",
+      "states": 16,
+      "changed_estimate_content": 0,
+      "changed_action_given_content_change": 0,
+      "changed_prompt": 16
+    },
+    {
+      "condition": "depth2",
+      "mode": "self",
+      "states": 16,
+      "changed_estimate_content": 0,
+      "changed_action_given_content_change": 0,
+      "changed_prompt": 0
+    },
+    {
+      "condition": "depth2",
+      "mode": "identity",
+      "states": 16,
+      "changed_estimate_content": 0,
+      "changed_action_given_content_change": 0,
+      "changed_prompt": 0
+    },
+    {
+      "condition": "depth2",
+      "mode": "swap_estimates",
+      "states": 16,
+      "changed_estimate_content": 2,
+      "changed_action_given_content_change": 2,
+      "changed_prompt": 2
+    },
+    {
+      "condition": "depth2",
+      "mode": "erase_estimates",
+      "states": 16,
+      "changed_estimate_content": 16,
+      "changed_action_given_content_change": 1,
+      "changed_prompt": 16
+    },
+    {
+      "condition": "depth2",
+      "mode": "irrelevant_tag",
+      "states": 16,
+      "changed_estimate_content": 0,
+      "changed_action_given_content_change": 0,
+      "changed_prompt": 16
+    },
+    {
+      "condition": "depth3",
+      "mode": "self",
+      "states": 16,
+      "changed_estimate_content": 0,
+      "changed_action_given_content_change": 0,
+      "changed_prompt": 0
+    },
+    {
+      "condition": "depth3",
+      "mode": "identity",
+      "states": 16,
+      "changed_estimate_content": 0,
+      "changed_action_given_content_change": 0,
+      "changed_prompt": 0
+    },
+    {
+      "condition": "depth3",
+      "mode": "swap_estimates",
+      "states": 16,
+      "changed_estimate_content": 3,
+      "changed_action_given_content_change": 3,
+      "changed_prompt": 3
+    },
+    {
+      "condition": "depth3",
+      "mode": "erase_estimates",
+      "states": 16,
+      "changed_estimate_content": 16,
+      "changed_action_given_content_change": 1,
+      "changed_prompt": 16
+    },
+    {
+      "condition": "depth3",
+      "mode": "irrelevant_tag",
+      "states": 16,
+      "changed_estimate_content": 0,
+      "changed_action_given_content_change": 0,
+      "changed_prompt": 16
+    }
+  ],
+  "capacity_outputs_checked": 12,
+  "capacity_pair_prompt_lengths": [
+    {
+      "pair_id": "history1_0",
+      "prompt_tokens": [
+        229,
+        229
+      ]
+    },
+    {
+      "pair_id": "history1_1",
+      "prompt_tokens": [
+        229,
+        229
+      ]
+    },
+    {
+      "pair_id": "history3_0",
+      "prompt_tokens": [
+        269,
+        269
+      ]
+    },
+    {
+      "pair_id": "history3_1",
+      "prompt_tokens": [
+        269,
+        269
+      ]
+    },
+    {
+      "pair_id": "internal3_0",
+      "prompt_tokens": [
+        279,
+        279
+      ]
+    },
+    {
+      "pair_id": "internal3_1",
+      "prompt_tokens": [
+        279,
+        279
+      ]
+    }
+  ],
+  "errors": 0
+}

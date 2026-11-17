@@ -1,0 +1,24 @@
+{
+  "scope": "new DEV anchored connectivity; every provider always has two equal directed cycles",
+  "base_world_pairs": 16,
+  "nodes_per_provider": [
+    8,
+    12,
+    16,
+    24
+  ],
+  "reachable_ticket_to_history_distance": [
+    2,
+    3,
+    4,
+    6
+  ],
+  "same_history_nodes_degrees_counts_cycle_lengths": true,
+  "direct_anchor_edge_cues_always_false": true,
+  "different_unique_safe_choice": true,
+  "independent_bfs_passed": true,
+  "prior_control_limitation": "v1 degree controls retain a perfect H-to-ticket closing-edge shortcut; v1 remains archived and unpromoted",
+  "source_sha256": "0ef0279def449c482f08757ae4de881c6fae69ceadb8c42e619f66bb612dcda6",
+  "dataset_sha256": "148ec2304d5272c3dfc7ba4402c22ac3926d516bd10d3b916191e8e000c7d9ac",
+  "not_a_proof_of_model_learning": true
+}

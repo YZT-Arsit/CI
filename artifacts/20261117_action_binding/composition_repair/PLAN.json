@@ -1,0 +1,4236 @@
+{
+  "arms": [
+    "one_hop",
+    "mixed_depth"
+  ],
+  "evidence_arms": [
+    "one_hop",
+    "mixed_depth"
+  ],
+  "paired_conditions": [
+    "base",
+    "depth2",
+    "depth3",
+    "depth4",
+    "depth6",
+    "internal3",
+    "cycle4",
+    "cycle8"
+  ],
+  "steps": 400,
+  "seed": 17,
+  "lr": 0.0008,
+  "batches": [
+    {
+      "role": "Planner",
+      "graph_batch": false,
+      "nonce": 242265798,
+      "key": [
+        "Planner",
+        true,
+        false,
+        true,
+        false
+      ],
+      "index": 42
+    },
+    {
+      "role": "Source",
+      "graph_batch": false,
+      "nonce": 854303590,
+      "key": [
+        "Source",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 26
+    },
+    {
+      "role": "Worker",
+      "graph_batch": false,
+      "nonce": 87549823,
+      "key": [
+        "Worker",
+        false,
+        true,
+        false,
+        true
+      ],
+      "index": 1
+    },
+    {
+      "role": "Worker",
+      "graph_batch": false,
+      "nonce": 460598329,
+      "key": [
+        "Worker",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 1
+    },
+    {
+      "role": "Planner",
+      "graph_batch": true,
+      "nonce": 83251389,
+      "group": 14,
+      "depth": 2,
+      "route": 1
+    },
+    {
+      "role": "Source",
+      "graph_batch": true,
+      "nonce": 297685067,
+      "group": 7,
+      "depth": 3,
+      "route": 1
+    },
+    {
+      "role": "Worker",
+      "graph_batch": true,
+      "nonce": 598899856,
+      "group": 7,
+      "depth": 3,
+      "route": 0
+    },
+    {
+      "role": "Worker",
+      "graph_batch": true,
+      "nonce": 733669031,
+      "group": 11,
+      "depth": 2,
+      "route": 0
+    },
+    {
+      "role": "Planner",
+      "graph_batch": false,
+      "nonce": 337919664,
+      "key": [
+        "Planner",
+        false,
+        true,
+        false,
+        false
+      ],
+      "index": 1
+    },
+    {
+      "role": "Source",
+      "graph_batch": false,
+      "nonce": 691443062,
+      "key": [
+        "Source",
+        true,
+        true,
+        true,
+        false
+      ],
+      "index": 50
+    },
+    {
+      "role": "Worker",
+      "graph_batch": false,
+      "nonce": 780704844,
+      "key": [
+        "Worker",
+        false,
+        true,
+        true,
+        true
+      ],
+      "index": 8
+    },
+    {
+      "role": "Worker",
+      "graph_batch": false,
+      "nonce": 305668169,
+      "key": [
+        "Worker",
+        true,
+        false,
+        true,
+        false
+      ],
+      "index": 6
+    },
+    {
+      "role": "Planner",
+      "graph_batch": true,
+      "nonce": 701659433,
+      "group": 5,
+      "depth": 3,
+      "route": 0
+    },
+    {
+      "role": "Source",
+      "graph_batch": true,
+      "nonce": 602783168,
+      "group": 6,
+      "depth": 3,
+      "route": 0
+    },
+    {
+      "role": "Worker",
+      "graph_batch": true,
+      "nonce": 152513430,
+      "group": 8,
+      "depth": 3,
+      "route": 1
+    },
+    {
+      "role": "Worker",
+      "graph_batch": true,
+      "nonce": 86983633,
+      "group": 4,
+      "depth": 3,
+      "route": 0
+    },
+    {
+      "role": "Planner",
+      "graph_batch": false,
+      "nonce": 466450203,
+      "key": [
+        "Planner",
+        false,
+        false,
+        true,
+        false
+      ],
+      "index": 2
+    },
+    {
+      "role": "Source",
+      "graph_batch": false,
+      "nonce": 125940203,
+      "key": [
+        "Source",
+        false,
+        true,
+        false,
+        false
+      ],
+      "index": 10
+    },
+    {
+      "role": "Worker",
+      "graph_batch": false,
+      "nonce": 25750275,
+      "key": [
+        "Worker",
+        false,
+        true,
+        false,
+        true
+      ],
+      "index": 6
+    },
+    {
+      "role": "Worker",
+      "graph_batch": false,
+      "nonce": 604450364,
+      "key": [
+        "Worker",
+        true,
+        false,
+        true,
+        false
+      ],
+      "index": 48
+    },
+    {
+      "role": "Planner",
+      "graph_batch": true,
+      "nonce": 787898725,
+      "group": 0,
+      "depth": 2,
+      "route": 1
+    },
+    {
+      "role": "Source",
+      "graph_batch": true,
+      "nonce": 736640704,
+      "group": 14,
+      "depth": 3,
+      "route": 0
+    },
+    {
+      "role": "Worker",
+      "graph_batch": true,
+      "nonce": 911347128,
+      "group": 4,
+      "depth": 2,
+      "route": 1
+    },
+    {
+      "role": "Worker",
+      "graph_batch": true,
+      "nonce": 898954378,
+      "group": 12,
+      "depth": 3,
+      "route": 0
+    },
+    {
+      "role": "Planner",
+      "graph_batch": false,
+      "nonce": 846099864,
+      "key": [
+        "Planner",
+        true,
+        true,
+        true,
+        false
+      ],
+      "index": 5
+    },
+    {
+      "role": "Source",
+      "graph_batch": false,
+      "nonce": 96101744,
+      "key": [
+        "Source",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 76
+    },
+    {
+      "role": "Worker",
+      "graph_batch": false,
+      "nonce": 747752284,
+      "key": [
+        "Worker",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 0
+    },
+    {
+      "role": "Worker",
+      "graph_batch": false,
+      "nonce": 927026379,
+      "key": [
+        "Worker",
+        false,
+        false,
+        true,
+        true
+      ],
+      "index": 1
+    },
+    {
+      "role": "Planner",
+      "graph_batch": true,
+      "nonce": 100659048,
+      "group": 15,
+      "depth": 3,
+      "route": 0
+    },
+    {
+      "role": "Source",
+      "graph_batch": true,
+      "nonce": 503773896,
+      "group": 1,
+      "depth": 3,
+      "route": 1
+    },
+    {
+      "role": "Worker",
+      "graph_batch": true,
+      "nonce": 87486734,
+      "group": 14,
+      "depth": 3,
+      "route": 1
+    },
+    {
+      "role": "Worker",
+      "graph_batch": true,
+      "nonce": 467317239,
+      "group": 10,
+      "depth": 3,
+      "route": 1
+    },
+    {
+      "role": "Planner",
+      "graph_batch": false,
+      "nonce": 985935373,
+      "key": [
+        "Planner",
+        false,
+        true,
+        false,
+        false
+      ],
+      "index": 1
+    },
+    {
+      "role": "Source",
+      "graph_batch": false,
+      "nonce": 709137896,
+      "key": [
+        "Source",
+        true,
+        false,
+        true,
+        false
+      ],
+      "index": 82
+    },
+    {
+      "role": "Worker",
+      "graph_batch": false,
+      "nonce": 241986859,
+      "key": [
+        "Worker",
+        false,
+        true,
+        true,
+        true
+      ],
+      "index": 3
+    },
+    {
+      "role": "Worker",
+      "graph_batch": false,
+      "nonce": 43013256,
+      "key": [
+        "Worker",
+        true,
+        true,
+        true,
+        false
+      ],
+      "index": 0
+    },
+    {
+      "role": "Planner",
+      "graph_batch": true,
+      "nonce": 383406910,
+      "group": 11,
+      "depth": 3,
+      "route": 0
+    },
+    {
+      "role": "Source",
+      "graph_batch": true,
+      "nonce": 211277622,
+      "group": 14,
+      "depth": 3,
+      "route": 0
+    },
+    {
+      "role": "Worker",
+      "graph_batch": true,
+      "nonce": 952604237,
+      "group": 6,
+      "depth": 3,
+      "route": 1
+    },
+    {
+      "role": "Worker",
+      "graph_batch": true,
+      "nonce": 386970761,
+      "group": 0,
+      "depth": 2,
+      "route": 0
+    },
+    {
+      "role": "Planner",
+      "graph_batch": false,
+      "nonce": 777835454,
+      "key": [
+        "Planner",
+        true,
+        true,
+        true,
+        false
+      ],
+      "index": 47
+    },
+    {
+      "role": "Source",
+      "graph_batch": false,
+      "nonce": 32021022,
+      "key": [
+        "Source",
+        false,
+        false,
+        true,
+        false
+      ],
+      "index": 65
+    },
+    {
+      "role": "Worker",
+      "graph_batch": false,
+      "nonce": 73364313,
+      "key": [
+        "Worker",
+        true,
+        true,
+        true,
+        false
+      ],
+      "index": 52
+    },
+    {
+      "role": "Worker",
+      "graph_batch": false,
+      "nonce": 800301171,
+      "key": [
+        "Worker",
+        true,
+        false,
+        true,
+        false
+      ],
+      "index": 22
+    },
+    {
+      "role": "Planner",
+      "graph_batch": true,
+      "nonce": 848709914,
+      "group": 3,
+      "depth": 3,
+      "route": 0
+    },
+    {
+      "role": "Source",
+      "graph_batch": true,
+      "nonce": 928959182,
+      "group": 13,
+      "depth": 2,
+      "route": 1
+    },
+    {
+      "role": "Worker",
+      "graph_batch": true,
+      "nonce": 265723530,
+      "group": 3,
+      "depth": 3,
+      "route": 1
+    },
+    {
+      "role": "Worker",
+      "graph_batch": true,
+      "nonce": 621833573,
+      "group": 3,
+      "depth": 2,
+      "route": 0
+    },
+    {
+      "role": "Planner",
+      "graph_batch": false,
+      "nonce": 264938215,
+      "key": [
+        "Planner",
+        false,
+        true,
+        false,
+        false
+      ],
+      "index": 3
+    },
+    {
+      "role": "Source",
+      "graph_batch": false,
+      "nonce": 912220201,
+      "key": [
+        "Source",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 51
+    },
+    {
+      "role": "Worker",
+      "graph_batch": false,
+      "nonce": 676666255,
+      "key": [
+        "Worker",
+        true,
+        false,
+        true,
+        false
+      ],
+      "index": 1
+    },
+    {
+      "role": "Worker",
+      "graph_batch": false,
+      "nonce": 595449635,
+      "key": [
+        "Worker",
+        false,
+        false,
+        true,
+        true
+      ],
+      "index": 18
+    },
+    {
+      "role": "Planner",
+      "graph_batch": true,
+      "nonce": 378420392,
+      "group": 6,
+      "depth": 3,
+      "route": 0
+    },
+    {
+      "role": "Source",
+      "graph_batch": true,
+      "nonce": 705627836,
+      "group": 0,
+      "depth": 2,
+      "route": 0
+    },
+    {
+      "role": "Worker",
+      "graph_batch": true,
+      "nonce": 208826002,
+      "group": 8,
+      "depth": 3,
+      "route": 1
+    },
+    {
+      "role": "Worker",
+      "graph_batch": true,
+      "nonce": 353601212,
+      "group": 14,
+      "depth": 2,
+      "route": 1
+    },
+    {
+      "role": "Planner",
+      "graph_batch": false,
+      "nonce": 342180808,
+      "key": [
+        "Planner",
+        false,
+        true,
+        false,
+        false
+      ],
+      "index": 0
+    },
+    {
+      "role": "Source",
+      "graph_batch": false,
+      "nonce": 352177379,
+      "key": [
+        "Source",
+        false,
+        false,
+        true,
+        false
+      ],
+      "index": 10
+    },
+    {
+      "role": "Worker",
+      "graph_batch": false,
+      "nonce": 820337843,
+      "key": [
+        "Worker",
+        false,
+        false,
+        true,
+        true
+      ],
+      "index": 15
+    },
+    {
+      "role": "Worker",
+      "graph_batch": false,
+      "nonce": 889771686,
+      "key": [
+        "Worker",
+        false,
+        true,
+        false,
+        true
+      ],
+      "index": 6
+    },
+    {
+      "role": "Planner",
+      "graph_batch": true,
+      "nonce": 796421921,
+      "group": 11,
+      "depth": 3,
+      "route": 0
+    },
+    {
+      "role": "Source",
+      "graph_batch": true,
+      "nonce": 656915742,
+      "group": 11,
+      "depth": 2,
+      "route": 0
+    },
+    {
+      "role": "Worker",
+      "graph_batch": true,
+      "nonce": 828925706,
+      "group": 6,
+      "depth": 3,
+      "route": 1
+    },
+    {
+      "role": "Worker",
+      "graph_batch": true,
+      "nonce": 805083958,
+      "group": 14,
+      "depth": 2,
+      "route": 1
+    },
+    {
+      "role": "Planner",
+      "graph_batch": false,
+      "nonce": 497443767,
+      "key": [
+        "Planner",
+        true,
+        false,
+        true,
+        false
+      ],
+      "index": 27
+    },
+    {
+      "role": "Source",
+      "graph_batch": false,
+      "nonce": 391454636,
+      "key": [
+        "Source",
+        false,
+        true,
+        false,
+        false
+      ],
+      "index": 14
+    },
+    {
+      "role": "Worker",
+      "graph_batch": false,
+      "nonce": 207405772,
+      "key": [
+        "Worker",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 38
+    },
+    {
+      "role": "Worker",
+      "graph_batch": false,
+      "nonce": 513695756,
+      "key": [
+        "Worker",
+        false,
+        true,
+        false,
+        true
+      ],
+      "index": 7
+    },
+    {
+      "role": "Planner",
+      "graph_batch": true,
+      "nonce": 982825383,
+      "group": 13,
+      "depth": 2,
+      "route": 1
+    },
+    {
+      "role": "Source",
+      "graph_batch": true,
+      "nonce": 52361341,
+      "group": 7,
+      "depth": 2,
+      "route": 0
+    },
+    {
+      "role": "Worker",
+      "graph_batch": true,
+      "nonce": 388402188,
+      "group": 11,
+      "depth": 3,
+      "route": 1
+    },
+    {
+      "role": "Worker",
+      "graph_batch": true,
+      "nonce": 464787301,
+      "group": 8,
+      "depth": 3,
+      "route": 1
+    },
+    {
+      "role": "Planner",
+      "graph_batch": false,
+      "nonce": 119795774,
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 3
+    },
+    {
+      "role": "Source",
+      "graph_batch": false,
+      "nonce": 199683493,
+      "key": [
+        "Source",
+        true,
+        true,
+        true,
+        false
+      ],
+      "index": 47
+    },
+    {
+      "role": "Worker",
+      "graph_batch": false,
+      "nonce": 298616375,
+      "key": [
+        "Worker",
+        true,
+        true,
+        true,
+        false
+      ],
+      "index": 55
+    },
+    {
+      "role": "Worker",
+      "graph_batch": false,
+      "nonce": 855800502,
+      "key": [
+        "Worker",
+        false,
+        false,
+        true,
+        false
+      ],
+      "index": 49
+    },
+    {
+      "role": "Planner",
+      "graph_batch": true,
+      "nonce": 825747693,
+      "group": 4,
+      "depth": 2,
+      "route": 1
+    },
+    {
+      "role": "Source",
+      "graph_batch": true,
+      "nonce": 510613978,
+      "group": 15,
+      "depth": 2,
+      "route": 0
+    },
+    {
+      "role": "Worker",
+      "graph_batch": true,
+      "nonce": 371316171,
+      "group": 0,
+      "depth": 3,
+      "route": 0
+    },
+    {
+      "role": "Worker",
+      "graph_batch": true,
+      "nonce": 870859332,
+      "group": 14,
+      "depth": 3,
+      "route": 1
+    },
+    {
+      "role": "Planner",
+      "graph_batch": false,
+      "nonce": 987543095,
+      "key": [
+        "Planner",
+        true,
+        true,
+        true,
+        false
+      ],
+      "index": 24
+    },
+    {
+      "role": "Source",
+      "graph_batch": false,
+      "nonce": 411548749,
+      "key": [
+        "Source",
+        false,
+        true,
+        false,
+        false
+      ],
+      "index": 0
+    },
+    {
+      "role": "Worker",
+      "graph_batch": false,
+      "nonce": 546409720,
+      "key": [
+        "Worker",
+        true,
+        true,
+        true,
+        false
+      ],
+      "index": 44
+    },
+    {
+      "role": "Worker",
+      "graph_batch": false,
+      "nonce": 250793797,
+      "key": [
+        "Worker",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 23
+    },
+    {
+      "role": "Planner",
+      "graph_batch": true,
+      "nonce": 301282477,
+      "group": 2,
+      "depth": 2,
+      "route": 0
+    },
+    {
+      "role": "Source",
+      "graph_batch": true,
+      "nonce": 864754036,
+      "group": 15,
+      "depth": 2,
+      "route": 1
+    },
+    {
+      "role": "Worker",
+      "graph_batch": true,
+      "nonce": 838978404,
+      "group": 15,
+      "depth": 3,
+      "route": 1
+    },
+    {
+      "role": "Worker",
+      "graph_batch": true,
+      "nonce": 236457861,
+      "group": 8,
+      "depth": 3,
+      "route": 0
+    },
+    {
+      "role": "Planner",
+      "graph_batch": false,
+      "nonce": 820009654,
+      "key": [
+        "Planner",
+        true,
+        false,
+        true,
+        false
+      ],
+      "index": 26
+    },
+    {
+      "role": "Source",
+      "graph_batch": false,
+      "nonce": 34004566,
+      "key": [
+        "Source",
+        false,
+        false,
+        true,
+        false
+      ],
+      "index": 48
+    },
+    {
+      "role": "Worker",
+      "graph_batch": false,
+      "nonce": 64526185,
+      "key": [
+        "Worker",
+        false,
+        false,
+        true,
+        false
+      ],
+      "index": 0
+    },
+    {
+      "role": "Worker",
+      "graph_batch": false,
+      "nonce": 588899122,
+      "key": [
+        "Worker",
+        true,
+        true,
+        true,
+        false
+      ],
+      "index": 41
+    },
+    {
+      "role": "Planner",
+      "graph_batch": true,
+      "nonce": 570205092,
+      "group": 5,
+      "depth": 3,
+      "route": 1
+    },
+    {
+      "role": "Source",
+      "graph_batch": true,
+      "nonce": 761475302,
+      "group": 6,
+      "depth": 2,
+      "route": 0
+    },
+    {
+      "role": "Worker",
+      "graph_batch": true,
+      "nonce": 366579979,
+      "group": 5,
+      "depth": 2,
+      "route": 0
+    },
+    {
+      "role": "Worker",
+      "graph_batch": true,
+      "nonce": 246443758,
+      "group": 11,
+      "depth": 3,
+      "route": 0
+    },
+    {
+      "role": "Planner",
+      "graph_batch": false,
+      "nonce": 333198869,
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 18
+    },
+    {
+      "role": "Source",
+      "graph_batch": false,
+      "nonce": 680871823,
+      "key": [
+        "Source",
+        true,
+        true,
+        true,
+        false
+      ],
+      "index": 36
+    },
+    {
+      "role": "Worker",
+      "graph_batch": false,
+      "nonce": 452829570,
+      "key": [
+        "Worker",
+        false,
+        true,
+        false,
+        true
+      ],
+      "index": 1
+    },
+    {
+      "role": "Worker",
+      "graph_batch": false,
+      "nonce": 431659150,
+      "key": [
+        "Worker",
+        false,
+        true,
+        false,
+        true
+      ],
+      "index": 4
+    },
+    {
+      "role": "Planner",
+      "graph_batch": true,
+      "nonce": 86967959,
+      "group": 1,
+      "depth": 2,
+      "route": 0
+    },
+    {
+      "role": "Source",
+      "graph_batch": true,
+      "nonce": 468347040,
+      "group": 4,
+      "depth": 3,
+      "route": 1
+    },
+    {
+      "role": "Worker",
+      "graph_batch": true,
+      "nonce": 669108116,
+      "group": 5,
+      "depth": 2,
+      "route": 1
+    },
+    {
+      "role": "Worker",
+      "graph_batch": true,
+      "nonce": 952094433,
+      "group": 4,
+      "depth": 2,
+      "route": 1
+    },
+    {
+      "role": "Planner",
+      "graph_batch": false,
+      "nonce": 375684407,
+      "key": [
+        "Planner",
+        false,
+        false,
+        true,
+        false
+      ],
+      "index": 26
+    },
+    {
+      "role": "Source",
+      "graph_batch": false,
+      "nonce": 496447927,
+      "key": [
+        "Source",
+        false,
+        true,
+        false,
+        false
+      ],
+      "index": 6
+    },
+    {
+      "role": "Worker",
+      "graph_batch": false,
+      "nonce": 919445538,
+      "key": [
+        "Worker",
+        false,
+        true,
+        false,
+        true
+      ],
+      "index": 9
+    },
+    {
+      "role": "Worker",
+      "graph_batch": false,
+      "nonce": 792073249,
+      "key": [
+        "Worker",
+        true,
+        true,
+        true,
+        false
+      ],
+      "index": 26
+    },
+    {
+      "role": "Planner",
+      "graph_batch": true,
+      "nonce": 123128425,
+      "group": 2,
+      "depth": 3,
+      "route": 1
+    },
+    {
+      "role": "Source",
+      "graph_batch": true,
+      "nonce": 539345720,
+      "group": 12,
+      "depth": 2,
+      "route": 1
+    },
+    {
+      "role": "Worker",
+      "graph_batch": true,
+      "nonce": 661447230,
+      "group": 3,
+      "depth": 2,
+      "route": 1
+    },
+    {
+      "role": "Worker",
+      "graph_batch": true,
+      "nonce": 321421858,
+      "group": 3,
+      "depth": 3,
+      "route": 1
+    },
+    {
+      "role": "Planner",
+      "graph_batch": false,
+      "nonce": 203496312,
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 29
+    },
+    {
+      "role": "Source",
+      "graph_batch": false,
+      "nonce": 226370347,
+      "key": [
+        "Source",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 67
+    },
+    {
+      "role": "Worker",
+      "graph_batch": false,
+      "nonce": 488718117,
+      "key": [
+        "Worker",
+        true,
+        false,
+        true,
+        false
+      ],
+      "index": 34
+    },
+    {
+      "role": "Worker",
+      "graph_batch": false,
+      "nonce": 674229470,
+      "key": [
+        "Worker",
+        false,
+        true,
+        false,
+        true
+      ],
+      "index": 2
+    },
+    {
+      "role": "Planner",
+      "graph_batch": true,
+      "nonce": 906919247,
+      "group": 6,
+      "depth": 2,
+      "route": 0
+    },
+    {
+      "role": "Source",
+      "graph_batch": true,
+      "nonce": 173171274,
+      "group": 14,
+      "depth": 2,
+      "route": 0
+    },
+    {
+      "role": "Worker",
+      "graph_batch": true,
+      "nonce": 724383175,
+      "group": 4,
+      "depth": 2,
+      "route": 0
+    },
+    {
+      "role": "Worker",
+      "graph_batch": true,
+      "nonce": 585060548,
+      "group": 5,
+      "depth": 2,
+      "route": 0
+    },
+    {
+      "role": "Planner",
+      "graph_batch": false,
+      "nonce": 323352930,
+      "key": [
+        "Planner",
+        true,
+        false,
+        true,
+        false
+      ],
+      "index": 31
+    },
+    {
+      "role": "Source",
+      "graph_batch": false,
+      "nonce": 339021410,
+      "key": [
+        "Source",
+        true,
+        false,
+        true,
+        false
+      ],
+      "index": 84
+    },
+    {
+      "role": "Worker",
+      "graph_batch": false,
+      "nonce": 992394022,
+      "key": [
+        "Worker",
+        true,
+        false,
+        true,
+        false
+      ],
+      "index": 14
+    },
+    {
+      "role": "Worker",
+      "graph_batch": false,
+      "nonce": 780076991,
+      "key": [
+        "Worker",
+        true,
+        true,
+        true,
+        false
+      ],
+      "index": 24
+    },
+    {
+      "role": "Planner",
+      "graph_batch": true,
+      "nonce": 539110880,
+      "group": 6,
+      "depth": 2,
+      "route": 0
+    },
+    {
+      "role": "Source",
+      "graph_batch": true,
+      "nonce": 678329371,
+      "group": 5,
+      "depth": 3,
+      "route": 1
+    },
+    {
+      "role": "Worker",
+      "graph_batch": true,
+      "nonce": 291146741,
+      "group": 6,
+      "depth": 2,
+      "route": 0
+    },
+    {
+      "role": "Worker",
+      "graph_batch": true,
+      "nonce": 46729280,
+      "group": 6,
+      "depth": 2,
+      "route": 0
+    },
+    {
+      "role": "Planner",
+      "graph_batch": false,
+      "nonce": 549479215,
+      "key": [
+        "Planner",
+        true,
+        true,
+        true,
+        false
+      ],
+      "index": 10
+    },
+    {
+      "role": "Source",
+      "graph_batch": false,
+      "nonce": 102205007,
+      "key": [
+        "Source",
+        true,
+        false,
+        true,
+        false
+      ],
+      "index": 55
+    },
+    {
+      "role": "Worker",
+      "graph_batch": false,
+      "nonce": 948297141,
+      "key": [
+        "Worker",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 18
+    },
+    {
+      "role": "Worker",
+      "graph_batch": false,
+      "nonce": 784170897,
+      "key": [
+        "Worker",
+        false,
+        true,
+        true,
+        true
+      ],
+      "index": 3
+    },
+    {
+      "role": "Planner",
+      "graph_batch": true,
+      "nonce": 17972761,
+      "group": 5,
+      "depth": 3,
+      "route": 0
+    },
+    {
+      "role": "Source",
+      "graph_batch": true,
+      "nonce": 248485126,
+      "group": 11,
+      "depth": 2,
+      "route": 1
+    },
+    {
+      "role": "Worker",
+      "graph_batch": true,
+      "nonce": 424789493,
+      "group": 9,
+      "depth": 2,
+      "route": 1
+    },
+    {
+      "role": "Worker",
+      "graph_batch": true,
+      "nonce": 751033867,
+      "group": 2,
+      "depth": 3,
+      "route": 0
+    },
+    {
+      "role": "Planner",
+      "graph_batch": false,
+      "nonce": 39858999,
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 33
+    },
+    {
+      "role": "Source",
+      "graph_batch": false,
+      "nonce": 629316501,
+      "key": [
+        "Source",
+        true,
+        false,
+        true,
+        false
+      ],
+      "index": 82
+    },
+    {
+      "role": "Worker",
+      "graph_batch": false,
+      "nonce": 450075729,
+      "key": [
+        "Worker",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 40
+    },
+    {
+      "role": "Worker",
+      "graph_batch": false,
+      "nonce": 729353384,
+      "key": [
+        "Worker",
+        false,
+        true,
+        false,
+        true
+      ],
+      "index": 9
+    },
+    {
+      "role": "Planner",
+      "graph_batch": true,
+      "nonce": 796064909,
+      "group": 12,
+      "depth": 2,
+      "route": 1
+    },
+    {
+      "role": "Source",
+      "graph_batch": true,
+      "nonce": 617591344,
+      "group": 10,
+      "depth": 2,
+      "route": 0
+    },
+    {
+      "role": "Worker",
+      "graph_batch": true,
+      "nonce": 38304414,
+      "group": 9,
+      "depth": 3,
+      "route": 0
+    },
+    {
+      "role": "Worker",
+      "graph_batch": true,
+      "nonce": 827046393,
+      "group": 3,
+      "depth": 2,
+      "route": 1
+    },
+    {
+      "role": "Planner",
+      "graph_batch": false,
+      "nonce": 152361131,
+      "key": [
+        "Planner",
+        true,
+        false,
+        true,
+        false
+      ],
+      "index": 37
+    },
+    {
+      "role": "Source",
+      "graph_batch": false,
+      "nonce": 410195303,
+      "key": [
+        "Source",
+        true,
+        true,
+        true,
+        false
+      ],
+      "index": 71
+    },
+    {
+      "role": "Worker",
+      "graph_batch": false,
+      "nonce": 407231215,
+      "key": [
+        "Worker",
+        false,
+        true,
+        false,
+        true
+      ],
+      "index": 4
+    },
+    {
+      "role": "Worker",
+      "graph_batch": false,
+      "nonce": 843370488,
+      "key": [
+        "Worker",
+        true,
+        true,
+        true,
+        false
+      ],
+      "index": 16
+    },
+    {
+      "role": "Planner",
+      "graph_batch": true,
+      "nonce": 469144250,
+      "group": 7,
+      "depth": 2,
+      "route": 0
+    },
+    {
+      "role": "Source",
+      "graph_batch": true,
+      "nonce": 168622844,
+      "group": 1,
+      "depth": 2,
+      "route": 1
+    },
+    {
+      "role": "Worker",
+      "graph_batch": true,
+      "nonce": 85938920,
+      "group": 14,
+      "depth": 3,
+      "route": 1
+    },
+    {
+      "role": "Worker",
+      "graph_batch": true,
+      "nonce": 892959862,
+      "group": 11,
+      "depth": 3,
+      "route": 1
+    },
+    {
+      "role": "Planner",
+      "graph_batch": false,
+      "nonce": 291868544,
+      "key": [
+        "Planner",
+        true,
+        false,
+        true,
+        false
+      ],
+      "index": 35
+    },
+    {
+      "role": "Source",
+      "graph_batch": false,
+      "nonce": 485636576,
+      "key": [
+        "Source",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 56
+    },
+    {
+      "role": "Worker",
+      "graph_batch": false,
+      "nonce": 609123378,
+      "key": [
+        "Worker",
+        true,
+        true,
+        true,
+        false
+      ],
+      "index": 48
+    },
+    {
+      "role": "Worker",
+      "graph_batch": false,
+      "nonce": 782922443,
+      "key": [
+        "Worker",
+        false,
+        false,
+        true,
+        true
+      ],
+      "index": 8
+    },
+    {
+      "role": "Planner",
+      "graph_batch": true,
+      "nonce": 290435263,
+      "group": 9,
+      "depth": 2,
+      "route": 0
+    },
+    {
+      "role": "Source",
+      "graph_batch": true,
+      "nonce": 81907664,
+      "group": 10,
+      "depth": 3,
+      "route": 0
+    },
+    {
+      "role": "Worker",
+      "graph_batch": true,
+      "nonce": 651449752,
+      "group": 12,
+      "depth": 3,
+      "route": 0
+    },
+    {
+      "role": "Worker",
+      "graph_batch": true,
+      "nonce": 525383608,
+      "group": 12,
+      "depth": 3,
+      "route": 1
+    },
+    {
+      "role": "Planner",
+      "graph_batch": false,
+      "nonce": 884246690,
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 2
+    },
+    {
+      "role": "Source",
+      "graph_batch": false,
+      "nonce": 507473892,
+      "key": [
+        "Source",
+        false,
+        true,
+        false,
+        false
+      ],
+      "index": 1
+    },
+    {
+      "role": "Worker",
+      "graph_batch": false,
+      "nonce": 135366922,
+      "key": [
+        "Worker",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 20
+    },
+    {
+      "role": "Worker",
+      "graph_batch": false,
+      "nonce": 511150944,
+      "key": [
+        "Worker",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 38
+    },
+    {
+      "role": "Planner",
+      "graph_batch": true,
+      "nonce": 911238962,
+      "group": 9,
+      "depth": 3,
+      "route": 0
+    },
+    {
+      "role": "Source",
+      "graph_batch": true,
+      "nonce": 79290640,
+      "group": 6,
+      "depth": 2,
+      "route": 1
+    },
+    {
+      "role": "Worker",
+      "graph_batch": true,
+      "nonce": 759421462,
+      "group": 7,
+      "depth": 3,
+      "route": 0
+    },
+    {
+      "role": "Worker",
+      "graph_batch": true,
+      "nonce": 328173036,
+      "group": 8,
+      "depth": 3,
+      "route": 0
+    },
+    {
+      "role": "Planner",
+      "graph_batch": false,
+      "nonce": 575042660,
+      "key": [
+        "Planner",
+        true,
+        true,
+        true,
+        false
+      ],
+      "index": 37
+    },
+    {
+      "role": "Source",
+      "graph_batch": false,
+      "nonce": 538805864,
+      "key": [
+        "Source",
+        false,
+        true,
+        false,
+        false
+      ],
+      "index": 15
+    },
+    {
+      "role": "Worker",
+      "graph_batch": false,
+      "nonce": 459345583,
+      "key": [
+        "Worker",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 4
+    },
+    {
+      "role": "Worker",
+      "graph_batch": false,
+      "nonce": 438092375,
+      "key": [
+        "Worker",
+        false,
+        false,
+        true,
+        true
+      ],
+      "index": 13
+    },
+    {
+      "role": "Planner",
+      "graph_batch": true,
+      "nonce": 339780830,
+      "group": 7,
+      "depth": 2,
+      "route": 0
+    },
+    {
+      "role": "Source",
+      "graph_batch": true,
+      "nonce": 749328412,
+      "group": 15,
+      "depth": 2,
+      "route": 1
+    },
+    {
+      "role": "Worker",
+      "graph_batch": true,
+      "nonce": 660196436,
+      "group": 13,
+      "depth": 3,
+      "route": 1
+    },
+    {
+      "role": "Worker",
+      "graph_batch": true,
+      "nonce": 987545439,
+      "group": 2,
+      "depth": 2,
+      "route": 0
+    },
+    {
+      "role": "Planner",
+      "graph_batch": false,
+      "nonce": 51968321,
+      "key": [
+        "Planner",
+        false,
+        false,
+        true,
+        false
+      ],
+      "index": 43
+    },
+    {
+      "role": "Source",
+      "graph_batch": false,
+      "nonce": 485485383,
+      "key": [
+        "Source",
+        true,
+        true,
+        true,
+        false
+      ],
+      "index": 15
+    },
+    {
+      "role": "Worker",
+      "graph_batch": false,
+      "nonce": 207468539,
+      "key": [
+        "Worker",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 9
+    },
+    {
+      "role": "Worker",
+      "graph_batch": false,
+      "nonce": 553422525,
+      "key": [
+        "Worker",
+        true,
+        true,
+        true,
+        false
+      ],
+      "index": 33
+    },
+    {
+      "role": "Planner",
+      "graph_batch": true,
+      "nonce": 462701394,
+      "group": 0,
+      "depth": 2,
+      "route": 1
+    },
+    {
+      "role": "Source",
+      "graph_batch": true,
+      "nonce": 729700694,
+      "group": 7,
+      "depth": 3,
+      "route": 0
+    },
+    {
+      "role": "Worker",
+      "graph_batch": true,
+      "nonce": 170234821,
+      "group": 12,
+      "depth": 2,
+      "route": 1
+    },
+    {
+      "role": "Worker",
+      "graph_batch": true,
+      "nonce": 794261907,
+      "group": 7,
+      "depth": 3,
+      "route": 1
+    },
+    {
+      "role": "Planner",
+      "graph_batch": false,
+      "nonce": 801689603,
+      "key": [
+        "Planner",
+        false,
+        true,
+        false,
+        false
+      ],
+      "index": 6
+    },
+    {
+      "role": "Source",
+      "graph_batch": false,
+      "nonce": 491354121,
+      "key": [
+        "Source",
+        true,
+        true,
+        true,
+        false
+      ],
+      "index": 19
+    },
+    {
+      "role": "Worker",
+      "graph_batch": false,
+      "nonce": 905986565,
+      "key": [
+        "Worker",
+        true,
+        false,
+        true,
+        false
+      ],
+      "index": 86
+    },
+    {
+      "role": "Worker",
+      "graph_batch": false,
+      "nonce": 575153697,
+      "key": [
+        "Worker",
+        false,
+        false,
+        true,
+        false
+      ],
+      "index": 24
+    },
+    {
+      "role": "Planner",
+      "graph_batch": true,
+      "nonce": 368711693,
+      "group": 3,
+      "depth": 3,
+      "route": 1
+    },
+    {
+      "role": "Source",
+      "graph_batch": true,
+      "nonce": 567340599,
+      "group": 12,
+      "depth": 3,
+      "route": 0
+    },
+    {
+      "role": "Worker",
+      "graph_batch": true,
+      "nonce": 849517903,
+      "group": 12,
+      "depth": 3,
+      "route": 0
+    },
+    {
+      "role": "Worker",
+      "graph_batch": true,
+      "nonce": 359649812,
+      "group": 5,
+      "depth": 3,
+      "route": 1
+    },
+    {
+      "role": "Planner",
+      "graph_batch": false,
+      "nonce": 314305475,
+      "key": [
+        "Planner",
+        false,
+        true,
+        false,
+        false
+      ],
+      "index": 5
+    },
+    {
+      "role": "Source",
+      "graph_batch": false,
+      "nonce": 323404531,
+      "key": [
+        "Source",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 20
+    },
+    {
+      "role": "Worker",
+      "graph_batch": false,
+      "nonce": 69671427,
+      "key": [
+        "Worker",
+        false,
+        true,
+        true,
+        true
+      ],
+      "index": 15
+    },
+    {
+      "role": "Worker",
+      "graph_batch": false,
+      "nonce": 179135762,
+      "key": [
+        "Worker",
+        false,
+        false,
+        true,
+        true
+      ],
+      "index": 12
+    },
+    {
+      "role": "Planner",
+      "graph_batch": true,
+      "nonce": 401109034,
+      "group": 5,
+      "depth": 2,
+      "route": 0
+    },
+    {
+      "role": "Source",
+      "graph_batch": true,
+      "nonce": 96441214,
+      "group": 8,
+      "depth": 2,
+      "route": 1
+    },
+    {
+      "role": "Worker",
+      "graph_batch": true,
+      "nonce": 317499018,
+      "group": 2,
+      "depth": 3,
+      "route": 1
+    },
+    {
+      "role": "Worker",
+      "graph_batch": true,
+      "nonce": 648298702,
+      "group": 9,
+      "depth": 2,
+      "route": 1
+    },
+    {
+      "role": "Planner",
+      "graph_batch": false,
+      "nonce": 727308565,
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 15
+    },
+    {
+      "role": "Source",
+      "graph_batch": false,
+      "nonce": 426302396,
+      "key": [
+        "Source",
+        true,
+        true,
+        true,
+        false
+      ],
+      "index": 37
+    },
+    {
+      "role": "Worker",
+      "graph_batch": false,
+      "nonce": 43341033,
+      "key": [
+        "Worker",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 38
+    },
+    {
+      "role": "Worker",
+      "graph_batch": false,
+      "nonce": 474067578,
+      "key": [
+        "Worker",
+        false,
+        false,
+        true,
+        true
+      ],
+      "index": 30
+    },
+    {
+      "role": "Planner",
+      "graph_batch": true,
+      "nonce": 546936342,
+      "group": 10,
+      "depth": 3,
+      "route": 1
+    },
+    {
+      "role": "Source",
+      "graph_batch": true,
+      "nonce": 653614176,
+      "group": 5,
+      "depth": 3,
+      "route": 0
+    },
+    {
+      "role": "Worker",
+      "graph_batch": true,
+      "nonce": 91780823,
+      "group": 6,
+      "depth": 2,
+      "route": 1
+    },
+    {
+      "role": "Worker",
+      "graph_batch": true,
+      "nonce": 770041178,
+      "group": 12,
+      "depth": 2,
+      "route": 0
+    },
+    {
+      "role": "Planner",
+      "graph_batch": false,
+      "nonce": 456665131,
+      "key": [
+        "Planner",
+        true,
+        true,
+        true,
+        false
+      ],
+      "index": 0
+    },
+    {
+      "role": "Source",
+      "graph_batch": false,
+      "nonce": 133985924,
+      "key": [
+        "Source",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 54
+    },
+    {
+      "role": "Worker",
+      "graph_batch": false,
+      "nonce": 519408009,
+      "key": [
+        "Worker",
+        false,
+        true,
+        true,
+        true
+      ],
+      "index": 8
+    },
+    {
+      "role": "Worker",
+      "graph_batch": false,
+      "nonce": 601659894,
+      "key": [
+        "Worker",
+        false,
+        true,
+        true,
+        true
+      ],
+      "index": 2
+    },
+    {
+      "role": "Planner",
+      "graph_batch": true,
+      "nonce": 416447551,
+      "group": 10,
+      "depth": 3,
+      "route": 1
+    },
+    {
+      "role": "Source",
+      "graph_batch": true,
+      "nonce": 129000545,
+      "group": 15,
+      "depth": 2,
+      "route": 0
+    },
+    {
+      "role": "Worker",
+      "graph_batch": true,
+      "nonce": 790833620,
+      "group": 1,
+      "depth": 2,
+      "route": 1
+    },
+    {
+      "role": "Worker",
+      "graph_batch": true,
+      "nonce": 204694008,
+      "group": 13,
+      "depth": 2,
+      "route": 0
+    },
+    {
+      "role": "Planner",
+      "graph_batch": false,
+      "nonce": 319734269,
+      "key": [
+        "Planner",
+        false,
+        false,
+        true,
+        false
+      ],
+      "index": 34
+    },
+    {
+      "role": "Source",
+      "graph_batch": false,
+      "nonce": 541121151,
+      "key": [
+        "Source",
+        false,
+        false,
+        true,
+        false
+      ],
+      "index": 52
+    },
+    {
+      "role": "Worker",
+      "graph_batch": false,
+      "nonce": 681775882,
+      "key": [
+        "Worker",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 56
+    },
+    {
+      "role": "Worker",
+      "graph_batch": false,
+      "nonce": 401114236,
+      "key": [
+        "Worker",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 32
+    },
+    {
+      "role": "Planner",
+      "graph_batch": true,
+      "nonce": 414373291,
+      "group": 10,
+      "depth": 2,
+      "route": 0
+    },
+    {
+      "role": "Source",
+      "graph_batch": true,
+      "nonce": 559716487,
+      "group": 6,
+      "depth": 2,
+      "route": 0
+    },
+    {
+      "role": "Worker",
+      "graph_batch": true,
+      "nonce": 705782671,
+      "group": 15,
+      "depth": 2,
+      "route": 0
+    },
+    {
+      "role": "Worker",
+      "graph_batch": true,
+      "nonce": 428458397,
+      "group": 15,
+      "depth": 2,
+      "route": 0
+    },
+    {
+      "role": "Planner",
+      "graph_batch": false,
+      "nonce": 441632923,
+      "key": [
+        "Planner",
+        true,
+        false,
+        true,
+        false
+      ],
+      "index": 24
+    },
+    {
+      "role": "Source",
+      "graph_batch": false,
+      "nonce": 361395670,
+      "key": [
+        "Source",
+        true,
+        true,
+        true,
+        false
+      ],
+      "index": 19
+    },
+    {
+      "role": "Worker",
+      "graph_batch": false,
+      "nonce": 4594986,
+      "key": [
+        "Worker",
+        false,
+        false,
+        true,
+        true
+      ],
+      "index": 11
+    },
+    {
+      "role": "Worker",
+      "graph_batch": false,
+      "nonce": 148825136,
+      "key": [
+        "Worker",
+        true,
+        false,
+        true,
+        false
+      ],
+      "index": 53
+    },
+    {
+      "role": "Planner",
+      "graph_batch": true,
+      "nonce": 848439575,
+      "group": 0,
+      "depth": 2,
+      "route": 0
+    },
+    {
+      "role": "Source",
+      "graph_batch": true,
+      "nonce": 803113802,
+      "group": 6,
+      "depth": 2,
+      "route": 0
+    },
+    {
+      "role": "Worker",
+      "graph_batch": true,
+      "nonce": 233830108,
+      "group": 13,
+      "depth": 3,
+      "route": 1
+    },
+    {
+      "role": "Worker",
+      "graph_batch": true,
+      "nonce": 509339719,
+      "group": 3,
+      "depth": 2,
+      "route": 1
+    },
+    {
+      "role": "Planner",
+      "graph_batch": false,
+      "nonce": 595120427,
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 9
+    },
+    {
+      "role": "Source",
+      "graph_batch": false,
+      "nonce": 29716068,
+      "key": [
+        "Source",
+        false,
+        true,
+        false,
+        false
+      ],
+      "index": 1
+    },
+    {
+      "role": "Worker",
+      "graph_batch": false,
+      "nonce": 356585445,
+      "key": [
+        "Worker",
+        false,
+        false,
+        true,
+        true
+      ],
+      "index": 2
+    },
+    {
+      "role": "Worker",
+      "graph_batch": false,
+      "nonce": 322395248,
+      "key": [
+        "Worker",
+        false,
+        true,
+        false,
+        true
+      ],
+      "index": 8
+    },
+    {
+      "role": "Planner",
+      "graph_batch": true,
+      "nonce": 354781916,
+      "group": 1,
+      "depth": 2,
+      "route": 1
+    },
+    {
+      "role": "Source",
+      "graph_batch": true,
+      "nonce": 12250982,
+      "group": 13,
+      "depth": 2,
+      "route": 0
+    },
+    {
+      "role": "Worker",
+      "graph_batch": true,
+      "nonce": 744631367,
+      "group": 7,
+      "depth": 2,
+      "route": 1
+    },
+    {
+      "role": "Worker",
+      "graph_batch": true,
+      "nonce": 401702514,
+      "group": 5,
+      "depth": 3,
+      "route": 0
+    },
+    {
+      "role": "Planner",
+      "graph_batch": false,
+      "nonce": 263482034,
+      "key": [
+        "Planner",
+        false,
+        false,
+        true,
+        false
+      ],
+      "index": 41
+    },
+    {
+      "role": "Source",
+      "graph_batch": false,
+      "nonce": 867716636,
+      "key": [
+        "Source",
+        true,
+        false,
+        true,
+        false
+      ],
+      "index": 7
+    },
+    {
+      "role": "Worker",
+      "graph_batch": false,
+      "nonce": 25784927,
+      "key": [
+        "Worker",
+        false,
+        true,
+        false,
+        true
+      ],
+      "index": 4
+    },
+    {
+      "role": "Worker",
+      "graph_batch": false,
+      "nonce": 606645493,
+      "key": [
+        "Worker",
+        false,
+        false,
+        true,
+        true
+      ],
+      "index": 6
+    },
+    {
+      "role": "Planner",
+      "graph_batch": true,
+      "nonce": 219745743,
+      "group": 9,
+      "depth": 2,
+      "route": 0
+    },
+    {
+      "role": "Source",
+      "graph_batch": true,
+      "nonce": 291138199,
+      "group": 3,
+      "depth": 3,
+      "route": 1
+    },
+    {
+      "role": "Worker",
+      "graph_batch": true,
+      "nonce": 439678889,
+      "group": 15,
+      "depth": 2,
+      "route": 1
+    },
+    {
+      "role": "Worker",
+      "graph_batch": true,
+      "nonce": 655161700,
+      "group": 9,
+      "depth": 2,
+      "route": 0
+    },
+    {
+      "role": "Planner",
+      "graph_batch": false,
+      "nonce": 13068800,
+      "key": [
+        "Planner",
+        true,
+        true,
+        true,
+        false
+      ],
+      "index": 11
+    },
+    {
+      "role": "Source",
+      "graph_batch": false,
+      "nonce": 98541644,
+      "key": [
+        "Source",
+        true,
+        true,
+        true,
+        false
+      ],
+      "index": 32
+    },
+    {
+      "role": "Worker",
+      "graph_batch": false,
+      "nonce": 310652530,
+      "key": [
+        "Worker",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 62
+    },
+    {
+      "role": "Worker",
+      "graph_batch": false,
+      "nonce": 663865013,
+      "key": [
+        "Worker",
+        false,
+        true,
+        false,
+        true
+      ],
+      "index": 6
+    },
+    {
+      "role": "Planner",
+      "graph_batch": true,
+      "nonce": 171335469,
+      "group": 11,
+      "depth": 3,
+      "route": 0
+    },
+    {
+      "role": "Source",
+      "graph_batch": true,
+      "nonce": 605485371,
+      "group": 15,
+      "depth": 2,
+      "route": 1
+    },
+    {
+      "role": "Worker",
+      "graph_batch": true,
+      "nonce": 669353914,
+      "group": 7,
+      "depth": 3,
+      "route": 1
+    },
+    {
+      "role": "Worker",
+      "graph_batch": true,
+      "nonce": 958878284,
+      "group": 12,
+      "depth": 2,
+      "route": 1
+    },
+    {
+      "role": "Planner",
+      "graph_batch": false,
+      "nonce": 878612719,
+      "key": [
+        "Planner",
+        true,
+        true,
+        true,
+        false
+      ],
+      "index": 8
+    },
+    {
+      "role": "Source",
+      "graph_batch": false,
+      "nonce": 639226575,
+      "key": [
+        "Source",
+        false,
+        false,
+        true,
+        false
+      ],
+      "index": 80
+    },
+    {
+      "role": "Worker",
+      "graph_batch": false,
+      "nonce": 97664193,
+      "key": [
+        "Worker",
+        false,
+        false,
+        true,
+        true
+      ],
+      "index": 15
+    },
+    {
+      "role": "Worker",
+      "graph_batch": false,
+      "nonce": 82931897,
+      "key": [
+        "Worker",
+        false,
+        false,
+        true,
+        true
+      ],
+      "index": 3
+    },
+    {
+      "role": "Planner",
+      "graph_batch": true,
+      "nonce": 131035567,
+      "group": 10,
+      "depth": 3,
+      "route": 0
+    },
+    {
+      "role": "Source",
+      "graph_batch": true,
+      "nonce": 979971877,
+      "group": 13,
+      "depth": 3,
+      "route": 1
+    },
+    {
+      "role": "Worker",
+      "graph_batch": true,
+      "nonce": 240790087,
+      "group": 6,
+      "depth": 3,
+      "route": 0
+    },
+    {
+      "role": "Worker",
+      "graph_batch": true,
+      "nonce": 852355181,
+      "group": 11,
+      "depth": 2,
+      "route": 1
+    },
+    {
+      "role": "Planner",
+      "graph_batch": false,
+      "nonce": 22937142,
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 29
+    },
+    {
+      "role": "Source",
+      "graph_batch": false,
+      "nonce": 469693233,
+      "key": [
+        "Source",
+        false,
+        true,
+        false,
+        false
+      ],
+      "index": 8
+    },
+    {
+      "role": "Worker",
+      "graph_batch": false,
+      "nonce": 948134566,
+      "key": [
+        "Worker",
+        false,
+        false,
+        true,
+        true
+      ],
+      "index": 30
+    },
+    {
+      "role": "Worker",
+      "graph_batch": false,
+      "nonce": 918038426,
+      "key": [
+        "Worker",
+        true,
+        true,
+        true,
+        false
+      ],
+      "index": 95
+    },
+    {
+      "role": "Planner",
+      "graph_batch": true,
+      "nonce": 116642104,
+      "group": 4,
+      "depth": 3,
+      "route": 0
+    },
+    {
+      "role": "Source",
+      "graph_batch": true,
+      "nonce": 713709366,
+      "group": 0,
+      "depth": 2,
+      "route": 0
+    },
+    {
+      "role": "Worker",
+      "graph_batch": true,
+      "nonce": 933334390,
+      "group": 10,
+      "depth": 2,
+      "route": 1
+    },
+    {
+      "role": "Worker",
+      "graph_batch": true,
+      "nonce": 563416150,
+      "group": 0,
+      "depth": 3,
+      "route": 0
+    },
+    {
+      "role": "Planner",
+      "graph_batch": false,
+      "nonce": 250308698,
+      "key": [
+        "Planner",
+        false,
+        true,
+        false,
+        false
+      ],
+      "index": 3
+    },
+    {
+      "role": "Source",
+      "graph_batch": false,
+      "nonce": 462654367,
+      "key": [
+        "Source",
+        false,
+        false,
+        true,
+        false
+      ],
+      "index": 38
+    },
+    {
+      "role": "Worker",
+      "graph_batch": false,
+      "nonce": 534893919,
+      "key": [
+        "Worker",
+        true,
+        false,
+        true,
+        false
+      ],
+      "index": 54
+    },
+    {
+      "role": "Worker",
+      "graph_batch": false,
+      "nonce": 88953798,
+      "key": [
+        "Worker",
+        true,
+        false,
+        true,
+        false
+      ],
+      "index": 83
+    },
+    {
+      "role": "Planner",
+      "graph_batch": true,
+      "nonce": 166394409,
+      "group": 12,
+      "depth": 3,
+      "route": 0
+    },
+    {
+      "role": "Source",
+      "graph_batch": true,
+      "nonce": 844248062,
+      "group": 9,
+      "depth": 2,
+      "route": 1
+    },
+    {
+      "role": "Worker",
+      "graph_batch": true,
+      "nonce": 608484335,
+      "group": 10,
+      "depth": 2,
+      "route": 1
+    },
+    {
+      "role": "Worker",
+      "graph_batch": true,
+      "nonce": 719127864,
+      "group": 6,
+      "depth": 2,
+      "route": 0
+    },
+    {
+      "role": "Planner",
+      "graph_batch": false,
+      "nonce": 148272658,
+      "key": [
+        "Planner",
+        false,
+        true,
+        false,
+        false
+      ],
+      "index": 1
+    },
+    {
+      "role": "Source",
+      "graph_batch": false,
+      "nonce": 155007262,
+      "key": [
+        "Source",
+        true,
+        false,
+        true,
+        false
+      ],
+      "index": 58
+    },
+    {
+      "role": "Worker",
+      "graph_batch": false,
+      "nonce": 734267395,
+      "key": [
+        "Worker",
+        false,
+        true,
+        false,
+        true
+      ],
+      "index": 7
+    },
+    {
+      "role": "Worker",
+      "graph_batch": false,
+      "nonce": 98932837,
+      "key": [
+        "Worker",
+        true,
+        true,
+        true,
+        false
+      ],
+      "index": 8
+    },
+    {
+      "role": "Planner",
+      "graph_batch": true,
+      "nonce": 893023954,
+      "group": 3,
+      "depth": 3,
+      "route": 0
+    },
+    {
+      "role": "Source",
+      "graph_batch": true,
+      "nonce": 701690076,
+      "group": 11,
+      "depth": 3,
+      "route": 0
+    },
+    {
+      "role": "Worker",
+      "graph_batch": true,
+      "nonce": 954370216,
+      "group": 2,
+      "depth": 3,
+      "route": 0
+    },
+    {
+      "role": "Worker",
+      "graph_batch": true,
+      "nonce": 522184768,
+      "group": 9,
+      "depth": 3,
+      "route": 1
+    },
+    {
+      "role": "Planner",
+      "graph_batch": false,
+      "nonce": 753621623,
+      "key": [
+        "Planner",
+        true,
+        false,
+        true,
+        false
+      ],
+      "index": 4
+    },
+    {
+      "role": "Source",
+      "graph_batch": false,
+      "nonce": 542962729,
+      "key": [
+        "Source",
+        false,
+        true,
+        false,
+        false
+      ],
+      "index": 12
+    },
+    {
+      "role": "Worker",
+      "graph_batch": false,
+      "nonce": 88092465,
+      "key": [
+        "Worker",
+        true,
+        true,
+        true,
+        false
+      ],
+      "index": 91
+    },
+    {
+      "role": "Worker",
+      "graph_batch": false,
+      "nonce": 636059054,
+      "key": [
+        "Worker",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 49
+    },
+    {
+      "role": "Planner",
+      "graph_batch": true,
+      "nonce": 597049221,
+      "group": 2,
+      "depth": 2,
+      "route": 1
+    },
+    {
+      "role": "Source",
+      "graph_batch": true,
+      "nonce": 260580980,
+      "group": 0,
+      "depth": 2,
+      "route": 0
+    },
+    {
+      "role": "Worker",
+      "graph_batch": true,
+      "nonce": 444720093,
+      "group": 12,
+      "depth": 2,
+      "route": 0
+    },
+    {
+      "role": "Worker",
+      "graph_batch": true,
+      "nonce": 669276597,
+      "group": 14,
+      "depth": 2,
+      "route": 0
+    },
+    {
+      "role": "Planner",
+      "graph_batch": false,
+      "nonce": 811040139,
+      "key": [
+        "Planner",
+        true,
+        false,
+        true,
+        false
+      ],
+      "index": 8
+    },
+    {
+      "role": "Source",
+      "graph_batch": false,
+      "nonce": 424711250,
+      "key": [
+        "Source",
+        false,
+        false,
+        true,
+        false
+      ],
+      "index": 25
+    },
+    {
+      "role": "Worker",
+      "graph_batch": false,
+      "nonce": 486533180,
+      "key": [
+        "Worker",
+        false,
+        true,
+        true,
+        true
+      ],
+      "index": 1
+    },
+    {
+      "role": "Worker",
+      "graph_batch": false,
+      "nonce": 609825373,
+      "key": [
+        "Worker",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 63
+    },
+    {
+      "role": "Planner",
+      "graph_batch": true,
+      "nonce": 527220726,
+      "group": 6,
+      "depth": 3,
+      "route": 0
+    },
+    {
+      "role": "Source",
+      "graph_batch": true,
+      "nonce": 260761278,
+      "group": 13,
+      "depth": 3,
+      "route": 0
+    },
+    {
+      "role": "Worker",
+      "graph_batch": true,
+      "nonce": 116103815,
+      "group": 11,
+      "depth": 3,
+      "route": 1
+    },
+    {
+      "role": "Worker",
+      "graph_batch": true,
+      "nonce": 100144804,
+      "group": 0,
+      "depth": 3,
+      "route": 0
+    },
+    {
+      "role": "Planner",
+      "graph_batch": false,
+      "nonce": 716340980,
+      "key": [
+        "Planner",
+        true,
+        false,
+        true,
+        false
+      ],
+      "index": 39
+    },
+    {
+      "role": "Source",
+      "graph_batch": false,
+      "nonce": 789208958,
+      "key": [
+        "Source",
+        true,
+        false,
+        true,
+        false
+      ],
+      "index": 57
+    },
+    {
+      "role": "Worker",
+      "graph_batch": false,
+      "nonce": 550027749,
+      "key": [
+        "Worker",
+        false,
+        false,
+        true,
+        false
+      ],
+      "index": 19
+    },
+    {
+      "role": "Worker",
+      "graph_batch": false,
+      "nonce": 443717166,
+      "key": [
+        "Worker",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 54
+    },
+    {
+      "role": "Planner",
+      "graph_batch": true,
+      "nonce": 40074580,
+      "group": 5,
+      "depth": 3,
+      "route": 0
+    },
+    {
+      "role": "Source",
+      "graph_batch": true,
+      "nonce": 939893363,
+      "group": 5,
+      "depth": 3,
+      "route": 0
+    },
+    {
+      "role": "Worker",
+      "graph_batch": true,
+      "nonce": 957235331,
+      "group": 5,
+      "depth": 2,
+      "route": 1
+    },
+    {
+      "role": "Worker",
+      "graph_batch": true,
+      "nonce": 453853407,
+      "group": 15,
+      "depth": 3,
+      "route": 0
+    },
+    {
+      "role": "Planner",
+      "graph_batch": false,
+      "nonce": 80415441,
+      "key": [
+        "Planner",
+        false,
+        false,
+        true,
+        false
+      ],
+      "index": 45
+    },
+    {
+      "role": "Source",
+      "graph_batch": false,
+      "nonce": 523928584,
+      "key": [
+        "Source",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 79
+    },
+    {
+      "role": "Worker",
+      "graph_batch": false,
+      "nonce": 215195125,
+      "key": [
+        "Worker",
+        false,
+        true,
+        false,
+        true
+      ],
+      "index": 11
+    },
+    {
+      "role": "Worker",
+      "graph_batch": false,
+      "nonce": 586956640,
+      "key": [
+        "Worker",
+        false,
+        true,
+        true,
+        true
+      ],
+      "index": 4
+    },
+    {
+      "role": "Planner",
+      "graph_batch": true,
+      "nonce": 499135604,
+      "group": 13,
+      "depth": 3,
+      "route": 0
+    },
+    {
+      "role": "Source",
+      "graph_batch": true,
+      "nonce": 500300946,
+      "group": 8,
+      "depth": 3,
+      "route": 1
+    },
+    {
+      "role": "Worker",
+      "graph_batch": true,
+      "nonce": 893329763,
+      "group": 10,
+      "depth": 2,
+      "route": 0
+    },
+    {
+      "role": "Worker",
+      "graph_batch": true,
+      "nonce": 363498274,
+      "group": 7,
+      "depth": 3,
+      "route": 0
+    },
+    {
+      "role": "Planner",
+      "graph_batch": false,
+      "nonce": 795382471,
+      "key": [
+        "Planner",
+        false,
+        true,
+        false,
+        false
+      ],
+      "index": 3
+    },
+    {
+      "role": "Source",
+      "graph_batch": false,
+      "nonce": 247298842,
+      "key": [
+        "Source",
+        false,
+        true,
+        false,
+        false
+      ],
+      "index": 10
+    },
+    {
+      "role": "Worker",
+      "graph_batch": false,
+      "nonce": 574066849,
+      "key": [
+        "Worker",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 1
+    },
+    {
+      "role": "Worker",
+      "graph_batch": false,
+      "nonce": 767672718,
+      "key": [
+        "Worker",
+        false,
+        true,
+        false,
+        true
+      ],
+      "index": 9
+    },
+    {
+      "role": "Planner",
+      "graph_batch": true,
+      "nonce": 106455905,
+      "group": 9,
+      "depth": 2,
+      "route": 0
+    },
+    {
+      "role": "Source",
+      "graph_batch": true,
+      "nonce": 689494571,
+      "group": 2,
+      "depth": 2,
+      "route": 1
+    },
+    {
+      "role": "Worker",
+      "graph_batch": true,
+      "nonce": 508732577,
+      "group": 14,
+      "depth": 3,
+      "route": 0
+    },
+    {
+      "role": "Worker",
+      "graph_batch": true,
+      "nonce": 50883785,
+      "group": 11,
+      "depth": 3,
+      "route": 0
+    },
+    {
+      "role": "Planner",
+      "graph_batch": false,
+      "nonce": 242831961,
+      "key": [
+        "Planner",
+        false,
+        true,
+        false,
+        false
+      ],
+      "index": 0
+    },
+    {
+      "role": "Source",
+      "graph_batch": false,
+      "nonce": 792947764,
+      "key": [
+        "Source",
+        true,
+        true,
+        true,
+        false
+      ],
+      "index": 95
+    },
+    {
+      "role": "Worker",
+      "graph_batch": false,
+      "nonce": 27564786,
+      "key": [
+        "Worker",
+        false,
+        false,
+        true,
+        true
+      ],
+      "index": 22
+    },
+    {
+      "role": "Worker",
+      "graph_batch": false,
+      "nonce": 143545515,
+      "key": [
+        "Worker",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 32
+    },
+    {
+      "role": "Planner",
+      "graph_batch": true,
+      "nonce": 811036824,
+      "group": 4,
+      "depth": 2,
+      "route": 0
+    },
+    {
+      "role": "Source",
+      "graph_batch": true,
+      "nonce": 487853858,
+      "group": 12,
+      "depth": 2,
+      "route": 0
+    },
+    {
+      "role": "Worker",
+      "graph_batch": true,
+      "nonce": 689680076,
+      "group": 10,
+      "depth": 2,
+      "route": 0
+    },
+    {
+      "role": "Worker",
+      "graph_batch": true,
+      "nonce": 342336847,
+      "group": 2,
+      "depth": 3,
+      "route": 1
+    },
+    {
+      "role": "Planner",
+      "graph_batch": false,
+      "nonce": 204828145,
+      "key": [
+        "Planner",
+        true,
+        true,
+        true,
+        false
+      ],
+      "index": 44
+    },
+    {
+      "role": "Source",
+      "graph_batch": false,
+      "nonce": 390564117,
+      "key": [
+        "Source",
+        true,
+        false,
+        true,
+        false
+      ],
+      "index": 79
+    },
+    {
+      "role": "Worker",
+      "graph_batch": false,
+      "nonce": 462525918,
+      "key": [
+        "Worker",
+        false,
+        true,
+        false,
+        true
+      ],
+      "index": 6
+    },
+    {
+      "role": "Worker",
+      "graph_batch": false,
+      "nonce": 501751365,
+      "key": [
+        "Worker",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 50
+    },
+    {
+      "role": "Planner",
+      "graph_batch": true,
+      "nonce": 688150720,
+      "group": 7,
+      "depth": 2,
+      "route": 0
+    },
+    {
+      "role": "Source",
+      "graph_batch": true,
+      "nonce": 734271513,
+      "group": 15,
+      "depth": 2,
+      "route": 1
+    },
+    {
+      "role": "Worker",
+      "graph_batch": true,
+      "nonce": 696305303,
+      "group": 0,
+      "depth": 3,
+      "route": 0
+    },
+    {
+      "role": "Worker",
+      "graph_batch": true,
+      "nonce": 318052367,
+      "group": 8,
+      "depth": 3,
+      "route": 1
+    },
+    {
+      "role": "Planner",
+      "graph_batch": false,
+      "nonce": 642921667,
+      "key": [
+        "Planner",
+        false,
+        true,
+        false,
+        false
+      ],
+      "index": 6
+    },
+    {
+      "role": "Source",
+      "graph_batch": false,
+      "nonce": 314552788,
+      "key": [
+        "Source",
+        false,
+        false,
+        true,
+        false
+      ],
+      "index": 68
+    },
+    {
+      "role": "Worker",
+      "graph_batch": false,
+      "nonce": 472015186,
+      "key": [
+        "Worker",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 58
+    },
+    {
+      "role": "Worker",
+      "graph_batch": false,
+      "nonce": 823160441,
+      "key": [
+        "Worker",
+        false,
+        false,
+        true,
+        false
+      ],
+      "index": 49
+    },
+    {
+      "role": "Planner",
+      "graph_batch": true,
+      "nonce": 408379444,
+      "group": 4,
+      "depth": 2,
+      "route": 0
+    },
+    {
+      "role": "Source",
+      "graph_batch": true,
+      "nonce": 411838551,
+      "group": 11,
+      "depth": 2,
+      "route": 1
+    },
+    {
+      "role": "Worker",
+      "graph_batch": true,
+      "nonce": 86258331,
+      "group": 7,
+      "depth": 2,
+      "route": 1
+    },
+    {
+      "role": "Worker",
+      "graph_batch": true,
+      "nonce": 884570307,
+      "group": 11,
+      "depth": 2,
+      "route": 1
+    },
+    {
+      "role": "Planner",
+      "graph_batch": false,
+      "nonce": 718845282,
+      "key": [
+        "Planner",
+        true,
+        false,
+        true,
+        false
+      ],
+      "index": 23
+    },
+    {
+      "role": "Source",
+      "graph_batch": false,
+      "nonce": 178890315,
+      "key": [
+        "Source",
+        false,
+        true,
+        false,
+        false
+      ],
+      "index": 11
+    },
+    {
+      "role": "Worker",
+      "graph_batch": false,
+      "nonce": 873292377,
+      "key": [
+        "Worker",
+        false,
+        true,
+        false,
+        true
+      ],
+      "index": 11
+    },
+    {
+      "role": "Worker",
+      "graph_batch": false,
+      "nonce": 434911967,
+      "key": [
+        "Worker",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 15
+    },
+    {
+      "role": "Planner",
+      "graph_batch": true,
+      "nonce": 514196723,
+      "group": 4,
+      "depth": 2,
+      "route": 1
+    },
+    {
+      "role": "Source",
+      "graph_batch": true,
+      "nonce": 285714200,
+      "group": 9,
+      "depth": 3,
+      "route": 1
+    },
+    {
+      "role": "Worker",
+      "graph_batch": true,
+      "nonce": 814515572,
+      "group": 15,
+      "depth": 2,
+      "route": 1
+    },
+    {
+      "role": "Worker",
+      "graph_batch": true,
+      "nonce": 702733744,
+      "group": 10,
+      "depth": 2,
+      "route": 0
+    },
+    {
+      "role": "Planner",
+      "graph_batch": false,
+      "nonce": 609115460,
+      "key": [
+        "Planner",
+        false,
+        false,
+        true,
+        false
+      ],
+      "index": 39
+    },
+    {
+      "role": "Source",
+      "graph_batch": false,
+      "nonce": 671914434,
+      "key": [
+        "Source",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 38
+    },
+    {
+      "role": "Worker",
+      "graph_batch": false,
+      "nonce": 729229542,
+      "key": [
+        "Worker",
+        false,
+        false,
+        true,
+        true
+      ],
+      "index": 11
+    },
+    {
+      "role": "Worker",
+      "graph_batch": false,
+      "nonce": 962321382,
+      "key": [
+        "Worker",
+        false,
+        false,
+        true,
+        false
+      ],
+      "index": 47
+    },
+    {
+      "role": "Planner",
+      "graph_batch": true,
+      "nonce": 199593195,
+      "group": 7,
+      "depth": 3,
+      "route": 1
+    },
+    {
+      "role": "Source",
+      "graph_batch": true,
+      "nonce": 706574773,
+      "group": 2,
+      "depth": 2,
+      "route": 0
+    },
+    {
+      "role": "Worker",
+      "graph_batch": true,
+      "nonce": 555177111,
+      "group": 4,
+      "depth": 3,
+      "route": 1
+    },
+    {
+      "role": "Worker",
+      "graph_batch": true,
+      "nonce": 57226677,
+      "group": 13,
+      "depth": 3,
+      "route": 1
+    },
+    {
+      "role": "Planner",
+      "graph_batch": false,
+      "nonce": 320242482,
+      "key": [
+        "Planner",
+        false,
+        true,
+        false,
+        false
+      ],
+      "index": 1
+    },
+    {
+      "role": "Source",
+      "graph_batch": false,
+      "nonce": 962310095,
+      "key": [
+        "Source",
+        false,
+        false,
+        true,
+        false
+      ],
+      "index": 55
+    },
+    {
+      "role": "Worker",
+      "graph_batch": false,
+      "nonce": 494748985,
+      "key": [
+        "Worker",
+        false,
+        false,
+        true,
+        true
+      ],
+      "index": 6
+    },
+    {
+      "role": "Worker",
+      "graph_batch": false,
+      "nonce": 144553413,
+      "key": [
+        "Worker",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 27
+    },
+    {
+      "role": "Planner",
+      "graph_batch": true,
+      "nonce": 211176365,
+      "group": 7,
+      "depth": 2,
+      "route": 0
+    },
+    {
+      "role": "Source",
+      "graph_batch": true,
+      "nonce": 113340178,
+      "group": 13,
+      "depth": 3,
+      "route": 1
+    },
+    {
+      "role": "Worker",
+      "graph_batch": true,
+      "nonce": 114486050,
+      "group": 2,
+      "depth": 2,
+      "route": 0
+    },
+    {
+      "role": "Worker",
+      "graph_batch": true,
+      "nonce": 931695911,
+      "group": 11,
+      "depth": 3,
+      "route": 0
+    },
+    {
+      "role": "Planner",
+      "graph_batch": false,
+      "nonce": 567855070,
+      "key": [
+        "Planner",
+        true,
+        true,
+        true,
+        false
+      ],
+      "index": 5
+    },
+    {
+      "role": "Source",
+      "graph_batch": false,
+      "nonce": 451867087,
+      "key": [
+        "Source",
+        false,
+        false,
+        true,
+        false
+      ],
+      "index": 26
+    },
+    {
+      "role": "Worker",
+      "graph_batch": false,
+      "nonce": 145035503,
+      "key": [
+        "Worker",
+        false,
+        true,
+        true,
+        true
+      ],
+      "index": 9
+    },
+    {
+      "role": "Worker",
+      "graph_batch": false,
+      "nonce": 347296469,
+      "key": [
+        "Worker",
+        false,
+        true,
+        true,
+        true
+      ],
+      "index": 1
+    },
+    {
+      "role": "Planner",
+      "graph_batch": true,
+      "nonce": 555096653,
+      "group": 7,
+      "depth": 3,
+      "route": 1
+    },
+    {
+      "role": "Source",
+      "graph_batch": true,
+      "nonce": 129070153,
+      "group": 15,
+      "depth": 2,
+      "route": 0
+    },
+    {
+      "role": "Worker",
+      "graph_batch": true,
+      "nonce": 371127617,
+      "group": 12,
+      "depth": 2,
+      "route": 0
+    },
+    {
+      "role": "Worker",
+      "graph_batch": true,
+      "nonce": 540324350,
+      "group": 15,
+      "depth": 3,
+      "route": 0
+    },
+    {
+      "role": "Planner",
+      "graph_batch": false,
+      "nonce": 942037752,
+      "key": [
+        "Planner",
+        true,
+        false,
+        true,
+        false
+      ],
+      "index": 15
+    },
+    {
+      "role": "Source",
+      "graph_batch": false,
+      "nonce": 417347317,
+      "key": [
+        "Source",
+        false,
+        false,
+        true,
+        false
+      ],
+      "index": 87
+    },
+    {
+      "role": "Worker",
+      "graph_batch": false,
+      "nonce": 408074325,
+      "key": [
+        "Worker",
+        false,
+        false,
+        true,
+        false
+      ],
+      "index": 14
+    },
+    {
+      "role": "Worker",
+      "graph_batch": false,
+      "nonce": 864863412,
+      "key": [
+        "Worker",
+        true,
+        true,
+        true,
+        false
+      ],
+      "index": 72
+    },
+    {
+      "role": "Planner",
+      "graph_batch": true,
+      "nonce": 852130557,
+      "group": 2,
+      "depth": 2,
+      "route": 1
+    },
+    {
+      "role": "Source",
+      "graph_batch": true,
+      "nonce": 479000457,
+      "group": 15,
+      "depth": 3,
+      "route": 1
+    },
+    {
+      "role": "Worker",
+      "graph_batch": true,
+      "nonce": 122885458,
+      "group": 5,
+      "depth": 3,
+      "route": 0
+    },
+    {
+      "role": "Worker",
+      "graph_batch": true,
+      "nonce": 290229679,
+      "group": 11,
+      "depth": 2,
+      "route": 0
+    },
+    {
+      "role": "Planner",
+      "graph_batch": false,
+      "nonce": 158794545,
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 19
+    },
+    {
+      "role": "Source",
+      "graph_batch": false,
+      "nonce": 908743169,
+      "key": [
+        "Source",
+        true,
+        false,
+        true,
+        false
+      ],
+      "index": 64
+    },
+    {
+      "role": "Worker",
+      "graph_batch": false,
+      "nonce": 964928138,
+      "key": [
+        "Worker",
+        false,
+        false,
+        true,
+        true
+      ],
+      "index": 10
+    },
+    {
+      "role": "Worker",
+      "graph_batch": false,
+      "nonce": 26084273,
+      "key": [
+        "Worker",
+        false,
+        true,
+        true,
+        true
+      ],
+      "index": 3
+    },
+    {
+      "role": "Planner",
+      "graph_batch": true,
+      "nonce": 637395540,
+      "group": 8,
+      "depth": 3,
+      "route": 1
+    },
+    {
+      "role": "Source",
+      "graph_batch": true,
+      "nonce": 210151097,
+      "group": 6,
+      "depth": 2,
+      "route": 1
+    },
+    {
+      "role": "Worker",
+      "graph_batch": true,
+      "nonce": 771038838,
+      "group": 10,
+      "depth": 2,
+      "route": 1
+    },
+    {
+      "role": "Worker",
+      "graph_batch": true,
+      "nonce": 751129896,
+      "group": 1,
+      "depth": 3,
+      "route": 0
+    }
+  ],
+  "initialization": "coverage_repair/coverage_only final; chosen before either coverage arm outcomes were available",
+  "query_class_balance": false,
+  "same_norm_batches": 200,
+  "relation_batches_per_arm": 200,
+  "only_relation_data_treatment": "new depth1 chains versus new depth2/3 chains",
+  "train_internal_or_cycles": false,
+  "equal_updates_not_equal_tokens_or_time": true,
+  "dataset_plan_sha256": "521803a3fa123cb91cf2b0832992a4d397a513f875854d8aa0c1ef352f685b93",
+  "source_sha256": "fab0cc42697e3198b85362e7c02681f28246eb2b3caae8cbd203ce5ac4a108e1",
+  "scope": "seed17 DEV curriculum comparison; no final benchmark or three-seed claim",
+  "oracle_at_runtime": false
+}

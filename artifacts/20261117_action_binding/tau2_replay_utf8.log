@@ -1,0 +1,1142 @@
+2026-11-16 18:31:41.086 -08:00 | WARNING  | tau2.utils.utils:<module>:13 - No .env file found
+2026-11-16 18:31:41.202 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:41.207 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:41.217 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+{"task_id": "[mobile_data_issue]data_mode_off|data_usage_exceeded[PERSONA:None]", "annotated_actions": 2, "baseline_pass": true, "mutating_calls": 2, "roles": ["assistant", "user"], "necessary_by_omission": 2, "reverse_order_pass": true}
+{"task_id": "[mobile_data_issue]airplane_mode_on|data_mode_off[PERSONA:None]", "annotated_actions": 2, "baseline_pass": true, "mutating_calls": 2, "roles": ["user"], "necessary_by_omission": 2, "reverse_order_pass": true}
+{"task_id": "[mobile_data_issue]airplane_mode_on|user_abroad_roaming_enabled_off[PERSONA:None]", "annotated_actions": 2, "baseline_pass": true, "mutating_calls": 2, "roles": ["user"], "necessary_by_omission": 2, "reverse_order_pass": true}
+2026-11-16 18:31:41.264 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:41.268 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:41.277 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+{"task_id": "[mobile_data_issue]data_saver_mode_on|data_usage_exceeded[PERSONA:Easy]", "annotated_actions": 2, "baseline_pass": true, "mutating_calls": 2, "roles": ["assistant", "user"], "necessary_by_omission": 2, "reverse_order_pass": true}
+2026-11-16 18:31:41.282 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:41.292 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:41.298 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+{"task_id": "[mobile_data_issue]data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Easy]", "annotated_actions": 2, "baseline_pass": true, "mutating_calls": 2, "roles": ["assistant", "user"], "necessary_by_omission": 2, "reverse_order_pass": true}
+{"task_id": "[mobile_data_issue]data_saver_mode_on|user_abroad_roaming_enabled_off[PERSONA:Easy]", "annotated_actions": 2, "baseline_pass": true, "mutating_calls": 2, "roles": ["user"], "necessary_by_omission": 2, "reverse_order_pass": true}
+{"task_id": "[mobile_data_issue]bad_network_preference|user_abroad_roaming_enabled_off[PERSONA:Hard]", "annotated_actions": 2, "baseline_pass": true, "mutating_calls": 2, "roles": ["user"], "necessary_by_omission": 2, "reverse_order_pass": true}
+{"task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference[PERSONA:Hard]", "annotated_actions": 2, "baseline_pass": true, "mutating_calls": 2, "roles": ["user"], "necessary_by_omission": 2, "reverse_order_pass": true}
+2026-11-16 18:31:41.361 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:41.361 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:41.362 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:41.368 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:41.368 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:41.369 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:41.373 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:41.374 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:41.379 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:41.380 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:41.385 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:41.385 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:41.386 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:41.390 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:41.391 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:41.391 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+{"task_id": "[mobile_data_issue]data_mode_off|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Hard]", "annotated_actions": 4, "baseline_pass": true, "mutating_calls": 4, "roles": ["assistant", "user"], "necessary_by_omission": 4, "reverse_order_pass": true}
+2026-11-16 18:31:41.396 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:41.397 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:41.402 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:41.403 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:41.407 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:41.408 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:41.413 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:41.418 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:41.419 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:41.424 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:41.424 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+{"task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|user_abroad_roaming_disabled_off[PERSONA:Hard]", "annotated_actions": 4, "baseline_pass": true, "mutating_calls": 4, "roles": ["assistant", "user"], "necessary_by_omission": 4, "reverse_order_pass": true}
+2026-11-16 18:31:41.431 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:41.436 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:41.441 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:41.451 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+{"task_id": "[mobile_data_issue]bad_network_preference|data_saver_mode_on|data_usage_exceeded[PERSONA:Hard]", "annotated_actions": 3, "baseline_pass": true, "mutating_calls": 3, "roles": ["assistant", "user"], "necessary_by_omission": 3, "reverse_order_pass": true}
+2026-11-16 18:31:41.456 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:41.457 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:41.462 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:41.463 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:41.467 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:41.468 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:41.472 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:41.477 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:41.477 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+{"task_id": "[mobile_data_issue]bad_vpn|data_saver_mode_on|user_abroad_roaming_disabled_on[PERSONA:None]", "annotated_actions": 3, "baseline_pass": true, "mutating_calls": 3, "roles": ["assistant", "user"], "necessary_by_omission": 3, "reverse_order_pass": true}
+2026-11-16 18:31:41.482 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:41.483 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:41.488 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:41.489 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:41.493 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:41.494 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:41.498 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:41.503 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:41.504 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+{"task_id": "[mobile_data_issue]airplane_mode_on|data_saver_mode_on|user_abroad_roaming_disabled_on[PERSONA:None]", "annotated_actions": 3, "baseline_pass": true, "mutating_calls": 3, "roles": ["assistant", "user"], "necessary_by_omission": 3, "reverse_order_pass": true}
+2026-11-16 18:31:41.509 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:41.510 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:41.514 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:41.515 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:41.520 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:41.521 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:41.525 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:41.530 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:41.530 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+{"task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|user_abroad_roaming_disabled_on[PERSONA:None]", "annotated_actions": 3, "baseline_pass": true, "mutating_calls": 3, "roles": ["assistant", "user"], "necessary_by_omission": 3, "reverse_order_pass": true}
+{"task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|user_abroad_roaming_enabled_off[PERSONA:Easy]", "annotated_actions": 3, "baseline_pass": true, "mutating_calls": 3, "roles": ["user"], "necessary_by_omission": 3, "reverse_order_pass": true}
+{"task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|user_abroad_roaming_enabled_off[PERSONA:Easy]", "annotated_actions": 3, "baseline_pass": true, "mutating_calls": 3, "roles": ["user"], "necessary_by_omission": 3, "reverse_order_pass": true}
+2026-11-16 18:31:41.588 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:41.590 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:41.594 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:41.595 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:41.601 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:41.602 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:41.607 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:41.608 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:41.613 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:41.618 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:41.619 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+{"task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_mode_off|user_abroad_roaming_disabled_on[PERSONA:Hard]", "annotated_actions": 4, "baseline_pass": true, "mutating_calls": 4, "roles": ["assistant", "user"], "necessary_by_omission": 4, "reverse_order_pass": true}
+{"task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_mode_off|data_saver_mode_on[PERSONA:Hard]", "annotated_actions": 4, "baseline_pass": true, "mutating_calls": 4, "roles": ["user"], "necessary_by_omission": 4, "reverse_order_pass": true}
+2026-11-16 18:31:41.659 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:41.660 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:41.661 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:41.665 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:41.666 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:41.667 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:41.671 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:41.672 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:41.672 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:41.677 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:41.679 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:41.686 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:41.687 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:41.695 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:41.696 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:41.697 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:41.704 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:41.705 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:41.706 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+{"task_id": "[mobile_data_issue]bad_vpn|data_mode_off|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:None]", "annotated_actions": 5, "baseline_pass": true, "mutating_calls": 5, "roles": ["assistant", "user"], "necessary_by_omission": 5, "reverse_order_pass": true}
+{"task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on[PERSONA:None]", "annotated_actions": 4, "baseline_pass": true, "mutating_calls": 4, "roles": ["user"], "necessary_by_omission": 4, "reverse_order_pass": true}
+2026-11-16 18:31:41.751 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:41.752 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:41.753 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:41.757 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:41.758 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:41.759 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:41.763 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:41.764 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:41.765 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:41.770 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:41.771 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:41.776 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:41.777 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:41.781 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:41.782 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:41.783 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:41.788 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:41.789 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:41.789 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+{"task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]", "annotated_actions": 5, "baseline_pass": true, "mutating_calls": 5, "roles": ["assistant", "user"], "necessary_by_omission": 5, "reverse_order_pass": true}
+2026-11-16 18:31:41.794 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:41.796 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:41.796 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:41.801 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:41.802 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:41.802 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:41.807 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:41.808 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:41.808 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:41.813 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:41.814 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:41.819 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:41.820 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:41.825 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:41.827 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:41.827 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:41.832 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:41.833 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:41.833 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+{"task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]", "annotated_actions": 5, "baseline_pass": true, "mutating_calls": 5, "roles": ["assistant", "user"], "necessary_by_omission": 5, "reverse_order_pass": true}
+2026-11-16 18:31:41.839 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:41.841 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:41.841 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:41.846 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:41.847 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:41.848 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:41.853 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:41.854 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:41.854 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:41.859 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:41.860 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:41.860 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:41.865 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:41.867 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:41.872 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:41.873 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:41.878 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:41.879 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:41.879 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+{"task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_mode_off|data_usage_exceeded|user_abroad_roaming_disabled_on[PERSONA:None]", "annotated_actions": 5, "baseline_pass": true, "mutating_calls": 5, "roles": ["assistant", "user"], "necessary_by_omission": 5, "reverse_order_pass": true}
+2026-11-16 18:31:41.886 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:41.887 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:41.887 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:41.892 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:41.893 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:41.894 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:41.899 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:41.900 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:41.900 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:41.905 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:41.906 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:41.907 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:41.911 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:41.913 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:41.919 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:41.920 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:41.925 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:41.927 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:41.927 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:41.932 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:41.934 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:41.934 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+{"task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:None]", "annotated_actions": 6, "baseline_pass": true, "mutating_calls": 6, "roles": ["assistant", "user"], "necessary_by_omission": 6, "reverse_order_pass": true}
+2026-11-16 18:31:41.941 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:41.943 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:41.949 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:41.951 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:41.956 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:41.958 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:41.963 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:41.965 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:41.971 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:41.972 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:41.978 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:41.984 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:41.984 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+{"task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_saver_mode_on|user_abroad_roaming_disabled_on[PERSONA:Easy]", "annotated_actions": 5, "baseline_pass": true, "mutating_calls": 5, "roles": ["assistant", "user"], "necessary_by_omission": 5, "reverse_order_pass": true}
+2026-11-16 18:31:41.990 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:41.992 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:41.992 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:41.997 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:41.998 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:41.999 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:42.003 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:42.005 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:42.005 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:42.010 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:42.011 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:42.012 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:42.017 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:42.019 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:42.024 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:42.026 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:42.031 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:42.033 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:42.034 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:42.038 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:42.039 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:42.039 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+{"task_id": "[mobile_data_issue]bad_network_preference|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]", "annotated_actions": 6, "baseline_pass": true, "mutating_calls": 6, "roles": ["assistant", "user"], "necessary_by_omission": 6, "reverse_order_pass": true}
+2026-11-16 18:31:42.045 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:42.047 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:42.047 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:42.053 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:42.054 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:42.054 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:42.059 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:42.061 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:42.061 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:42.066 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:42.067 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:42.068 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:42.073 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:42.074 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:42.079 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:42.080 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:42.087 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:42.088 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:42.089 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:42.093 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:42.094 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:42.094 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+{"task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]", "annotated_actions": 6, "baseline_pass": true, "mutating_calls": 6, "roles": ["assistant", "user"], "necessary_by_omission": 6, "reverse_order_pass": true}
+2026-11-16 18:31:42.102 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:42.108 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:42.114 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:42.120 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:42.134 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:42.139 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+{"task_id": "[mobile_data_issue]airplane_mode_on|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Hard]", "annotated_actions": 5, "baseline_pass": true, "mutating_calls": 5, "roles": ["assistant", "user"], "necessary_by_omission": 5, "reverse_order_pass": true}
+2026-11-16 18:31:42.144 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:42.146 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:42.152 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:42.154 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:42.158 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:42.161 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:42.166 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:42.168 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:42.173 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:42.175 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:42.180 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:42.182 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:42.187 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:42.194 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:42.196 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:42.201 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:42.202 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+{"task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|user_abroad_roaming_disabled_off[PERSONA:Hard]", "annotated_actions": 7, "baseline_pass": true, "mutating_calls": 7, "roles": ["assistant", "user"], "necessary_by_omission": 7, "reverse_order_pass": true}
+2026-11-16 18:31:42.209 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:42.216 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:42.223 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:42.230 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:42.237 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:42.251 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:42.257 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+{"task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:None]", "annotated_actions": 6, "baseline_pass": true, "mutating_calls": 6, "roles": ["assistant", "user"], "necessary_by_omission": 6, "reverse_order_pass": true}
+2026-11-16 18:31:42.263 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:42.265 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:42.265 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:42.270 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:42.272 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:42.272 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:42.277 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:42.279 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:42.279 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:42.284 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:42.286 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:42.286 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:42.291 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:42.292 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:42.292 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:42.297 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:42.299 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:42.304 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:42.306 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:42.311 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:42.311 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:42.312 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+{"task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_on[PERSONA:None]", "annotated_actions": 6, "baseline_pass": true, "mutating_calls": 6, "roles": ["assistant", "user"], "necessary_by_omission": 6, "reverse_order_pass": true}
+2026-11-16 18:31:42.320 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:42.327 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:42.334 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:42.341 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:42.347 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:42.361 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:42.367 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+{"task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_mode_off|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Easy]", "annotated_actions": 6, "baseline_pass": true, "mutating_calls": 6, "roles": ["assistant", "user"], "necessary_by_omission": 6, "reverse_order_pass": true}
+2026-11-16 18:31:42.375 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:42.381 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:42.388 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:42.395 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:42.401 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:42.415 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:42.421 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+{"task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Easy]", "annotated_actions": 6, "baseline_pass": true, "mutating_calls": 6, "roles": ["assistant", "user"], "necessary_by_omission": 6, "reverse_order_pass": true}
+2026-11-16 18:31:42.429 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:42.436 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:42.443 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:42.450 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:42.458 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:42.465 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:42.479 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:42.485 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+{"task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Easy]", "annotated_actions": 7, "baseline_pass": true, "mutating_calls": 7, "roles": ["assistant", "user"], "necessary_by_omission": 7, "reverse_order_pass": true}
+2026-11-16 18:31:42.494 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:42.496 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:42.497 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:42.503 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:42.505 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:42.505 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:42.511 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:42.513 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:42.514 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:42.519 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:42.521 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:42.522 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:42.527 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:42.529 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:42.529 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:42.534 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:42.536 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:42.536 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:42.542 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:42.544 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:42.549 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:42.552 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:42.556 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:42.559 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:42.559 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:42.564 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:42.564 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:42.565 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+{"task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Hard]", "annotated_actions": 8, "baseline_pass": true, "mutating_calls": 8, "roles": ["assistant", "user"], "necessary_by_omission": 8, "reverse_order_pass": true}
+2026-11-16 18:31:42.571 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:42.574 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:42.574 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:42.578 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:42.580 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:42.581 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:42.585 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:42.587 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:42.588 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:42.592 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:42.594 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:42.595 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:42.599 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:42.602 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:42.602 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:42.607 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:42.609 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:42.609 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:42.614 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:42.616 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:42.622 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:42.624 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:42.629 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:42.629 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:42.630 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+{"task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_on[PERSONA:None]", "annotated_actions": 7, "baseline_pass": true, "mutating_calls": 7, "roles": ["assistant", "user"], "necessary_by_omission": 7, "reverse_order_pass": true}
+{"task_id": "[service_issue]break_apn_settings|lock_sim_card_pin[PERSONA:None]", "annotated_actions": 1, "baseline_pass": true, "mutating_calls": 0, "roles": ["assistant"], "necessary_by_omission": 0, "reverse_order_pass": true}
+{"task_id": "[service_issue]airplane_mode_on|unseat_sim_card[PERSONA:None]", "annotated_actions": 2, "baseline_pass": true, "mutating_calls": 2, "roles": ["user"], "necessary_by_omission": 2, "reverse_order_pass": true}
+2026-11-16 18:31:42.673 -08:00 | INFO     | tau2.domains.telecom.tools:resume_line:326 - Line L1002 resumed
+2026-11-16 18:31:42.679 -08:00 | INFO     | tau2.domains.telecom.tools:resume_line:326 - Line L1002 resumed
+2026-11-16 18:31:42.685 -08:00 | INFO     | tau2.domains.telecom.tools:resume_line:326 - Line L1002 resumed
+2026-11-16 18:31:42.691 -08:00 | INFO     | tau2.domains.telecom.tools:resume_line:326 - Line L1002 resumed
+2026-11-16 18:31:42.704 -08:00 | INFO     | tau2.domains.telecom.tools:resume_line:326 - Line L1002 resumed
+2026-11-16 18:31:42.709 -08:00 | INFO     | tau2.domains.telecom.tools:resume_line:326 - Line L1002 resumed
+{"task_id": "[service_issue]airplane_mode_on|overdue_bill_suspension[PERSONA:None]", "annotated_actions": 5, "baseline_pass": true, "mutating_calls": 5, "roles": ["assistant", "user"], "necessary_by_omission": 5, "reverse_order_pass": false}
+{"task_id": "[service_issue]airplane_mode_on|lock_sim_card_pin[PERSONA:Easy]", "annotated_actions": 1, "baseline_pass": true, "mutating_calls": 0, "roles": ["assistant"], "necessary_by_omission": 0, "reverse_order_pass": true}
+2026-11-16 18:31:42.733 -08:00 | INFO     | tau2.domains.telecom.tools:resume_line:326 - Line L1002 resumed
+2026-11-16 18:31:42.739 -08:00 | INFO     | tau2.domains.telecom.tools:resume_line:326 - Line L1002 resumed
+2026-11-16 18:31:42.745 -08:00 | INFO     | tau2.domains.telecom.tools:resume_line:326 - Line L1002 resumed
+2026-11-16 18:31:42.757 -08:00 | INFO     | tau2.domains.telecom.tools:resume_line:326 - Line L1002 resumed
+2026-11-16 18:31:42.765 -08:00 | INFO     | tau2.domains.telecom.tools:resume_line:326 - Line L1002 resumed
+2026-11-16 18:31:42.773 -08:00 | INFO     | tau2.domains.telecom.tools:resume_line:326 - Line L1002 resumed
+{"task_id": "[service_issue]overdue_bill_suspension|unseat_sim_card[PERSONA:Easy]", "annotated_actions": 5, "baseline_pass": true, "mutating_calls": 4, "roles": ["assistant", "user"], "necessary_by_omission": 4, "reverse_order_pass": false}
+{"task_id": "[service_issue]lock_sim_card_pin|overdue_bill_suspension[PERSONA:Easy]", "annotated_actions": 1, "baseline_pass": true, "mutating_calls": 0, "roles": ["assistant"], "necessary_by_omission": 0, "reverse_order_pass": true}
+{"task_id": "[service_issue]contract_end_suspension|unseat_sim_card[PERSONA:Hard]", "annotated_actions": 1, "baseline_pass": true, "mutating_calls": 0, "roles": ["assistant"], "necessary_by_omission": 0, "reverse_order_pass": true}
+{"task_id": "[service_issue]contract_end_suspension|lock_sim_card_pin[PERSONA:Hard]", "annotated_actions": 1, "baseline_pass": true, "mutating_calls": 0, "roles": ["assistant"], "necessary_by_omission": 0, "reverse_order_pass": true}
+{"task_id": "[service_issue]airplane_mode_on|break_apn_settings[PERSONA:Hard]", "annotated_actions": 3, "baseline_pass": true, "mutating_calls": 3, "roles": ["user"], "necessary_by_omission": 3, "reverse_order_pass": false}
+{"task_id": "[service_issue]break_apn_settings|contract_end_suspension|lock_sim_card_pin[PERSONA:Hard]", "annotated_actions": 1, "baseline_pass": true, "mutating_calls": 0, "roles": ["assistant"], "necessary_by_omission": 0, "reverse_order_pass": true}
+{"task_id": "[service_issue]airplane_mode_on|lock_sim_card_pin|unseat_sim_card[PERSONA:Hard]", "annotated_actions": 1, "baseline_pass": true, "mutating_calls": 0, "roles": ["assistant"], "necessary_by_omission": 0, "reverse_order_pass": true}
+2026-11-16 18:31:42.876 -08:00 | INFO     | tau2.domains.telecom.tools:resume_line:326 - Line L1002 resumed
+2026-11-16 18:31:42.882 -08:00 | INFO     | tau2.domains.telecom.tools:resume_line:326 - Line L1002 resumed
+2026-11-16 18:31:42.889 -08:00 | INFO     | tau2.domains.telecom.tools:resume_line:326 - Line L1002 resumed
+2026-11-16 18:31:42.896 -08:00 | INFO     | tau2.domains.telecom.tools:resume_line:326 - Line L1002 resumed
+2026-11-16 18:31:42.904 -08:00 | INFO     | tau2.domains.telecom.tools:resume_line:326 - Line L1002 resumed
+2026-11-16 18:31:42.918 -08:00 | INFO     | tau2.domains.telecom.tools:resume_line:326 - Line L1002 resumed
+2026-11-16 18:31:42.924 -08:00 | INFO     | tau2.domains.telecom.tools:resume_line:326 - Line L1002 resumed
+2026-11-16 18:31:42.930 -08:00 | INFO     | tau2.domains.telecom.tools:resume_line:326 - Line L1002 resumed
+{"task_id": "[service_issue]break_apn_settings|overdue_bill_suspension|unseat_sim_card[PERSONA:Hard]", "annotated_actions": 7, "baseline_pass": true, "mutating_calls": 6, "roles": ["assistant", "user"], "necessary_by_omission": 5, "reverse_order_pass": false}
+{"task_id": "[service_issue]airplane_mode_on|break_apn_settings|lock_sim_card_pin[PERSONA:None]", "annotated_actions": 1, "baseline_pass": true, "mutating_calls": 0, "roles": ["assistant"], "necessary_by_omission": 0, "reverse_order_pass": true}
+2026-11-16 18:31:42.952 -08:00 | INFO     | tau2.domains.telecom.tools:resume_line:326 - Line L1002 resumed
+2026-11-16 18:31:42.959 -08:00 | INFO     | tau2.domains.telecom.tools:resume_line:326 - Line L1002 resumed
+2026-11-16 18:31:42.966 -08:00 | INFO     | tau2.domains.telecom.tools:resume_line:326 - Line L1002 resumed
+2026-11-16 18:31:42.973 -08:00 | INFO     | tau2.domains.telecom.tools:resume_line:326 - Line L1002 resumed
+2026-11-16 18:31:42.980 -08:00 | INFO     | tau2.domains.telecom.tools:resume_line:326 - Line L1002 resumed
+2026-11-16 18:31:42.987 -08:00 | INFO     | tau2.domains.telecom.tools:resume_line:326 - Line L1002 resumed
+2026-11-16 18:31:43.001 -08:00 | INFO     | tau2.domains.telecom.tools:resume_line:326 - Line L1002 resumed
+2026-11-16 18:31:43.006 -08:00 | INFO     | tau2.domains.telecom.tools:resume_line:326 - Line L1002 resumed
+{"task_id": "[service_issue]airplane_mode_on|break_apn_settings|overdue_bill_suspension[PERSONA:None]", "annotated_actions": 7, "baseline_pass": true, "mutating_calls": 7, "roles": ["assistant", "user"], "necessary_by_omission": 6, "reverse_order_pass": false}
+{"task_id": "[service_issue]airplane_mode_on|break_apn_settings|unseat_sim_card[PERSONA:None]", "annotated_actions": 4, "baseline_pass": true, "mutating_calls": 4, "roles": ["user"], "necessary_by_omission": 4, "reverse_order_pass": false}
+{"task_id": "[service_issue]airplane_mode_on|lock_sim_card_pin|overdue_bill_suspension[PERSONA:Easy]", "annotated_actions": 1, "baseline_pass": true, "mutating_calls": 0, "roles": ["assistant"], "necessary_by_omission": 0, "reverse_order_pass": true}
+2026-11-16 18:31:43.092 -08:00 | INFO     | tau2.domains.telecom.tools:resume_line:326 - Line L1002 resumed
+2026-11-16 18:31:43.100 -08:00 | INFO     | tau2.domains.telecom.tools:resume_line:326 - Line L1002 resumed
+2026-11-16 18:31:43.109 -08:00 | INFO     | tau2.domains.telecom.tools:resume_line:326 - Line L1002 resumed
+2026-11-16 18:31:43.120 -08:00 | INFO     | tau2.domains.telecom.tools:resume_line:326 - Line L1002 resumed
+2026-11-16 18:31:43.142 -08:00 | INFO     | tau2.domains.telecom.tools:resume_line:326 - Line L1002 resumed
+2026-11-16 18:31:43.153 -08:00 | INFO     | tau2.domains.telecom.tools:resume_line:326 - Line L1002 resumed
+2026-11-16 18:31:43.163 -08:00 | INFO     | tau2.domains.telecom.tools:resume_line:326 - Line L1002 resumed
+{"task_id": "[service_issue]airplane_mode_on|overdue_bill_suspension|unseat_sim_card[PERSONA:Easy]", "annotated_actions": 6, "baseline_pass": true, "mutating_calls": 5, "roles": ["assistant", "user"], "necessary_by_omission": 5, "reverse_order_pass": false}
+{"task_id": "[service_issue]break_apn_settings|lock_sim_card_pin|overdue_bill_suspension[PERSONA:Easy]", "annotated_actions": 1, "baseline_pass": true, "mutating_calls": 0, "roles": ["assistant"], "necessary_by_omission": 0, "reverse_order_pass": true}
+2026-11-16 18:31:43.200 -08:00 | INFO     | tau2.domains.telecom.tools:resume_line:326 - Line L1002 resumed
+2026-11-16 18:31:43.211 -08:00 | INFO     | tau2.domains.telecom.tools:resume_line:326 - Line L1002 resumed
+2026-11-16 18:31:43.222 -08:00 | INFO     | tau2.domains.telecom.tools:resume_line:326 - Line L1002 resumed
+2026-11-16 18:31:43.233 -08:00 | INFO     | tau2.domains.telecom.tools:resume_line:326 - Line L1002 resumed
+2026-11-16 18:31:43.245 -08:00 | INFO     | tau2.domains.telecom.tools:resume_line:326 - Line L1002 resumed
+2026-11-16 18:31:43.253 -08:00 | INFO     | tau2.domains.telecom.tools:resume_line:326 - Line L1002 resumed
+2026-11-16 18:31:43.273 -08:00 | INFO     | tau2.domains.telecom.tools:resume_line:326 - Line L1002 resumed
+2026-11-16 18:31:43.284 -08:00 | INFO     | tau2.domains.telecom.tools:resume_line:326 - Line L1002 resumed
+2026-11-16 18:31:43.292 -08:00 | INFO     | tau2.domains.telecom.tools:resume_line:326 - Line L1002 resumed
+{"task_id": "[service_issue]airplane_mode_on|break_apn_settings|overdue_bill_suspension|unseat_sim_card[PERSONA:None]", "annotated_actions": 8, "baseline_pass": true, "mutating_calls": 7, "roles": ["assistant", "user"], "necessary_by_omission": 6, "reverse_order_pass": false}
+{"task_id": "[service_issue]airplane_mode_on|break_apn_settings|contract_end_suspension|lock_sim_card_pin[PERSONA:None]", "annotated_actions": 1, "baseline_pass": true, "mutating_calls": 0, "roles": ["assistant"], "necessary_by_omission": 0, "reverse_order_pass": true}
+{"task_id": "[service_issue]airplane_mode_on|break_apn_settings|lock_sim_card_pin|unseat_sim_card[PERSONA:None]", "annotated_actions": 1, "baseline_pass": true, "mutating_calls": 0, "roles": ["assistant"], "necessary_by_omission": 0, "reverse_order_pass": true}
+{"task_id": "[service_issue]airplane_mode_on|lock_sim_card_pin|overdue_bill_suspension|unseat_sim_card[PERSONA:Easy]", "annotated_actions": 1, "baseline_pass": true, "mutating_calls": 0, "roles": ["assistant"], "necessary_by_omission": 0, "reverse_order_pass": true}
+{"task_id": "[service_issue]airplane_mode_on|break_apn_settings|contract_end_suspension|unseat_sim_card[PERSONA:Easy]", "annotated_actions": 1, "baseline_pass": true, "mutating_calls": 0, "roles": ["assistant"], "necessary_by_omission": 0, "reverse_order_pass": true}
+{"task_id": "[service_issue]break_apn_settings|lock_sim_card_pin|overdue_bill_suspension|unseat_sim_card[PERSONA:Easy]", "annotated_actions": 1, "baseline_pass": true, "mutating_calls": 0, "roles": ["assistant"], "necessary_by_omission": 0, "reverse_order_pass": true}
+{"task_id": "[service_issue]airplane_mode_on|contract_end_suspension|lock_sim_card_pin|unseat_sim_card[PERSONA:Hard]", "annotated_actions": 1, "baseline_pass": true, "mutating_calls": 0, "roles": ["assistant"], "necessary_by_omission": 0, "reverse_order_pass": true}
+{"task_id": "[service_issue]airplane_mode_on|break_apn_settings|lock_sim_card_pin|overdue_bill_suspension[PERSONA:Hard]", "annotated_actions": 1, "baseline_pass": true, "mutating_calls": 0, "roles": ["assistant"], "necessary_by_omission": 0, "reverse_order_pass": true}
+{"task_id": "[service_issue]break_apn_settings|contract_end_suspension|lock_sim_card_pin|unseat_sim_card[PERSONA:Hard]", "annotated_actions": 1, "baseline_pass": true, "mutating_calls": 0, "roles": ["assistant"], "necessary_by_omission": 0, "reverse_order_pass": true}
+{"task_id": "[service_issue]airplane_mode_on|break_apn_settings|lock_sim_card_pin|overdue_bill_suspension|unseat_sim_card[PERSONA:None]", "annotated_actions": 1, "baseline_pass": true, "mutating_calls": 0, "roles": ["assistant"], "necessary_by_omission": 0, "reverse_order_pass": true}
+{"task_id": "[service_issue]airplane_mode_on|break_apn_settings|contract_end_suspension|lock_sim_card_pin|unseat_sim_card[PERSONA:Easy]", "annotated_actions": 1, "baseline_pass": true, "mutating_calls": 0, "roles": ["assistant"], "necessary_by_omission": 0, "reverse_order_pass": true}
+{"task_id": "[mms_issue]break_app_sms_permission|data_mode_off[PERSONA:None]", "annotated_actions": 2, "baseline_pass": true, "mutating_calls": 2, "roles": ["user"], "necessary_by_omission": 2, "reverse_order_pass": true}
+2026-11-16 18:31:43.527 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:43.528 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:43.535 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:43.535 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:43.541 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:43.548 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:43.549 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:43.554 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:43.555 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+{"task_id": "[mms_issue]bad_network_preference|user_abroad_roaming_disabled_off[PERSONA:None]", "annotated_actions": 3, "baseline_pass": true, "mutating_calls": 3, "roles": ["assistant", "user"], "necessary_by_omission": 3, "reverse_order_pass": true}
+2026-11-16 18:31:43.562 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:43.563 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:43.570 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:43.570 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:43.578 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:43.587 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:43.587 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+{"task_id": "[mms_issue]bad_network_preference|user_abroad_roaming_disabled_on[PERSONA:None]", "annotated_actions": 2, "baseline_pass": true, "mutating_calls": 2, "roles": ["assistant", "user"], "necessary_by_omission": 2, "reverse_order_pass": true}
+{"task_id": "[mms_issue]bad_network_preference|break_app_both_permissions[PERSONA:Easy]", "annotated_actions": 3, "baseline_pass": true, "mutating_calls": 3, "roles": ["user"], "necessary_by_omission": 3, "reverse_order_pass": true}
+2026-11-16 18:31:43.634 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:43.641 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:43.656 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+{"task_id": "[mms_issue]break_app_storage_permission|data_usage_exceeded[PERSONA:Easy]", "annotated_actions": 2, "baseline_pass": true, "mutating_calls": 2, "roles": ["assistant", "user"], "necessary_by_omission": 2, "reverse_order_pass": true}
+{"task_id": "[mms_issue]break_apn_mms_setting|user_abroad_roaming_enabled_off[PERSONA:Hard]", "annotated_actions": 3, "baseline_pass": true, "mutating_calls": 3, "roles": ["user"], "necessary_by_omission": 3, "reverse_order_pass": false}
+{"task_id": "[mms_issue]airplane_mode_on|break_app_both_permissions[PERSONA:Hard]", "annotated_actions": 3, "baseline_pass": true, "mutating_calls": 3, "roles": ["user"], "necessary_by_omission": 3, "reverse_order_pass": true}
+2026-11-16 18:31:43.728 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:43.733 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:43.739 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:43.751 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+{"task_id": "[mms_issue]break_app_both_permissions|data_usage_exceeded[PERSONA:Hard]", "annotated_actions": 3, "baseline_pass": true, "mutating_calls": 3, "roles": ["assistant", "user"], "necessary_by_omission": 3, "reverse_order_pass": true}
+2026-11-16 18:31:43.760 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:43.769 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:43.778 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:43.794 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+{"task_id": "[mms_issue]airplane_mode_on|bad_network_preference|data_usage_exceeded[PERSONA:None]", "annotated_actions": 3, "baseline_pass": true, "mutating_calls": 3, "roles": ["assistant", "user"], "necessary_by_omission": 3, "reverse_order_pass": true}
+2026-11-16 18:31:43.802 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:43.803 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:43.808 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:43.809 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:43.814 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:43.814 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:43.820 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:43.828 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:43.828 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+{"task_id": "[mms_issue]bad_network_preference|data_mode_off|user_abroad_roaming_disabled_on[PERSONA:None]", "annotated_actions": 3, "baseline_pass": true, "mutating_calls": 3, "roles": ["assistant", "user"], "necessary_by_omission": 3, "reverse_order_pass": true}
+2026-11-16 18:31:43.836 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:43.837 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:43.837 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:43.842 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:43.842 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:43.843 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:43.847 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:43.848 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:43.852 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:43.853 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:43.857 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:43.858 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:43.858 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+{"task_id": "[mms_issue]break_app_sms_permission|data_usage_exceeded|user_abroad_roaming_disabled_on[PERSONA:None]", "annotated_actions": 3, "baseline_pass": true, "mutating_calls": 3, "roles": ["assistant", "user"], "necessary_by_omission": 3, "reverse_order_pass": true}
+2026-11-16 18:31:43.864 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:43.871 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:43.877 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:43.887 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+{"task_id": "[mms_issue]bad_wifi_calling|data_mode_off|data_usage_exceeded[PERSONA:Easy]", "annotated_actions": 3, "baseline_pass": true, "mutating_calls": 3, "roles": ["assistant", "user"], "necessary_by_omission": 3, "reverse_order_pass": true}
+{"task_id": "[mms_issue]airplane_mode_on|bad_wifi_calling|user_abroad_roaming_enabled_off[PERSONA:Easy]", "annotated_actions": 3, "baseline_pass": true, "mutating_calls": 3, "roles": ["user"], "necessary_by_omission": 3, "reverse_order_pass": true}
+2026-11-16 18:31:43.923 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:43.924 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:43.928 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:43.929 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:43.933 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:43.934 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:43.938 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:43.944 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:43.945 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+{"task_id": "[mms_issue]break_app_storage_permission|unseat_sim_card|user_abroad_roaming_disabled_on[PERSONA:Easy]", "annotated_actions": 3, "baseline_pass": true, "mutating_calls": 3, "roles": ["assistant", "user"], "necessary_by_omission": 3, "reverse_order_pass": true}
+2026-11-16 18:31:43.950 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:43.952 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:43.956 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:43.957 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:43.961 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:43.962 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:43.969 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:43.977 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:43.978 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+{"task_id": "[mms_issue]bad_network_preference|break_app_sms_permission|user_abroad_roaming_disabled_on[PERSONA:Hard]", "annotated_actions": 3, "baseline_pass": true, "mutating_calls": 3, "roles": ["assistant", "user"], "necessary_by_omission": 3, "reverse_order_pass": true}
+2026-11-16 18:31:43.984 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:43.986 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:43.990 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:43.991 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:43.998 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:44.000 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:44.007 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:44.008 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:44.014 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:44.020 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:44.021 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+{"task_id": "[mms_issue]break_apn_mms_setting|data_mode_off|user_abroad_roaming_disabled_on[PERSONA:Hard]", "annotated_actions": 4, "baseline_pass": true, "mutating_calls": 4, "roles": ["assistant", "user"], "necessary_by_omission": 4, "reverse_order_pass": false}
+2026-11-16 18:31:44.026 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:44.028 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:44.032 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:44.034 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:44.038 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:44.039 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:44.047 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:44.049 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:44.055 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:44.064 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:44.065 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+{"task_id": "[mms_issue]break_app_both_permissions|unseat_sim_card|user_abroad_roaming_disabled_on[PERSONA:Hard]", "annotated_actions": 4, "baseline_pass": true, "mutating_calls": 4, "roles": ["assistant", "user"], "necessary_by_omission": 4, "reverse_order_pass": true}
+{"task_id": "[mms_issue]bad_wifi_calling|break_apn_mms_setting|unseat_sim_card|user_abroad_roaming_enabled_off[PERSONA:Easy]", "annotated_actions": 5, "baseline_pass": true, "mutating_calls": 5, "roles": ["user"], "necessary_by_omission": 5, "reverse_order_pass": false}
+2026-11-16 18:31:44.136 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:44.145 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:44.154 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:44.164 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:44.173 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:44.187 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+{"task_id": "[mms_issue]bad_wifi_calling|break_apn_mms_setting|break_app_sms_permission|data_usage_exceeded[PERSONA:Hard]", "annotated_actions": 5, "baseline_pass": true, "mutating_calls": 5, "roles": ["assistant", "user"], "necessary_by_omission": 5, "reverse_order_pass": false}
+2026-11-16 18:31:44.193 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:44.194 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:44.195 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:44.200 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:44.201 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:44.202 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:44.206 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:44.208 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:44.208 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:44.213 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:44.214 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:44.215 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:44.220 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:44.222 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:44.227 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:44.229 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:44.234 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:44.235 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:44.235 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+{"task_id": "[mms_issue]break_apn_mms_setting|data_mode_off|data_usage_exceeded|user_abroad_roaming_disabled_on[PERSONA:Hard]", "annotated_actions": 5, "baseline_pass": true, "mutating_calls": 5, "roles": ["assistant", "user"], "necessary_by_omission": 5, "reverse_order_pass": false}
+2026-11-16 18:31:44.243 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:44.249 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:44.256 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:44.265 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:44.274 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:44.290 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+{"task_id": "[mms_issue]airplane_mode_on|bad_network_preference|break_apn_mms_setting|data_usage_exceeded[PERSONA:Hard]", "annotated_actions": 5, "baseline_pass": true, "mutating_calls": 5, "roles": ["assistant", "user"], "necessary_by_omission": 5, "reverse_order_pass": false}
+2026-11-16 18:31:44.297 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:44.299 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:44.299 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:44.305 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:44.306 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:44.306 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:44.314 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:44.315 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:44.315 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:44.321 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:44.323 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:44.323 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:44.329 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:44.331 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:44.336 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:44.338 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:44.344 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:44.345 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:44.346 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:44.352 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:44.353 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:44.354 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+{"task_id": "[mms_issue]airplane_mode_on|break_app_both_permissions|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:None]", "annotated_actions": 6, "baseline_pass": true, "mutating_calls": 6, "roles": ["assistant", "user"], "necessary_by_omission": 6, "reverse_order_pass": true}
+{"task_id": "[mms_issue]airplane_mode_on|bad_network_preference|break_apn_mms_setting|break_app_storage_permission[PERSONA:None]", "annotated_actions": 5, "baseline_pass": true, "mutating_calls": 5, "roles": ["user"], "necessary_by_omission": 5, "reverse_order_pass": false}
+2026-11-16 18:31:44.411 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:44.419 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:44.427 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:44.438 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:44.446 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:44.462 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:44.468 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+{"task_id": "[mms_issue]bad_wifi_calling|break_apn_mms_setting|data_mode_off|data_usage_exceeded|unseat_sim_card[PERSONA:None]", "annotated_actions": 6, "baseline_pass": true, "mutating_calls": 6, "roles": ["assistant", "user"], "necessary_by_omission": 6, "reverse_order_pass": false}
+2026-11-16 18:31:44.478 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:44.487 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:44.493 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:44.499 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:44.511 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:44.516 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+{"task_id": "[mms_issue]bad_network_preference|break_app_sms_permission|data_mode_off|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:None]", "annotated_actions": 5, "baseline_pass": true, "mutating_calls": 5, "roles": ["assistant", "user"], "necessary_by_omission": 5, "reverse_order_pass": true}
+{"task_id": "[mms_issue]airplane_mode_on|bad_network_preference|break_app_storage_permission|data_mode_off|user_abroad_roaming_enabled_off[PERSONA:Easy]", "annotated_actions": 5, "baseline_pass": true, "mutating_calls": 5, "roles": ["user"], "necessary_by_omission": 5, "reverse_order_pass": true}
+2026-11-16 18:31:44.568 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:44.570 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:44.571 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:44.577 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:44.579 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:44.579 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:44.586 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:44.587 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:44.588 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:44.593 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:44.594 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:44.595 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:44.600 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:44.601 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:44.602 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:44.607 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:44.609 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:44.614 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:44.616 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:44.621 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:44.623 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:44.623 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:44.628 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:44.629 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:44.630 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+{"task_id": "[mms_issue]bad_network_preference|bad_wifi_calling|break_app_both_permissions|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Hard]", "annotated_actions": 7, "baseline_pass": true, "mutating_calls": 7, "roles": ["assistant", "user"], "necessary_by_omission": 7, "reverse_order_pass": true}
+{"task_id": "[mms_issue]airplane_mode_on|bad_network_preference|bad_wifi_calling|break_app_storage_permission|unseat_sim_card[PERSONA:Hard]", "annotated_actions": 5, "baseline_pass": true, "mutating_calls": 5, "roles": ["user"], "necessary_by_omission": 5, "reverse_order_pass": true}
+2026-11-16 18:31:44.693 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:44.695 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:44.696 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:44.701 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:44.704 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:44.704 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:44.711 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:44.713 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:44.714 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:44.720 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:44.722 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:44.722 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:44.728 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:44.730 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:44.731 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:44.736 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:44.739 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:44.744 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:44.746 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:44.746 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:44.752 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:44.754 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:44.759 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:44.761 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:44.762 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:44.767 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:44.768 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:44.769 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+{"task_id": "[mms_issue]bad_network_preference|bad_wifi_calling|break_app_both_permissions|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_disabled_off[PERSONA:None]", "annotated_actions": 8, "baseline_pass": true, "mutating_calls": 8, "roles": ["assistant", "user"], "necessary_by_omission": 8, "reverse_order_pass": true}
+2026-11-16 18:31:44.777 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:44.779 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:44.780 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:44.786 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:44.788 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:44.789 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:44.795 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:44.798 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:44.799 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:44.806 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:44.808 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:44.809 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:44.815 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:44.819 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:44.820 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:44.828 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:44.830 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:44.830 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:44.836 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:44.838 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:44.839 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:44.846 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:44.849 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:44.855 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:44.858 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:44.864 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:44.866 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:44.867 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:44.872 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:44.873 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:44.873 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+{"task_id": "[mms_issue]bad_wifi_calling|break_apn_mms_setting|break_app_both_permissions|data_mode_off|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:None]", "annotated_actions": 9, "baseline_pass": true, "mutating_calls": 9, "roles": ["assistant", "user"], "necessary_by_omission": 9, "reverse_order_pass": false}
+2026-11-16 18:31:44.880 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:44.882 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:44.888 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:44.890 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:44.895 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:44.897 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:44.905 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:44.908 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:44.915 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:44.917 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:44.922 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:44.924 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:44.930 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:44.932 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:44.938 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:44.946 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:44.948 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:44.953 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:44.954 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+{"task_id": "[mms_issue]airplane_mode_on|bad_network_preference|break_apn_mms_setting|data_mode_off|unseat_sim_card|user_abroad_roaming_disabled_off[PERSONA:Easy]", "annotated_actions": 8, "baseline_pass": true, "mutating_calls": 8, "roles": ["assistant", "user"], "necessary_by_omission": 8, "reverse_order_pass": false}
+2026-11-16 18:31:44.966 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:44.967 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:44.968 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:44.972 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:44.973 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:44.974 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:44.978 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:44.979 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:44.980 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:44.985 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:44.987 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:44.988 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:44.995 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:44.998 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:45.003 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:45.004 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:45.005 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:45.009 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:45.011 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:45.016 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:45.016 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:45.017 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+{"task_id": "[mms_issue]airplane_mode_on|bad_network_preference|bad_wifi_calling|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_disabled_on[PERSONA:Easy]", "annotated_actions": 6, "baseline_pass": true, "mutating_calls": 6, "roles": ["assistant", "user"], "necessary_by_omission": 6, "reverse_order_pass": true}
+2026-11-16 18:31:45.026 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:45.028 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:45.030 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:45.036 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:45.038 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:45.040 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:45.048 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:45.050 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:45.051 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:45.057 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:45.058 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:45.059 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:45.067 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:45.069 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:45.070 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:45.077 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:45.080 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:45.089 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:45.091 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:45.092 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:45.100 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:45.103 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:45.109 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:45.110 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:45.111 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+{"task_id": "[mms_issue]airplane_mode_on|bad_network_preference|break_app_both_permissions|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_disabled_on[PERSONA:Hard]", "annotated_actions": 7, "baseline_pass": true, "mutating_calls": 7, "roles": ["assistant", "user"], "necessary_by_omission": 7, "reverse_order_pass": true}
+{"task_id": "[mms_issue]bad_network_preference|bad_wifi_calling|break_app_sms_permission|data_mode_off|unseat_sim_card|user_abroad_roaming_enabled_off[PERSONA:Hard]", "annotated_actions": 6, "baseline_pass": true, "mutating_calls": 6, "roles": ["user"], "necessary_by_omission": 6, "reverse_order_pass": true}
+2026-11-16 18:31:45.174 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:45.180 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:45.189 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:45.196 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:45.203 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:45.211 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:45.221 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:45.240 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:45.246 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+{"task_id": "[mms_issue]bad_network_preference|bad_wifi_calling|break_apn_mms_setting|break_app_storage_permission|data_mode_off|data_usage_exceeded|unseat_sim_card[PERSONA:Easy]", "annotated_actions": 8, "baseline_pass": true, "mutating_calls": 8, "roles": ["assistant", "user"], "necessary_by_omission": 8, "reverse_order_pass": false}
+2026-11-16 18:31:45.256 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:45.264 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:45.272 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:45.280 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:45.288 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:45.305 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:45.312 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:45.319 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+{"task_id": "[mms_issue]bad_network_preference|bad_wifi_calling|break_app_sms_permission|data_mode_off|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_enabled_off[PERSONA:Easy]", "annotated_actions": 7, "baseline_pass": true, "mutating_calls": 7, "roles": ["assistant", "user"], "necessary_by_omission": 7, "reverse_order_pass": true}
+{"task_id": "[mms_issue]airplane_mode_on|bad_network_preference|bad_wifi_calling|break_apn_mms_setting|break_app_both_permissions|unseat_sim_card|user_abroad_roaming_enabled_off[PERSONA:Hard]", "annotated_actions": 9, "baseline_pass": true, "mutating_calls": 9, "roles": ["user"], "necessary_by_omission": 9, "reverse_order_pass": false}
+2026-11-16 18:31:45.422 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:45.430 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:45.439 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:45.446 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:45.454 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:45.461 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:45.476 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:45.484 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:45.492 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+{"task_id": "[mms_issue]airplane_mode_on|bad_wifi_calling|break_app_both_permissions|data_mode_off|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_enabled_off[PERSONA:None]", "annotated_actions": 8, "baseline_pass": true, "mutating_calls": 8, "roles": ["assistant", "user"], "necessary_by_omission": 8, "reverse_order_pass": true}
+2026-11-16 18:31:45.501 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:45.509 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:45.518 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:45.526 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:45.533 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:45.541 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:45.555 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:45.565 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:45.581 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:45.586 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+{"task_id": "[mms_issue]airplane_mode_on|bad_network_preference|break_apn_mms_setting|break_app_both_permissions|data_mode_off|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:None]", "annotated_actions": 9, "baseline_pass": true, "mutating_calls": 9, "roles": ["assistant", "user"], "necessary_by_omission": 9, "reverse_order_pass": false}
+2026-11-16 18:31:45.595 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:45.597 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:45.598 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:45.604 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:45.606 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:45.606 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:45.613 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:45.615 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:45.616 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:45.622 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:45.624 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:45.625 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:45.632 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:45.634 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:45.635 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:45.640 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:45.642 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:45.642 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:45.648 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:45.652 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:45.658 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:45.660 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:45.660 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:45.666 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:45.668 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:45.674 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:45.676 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:45.677 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:45.681 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:45.681 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:45.682 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+{"task_id": "[mms_issue]airplane_mode_on|bad_network_preference|bad_wifi_calling|break_app_sms_permission|data_mode_off|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_disabled_off[PERSONA:None]", "annotated_actions": 9, "baseline_pass": true, "mutating_calls": 9, "roles": ["assistant", "user"], "necessary_by_omission": 9, "reverse_order_pass": true}
+2026-11-16 18:31:45.689 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:45.691 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:45.692 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:45.698 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:45.701 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:45.702 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:45.711 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:45.714 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:45.715 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:45.723 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:45.726 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:45.727 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:45.733 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:45.735 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:45.737 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:45.743 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:45.745 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:45.746 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:45.754 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:45.756 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:45.757 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:45.763 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:45.766 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:45.772 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:45.774 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:45.775 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:45.781 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:45.783 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:45.789 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:45.791 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:45.792 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:45.798 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:45.799 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:45.799 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+{"task_id": "[mms_issue]airplane_mode_on|bad_network_preference|bad_wifi_calling|break_apn_mms_setting|break_app_storage_permission|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_disabled_off[PERSONA:Easy]", "annotated_actions": 10, "baseline_pass": true, "mutating_calls": 10, "roles": ["assistant", "user"], "necessary_by_omission": 10, "reverse_order_pass": false}
+2026-11-16 18:31:45.810 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:45.819 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:45.827 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:45.835 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:45.843 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:45.851 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:45.858 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:45.869 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:45.890 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:45.896 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+{"task_id": "[mms_issue]airplane_mode_on|bad_network_preference|bad_wifi_calling|break_apn_mms_setting|break_app_storage_permission|data_mode_off|data_usage_exceeded|unseat_sim_card[PERSONA:Easy]", "annotated_actions": 9, "baseline_pass": true, "mutating_calls": 9, "roles": ["assistant", "user"], "necessary_by_omission": 9, "reverse_order_pass": false}
+2026-11-16 18:31:45.906 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:45.915 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:45.923 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:45.932 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:45.941 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:45.949 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:45.964 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:45.972 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:45.978 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+{"task_id": "[mms_issue]airplane_mode_on|bad_network_preference|bad_wifi_calling|break_app_storage_permission|data_mode_off|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_enabled_off[PERSONA:Hard]", "annotated_actions": 8, "baseline_pass": true, "mutating_calls": 8, "roles": ["assistant", "user"], "necessary_by_omission": 8, "reverse_order_pass": true}
+2026-11-16 18:31:45.987 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:45.990 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:45.991 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:45.998 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:46.002 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:46.002 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:46.008 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:46.010 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:46.011 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:46.016 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:46.019 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:46.019 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:46.025 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:46.028 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:46.028 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:46.033 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:46.036 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:46.037 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:46.042 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:46.044 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:46.046 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:46.051 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:46.054 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:46.055 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:46.060 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:46.064 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:46.070 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:46.075 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:46.075 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:46.080 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:46.083 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:46.089 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:46.090 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:46.091 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+{"task_id": "[mms_issue]airplane_mode_on|bad_network_preference|bad_wifi_calling|break_apn_mms_setting|break_app_sms_permission|data_mode_off|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_disabled_on[PERSONA:None]", "annotated_actions": 10, "baseline_pass": true, "mutating_calls": 10, "roles": ["assistant", "user"], "necessary_by_omission": 10, "reverse_order_pass": false}
+2026-11-16 18:31:46.101 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:46.110 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:46.119 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:46.128 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:46.136 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:46.144 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:46.152 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:46.161 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:46.178 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:46.188 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:46.195 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+{"task_id": "[mms_issue]airplane_mode_on|bad_network_preference|bad_wifi_calling|break_apn_mms_setting|break_app_sms_permission|data_mode_off|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_enabled_off[PERSONA:None]", "annotated_actions": 10, "baseline_pass": true, "mutating_calls": 10, "roles": ["assistant", "user"], "necessary_by_omission": 10, "reverse_order_pass": false}
+2026-11-16 18:31:46.204 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:46.207 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:46.208 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:46.213 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:46.216 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:46.217 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:46.222 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:46.224 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:46.225 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:46.232 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:46.235 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:46.236 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:46.242 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:46.244 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:46.245 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:46.252 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:46.256 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:46.257 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:46.261 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:46.264 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:46.264 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:46.270 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:46.273 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:46.274 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:46.279 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:46.283 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:46.290 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:46.293 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:46.293 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:46.299 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:46.302 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:46.309 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:46.312 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:46.312 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:46.319 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:46.320 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:46.321 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+{"task_id": "[mms_issue]airplane_mode_on|bad_network_preference|bad_wifi_calling|break_apn_mms_setting|break_app_storage_permission|data_mode_off|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_disabled_off[PERSONA:Easy]", "annotated_actions": 11, "baseline_pass": true, "mutating_calls": 11, "roles": ["assistant", "user"], "necessary_by_omission": 11, "reverse_order_pass": false}
+2026-11-16 18:31:46.328 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:46.331 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:46.332 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:46.337 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:46.340 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:46.341 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:46.346 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:46.349 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:46.351 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:46.356 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:46.359 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:46.360 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:46.365 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:46.368 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:46.369 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:46.374 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:46.377 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:46.378 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:46.386 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:46.390 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:46.391 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:46.399 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:46.403 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:46.404 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:46.411 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:46.415 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:46.421 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:46.424 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:46.424 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:46.430 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:46.435 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:46.441 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:46.441 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:46.442 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+{"task_id": "[mms_issue]airplane_mode_on|bad_network_preference|bad_wifi_calling|break_apn_mms_setting|break_app_storage_permission|data_mode_off|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_disabled_on[PERSONA:Easy]", "annotated_actions": 10, "baseline_pass": true, "mutating_calls": 10, "roles": ["assistant", "user"], "necessary_by_omission": 10, "reverse_order_pass": false}
+2026-11-16 18:31:46.450 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:46.453 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:46.454 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:46.459 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:46.462 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:46.464 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:46.472 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:46.476 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:46.478 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:46.486 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:46.492 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:46.493 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:46.502 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:46.507 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:46.508 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:46.517 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:46.521 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:46.523 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:46.530 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:46.535 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:46.537 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:46.543 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:46.546 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:46.546 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:46.553 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:46.557 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:46.559 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:46.567 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:46.572 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:46.577 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:46.581 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:46.581 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:46.588 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:46.593 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:46.599 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:46.600 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:46.601 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+{"task_id": "[mms_issue]airplane_mode_on|bad_network_preference|bad_wifi_calling|break_apn_mms_setting|break_app_both_permissions|data_mode_off|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_disabled_on[PERSONA:Hard]", "annotated_actions": 11, "baseline_pass": true, "mutating_calls": 11, "roles": ["assistant", "user"], "necessary_by_omission": 11, "reverse_order_pass": false}
+2026-11-16 18:31:46.611 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:46.616 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:46.617 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:46.624 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:46.627 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:46.628 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:46.637 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:46.642 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:46.643 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:46.653 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:46.657 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:46.659 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:46.665 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:46.668 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:46.669 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:46.674 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:46.677 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:46.678 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:46.683 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:46.686 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:46.687 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:46.695 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:46.700 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:46.701 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:46.710 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:46.714 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:46.716 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:46.725 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:46.731 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:46.740 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:46.745 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:46.746 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:46.753 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:46.757 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:46.763 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:46.766 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+2026-11-16 18:31:46.767 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:46.772 -08:00 | INFO     | tau2.domains.telecom.tools:disable_roaming:587 - Roaming disabled for line L1002
+2026-11-16 18:31:46.772 -08:00 | INFO     | tau2.domains.telecom.tools:enable_roaming:561 - Roaming enabled for line L1002
+2026-11-16 18:31:46.773 -08:00 | INFO     | tau2.domains.telecom.tools:refuel_data:649 - Data refueled for line L1002: 2.0 GB added, charge: $4.00
+{"task_id": "[mms_issue]airplane_mode_on|bad_network_preference|bad_wifi_calling|break_apn_mms_setting|break_app_both_permissions|data_mode_off|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_disabled_off[PERSONA:Hard]", "annotated_actions": 12, "baseline_pass": true, "mutating_calls": 12, "roles": ["assistant", "user"], "necessary_by_omission": 12, "reverse_order_pass": false}
+{"tasks": 114, "trials": 744, "baseline_pass": 114, "max_annotated_actions": 12, "max_mutating_calls": 12, "two_role_plans": 71, "max_trial_seconds": 0.014685200003441423, "raw_sha256": "827c0c238088c349a9fc9ea262830f644ef0cb5d1478b1108f9e74c7faf7a9c9", "proved_32_step_agent_collaboration": false, "learned_agent_evaluated": false, "natural_business_policy_validated": false}

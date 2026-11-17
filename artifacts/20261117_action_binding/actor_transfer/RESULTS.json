@@ -1,0 +1,221 @@
+{
+  "summaries": [
+    {
+      "arm": "direct",
+      "condition": "base",
+      "episodes": 16,
+      "safe_success": 9,
+      "valid_ci": 16,
+      "invalid": 0,
+      "raw_sha256": "889144f522b36c156186d53bc288e91f6ab38917334e69c7d41c5c53be39e472"
+    },
+    {
+      "arm": "direct",
+      "condition": "base_swap",
+      "episodes": 16,
+      "safe_success": 9,
+      "valid_ci": 16,
+      "invalid": 0,
+      "raw_sha256": "7790d5d0149b84b42d7acb04a14eab3609c34f8e295f14f535fee19f7af47248"
+    },
+    {
+      "arm": "direct",
+      "condition": "depth2",
+      "episodes": 16,
+      "safe_success": 5,
+      "valid_ci": 12,
+      "invalid": 0,
+      "raw_sha256": "ad30595b55e878523a8ab13139592b6625c07ad2325220138860121e8d5ec5f1"
+    },
+    {
+      "arm": "direct",
+      "condition": "depth2_swap",
+      "episodes": 16,
+      "safe_success": 3,
+      "valid_ci": 11,
+      "invalid": 0,
+      "raw_sha256": "36867ee028e82a7750a801b696aff238214b0175fcbea3888ea2cff602941e0c"
+    },
+    {
+      "arm": "direct",
+      "condition": "depth3",
+      "episodes": 16,
+      "safe_success": 8,
+      "valid_ci": 12,
+      "invalid": 0,
+      "raw_sha256": "44b56dd12b05c68e0404cf1adadd9494921136c52ceca657bc7689227460bb86"
+    },
+    {
+      "arm": "direct",
+      "condition": "depth3_swap",
+      "episodes": 16,
+      "safe_success": 3,
+      "valid_ci": 7,
+      "invalid": 0,
+      "raw_sha256": "31a916e1c7cdf3f88ebb2f26649a788e94a3b6caacfbc2e923bfa29fa5753d4c"
+    },
+    {
+      "arm": "direct",
+      "condition": "optional",
+      "episodes": 16,
+      "safe_success": 11,
+      "valid_ci": 16,
+      "invalid": 0,
+      "raw_sha256": "cd3110a80498f379a9f311c65d0eb7ac652bff4cf000ae2aec1a311e9fe0f79b"
+    },
+    {
+      "arm": "direct",
+      "condition": "authorized",
+      "episodes": 16,
+      "safe_success": 11,
+      "valid_ci": 16,
+      "invalid": 0,
+      "raw_sha256": "5d61a0fc5578b23ca2dbeed175f3a3d6141d1392a77d74100d3e371ab72134a5"
+    },
+    {
+      "arm": "direct",
+      "condition": "draft",
+      "episodes": 16,
+      "safe_success": 10,
+      "valid_ci": 16,
+      "invalid": 0,
+      "raw_sha256": "d6be886b33caa6b01f6b4f09e4809159d90fa7d64b28115a43c28c2adb3331ea"
+    },
+    {
+      "arm": "direct",
+      "condition": "both",
+      "episodes": 16,
+      "safe_success": 0,
+      "valid_ci": 9,
+      "invalid": 0,
+      "raw_sha256": "16501801367a585a3d80590203d93f9fa3583862f440295b0c3db3ef971bafba"
+    },
+    {
+      "arm": "direct",
+      "condition": "broken",
+      "episodes": 16,
+      "safe_success": 5,
+      "valid_ci": 16,
+      "invalid": 0,
+      "raw_sha256": "e18e22b19685606d55ac6b565681325db7e859107246060f664c8db7ef15b301"
+    },
+    {
+      "arm": "direct",
+      "condition": "reverse",
+      "episodes": 16,
+      "safe_success": 9,
+      "valid_ci": 16,
+      "invalid": 0,
+      "raw_sha256": "9163d978436f3b01040976650f407f152e85ab656a86859f3e85cfffbf44c516"
+    },
+    {
+      "arm": "query_warmup",
+      "condition": "base",
+      "episodes": 16,
+      "safe_success": 4,
+      "valid_ci": 10,
+      "invalid": 0,
+      "raw_sha256": "8ba76763d0b277e75a23cc8358564ab3d40e21450a64a67b00e5cae603400ee0"
+    },
+    {
+      "arm": "query_warmup",
+      "condition": "base_swap",
+      "episodes": 16,
+      "safe_success": 6,
+      "valid_ci": 13,
+      "invalid": 0,
+      "raw_sha256": "478e66961bd417e50cdba6d327f8874585cef2dbb0a172b326c49d1f25bbda96"
+    },
+    {
+      "arm": "query_warmup",
+      "condition": "depth2",
+      "episodes": 16,
+      "safe_success": 6,
+      "valid_ci": 12,
+      "invalid": 0,
+      "raw_sha256": "e8f8a581679cdba89bc5118b0bea569a567cc517a12c0c536ed8c67b02b369d5"
+    },
+    {
+      "arm": "query_warmup",
+      "condition": "depth2_swap",
+      "episodes": 16,
+      "safe_success": 4,
+      "valid_ci": 10,
+      "invalid": 0,
+      "raw_sha256": "62dc0ed68219db0b5e73a912c5102c307cc9aefce5e992d90e8c0e0c9ff2f687"
+    },
+    {
+      "arm": "query_warmup",
+      "condition": "depth3",
+      "episodes": 16,
+      "safe_success": 5,
+      "valid_ci": 12,
+      "invalid": 0,
+      "raw_sha256": "68cb8b6a0baa5e558325fabba5539dd2902ba95cf35f698b9058ab1431ce4b94"
+    },
+    {
+      "arm": "query_warmup",
+      "condition": "depth3_swap",
+      "episodes": 16,
+      "safe_success": 4,
+      "valid_ci": 11,
+      "invalid": 0,
+      "raw_sha256": "92c0f05209f92be837c8d10ea690feec1d5b357071ff724311aec5542dbfbde1"
+    },
+    {
+      "arm": "query_warmup",
+      "condition": "optional",
+      "episodes": 16,
+      "safe_success": 13,
+      "valid_ci": 13,
+      "invalid": 0,
+      "raw_sha256": "5de2f5d958373b1c4c09403e9735fb8970cefec5e88532d22bfbf378e3d2fadc"
+    },
+    {
+      "arm": "query_warmup",
+      "condition": "authorized",
+      "episodes": 16,
+      "safe_success": 7,
+      "valid_ci": 16,
+      "invalid": 0,
+      "raw_sha256": "ea4a6ac8303b202a57c477e8c5a4375571f62fe1821a2f018f7d201db25a7eed"
+    },
+    {
+      "arm": "query_warmup",
+      "condition": "draft",
+      "episodes": 16,
+      "safe_success": 11,
+      "valid_ci": 16,
+      "invalid": 0,
+      "raw_sha256": "2fe01ddcb20de782b5f0d45d542701bd2688f7a582eba0cd72c7375a6d716452"
+    },
+    {
+      "arm": "query_warmup",
+      "condition": "both",
+      "episodes": 16,
+      "safe_success": 0,
+      "valid_ci": 8,
+      "invalid": 0,
+      "raw_sha256": "d7ea797b75d13473ee452a3f890d1852546b3ecd93e6fee41d9d5de89089600d"
+    },
+    {
+      "arm": "query_warmup",
+      "condition": "broken",
+      "episodes": 16,
+      "safe_success": 12,
+      "valid_ci": 16,
+      "invalid": 0,
+      "raw_sha256": "8ce19e2ce609de0ddfd5d33547a1feae9aec7ec6aa0fd2cbb3281978d66e41b2"
+    },
+    {
+      "arm": "query_warmup",
+      "condition": "reverse",
+      "episodes": 16,
+      "safe_success": 6,
+      "valid_ci": 16,
+      "invalid": 0,
+      "raw_sha256": "b5e9c5311a1845a0e15421a2d97450a42458c7fc7440994c6bc799ebbcb9e4d2"
+    }
+  ],
+  "whole_goal_complete": false
+}

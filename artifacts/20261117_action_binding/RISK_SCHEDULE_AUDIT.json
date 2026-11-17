@@ -1,0 +1,10 @@
+{
+  "states": 200,
+  "nonconstant_safety_states": 32,
+  "safe_set_equals_optimal_set_when_nonconstant": 24,
+  "optimal_strict_subset_of_safe_when_nonconstant": 8,
+  "by_role": {
+    "Worker": 32
+  },
+  "interpretation": "When safe==optimal, the extra term equals the existing optimal-action decision loss minus the negative log legal-letter mass. It reweights an already supervised choice, not a new relational target or new information source."
+}

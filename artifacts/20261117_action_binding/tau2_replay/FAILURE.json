@@ -1,0 +1,5 @@
+{
+  "status": "setup_failed_before_first_trial",
+  "cause": "native Windows default GBK cannot decode upstream UTF-8 policy file",
+  "fix": "new run with python -X utf8; upstream code unchanged; failed plan/log retained"
+}

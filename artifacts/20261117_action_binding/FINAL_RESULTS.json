@@ -1,0 +1,608 @@
+{
+  "created_utc": "2026-11-17T04:14:09.533730+00:00",
+  "scope": "single-seed CPU DEV repair; not final independent generalization evidence",
+  "checkpoints": [
+    {
+      "stage": "query_pilot",
+      "arm": "independent",
+      "updates": 600,
+      "training_seconds_sum": 359.73728623499943,
+      "max_update_seconds": 0.9540793980000046,
+      "saved_seal": "query_pilot/independent/SEALED.json",
+      "token_units_not_comparable_across_stages": true
+    },
+    {
+      "stage": "query_pilot",
+      "arm": "paired_margin",
+      "updates": 600,
+      "training_seconds_sum": 353.15185290800093,
+      "max_update_seconds": 0.8072675359999835,
+      "saved_seal": "query_pilot/paired_margin/SEALED.json",
+      "token_units_not_comparable_across_stages": true
+    },
+    {
+      "stage": "actor_transfer",
+      "arm": "direct",
+      "updates": 1200,
+      "training_seconds_sum": 686.6544371430002,
+      "max_update_seconds": 0.8870730109999982,
+      "saved_seal": "actor_transfer/direct/CHECKPOINT_SEALED.json",
+      "token_units_not_comparable_across_stages": true
+    },
+    {
+      "stage": "actor_transfer",
+      "arm": "query_warmup",
+      "updates": 600,
+      "training_seconds_sum": 353.03346572100077,
+      "max_update_seconds": 0.8171028889998979,
+      "saved_seal": "actor_transfer/query_warmup/CHECKPOINT_SEALED.json",
+      "token_units_not_comparable_across_stages": true
+    },
+    {
+      "stage": "learned_evidence",
+      "arm": "auxiliary",
+      "updates": 400,
+      "training_seconds_sum": 739.1299813609994,
+      "max_update_seconds": 2.9761940450000566,
+      "saved_seal": "learned_evidence/auxiliary/CHECKPOINT_SEALED.json",
+      "token_units_not_comparable_across_stages": true
+    },
+    {
+      "stage": "learned_evidence",
+      "arm": "evidence",
+      "updates": 400,
+      "training_seconds_sum": 765.5033669019986,
+      "max_update_seconds": 3.0795585310002025,
+      "saved_seal": "learned_evidence/evidence/CHECKPOINT_SEALED.json",
+      "token_units_not_comparable_across_stages": true
+    },
+    {
+      "stage": "coverage_repair",
+      "arm": "class_balanced",
+      "updates": 200,
+      "training_seconds_sum": 396.8588345399993,
+      "max_update_seconds": 2.700425723999956,
+      "saved_seal": "coverage_repair/class_balanced/CHECKPOINT_SEALED.json",
+      "token_units_not_comparable_across_stages": true
+    },
+    {
+      "stage": "coverage_repair",
+      "arm": "coverage_only",
+      "updates": 200,
+      "training_seconds_sum": 395.63815333899953,
+      "max_update_seconds": 2.6307591529999854,
+      "saved_seal": "coverage_repair/coverage_only/CHECKPOINT_SEALED.json",
+      "token_units_not_comparable_across_stages": true
+    },
+    {
+      "stage": "composition_repair_v2",
+      "arm": "mixed_depth",
+      "updates": 400,
+      "training_seconds_sum": 848.9741402709992,
+      "max_update_seconds": 2.82942218900007,
+      "saved_seal": "composition_repair_v2/mixed_depth/CHECKPOINT_SEALED.json",
+      "token_units_not_comparable_across_stages": true
+    },
+    {
+      "stage": "composition_repair_v2",
+      "arm": "one_hop",
+      "updates": 400,
+      "training_seconds_sum": 821.5776799619994,
+      "max_update_seconds": 2.7216214110001147,
+      "saved_seal": "composition_repair_v2/one_hop/CHECKPOINT_SEALED.json",
+      "token_units_not_comparable_across_stages": true
+    },
+    {
+      "stage": "risk_repair",
+      "arm": "safety_utility",
+      "updates": 100,
+      "training_seconds_sum": 205.40675270399743,
+      "max_update_seconds": 2.6543473369997628,
+      "saved_seal": "risk_repair/safety_utility/CHECKPOINT_SEALED.json",
+      "token_units_not_comparable_across_stages": true
+    },
+    {
+      "stage": "risk_repair",
+      "arm": "utility",
+      "updates": 100,
+      "training_seconds_sum": 204.21790699200074,
+      "max_update_seconds": 2.6250725669997337,
+      "saved_seal": "risk_repair/utility/CHECKPOINT_SEALED.json",
+      "token_units_not_comparable_across_stages": true
+    }
+  ],
+  "total_new_adapters": 12,
+  "total_optimizer_updates": 5200,
+  "max_training_update_seconds": 3.0795585310002025,
+  "audit_summaries": {
+    "learned_evidence": {
+      "episodes_replayed": 160,
+      "decisions_replayed": 480,
+      "queries_reconstructed": 560,
+      "independent_label_states": 400,
+      "paired": [
+        {
+          "arm": "auxiliary",
+          "condition": "base",
+          "groups": 8,
+          "both_strict_success": 4,
+          "both_planner_correct": 8
+        },
+        {
+          "arm": "auxiliary",
+          "condition": "depth2",
+          "groups": 8,
+          "both_strict_success": 1,
+          "both_planner_correct": 1
+        },
+        {
+          "arm": "auxiliary",
+          "condition": "depth3",
+          "groups": 8,
+          "both_strict_success": 0,
+          "both_planner_correct": 0
+        },
+        {
+          "arm": "evidence",
+          "condition": "base",
+          "groups": 8,
+          "both_strict_success": 5,
+          "both_planner_correct": 8
+        },
+        {
+          "arm": "evidence",
+          "condition": "depth2",
+          "groups": 8,
+          "both_strict_success": 1,
+          "both_planner_correct": 1
+        },
+        {
+          "arm": "evidence",
+          "condition": "depth3",
+          "groups": 8,
+          "both_strict_success": 1,
+          "both_planner_correct": 1
+        }
+      ],
+      "errors": 0,
+      "whole_goal_complete": false
+    },
+    "coverage_repair": {
+      "episodes_replayed": 160,
+      "decisions_replayed": 478,
+      "queries_reconstructed": 1114,
+      "independent_label_states": 400,
+      "paired": [
+        {
+          "arm": "coverage_only",
+          "condition": "base",
+          "groups": 8,
+          "both_strict_success": 2,
+          "both_planner_correct": 5
+        },
+        {
+          "arm": "coverage_only",
+          "condition": "depth2",
+          "groups": 8,
+          "both_strict_success": 0,
+          "both_planner_correct": 1
+        },
+        {
+          "arm": "coverage_only",
+          "condition": "depth3",
+          "groups": 8,
+          "both_strict_success": 0,
+          "both_planner_correct": 0
+        },
+        {
+          "arm": "class_balanced",
+          "condition": "base",
+          "groups": 8,
+          "both_strict_success": 8,
+          "both_planner_correct": 8
+        },
+        {
+          "arm": "class_balanced",
+          "condition": "depth2",
+          "groups": 8,
+          "both_strict_success": 2,
+          "both_planner_correct": 4
+        },
+        {
+          "arm": "class_balanced",
+          "condition": "depth3",
+          "groups": 8,
+          "both_strict_success": 0,
+          "both_planner_correct": 0
+        }
+      ],
+      "errors": 0,
+      "whole_goal_complete": false
+    },
+    "composition_repair_v2": {
+      "episodes_replayed": 160,
+      "decisions_replayed": 467,
+      "queries_reconstructed": 1081,
+      "independent_label_states": 400,
+      "paired": [
+        {
+          "arm": "one_hop",
+          "condition": "base",
+          "groups": 4,
+          "both_strict_success": 4,
+          "both_planner_correct": 4
+        },
+        {
+          "arm": "one_hop",
+          "condition": "depth2",
+          "groups": 4,
+          "both_strict_success": 1,
+          "both_planner_correct": 1
+        },
+        {
+          "arm": "one_hop",
+          "condition": "depth3",
+          "groups": 4,
+          "both_strict_success": 0,
+          "both_planner_correct": 0
+        },
+        {
+          "arm": "one_hop",
+          "condition": "depth4",
+          "groups": 4,
+          "both_strict_success": 0,
+          "both_planner_correct": 0
+        },
+        {
+          "arm": "one_hop",
+          "condition": "depth6",
+          "groups": 4,
+          "both_strict_success": 0,
+          "both_planner_correct": 0
+        },
+        {
+          "arm": "one_hop",
+          "condition": "internal3",
+          "groups": 4,
+          "both_strict_success": 0,
+          "both_planner_correct": 0
+        },
+        {
+          "arm": "one_hop",
+          "condition": "cycle4",
+          "groups": 4,
+          "both_strict_success": 0,
+          "both_planner_correct": 0
+        },
+        {
+          "arm": "one_hop",
+          "condition": "cycle8",
+          "groups": 4,
+          "both_strict_success": 0,
+          "both_planner_correct": 0
+        },
+        {
+          "arm": "mixed_depth",
+          "condition": "base",
+          "groups": 4,
+          "both_strict_success": 4,
+          "both_planner_correct": 4
+        },
+        {
+          "arm": "mixed_depth",
+          "condition": "depth2",
+          "groups": 4,
+          "both_strict_success": 3,
+          "both_planner_correct": 3
+        },
+        {
+          "arm": "mixed_depth",
+          "condition": "depth3",
+          "groups": 4,
+          "both_strict_success": 1,
+          "both_planner_correct": 1
+        },
+        {
+          "arm": "mixed_depth",
+          "condition": "depth4",
+          "groups": 4,
+          "both_strict_success": 0,
+          "both_planner_correct": 0
+        },
+        {
+          "arm": "mixed_depth",
+          "condition": "depth6",
+          "groups": 4,
+          "both_strict_success": 0,
+          "both_planner_correct": 0
+        },
+        {
+          "arm": "mixed_depth",
+          "condition": "internal3",
+          "groups": 4,
+          "both_strict_success": 0,
+          "both_planner_correct": 0
+        },
+        {
+          "arm": "mixed_depth",
+          "condition": "cycle4",
+          "groups": 4,
+          "both_strict_success": 0,
+          "both_planner_correct": 0
+        },
+        {
+          "arm": "mixed_depth",
+          "condition": "cycle8",
+          "groups": 4,
+          "both_strict_success": 0,
+          "both_planner_correct": 0
+        }
+      ],
+      "errors": 0,
+      "whole_goal_complete": false
+    },
+    "risk_repair": {
+      "episodes_replayed": 160,
+      "decisions_replayed": 464,
+      "queries_reconstructed": 1080,
+      "independent_label_states": 400,
+      "paired": [
+        {
+          "arm": "utility",
+          "condition": "base",
+          "groups": 8,
+          "both_strict_success": 1,
+          "both_planner_correct": 2
+        },
+        {
+          "arm": "utility",
+          "condition": "depth2",
+          "groups": 8,
+          "both_strict_success": 0,
+          "both_planner_correct": 0
+        },
+        {
+          "arm": "utility",
+          "condition": "depth3",
+          "groups": 8,
+          "both_strict_success": 0,
+          "both_planner_correct": 0
+        },
+        {
+          "arm": "safety_utility",
+          "condition": "base",
+          "groups": 8,
+          "both_strict_success": 4,
+          "both_planner_correct": 7
+        },
+        {
+          "arm": "safety_utility",
+          "condition": "depth2",
+          "groups": 8,
+          "both_strict_success": 0,
+          "both_planner_correct": 0
+        },
+        {
+          "arm": "safety_utility",
+          "condition": "depth3",
+          "groups": 8,
+          "both_strict_success": 0,
+          "both_planner_correct": 0
+        }
+      ],
+      "errors": 0,
+      "whole_goal_complete": false
+    }
+  },
+  "whole_goal_complete": false,
+  "gpu_large_scale": "NO_GO",
+  "remaining": [
+    "multi-seed stability",
+    "multi-hop and structural generalization",
+    "safety-utility across all contract conditions",
+    "source-level task holdout",
+    "learned long-horizon role/message dependencies",
+    "natural norm applicability and cross-task validation"
+  ],
+  "alias_confirmation": {
+    "queries": 128,
+    "query_correct": 123,
+    "actions": 192,
+    "independent_label_states": 160,
+    "identical_raw_identity_controls": 64,
+    "effective_estimate_swaps": 59,
+    "valid_action_changes_among_effective_swaps": 59,
+    "effective_swaps_with_invalid_output": 0,
+    "same_valid_semantic_action_across_two_renders": 28,
+    "both_renders_invalid": 0,
+    "correct_in_both_renders": 28,
+    "render_consistency_denominator": 32,
+    "paired_results": [
+      {
+        "render": 0,
+        "mode": "self",
+        "groups": 16,
+        "both_valid": 16,
+        "both_correct": 16,
+        "same_action": 0,
+        "reversed_both_wrong": 0,
+        "invalid_groups": 0
+      },
+      {
+        "render": 0,
+        "mode": "identity",
+        "groups": 16,
+        "both_valid": 16,
+        "both_correct": 16,
+        "same_action": 0,
+        "reversed_both_wrong": 0,
+        "invalid_groups": 0
+      },
+      {
+        "render": 0,
+        "mode": "swap_estimates",
+        "groups": 16,
+        "both_valid": 16,
+        "both_correct": 0,
+        "same_action": 1,
+        "reversed_both_wrong": 15,
+        "invalid_groups": 0
+      },
+      {
+        "render": 1,
+        "mode": "self",
+        "groups": 16,
+        "both_valid": 16,
+        "both_correct": 12,
+        "same_action": 4,
+        "reversed_both_wrong": 0,
+        "invalid_groups": 0
+      },
+      {
+        "render": 1,
+        "mode": "identity",
+        "groups": 16,
+        "both_valid": 16,
+        "both_correct": 12,
+        "same_action": 4,
+        "reversed_both_wrong": 0,
+        "invalid_groups": 0
+      },
+      {
+        "render": 1,
+        "mode": "swap_estimates",
+        "groups": 16,
+        "both_valid": 16,
+        "both_correct": 0,
+        "same_action": 0,
+        "reversed_both_wrong": 16,
+        "invalid_groups": 0
+      }
+    ],
+    "errors": 0,
+    "scope": "new-world one-hop DEV confirmation; two renderings reuse worlds and are not independent task samples; Planner only, not full episode or source holdout",
+    "whole_goal_complete": false
+  },
+  "alias_token_length_check": {
+    "pinned_model_revision": "12fd25f77366fa6b3b4b768ec3050bf629380bac",
+    "actual_chat_template_token_lengths": [
+      {
+        "kind": "queries",
+        "prompts": 128,
+        "equal_length_side_pairs": 64,
+        "max_prompt_tokens": 206,
+        "min_prompt_tokens": 206
+      },
+      {
+        "kind": "actions",
+        "prompts": 192,
+        "equal_length_side_pairs": 96,
+        "max_prompt_tokens": 218,
+        "min_prompt_tokens": 218
+      }
+    ],
+    "scope": "exact paired prompt-length equality in this one-hop diagnostic; not long-context or scale proof",
+    "model_loaded": false
+  },
+  "risk_format_attribution": {
+    "scope": "post-run error attribution only; frozen strict scores unchanged",
+    "arms": {
+      "utility": {
+        "action_outputs": 226,
+        "invalid_outputs": 7,
+        "over_time_bound": 0,
+        "bare_letter_outputs_still_counted_invalid": 2,
+        "invalid_raw_counts": {
+          "A = A": 3,
+          "A": 2,
+          "A =0": 2
+        },
+        "records": [
+          {
+            "condition": "base",
+            "world_id": "query_240000003",
+            "role": "Planner",
+            "raw": "A = A",
+            "seconds_batch": 0.44076881299997694,
+            "over_time_bound": false,
+            "bare_legal_letter_only": false
+          },
+          {
+            "condition": "base",
+            "world_id": "meeting_240000004",
+            "role": "Planner",
+            "raw": "A",
+            "seconds_batch": 0.4641388529998949,
+            "over_time_bound": false,
+            "bare_legal_letter_only": true
+          },
+          {
+            "condition": "base_swap",
+            "world_id": "meeting_240000000",
+            "role": "Planner",
+            "raw": "A",
+            "seconds_batch": 0.4544593709997571,
+            "over_time_bound": false,
+            "bare_legal_letter_only": true
+          },
+          {
+            "condition": "base_swap",
+            "world_id": "meeting_240000002",
+            "role": "Planner",
+            "raw": "A = A",
+            "seconds_batch": 0.4400884709998536,
+            "over_time_bound": false,
+            "bare_legal_letter_only": false
+          },
+          {
+            "condition": "base_swap",
+            "world_id": "query_240000005",
+            "role": "Planner",
+            "raw": "A =0",
+            "seconds_batch": 0.4508042749998822,
+            "over_time_bound": false,
+            "bare_legal_letter_only": false
+          },
+          {
+            "condition": "base_swap",
+            "world_id": "meeting_240000006",
+            "role": "Planner",
+            "raw": "A =0",
+            "seconds_batch": 0.4438403730000573,
+            "over_time_bound": false,
+            "bare_legal_letter_only": false
+          },
+          {
+            "condition": "authorized",
+            "world_id": "query_240004007",
+            "role": "Planner",
+            "raw": "A = A",
+            "seconds_batch": 0.4496275159999641,
+            "over_time_bound": false,
+            "bare_legal_letter_only": false
+          }
+        ]
+      },
+      "safety_utility": {
+        "action_outputs": 238,
+        "invalid_outputs": 1,
+        "over_time_bound": 0,
+        "bare_letter_outputs_still_counted_invalid": 0,
+        "invalid_raw_counts": {
+          "A = A": 1
+        },
+        "records": [
+          {
+            "condition": "base_swap",
+            "world_id": "meeting_240000002",
+            "role": "Planner",
+            "raw": "A = A",
+            "seconds_batch": 0.47956994100013617,
+            "over_time_bound": false,
+            "bare_legal_letter_only": false
+          }
+        ]
+      }
+    }
+  }
+}

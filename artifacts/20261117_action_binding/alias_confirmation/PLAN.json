@@ -1,0 +1,21 @@
+{
+  "pairs": 16,
+  "renders": 2,
+  "modes": [
+    "self",
+    "identity",
+    "swap_estimates"
+  ],
+  "seed": 17,
+  "checkpoint": "coverage_repair/class_balanced",
+  "adapter_hashes": {
+    "adapter_config.json": "317dc54d0fcd6fb3b630eec143c04640103d5388e4a41e5bdedf7f327c2613a7",
+    "adapter_model.safetensors": "12988f6e76bb34fb1eaf4d99bb0ca7e257cd7fe27fcb0eee793c296ee8619475",
+    "README.md": "39d3d3aa2d89a2b4ab09cecd018fbbc4cebc3f4b2c6d9e85b81abc38a1dc4045"
+  },
+  "worlds_sha256": "4a057d3cfe56a5193e096abad5e68fa420d645368ce0ca91ab7fab8e25c18b32",
+  "source_sha256": "0e51a305c9f055ff763e193febd9f543a9ba91aec8b48f869643def1fcdaddc8",
+  "scope": "new-world one-hop DEV confirmation; two renderings reuse worlds and are not independent task samples; Planner only, not full episode or source holdout",
+  "teacher_estimates": false,
+  "labels_read_before_sealing": false
+}

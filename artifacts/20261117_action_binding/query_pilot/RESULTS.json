@@ -1,0 +1,78 @@
+{
+  "models": [
+    {
+      "arm": "independent",
+      "steps": 600,
+      "max_update_seconds": 0.9540793980000046,
+      "depths": {
+        "1": {
+          "groups": 16,
+          "both_valid": 16,
+          "both_correct": 16,
+          "same_action": 0,
+          "reversed_both_wrong": 0,
+          "invalid_groups": 0
+        },
+        "2": {
+          "groups": 16,
+          "both_valid": 16,
+          "both_correct": 0,
+          "same_action": 16,
+          "reversed_both_wrong": 0,
+          "invalid_groups": 0
+        },
+        "3": {
+          "groups": 16,
+          "both_valid": 16,
+          "both_correct": 0,
+          "same_action": 16,
+          "reversed_both_wrong": 0,
+          "invalid_groups": 0
+        }
+      },
+      "adapter_hashes": {
+        "adapter_config.json": "962ed6e71f0f3cd8f563679a110b736742c093f5421841fab629b557a171ba48",
+        "adapter_model.safetensors": "af7495eb41f05bf0e1e5e77899d0e67e01f40028520d66db07750e30b0bc920a",
+        "README.md": "39d3d3aa2d89a2b4ab09cecd018fbbc4cebc3f4b2c6d9e85b81abc38a1dc4045"
+      }
+    },
+    {
+      "arm": "paired_margin",
+      "steps": 600,
+      "max_update_seconds": 0.8072675359999835,
+      "depths": {
+        "1": {
+          "groups": 16,
+          "both_valid": 16,
+          "both_correct": 16,
+          "same_action": 0,
+          "reversed_both_wrong": 0,
+          "invalid_groups": 0
+        },
+        "2": {
+          "groups": 16,
+          "both_valid": 16,
+          "both_correct": 0,
+          "same_action": 16,
+          "reversed_both_wrong": 0,
+          "invalid_groups": 0
+        },
+        "3": {
+          "groups": 16,
+          "both_valid": 16,
+          "both_correct": 1,
+          "same_action": 15,
+          "reversed_both_wrong": 0,
+          "invalid_groups": 0
+        }
+      },
+      "adapter_hashes": {
+        "adapter_config.json": "962ed6e71f0f3cd8f563679a110b736742c093f5421841fab629b557a171ba48",
+        "adapter_model.safetensors": "ff685fd13b1151a59ae2268e343e3f4149c7d759c298363b27076674946956b8",
+        "README.md": "39d3d3aa2d89a2b4ab09cecd018fbbc4cebc3f4b2c6d9e85b81abc38a1dc4045"
+      }
+    }
+  ],
+  "pilot_only": true,
+  "whole_goal_complete": false
+}

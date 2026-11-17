@@ -1,0 +1,26 @@
+{
+  "status": "MODEL_REVIEWED_SCOPED_CLAUSE_DEV_ONLY",
+  "cases": 28,
+  "condition_groups": 14,
+  "label_counts": {
+    "PASS": 4,
+    "FAIL": 12,
+    "UNKNOWN": 12
+  },
+  "source_revision": "e1c706abbe174add18ac09a72976df2a79d0178c",
+  "original_blind_disagreements": 2,
+  "original_inputs_preserved": true,
+  "new_controls_blind_agreement": "4/4",
+  "independent_reviewers": 1,
+  "human_verified": false,
+  "global_workflow_validated": false,
+  "cross_task_transfer_established": false,
+  "all_cases_dev": true,
+  "action_policy_training_eligible": false,
+  "files": {
+    "policy_cases_v2/cases.jsonl": "78410cda08bc1346f6e455100c340a74830b9003046f21ae656f3d2f2201562a",
+    "policy_cases_v2/labels.jsonl": "64e794302f0f871f3417863fe287ec46c985672a7dfec3bb0a124661b856ddc7",
+    "policy_cases/BLIND_REVIEW.json": "a0cb1459a40264d78129a1166fbccb0fb83a1e4890a944efba1ba168294f17a0",
+    "policy_cases_v2/SECOND_PASS_REVIEW.json": "cef1fc1896439f58b320133e20db26141c0459f0fdbde0dd77aa653413e02da7"
+  }
+}

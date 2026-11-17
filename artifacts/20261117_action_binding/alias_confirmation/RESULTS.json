@@ -1,0 +1,79 @@
+{
+  "queries": 128,
+  "query_correct": 123,
+  "actions": 192,
+  "independent_label_states": 160,
+  "identical_raw_identity_controls": 64,
+  "effective_estimate_swaps": 59,
+  "valid_action_changes_among_effective_swaps": 59,
+  "effective_swaps_with_invalid_output": 0,
+  "same_valid_semantic_action_across_two_renders": 28,
+  "both_renders_invalid": 0,
+  "correct_in_both_renders": 28,
+  "render_consistency_denominator": 32,
+  "paired_results": [
+    {
+      "render": 0,
+      "mode": "self",
+      "groups": 16,
+      "both_valid": 16,
+      "both_correct": 16,
+      "same_action": 0,
+      "reversed_both_wrong": 0,
+      "invalid_groups": 0
+    },
+    {
+      "render": 0,
+      "mode": "identity",
+      "groups": 16,
+      "both_valid": 16,
+      "both_correct": 16,
+      "same_action": 0,
+      "reversed_both_wrong": 0,
+      "invalid_groups": 0
+    },
+    {
+      "render": 0,
+      "mode": "swap_estimates",
+      "groups": 16,
+      "both_valid": 16,
+      "both_correct": 0,
+      "same_action": 1,
+      "reversed_both_wrong": 15,
+      "invalid_groups": 0
+    },
+    {
+      "render": 1,
+      "mode": "self",
+      "groups": 16,
+      "both_valid": 16,
+      "both_correct": 12,
+      "same_action": 4,
+      "reversed_both_wrong": 0,
+      "invalid_groups": 0
+    },
+    {
+      "render": 1,
+      "mode": "identity",
+      "groups": 16,
+      "both_valid": 16,
+      "both_correct": 12,
+      "same_action": 4,
+      "reversed_both_wrong": 0,
+      "invalid_groups": 0
+    },
+    {
+      "render": 1,
+      "mode": "swap_estimates",
+      "groups": 16,
+      "both_valid": 16,
+      "both_correct": 0,
+      "same_action": 0,
+      "reversed_both_wrong": 16,
+      "invalid_groups": 0
+    }
+  ],
+  "errors": 0,
+  "scope": "new-world one-hop DEV confirmation; two renderings reuse worlds and are not independent task samples; Planner only, not full episode or source holdout",
+  "whole_goal_complete": false
+}

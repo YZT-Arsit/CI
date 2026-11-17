@@ -1,0 +1,26 @@
+{
+  "whole_goal_complete": false,
+  "gpu_large_scale": "NO_GO",
+  "relation_to_action": {
+    "bounded_self_generated_text_channel_causal_use": "SUPPORTED_ON_SELECTED_ONE_HOP_DEV",
+    "presentation_invariance": "NOT_ESTABLISHED_4_OF_32_STATE_COUNTEREXAMPLES",
+    "multi_hop_structural_generalization": "NOT_ESTABLISHED",
+    "three_training_seeds": "NOT_RUN"
+  },
+  "safety_utility": "MIXED_OR_NEGATIVE_ADDED_SAFETY_LOSS_DOES_NOT_SOLVE_UNSOLVABLE_CASES",
+  "collaboration": {
+    "old_32_hop_actual_decisions": 3,
+    "native_external_annotated_plans_replayed": 114,
+    "maximum_mutating_calls_in_native_plan": 12,
+    "learned_32_step_collaboration": "NOT_ESTABLISHED"
+  },
+  "natural_norms": {
+    "official_source_pinned": true,
+    "model_reviewed_clause_dev_cases": 28,
+    "unknown_cases_retained": 12,
+    "human_verified": false,
+    "action_policy_training_eligible": false,
+    "cross_task_validity": "NOT_ESTABLISHED"
+  },
+  "decision": "Continue bounded CPU diagnosis; do not scale this configuration as a solved method. Preserve failed designs and raw outputs."
+}

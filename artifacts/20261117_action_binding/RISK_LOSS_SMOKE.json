@@ -1,0 +1,8 @@
+{
+  "lambda_zero_loss_and_gradients_exactly_equal": true,
+  "safety_gradient_reduces_unsafe_and_increases_safe_legal_logits": true,
+  "nonlegal_logits_have_zero_safety_gradient": true,
+  "all_safe_loss_and_gradient_zero": true,
+  "all_total_gradients_finite": true,
+  "scope": "deterministic logits unit smoke of extracted actual functions; no model optimizer update"
+}

@@ -1,0 +1,18 @@
+{
+  "status": "PROVISIONAL_CLAUSE_DEV_ONLY",
+  "cases": 24,
+  "base_condition_groups": 12,
+  "clauses": 2,
+  "task_templates": 4,
+  "source_revision": "e1c706abbe174add18ac09a72976df2a79d0178c",
+  "source_sha256": "cbe70f2fcc0a5ac6b741c08f02ae44dedf3a446c6c42229201ab87ca398f1778",
+  "files": {
+    "cases.jsonl": "edae8f215f922bca4235f0c3479ea39a765781a5bccdb618f7746a43adefe1fa",
+    "provisional_labels.jsonl": "2f5783e32a732ff2e703d2291e94725f527c5f44acd04c02c63a82d426913ddd"
+  },
+  "training_eligible": false,
+  "cross_task_validity_established": false,
+  "real_business_execution": false,
+  "all_cases_dev": true,
+  "split_requirement": "Keep shared base_condition_group together in any future random split; template transfer is not source-level holdout."
+}

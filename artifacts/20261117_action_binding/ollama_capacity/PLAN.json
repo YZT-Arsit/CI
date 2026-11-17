@@ -1,0 +1,26 @@
+{
+  "model": "qwen2.5:7b-instruct-q4_K_M",
+  "options": {
+    "temperature": 0,
+    "seed": 17,
+    "num_ctx": 2048,
+    "num_predict": 16,
+    "num_gpu": 0,
+    "num_thread": 4
+  },
+  "cases": 12,
+  "pairs": 6,
+  "conditions": [
+    "history1",
+    "history3",
+    "internal3"
+  ],
+  "scope": "new DEV Planner-only zero-shot capacity diagnostic; different base model/quantization, no causal comparison to the trained135M method",
+  "request_timeout_seconds": 25,
+  "warmup_timeout_seconds": 60,
+  "stop_on_first_request_failure": true,
+  "dataset_sha256": "fe05ca02284e2b5037eb579a88ac098acefee40340e5c6bf580369911c353293",
+  "source_sha256": "68a30e2be4834bd30e42a5426144269e82f98f22c27d340578f91d9c0ff5158e",
+  "teacher_evidence": false,
+  "forced_legal_action_mask": false
+}

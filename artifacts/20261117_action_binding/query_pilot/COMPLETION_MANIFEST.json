@@ -1,0 +1,32 @@
+{
+  "scope": "post-run byte integrity, not retroactive pre-run sealing",
+  "baseline_commit": "b476787ba9e0cebf19d6b81569eeaf36b0570fbc",
+  "files": {
+    "artifacts/20261117_action_binding/query_pilot/AUDIT.json": "15cf37c59f4b7a862b1bd249d6981b31a04cbce0d92dcf8ebcf1ba82e9c3c8b0",
+    "artifacts/20261117_action_binding/query_pilot/dataset.json": "5f2eb0f27df50bd626acae67fe13d6ef1b20dc189060b07b86b1c00e3a555205",
+    "artifacts/20261117_action_binding/query_pilot/PLAN.json": "fd103c5a6537d544f038e807cad881b8d758d3c0a63a3e2f27aa130956ee2346",
+    "artifacts/20261117_action_binding/query_pilot/RESULTS.json": "ae45023e7ef226d83b69a1a965fce6ff4006113d6a28d61c4814a5b66adf2028",
+    "artifacts/20261117_action_binding/query_pilot/independent/dev_raw.jsonl": "c582c040c6aafc5fc3d92ac0e8f46d1a7563e673a7a22ca13af7cf9e941b93f5",
+    "artifacts/20261117_action_binding/query_pilot/independent/dev_scored.json": "9d3c5f55da6afee0910d69622e293b38b3b12c2298d88760b6ee8337a1374f6c",
+    "artifacts/20261117_action_binding/query_pilot/independent/SEALED.json": "2262a966ed59d3bb0a4665b3247f322adff76de120813aaf1717974b815c7d0f",
+    "artifacts/20261117_action_binding/query_pilot/independent/training.jsonl": "08441c5c8eb4defd6e32c34751fc4b01c6823f7b55f5c19f8b0da17fa2493a75",
+    "artifacts/20261117_action_binding/query_pilot/paired_margin/dev_raw.jsonl": "fac1a2c45cf3ea20cfa4f10b6abaae6897400d98f10881e565c05d755cd94143",
+    "artifacts/20261117_action_binding/query_pilot/paired_margin/dev_scored.json": "ee3cf7c447a81eecceb795924b17a2434e490f4046cf987cb3ae190be263b938",
+    "artifacts/20261117_action_binding/query_pilot/paired_margin/SEALED.json": "02699ee9af607fa3715fca02cca319444a9ed1e83b57ff1c45c8d3aec8370f3c",
+    "artifacts/20261117_action_binding/query_pilot/paired_margin/training.jsonl": "b139ecc013da445bf2732c36556bd190281e8e0272eb907385380e868079265c",
+    "artifacts/20261117_action_binding/query_pilot/paired_margin/adapter/adapter_config.json": "962ed6e71f0f3cd8f563679a110b736742c093f5421841fab629b557a171ba48",
+    "artifacts/20261117_action_binding/query_pilot/paired_margin/adapter/adapter_model.safetensors": "ff685fd13b1151a59ae2268e343e3f4149c7d759c298363b27076674946956b8",
+    "artifacts/20261117_action_binding/query_pilot/paired_margin/adapter/README.md": "39d3d3aa2d89a2b4ab09cecd018fbbc4cebc3f4b2c6d9e85b81abc38a1dc4045",
+    "artifacts/20261117_action_binding/query_pilot/independent/adapter/adapter_config.json": "962ed6e71f0f3cd8f563679a110b736742c093f5421841fab629b557a171ba48",
+    "artifacts/20261117_action_binding/query_pilot/independent/adapter/adapter_model.safetensors": "af7495eb41f05bf0e1e5e77899d0e67e01f40028520d66db07750e30b0bc920a",
+    "artifacts/20261117_action_binding/query_pilot/independent/adapter/README.md": "39d3d3aa2d89a2b4ab09cecd018fbbc4cebc3f4b2c6d9e85b81abc38a1dc4045",
+    "artifacts/20261117_action_binding/query_pilot.py": "c3d6df2de82610bc6759f0eb0e79f25aad2885d5594ecd0cda999c93b9696de5",
+    "artifacts/20261117_action_binding/probe_frozen.py": "f9b363eb88edf603c7a95f0487ca722da318ebc444a0c18a82e9ebffbf68fc8e",
+    "artifacts/20261116_relation_solution/lm_common.py": "02bddaf84a7b82f6b527d3256e6c226f11f4ffcebdce517347cb5fdbfd0bdede",
+    "artifacts/20261116_relation_solution/proof_targets.py": "62ab389404033dfba3315ef5dfb13e577c0333fa0c29b48e8439e2b8b9a66286",
+    "code/experiments/relation_solution_data.py": "89a5ebd7499dca4b22e9d9f3d542490777a6d879c3f44fd1465e82193dd20bbf",
+    "code/experiments/receipt_dataset.py": "8d46b3f1c74c0fa6405dfa37284175d1afce21016889709b35f8db276fde62f5",
+    "code/kci/relation_language.py": "a966b9375e7243b78b1f0baf9b4a9b42a21246bc70f9e85a1cc39d7dd01ae771",
+    "code/kci/action_binding_metrics.py": "755a53039cfba6ee278e1216533221ffa5ce590a15d4efb9f4568b37d104dc3a"
+  }
+}

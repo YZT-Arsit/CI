@@ -1,0 +1,11 @@
+# Learned evidence bridge: new DEV repair pilot
+
+Motivation: independent one-hop relation queries learned, but implicit transfer to action is not established. Test an explicit learned text channel before introducing hidden-state interchange machinery.
+
+Two arms start from the same completed independent-query adapter (seed17). Both receive 400 identical joint updates, fresh AdamW, independent candidate-query CE and optimal-action CE. Training draws paired depth1 states, with a fixed Planner/Planner/Source/Worker rotation and stratified norm buckets. Both compute the candidate query logits; only the evidence arm appends the model's predicted bits to the action prompt. No correct query bit enters the actor input. Training predictions are full-vocabulary argmax under the fixed ANSWER format prefix; evaluation queries use free generation. Invalid query output is an explicit unknown estimate, never a substituted true label. Query parse failures are counted separately.
+
+The query and action passes use exactly the same trainable weights. Query supervision remains active while learning action readout. This is a multi-pass learned policy, not a one-pass model or a rule-based action selector. The script orchestrates calls and parses outputs; it does not compute reachability or pick an action from the bits. The rule/environment oracle supplies training labels and evaluation scoring only.
+
+Both arms use the same final checkpoint rule, learning rate and update budget. Extra prompt text means token budgets differ; actual counts/timing are recorded. This isolates adding the explicit self-predicted channel within the declared schedules, not the value of extra pretraining over all alternatives.
+
+Evaluation uses new DEV world seeds, fresh entity names, full three-decision episodes, history reversal, depth2/3, optional/authorized/undelivered/no-safe-route controls. Additional internal-edge controls and corrupt/erase-estimate interventions remain diagnostics. No seed or checkpoint selection; one pilot seed cannot establish robustness. If successful, run a fresh three-seed confirmation and mixed-depth structural training before any claim of P1 completion. No claim of 32-step collaboration or external business-norm validation follows from this pilot.

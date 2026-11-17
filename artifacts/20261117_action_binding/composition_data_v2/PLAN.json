@@ -1,0 +1,41 @@
+{
+  "base_groups_per_arm": 32,
+  "same_base_group_ids_and_seeds": true,
+  "same_group_sampling_and_repetition_required": true,
+  "depths": {
+    "one_hop": [
+      1
+    ],
+    "mixed_depth": [
+      2,
+      3
+    ]
+  },
+  "mixed_depth_independent_of_kind": true,
+  "train_world_versions": 128,
+  "train_state_versions": 640,
+  "independent_training_labels_checked": 640,
+  "dev_worlds": 80,
+  "paired_conditions": [
+    "base",
+    "depth2",
+    "depth3",
+    "depth4",
+    "depth6",
+    "internal3",
+    "cycle4",
+    "cycle8"
+  ],
+  "dev_source_sha256": "6ab05495821ebbf1236359637707933ccf85c4f9cd924e8c3e26aa01889a70ef",
+  "source_computation_holdout": false,
+  "source_computation_instances": [
+    "meeting_original_instance_01",
+    "query_original_instance_01"
+  ],
+  "scope": "matched synthetic-base-group curriculum; not source-level task holdout",
+  "files": {
+    "dev_worlds.json": "6ab05495821ebbf1236359637707933ccf85c4f9cd924e8c3e26aa01889a70ef",
+    "train.json": "90005dd79684d88b121fa04d1005a02ca66eda3451991330275c591e2b9c631d"
+  },
+  "source_sha256": "8b9d635a3afdbe219a286871ca8a14823755669eefe208ce1f6f9d070c00521a"
+}

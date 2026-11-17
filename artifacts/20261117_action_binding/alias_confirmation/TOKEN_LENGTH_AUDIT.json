@@ -1,0 +1,21 @@
+{
+  "pinned_model_revision": "12fd25f77366fa6b3b4b768ec3050bf629380bac",
+  "actual_chat_template_token_lengths": [
+    {
+      "kind": "queries",
+      "prompts": 128,
+      "equal_length_side_pairs": 64,
+      "max_prompt_tokens": 206,
+      "min_prompt_tokens": 206
+    },
+    {
+      "kind": "actions",
+      "prompts": 192,
+      "equal_length_side_pairs": 96,
+      "max_prompt_tokens": 218,
+      "min_prompt_tokens": 218
+    }
+  ],
+  "scope": "exact paired prompt-length equality in this one-hop diagnostic; not long-context or scale proof",
+  "model_loaded": false
+}

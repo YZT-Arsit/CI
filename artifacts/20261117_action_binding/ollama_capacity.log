@@ -1,0 +1,13 @@
+{"condition": "history1", "side": 0, "seconds": 6.724030299985316, "valid": true, "correct": true}
+{"condition": "history1", "side": 1, "seconds": 3.8753347000456415, "valid": true, "correct": false}
+{"condition": "history1", "side": 0, "seconds": 4.475323799997568, "valid": true, "correct": false}
+{"condition": "history1", "side": 1, "seconds": 4.045372500026133, "valid": true, "correct": true}
+{"condition": "history3", "side": 0, "seconds": 5.323318700015079, "valid": true, "correct": false}
+{"condition": "history3", "side": 1, "seconds": 4.604875299963169, "valid": true, "correct": false}
+{"condition": "history3", "side": 0, "seconds": 5.312751499994192, "valid": true, "correct": true}
+{"condition": "history3", "side": 1, "seconds": 3.818444000033196, "valid": true, "correct": false}
+{"condition": "internal3", "side": 0, "seconds": 4.680911600007676, "valid": true, "correct": false}
+{"condition": "internal3", "side": 1, "seconds": 4.10838240000885, "valid": true, "correct": false}
+{"condition": "internal3", "side": 0, "seconds": 4.703298200038262, "valid": true, "correct": false}
+{"condition": "internal3", "side": 1, "seconds": 3.9225179000059143, "valid": true, "correct": true}
+{"complete": true, "completed_calls": 12, "request_failure": null, "conditions": {"history1": {"groups": 2, "both_valid": 2, "both_correct": 0, "same_action": 2, "reversed_both_wrong": 0, "invalid_groups": 0}, "history3": {"groups": 2, "both_valid": 2, "both_correct": 0, "same_action": 1, "reversed_both_wrong": 1, "invalid_groups": 0}, "internal3": {"groups": 2, "both_valid": 2, "both_correct": 0, "same_action": 1, "reversed_both_wrong": 1, "invalid_groups": 0}}, "whole_goal_complete": false, "model_release": "keep_alive expires two minutes after last request"}

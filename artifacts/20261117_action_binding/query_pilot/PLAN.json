@@ -1,0 +1,3032 @@
+{
+  "arms": [
+    "independent",
+    "paired_margin"
+  ],
+  "seed": 17,
+  "steps": 600,
+  "initialization": "unchanged trace_17 adapter, both arms identical",
+  "initial_hashes": {
+    "adapter_config.json": "317dc54d0fcd6fb3b630eec143c04640103d5388e4a41e5bdedf7f327c2613a7",
+    "adapter_model.safetensors": "5f5f79961b0dce8714218928ee61168c9ae1b58fc21eb58d6bc4bd8a2f437a1e",
+    "README.md": "39d3d3aa2d89a2b4ab09cecd018fbbc4cebc3f4b2c6d9e85b81abc38a1dc4045"
+  },
+  "train_groups": 32,
+  "train_depth": 1,
+  "dev_groups_per_depth": 8,
+  "dev_depths": [
+    1,
+    2,
+    3
+  ],
+  "lr": 0.0008,
+  "bit_weight": 1,
+  "format_and_eos_weight": 0.1,
+  "paired_margin_weight": 1,
+  "paired_margin": 1,
+  "batch_pairs": 1,
+  "batches": [
+    {
+      "group": 3,
+      "candidate": 0,
+      "nonce": 586582968
+    },
+    {
+      "group": 8,
+      "candidate": 0,
+      "nonce": 645711867
+    },
+    {
+      "group": 23,
+      "candidate": 0,
+      "nonce": 452504668
+    },
+    {
+      "group": 14,
+      "candidate": 1,
+      "nonce": 441720244
+    },
+    {
+      "group": 25,
+      "candidate": 0,
+      "nonce": 575550356
+    },
+    {
+      "group": 14,
+      "candidate": 1,
+      "nonce": 746499976
+    },
+    {
+      "group": 30,
+      "candidate": 1,
+      "nonce": 947257363
+    },
+    {
+      "group": 28,
+      "candidate": 0,
+      "nonce": 508653876
+    },
+    {
+      "group": 11,
+      "candidate": 1,
+      "nonce": 323072434
+    },
+    {
+      "group": 15,
+      "candidate": 0,
+      "nonce": 777830770
+    },
+    {
+      "group": 6,
+      "candidate": 0,
+      "nonce": 206176840
+    },
+    {
+      "group": 6,
+      "candidate": 0,
+      "nonce": 598674245
+    },
+    {
+      "group": 16,
+      "candidate": 0,
+      "nonce": 303972015
+    },
+    {
+      "group": 15,
+      "candidate": 1,
+      "nonce": 559716034
+    },
+    {
+      "group": 18,
+      "candidate": 1,
+      "nonce": 392531255
+    },
+    {
+      "group": 31,
+      "candidate": 0,
+      "nonce": 479534888
+    },
+    {
+      "group": 22,
+      "candidate": 1,
+      "nonce": 33451418
+    },
+    {
+      "group": 21,
+      "candidate": 0,
+      "nonce": 107731432
+    },
+    {
+      "group": 6,
+      "candidate": 0,
+      "nonce": 733661853
+    },
+    {
+      "group": 9,
+      "candidate": 0,
+      "nonce": 992350987
+    },
+    {
+      "group": 1,
+      "candidate": 0,
+      "nonce": 607848528
+    },
+    {
+      "group": 4,
+      "candidate": 0,
+      "nonce": 357166365
+    },
+    {
+      "group": 11,
+      "candidate": 0,
+      "nonce": 112902903
+    },
+    {
+      "group": 29,
+      "candidate": 1,
+      "nonce": 804969336
+    },
+    {
+      "group": 24,
+      "candidate": 1,
+      "nonce": 281099687
+    },
+    {
+      "group": 30,
+      "candidate": 1,
+      "nonce": 570041721
+    },
+    {
+      "group": 5,
+      "candidate": 0,
+      "nonce": 137987103
+    },
+    {
+      "group": 7,
+      "candidate": 1,
+      "nonce": 807801234
+    },
+    {
+      "group": 2,
+      "candidate": 1,
+      "nonce": 816321422
+    },
+    {
+      "group": 11,
+      "candidate": 0,
+      "nonce": 105078006
+    },
+    {
+      "group": 16,
+      "candidate": 1,
+      "nonce": 648700366
+    },
+    {
+      "group": 27,
+      "candidate": 1,
+      "nonce": 196375538
+    },
+    {
+      "group": 22,
+      "candidate": 1,
+      "nonce": 349404758
+    },
+    {
+      "group": 4,
+      "candidate": 1,
+      "nonce": 458028021
+    },
+    {
+      "group": 4,
+      "candidate": 0,
+      "nonce": 925296197
+    },
+    {
+      "group": 4,
+      "candidate": 0,
+      "nonce": 81627972
+    },
+    {
+      "group": 20,
+      "candidate": 0,
+      "nonce": 798342048
+    },
+    {
+      "group": 8,
+      "candidate": 0,
+      "nonce": 195346787
+    },
+    {
+      "group": 3,
+      "candidate": 1,
+      "nonce": 125065061
+    },
+    {
+      "group": 13,
+      "candidate": 1,
+      "nonce": 836551883
+    },
+    {
+      "group": 12,
+      "candidate": 0,
+      "nonce": 14261703
+    },
+    {
+      "group": 7,
+      "candidate": 1,
+      "nonce": 368232375
+    },
+    {
+      "group": 22,
+      "candidate": 1,
+      "nonce": 590879134
+    },
+    {
+      "group": 31,
+      "candidate": 0,
+      "nonce": 469631750
+    },
+    {
+      "group": 3,
+      "candidate": 0,
+      "nonce": 868468838
+    },
+    {
+      "group": 26,
+      "candidate": 1,
+      "nonce": 227053840
+    },
+    {
+      "group": 8,
+      "candidate": 1,
+      "nonce": 370901180
+    },
+    {
+      "group": 18,
+      "candidate": 0,
+      "nonce": 544859816
+    },
+    {
+      "group": 28,
+      "candidate": 1,
+      "nonce": 742302529
+    },
+    {
+      "group": 18,
+      "candidate": 1,
+      "nonce": 129008783
+    },
+    {
+      "group": 11,
+      "candidate": 1,
+      "nonce": 1824971
+    },
+    {
+      "group": 4,
+      "candidate": 0,
+      "nonce": 226995577
+    },
+    {
+      "group": 3,
+      "candidate": 1,
+      "nonce": 146369303
+    },
+    {
+      "group": 2,
+      "candidate": 1,
+      "nonce": 295752604
+    },
+    {
+      "group": 12,
+      "candidate": 0,
+      "nonce": 684435620
+    },
+    {
+      "group": 0,
+      "candidate": 0,
+      "nonce": 494536077
+    },
+    {
+      "group": 31,
+      "candidate": 0,
+      "nonce": 230452349
+    },
+    {
+      "group": 4,
+      "candidate": 0,
+      "nonce": 606870135
+    },
+    {
+      "group": 31,
+      "candidate": 0,
+      "nonce": 377975344
+    },
+    {
+      "group": 6,
+      "candidate": 1,
+      "nonce": 384741559
+    },
+    {
+      "group": 14,
+      "candidate": 0,
+      "nonce": 9590609
+    },
+    {
+      "group": 18,
+      "candidate": 1,
+      "nonce": 573618157
+    },
+    {
+      "group": 6,
+      "candidate": 1,
+      "nonce": 314780769
+    },
+    {
+      "group": 5,
+      "candidate": 0,
+      "nonce": 173077118
+    },
+    {
+      "group": 5,
+      "candidate": 0,
+      "nonce": 536988950
+    },
+    {
+      "group": 29,
+      "candidate": 0,
+      "nonce": 795432890
+    },
+    {
+      "group": 26,
+      "candidate": 1,
+      "nonce": 184303397
+    },
+    {
+      "group": 24,
+      "candidate": 0,
+      "nonce": 745838880
+    },
+    {
+      "group": 22,
+      "candidate": 0,
+      "nonce": 812053552
+    },
+    {
+      "group": 12,
+      "candidate": 0,
+      "nonce": 558063028
+    },
+    {
+      "group": 14,
+      "candidate": 0,
+      "nonce": 382865753
+    },
+    {
+      "group": 15,
+      "candidate": 1,
+      "nonce": 482397842
+    },
+    {
+      "group": 11,
+      "candidate": 1,
+      "nonce": 71542979
+    },
+    {
+      "group": 31,
+      "candidate": 1,
+      "nonce": 833235315
+    },
+    {
+      "group": 0,
+      "candidate": 0,
+      "nonce": 692224226
+    },
+    {
+      "group": 11,
+      "candidate": 1,
+      "nonce": 572279121
+    },
+    {
+      "group": 12,
+      "candidate": 1,
+      "nonce": 731038496
+    },
+    {
+      "group": 31,
+      "candidate": 1,
+      "nonce": 704945631
+    },
+    {
+      "group": 24,
+      "candidate": 1,
+      "nonce": 523365524
+    },
+    {
+      "group": 15,
+      "candidate": 0,
+      "nonce": 79834878
+    },
+    {
+      "group": 5,
+      "candidate": 1,
+      "nonce": 190086990
+    },
+    {
+      "group": 17,
+      "candidate": 0,
+      "nonce": 366557356
+    },
+    {
+      "group": 23,
+      "candidate": 1,
+      "nonce": 398644198
+    },
+    {
+      "group": 5,
+      "candidate": 1,
+      "nonce": 125744566
+    },
+    {
+      "group": 29,
+      "candidate": 1,
+      "nonce": 154057856
+    },
+    {
+      "group": 2,
+      "candidate": 1,
+      "nonce": 979885179
+    },
+    {
+      "group": 26,
+      "candidate": 0,
+      "nonce": 107030278
+    },
+    {
+      "group": 24,
+      "candidate": 0,
+      "nonce": 936791202
+    },
+    {
+      "group": 29,
+      "candidate": 1,
+      "nonce": 560610679
+    },
+    {
+      "group": 9,
+      "candidate": 0,
+      "nonce": 5780016
+    },
+    {
+      "group": 28,
+      "candidate": 1,
+      "nonce": 713896635
+    },
+    {
+      "group": 10,
+      "candidate": 1,
+      "nonce": 775029886
+    },
+    {
+      "group": 8,
+      "candidate": 1,
+      "nonce": 386717256
+    },
+    {
+      "group": 5,
+      "candidate": 0,
+      "nonce": 837289041
+    },
+    {
+      "group": 21,
+      "candidate": 1,
+      "nonce": 8867871
+    },
+    {
+      "group": 16,
+      "candidate": 0,
+      "nonce": 114589660
+    },
+    {
+      "group": 2,
+      "candidate": 1,
+      "nonce": 110573939
+    },
+    {
+      "group": 25,
+      "candidate": 0,
+      "nonce": 728649820
+    },
+    {
+      "group": 7,
+      "candidate": 1,
+      "nonce": 631526370
+    },
+    {
+      "group": 5,
+      "candidate": 0,
+      "nonce": 990756291
+    },
+    {
+      "group": 26,
+      "candidate": 0,
+      "nonce": 363521626
+    },
+    {
+      "group": 26,
+      "candidate": 0,
+      "nonce": 859245343
+    },
+    {
+      "group": 19,
+      "candidate": 1,
+      "nonce": 626347831
+    },
+    {
+      "group": 18,
+      "candidate": 1,
+      "nonce": 481205906
+    },
+    {
+      "group": 30,
+      "candidate": 0,
+      "nonce": 333330499
+    },
+    {
+      "group": 13,
+      "candidate": 0,
+      "nonce": 147176341
+    },
+    {
+      "group": 2,
+      "candidate": 0,
+      "nonce": 789577589
+    },
+    {
+      "group": 5,
+      "candidate": 1,
+      "nonce": 156410725
+    },
+    {
+      "group": 26,
+      "candidate": 1,
+      "nonce": 353900019
+    },
+    {
+      "group": 21,
+      "candidate": 1,
+      "nonce": 999925261
+    },
+    {
+      "group": 7,
+      "candidate": 1,
+      "nonce": 558580996
+    },
+    {
+      "group": 10,
+      "candidate": 0,
+      "nonce": 285545366
+    },
+    {
+      "group": 5,
+      "candidate": 1,
+      "nonce": 224472876
+    },
+    {
+      "group": 5,
+      "candidate": 0,
+      "nonce": 54292700
+    },
+    {
+      "group": 4,
+      "candidate": 1,
+      "nonce": 720050809
+    },
+    {
+      "group": 23,
+      "candidate": 0,
+      "nonce": 530806436
+    },
+    {
+      "group": 20,
+      "candidate": 1,
+      "nonce": 328043427
+    },
+    {
+      "group": 13,
+      "candidate": 0,
+      "nonce": 274837209
+    },
+    {
+      "group": 2,
+      "candidate": 0,
+      "nonce": 706094714
+    },
+    {
+      "group": 14,
+      "candidate": 0,
+      "nonce": 884887584
+    },
+    {
+      "group": 27,
+      "candidate": 0,
+      "nonce": 281530961
+    },
+    {
+      "group": 25,
+      "candidate": 1,
+      "nonce": 57751559
+    },
+    {
+      "group": 10,
+      "candidate": 1,
+      "nonce": 428943537
+    },
+    {
+      "group": 1,
+      "candidate": 1,
+      "nonce": 960734394
+    },
+    {
+      "group": 28,
+      "candidate": 1,
+      "nonce": 649279288
+    },
+    {
+      "group": 19,
+      "candidate": 0,
+      "nonce": 985226258
+    },
+    {
+      "group": 3,
+      "candidate": 0,
+      "nonce": 258879141
+    },
+    {
+      "group": 13,
+      "candidate": 1,
+      "nonce": 460311003
+    },
+    {
+      "group": 4,
+      "candidate": 1,
+      "nonce": 643032614
+    },
+    {
+      "group": 10,
+      "candidate": 0,
+      "nonce": 891672043
+    },
+    {
+      "group": 12,
+      "candidate": 0,
+      "nonce": 502788150
+    },
+    {
+      "group": 14,
+      "candidate": 0,
+      "nonce": 119841760
+    },
+    {
+      "group": 27,
+      "candidate": 0,
+      "nonce": 942860518
+    },
+    {
+      "group": 21,
+      "candidate": 0,
+      "nonce": 610559104
+    },
+    {
+      "group": 16,
+      "candidate": 1,
+      "nonce": 432407641
+    },
+    {
+      "group": 18,
+      "candidate": 0,
+      "nonce": 998093863
+    },
+    {
+      "group": 14,
+      "candidate": 0,
+      "nonce": 432315279
+    },
+    {
+      "group": 15,
+      "candidate": 0,
+      "nonce": 1075785
+    },
+    {
+      "group": 15,
+      "candidate": 0,
+      "nonce": 818608359
+    },
+    {
+      "group": 10,
+      "candidate": 1,
+      "nonce": 800637108
+    },
+    {
+      "group": 14,
+      "candidate": 1,
+      "nonce": 866143241
+    },
+    {
+      "group": 3,
+      "candidate": 1,
+      "nonce": 683695932
+    },
+    {
+      "group": 17,
+      "candidate": 1,
+      "nonce": 4718658
+    },
+    {
+      "group": 16,
+      "candidate": 1,
+      "nonce": 430326950
+    },
+    {
+      "group": 6,
+      "candidate": 0,
+      "nonce": 933754879
+    },
+    {
+      "group": 6,
+      "candidate": 1,
+      "nonce": 649246692
+    },
+    {
+      "group": 5,
+      "candidate": 0,
+      "nonce": 245128522
+    },
+    {
+      "group": 7,
+      "candidate": 1,
+      "nonce": 335132405
+    },
+    {
+      "group": 15,
+      "candidate": 0,
+      "nonce": 370474673
+    },
+    {
+      "group": 4,
+      "candidate": 1,
+      "nonce": 233503990
+    },
+    {
+      "group": 22,
+      "candidate": 1,
+      "nonce": 554976297
+    },
+    {
+      "group": 0,
+      "candidate": 0,
+      "nonce": 446046240
+    },
+    {
+      "group": 22,
+      "candidate": 1,
+      "nonce": 651289767
+    },
+    {
+      "group": 19,
+      "candidate": 1,
+      "nonce": 117918617
+    },
+    {
+      "group": 30,
+      "candidate": 0,
+      "nonce": 337218750
+    },
+    {
+      "group": 6,
+      "candidate": 1,
+      "nonce": 369296821
+    },
+    {
+      "group": 26,
+      "candidate": 1,
+      "nonce": 950755232
+    },
+    {
+      "group": 7,
+      "candidate": 1,
+      "nonce": 262334275
+    },
+    {
+      "group": 24,
+      "candidate": 1,
+      "nonce": 714119914
+    },
+    {
+      "group": 31,
+      "candidate": 0,
+      "nonce": 570718690
+    },
+    {
+      "group": 4,
+      "candidate": 0,
+      "nonce": 313427796
+    },
+    {
+      "group": 5,
+      "candidate": 0,
+      "nonce": 697487555
+    },
+    {
+      "group": 18,
+      "candidate": 1,
+      "nonce": 533758189
+    },
+    {
+      "group": 7,
+      "candidate": 0,
+      "nonce": 770334136
+    },
+    {
+      "group": 0,
+      "candidate": 1,
+      "nonce": 868176701
+    },
+    {
+      "group": 5,
+      "candidate": 0,
+      "nonce": 134706623
+    },
+    {
+      "group": 21,
+      "candidate": 0,
+      "nonce": 435802002
+    },
+    {
+      "group": 24,
+      "candidate": 0,
+      "nonce": 586853163
+    },
+    {
+      "group": 27,
+      "candidate": 0,
+      "nonce": 988002049
+    },
+    {
+      "group": 29,
+      "candidate": 0,
+      "nonce": 354377198
+    },
+    {
+      "group": 27,
+      "candidate": 1,
+      "nonce": 68382032
+    },
+    {
+      "group": 27,
+      "candidate": 1,
+      "nonce": 462314350
+    },
+    {
+      "group": 2,
+      "candidate": 0,
+      "nonce": 905583734
+    },
+    {
+      "group": 27,
+      "candidate": 1,
+      "nonce": 112184334
+    },
+    {
+      "group": 20,
+      "candidate": 0,
+      "nonce": 81043883
+    },
+    {
+      "group": 1,
+      "candidate": 1,
+      "nonce": 407376194
+    },
+    {
+      "group": 25,
+      "candidate": 0,
+      "nonce": 686232970
+    },
+    {
+      "group": 25,
+      "candidate": 0,
+      "nonce": 412982647
+    },
+    {
+      "group": 21,
+      "candidate": 0,
+      "nonce": 214197729
+    },
+    {
+      "group": 23,
+      "candidate": 0,
+      "nonce": 902413626
+    },
+    {
+      "group": 13,
+      "candidate": 1,
+      "nonce": 927086382
+    },
+    {
+      "group": 13,
+      "candidate": 1,
+      "nonce": 231584736
+    },
+    {
+      "group": 30,
+      "candidate": 1,
+      "nonce": 924102879
+    },
+    {
+      "group": 18,
+      "candidate": 0,
+      "nonce": 362658272
+    },
+    {
+      "group": 1,
+      "candidate": 1,
+      "nonce": 592256507
+    },
+    {
+      "group": 4,
+      "candidate": 0,
+      "nonce": 214581930
+    },
+    {
+      "group": 14,
+      "candidate": 0,
+      "nonce": 519614179
+    },
+    {
+      "group": 20,
+      "candidate": 0,
+      "nonce": 254020344
+    },
+    {
+      "group": 28,
+      "candidate": 0,
+      "nonce": 220715096
+    },
+    {
+      "group": 4,
+      "candidate": 1,
+      "nonce": 672845270
+    },
+    {
+      "group": 14,
+      "candidate": 1,
+      "nonce": 25251629
+    },
+    {
+      "group": 28,
+      "candidate": 1,
+      "nonce": 796970067
+    },
+    {
+      "group": 18,
+      "candidate": 1,
+      "nonce": 620424444
+    },
+    {
+      "group": 4,
+      "candidate": 0,
+      "nonce": 483701863
+    },
+    {
+      "group": 22,
+      "candidate": 1,
+      "nonce": 118955878
+    },
+    {
+      "group": 27,
+      "candidate": 1,
+      "nonce": 546801348
+    },
+    {
+      "group": 18,
+      "candidate": 0,
+      "nonce": 104820649
+    },
+    {
+      "group": 27,
+      "candidate": 1,
+      "nonce": 928015626
+    },
+    {
+      "group": 28,
+      "candidate": 1,
+      "nonce": 506235448
+    },
+    {
+      "group": 3,
+      "candidate": 0,
+      "nonce": 495827517
+    },
+    {
+      "group": 14,
+      "candidate": 0,
+      "nonce": 172279213
+    },
+    {
+      "group": 2,
+      "candidate": 0,
+      "nonce": 673946876
+    },
+    {
+      "group": 17,
+      "candidate": 1,
+      "nonce": 485265745
+    },
+    {
+      "group": 26,
+      "candidate": 0,
+      "nonce": 920627186
+    },
+    {
+      "group": 27,
+      "candidate": 0,
+      "nonce": 755753463
+    },
+    {
+      "group": 22,
+      "candidate": 1,
+      "nonce": 97720642
+    },
+    {
+      "group": 12,
+      "candidate": 0,
+      "nonce": 272979532
+    },
+    {
+      "group": 4,
+      "candidate": 1,
+      "nonce": 531591838
+    },
+    {
+      "group": 11,
+      "candidate": 0,
+      "nonce": 32475793
+    },
+    {
+      "group": 14,
+      "candidate": 0,
+      "nonce": 466522901
+    },
+    {
+      "group": 30,
+      "candidate": 1,
+      "nonce": 228578237
+    },
+    {
+      "group": 30,
+      "candidate": 1,
+      "nonce": 589934095
+    },
+    {
+      "group": 23,
+      "candidate": 0,
+      "nonce": 795728609
+    },
+    {
+      "group": 7,
+      "candidate": 1,
+      "nonce": 47652730
+    },
+    {
+      "group": 11,
+      "candidate": 0,
+      "nonce": 133646938
+    },
+    {
+      "group": 13,
+      "candidate": 0,
+      "nonce": 804270154
+    },
+    {
+      "group": 2,
+      "candidate": 1,
+      "nonce": 823878007
+    },
+    {
+      "group": 7,
+      "candidate": 0,
+      "nonce": 765365070
+    },
+    {
+      "group": 2,
+      "candidate": 0,
+      "nonce": 647834654
+    },
+    {
+      "group": 0,
+      "candidate": 1,
+      "nonce": 20485766
+    },
+    {
+      "group": 9,
+      "candidate": 0,
+      "nonce": 553145280
+    },
+    {
+      "group": 13,
+      "candidate": 0,
+      "nonce": 455632008
+    },
+    {
+      "group": 22,
+      "candidate": 1,
+      "nonce": 389334433
+    },
+    {
+      "group": 3,
+      "candidate": 0,
+      "nonce": 659024433
+    },
+    {
+      "group": 1,
+      "candidate": 1,
+      "nonce": 373775274
+    },
+    {
+      "group": 31,
+      "candidate": 0,
+      "nonce": 870459022
+    },
+    {
+      "group": 23,
+      "candidate": 0,
+      "nonce": 320279301
+    },
+    {
+      "group": 9,
+      "candidate": 1,
+      "nonce": 273588518
+    },
+    {
+      "group": 26,
+      "candidate": 0,
+      "nonce": 135601687
+    },
+    {
+      "group": 12,
+      "candidate": 1,
+      "nonce": 128531780
+    },
+    {
+      "group": 9,
+      "candidate": 1,
+      "nonce": 970065355
+    },
+    {
+      "group": 31,
+      "candidate": 1,
+      "nonce": 981287854
+    },
+    {
+      "group": 25,
+      "candidate": 0,
+      "nonce": 24517579
+    },
+    {
+      "group": 18,
+      "candidate": 0,
+      "nonce": 319026965
+    },
+    {
+      "group": 23,
+      "candidate": 1,
+      "nonce": 696266024
+    },
+    {
+      "group": 23,
+      "candidate": 1,
+      "nonce": 320043983
+    },
+    {
+      "group": 28,
+      "candidate": 1,
+      "nonce": 247750156
+    },
+    {
+      "group": 24,
+      "candidate": 0,
+      "nonce": 786477880
+    },
+    {
+      "group": 5,
+      "candidate": 1,
+      "nonce": 678915256
+    },
+    {
+      "group": 13,
+      "candidate": 0,
+      "nonce": 595354148
+    },
+    {
+      "group": 17,
+      "candidate": 0,
+      "nonce": 972147746
+    },
+    {
+      "group": 28,
+      "candidate": 0,
+      "nonce": 83960385
+    },
+    {
+      "group": 0,
+      "candidate": 1,
+      "nonce": 622902601
+    },
+    {
+      "group": 18,
+      "candidate": 1,
+      "nonce": 634944866
+    },
+    {
+      "group": 11,
+      "candidate": 1,
+      "nonce": 873586976
+    },
+    {
+      "group": 17,
+      "candidate": 1,
+      "nonce": 787203625
+    },
+    {
+      "group": 14,
+      "candidate": 1,
+      "nonce": 350994545
+    },
+    {
+      "group": 21,
+      "candidate": 0,
+      "nonce": 924924145
+    },
+    {
+      "group": 10,
+      "candidate": 1,
+      "nonce": 446072184
+    },
+    {
+      "group": 15,
+      "candidate": 0,
+      "nonce": 921419437
+    },
+    {
+      "group": 3,
+      "candidate": 1,
+      "nonce": 309958724
+    },
+    {
+      "group": 19,
+      "candidate": 1,
+      "nonce": 956412485
+    },
+    {
+      "group": 19,
+      "candidate": 0,
+      "nonce": 397434132
+    },
+    {
+      "group": 17,
+      "candidate": 0,
+      "nonce": 456588695
+    },
+    {
+      "group": 14,
+      "candidate": 0,
+      "nonce": 238893111
+    },
+    {
+      "group": 0,
+      "candidate": 0,
+      "nonce": 456051006
+    },
+    {
+      "group": 23,
+      "candidate": 0,
+      "nonce": 555180315
+    },
+    {
+      "group": 4,
+      "candidate": 1,
+      "nonce": 670565225
+    },
+    {
+      "group": 24,
+      "candidate": 1,
+      "nonce": 14254533
+    },
+    {
+      "group": 10,
+      "candidate": 0,
+      "nonce": 158241877
+    },
+    {
+      "group": 30,
+      "candidate": 1,
+      "nonce": 422845230
+    },
+    {
+      "group": 23,
+      "candidate": 0,
+      "nonce": 215091377
+    },
+    {
+      "group": 13,
+      "candidate": 0,
+      "nonce": 378518705
+    },
+    {
+      "group": 8,
+      "candidate": 0,
+      "nonce": 701537512
+    },
+    {
+      "group": 31,
+      "candidate": 1,
+      "nonce": 764107900
+    },
+    {
+      "group": 16,
+      "candidate": 1,
+      "nonce": 497003195
+    },
+    {
+      "group": 23,
+      "candidate": 1,
+      "nonce": 526779351
+    },
+    {
+      "group": 5,
+      "candidate": 1,
+      "nonce": 956417394
+    },
+    {
+      "group": 16,
+      "candidate": 1,
+      "nonce": 810432851
+    },
+    {
+      "group": 10,
+      "candidate": 1,
+      "nonce": 352767100
+    },
+    {
+      "group": 4,
+      "candidate": 1,
+      "nonce": 95744138
+    },
+    {
+      "group": 19,
+      "candidate": 0,
+      "nonce": 944449933
+    },
+    {
+      "group": 2,
+      "candidate": 0,
+      "nonce": 865444810
+    },
+    {
+      "group": 11,
+      "candidate": 0,
+      "nonce": 210714446
+    },
+    {
+      "group": 4,
+      "candidate": 1,
+      "nonce": 210514967
+    },
+    {
+      "group": 9,
+      "candidate": 1,
+      "nonce": 643714063
+    },
+    {
+      "group": 30,
+      "candidate": 0,
+      "nonce": 640215135
+    },
+    {
+      "group": 16,
+      "candidate": 1,
+      "nonce": 668619634
+    },
+    {
+      "group": 8,
+      "candidate": 0,
+      "nonce": 480212617
+    },
+    {
+      "group": 11,
+      "candidate": 1,
+      "nonce": 489809396
+    },
+    {
+      "group": 21,
+      "candidate": 0,
+      "nonce": 509726574
+    },
+    {
+      "group": 30,
+      "candidate": 1,
+      "nonce": 579467994
+    },
+    {
+      "group": 2,
+      "candidate": 1,
+      "nonce": 767003218
+    },
+    {
+      "group": 7,
+      "candidate": 0,
+      "nonce": 494293462
+    },
+    {
+      "group": 7,
+      "candidate": 0,
+      "nonce": 238409954
+    },
+    {
+      "group": 3,
+      "candidate": 0,
+      "nonce": 632676602
+    },
+    {
+      "group": 8,
+      "candidate": 1,
+      "nonce": 56351071
+    },
+    {
+      "group": 11,
+      "candidate": 1,
+      "nonce": 823427509
+    },
+    {
+      "group": 3,
+      "candidate": 1,
+      "nonce": 29428584
+    },
+    {
+      "group": 30,
+      "candidate": 0,
+      "nonce": 503084033
+    },
+    {
+      "group": 17,
+      "candidate": 1,
+      "nonce": 109652068
+    },
+    {
+      "group": 13,
+      "candidate": 1,
+      "nonce": 895414089
+    },
+    {
+      "group": 17,
+      "candidate": 1,
+      "nonce": 183258959
+    },
+    {
+      "group": 24,
+      "candidate": 0,
+      "nonce": 534904641
+    },
+    {
+      "group": 3,
+      "candidate": 0,
+      "nonce": 188614214
+    },
+    {
+      "group": 8,
+      "candidate": 0,
+      "nonce": 378897862
+    },
+    {
+      "group": 20,
+      "candidate": 0,
+      "nonce": 80926544
+    },
+    {
+      "group": 20,
+      "candidate": 0,
+      "nonce": 327813667
+    },
+    {
+      "group": 6,
+      "candidate": 0,
+      "nonce": 868810333
+    },
+    {
+      "group": 9,
+      "candidate": 1,
+      "nonce": 289565493
+    },
+    {
+      "group": 19,
+      "candidate": 1,
+      "nonce": 678525178
+    },
+    {
+      "group": 3,
+      "candidate": 0,
+      "nonce": 22660985
+    },
+    {
+      "group": 2,
+      "candidate": 0,
+      "nonce": 937627003
+    },
+    {
+      "group": 0,
+      "candidate": 1,
+      "nonce": 253101007
+    },
+    {
+      "group": 19,
+      "candidate": 0,
+      "nonce": 47055543
+    },
+    {
+      "group": 5,
+      "candidate": 1,
+      "nonce": 51649187
+    },
+    {
+      "group": 26,
+      "candidate": 1,
+      "nonce": 732831790
+    },
+    {
+      "group": 7,
+      "candidate": 0,
+      "nonce": 641845340
+    },
+    {
+      "group": 1,
+      "candidate": 0,
+      "nonce": 962166412
+    },
+    {
+      "group": 5,
+      "candidate": 0,
+      "nonce": 149068290
+    },
+    {
+      "group": 10,
+      "candidate": 0,
+      "nonce": 974671198
+    },
+    {
+      "group": 30,
+      "candidate": 1,
+      "nonce": 298317474
+    },
+    {
+      "group": 30,
+      "candidate": 0,
+      "nonce": 469822948
+    },
+    {
+      "group": 31,
+      "candidate": 1,
+      "nonce": 425397534
+    },
+    {
+      "group": 15,
+      "candidate": 1,
+      "nonce": 8223652
+    },
+    {
+      "group": 31,
+      "candidate": 0,
+      "nonce": 199020316
+    },
+    {
+      "group": 22,
+      "candidate": 0,
+      "nonce": 755445358
+    },
+    {
+      "group": 9,
+      "candidate": 1,
+      "nonce": 601683991
+    },
+    {
+      "group": 10,
+      "candidate": 1,
+      "nonce": 757202126
+    },
+    {
+      "group": 19,
+      "candidate": 1,
+      "nonce": 580919972
+    },
+    {
+      "group": 1,
+      "candidate": 1,
+      "nonce": 792905346
+    },
+    {
+      "group": 3,
+      "candidate": 0,
+      "nonce": 384336077
+    },
+    {
+      "group": 13,
+      "candidate": 1,
+      "nonce": 184515990
+    },
+    {
+      "group": 27,
+      "candidate": 1,
+      "nonce": 151173078
+    },
+    {
+      "group": 20,
+      "candidate": 0,
+      "nonce": 697357547
+    },
+    {
+      "group": 13,
+      "candidate": 0,
+      "nonce": 669588010
+    },
+    {
+      "group": 6,
+      "candidate": 0,
+      "nonce": 859313385
+    },
+    {
+      "group": 11,
+      "candidate": 0,
+      "nonce": 450723503
+    },
+    {
+      "group": 21,
+      "candidate": 0,
+      "nonce": 196624172
+    },
+    {
+      "group": 1,
+      "candidate": 1,
+      "nonce": 333219510
+    },
+    {
+      "group": 13,
+      "candidate": 1,
+      "nonce": 121914200
+    },
+    {
+      "group": 29,
+      "candidate": 0,
+      "nonce": 829923214
+    },
+    {
+      "group": 19,
+      "candidate": 0,
+      "nonce": 331276059
+    },
+    {
+      "group": 19,
+      "candidate": 1,
+      "nonce": 541536942
+    },
+    {
+      "group": 20,
+      "candidate": 1,
+      "nonce": 194194675
+    },
+    {
+      "group": 15,
+      "candidate": 0,
+      "nonce": 526991459
+    },
+    {
+      "group": 26,
+      "candidate": 1,
+      "nonce": 539814390
+    },
+    {
+      "group": 8,
+      "candidate": 0,
+      "nonce": 951780616
+    },
+    {
+      "group": 3,
+      "candidate": 0,
+      "nonce": 384826056
+    },
+    {
+      "group": 14,
+      "candidate": 0,
+      "nonce": 831575856
+    },
+    {
+      "group": 27,
+      "candidate": 1,
+      "nonce": 805321892
+    },
+    {
+      "group": 25,
+      "candidate": 1,
+      "nonce": 194903479
+    },
+    {
+      "group": 17,
+      "candidate": 0,
+      "nonce": 521919200
+    },
+    {
+      "group": 26,
+      "candidate": 0,
+      "nonce": 326803842
+    },
+    {
+      "group": 2,
+      "candidate": 1,
+      "nonce": 856524836
+    },
+    {
+      "group": 29,
+      "candidate": 1,
+      "nonce": 451830225
+    },
+    {
+      "group": 21,
+      "candidate": 0,
+      "nonce": 566801124
+    },
+    {
+      "group": 9,
+      "candidate": 1,
+      "nonce": 928960357
+    },
+    {
+      "group": 22,
+      "candidate": 1,
+      "nonce": 690000995
+    },
+    {
+      "group": 11,
+      "candidate": 1,
+      "nonce": 68202835
+    },
+    {
+      "group": 21,
+      "candidate": 0,
+      "nonce": 459777457
+    },
+    {
+      "group": 24,
+      "candidate": 0,
+      "nonce": 92281164
+    },
+    {
+      "group": 25,
+      "candidate": 1,
+      "nonce": 241235485
+    },
+    {
+      "group": 8,
+      "candidate": 1,
+      "nonce": 735300869
+    },
+    {
+      "group": 1,
+      "candidate": 1,
+      "nonce": 295751579
+    },
+    {
+      "group": 30,
+      "candidate": 1,
+      "nonce": 527481301
+    },
+    {
+      "group": 24,
+      "candidate": 0,
+      "nonce": 676224100
+    },
+    {
+      "group": 14,
+      "candidate": 1,
+      "nonce": 695776514
+    },
+    {
+      "group": 12,
+      "candidate": 0,
+      "nonce": 301470142
+    },
+    {
+      "group": 15,
+      "candidate": 0,
+      "nonce": 369034915
+    },
+    {
+      "group": 5,
+      "candidate": 0,
+      "nonce": 641983696
+    },
+    {
+      "group": 31,
+      "candidate": 1,
+      "nonce": 334133715
+    },
+    {
+      "group": 23,
+      "candidate": 1,
+      "nonce": 617998014
+    },
+    {
+      "group": 7,
+      "candidate": 0,
+      "nonce": 928403404
+    },
+    {
+      "group": 7,
+      "candidate": 0,
+      "nonce": 688793030
+    },
+    {
+      "group": 26,
+      "candidate": 1,
+      "nonce": 201126480
+    },
+    {
+      "group": 3,
+      "candidate": 1,
+      "nonce": 3351056
+    },
+    {
+      "group": 19,
+      "candidate": 1,
+      "nonce": 833190164
+    },
+    {
+      "group": 28,
+      "candidate": 0,
+      "nonce": 869793335
+    },
+    {
+      "group": 31,
+      "candidate": 1,
+      "nonce": 354131689
+    },
+    {
+      "group": 12,
+      "candidate": 1,
+      "nonce": 334253467
+    },
+    {
+      "group": 13,
+      "candidate": 0,
+      "nonce": 224860557
+    },
+    {
+      "group": 22,
+      "candidate": 1,
+      "nonce": 331058872
+    },
+    {
+      "group": 23,
+      "candidate": 1,
+      "nonce": 349167117
+    },
+    {
+      "group": 2,
+      "candidate": 0,
+      "nonce": 487746768
+    },
+    {
+      "group": 14,
+      "candidate": 0,
+      "nonce": 739332592
+    },
+    {
+      "group": 31,
+      "candidate": 0,
+      "nonce": 352794798
+    },
+    {
+      "group": 5,
+      "candidate": 0,
+      "nonce": 223462181
+    },
+    {
+      "group": 24,
+      "candidate": 0,
+      "nonce": 358946084
+    },
+    {
+      "group": 21,
+      "candidate": 0,
+      "nonce": 176918117
+    },
+    {
+      "group": 23,
+      "candidate": 0,
+      "nonce": 552764185
+    },
+    {
+      "group": 12,
+      "candidate": 1,
+      "nonce": 73526433
+    },
+    {
+      "group": 21,
+      "candidate": 1,
+      "nonce": 851607829
+    },
+    {
+      "group": 23,
+      "candidate": 1,
+      "nonce": 153655273
+    },
+    {
+      "group": 10,
+      "candidate": 0,
+      "nonce": 276881638
+    },
+    {
+      "group": 20,
+      "candidate": 0,
+      "nonce": 848953581
+    },
+    {
+      "group": 23,
+      "candidate": 0,
+      "nonce": 3581720
+    },
+    {
+      "group": 7,
+      "candidate": 0,
+      "nonce": 506520818
+    },
+    {
+      "group": 5,
+      "candidate": 1,
+      "nonce": 288404209
+    },
+    {
+      "group": 6,
+      "candidate": 1,
+      "nonce": 698535186
+    },
+    {
+      "group": 21,
+      "candidate": 1,
+      "nonce": 589878214
+    },
+    {
+      "group": 0,
+      "candidate": 1,
+      "nonce": 357389056
+    },
+    {
+      "group": 17,
+      "candidate": 1,
+      "nonce": 474998436
+    },
+    {
+      "group": 11,
+      "candidate": 1,
+      "nonce": 72316876
+    },
+    {
+      "group": 7,
+      "candidate": 1,
+      "nonce": 999544376
+    },
+    {
+      "group": 10,
+      "candidate": 0,
+      "nonce": 769581488
+    },
+    {
+      "group": 18,
+      "candidate": 1,
+      "nonce": 347482055
+    },
+    {
+      "group": 21,
+      "candidate": 0,
+      "nonce": 694281470
+    },
+    {
+      "group": 10,
+      "candidate": 0,
+      "nonce": 765444110
+    },
+    {
+      "group": 8,
+      "candidate": 1,
+      "nonce": 266526674
+    },
+    {
+      "group": 12,
+      "candidate": 1,
+      "nonce": 493520914
+    },
+    {
+      "group": 28,
+      "candidate": 0,
+      "nonce": 584468891
+    },
+    {
+      "group": 24,
+      "candidate": 0,
+      "nonce": 448651657
+    },
+    {
+      "group": 6,
+      "candidate": 1,
+      "nonce": 977540389
+    },
+    {
+      "group": 8,
+      "candidate": 1,
+      "nonce": 447174355
+    },
+    {
+      "group": 9,
+      "candidate": 0,
+      "nonce": 603324878
+    },
+    {
+      "group": 9,
+      "candidate": 0,
+      "nonce": 651482787
+    },
+    {
+      "group": 9,
+      "candidate": 1,
+      "nonce": 767391229
+    },
+    {
+      "group": 10,
+      "candidate": 1,
+      "nonce": 912800789
+    },
+    {
+      "group": 26,
+      "candidate": 0,
+      "nonce": 380242443
+    },
+    {
+      "group": 29,
+      "candidate": 0,
+      "nonce": 906002947
+    },
+    {
+      "group": 8,
+      "candidate": 1,
+      "nonce": 474749550
+    },
+    {
+      "group": 17,
+      "candidate": 0,
+      "nonce": 193843255
+    },
+    {
+      "group": 6,
+      "candidate": 1,
+      "nonce": 4759010
+    },
+    {
+      "group": 23,
+      "candidate": 0,
+      "nonce": 541932318
+    },
+    {
+      "group": 1,
+      "candidate": 0,
+      "nonce": 191070582
+    },
+    {
+      "group": 9,
+      "candidate": 0,
+      "nonce": 738968632
+    },
+    {
+      "group": 15,
+      "candidate": 1,
+      "nonce": 208707372
+    },
+    {
+      "group": 20,
+      "candidate": 1,
+      "nonce": 393397724
+    },
+    {
+      "group": 25,
+      "candidate": 1,
+      "nonce": 592739155
+    },
+    {
+      "group": 27,
+      "candidate": 1,
+      "nonce": 801118331
+    },
+    {
+      "group": 3,
+      "candidate": 0,
+      "nonce": 281870781
+    },
+    {
+      "group": 24,
+      "candidate": 1,
+      "nonce": 488922580
+    },
+    {
+      "group": 19,
+      "candidate": 0,
+      "nonce": 743967636
+    },
+    {
+      "group": 9,
+      "candidate": 1,
+      "nonce": 406777632
+    },
+    {
+      "group": 23,
+      "candidate": 0,
+      "nonce": 109699775
+    },
+    {
+      "group": 12,
+      "candidate": 1,
+      "nonce": 255776933
+    },
+    {
+      "group": 19,
+      "candidate": 0,
+      "nonce": 652814949
+    },
+    {
+      "group": 31,
+      "candidate": 0,
+      "nonce": 534616071
+    },
+    {
+      "group": 18,
+      "candidate": 0,
+      "nonce": 301350278
+    },
+    {
+      "group": 25,
+      "candidate": 0,
+      "nonce": 947020712
+    },
+    {
+      "group": 29,
+      "candidate": 1,
+      "nonce": 60447056
+    },
+    {
+      "group": 29,
+      "candidate": 0,
+      "nonce": 723222311
+    },
+    {
+      "group": 0,
+      "candidate": 0,
+      "nonce": 895984642
+    },
+    {
+      "group": 12,
+      "candidate": 1,
+      "nonce": 79578614
+    },
+    {
+      "group": 8,
+      "candidate": 1,
+      "nonce": 927147414
+    },
+    {
+      "group": 9,
+      "candidate": 0,
+      "nonce": 682381182
+    },
+    {
+      "group": 0,
+      "candidate": 0,
+      "nonce": 60052934
+    },
+    {
+      "group": 24,
+      "candidate": 1,
+      "nonce": 158268811
+    },
+    {
+      "group": 18,
+      "candidate": 0,
+      "nonce": 505948844
+    },
+    {
+      "group": 31,
+      "candidate": 0,
+      "nonce": 992751736
+    },
+    {
+      "group": 31,
+      "candidate": 0,
+      "nonce": 704689031
+    },
+    {
+      "group": 18,
+      "candidate": 1,
+      "nonce": 583123672
+    },
+    {
+      "group": 14,
+      "candidate": 1,
+      "nonce": 108074001
+    },
+    {
+      "group": 18,
+      "candidate": 1,
+      "nonce": 431575608
+    },
+    {
+      "group": 26,
+      "candidate": 1,
+      "nonce": 665507518
+    },
+    {
+      "group": 22,
+      "candidate": 1,
+      "nonce": 139248468
+    },
+    {
+      "group": 7,
+      "candidate": 1,
+      "nonce": 228887557
+    },
+    {
+      "group": 31,
+      "candidate": 0,
+      "nonce": 231555430
+    },
+    {
+      "group": 0,
+      "candidate": 0,
+      "nonce": 759851492
+    },
+    {
+      "group": 26,
+      "candidate": 1,
+      "nonce": 633221322
+    },
+    {
+      "group": 12,
+      "candidate": 1,
+      "nonce": 803187460
+    },
+    {
+      "group": 7,
+      "candidate": 1,
+      "nonce": 157662428
+    },
+    {
+      "group": 30,
+      "candidate": 0,
+      "nonce": 166165778
+    },
+    {
+      "group": 18,
+      "candidate": 1,
+      "nonce": 876808032
+    },
+    {
+      "group": 11,
+      "candidate": 1,
+      "nonce": 959676578
+    },
+    {
+      "group": 18,
+      "candidate": 0,
+      "nonce": 509599851
+    },
+    {
+      "group": 19,
+      "candidate": 0,
+      "nonce": 931458240
+    },
+    {
+      "group": 19,
+      "candidate": 0,
+      "nonce": 356153992
+    },
+    {
+      "group": 7,
+      "candidate": 0,
+      "nonce": 176625577
+    },
+    {
+      "group": 30,
+      "candidate": 0,
+      "nonce": 825463978
+    },
+    {
+      "group": 0,
+      "candidate": 0,
+      "nonce": 562010633
+    },
+    {
+      "group": 27,
+      "candidate": 1,
+      "nonce": 866154847
+    },
+    {
+      "group": 3,
+      "candidate": 1,
+      "nonce": 9986112
+    },
+    {
+      "group": 6,
+      "candidate": 1,
+      "nonce": 758895106
+    },
+    {
+      "group": 2,
+      "candidate": 1,
+      "nonce": 471541260
+    },
+    {
+      "group": 4,
+      "candidate": 0,
+      "nonce": 165413217
+    },
+    {
+      "group": 18,
+      "candidate": 1,
+      "nonce": 373103007
+    },
+    {
+      "group": 24,
+      "candidate": 1,
+      "nonce": 413993052
+    },
+    {
+      "group": 1,
+      "candidate": 1,
+      "nonce": 910700092
+    },
+    {
+      "group": 13,
+      "candidate": 0,
+      "nonce": 511054895
+    },
+    {
+      "group": 23,
+      "candidate": 0,
+      "nonce": 357361016
+    },
+    {
+      "group": 28,
+      "candidate": 1,
+      "nonce": 443748641
+    },
+    {
+      "group": 8,
+      "candidate": 1,
+      "nonce": 168874484
+    },
+    {
+      "group": 20,
+      "candidate": 0,
+      "nonce": 531690913
+    },
+    {
+      "group": 2,
+      "candidate": 1,
+      "nonce": 99073167
+    },
+    {
+      "group": 25,
+      "candidate": 1,
+      "nonce": 286317772
+    },
+    {
+      "group": 27,
+      "candidate": 0,
+      "nonce": 223645149
+    },
+    {
+      "group": 15,
+      "candidate": 0,
+      "nonce": 435394580
+    },
+    {
+      "group": 20,
+      "candidate": 0,
+      "nonce": 823021918
+    },
+    {
+      "group": 0,
+      "candidate": 0,
+      "nonce": 288146563
+    },
+    {
+      "group": 1,
+      "candidate": 0,
+      "nonce": 83619987
+    },
+    {
+      "group": 5,
+      "candidate": 1,
+      "nonce": 495661056
+    },
+    {
+      "group": 27,
+      "candidate": 0,
+      "nonce": 693842937
+    },
+    {
+      "group": 30,
+      "candidate": 0,
+      "nonce": 424938875
+    },
+    {
+      "group": 11,
+      "candidate": 1,
+      "nonce": 220764177
+    },
+    {
+      "group": 21,
+      "candidate": 1,
+      "nonce": 635885396
+    },
+    {
+      "group": 9,
+      "candidate": 0,
+      "nonce": 584771607
+    },
+    {
+      "group": 11,
+      "candidate": 1,
+      "nonce": 259364632
+    },
+    {
+      "group": 25,
+      "candidate": 0,
+      "nonce": 803591083
+    },
+    {
+      "group": 17,
+      "candidate": 0,
+      "nonce": 482194348
+    },
+    {
+      "group": 1,
+      "candidate": 0,
+      "nonce": 207857288
+    },
+    {
+      "group": 26,
+      "candidate": 0,
+      "nonce": 341346504
+    },
+    {
+      "group": 31,
+      "candidate": 0,
+      "nonce": 677795026
+    },
+    {
+      "group": 13,
+      "candidate": 0,
+      "nonce": 267332493
+    },
+    {
+      "group": 27,
+      "candidate": 1,
+      "nonce": 485636438
+    },
+    {
+      "group": 17,
+      "candidate": 1,
+      "nonce": 453176377
+    },
+    {
+      "group": 1,
+      "candidate": 1,
+      "nonce": 243338692
+    },
+    {
+      "group": 31,
+      "candidate": 0,
+      "nonce": 127564935
+    },
+    {
+      "group": 20,
+      "candidate": 1,
+      "nonce": 686924426
+    },
+    {
+      "group": 13,
+      "candidate": 1,
+      "nonce": 978959575
+    },
+    {
+      "group": 19,
+      "candidate": 0,
+      "nonce": 590351571
+    },
+    {
+      "group": 27,
+      "candidate": 0,
+      "nonce": 926003383
+    },
+    {
+      "group": 0,
+      "candidate": 0,
+      "nonce": 346347141
+    },
+    {
+      "group": 10,
+      "candidate": 0,
+      "nonce": 916713142
+    },
+    {
+      "group": 27,
+      "candidate": 0,
+      "nonce": 922115162
+    },
+    {
+      "group": 0,
+      "candidate": 0,
+      "nonce": 105120838
+    },
+    {
+      "group": 2,
+      "candidate": 1,
+      "nonce": 763076858
+    },
+    {
+      "group": 25,
+      "candidate": 1,
+      "nonce": 703862585
+    },
+    {
+      "group": 28,
+      "candidate": 1,
+      "nonce": 877130036
+    },
+    {
+      "group": 24,
+      "candidate": 1,
+      "nonce": 809639768
+    },
+    {
+      "group": 20,
+      "candidate": 0,
+      "nonce": 236689900
+    },
+    {
+      "group": 29,
+      "candidate": 1,
+      "nonce": 627571678
+    },
+    {
+      "group": 0,
+      "candidate": 0,
+      "nonce": 348329664
+    },
+    {
+      "group": 6,
+      "candidate": 0,
+      "nonce": 88353404
+    },
+    {
+      "group": 12,
+      "candidate": 0,
+      "nonce": 889492554
+    },
+    {
+      "group": 19,
+      "candidate": 1,
+      "nonce": 417496463
+    },
+    {
+      "group": 0,
+      "candidate": 1,
+      "nonce": 792874546
+    },
+    {
+      "group": 9,
+      "candidate": 1,
+      "nonce": 606576150
+    },
+    {
+      "group": 28,
+      "candidate": 1,
+      "nonce": 879443519
+    },
+    {
+      "group": 27,
+      "candidate": 0,
+      "nonce": 415831997
+    },
+    {
+      "group": 10,
+      "candidate": 1,
+      "nonce": 824825419
+    },
+    {
+      "group": 0,
+      "candidate": 0,
+      "nonce": 856790042
+    },
+    {
+      "group": 23,
+      "candidate": 0,
+      "nonce": 282646076
+    },
+    {
+      "group": 3,
+      "candidate": 1,
+      "nonce": 573326718
+    },
+    {
+      "group": 26,
+      "candidate": 0,
+      "nonce": 265170600
+    },
+    {
+      "group": 26,
+      "candidate": 0,
+      "nonce": 716095971
+    },
+    {
+      "group": 15,
+      "candidate": 1,
+      "nonce": 108767014
+    },
+    {
+      "group": 25,
+      "candidate": 1,
+      "nonce": 88778593
+    },
+    {
+      "group": 5,
+      "candidate": 0,
+      "nonce": 29818699
+    },
+    {
+      "group": 11,
+      "candidate": 1,
+      "nonce": 459657462
+    },
+    {
+      "group": 24,
+      "candidate": 0,
+      "nonce": 604735516
+    },
+    {
+      "group": 22,
+      "candidate": 1,
+      "nonce": 507519014
+    },
+    {
+      "group": 25,
+      "candidate": 0,
+      "nonce": 737043665
+    },
+    {
+      "group": 30,
+      "candidate": 0,
+      "nonce": 340000594
+    },
+    {
+      "group": 24,
+      "candidate": 0,
+      "nonce": 327623683
+    },
+    {
+      "group": 18,
+      "candidate": 1,
+      "nonce": 316293745
+    },
+    {
+      "group": 17,
+      "candidate": 0,
+      "nonce": 132324504
+    },
+    {
+      "group": 20,
+      "candidate": 0,
+      "nonce": 9448425
+    },
+    {
+      "group": 9,
+      "candidate": 1,
+      "nonce": 39378790
+    },
+    {
+      "group": 25,
+      "candidate": 1,
+      "nonce": 758607963
+    },
+    {
+      "group": 1,
+      "candidate": 0,
+      "nonce": 887736086
+    },
+    {
+      "group": 30,
+      "candidate": 1,
+      "nonce": 88540093
+    },
+    {
+      "group": 6,
+      "candidate": 1,
+      "nonce": 179086138
+    },
+    {
+      "group": 12,
+      "candidate": 0,
+      "nonce": 552888482
+    },
+    {
+      "group": 5,
+      "candidate": 1,
+      "nonce": 939282083
+    },
+    {
+      "group": 19,
+      "candidate": 1,
+      "nonce": 381495954
+    },
+    {
+      "group": 7,
+      "candidate": 1,
+      "nonce": 195827229
+    },
+    {
+      "group": 26,
+      "candidate": 1,
+      "nonce": 875465090
+    },
+    {
+      "group": 14,
+      "candidate": 1,
+      "nonce": 548746012
+    },
+    {
+      "group": 12,
+      "candidate": 1,
+      "nonce": 966435603
+    },
+    {
+      "group": 23,
+      "candidate": 1,
+      "nonce": 120985162
+    },
+    {
+      "group": 28,
+      "candidate": 0,
+      "nonce": 686919681
+    },
+    {
+      "group": 29,
+      "candidate": 0,
+      "nonce": 480692082
+    },
+    {
+      "group": 25,
+      "candidate": 1,
+      "nonce": 272322341
+    },
+    {
+      "group": 17,
+      "candidate": 0,
+      "nonce": 789947037
+    },
+    {
+      "group": 6,
+      "candidate": 1,
+      "nonce": 2751972
+    },
+    {
+      "group": 15,
+      "candidate": 1,
+      "nonce": 631713141
+    },
+    {
+      "group": 18,
+      "candidate": 0,
+      "nonce": 25121967
+    },
+    {
+      "group": 12,
+      "candidate": 1,
+      "nonce": 285873110
+    },
+    {
+      "group": 21,
+      "candidate": 1,
+      "nonce": 68967258
+    },
+    {
+      "group": 28,
+      "candidate": 1,
+      "nonce": 364391687
+    },
+    {
+      "group": 28,
+      "candidate": 0,
+      "nonce": 596267609
+    },
+    {
+      "group": 15,
+      "candidate": 1,
+      "nonce": 76696144
+    },
+    {
+      "group": 17,
+      "candidate": 0,
+      "nonce": 580054412
+    },
+    {
+      "group": 2,
+      "candidate": 0,
+      "nonce": 47686105
+    },
+    {
+      "group": 27,
+      "candidate": 0,
+      "nonce": 227112062
+    },
+    {
+      "group": 26,
+      "candidate": 0,
+      "nonce": 696138353
+    },
+    {
+      "group": 0,
+      "candidate": 1,
+      "nonce": 976792775
+    },
+    {
+      "group": 14,
+      "candidate": 1,
+      "nonce": 239212262
+    },
+    {
+      "group": 28,
+      "candidate": 0,
+      "nonce": 980957097
+    },
+    {
+      "group": 9,
+      "candidate": 1,
+      "nonce": 675011584
+    },
+    {
+      "group": 3,
+      "candidate": 0,
+      "nonce": 758610859
+    },
+    {
+      "group": 6,
+      "candidate": 1,
+      "nonce": 333301579
+    },
+    {
+      "group": 5,
+      "candidate": 0,
+      "nonce": 8628371
+    },
+    {
+      "group": 7,
+      "candidate": 1,
+      "nonce": 870238161
+    },
+    {
+      "group": 4,
+      "candidate": 1,
+      "nonce": 663651182
+    },
+    {
+      "group": 26,
+      "candidate": 0,
+      "nonce": 766532613
+    },
+    {
+      "group": 13,
+      "candidate": 0,
+      "nonce": 398854270
+    },
+    {
+      "group": 7,
+      "candidate": 0,
+      "nonce": 722420307
+    },
+    {
+      "group": 18,
+      "candidate": 1,
+      "nonce": 731136694
+    },
+    {
+      "group": 21,
+      "candidate": 0,
+      "nonce": 582193171
+    },
+    {
+      "group": 30,
+      "candidate": 1,
+      "nonce": 194197599
+    },
+    {
+      "group": 27,
+      "candidate": 0,
+      "nonce": 992037307
+    },
+    {
+      "group": 3,
+      "candidate": 1,
+      "nonce": 949068569
+    },
+    {
+      "group": 29,
+      "candidate": 1,
+      "nonce": 719021105
+    },
+    {
+      "group": 10,
+      "candidate": 1,
+      "nonce": 528093278
+    },
+    {
+      "group": 3,
+      "candidate": 1,
+      "nonce": 570208403
+    },
+    {
+      "group": 7,
+      "candidate": 0,
+      "nonce": 279994163
+    },
+    {
+      "group": 12,
+      "candidate": 0,
+      "nonce": 39023347
+    },
+    {
+      "group": 19,
+      "candidate": 0,
+      "nonce": 457815509
+    },
+    {
+      "group": 29,
+      "candidate": 0,
+      "nonce": 500660875
+    },
+    {
+      "group": 22,
+      "candidate": 0,
+      "nonce": 213803592
+    },
+    {
+      "group": 29,
+      "candidate": 0,
+      "nonce": 941307901
+    },
+    {
+      "group": 23,
+      "candidate": 1,
+      "nonce": 788347273
+    },
+    {
+      "group": 8,
+      "candidate": 0,
+      "nonce": 277742907
+    },
+    {
+      "group": 9,
+      "candidate": 1,
+      "nonce": 540168380
+    },
+    {
+      "group": 29,
+      "candidate": 1,
+      "nonce": 865190482
+    },
+    {
+      "group": 2,
+      "candidate": 1,
+      "nonce": 83334302
+    },
+    {
+      "group": 27,
+      "candidate": 0,
+      "nonce": 97480176
+    }
+  ],
+  "scope": "DEV relation-producer pilot only; no three-seed or end-to-end-policy claim",
+  "source_sha256": "c3d6df2de82610bc6759f0eb0e79f25aad2885d5594ecd0cda999c93b9696de5"
+}

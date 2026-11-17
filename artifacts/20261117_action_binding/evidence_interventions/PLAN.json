@@ -1,0 +1,19 @@
+{
+  "modes": [
+    "self",
+    "identity",
+    "swap_estimates",
+    "erase_estimates",
+    "irrelevant_tag"
+  ],
+  "source_sha256": "533f455cfe9df507bf9e6a0549845a075891f97806343d4be15706af14bf2b7c",
+  "model": "learned_evidence evidence final",
+  "scope": "Planner-only same-DEV causal text-channel diagnostic, not internal activation interchange or full rollout",
+  "teacher_estimates": false,
+  "conditions": [
+    "base",
+    "depth2",
+    "depth3"
+  ],
+  "additional_note": "All modes reuse the same model-generated estimates; no resampling to improve them."
+}

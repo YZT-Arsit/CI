@@ -7,7 +7,14 @@
 
 ## 当前进度
 
-最新报告：[关系泛化与安全—效用修复](artifacts/20261116_relation_solution/REPORT.md)，通俗方案见 [SOLUTION.md](artifacts/20261116_relation_solution/SOLUTION.md)。
+最新报告：[关系判断进入行动：CPU 修复与审计](artifacts/20261117_action_binding/REPORT.md)，通俗方案见 [SOLUTION.md](artifacts/20261117_action_binding/SOLUTION.md)。
+同一语言模型的自预测关系判断已在有限一跳任务中显示对行动的因果作用；补齐等价状态监督并平衡查询标签后，一跳完整回合得到 8/8 配对成功，但更深关系和部分安全条件仍失败。**GPU 大批量 NO_GO，完整研究目标尚未完成。**
+外部 τ²-bench 已完成 114 个标注计划的原生执行核验；这不是模型自主协作，也没有达到 32 步。GitLab 官方规范已固定来源并建立 28 个条款级模型审查案例，跨任务有效性仍未验证。187 项回归通过，失败结果与审计边界均保留。
+原始记录、检查点和复核命令见 [复跑说明](artifacts/20261117_action_binding/REPRODUCE.md)；运行 `python -B tools/restore_action_binding_artifacts.py` 恢复本轮无损压缩的 JSONL。
+
+以下保留上一轮结果：
+
+上一轮报告：[关系泛化与安全—效用修复](artifacts/20261116_relation_solution/REPORT.md)，通俗方案见 [SOLUTION.md](artifacts/20261116_relation_solution/SOLUTION.md)。
 采用外部任务计算与自建配对干预，建立 1,152 个训练世界、5,760 个状态和 13,824 个动作标签；新增 8 个外部会议实例均核验原始计算结果。
 修复 Source 任务依赖编码与实体表示误匹配后，结构参考模型在新的 3,360 个完整条件回合中全部符合各自验收标准，原生输出迁移 384/384；它仍具有明确提供的组合结构和局部关系监督。
 本轮训练了 9 个 SmolLM2-135M CPU LoRA 检查点，语言模型仍未通过关系学习门槛，**GPU 大批量 NO-GO**。180 项回归通过；直接学习的不稳定种子、证明幻觉和所有负结果保留。

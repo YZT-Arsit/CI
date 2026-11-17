@@ -1,0 +1,33 @@
+{
+  "complete": true,
+  "completed_calls": 12,
+  "request_failure": null,
+  "conditions": {
+    "history1": {
+      "groups": 2,
+      "both_valid": 2,
+      "both_correct": 0,
+      "same_action": 2,
+      "reversed_both_wrong": 0,
+      "invalid_groups": 0
+    },
+    "history3": {
+      "groups": 2,
+      "both_valid": 2,
+      "both_correct": 0,
+      "same_action": 1,
+      "reversed_both_wrong": 1,
+      "invalid_groups": 0
+    },
+    "internal3": {
+      "groups": 2,
+      "both_valid": 2,
+      "both_correct": 0,
+      "same_action": 1,
+      "reversed_both_wrong": 1,
+      "invalid_groups": 0
+    }
+  },
+  "whole_goal_complete": false,
+  "model_release": "keep_alive expires two minutes after last request"
+}

@@ -1,0 +1,12 @@
+{
+  "models": [
+    "query_independent",
+    "query_paired_margin",
+    "actor_direct",
+    "actor_query_warmup"
+  ],
+  "source_sha256": "e02b19d8abb4f10a4e8f197c75e0633bde1bfb6c248b44ddc779da5ec163caec",
+  "dataset_sha256": "bfc2dd0ebba296eb459ff10293df76012361306d85e09cbb1fb2360a7a5dd395",
+  "scope": "additional DEV challenge; no training or model selection",
+  "no_teacher_or_mask": true
+}

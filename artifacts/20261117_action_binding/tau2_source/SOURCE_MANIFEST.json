@@ -1,0 +1,155 @@
+{
+  "repository": "https://github.com/sierra-research/tau2-bench",
+  "revision": "37199f36924c8896f5e048360691f8476cd89ba1",
+  "date": "2025-06-10T15:37:35Z",
+  "subset_only": true,
+  "license": "MIT",
+  "scope": "unmodified selected environment source and published tasks; no successful learned policy claim",
+  "files": [
+    {
+      "path": "LICENSE",
+      "git_blob_sha": "f0323a32227c1327820da33d2fb9d3338a27ac84",
+      "bytes": 1072
+    },
+    {
+      "path": "data/tau2/domains/telecom/db.toml",
+      "git_blob_sha": "6c8a639d85896a049a5daf87332107a840a55aac",
+      "bytes": 9628
+    },
+    {
+      "path": "data/tau2/domains/telecom/main_policy.md",
+      "git_blob_sha": "c55f5bd10c49a3d0b48f6e83a3168e6242fb2be7",
+      "bytes": 5699
+    },
+    {
+      "path": "data/tau2/domains/telecom/tasks.json",
+      "git_blob_sha": "87b904294c773f6f937777e375179d0343b4f541",
+      "bytes": 659069
+    },
+    {
+      "path": "data/tau2/domains/telecom/tasks_small.json",
+      "git_blob_sha": "42edfc08d208b008ff68b41b40ebd0de560c1842",
+      "bytes": 83833
+    },
+    {
+      "path": "data/tau2/domains/telecom/tech_support_manual.md",
+      "git_blob_sha": "b64a9f1433bfb62bdaf9e5c1d90c10e833b26c17",
+      "bytes": 17589
+    },
+    {
+      "path": "data/tau2/domains/telecom/user_db.toml",
+      "git_blob_sha": "1def9a98eabf1d4a5fc95a67387ec294f56196d8",
+      "bytes": 933
+    },
+    {
+      "path": "pyproject.toml",
+      "git_blob_sha": "d04e91d2d2251294169a878fed48aa16cdcd7c89",
+      "bytes": 1082
+    },
+    {
+      "path": "src/tau2/__init__.py",
+      "git_blob_sha": "8b137891791fe96927ad78e64b0aad7bded08bdc",
+      "bytes": 1
+    },
+    {
+      "path": "src/tau2/data_model/__init__.py",
+      "git_blob_sha": "8b137891791fe96927ad78e64b0aad7bded08bdc",
+      "bytes": 1
+    },
+    {
+      "path": "src/tau2/data_model/message.py",
+      "git_blob_sha": "479e876a9be8cb4da5e6cfe2e42c44bf8369705b",
+      "bytes": 7525
+    },
+    {
+      "path": "src/tau2/data_model/tasks.py",
+      "git_blob_sha": "15a6fa28e86f9c91b7feecdc5ab2beb486762a4f",
+      "bytes": 16167
+    },
+    {
+      "path": "src/tau2/domains/__init__.py",
+      "git_blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "bytes": 0
+    },
+    {
+      "path": "src/tau2/domains/telecom/__init__.py",
+      "git_blob_sha": "fca0cd456af18fe57ff5338962704bdb2eb7b701",
+      "bytes": 19
+    },
+    {
+      "path": "src/tau2/domains/telecom/data_model.py",
+      "git_blob_sha": "54e95d47c9e73da268bc7ac4d7969d4f8a03f013",
+      "bytes": 9418
+    },
+    {
+      "path": "src/tau2/domains/telecom/environment.py",
+      "git_blob_sha": "918768c87bf4414de86890bf39b7a9429197632d",
+      "bytes": 6447
+    },
+    {
+      "path": "src/tau2/domains/telecom/tools.py",
+      "git_blob_sha": "c531b4c717233285271f3c4039961a6a8e562ed6",
+      "bytes": 26442
+    },
+    {
+      "path": "src/tau2/domains/telecom/user_data_model.py",
+      "git_blob_sha": "78288cfc3f27cef39b4f7016d6b4646480338ecf",
+      "bytes": 15172
+    },
+    {
+      "path": "src/tau2/domains/telecom/user_tools.py",
+      "git_blob_sha": "a79447b0af1abbe23caeaaefa79b34432279f942",
+      "bytes": 48531
+    },
+    {
+      "path": "src/tau2/domains/telecom/utils.py",
+      "git_blob_sha": "5f444347376bf4b8aa3a457d00d2cc76bcea7c23",
+      "bytes": 1159
+    },
+    {
+      "path": "src/tau2/environment/__init__.py",
+      "git_blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "bytes": 0
+    },
+    {
+      "path": "src/tau2/environment/db.py",
+      "git_blob_sha": "5a4122a575449d2e8f531399f77391a237b6d958",
+      "bytes": 1267
+    },
+    {
+      "path": "src/tau2/environment/environment.py",
+      "git_blob_sha": "d9d5edae48cafec1a2204ef49e80549e9317ceb6",
+      "bytes": 14558
+    },
+    {
+      "path": "src/tau2/environment/tool.py",
+      "git_blob_sha": "cf55463cbac9286f36f5b01f5c799d5b0b50da88",
+      "bytes": 8092
+    },
+    {
+      "path": "src/tau2/environment/toolkit.py",
+      "git_blob_sha": "71cbe30209350fa29fddffcf7613b03e365ae541",
+      "bytes": 6814
+    },
+    {
+      "path": "src/tau2/utils/__init__.py",
+      "git_blob_sha": "c05609078c0d0e4a5b3ae1e9cf1e820b8e6426b2",
+      "bytes": 181
+    },
+    {
+      "path": "src/tau2/utils/io_utils.py",
+      "git_blob_sha": "a8bd9480c7c1f42ba44f47355294aae84a4628e2",
+      "bytes": 2756
+    },
+    {
+      "path": "src/tau2/utils/pydantic_utils.py",
+      "git_blob_sha": "5c34acd8580d2481fde05352de8232184c890ae1",
+      "bytes": 927
+    },
+    {
+      "path": "src/tau2/utils/utils.py",
+      "git_blob_sha": "76d2f1fc25c07cc3ebcc9bd16832ef24bff4b428",
+      "bytes": 1473
+    }
+  ]
+}

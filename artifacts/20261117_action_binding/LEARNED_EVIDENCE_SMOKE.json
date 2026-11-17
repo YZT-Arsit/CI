@@ -1,0 +1,23 @@
+{
+  "shared_loss_role_checks": [
+    {
+      "role": "Planner",
+      "finite_nonzero_gradient": true,
+      "seconds": 2.0576535059999514
+    },
+    {
+      "role": "Source",
+      "finite_nonzero_gradient": true,
+      "seconds": 1.8256019039999956
+    },
+    {
+      "role": "Worker",
+      "finite_nonzero_gradient": true,
+      "seconds": 2.3144114240001272
+    }
+  ],
+  "different_future_labels_decision_logit_max_difference": 0.0,
+  "actor_estimates_match_action_order": true,
+  "training_worker_source_sha256": "aee9664d6880fe716d6bf3cf99fa31ca76d0768a546272e047e77b9cea13d663",
+  "errors": 0
+}

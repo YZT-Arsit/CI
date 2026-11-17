@@ -1,0 +1,32 @@
+{
+  "train_chain_depths": [
+    1,
+    2,
+    3
+  ],
+  "train_pairs_per_depth": 16,
+  "train_worlds": 96,
+  "train_states": 480,
+  "dev_worlds": 80,
+  "paired_conditions": [
+    "base",
+    "depth2",
+    "depth3",
+    "depth4",
+    "depth6",
+    "internal3",
+    "cycle4",
+    "cycle8"
+  ],
+  "norm_control_depth": 2,
+  "independent_label_states_checked": 880,
+  "train_dev_groups_disjoint": true,
+  "internal_or_cycle_training": false,
+  "required_renderer": "kci.relation_language.prompt with edge/fact/option shuffling and fresh entity aliases",
+  "scope": "new DEV chain-length curriculum, with unseen topology families; no global proof or three-seed claim",
+  "files": {
+    "dev_worlds.json": "6ab05495821ebbf1236359637707933ccf85c4f9cd924e8c3e26aa01889a70ef",
+    "train.json": "aabb96b7d8f21ae468b2e8b322c4b2133e7dd884c2c8d82967e5e61668e7d01a"
+  },
+  "source_sha256": "c741751e4fd8fb77ac304cde29eef28dbcfcda38e8f8dde9aea2d83985e2f085"
+}

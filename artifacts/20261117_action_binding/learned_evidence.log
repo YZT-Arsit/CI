@@ -1,0 +1,36 @@
+{"arm": "auxiliary", "step": 50, "query_loss": 0.001414297497831285, "actor_loss": 0.004255953710526228, "seconds": 1.6749564360000022, "input_tokens": 1216}
+{"arm": "auxiliary", "step": 100, "query_loss": 0.4261725842952728, "actor_loss": 0.7826573252677917, "seconds": 2.214634674000081, "input_tokens": 1646}
+{"arm": "auxiliary", "step": 150, "query_loss": 0.00011552638170542195, "actor_loss": 0.00037805846659466624, "seconds": 1.6294611769999392, "input_tokens": 1216}
+{"arm": "auxiliary", "step": 200, "query_loss": 1.0128157138824463, "actor_loss": 2.189577579498291, "seconds": 2.358603574999961, "input_tokens": 1646}
+{"arm": "auxiliary", "step": 250, "query_loss": 0.010675810277462006, "actor_loss": 0.0045044613070786, "seconds": 1.6117183400001522, "input_tokens": 1216}
+{"arm": "auxiliary", "step": 300, "query_loss": 0.044286374002695084, "actor_loss": 0.044384025037288666, "seconds": 2.037330510999709, "input_tokens": 1614}
+{"arm": "auxiliary", "step": 350, "query_loss": 0.0005427387077361345, "actor_loss": 0.0003443087625782937, "seconds": 1.671120673999667, "input_tokens": 1264}
+{"arm": "auxiliary", "step": 400, "query_loss": 0.39123988151550293, "actor_loss": 1.5547336339950562, "seconds": 2.3709307680001075, "input_tokens": 1710}
+{"arm": "auxiliary", "condition": "base", "episodes": 8, "safe_success": 4, "strict_success": 4, "invalid": 0, "invalid_queries": 0, "valid_ci": 8, "raw_sha256": "9148c32356f1e99f9c9ff457f14fb785fe32fe94a0a2c98cab9900804c9675c1"}
+{"arm": "auxiliary", "condition": "base_swap", "episodes": 8, "safe_success": 5, "strict_success": 5, "invalid": 0, "invalid_queries": 0, "valid_ci": 8, "raw_sha256": "5242464c200cc9ecedb8f5a37a604df0e2b189b1fb622693ac9d8d2292577ad1"}
+{"arm": "auxiliary", "condition": "depth2", "episodes": 8, "safe_success": 3, "strict_success": 3, "invalid": 0, "invalid_queries": 0, "valid_ci": 6, "raw_sha256": "5334bafd9dcee9d191181f75efdd8f2d271e1d329e093554e100421eaceee10b"}
+{"arm": "auxiliary", "condition": "depth2_swap", "episodes": 8, "safe_success": 3, "strict_success": 3, "invalid": 0, "invalid_queries": 0, "valid_ci": 6, "raw_sha256": "fac9817193df9a7c85f63224414ee3a5e861671f06d86f6931f8c6677eb758f9"}
+{"arm": "auxiliary", "condition": "depth3", "episodes": 8, "safe_success": 1, "strict_success": 1, "invalid": 0, "invalid_queries": 0, "valid_ci": 4, "raw_sha256": "4df0cb8d54541b8906353623880ec534b943d527dcf2eab62506b4ff46cc7e5a"}
+{"arm": "auxiliary", "condition": "depth3_swap", "episodes": 8, "safe_success": 4, "strict_success": 4, "invalid": 0, "invalid_queries": 0, "valid_ci": 6, "raw_sha256": "f3e517a49978d75afe90aed838ce755c4ada31024b6874a85505bc938d7f2acd"}
+{"arm": "auxiliary", "condition": "optional", "episodes": 8, "safe_success": 8, "strict_success": 8, "invalid": 0, "invalid_queries": 0, "valid_ci": 8, "raw_sha256": "eb19fea04103cb657179cd7e745b473196d2482b836be6cfc86057f9ae75f416"}
+{"arm": "auxiliary", "condition": "authorized", "episodes": 8, "safe_success": 3, "strict_success": 3, "invalid": 0, "invalid_queries": 0, "valid_ci": 8, "raw_sha256": "b86819a68108a1c737d5f08568c6d4455112ebe5258a9d864ba1b65dcc78a3e6"}
+{"arm": "auxiliary", "condition": "draft", "episodes": 8, "safe_success": 5, "strict_success": 5, "invalid": 0, "invalid_queries": 0, "valid_ci": 8, "raw_sha256": "e1e150837075207a2f17b7e6459b0fd7479671f08793841b3fa02907f45c7b14"}
+{"arm": "auxiliary", "condition": "both", "episodes": 8, "safe_success": 0, "strict_success": 0, "invalid": 0, "invalid_queries": 0, "valid_ci": 5, "raw_sha256": "7424878620a499557982ae60d4480c3464ac46a97d16c6f0212632a9b5e9a88f"}
+{"arm": "evidence", "step": 50, "query_loss": 0.00020687049254775047, "actor_loss": 0.0014202856691554189, "seconds": 1.7516663829997015, "input_tokens": 1254}
+{"arm": "evidence", "step": 100, "query_loss": 0.4741807281970978, "actor_loss": 3.1343181133270264, "seconds": 2.265450487999715, "input_tokens": 1692}
+{"arm": "evidence", "step": 150, "query_loss": 0.00012645969400182366, "actor_loss": 0.003898703958839178, "seconds": 1.6855875609999202, "input_tokens": 1254}
+{"arm": "evidence", "step": 200, "query_loss": 1.5882036685943604, "actor_loss": 3.7841410636901855, "seconds": 2.262856495000051, "input_tokens": 1692}
+{"arm": "evidence", "step": 250, "query_loss": 0.001994889695197344, "actor_loss": 0.0007051729480735958, "seconds": 1.6801264559999254, "input_tokens": 1254}
+{"arm": "evidence", "step": 300, "query_loss": 1.5420867204666138, "actor_loss": 0.4485495686531067, "seconds": 2.32036579600026, "input_tokens": 1660}
+{"arm": "evidence", "step": 350, "query_loss": 0.0009877192787826061, "actor_loss": 0.0017371638678014278, "seconds": 1.7250226439996368, "input_tokens": 1302}
+{"arm": "evidence", "step": 400, "query_loss": 0.6441233158111572, "actor_loss": 0.8098715543746948, "seconds": 2.2504465289998734, "input_tokens": 1756}
+{"arm": "evidence", "condition": "base", "episodes": 8, "safe_success": 5, "strict_success": 5, "invalid": 0, "invalid_queries": 0, "valid_ci": 8, "raw_sha256": "7f40eb49ccbf12087ed8b3a0d8d63e29319f1d4f1f085c2392d58f22a00c0afc"}
+{"arm": "evidence", "condition": "base_swap", "episodes": 8, "safe_success": 5, "strict_success": 5, "invalid": 0, "invalid_queries": 0, "valid_ci": 8, "raw_sha256": "44df7cc47558236ec0b7211733b4b3a7d0df5c683a11fe5b7f9b7235914ec768"}
+{"arm": "evidence", "condition": "depth2", "episodes": 8, "safe_success": 3, "strict_success": 3, "invalid": 0, "invalid_queries": 0, "valid_ci": 7, "raw_sha256": "05cb901e2051f454f071be7ff603a8be3a6bb4f42152ceab7b69e44205fc6124"}
+{"arm": "evidence", "condition": "depth2_swap", "episodes": 8, "safe_success": 2, "strict_success": 2, "invalid": 0, "invalid_queries": 0, "valid_ci": 6, "raw_sha256": "4b816004705ea3f17b9d92f2d7a3a98ace3fe6fd7a26ad8768e7a5910b89ad06"}
+{"arm": "evidence", "condition": "depth3", "episodes": 8, "safe_success": 4, "strict_success": 4, "invalid": 0, "invalid_queries": 0, "valid_ci": 7, "raw_sha256": "4a72c2d9ba9dfdd17a05759d6aa24df72fcc8d2d4c5838a5515f7f8ebb9dd812"}
+{"arm": "evidence", "condition": "depth3_swap", "episodes": 8, "safe_success": 2, "strict_success": 2, "invalid": 0, "invalid_queries": 0, "valid_ci": 5, "raw_sha256": "5feecd87863d219c5aae2b93e0ab1eef3bf89e4ee8d6eb25cb37ca6c209e9d2e"}
+{"arm": "evidence", "condition": "optional", "episodes": 8, "safe_success": 7, "strict_success": 7, "invalid": 0, "invalid_queries": 0, "valid_ci": 7, "raw_sha256": "af8fcd6ec0b97d1c4358817e8da3a2b24d53a5aa32c20e331e3061aa8c1e43d7"}
+{"arm": "evidence", "condition": "authorized", "episodes": 8, "safe_success": 2, "strict_success": 2, "invalid": 0, "invalid_queries": 0, "valid_ci": 8, "raw_sha256": "7d210141f649215a859647813517f0046e63d4fe6ce1bd3033e5273ed519207f"}
+{"arm": "evidence", "condition": "draft", "episodes": 8, "safe_success": 5, "strict_success": 5, "invalid": 0, "invalid_queries": 0, "valid_ci": 8, "raw_sha256": "9d374b90440e7622a2e5b09312d4c2758a251eaa7a85144866287fc533d1c680"}
+{"arm": "evidence", "condition": "both", "episodes": 8, "safe_success": 0, "strict_success": 0, "invalid": 0, "invalid_queries": 0, "valid_ci": 4, "raw_sha256": "d0fce6fbb0de5d2717b2a9e838a50d16254de48e707e7ecc6b033502655d117f"}

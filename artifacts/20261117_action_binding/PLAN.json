@@ -1,0 +1,31 @@
+{
+  "baseline_commit": "b476787ba9e0cebf19d6b81569eeaf36b0570fbc",
+  "models": [
+    "base",
+    "plain_17",
+    "trace_17",
+    "balanced_17"
+  ],
+  "modes": [
+    "direct",
+    "gold_trace",
+    "swapped_trace"
+  ],
+  "cases": 48,
+  "groups": 24,
+  "depths": [
+    1,
+    2,
+    3
+  ],
+  "groups_per_split_depth": 4,
+  "nonce": 7331,
+  "cases_sha256": "f6289056215d33979d648183353e3c9b0726ec9bb29e11985fe0e6c523179694",
+  "scope": "forced-prefix diagnostic only; oracle prefixes never count as autonomous success",
+  "selection": "first two qualifying replicas per kind/depth in old train; four fresh fixed-seed cases per depth",
+  "test_data_used": false,
+  "source_sha256": {
+    "artifacts/20261117_action_binding/build_diagnostic.py": "584007fc7c2044f59eb5f8942000d1d6a3a3b6620d691494d8780c3f6c29132b",
+    "code/experiments/relation_solution_data.py": "89a5ebd7499dca4b22e9d9f3d542490777a6d879c3f44fd1465e82193dd20bbf"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "reviewer": "binding_review",
+  "protocol": "Same reviewer, second blind pass. Only four new input cases and the pinned source were shown; expected labels and builder were withheld.",
+  "human_review": false,
+  "judgments": [
+    {"id": "support_exception_0_eligible_zendesk", "judgment": "PASS", "rationale": "Active customer support on a GitLab-managed laptop satisfies eligibility, with explicit commitments to ZenDesk documentation and immediate deletion after resolution."},
+    {"id": "support_exception_0_eligible_personal_notes", "judgment": "FAIL", "rationale": "Personal notes do not satisfy the requirement to document all handling activities in the ZenDesk ticket."},
+    {"id": "support_exception_1_eligible_zendesk", "judgment": "PASS", "rationale": "Active customer support on a GitLab-managed laptop satisfies eligibility, with explicit commitments to ZenDesk documentation and immediate deletion after resolution."},
+    {"id": "support_exception_1_eligible_personal_notes", "judgment": "FAIL", "rationale": "Personal notes do not satisfy the requirement to document all handling activities in the ZenDesk ticket."}
+  ]
+}
