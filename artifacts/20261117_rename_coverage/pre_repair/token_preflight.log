@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/mnt/d/research/longhistory/artifacts/20261117_rename_coverage/token_preflight.py", line 38, in <module>
+    main()
+  File "/mnt/d/research/longhistory/artifacts/20261117_rename_coverage/token_preflight.py", line 14, in main
+    verify(); tokenizer = AutoTokenizer.from_pretrained(env()['native_lm_path'], local_files_only=True)
+                                                        ^^^^^
+TypeError: 'dict' object is not callable

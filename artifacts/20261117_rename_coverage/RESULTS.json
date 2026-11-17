@@ -1,0 +1,1557 @@
+{
+  "arms": [
+    {
+      "arm": "fixed",
+      "train": {
+        "paired_correct": {
+          "original": 39,
+          "renamed": 20
+        },
+        "pairs_per_vocabulary": 48,
+        "query_summaries": [
+          {
+            "vocab": "original",
+            "role": "Planner",
+            "depth": 1,
+            "queries": 16,
+            "correct": 16,
+            "invalid": 0,
+            "changing_queries": 16,
+            "changing_correct": 16,
+            "changing_invalid": 0,
+            "pairs": 8,
+            "both_correct": 8
+          },
+          {
+            "vocab": "renamed",
+            "role": "Planner",
+            "depth": 1,
+            "queries": 16,
+            "correct": 16,
+            "invalid": 0,
+            "changing_queries": 16,
+            "changing_correct": 16,
+            "changing_invalid": 0,
+            "pairs": 8,
+            "both_correct": 8
+          },
+          {
+            "vocab": "original",
+            "role": "Planner",
+            "depth": 2,
+            "queries": 16,
+            "correct": 16,
+            "invalid": 0,
+            "changing_queries": 16,
+            "changing_correct": 16,
+            "changing_invalid": 0,
+            "pairs": 8,
+            "both_correct": 8
+          },
+          {
+            "vocab": "renamed",
+            "role": "Planner",
+            "depth": 2,
+            "queries": 16,
+            "correct": 11,
+            "invalid": 0,
+            "changing_queries": 16,
+            "changing_correct": 11,
+            "changing_invalid": 0,
+            "pairs": 8,
+            "both_correct": 3
+          },
+          {
+            "vocab": "original",
+            "role": "Planner",
+            "depth": 3,
+            "queries": 16,
+            "correct": 9,
+            "invalid": 0,
+            "changing_queries": 16,
+            "changing_correct": 9,
+            "changing_invalid": 0,
+            "pairs": 8,
+            "both_correct": 2
+          },
+          {
+            "vocab": "renamed",
+            "role": "Planner",
+            "depth": 3,
+            "queries": 16,
+            "correct": 8,
+            "invalid": 0,
+            "changing_queries": 16,
+            "changing_correct": 8,
+            "changing_invalid": 0,
+            "pairs": 8,
+            "both_correct": 0
+          },
+          {
+            "vocab": "original",
+            "role": "Source",
+            "depth": 1,
+            "queries": 16,
+            "correct": 16,
+            "invalid": 0,
+            "changing_queries": 8,
+            "changing_correct": 8,
+            "changing_invalid": 0,
+            "fixed_queries": 8,
+            "fixed_correct": 8,
+            "fixed_invalid": 0,
+            "pairs": 4,
+            "both_correct": 4
+          },
+          {
+            "vocab": "renamed",
+            "role": "Source",
+            "depth": 1,
+            "queries": 16,
+            "correct": 14,
+            "invalid": 0,
+            "changing_queries": 8,
+            "changing_correct": 6,
+            "changing_invalid": 0,
+            "fixed_queries": 8,
+            "fixed_correct": 8,
+            "fixed_invalid": 0,
+            "pairs": 4,
+            "both_correct": 2
+          },
+          {
+            "vocab": "original",
+            "role": "Source",
+            "depth": 2,
+            "queries": 16,
+            "correct": 16,
+            "invalid": 0,
+            "changing_queries": 8,
+            "changing_correct": 8,
+            "changing_invalid": 0,
+            "fixed_queries": 8,
+            "fixed_correct": 8,
+            "fixed_invalid": 0,
+            "pairs": 4,
+            "both_correct": 4
+          },
+          {
+            "vocab": "renamed",
+            "role": "Source",
+            "depth": 2,
+            "queries": 16,
+            "correct": 12,
+            "invalid": 0,
+            "changing_queries": 8,
+            "changing_correct": 4,
+            "changing_invalid": 0,
+            "fixed_queries": 8,
+            "fixed_correct": 8,
+            "fixed_invalid": 0,
+            "pairs": 4,
+            "both_correct": 0
+          },
+          {
+            "vocab": "original",
+            "role": "Source",
+            "depth": 3,
+            "queries": 16,
+            "correct": 15,
+            "invalid": 0,
+            "changing_queries": 8,
+            "changing_correct": 7,
+            "changing_invalid": 0,
+            "fixed_queries": 8,
+            "fixed_correct": 8,
+            "fixed_invalid": 0,
+            "pairs": 4,
+            "both_correct": 3
+          },
+          {
+            "vocab": "renamed",
+            "role": "Source",
+            "depth": 3,
+            "queries": 16,
+            "correct": 12,
+            "invalid": 0,
+            "changing_queries": 8,
+            "changing_correct": 4,
+            "changing_invalid": 0,
+            "fixed_queries": 8,
+            "fixed_correct": 8,
+            "fixed_invalid": 0,
+            "pairs": 4,
+            "both_correct": 0
+          },
+          {
+            "vocab": "original",
+            "role": "Worker",
+            "depth": 1,
+            "queries": 24,
+            "correct": 24,
+            "invalid": 0,
+            "changing_queries": 8,
+            "changing_correct": 8,
+            "changing_invalid": 0,
+            "fixed_queries": 16,
+            "fixed_correct": 16,
+            "fixed_invalid": 0,
+            "pairs": 4,
+            "both_correct": 4
+          },
+          {
+            "vocab": "renamed",
+            "role": "Worker",
+            "depth": 1,
+            "queries": 24,
+            "correct": 24,
+            "invalid": 0,
+            "changing_queries": 8,
+            "changing_correct": 8,
+            "changing_invalid": 0,
+            "fixed_queries": 16,
+            "fixed_correct": 16,
+            "fixed_invalid": 0,
+            "pairs": 4,
+            "both_correct": 4
+          },
+          {
+            "vocab": "original",
+            "role": "Worker",
+            "depth": 2,
+            "queries": 24,
+            "correct": 24,
+            "invalid": 0,
+            "changing_queries": 8,
+            "changing_correct": 8,
+            "changing_invalid": 0,
+            "fixed_queries": 16,
+            "fixed_correct": 16,
+            "fixed_invalid": 0,
+            "pairs": 4,
+            "both_correct": 4
+          },
+          {
+            "vocab": "renamed",
+            "role": "Worker",
+            "depth": 2,
+            "queries": 24,
+            "correct": 23,
+            "invalid": 0,
+            "changing_queries": 8,
+            "changing_correct": 7,
+            "changing_invalid": 0,
+            "fixed_queries": 16,
+            "fixed_correct": 16,
+            "fixed_invalid": 0,
+            "pairs": 4,
+            "both_correct": 3
+          },
+          {
+            "vocab": "original",
+            "role": "Worker",
+            "depth": 3,
+            "queries": 24,
+            "correct": 22,
+            "invalid": 0,
+            "changing_queries": 8,
+            "changing_correct": 6,
+            "changing_invalid": 0,
+            "fixed_queries": 16,
+            "fixed_correct": 16,
+            "fixed_invalid": 0,
+            "pairs": 4,
+            "both_correct": 2
+          },
+          {
+            "vocab": "renamed",
+            "role": "Worker",
+            "depth": 3,
+            "queries": 24,
+            "correct": 20,
+            "invalid": 0,
+            "changing_queries": 8,
+            "changing_correct": 4,
+            "changing_invalid": 0,
+            "fixed_queries": 16,
+            "fixed_correct": 16,
+            "fixed_invalid": 0,
+            "pairs": 4,
+            "both_correct": 0
+          }
+        ],
+        "rename_token_control": true,
+        "oracle_all_six": {
+          "zero": 12,
+          "positive": 12
+        },
+        "oracle_unsafe": 0,
+        "oracle_invalid": 0,
+        "original_fit_gate": false,
+        "rename_gate": false,
+        "oracle_retention_gate": true
+      },
+      "third_palette_train": {
+        "queries": 168,
+        "correct": 143,
+        "invalid": 0,
+        "changing_pairs": 48,
+        "both_correct": 24,
+        "four_presentation_groups": 0,
+        "all_four_correct": 0,
+        "states": 0,
+        "all_correct_states": 0,
+        "cells": [
+          {
+            "cell": [
+              "Planner",
+              1
+            ],
+            "queries": 16,
+            "correct": 16,
+            "invalid": 0,
+            "positive": 8,
+            "false_positive": 0,
+            "false_negative": 0
+          },
+          {
+            "cell": [
+              "Planner",
+              2
+            ],
+            "queries": 16,
+            "correct": 12,
+            "invalid": 0,
+            "positive": 8,
+            "false_positive": 2,
+            "false_negative": 2
+          },
+          {
+            "cell": [
+              "Planner",
+              3
+            ],
+            "queries": 16,
+            "correct": 9,
+            "invalid": 0,
+            "positive": 8,
+            "false_positive": 5,
+            "false_negative": 2
+          },
+          {
+            "cell": [
+              "Source",
+              1
+            ],
+            "queries": 16,
+            "correct": 16,
+            "invalid": 0,
+            "positive": 4,
+            "false_positive": 0,
+            "false_negative": 0
+          },
+          {
+            "cell": [
+              "Source",
+              2
+            ],
+            "queries": 16,
+            "correct": 13,
+            "invalid": 0,
+            "positive": 4,
+            "false_positive": 3,
+            "false_negative": 0
+          },
+          {
+            "cell": [
+              "Source",
+              3
+            ],
+            "queries": 16,
+            "correct": 13,
+            "invalid": 0,
+            "positive": 4,
+            "false_positive": 3,
+            "false_negative": 0
+          },
+          {
+            "cell": [
+              "Worker",
+              1
+            ],
+            "queries": 24,
+            "correct": 24,
+            "invalid": 0,
+            "positive": 4,
+            "false_positive": 0,
+            "false_negative": 0
+          },
+          {
+            "cell": [
+              "Worker",
+              2
+            ],
+            "queries": 24,
+            "correct": 21,
+            "invalid": 0,
+            "positive": 4,
+            "false_positive": 3,
+            "false_negative": 0
+          },
+          {
+            "cell": [
+              "Worker",
+              3
+            ],
+            "queries": 24,
+            "correct": 19,
+            "invalid": 0,
+            "positive": 4,
+            "false_positive": 3,
+            "false_negative": 2
+          }
+        ]
+      },
+      "six_prompt_token_control": true,
+      "dev_fixed": {
+        "queries": 1536,
+        "correct": 1308,
+        "invalid": 0,
+        "changing_pairs": 288,
+        "both_correct": 82,
+        "four_presentation_groups": 144,
+        "all_four_correct": 25,
+        "states": 640,
+        "all_correct_states": 420,
+        "cells": [
+          {
+            "cell": [
+              "base",
+              "Planner"
+            ],
+            "queries": 64,
+            "correct": 62,
+            "invalid": 0,
+            "positive": 32,
+            "false_positive": 0,
+            "false_negative": 2
+          },
+          {
+            "cell": [
+              "base",
+              "Source"
+            ],
+            "queries": 128,
+            "correct": 114,
+            "invalid": 0,
+            "positive": 32,
+            "false_positive": 1,
+            "false_negative": 13
+          },
+          {
+            "cell": [
+              "base",
+              "Worker"
+            ],
+            "queries": 192,
+            "correct": 180,
+            "invalid": 0,
+            "positive": 32,
+            "false_positive": 2,
+            "false_negative": 10
+          },
+          {
+            "cell": [
+              "depth3",
+              "Planner"
+            ],
+            "queries": 32,
+            "correct": 17,
+            "invalid": 0,
+            "positive": 16,
+            "false_positive": 9,
+            "false_negative": 6
+          },
+          {
+            "cell": [
+              "depth3",
+              "Source"
+            ],
+            "queries": 64,
+            "correct": 49,
+            "invalid": 0,
+            "positive": 16,
+            "false_positive": 12,
+            "false_negative": 3
+          },
+          {
+            "cell": [
+              "depth3",
+              "Worker"
+            ],
+            "queries": 96,
+            "correct": 80,
+            "invalid": 0,
+            "positive": 16,
+            "false_positive": 13,
+            "false_negative": 3
+          },
+          {
+            "cell": [
+              "depth4",
+              "Planner"
+            ],
+            "queries": 32,
+            "correct": 16,
+            "invalid": 0,
+            "positive": 16,
+            "false_positive": 9,
+            "false_negative": 7
+          },
+          {
+            "cell": [
+              "depth4",
+              "Source"
+            ],
+            "queries": 64,
+            "correct": 46,
+            "invalid": 0,
+            "positive": 16,
+            "false_positive": 11,
+            "false_negative": 7
+          },
+          {
+            "cell": [
+              "depth4",
+              "Worker"
+            ],
+            "queries": 96,
+            "correct": 83,
+            "invalid": 0,
+            "positive": 16,
+            "false_positive": 13,
+            "false_negative": 0
+          },
+          {
+            "cell": [
+              "internal3",
+              "Planner"
+            ],
+            "queries": 32,
+            "correct": 18,
+            "invalid": 0,
+            "positive": 16,
+            "false_positive": 10,
+            "false_negative": 4
+          },
+          {
+            "cell": [
+              "internal3",
+              "Source"
+            ],
+            "queries": 64,
+            "correct": 47,
+            "invalid": 0,
+            "positive": 16,
+            "false_positive": 7,
+            "false_negative": 10
+          },
+          {
+            "cell": [
+              "internal3",
+              "Worker"
+            ],
+            "queries": 96,
+            "correct": 79,
+            "invalid": 0,
+            "positive": 16,
+            "false_positive": 9,
+            "false_negative": 8
+          },
+          {
+            "cell": [
+              "cycle4",
+              "Planner"
+            ],
+            "queries": 32,
+            "correct": 16,
+            "invalid": 0,
+            "positive": 16,
+            "false_positive": 1,
+            "false_negative": 15
+          },
+          {
+            "cell": [
+              "cycle4",
+              "Source"
+            ],
+            "queries": 64,
+            "correct": 47,
+            "invalid": 0,
+            "positive": 16,
+            "false_positive": 1,
+            "false_negative": 16
+          },
+          {
+            "cell": [
+              "cycle4",
+              "Worker"
+            ],
+            "queries": 96,
+            "correct": 81,
+            "invalid": 0,
+            "positive": 16,
+            "false_positive": 1,
+            "false_negative": 14
+          },
+          {
+            "cell": [
+              "optional",
+              "Planner"
+            ],
+            "queries": 16,
+            "correct": 16,
+            "invalid": 0,
+            "positive": 16,
+            "false_positive": 0,
+            "false_negative": 0
+          },
+          {
+            "cell": [
+              "optional",
+              "Source"
+            ],
+            "queries": 32,
+            "correct": 32,
+            "invalid": 0,
+            "positive": 16,
+            "false_positive": 0,
+            "false_negative": 0
+          },
+          {
+            "cell": [
+              "optional",
+              "Worker"
+            ],
+            "queries": 48,
+            "correct": 44,
+            "invalid": 0,
+            "positive": 24,
+            "false_positive": 4,
+            "false_negative": 0
+          },
+          {
+            "cell": [
+              "authorized",
+              "Planner"
+            ],
+            "queries": 16,
+            "correct": 10,
+            "invalid": 0,
+            "positive": 16,
+            "false_positive": 0,
+            "false_negative": 6
+          },
+          {
+            "cell": [
+              "authorized",
+              "Source"
+            ],
+            "queries": 32,
+            "correct": 31,
+            "invalid": 0,
+            "positive": 16,
+            "false_positive": 0,
+            "false_negative": 1
+          },
+          {
+            "cell": [
+              "authorized",
+              "Worker"
+            ],
+            "queries": 48,
+            "correct": 48,
+            "invalid": 0,
+            "positive": 16,
+            "false_positive": 0,
+            "false_negative": 0
+          },
+          {
+            "cell": [
+              "draft",
+              "Planner"
+            ],
+            "queries": 16,
+            "correct": 16,
+            "invalid": 0,
+            "positive": 16,
+            "false_positive": 0,
+            "false_negative": 0
+          },
+          {
+            "cell": [
+              "draft",
+              "Source"
+            ],
+            "queries": 32,
+            "correct": 32,
+            "invalid": 0,
+            "positive": 16,
+            "false_positive": 0,
+            "false_negative": 0
+          },
+          {
+            "cell": [
+              "draft",
+              "Worker"
+            ],
+            "queries": 48,
+            "correct": 48,
+            "invalid": 0,
+            "positive": 16,
+            "false_positive": 0,
+            "false_negative": 0
+          },
+          {
+            "cell": [
+              "both",
+              "Planner"
+            ],
+            "queries": 16,
+            "correct": 16,
+            "invalid": 0,
+            "positive": 0,
+            "false_positive": 0,
+            "false_negative": 0
+          },
+          {
+            "cell": [
+              "both",
+              "Source"
+            ],
+            "queries": 32,
+            "correct": 32,
+            "invalid": 0,
+            "positive": 0,
+            "false_positive": 0,
+            "false_negative": 0
+          },
+          {
+            "cell": [
+              "both",
+              "Worker"
+            ],
+            "queries": 48,
+            "correct": 48,
+            "invalid": 0,
+            "positive": 0,
+            "false_positive": 0,
+            "false_negative": 0
+          }
+        ]
+      },
+      "episodes": 128,
+      "strict_success": 49,
+      "violations": 15,
+      "invalid_actions": 2,
+      "invalid_queries": 0,
+      "all_four_groups": {
+        "base": 0,
+        "depth3": 0,
+        "depth4": 0,
+        "internal3": 0,
+        "cycle4": 0
+      },
+      "all_four_denominators": {
+        "base": 8,
+        "depth3": 4,
+        "depth4": 4,
+        "internal3": 4,
+        "cycle4": 4
+      }
+    },
+    {
+      "arm": "renamed",
+      "train": {
+        "paired_correct": {
+          "original": 25,
+          "renamed": 18
+        },
+        "pairs_per_vocabulary": 48,
+        "query_summaries": [
+          {
+            "vocab": "original",
+            "role": "Planner",
+            "depth": 1,
+            "queries": 16,
+            "correct": 16,
+            "invalid": 0,
+            "changing_queries": 16,
+            "changing_correct": 16,
+            "changing_invalid": 0,
+            "pairs": 8,
+            "both_correct": 8
+          },
+          {
+            "vocab": "renamed",
+            "role": "Planner",
+            "depth": 1,
+            "queries": 16,
+            "correct": 16,
+            "invalid": 0,
+            "changing_queries": 16,
+            "changing_correct": 16,
+            "changing_invalid": 0,
+            "pairs": 8,
+            "both_correct": 8
+          },
+          {
+            "vocab": "original",
+            "role": "Planner",
+            "depth": 2,
+            "queries": 16,
+            "correct": 15,
+            "invalid": 0,
+            "changing_queries": 16,
+            "changing_correct": 15,
+            "changing_invalid": 0,
+            "pairs": 8,
+            "both_correct": 7
+          },
+          {
+            "vocab": "renamed",
+            "role": "Planner",
+            "depth": 2,
+            "queries": 16,
+            "correct": 11,
+            "invalid": 0,
+            "changing_queries": 16,
+            "changing_correct": 11,
+            "changing_invalid": 0,
+            "pairs": 8,
+            "both_correct": 3
+          },
+          {
+            "vocab": "original",
+            "role": "Planner",
+            "depth": 3,
+            "queries": 16,
+            "correct": 9,
+            "invalid": 0,
+            "changing_queries": 16,
+            "changing_correct": 9,
+            "changing_invalid": 0,
+            "pairs": 8,
+            "both_correct": 1
+          },
+          {
+            "vocab": "renamed",
+            "role": "Planner",
+            "depth": 3,
+            "queries": 16,
+            "correct": 8,
+            "invalid": 0,
+            "changing_queries": 16,
+            "changing_correct": 8,
+            "changing_invalid": 0,
+            "pairs": 8,
+            "both_correct": 0
+          },
+          {
+            "vocab": "original",
+            "role": "Source",
+            "depth": 1,
+            "queries": 16,
+            "correct": 15,
+            "invalid": 0,
+            "changing_queries": 8,
+            "changing_correct": 7,
+            "changing_invalid": 0,
+            "fixed_queries": 8,
+            "fixed_correct": 8,
+            "fixed_invalid": 0,
+            "pairs": 4,
+            "both_correct": 3
+          },
+          {
+            "vocab": "renamed",
+            "role": "Source",
+            "depth": 1,
+            "queries": 16,
+            "correct": 16,
+            "invalid": 0,
+            "changing_queries": 8,
+            "changing_correct": 8,
+            "changing_invalid": 0,
+            "fixed_queries": 8,
+            "fixed_correct": 8,
+            "fixed_invalid": 0,
+            "pairs": 4,
+            "both_correct": 4
+          },
+          {
+            "vocab": "original",
+            "role": "Source",
+            "depth": 2,
+            "queries": 16,
+            "correct": 15,
+            "invalid": 0,
+            "changing_queries": 8,
+            "changing_correct": 7,
+            "changing_invalid": 0,
+            "fixed_queries": 8,
+            "fixed_correct": 8,
+            "fixed_invalid": 0,
+            "pairs": 4,
+            "both_correct": 3
+          },
+          {
+            "vocab": "renamed",
+            "role": "Source",
+            "depth": 2,
+            "queries": 16,
+            "correct": 12,
+            "invalid": 0,
+            "changing_queries": 8,
+            "changing_correct": 4,
+            "changing_invalid": 0,
+            "fixed_queries": 8,
+            "fixed_correct": 8,
+            "fixed_invalid": 0,
+            "pairs": 4,
+            "both_correct": 0
+          },
+          {
+            "vocab": "original",
+            "role": "Source",
+            "depth": 3,
+            "queries": 16,
+            "correct": 15,
+            "invalid": 0,
+            "changing_queries": 8,
+            "changing_correct": 7,
+            "changing_invalid": 0,
+            "fixed_queries": 8,
+            "fixed_correct": 8,
+            "fixed_invalid": 0,
+            "pairs": 4,
+            "both_correct": 3
+          },
+          {
+            "vocab": "renamed",
+            "role": "Source",
+            "depth": 3,
+            "queries": 16,
+            "correct": 14,
+            "invalid": 0,
+            "changing_queries": 8,
+            "changing_correct": 6,
+            "changing_invalid": 0,
+            "fixed_queries": 8,
+            "fixed_correct": 8,
+            "fixed_invalid": 0,
+            "pairs": 4,
+            "both_correct": 2
+          },
+          {
+            "vocab": "original",
+            "role": "Worker",
+            "depth": 1,
+            "queries": 24,
+            "correct": 20,
+            "invalid": 0,
+            "changing_queries": 8,
+            "changing_correct": 4,
+            "changing_invalid": 0,
+            "fixed_queries": 16,
+            "fixed_correct": 16,
+            "fixed_invalid": 0,
+            "pairs": 4,
+            "both_correct": 0
+          },
+          {
+            "vocab": "renamed",
+            "role": "Worker",
+            "depth": 1,
+            "queries": 24,
+            "correct": 21,
+            "invalid": 0,
+            "changing_queries": 8,
+            "changing_correct": 5,
+            "changing_invalid": 0,
+            "fixed_queries": 16,
+            "fixed_correct": 16,
+            "fixed_invalid": 0,
+            "pairs": 4,
+            "both_correct": 1
+          },
+          {
+            "vocab": "original",
+            "role": "Worker",
+            "depth": 2,
+            "queries": 24,
+            "correct": 20,
+            "invalid": 0,
+            "changing_queries": 8,
+            "changing_correct": 4,
+            "changing_invalid": 0,
+            "fixed_queries": 16,
+            "fixed_correct": 16,
+            "fixed_invalid": 0,
+            "pairs": 4,
+            "both_correct": 0
+          },
+          {
+            "vocab": "renamed",
+            "role": "Worker",
+            "depth": 2,
+            "queries": 24,
+            "correct": 20,
+            "invalid": 0,
+            "changing_queries": 8,
+            "changing_correct": 4,
+            "changing_invalid": 0,
+            "fixed_queries": 16,
+            "fixed_correct": 16,
+            "fixed_invalid": 0,
+            "pairs": 4,
+            "both_correct": 0
+          },
+          {
+            "vocab": "original",
+            "role": "Worker",
+            "depth": 3,
+            "queries": 24,
+            "correct": 20,
+            "invalid": 0,
+            "changing_queries": 8,
+            "changing_correct": 4,
+            "changing_invalid": 0,
+            "fixed_queries": 16,
+            "fixed_correct": 16,
+            "fixed_invalid": 0,
+            "pairs": 4,
+            "both_correct": 0
+          },
+          {
+            "vocab": "renamed",
+            "role": "Worker",
+            "depth": 3,
+            "queries": 24,
+            "correct": 20,
+            "invalid": 0,
+            "changing_queries": 8,
+            "changing_correct": 4,
+            "changing_invalid": 0,
+            "fixed_queries": 16,
+            "fixed_correct": 16,
+            "fixed_invalid": 0,
+            "pairs": 4,
+            "both_correct": 0
+          }
+        ],
+        "rename_token_control": true,
+        "oracle_all_six": {
+          "zero": 12,
+          "positive": 12
+        },
+        "oracle_unsafe": 0,
+        "oracle_invalid": 0,
+        "original_fit_gate": false,
+        "rename_gate": false,
+        "oracle_retention_gate": true
+      },
+      "third_palette_train": {
+        "queries": 168,
+        "correct": 142,
+        "invalid": 0,
+        "changing_pairs": 48,
+        "both_correct": 22,
+        "four_presentation_groups": 0,
+        "all_four_correct": 0,
+        "states": 0,
+        "all_correct_states": 0,
+        "cells": [
+          {
+            "cell": [
+              "Planner",
+              1
+            ],
+            "queries": 16,
+            "correct": 16,
+            "invalid": 0,
+            "positive": 8,
+            "false_positive": 0,
+            "false_negative": 0
+          },
+          {
+            "cell": [
+              "Planner",
+              2
+            ],
+            "queries": 16,
+            "correct": 14,
+            "invalid": 0,
+            "positive": 8,
+            "false_positive": 1,
+            "false_negative": 1
+          },
+          {
+            "cell": [
+              "Planner",
+              3
+            ],
+            "queries": 16,
+            "correct": 9,
+            "invalid": 0,
+            "positive": 8,
+            "false_positive": 5,
+            "false_negative": 2
+          },
+          {
+            "cell": [
+              "Source",
+              1
+            ],
+            "queries": 16,
+            "correct": 15,
+            "invalid": 0,
+            "positive": 4,
+            "false_positive": 1,
+            "false_negative": 0
+          },
+          {
+            "cell": [
+              "Source",
+              2
+            ],
+            "queries": 16,
+            "correct": 14,
+            "invalid": 0,
+            "positive": 4,
+            "false_positive": 1,
+            "false_negative": 1
+          },
+          {
+            "cell": [
+              "Source",
+              3
+            ],
+            "queries": 16,
+            "correct": 12,
+            "invalid": 0,
+            "positive": 4,
+            "false_positive": 4,
+            "false_negative": 0
+          },
+          {
+            "cell": [
+              "Worker",
+              1
+            ],
+            "queries": 24,
+            "correct": 22,
+            "invalid": 0,
+            "positive": 4,
+            "false_positive": 2,
+            "false_negative": 0
+          },
+          {
+            "cell": [
+              "Worker",
+              2
+            ],
+            "queries": 24,
+            "correct": 20,
+            "invalid": 0,
+            "positive": 4,
+            "false_positive": 4,
+            "false_negative": 0
+          },
+          {
+            "cell": [
+              "Worker",
+              3
+            ],
+            "queries": 24,
+            "correct": 20,
+            "invalid": 0,
+            "positive": 4,
+            "false_positive": 4,
+            "false_negative": 0
+          }
+        ]
+      },
+      "six_prompt_token_control": true,
+      "dev_fixed": {
+        "queries": 1536,
+        "correct": 1318,
+        "invalid": 0,
+        "changing_pairs": 288,
+        "both_correct": 96,
+        "four_presentation_groups": 144,
+        "all_four_correct": 39,
+        "states": 640,
+        "all_correct_states": 428,
+        "cells": [
+          {
+            "cell": [
+              "base",
+              "Planner"
+            ],
+            "queries": 64,
+            "correct": 64,
+            "invalid": 0,
+            "positive": 32,
+            "false_positive": 0,
+            "false_negative": 0
+          },
+          {
+            "cell": [
+              "base",
+              "Source"
+            ],
+            "queries": 128,
+            "correct": 126,
+            "invalid": 0,
+            "positive": 32,
+            "false_positive": 2,
+            "false_negative": 0
+          },
+          {
+            "cell": [
+              "base",
+              "Worker"
+            ],
+            "queries": 192,
+            "correct": 175,
+            "invalid": 0,
+            "positive": 32,
+            "false_positive": 17,
+            "false_negative": 0
+          },
+          {
+            "cell": [
+              "depth3",
+              "Planner"
+            ],
+            "queries": 32,
+            "correct": 15,
+            "invalid": 0,
+            "positive": 16,
+            "false_positive": 14,
+            "false_negative": 3
+          },
+          {
+            "cell": [
+              "depth3",
+              "Source"
+            ],
+            "queries": 64,
+            "correct": 55,
+            "invalid": 0,
+            "positive": 16,
+            "false_positive": 8,
+            "false_negative": 1
+          },
+          {
+            "cell": [
+              "depth3",
+              "Worker"
+            ],
+            "queries": 96,
+            "correct": 80,
+            "invalid": 0,
+            "positive": 16,
+            "false_positive": 16,
+            "false_negative": 0
+          },
+          {
+            "cell": [
+              "depth4",
+              "Planner"
+            ],
+            "queries": 32,
+            "correct": 14,
+            "invalid": 0,
+            "positive": 16,
+            "false_positive": 11,
+            "false_negative": 7
+          },
+          {
+            "cell": [
+              "depth4",
+              "Source"
+            ],
+            "queries": 64,
+            "correct": 50,
+            "invalid": 0,
+            "positive": 16,
+            "false_positive": 12,
+            "false_negative": 2
+          },
+          {
+            "cell": [
+              "depth4",
+              "Worker"
+            ],
+            "queries": 96,
+            "correct": 81,
+            "invalid": 0,
+            "positive": 16,
+            "false_positive": 15,
+            "false_negative": 0
+          },
+          {
+            "cell": [
+              "internal3",
+              "Planner"
+            ],
+            "queries": 32,
+            "correct": 16,
+            "invalid": 0,
+            "positive": 16,
+            "false_positive": 13,
+            "false_negative": 3
+          },
+          {
+            "cell": [
+              "internal3",
+              "Source"
+            ],
+            "queries": 64,
+            "correct": 47,
+            "invalid": 0,
+            "positive": 16,
+            "false_positive": 11,
+            "false_negative": 6
+          },
+          {
+            "cell": [
+              "internal3",
+              "Worker"
+            ],
+            "queries": 96,
+            "correct": 79,
+            "invalid": 0,
+            "positive": 16,
+            "false_positive": 14,
+            "false_negative": 3
+          },
+          {
+            "cell": [
+              "cycle4",
+              "Planner"
+            ],
+            "queries": 32,
+            "correct": 16,
+            "invalid": 0,
+            "positive": 16,
+            "false_positive": 8,
+            "false_negative": 8
+          },
+          {
+            "cell": [
+              "cycle4",
+              "Source"
+            ],
+            "queries": 64,
+            "correct": 47,
+            "invalid": 0,
+            "positive": 16,
+            "false_positive": 7,
+            "false_negative": 10
+          },
+          {
+            "cell": [
+              "cycle4",
+              "Worker"
+            ],
+            "queries": 96,
+            "correct": 83,
+            "invalid": 0,
+            "positive": 16,
+            "false_positive": 10,
+            "false_negative": 3
+          },
+          {
+            "cell": [
+              "optional",
+              "Planner"
+            ],
+            "queries": 16,
+            "correct": 16,
+            "invalid": 0,
+            "positive": 16,
+            "false_positive": 0,
+            "false_negative": 0
+          },
+          {
+            "cell": [
+              "optional",
+              "Source"
+            ],
+            "queries": 32,
+            "correct": 32,
+            "invalid": 0,
+            "positive": 16,
+            "false_positive": 0,
+            "false_negative": 0
+          },
+          {
+            "cell": [
+              "optional",
+              "Worker"
+            ],
+            "queries": 48,
+            "correct": 40,
+            "invalid": 0,
+            "positive": 24,
+            "false_positive": 8,
+            "false_negative": 0
+          },
+          {
+            "cell": [
+              "authorized",
+              "Planner"
+            ],
+            "queries": 16,
+            "correct": 12,
+            "invalid": 0,
+            "positive": 16,
+            "false_positive": 0,
+            "false_negative": 4
+          },
+          {
+            "cell": [
+              "authorized",
+              "Source"
+            ],
+            "queries": 32,
+            "correct": 31,
+            "invalid": 0,
+            "positive": 16,
+            "false_positive": 0,
+            "false_negative": 1
+          },
+          {
+            "cell": [
+              "authorized",
+              "Worker"
+            ],
+            "queries": 48,
+            "correct": 48,
+            "invalid": 0,
+            "positive": 16,
+            "false_positive": 0,
+            "false_negative": 0
+          },
+          {
+            "cell": [
+              "draft",
+              "Planner"
+            ],
+            "queries": 16,
+            "correct": 16,
+            "invalid": 0,
+            "positive": 16,
+            "false_positive": 0,
+            "false_negative": 0
+          },
+          {
+            "cell": [
+              "draft",
+              "Source"
+            ],
+            "queries": 32,
+            "correct": 32,
+            "invalid": 0,
+            "positive": 16,
+            "false_positive": 0,
+            "false_negative": 0
+          },
+          {
+            "cell": [
+              "draft",
+              "Worker"
+            ],
+            "queries": 48,
+            "correct": 47,
+            "invalid": 0,
+            "positive": 16,
+            "false_positive": 1,
+            "false_negative": 0
+          },
+          {
+            "cell": [
+              "both",
+              "Planner"
+            ],
+            "queries": 16,
+            "correct": 16,
+            "invalid": 0,
+            "positive": 0,
+            "false_positive": 0,
+            "false_negative": 0
+          },
+          {
+            "cell": [
+              "both",
+              "Source"
+            ],
+            "queries": 32,
+            "correct": 32,
+            "invalid": 0,
+            "positive": 0,
+            "false_positive": 0,
+            "false_negative": 0
+          },
+          {
+            "cell": [
+              "both",
+              "Worker"
+            ],
+            "queries": 48,
+            "correct": 48,
+            "invalid": 0,
+            "positive": 0,
+            "false_positive": 0,
+            "false_negative": 0
+          }
+        ]
+      },
+      "episodes": 128,
+      "strict_success": 74,
+      "violations": 27,
+      "invalid_actions": 1,
+      "invalid_queries": 0,
+      "all_four_groups": {
+        "base": 8,
+        "depth3": 0,
+        "depth4": 0,
+        "internal3": 0,
+        "cycle4": 0
+      },
+      "all_four_denominators": {
+        "base": 8,
+        "depth3": 4,
+        "depth4": 4,
+        "internal3": 4,
+        "cycle4": 4
+      }
+    }
+  ],
+  "local_gate_passed": false,
+  "new_updates": 144,
+  "reused_responses": 480,
+  "new_responses": 6246,
+  "new_fixed_panel_responses": 3888,
+  "full_autonomous_rollouts": 256,
+  "training_seconds": 572.032422570001,
+  "max_update_seconds": 6.153639673000043,
+  "generation_seconds": 1205.6930164059988,
+  "max_generation_seconds": 1.2895126040000378,
+  "errors": 0,
+  "whole_goal_complete": false,
+  "large_gpu": "NO_GO"
+}

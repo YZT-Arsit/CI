@@ -1,0 +1,14 @@
+{
+  "source_sha256": "ff5c00a783de603cf5def1d7e63c39317ae1a38434e26665dc7a1b9d5832b794",
+  "plan_sha256": "8c67e666145d8052978384b9935b71115f2239a8562b0bf4edb032e66753471f",
+  "worker_launched": true,
+  "model_outputs_reviewed": false,
+  "new_model_calls": 0,
+  "gate_unchanged": true,
+  "purpose": "Descriptive first-suboptimal-action and solvability counts, not causal attribution",
+  "reporting_revision": {
+    "original_registration_sha256": "334fef554fa64340dc925d3bce82582ffd6945d07a2ed1d9c82af4dd005dd59d",
+    "partial_fixed_summaries_visible": true,
+    "change": "rename safe_stop field to safe_terminal; predicate and main gates unchanged"
+  }
+}

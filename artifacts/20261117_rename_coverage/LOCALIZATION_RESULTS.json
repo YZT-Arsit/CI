@@ -1,0 +1,2785 @@
+{
+  "summaries": [
+    {
+      "arm": "fixed",
+      "solvable": 120,
+      "solvable_success": 49,
+      "unsolvable_valid_safe_terminal": 8,
+      "unsolvable": 8,
+      "failed_episode_first_suboptimal": {
+        "Planner_queries_incorrect": 31,
+        "Worker_queries_incorrect": 21,
+        "Source_queries_incorrect": 19,
+        "no_suboptimal_action": 8
+      }
+    },
+    {
+      "arm": "renamed",
+      "solvable": 120,
+      "solvable_success": 74,
+      "unsolvable_valid_safe_terminal": 8,
+      "unsolvable": 8,
+      "failed_episode_first_suboptimal": {
+        "Planner_queries_incorrect": 35,
+        "Source_queries_incorrect": 5,
+        "Worker_queries_incorrect": 6,
+        "no_suboptimal_action": 8
+      }
+    }
+  ],
+  "episodes": [
+    {
+      "arm": "fixed",
+      "condition": "base_v0",
+      "world_id": "meeting_430000000",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "fixed",
+      "condition": "base_v0",
+      "world_id": "query_430000001",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "fixed",
+      "condition": "base_v0",
+      "world_id": "meeting_430000002",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "fixed",
+      "condition": "base_v0",
+      "world_id": "query_430000003",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "fixed",
+      "condition": "base_v0",
+      "world_id": "meeting_430000004",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Planner",
+        "phase": 0,
+        "query_vector_correct": false,
+        "selected": "COMMIT:e7787365177",
+        "selected_estimate": "0"
+      }
+    },
+    {
+      "arm": "fixed",
+      "condition": "base_v0",
+      "world_id": "query_430000005",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "fixed",
+      "condition": "base_v0",
+      "world_id": "meeting_430000006",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Worker",
+        "phase": 2,
+        "query_vector_correct": false,
+        "selected": "PUBLISH_MINIMAL",
+        "selected_estimate": "0"
+      }
+    },
+    {
+      "arm": "fixed",
+      "condition": "base_v0",
+      "world_id": "query_430000007",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "fixed",
+      "condition": "base_v0_swap",
+      "world_id": "meeting_430000000",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "fixed",
+      "condition": "base_v0_swap",
+      "world_id": "query_430000001",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Worker",
+        "phase": 2,
+        "query_vector_correct": false,
+        "selected": "PUBLISH_MINIMAL",
+        "selected_estimate": "0"
+      }
+    },
+    {
+      "arm": "fixed",
+      "condition": "base_v0_swap",
+      "world_id": "meeting_430000002",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "fixed",
+      "condition": "base_v0_swap",
+      "world_id": "query_430000003",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "fixed",
+      "condition": "base_v0_swap",
+      "world_id": "meeting_430000004",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "fixed",
+      "condition": "base_v0_swap",
+      "world_id": "query_430000005",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Worker",
+        "phase": 2,
+        "query_vector_correct": false,
+        "selected": "WITHHOLD",
+        "selected_estimate": "0"
+      }
+    },
+    {
+      "arm": "fixed",
+      "condition": "base_v0_swap",
+      "world_id": "meeting_430000006",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Source",
+        "phase": 1,
+        "query_vector_correct": false,
+        "selected": "WITHHOLD",
+        "selected_estimate": "0"
+      }
+    },
+    {
+      "arm": "fixed",
+      "condition": "base_v0_swap",
+      "world_id": "query_430000007",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "fixed",
+      "condition": "base_v1",
+      "world_id": "meeting_430000000",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "fixed",
+      "condition": "base_v1",
+      "world_id": "query_430000001",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "fixed",
+      "condition": "base_v1",
+      "world_id": "meeting_430000002",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Source",
+        "phase": 1,
+        "query_vector_correct": false,
+        "selected": "WITHHOLD",
+        "selected_estimate": "0"
+      }
+    },
+    {
+      "arm": "fixed",
+      "condition": "base_v1",
+      "world_id": "query_430000003",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Worker",
+        "phase": 2,
+        "query_vector_correct": false,
+        "selected": "PUBLISH_MINIMAL",
+        "selected_estimate": "0"
+      }
+    },
+    {
+      "arm": "fixed",
+      "condition": "base_v1",
+      "world_id": "meeting_430000004",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Worker",
+        "phase": 2,
+        "query_vector_correct": false,
+        "selected": "PUBLISH_MINIMAL",
+        "selected_estimate": "0"
+      }
+    },
+    {
+      "arm": "fixed",
+      "condition": "base_v1",
+      "world_id": "query_430000005",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "fixed",
+      "condition": "base_v1",
+      "world_id": "meeting_430000006",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Source",
+        "phase": 1,
+        "query_vector_correct": false,
+        "selected": "WITHHOLD",
+        "selected_estimate": "0"
+      }
+    },
+    {
+      "arm": "fixed",
+      "condition": "base_v1",
+      "world_id": "query_430000007",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Source",
+        "phase": 1,
+        "query_vector_correct": false,
+        "selected": "WITHHOLD",
+        "selected_estimate": "0"
+      }
+    },
+    {
+      "arm": "fixed",
+      "condition": "base_v1_swap",
+      "world_id": "meeting_430000000",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Worker",
+        "phase": 2,
+        "query_vector_correct": false,
+        "selected": "WITHHOLD",
+        "selected_estimate": "0"
+      }
+    },
+    {
+      "arm": "fixed",
+      "condition": "base_v1_swap",
+      "world_id": "query_430000001",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Worker",
+        "phase": 2,
+        "query_vector_correct": false,
+        "selected": "WITHHOLD",
+        "selected_estimate": "0"
+      }
+    },
+    {
+      "arm": "fixed",
+      "condition": "base_v1_swap",
+      "world_id": "meeting_430000002",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "fixed",
+      "condition": "base_v1_swap",
+      "world_id": "query_430000003",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Worker",
+        "phase": 2,
+        "query_vector_correct": false,
+        "selected": "PUBLISH_MINIMAL",
+        "selected_estimate": "0"
+      }
+    },
+    {
+      "arm": "fixed",
+      "condition": "base_v1_swap",
+      "world_id": "meeting_430000004",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Worker",
+        "phase": 2,
+        "query_vector_correct": false,
+        "selected": "PUBLISH_MINIMAL",
+        "selected_estimate": "0"
+      }
+    },
+    {
+      "arm": "fixed",
+      "condition": "base_v1_swap",
+      "world_id": "query_430000005",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "fixed",
+      "condition": "base_v1_swap",
+      "world_id": "meeting_430000006",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Source",
+        "phase": 1,
+        "query_vector_correct": false,
+        "selected": "WITHHOLD",
+        "selected_estimate": "0"
+      }
+    },
+    {
+      "arm": "fixed",
+      "condition": "base_v1_swap",
+      "world_id": "query_430000007",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Source",
+        "phase": 1,
+        "query_vector_correct": false,
+        "selected": "WITHHOLD",
+        "selected_estimate": "0"
+      }
+    },
+    {
+      "arm": "fixed",
+      "condition": "depth3_v0",
+      "world_id": "meeting_430001000",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Planner",
+        "phase": 0,
+        "query_vector_correct": false,
+        "selected": "COMMIT:e8116902757",
+        "selected_estimate": "1"
+      }
+    },
+    {
+      "arm": "fixed",
+      "condition": "depth3_v0",
+      "world_id": "query_430001001",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Planner",
+        "phase": 0,
+        "query_vector_correct": false,
+        "selected": "COMMIT:e9897431516",
+        "selected_estimate": "1"
+      }
+    },
+    {
+      "arm": "fixed",
+      "condition": "depth3_v0",
+      "world_id": "meeting_430001002",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "fixed",
+      "condition": "depth3_v0",
+      "world_id": "query_430001003",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Worker",
+        "phase": 2,
+        "query_vector_correct": false,
+        "selected": "PUBLISH_MINIMAL",
+        "selected_estimate": "0"
+      }
+    },
+    {
+      "arm": "fixed",
+      "condition": "depth3_v0_swap",
+      "world_id": "meeting_430001000",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "fixed",
+      "condition": "depth3_v0_swap",
+      "world_id": "query_430001001",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "fixed",
+      "condition": "depth3_v0_swap",
+      "world_id": "meeting_430001002",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Planner",
+        "phase": 0,
+        "query_vector_correct": false,
+        "selected": "COMMIT:e2129162504",
+        "selected_estimate": "1"
+      }
+    },
+    {
+      "arm": "fixed",
+      "condition": "depth3_v0_swap",
+      "world_id": "query_430001003",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Planner",
+        "phase": 0,
+        "query_vector_correct": false,
+        "selected": "COMMIT:e5846311925",
+        "selected_estimate": "0"
+      }
+    },
+    {
+      "arm": "fixed",
+      "condition": "depth3_v1",
+      "world_id": "meeting_430001000",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "fixed",
+      "condition": "depth3_v1",
+      "world_id": "query_430001001",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Planner",
+        "phase": 0,
+        "query_vector_correct": false,
+        "selected": "COMMIT:e9897431516",
+        "selected_estimate": "1"
+      }
+    },
+    {
+      "arm": "fixed",
+      "condition": "depth3_v1",
+      "world_id": "meeting_430001002",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Planner",
+        "phase": 0,
+        "query_vector_correct": false,
+        "selected": "COMMIT:e7176328117",
+        "selected_estimate": "1"
+      }
+    },
+    {
+      "arm": "fixed",
+      "condition": "depth3_v1",
+      "world_id": "query_430001003",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Planner",
+        "phase": 0,
+        "query_vector_correct": false,
+        "selected": "COMMIT:e4178400892",
+        "selected_estimate": "0"
+      }
+    },
+    {
+      "arm": "fixed",
+      "condition": "depth3_v1_swap",
+      "world_id": "meeting_430001000",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Planner",
+        "phase": 0,
+        "query_vector_correct": false,
+        "selected": "COMMIT:e3972876441",
+        "selected_estimate": "1"
+      }
+    },
+    {
+      "arm": "fixed",
+      "condition": "depth3_v1_swap",
+      "world_id": "query_430001001",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Source",
+        "phase": 1,
+        "query_vector_correct": false,
+        "selected": "WITHHOLD",
+        "selected_estimate": "0"
+      }
+    },
+    {
+      "arm": "fixed",
+      "condition": "depth3_v1_swap",
+      "world_id": "meeting_430001002",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Source",
+        "phase": 1,
+        "query_vector_correct": false,
+        "selected": "WITHHOLD",
+        "selected_estimate": "0"
+      }
+    },
+    {
+      "arm": "fixed",
+      "condition": "depth3_v1_swap",
+      "world_id": "query_430001003",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Planner",
+        "phase": 0,
+        "query_vector_correct": false,
+        "selected": "COMMIT:e5846311925",
+        "selected_estimate": "1"
+      }
+    },
+    {
+      "arm": "fixed",
+      "condition": "depth4_v0",
+      "world_id": "meeting_430004000",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Planner",
+        "phase": 0,
+        "query_vector_correct": false,
+        "selected": "COMMIT:e7300716681",
+        "selected_estimate": "1"
+      }
+    },
+    {
+      "arm": "fixed",
+      "condition": "depth4_v0",
+      "world_id": "query_430004001",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Planner",
+        "phase": 0,
+        "query_vector_correct": false,
+        "selected": "COMMIT:e5480359836",
+        "selected_estimate": "1"
+      }
+    },
+    {
+      "arm": "fixed",
+      "condition": "depth4_v0",
+      "world_id": "meeting_430004002",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "fixed",
+      "condition": "depth4_v0",
+      "world_id": "query_430004003",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Planner",
+        "phase": 0,
+        "query_vector_correct": false,
+        "selected": "COMMIT:e4786412204",
+        "selected_estimate": "0"
+      }
+    },
+    {
+      "arm": "fixed",
+      "condition": "depth4_v0_swap",
+      "world_id": "meeting_430004000",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Source",
+        "phase": 1,
+        "query_vector_correct": false,
+        "selected": "WITHHOLD",
+        "selected_estimate": "0"
+      }
+    },
+    {
+      "arm": "fixed",
+      "condition": "depth4_v0_swap",
+      "world_id": "query_430004001",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Source",
+        "phase": 1,
+        "query_vector_correct": false,
+        "selected": "WITHHOLD",
+        "selected_estimate": "0"
+      }
+    },
+    {
+      "arm": "fixed",
+      "condition": "depth4_v0_swap",
+      "world_id": "meeting_430004002",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "fixed",
+      "condition": "depth4_v0_swap",
+      "world_id": "query_430004003",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "fixed",
+      "condition": "depth4_v1",
+      "world_id": "meeting_430004000",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Planner",
+        "phase": 0,
+        "query_vector_correct": false,
+        "selected": "COMMIT:e7300716681",
+        "selected_estimate": "0"
+      }
+    },
+    {
+      "arm": "fixed",
+      "condition": "depth4_v1",
+      "world_id": "query_430004001",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Planner",
+        "phase": 0,
+        "query_vector_correct": false,
+        "selected": "COMMIT:e5480359836",
+        "selected_estimate": "1"
+      }
+    },
+    {
+      "arm": "fixed",
+      "condition": "depth4_v1",
+      "world_id": "meeting_430004002",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "fixed",
+      "condition": "depth4_v1",
+      "world_id": "query_430004003",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Planner",
+        "phase": 0,
+        "query_vector_correct": false,
+        "selected": "COMMIT:e4786412204",
+        "selected_estimate": "1"
+      }
+    },
+    {
+      "arm": "fixed",
+      "condition": "depth4_v1_swap",
+      "world_id": "meeting_430004000",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "fixed",
+      "condition": "depth4_v1_swap",
+      "world_id": "query_430004001",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Source",
+        "phase": 1,
+        "query_vector_correct": false,
+        "selected": "WITHHOLD",
+        "selected_estimate": "0"
+      }
+    },
+    {
+      "arm": "fixed",
+      "condition": "depth4_v1_swap",
+      "world_id": "meeting_430004002",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Planner",
+        "phase": 0,
+        "query_vector_correct": false,
+        "selected": "COMMIT:e3394899769",
+        "selected_estimate": "1"
+      }
+    },
+    {
+      "arm": "fixed",
+      "condition": "depth4_v1_swap",
+      "world_id": "query_430004003",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Source",
+        "phase": 1,
+        "query_vector_correct": false,
+        "selected": "WITHHOLD",
+        "selected_estimate": "0"
+      }
+    },
+    {
+      "arm": "fixed",
+      "condition": "internal3_v0",
+      "world_id": "meeting_430002000_side0",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Source",
+        "phase": 1,
+        "query_vector_correct": false,
+        "selected": "WITHHOLD",
+        "selected_estimate": "0"
+      }
+    },
+    {
+      "arm": "fixed",
+      "condition": "internal3_v0",
+      "world_id": "query_430002001_side0",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Worker",
+        "phase": 2,
+        "query_vector_correct": false,
+        "selected": "WITHHOLD",
+        "selected_estimate": "0"
+      }
+    },
+    {
+      "arm": "fixed",
+      "condition": "internal3_v0",
+      "world_id": "meeting_430002002_side0",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Planner",
+        "phase": 0,
+        "query_vector_correct": false,
+        "selected": "COMMIT:e2826394507",
+        "selected_estimate": "1"
+      }
+    },
+    {
+      "arm": "fixed",
+      "condition": "internal3_v0",
+      "world_id": "query_430002003_side0",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Source",
+        "phase": 1,
+        "query_vector_correct": false,
+        "selected": "WITHHOLD",
+        "selected_estimate": "0"
+      }
+    },
+    {
+      "arm": "fixed",
+      "condition": "internal3_v0_swap",
+      "world_id": "meeting_430002000_side1",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Planner",
+        "phase": 0,
+        "query_vector_correct": false,
+        "selected": "COMMIT:e3318944987",
+        "selected_estimate": "0"
+      }
+    },
+    {
+      "arm": "fixed",
+      "condition": "internal3_v0_swap",
+      "world_id": "query_430002001_side1",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Worker",
+        "phase": 2,
+        "query_vector_correct": false,
+        "selected": "WITHHOLD",
+        "selected_estimate": "0"
+      }
+    },
+    {
+      "arm": "fixed",
+      "condition": "internal3_v0_swap",
+      "world_id": "meeting_430002002_side1",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Worker",
+        "phase": 2,
+        "query_vector_correct": false,
+        "selected": "WITHHOLD",
+        "selected_estimate": "0"
+      }
+    },
+    {
+      "arm": "fixed",
+      "condition": "internal3_v0_swap",
+      "world_id": "query_430002003_side1",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Planner",
+        "phase": 0,
+        "query_vector_correct": false,
+        "selected": "COMMIT:e9911102557",
+        "selected_estimate": "1"
+      }
+    },
+    {
+      "arm": "fixed",
+      "condition": "internal3_v1",
+      "world_id": "meeting_430002000_side0",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "fixed",
+      "condition": "internal3_v1",
+      "world_id": "query_430002001_side0",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Planner",
+        "phase": 0,
+        "query_vector_correct": false,
+        "selected": "COMMIT:e5844812422",
+        "selected_estimate": "1"
+      }
+    },
+    {
+      "arm": "fixed",
+      "condition": "internal3_v1",
+      "world_id": "meeting_430002002_side0",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Worker",
+        "phase": 2,
+        "query_vector_correct": false,
+        "selected": "WITHHOLD",
+        "selected_estimate": "0"
+      }
+    },
+    {
+      "arm": "fixed",
+      "condition": "internal3_v1",
+      "world_id": "query_430002003_side0",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Planner",
+        "phase": 0,
+        "query_vector_correct": false,
+        "selected": "COMMIT:e7147851051",
+        "selected_estimate": "1"
+      }
+    },
+    {
+      "arm": "fixed",
+      "condition": "internal3_v1_swap",
+      "world_id": "meeting_430002000_side1",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Worker",
+        "phase": 2,
+        "query_vector_correct": false,
+        "selected": "PUBLISH_MINIMAL",
+        "selected_estimate": "0"
+      }
+    },
+    {
+      "arm": "fixed",
+      "condition": "internal3_v1_swap",
+      "world_id": "query_430002001_side1",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "fixed",
+      "condition": "internal3_v1_swap",
+      "world_id": "meeting_430002002_side1",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Planner",
+        "phase": 0,
+        "query_vector_correct": false,
+        "selected": "COMMIT:e3598962665",
+        "selected_estimate": "1"
+      }
+    },
+    {
+      "arm": "fixed",
+      "condition": "internal3_v1_swap",
+      "world_id": "query_430002003_side1",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Source",
+        "phase": 1,
+        "query_vector_correct": false,
+        "selected": "WITHHOLD",
+        "selected_estimate": "0"
+      }
+    },
+    {
+      "arm": "fixed",
+      "condition": "cycle4_v0",
+      "world_id": "meeting_430003000_side0",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Source",
+        "phase": 1,
+        "query_vector_correct": false,
+        "selected": "WITHHOLD",
+        "selected_estimate": "0"
+      }
+    },
+    {
+      "arm": "fixed",
+      "condition": "cycle4_v0",
+      "world_id": "query_430003001_side0",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Planner",
+        "phase": 0,
+        "query_vector_correct": false,
+        "selected": "COMMIT:e5902856011",
+        "selected_estimate": "0"
+      }
+    },
+    {
+      "arm": "fixed",
+      "condition": "cycle4_v0",
+      "world_id": "meeting_430003002_side0",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Source",
+        "phase": 1,
+        "query_vector_correct": false,
+        "selected": "WITHHOLD",
+        "selected_estimate": "0"
+      }
+    },
+    {
+      "arm": "fixed",
+      "condition": "cycle4_v0",
+      "world_id": "query_430003003_side0",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Planner",
+        "phase": 0,
+        "query_vector_correct": false,
+        "selected": "COMMIT:e1486308686",
+        "selected_estimate": "1"
+      }
+    },
+    {
+      "arm": "fixed",
+      "condition": "cycle4_v0_swap",
+      "world_id": "meeting_430003000_side1",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Planner",
+        "phase": 0,
+        "query_vector_correct": false,
+        "selected": "COMMIT:e4741941411",
+        "selected_estimate": "0"
+      }
+    },
+    {
+      "arm": "fixed",
+      "condition": "cycle4_v0_swap",
+      "world_id": "query_430003001_side1",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Planner",
+        "phase": 0,
+        "query_vector_correct": false,
+        "selected": null,
+        "selected_estimate": null
+      }
+    },
+    {
+      "arm": "fixed",
+      "condition": "cycle4_v0_swap",
+      "world_id": "meeting_430003002_side1",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Planner",
+        "phase": 0,
+        "query_vector_correct": false,
+        "selected": "COMMIT:e4473994083",
+        "selected_estimate": "0"
+      }
+    },
+    {
+      "arm": "fixed",
+      "condition": "cycle4_v0_swap",
+      "world_id": "query_430003003_side1",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Worker",
+        "phase": 2,
+        "query_vector_correct": false,
+        "selected": "PUBLISH_MINIMAL",
+        "selected_estimate": "0"
+      }
+    },
+    {
+      "arm": "fixed",
+      "condition": "cycle4_v1",
+      "world_id": "meeting_430003000_side0",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Planner",
+        "phase": 0,
+        "query_vector_correct": false,
+        "selected": "COMMIT:e6686048022",
+        "selected_estimate": "0"
+      }
+    },
+    {
+      "arm": "fixed",
+      "condition": "cycle4_v1",
+      "world_id": "query_430003001_side0",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Planner",
+        "phase": 0,
+        "query_vector_correct": false,
+        "selected": "COMMIT:e5902856011",
+        "selected_estimate": "0"
+      }
+    },
+    {
+      "arm": "fixed",
+      "condition": "cycle4_v1",
+      "world_id": "meeting_430003002_side0",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Source",
+        "phase": 1,
+        "query_vector_correct": false,
+        "selected": "WITHHOLD",
+        "selected_estimate": "0"
+      }
+    },
+    {
+      "arm": "fixed",
+      "condition": "cycle4_v1",
+      "world_id": "query_430003003_side0",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Worker",
+        "phase": 2,
+        "query_vector_correct": false,
+        "selected": "PUBLISH_MINIMAL",
+        "selected_estimate": "0"
+      }
+    },
+    {
+      "arm": "fixed",
+      "condition": "cycle4_v1_swap",
+      "world_id": "meeting_430003000_side1",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Source",
+        "phase": 1,
+        "query_vector_correct": false,
+        "selected": "WITHHOLD",
+        "selected_estimate": "0"
+      }
+    },
+    {
+      "arm": "fixed",
+      "condition": "cycle4_v1_swap",
+      "world_id": "query_430003001_side1",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Worker",
+        "phase": 2,
+        "query_vector_correct": false,
+        "selected": "PUBLISH_MINIMAL",
+        "selected_estimate": "0"
+      }
+    },
+    {
+      "arm": "fixed",
+      "condition": "cycle4_v1_swap",
+      "world_id": "meeting_430003002_side1",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Worker",
+        "phase": 2,
+        "query_vector_correct": false,
+        "selected": "PUBLISH_MINIMAL",
+        "selected_estimate": "0"
+      }
+    },
+    {
+      "arm": "fixed",
+      "condition": "cycle4_v1_swap",
+      "world_id": "query_430003003_side1",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Planner",
+        "phase": 0,
+        "query_vector_correct": false,
+        "selected": "COMMIT:e7054292472",
+        "selected_estimate": "0"
+      }
+    },
+    {
+      "arm": "fixed",
+      "condition": "optional_v0",
+      "world_id": "meeting_430010000",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "fixed",
+      "condition": "optional_v0",
+      "world_id": "query_430010001",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "fixed",
+      "condition": "optional_v0",
+      "world_id": "meeting_430010002",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Worker",
+        "phase": 2,
+        "query_vector_correct": false,
+        "selected": "PUBLISH_FULL",
+        "selected_estimate": "1"
+      }
+    },
+    {
+      "arm": "fixed",
+      "condition": "optional_v0",
+      "world_id": "query_430010003",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "fixed",
+      "condition": "optional_v1",
+      "world_id": "meeting_430010000",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Worker",
+        "phase": 2,
+        "query_vector_correct": false,
+        "selected": "PUBLISH_FULL",
+        "selected_estimate": "1"
+      }
+    },
+    {
+      "arm": "fixed",
+      "condition": "optional_v1",
+      "world_id": "query_430010001",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "fixed",
+      "condition": "optional_v1",
+      "world_id": "meeting_430010002",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "fixed",
+      "condition": "optional_v1",
+      "world_id": "query_430010003",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "fixed",
+      "condition": "authorized_v0",
+      "world_id": "meeting_430011000",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "fixed",
+      "condition": "authorized_v0",
+      "world_id": "query_430011001",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "fixed",
+      "condition": "authorized_v0",
+      "world_id": "meeting_430011002",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "fixed",
+      "condition": "authorized_v0",
+      "world_id": "query_430011003",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "fixed",
+      "condition": "authorized_v1",
+      "world_id": "meeting_430011000",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "fixed",
+      "condition": "authorized_v1",
+      "world_id": "query_430011001",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "fixed",
+      "condition": "authorized_v1",
+      "world_id": "meeting_430011002",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "fixed",
+      "condition": "authorized_v1",
+      "world_id": "query_430011003",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "fixed",
+      "condition": "draft_v0",
+      "world_id": "meeting_430012000",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "fixed",
+      "condition": "draft_v0",
+      "world_id": "query_430012001",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "fixed",
+      "condition": "draft_v0",
+      "world_id": "meeting_430012002",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "fixed",
+      "condition": "draft_v0",
+      "world_id": "query_430012003",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "fixed",
+      "condition": "draft_v1",
+      "world_id": "meeting_430012000",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "fixed",
+      "condition": "draft_v1",
+      "world_id": "query_430012001",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "fixed",
+      "condition": "draft_v1",
+      "world_id": "meeting_430012002",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "fixed",
+      "condition": "draft_v1",
+      "world_id": "query_430012003",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "fixed",
+      "condition": "both_v0",
+      "world_id": "meeting_430013000",
+      "solvable": false,
+      "strict_success": false,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "fixed",
+      "condition": "both_v0",
+      "world_id": "query_430013001",
+      "solvable": false,
+      "strict_success": false,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "fixed",
+      "condition": "both_v0",
+      "world_id": "meeting_430013002",
+      "solvable": false,
+      "strict_success": false,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "fixed",
+      "condition": "both_v0",
+      "world_id": "query_430013003",
+      "solvable": false,
+      "strict_success": false,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "fixed",
+      "condition": "both_v1",
+      "world_id": "meeting_430013000",
+      "solvable": false,
+      "strict_success": false,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "fixed",
+      "condition": "both_v1",
+      "world_id": "query_430013001",
+      "solvable": false,
+      "strict_success": false,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "fixed",
+      "condition": "both_v1",
+      "world_id": "meeting_430013002",
+      "solvable": false,
+      "strict_success": false,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "fixed",
+      "condition": "both_v1",
+      "world_id": "query_430013003",
+      "solvable": false,
+      "strict_success": false,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "renamed",
+      "condition": "base_v0",
+      "world_id": "meeting_430000000",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "renamed",
+      "condition": "base_v0",
+      "world_id": "query_430000001",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "renamed",
+      "condition": "base_v0",
+      "world_id": "meeting_430000002",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "renamed",
+      "condition": "base_v0",
+      "world_id": "query_430000003",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "renamed",
+      "condition": "base_v0",
+      "world_id": "meeting_430000004",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "renamed",
+      "condition": "base_v0",
+      "world_id": "query_430000005",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "renamed",
+      "condition": "base_v0",
+      "world_id": "meeting_430000006",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "renamed",
+      "condition": "base_v0",
+      "world_id": "query_430000007",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "renamed",
+      "condition": "base_v0_swap",
+      "world_id": "meeting_430000000",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "renamed",
+      "condition": "base_v0_swap",
+      "world_id": "query_430000001",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "renamed",
+      "condition": "base_v0_swap",
+      "world_id": "meeting_430000002",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "renamed",
+      "condition": "base_v0_swap",
+      "world_id": "query_430000003",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "renamed",
+      "condition": "base_v0_swap",
+      "world_id": "meeting_430000004",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "renamed",
+      "condition": "base_v0_swap",
+      "world_id": "query_430000005",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "renamed",
+      "condition": "base_v0_swap",
+      "world_id": "meeting_430000006",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "renamed",
+      "condition": "base_v0_swap",
+      "world_id": "query_430000007",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "renamed",
+      "condition": "base_v1",
+      "world_id": "meeting_430000000",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "renamed",
+      "condition": "base_v1",
+      "world_id": "query_430000001",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "renamed",
+      "condition": "base_v1",
+      "world_id": "meeting_430000002",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "renamed",
+      "condition": "base_v1",
+      "world_id": "query_430000003",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "renamed",
+      "condition": "base_v1",
+      "world_id": "meeting_430000004",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "renamed",
+      "condition": "base_v1",
+      "world_id": "query_430000005",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "renamed",
+      "condition": "base_v1",
+      "world_id": "meeting_430000006",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "renamed",
+      "condition": "base_v1",
+      "world_id": "query_430000007",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "renamed",
+      "condition": "base_v1_swap",
+      "world_id": "meeting_430000000",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "renamed",
+      "condition": "base_v1_swap",
+      "world_id": "query_430000001",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "renamed",
+      "condition": "base_v1_swap",
+      "world_id": "meeting_430000002",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "renamed",
+      "condition": "base_v1_swap",
+      "world_id": "query_430000003",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "renamed",
+      "condition": "base_v1_swap",
+      "world_id": "meeting_430000004",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "renamed",
+      "condition": "base_v1_swap",
+      "world_id": "query_430000005",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "renamed",
+      "condition": "base_v1_swap",
+      "world_id": "meeting_430000006",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "renamed",
+      "condition": "base_v1_swap",
+      "world_id": "query_430000007",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "renamed",
+      "condition": "depth3_v0",
+      "world_id": "meeting_430001000",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "renamed",
+      "condition": "depth3_v0",
+      "world_id": "query_430001001",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Planner",
+        "phase": 0,
+        "query_vector_correct": false,
+        "selected": "COMMIT:e9897431516",
+        "selected_estimate": "1"
+      }
+    },
+    {
+      "arm": "renamed",
+      "condition": "depth3_v0",
+      "world_id": "meeting_430001002",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "renamed",
+      "condition": "depth3_v0",
+      "world_id": "query_430001003",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Planner",
+        "phase": 0,
+        "query_vector_correct": false,
+        "selected": "COMMIT:e4178400892",
+        "selected_estimate": "1"
+      }
+    },
+    {
+      "arm": "renamed",
+      "condition": "depth3_v0_swap",
+      "world_id": "meeting_430001000",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Planner",
+        "phase": 0,
+        "query_vector_correct": false,
+        "selected": "COMMIT:e3972876441",
+        "selected_estimate": "1"
+      }
+    },
+    {
+      "arm": "renamed",
+      "condition": "depth3_v0_swap",
+      "world_id": "query_430001001",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "renamed",
+      "condition": "depth3_v0_swap",
+      "world_id": "meeting_430001002",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Planner",
+        "phase": 0,
+        "query_vector_correct": false,
+        "selected": "COMMIT:e2129162504",
+        "selected_estimate": "1"
+      }
+    },
+    {
+      "arm": "renamed",
+      "condition": "depth3_v0_swap",
+      "world_id": "query_430001003",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Planner",
+        "phase": 0,
+        "query_vector_correct": false,
+        "selected": "COMMIT:e5846311925",
+        "selected_estimate": "0"
+      }
+    },
+    {
+      "arm": "renamed",
+      "condition": "depth3_v1",
+      "world_id": "meeting_430001000",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "renamed",
+      "condition": "depth3_v1",
+      "world_id": "query_430001001",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Planner",
+        "phase": 0,
+        "query_vector_correct": false,
+        "selected": "COMMIT:e9897431516",
+        "selected_estimate": "1"
+      }
+    },
+    {
+      "arm": "renamed",
+      "condition": "depth3_v1",
+      "world_id": "meeting_430001002",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Planner",
+        "phase": 0,
+        "query_vector_correct": false,
+        "selected": "COMMIT:e7176328117",
+        "selected_estimate": "1"
+      }
+    },
+    {
+      "arm": "renamed",
+      "condition": "depth3_v1",
+      "world_id": "query_430001003",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "renamed",
+      "condition": "depth3_v1_swap",
+      "world_id": "meeting_430001000",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Planner",
+        "phase": 0,
+        "query_vector_correct": false,
+        "selected": "COMMIT:e3972876441",
+        "selected_estimate": "1"
+      }
+    },
+    {
+      "arm": "renamed",
+      "condition": "depth3_v1_swap",
+      "world_id": "query_430001001",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "renamed",
+      "condition": "depth3_v1_swap",
+      "world_id": "meeting_430001002",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "renamed",
+      "condition": "depth3_v1_swap",
+      "world_id": "query_430001003",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Planner",
+        "phase": 0,
+        "query_vector_correct": false,
+        "selected": "COMMIT:e5846311925",
+        "selected_estimate": "1"
+      }
+    },
+    {
+      "arm": "renamed",
+      "condition": "depth4_v0",
+      "world_id": "meeting_430004000",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "renamed",
+      "condition": "depth4_v0",
+      "world_id": "query_430004001",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Planner",
+        "phase": 0,
+        "query_vector_correct": false,
+        "selected": "COMMIT:e5480359836",
+        "selected_estimate": "1"
+      }
+    },
+    {
+      "arm": "renamed",
+      "condition": "depth4_v0",
+      "world_id": "meeting_430004002",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "renamed",
+      "condition": "depth4_v0",
+      "world_id": "query_430004003",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Planner",
+        "phase": 0,
+        "query_vector_correct": false,
+        "selected": "COMMIT:e4786412204",
+        "selected_estimate": "0"
+      }
+    },
+    {
+      "arm": "renamed",
+      "condition": "depth4_v0_swap",
+      "world_id": "meeting_430004000",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Planner",
+        "phase": 0,
+        "query_vector_correct": false,
+        "selected": "COMMIT:e3118086646",
+        "selected_estimate": "0"
+      }
+    },
+    {
+      "arm": "renamed",
+      "condition": "depth4_v0_swap",
+      "world_id": "query_430004001",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "renamed",
+      "condition": "depth4_v0_swap",
+      "world_id": "meeting_430004002",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Planner",
+        "phase": 0,
+        "query_vector_correct": false,
+        "selected": "COMMIT:e3394899769",
+        "selected_estimate": "1"
+      }
+    },
+    {
+      "arm": "renamed",
+      "condition": "depth4_v0_swap",
+      "world_id": "query_430004003",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Planner",
+        "phase": 0,
+        "query_vector_correct": false,
+        "selected": "COMMIT:e7305675080",
+        "selected_estimate": "1"
+      }
+    },
+    {
+      "arm": "renamed",
+      "condition": "depth4_v1",
+      "world_id": "meeting_430004000",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Planner",
+        "phase": 0,
+        "query_vector_correct": false,
+        "selected": "COMMIT:e7300716681",
+        "selected_estimate": "1"
+      }
+    },
+    {
+      "arm": "renamed",
+      "condition": "depth4_v1",
+      "world_id": "query_430004001",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Planner",
+        "phase": 0,
+        "query_vector_correct": false,
+        "selected": "COMMIT:e5480359836",
+        "selected_estimate": "1"
+      }
+    },
+    {
+      "arm": "renamed",
+      "condition": "depth4_v1",
+      "world_id": "meeting_430004002",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "renamed",
+      "condition": "depth4_v1",
+      "world_id": "query_430004003",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Planner",
+        "phase": 0,
+        "query_vector_correct": false,
+        "selected": "COMMIT:e4786412204",
+        "selected_estimate": "1"
+      }
+    },
+    {
+      "arm": "renamed",
+      "condition": "depth4_v1_swap",
+      "world_id": "meeting_430004000",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "renamed",
+      "condition": "depth4_v1_swap",
+      "world_id": "query_430004001",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "renamed",
+      "condition": "depth4_v1_swap",
+      "world_id": "meeting_430004002",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Planner",
+        "phase": 0,
+        "query_vector_correct": false,
+        "selected": "COMMIT:e3394899769",
+        "selected_estimate": "1"
+      }
+    },
+    {
+      "arm": "renamed",
+      "condition": "depth4_v1_swap",
+      "world_id": "query_430004003",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "renamed",
+      "condition": "internal3_v0",
+      "world_id": "meeting_430002000_side0",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Planner",
+        "phase": 0,
+        "query_vector_correct": false,
+        "selected": "COMMIT:e3709081226",
+        "selected_estimate": "1"
+      }
+    },
+    {
+      "arm": "renamed",
+      "condition": "internal3_v0",
+      "world_id": "query_430002001_side0",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "renamed",
+      "condition": "internal3_v0",
+      "world_id": "meeting_430002002_side0",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Planner",
+        "phase": 0,
+        "query_vector_correct": false,
+        "selected": "COMMIT:e2826394507",
+        "selected_estimate": "1"
+      }
+    },
+    {
+      "arm": "renamed",
+      "condition": "internal3_v0",
+      "world_id": "query_430002003_side0",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "renamed",
+      "condition": "internal3_v0_swap",
+      "world_id": "meeting_430002000_side1",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Source",
+        "phase": 1,
+        "query_vector_correct": false,
+        "selected": "WITHHOLD",
+        "selected_estimate": "0"
+      }
+    },
+    {
+      "arm": "renamed",
+      "condition": "internal3_v0_swap",
+      "world_id": "query_430002001_side1",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Planner",
+        "phase": 0,
+        "query_vector_correct": false,
+        "selected": "COMMIT:e5165274252",
+        "selected_estimate": "1"
+      }
+    },
+    {
+      "arm": "renamed",
+      "condition": "internal3_v0_swap",
+      "world_id": "meeting_430002002_side1",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Worker",
+        "phase": 2,
+        "query_vector_correct": false,
+        "selected": "WITHHOLD",
+        "selected_estimate": "0"
+      }
+    },
+    {
+      "arm": "renamed",
+      "condition": "internal3_v0_swap",
+      "world_id": "query_430002003_side1",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Planner",
+        "phase": 0,
+        "query_vector_correct": false,
+        "selected": "COMMIT:e9911102557",
+        "selected_estimate": "1"
+      }
+    },
+    {
+      "arm": "renamed",
+      "condition": "internal3_v1",
+      "world_id": "meeting_430002000_side0",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Planner",
+        "phase": 0,
+        "query_vector_correct": false,
+        "selected": "COMMIT:e3709081226",
+        "selected_estimate": "0"
+      }
+    },
+    {
+      "arm": "renamed",
+      "condition": "internal3_v1",
+      "world_id": "query_430002001_side0",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Planner",
+        "phase": 0,
+        "query_vector_correct": false,
+        "selected": "COMMIT:e5844812422",
+        "selected_estimate": "1"
+      }
+    },
+    {
+      "arm": "renamed",
+      "condition": "internal3_v1",
+      "world_id": "meeting_430002002_side0",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Worker",
+        "phase": 2,
+        "query_vector_correct": false,
+        "selected": "PUBLISH_MINIMAL",
+        "selected_estimate": "0"
+      }
+    },
+    {
+      "arm": "renamed",
+      "condition": "internal3_v1",
+      "world_id": "query_430002003_side0",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Planner",
+        "phase": 0,
+        "query_vector_correct": false,
+        "selected": "COMMIT:e7147851051",
+        "selected_estimate": "1"
+      }
+    },
+    {
+      "arm": "renamed",
+      "condition": "internal3_v1_swap",
+      "world_id": "meeting_430002000_side1",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "renamed",
+      "condition": "internal3_v1_swap",
+      "world_id": "query_430002001_side1",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "renamed",
+      "condition": "internal3_v1_swap",
+      "world_id": "meeting_430002002_side1",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Planner",
+        "phase": 0,
+        "query_vector_correct": false,
+        "selected": "COMMIT:e3598962665",
+        "selected_estimate": "1"
+      }
+    },
+    {
+      "arm": "renamed",
+      "condition": "internal3_v1_swap",
+      "world_id": "query_430002003_side1",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "renamed",
+      "condition": "cycle4_v0",
+      "world_id": "meeting_430003000_side0",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Source",
+        "phase": 1,
+        "query_vector_correct": false,
+        "selected": "WITHHOLD",
+        "selected_estimate": "0"
+      }
+    },
+    {
+      "arm": "renamed",
+      "condition": "cycle4_v0",
+      "world_id": "query_430003001_side0",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Planner",
+        "phase": 0,
+        "query_vector_correct": false,
+        "selected": "COMMIT:e5902856011",
+        "selected_estimate": "0"
+      }
+    },
+    {
+      "arm": "renamed",
+      "condition": "cycle4_v0",
+      "world_id": "meeting_430003002_side0",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Source",
+        "phase": 1,
+        "query_vector_correct": false,
+        "selected": "WITHHOLD",
+        "selected_estimate": "0"
+      }
+    },
+    {
+      "arm": "renamed",
+      "condition": "cycle4_v0",
+      "world_id": "query_430003003_side0",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Planner",
+        "phase": 0,
+        "query_vector_correct": false,
+        "selected": "COMMIT:e1486308686",
+        "selected_estimate": "1"
+      }
+    },
+    {
+      "arm": "renamed",
+      "condition": "cycle4_v0_swap",
+      "world_id": "meeting_430003000_side1",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Planner",
+        "phase": 0,
+        "query_vector_correct": false,
+        "selected": "COMMIT:e4741941411",
+        "selected_estimate": "0"
+      }
+    },
+    {
+      "arm": "renamed",
+      "condition": "cycle4_v0_swap",
+      "world_id": "query_430003001_side1",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Planner",
+        "phase": 0,
+        "query_vector_correct": false,
+        "selected": null,
+        "selected_estimate": null
+      }
+    },
+    {
+      "arm": "renamed",
+      "condition": "cycle4_v0_swap",
+      "world_id": "meeting_430003002_side1",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Planner",
+        "phase": 0,
+        "query_vector_correct": false,
+        "selected": "COMMIT:e4473994083",
+        "selected_estimate": "0"
+      }
+    },
+    {
+      "arm": "renamed",
+      "condition": "cycle4_v0_swap",
+      "world_id": "query_430003003_side1",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "renamed",
+      "condition": "cycle4_v1",
+      "world_id": "meeting_430003000_side0",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Source",
+        "phase": 1,
+        "query_vector_correct": false,
+        "selected": "WITHHOLD",
+        "selected_estimate": "0"
+      }
+    },
+    {
+      "arm": "renamed",
+      "condition": "cycle4_v1",
+      "world_id": "query_430003001_side0",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Planner",
+        "phase": 0,
+        "query_vector_correct": false,
+        "selected": "COMMIT:e5902856011",
+        "selected_estimate": "1"
+      }
+    },
+    {
+      "arm": "renamed",
+      "condition": "cycle4_v1",
+      "world_id": "meeting_430003002_side0",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Source",
+        "phase": 1,
+        "query_vector_correct": false,
+        "selected": "WITHHOLD",
+        "selected_estimate": "0"
+      }
+    },
+    {
+      "arm": "renamed",
+      "condition": "cycle4_v1",
+      "world_id": "query_430003003_side0",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Worker",
+        "phase": 2,
+        "query_vector_correct": false,
+        "selected": "PUBLISH_MINIMAL",
+        "selected_estimate": "0"
+      }
+    },
+    {
+      "arm": "renamed",
+      "condition": "cycle4_v1_swap",
+      "world_id": "meeting_430003000_side1",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Planner",
+        "phase": 0,
+        "query_vector_correct": false,
+        "selected": "COMMIT:e4741941411",
+        "selected_estimate": "1"
+      }
+    },
+    {
+      "arm": "renamed",
+      "condition": "cycle4_v1_swap",
+      "world_id": "query_430003001_side1",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "renamed",
+      "condition": "cycle4_v1_swap",
+      "world_id": "meeting_430003002_side1",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Planner",
+        "phase": 0,
+        "query_vector_correct": false,
+        "selected": "COMMIT:e4473994083",
+        "selected_estimate": "1"
+      }
+    },
+    {
+      "arm": "renamed",
+      "condition": "cycle4_v1_swap",
+      "world_id": "query_430003003_side1",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Planner",
+        "phase": 0,
+        "query_vector_correct": false,
+        "selected": "COMMIT:e7054292472",
+        "selected_estimate": "0"
+      }
+    },
+    {
+      "arm": "renamed",
+      "condition": "optional_v0",
+      "world_id": "meeting_430010000",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "renamed",
+      "condition": "optional_v0",
+      "world_id": "query_430010001",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "renamed",
+      "condition": "optional_v0",
+      "world_id": "meeting_430010002",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Worker",
+        "phase": 2,
+        "query_vector_correct": false,
+        "selected": "PUBLISH_FULL",
+        "selected_estimate": "1"
+      }
+    },
+    {
+      "arm": "renamed",
+      "condition": "optional_v0",
+      "world_id": "query_430010003",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Worker",
+        "phase": 2,
+        "query_vector_correct": false,
+        "selected": "PUBLISH_FULL",
+        "selected_estimate": "1"
+      }
+    },
+    {
+      "arm": "renamed",
+      "condition": "optional_v1",
+      "world_id": "meeting_430010000",
+      "solvable": true,
+      "strict_success": false,
+      "first_suboptimal_action": {
+        "role": "Worker",
+        "phase": 2,
+        "query_vector_correct": false,
+        "selected": "PUBLISH_FULL",
+        "selected_estimate": "1"
+      }
+    },
+    {
+      "arm": "renamed",
+      "condition": "optional_v1",
+      "world_id": "query_430010001",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "renamed",
+      "condition": "optional_v1",
+      "world_id": "meeting_430010002",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "renamed",
+      "condition": "optional_v1",
+      "world_id": "query_430010003",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "renamed",
+      "condition": "authorized_v0",
+      "world_id": "meeting_430011000",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "renamed",
+      "condition": "authorized_v0",
+      "world_id": "query_430011001",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "renamed",
+      "condition": "authorized_v0",
+      "world_id": "meeting_430011002",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "renamed",
+      "condition": "authorized_v0",
+      "world_id": "query_430011003",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "renamed",
+      "condition": "authorized_v1",
+      "world_id": "meeting_430011000",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "renamed",
+      "condition": "authorized_v1",
+      "world_id": "query_430011001",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "renamed",
+      "condition": "authorized_v1",
+      "world_id": "meeting_430011002",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "renamed",
+      "condition": "authorized_v1",
+      "world_id": "query_430011003",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "renamed",
+      "condition": "draft_v0",
+      "world_id": "meeting_430012000",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "renamed",
+      "condition": "draft_v0",
+      "world_id": "query_430012001",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "renamed",
+      "condition": "draft_v0",
+      "world_id": "meeting_430012002",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "renamed",
+      "condition": "draft_v0",
+      "world_id": "query_430012003",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "renamed",
+      "condition": "draft_v1",
+      "world_id": "meeting_430012000",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "renamed",
+      "condition": "draft_v1",
+      "world_id": "query_430012001",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "renamed",
+      "condition": "draft_v1",
+      "world_id": "meeting_430012002",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "renamed",
+      "condition": "draft_v1",
+      "world_id": "query_430012003",
+      "solvable": true,
+      "strict_success": true,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "renamed",
+      "condition": "both_v0",
+      "world_id": "meeting_430013000",
+      "solvable": false,
+      "strict_success": false,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "renamed",
+      "condition": "both_v0",
+      "world_id": "query_430013001",
+      "solvable": false,
+      "strict_success": false,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "renamed",
+      "condition": "both_v0",
+      "world_id": "meeting_430013002",
+      "solvable": false,
+      "strict_success": false,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "renamed",
+      "condition": "both_v0",
+      "world_id": "query_430013003",
+      "solvable": false,
+      "strict_success": false,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "renamed",
+      "condition": "both_v1",
+      "world_id": "meeting_430013000",
+      "solvable": false,
+      "strict_success": false,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "renamed",
+      "condition": "both_v1",
+      "world_id": "query_430013001",
+      "solvable": false,
+      "strict_success": false,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "renamed",
+      "condition": "both_v1",
+      "world_id": "meeting_430013002",
+      "solvable": false,
+      "strict_success": false,
+      "first_suboptimal_action": null
+    },
+    {
+      "arm": "renamed",
+      "condition": "both_v1",
+      "world_id": "query_430013003",
+      "solvable": false,
+      "strict_success": false,
+      "first_suboptimal_action": null
+    }
+  ],
+  "model_calls": 0,
+  "scope": "Descriptive localization on model-visited states; no causal attribution, no new success gate.",
+  "whole_goal_complete": false
+}

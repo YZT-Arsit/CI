@@ -1,0 +1,41 @@
+{
+  "main_audit_errors": 0,
+  "main_seal_verified": true,
+  "archive_checks": {
+    "archives": 75,
+    "raw_bytes": 6280858,
+    "compressed_bytes": 475123,
+    "fresh_restore": "PASS",
+    "idempotence": "PASS",
+    "different_evidence_refused": "PASS",
+    "python_sources_parsed": 18
+  },
+  "evidence_sha256": {
+    "RESULTS.json": "29c26ed1aa3110a9165268ac321c0925bf27b3137d34ebfc64403c9d48ac1455",
+    "SEALED.json": "7a217abb1861a441bbb00c8832e5403cf4c6617b7e6f6e82e008813743274911",
+    "PLAN.json": "8c67e666145d8052978384b9935b71115f2239a8562b0bf4edb032e66753471f",
+    "REPORT.md": "9cc933417919e89c4630bf03ad5abaa24e7db26e29d1f301551df57e0e4f6475",
+    "DECISION.json": "a48efa7eebc436f40e75ab13abc74a765e82c358f4bf9029bf80e8c2a96d0c3d",
+    "LOCALIZATION_PLAN.json": "91a272e6fd9663fb9059c8ff49f8b47669103856c86172db62c23e4bcee44c74",
+    "LOCALIZATION_RESULTS.json": "c6046a5d7fe6673bd7748e5278baf220f19192bc871c99ff249b188bf32952c9",
+    "REVIEW_NOTES.md": "2084a1c429c28721c8fb6a2538c14ed3c44f2cec20ef8e1d04cafd20667aad6b",
+    "REPRODUCE.md": "7e8c4914a1e0c3e81c90a4a7097dfddcd364f8096fd197da795fd54350629d53",
+    "PROMPT_PREFLIGHT.json": "2d7fb784dd00df08e751647dba7ea1415122b8b927c246a6706e2d65ebb14832",
+    "TOKEN_PREFLIGHT.json": "c6c42302dca6c95e140b909ac84b0bfbcd61d579d270d6b34bcd1cfb0f941594",
+    "ASSIGNMENT_CHECK.json": "094b14e0abad888a58e8d11d36a56d9d15f2b63d20bdfc2f0fa45dba8b8f0d0c",
+    "PALETTE_RECEIPT.json": "7df77f5c564347679481cc75a081fa7fe5b2e623ebb29cacfa5d16b1f6ec5abf",
+    "compression_manifest.json": "ea95053b91d96bf58d0cc2a227f07d08d1f7ab37cd0e5c2070c3a9de30f5eef5",
+    "ARCHIVE_VERIFIED.json": "0a424fae3fe4b97c61c40017b43f23fdc38d78a4011ca0cb4fa7cc8c9d2ccae6",
+    "study/AUDIT.json": "afaad0d44db6ff10ffc671039c50f08204362c5f9dfe5612cbd60d955dd25c84",
+    "FIRST_EPOCH_CHECK.json": "073001bc216ac7a40c55d59ac2e0de83f2fe29b6bec6f94a7ca8a04ed69a9413",
+    "SOLUTION.md": "230b39ee7af27a3788e3caee596c1fc2f415339767d9f71bbbf14213498a06fd",
+    "BATCH_WIDTH_CHECK.json": "4d7dfa1c2b8ab3a0cfb6822d4c47a8131c06da01520cea84a6b0e8f785d2e1e9",
+    "WIDTH_CONTROL_PLAN.md": "529ca275d4671f6de5f121b4a5382112787f011276f6f901f6b25888a8e754b0",
+    "width_control/PLAN.json": "90864fd47517b32d5c646e647f283531f52b7866bde9ee814f769cccaa19d117",
+    "width_control/SEALED.json": "2a03a83b0d6e72c45d7d2d94f6314c60251d99689268568e2ddb0f3d8f466b39",
+    "width_control/RESULTS.json": "80273728175f2e1fcdc458f5e8b4243e173023b1f88b6d82f767bab46e798149",
+    "DELIVERY_COST.json": "af984ac2f39cbf91db13d52e649993be064f606eaa486b157e239db354d0e82a"
+  },
+  "whole_goal_complete": false,
+  "large_gpu": "NO_GO"
+}

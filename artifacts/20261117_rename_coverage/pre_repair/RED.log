@@ -1,0 +1,14 @@
+.F
+======================================================================
+FAIL: test_sixteen_distinct_name_seeds_per_batch (__main__.ViewTests.test_sixteen_distinct_name_seeds_per_batch)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\research\longhistory\artifacts\20261117_rename_coverage\test_views.py", line 19, in test_sixteen_distinct_name_seeds_per_batch
+    self.assertEqual(len(set(values)), 16, index)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 2 != 16 : 0
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.027s
+
+FAILED (failures=1)

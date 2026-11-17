@@ -1,0 +1,55 @@
+{
+  "arms": [
+    "fixed",
+    "renamed"
+  ],
+  "new_responses": 672,
+  "new_updates": 0,
+  "main_plan_sha256": "8c67e666145d8052978384b9935b71115f2239a8562b0bf4edb032e66753471f",
+  "main_seal_sha256": "7a217abb1861a441bbb00c8832e5403cf4c6617b7e6f6e82e008813743274911",
+  "source_sha256": "69276226e43a1d9714495ad5269c7668165b8c2925413177b0035f33c49d88c8",
+  "protocol_sha256": "529ca275d4671f6de5f121b4a5382112787f011276f6f901f6b25888a8e754b0",
+  "observations_sha256": "276f9d529e8f1812b0bf0bb6abb209d77712a8bca46202bd675a92e6f42c3dd0",
+  "main_gate_unchanged": true,
+  "decoding": {
+    "batch_size": 4,
+    "do_sample": false,
+    "max_new_tokens": 16,
+    "max_time": 8,
+    "valid_seconds_below": 9.5
+  },
+  "checkpoint": {
+    "fixed": {
+      "path": "artifacts/20261117_rename_coverage/study/fixed",
+      "seal": {
+        "adapter_hashes": {
+          "adapter_config.json": "962ed6e71f0f3cd8f563679a110b736742c093f5421841fab629b557a171ba48",
+          "adapter_model.safetensors": "5e5eb4f22f65c5d79c4a64741e896226314cb8eb16d06eb8c17571d25733dd84",
+          "README.md": "39d3d3aa2d89a2b4ab09cecd018fbbc4cebc3f4b2c6d9e85b81abc38a1dc4045"
+        },
+        "steps": 144,
+        "initial_adapter_hashes": {
+          "adapter_config.json": "317dc54d0fcd6fb3b630eec143c04640103d5388e4a41e5bdedf7f327c2613a7",
+          "adapter_model.safetensors": "c90e365a07194f1e1ea09d0952197f2e62c5594711a0c0b93fa8e1f0820c7356",
+          "README.md": "39d3d3aa2d89a2b4ab09cecd018fbbc4cebc3f4b2c6d9e85b81abc38a1dc4045"
+        }
+      }
+    },
+    "renamed": {
+      "path": "artifacts/20261117_rename_coverage/study/renamed",
+      "seal": {
+        "adapter_hashes": {
+          "adapter_config.json": "317dc54d0fcd6fb3b630eec143c04640103d5388e4a41e5bdedf7f327c2613a7",
+          "adapter_model.safetensors": "c2ce98b6abf318fe12de6825b4306564e0f73834d144cabf80d7ee8213637d49",
+          "README.md": "39d3d3aa2d89a2b4ab09cecd018fbbc4cebc3f4b2c6d9e85b81abc38a1dc4045"
+        },
+        "steps": 144,
+        "initial_adapter_hashes": {
+          "adapter_config.json": "317dc54d0fcd6fb3b630eec143c04640103d5388e4a41e5bdedf7f327c2613a7",
+          "adapter_model.safetensors": "c90e365a07194f1e1ea09d0952197f2e62c5594711a0c0b93fa8e1f0820c7356",
+          "README.md": "39d3d3aa2d89a2b4ab09cecd018fbbc4cebc3f4b2c6d9e85b81abc38a1dc4045"
+        }
+      }
+    }
+  }
+}
