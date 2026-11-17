@@ -1,0 +1,23 @@
+FF
+======================================================================
+FAIL: test_balanced_batches_and_all_strata (__main__.ScheduleTests.test_balanced_batches_and_all_strata)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\research\longhistory\artifacts\20261117_step_learning\test_schedule.py", line 11, in test_balanced_batches_and_all_strata
+    self.assertEqual(len(records), 144)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+AssertionError: 0 != 144
+
+======================================================================
+FAIL: test_reproducible_distinct_schedules (__main__.ScheduleTests.test_reproducible_distinct_schedules)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\research\longhistory\artifacts\20261117_step_learning\test_schedule.py", line 28, in test_reproducible_distinct_schedules
+    self.assertNotEqual(training_schedule(17), training_schedule(29))
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: [] == []
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.001s
+
+FAILED (failures=2)

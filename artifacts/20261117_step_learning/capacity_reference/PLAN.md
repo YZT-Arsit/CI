@@ -1,0 +1,9 @@
+# Frozen Qwen interface reference
+
+Registered before scoring the three-schedule confirmation outputs. This is a small existing-model reference, not an equal-compute training comparison, a new KCI policy or a proof of insufficient135M capacity. The models differ in architecture, pretraining, instruction tuning, quantization and chat template.
+
+Select the lowest group ID in each family (rewire/reverse_cycle) and noise stratum0/20, using third vocabulary and both presentation views from the zero-shot confirmation set. Add the lowest group ID of each of the four control kinds with the same vocabulary/views. This gives24queries:8changing pairs and8controls. Selection uses metadata, never scores. Re-score the same24 existing responses per initial/three trained SmolLM checkpoints (96internal re-scorings; no new SmolLM calls).
+
+Run the local pinned qwen2.5:7b-instruct-q4_K_M once per observation, CPU4threads, temperature0, seed17, context2048, num_predict12, request timeout20seconds, no retry. Warmup may take60seconds and is counted separately. Use the already pinned official Qwen tokenizer/chat renderer; user content stays byte-identical. No labels enter inference. Verify token count/no truncation, model digest and zero VRAM. Do not disturb an existing loaded model. Release only this worker's loaded model when done. A timeout is preserved as an incomplete probe, not silently rerun.
+
+Report both-sides-correct/8, two-view-complete/4, controls/8, invalid and timing. The descriptive necessary panel pass is all pairs/controls correct with no invalid output; it cannot replace the full main gate. These four graph groups reuse two templates at noise0 and include previously developed vocabularies; no external-task or novel structural generalization claim follows. No autonomous episodes or GPU approval.

@@ -1,0 +1,23 @@
+FF
+======================================================================
+FAIL: test_direction_and_exact_round (__main__.StepTests.test_direction_and_exact_round)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\research\longhistory\artifacts\20261117_local_relation_step\test_step.py", line 9, in test_direction_and_exact_round
+    self.assertEqual(reached_after_one(['a'], [('a', 'b'), ('b', 'c')]), {'a', 'b'})
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: None != {'a', 'b'}
+
+======================================================================
+FAIL: test_exhaustive_against_boolean_matrix_round (__main__.StepTests.test_exhaustive_against_boolean_matrix_round)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\research\longhistory\artifacts\20261117_local_relation_step\test_step.py", line 21, in test_exhaustive_against_boolean_matrix_round
+    self.assertEqual(reached_after_one(frontier, edges), expected)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: None != set()
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.001s
+
+FAILED (failures=2)

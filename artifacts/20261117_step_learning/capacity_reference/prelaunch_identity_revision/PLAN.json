@@ -1,0 +1,89 @@
+{
+  "model": {
+    "name": "qwen2.5:7b-instruct-q4_K_M",
+    "model": "qwen2.5:7b-instruct-q4_K_M",
+    "modified_at": "2026-09-10T02:37:00.6146988-07:00",
+    "size": 4683087332,
+    "digest": "845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e",
+    "details": {
+      "parent_model": "",
+      "format": "gguf",
+      "family": "qwen2",
+      "families": [
+        "qwen2"
+      ],
+      "parameter_size": "7.6B",
+      "quantization_level": "Q4_K_M",
+      "context_length": 32768,
+      "embedding_length": 3584,
+      "runner": "ggml"
+    },
+    "capabilities": [
+      "completion",
+      "tools"
+    ]
+  },
+  "main_plan_sha256": "7d1d70d6319ffc7f01b1ce6d052bf7d41011031e0ebfab9498818c5878e18836",
+  "new_responses": 24,
+  "internal_rescorings": 96,
+  "options": {
+    "temperature": 0,
+    "seed": 17,
+    "num_ctx": 2048,
+    "num_predict": 12,
+    "num_gpu": 0,
+    "num_thread": 4
+  },
+  "request_timeout_seconds": 20,
+  "dependencies": {
+    "artifacts/20261117_grounded_norm_probe/run.py": "a61dd2f311d885b7628722e02368e6b3719e18dd006e22077cededdea936c8fc",
+    "artifacts/20261117_native_agent_probe/tokens.py": "7fb473c622ab10bc99432d3be0b77d6eb232b4cd5f0986d2661d1bfdc85d07e7"
+  },
+  "files": {
+    "PLAN.md": "ec86567c5997749edb4dbfea72d4a1964285099c3dd64eeefc2a10e0b7746285",
+    "reference.py": "8f92c6f424f875ed8a01ef04c3e3a10d4299a49f64216f684c07971b5948aa1d",
+    "observations.jsonl": "33e93ec739d5e80d7bd0c22853a7103f6054f6264c5788809e3230b9d2bf4c69"
+  },
+  "tokenizer": {
+    "chunk_size": 128,
+    "dependencies": {
+      "Jinja2": "3.1.6",
+      "MarkupSafe": "3.0.4",
+      "tokenizers": "0.23.3"
+    },
+    "input_path": "D:\\research\\longhistory\\artifacts\\20261112_cpu_pilot\\dataset\\preferences.jsonl",
+    "input_rows": 1824,
+    "input_sha256": "76a502402833d2f4618ff50e8ce39ae904200b9ebb53d065a80e269bff60f1e3",
+    "maximum_lengths": [
+      256,
+      512,
+      1024,
+      2048,
+      4096
+    ],
+    "official_repo": "Qwen/Qwen2.5-7B-Instruct",
+    "official_revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+    "runtime_python": "3.13.14 (tags/v3.13.14:fd17997, Jun 10 2026, 13:03:48) [MSC v.1944 64 bit (AMD64)]",
+    "scope": "CPU tokenizer/preprocessing and synthetic reduction only; NO model forward/backward",
+    "source_sha256": "cc89495adb67a7e0ec02f5ac07d9c17d58dc1db14cf766a871af5e7aa55f07be",
+    "tokenizer_files": {
+      "tokenizer.json": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+      "tokenizer_config.json": "5b5d4f65d0acd3b2d56a35b56d374a36cbc1c8fa5cf3b3febbbfabf22f359583"
+    },
+    "wheels": {
+      "jinja2-3.1.6-py3-none-any.whl": {
+        "bytes": 134899,
+        "sha256": "85ece4451f492d0c13c5dd7c13a64681a86afae63a5f347908daf103ce6d2f67"
+      },
+      "markupsafe-3.0.4-cp313-cp313-win_amd64.whl": {
+        "bytes": 14313,
+        "sha256": "1f1f9477e174582b0a1b583d60b66e1f2cf5d3fe12cee985e4aedf44766600e5"
+      },
+      "tokenizers-0.23.3-cp310-abi3-win_amd64.whl": {
+        "bytes": 2872101,
+        "sha256": "1f0823bb00c5fdc98e487354d54dd55a03848d61a1a0bf29a68c77f24f3b26c3"
+      }
+    },
+    "worker_timeout_seconds": 9.5
+  }
+}

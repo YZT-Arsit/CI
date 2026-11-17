@@ -1,0 +1,20 @@
+..F
+======================================================================
+FAIL: test_frozen_json_roundtrip (__main__.StepTests.test_frozen_json_roundtrip)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\research\longhistory\artifacts\20261117_local_relation_step\test_step.py", line 11, in test_frozen_json_roundtrip
+    self.assertEqual(value, json.loads(json.dumps(value)))
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Lists differ: [[{'i[79 chars]s': [(0, 3), (2, 4)], 'noise': 0, 'kind': 'swi[21507 chars] 1}]] != [[{'i[79 chars]s': [[0, 3], [2, 4]], 'noise': 0, 'kind': 'swi[21507 chars] 1}]]
+
+First differing element 0:
+[{'id[78 chars]s': [(0, 3), (2, 4)], 'noise': 0, 'kind': 'swi[158 chars]: 1}]
+[{'id[78 chars]s': [[0, 3], [2, 4]], 'noise': 0, 'kind': 'swi[158 chars]: 1}]
+
+Diff is 50440 characters long. Set self.maxDiff to None to see it.
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.065s
+
+FAILED (failures=1)

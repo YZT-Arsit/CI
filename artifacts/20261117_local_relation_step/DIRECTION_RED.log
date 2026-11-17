@@ -1,0 +1,18 @@
+.F..
+======================================================================
+FAIL: test_direction_pair_holds_undirected_edges_and_degrees (__main__.StepTests.test_direction_pair_holds_undirected_edges_and_degrees)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\research\longhistory\artifacts\20261117_local_relation_step\test_step.py", line 12, in test_direction_pair_holds_undirected_edges_and_degrees
+    self.assertEqual({a.get('family') for a, b in dev}, {'rewire', 'reverse_cycle'})
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Items in the first set but not the second:
+None
+Items in the second set but not the first:
+'reverse_cycle'
+'rewire'
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.035s
+
+FAILED (failures=1)

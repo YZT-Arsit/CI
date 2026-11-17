@@ -1,0 +1,9 @@
+# One format-only follow-up; preserve the failed original reference
+
+The original Qwen reference completed24calls, allinvalid: every answer hit the12token length limit, generally starting with a bare binary digit followed by explanation. That establishes an interface failure, not a measured relation-capacity deficit. Keep its original scores and responses unchanged.
+
+For exactly the same24 metadata-selected cases and order, append the same sentence to each user prompt: `Output exactly one line: ANSWER: 0 or ANSWER: 1. Do not add any explanation.` All facts, questions, tokenizer/chat template, CPU settings,12token budget and strict scoring are unchanged. The initial request already asked for the ANSWER prefix; this strengthens format wording. No demonstrations, labels, feedback, response-prefix completion, semantic rewrite or model update. This is an explicitly post-observation interface repair, not a preplanned confirmation or an independent task set.
+
+Run one response per case with no retries,20second request timeout and separately counted warmup. No further format iteration in this stage. Report all24outcomes, including invalids, using exactly the same parser and truncated-output exclusion. Gate requires24/24validcorrect for this small panel only. It cannot replace the main learning gate or justify GPU training. Do not compare this changed prompt against unchanged SmolLM prompts as an identical-interface model comparison. There are24newresponses, zero internal SmolLM re-scorings, zero updates and zero autonomous episodes.
+
+The original reference's plan/seal/result hashes bind the trigger. All preexisting main, fit and reference results remain immutable. The same resource isolation, model digest, tokenizer identity, paired token lengths and cleanup checks apply. A pass would show only a narrow frozen-model capability under the revised interface, not learning caused by this project's training.
