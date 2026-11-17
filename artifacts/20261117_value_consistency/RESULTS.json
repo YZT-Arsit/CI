@@ -1,0 +1,95 @@
+{
+  "sampler_sft": {
+    "episodes": 112,
+    "strict_success": 40,
+    "valid_ci": 98,
+    "invalid_episodes": 0,
+    "invalid_queries": 0,
+    "base_decision_counts_on_reached_states": {
+      "Planner": {
+        "ANSWER:\nB": 16,
+        "ANSWER:\nA": 16
+      },
+      "Source": {
+        "WITHHOLD": 18,
+        "DELIVER_INPUTS": 14
+      },
+      "Worker": {
+        "PUBLISH_FULL": 8,
+        "PUBLISH_MINIMAL": 6
+      }
+    },
+    "new_updates": 0,
+    "max_update_seconds": null,
+    "max_generation_seconds": 1.1975359590001062
+  },
+  "full_js": {
+    "episodes": 112,
+    "strict_success": 43,
+    "valid_ci": 86,
+    "invalid_episodes": 0,
+    "invalid_queries": 0,
+    "base_decision_counts_on_reached_states": {
+      "Planner": {
+        "ANSWER:\nA": 32
+      },
+      "Source": {
+        "DELIVER_INPUTS": 32
+      },
+      "Worker": {
+        "PUBLISH_FULL": 18,
+        "WITHHOLD": 6,
+        "PUBLISH_MINIMAL": 8
+      }
+    },
+    "new_updates": 0,
+    "max_update_seconds": null,
+    "max_generation_seconds": 1.6523138669999753
+  },
+  "query_js": {
+    "episodes": 112,
+    "strict_success": 58,
+    "valid_ci": 93,
+    "invalid_episodes": 0,
+    "invalid_queries": 0,
+    "base_decision_counts_on_reached_states": {
+      "Planner": {
+        "ANSWER:\nB": 16,
+        "ANSWER:\nA": 16
+      },
+      "Source": {
+        "DELIVER_INPUTS": 32
+      },
+      "Worker": {
+        "PUBLISH_FULL": 20,
+        "PUBLISH_MINIMAL": 12
+      }
+    },
+    "new_updates": 80,
+    "max_update_seconds": 5.046818554000026,
+    "max_generation_seconds": 1.2058016169999064
+  },
+  "value_js": {
+    "episodes": 112,
+    "strict_success": 54,
+    "valid_ci": 88,
+    "invalid_episodes": 0,
+    "invalid_queries": 0,
+    "base_decision_counts_on_reached_states": {
+      "Planner": {
+        "ANSWER:\nB": 16,
+        "ANSWER:\nA": 16
+      },
+      "Source": {
+        "WITHHOLD": 18,
+        "DELIVER_INPUTS": 14
+      },
+      "Worker": {
+        "PUBLISH_FULL": 14
+      }
+    },
+    "new_updates": 80,
+    "max_update_seconds": 5.205908710000017,
+    "max_generation_seconds": 1.217445778999945
+  }
+}

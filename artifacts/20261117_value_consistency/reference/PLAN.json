@@ -1,0 +1,28 @@
+{
+  "arms": [
+    "earlier_sft"
+  ],
+  "evidence_arms": [
+    "earlier_sft"
+  ],
+  "paired_conditions": [
+    "base_v0",
+    "base_v1",
+    "depth3_v0",
+    "depth3_v1",
+    "internal3_v0",
+    "internal3_v1",
+    "cycle4_v0",
+    "cycle4_v1"
+  ],
+  "source_sha256": "243f3ab236f4513a711f33d30549d2dd5afb9c03fcbf1101d2d442c3b751ba9f",
+  "primary_plan_sha256": "e8f470cd02f70099411e91963dd7dfd4eb6fbfa7f501be610897ec0f627e9fc9",
+  "dev_sha256": "ff014da318a6f81422a18d05adbf3184dff4fe6b26ebe399532f953349bd4494",
+  "checkpoint_hashes": {
+    "adapter_config.json": "317dc54d0fcd6fb3b630eec143c04640103d5388e4a41e5bdedf7f327c2613a7",
+    "adapter_model.safetensors": "ba44581f6285b002761a8b57393b17dad2a59af3844e9f4b06e5b912ca955e35",
+    "README.md": "39d3d3aa2d89a2b4ab09cecd018fbbc4cebc3f4b2c6d9e85b81abc38a1dc4045"
+  },
+  "new_optimizer_updates": 0,
+  "scope": "Exploratory additional fixed-checkpoint comparator; same primary DEV, not a new independent validation."
+}

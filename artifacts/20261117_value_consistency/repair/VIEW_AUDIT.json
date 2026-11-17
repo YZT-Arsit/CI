@@ -1,0 +1,249 @@
+{
+  "results": [
+    {
+      "arm": "sampler_sft",
+      "family": "base",
+      "semantic_world_pairs": 8,
+      "all_four_episodes_strict_success": 1,
+      "semantic_states": 16,
+      "planner_same_valid_action_across_views": 16
+    },
+    {
+      "arm": "sampler_sft",
+      "family": "depth3",
+      "semantic_world_pairs": 4,
+      "all_four_episodes_strict_success": 0,
+      "semantic_states": 8,
+      "planner_same_valid_action_across_views": 2
+    },
+    {
+      "arm": "sampler_sft",
+      "family": "internal3",
+      "semantic_world_pairs": 4,
+      "all_four_episodes_strict_success": 0,
+      "semantic_states": 8,
+      "planner_same_valid_action_across_views": 6
+    },
+    {
+      "arm": "sampler_sft",
+      "family": "cycle4",
+      "semantic_world_pairs": 4,
+      "all_four_episodes_strict_success": 0,
+      "semantic_states": 8,
+      "planner_same_valid_action_across_views": 2
+    },
+    {
+      "arm": "sampler_sft",
+      "family": "optional",
+      "semantic_worlds": 4,
+      "both_views_strict_success": 4,
+      "both_views_valid_ci": 4
+    },
+    {
+      "arm": "sampler_sft",
+      "family": "authorized",
+      "semantic_worlds": 4,
+      "both_views_strict_success": 4,
+      "both_views_valid_ci": 4
+    },
+    {
+      "arm": "sampler_sft",
+      "family": "draft",
+      "semantic_worlds": 4,
+      "both_views_strict_success": 0,
+      "both_views_valid_ci": 4
+    },
+    {
+      "arm": "sampler_sft",
+      "family": "both",
+      "semantic_worlds": 4,
+      "both_views_strict_success": 0,
+      "both_views_valid_ci": 2
+    },
+    {
+      "arm": "full_js",
+      "family": "base",
+      "semantic_world_pairs": 8,
+      "all_four_episodes_strict_success": 0,
+      "semantic_states": 16,
+      "planner_same_valid_action_across_views": 6
+    },
+    {
+      "arm": "full_js",
+      "family": "depth3",
+      "semantic_world_pairs": 4,
+      "all_four_episodes_strict_success": 0,
+      "semantic_states": 8,
+      "planner_same_valid_action_across_views": 2
+    },
+    {
+      "arm": "full_js",
+      "family": "internal3",
+      "semantic_world_pairs": 4,
+      "all_four_episodes_strict_success": 0,
+      "semantic_states": 8,
+      "planner_same_valid_action_across_views": 5
+    },
+    {
+      "arm": "full_js",
+      "family": "cycle4",
+      "semantic_world_pairs": 4,
+      "all_four_episodes_strict_success": 0,
+      "semantic_states": 8,
+      "planner_same_valid_action_across_views": 2
+    },
+    {
+      "arm": "full_js",
+      "family": "optional",
+      "semantic_worlds": 4,
+      "both_views_strict_success": 2,
+      "both_views_valid_ci": 2
+    },
+    {
+      "arm": "full_js",
+      "family": "authorized",
+      "semantic_worlds": 4,
+      "both_views_strict_success": 4,
+      "both_views_valid_ci": 4
+    },
+    {
+      "arm": "full_js",
+      "family": "draft",
+      "semantic_worlds": 4,
+      "both_views_strict_success": 4,
+      "both_views_valid_ci": 4
+    },
+    {
+      "arm": "full_js",
+      "family": "both",
+      "semantic_worlds": 4,
+      "both_views_strict_success": 0,
+      "both_views_valid_ci": 1
+    },
+    {
+      "arm": "query_js",
+      "family": "base",
+      "semantic_world_pairs": 8,
+      "all_four_episodes_strict_success": 4,
+      "semantic_states": 16,
+      "planner_same_valid_action_across_views": 16
+    },
+    {
+      "arm": "query_js",
+      "family": "depth3",
+      "semantic_world_pairs": 4,
+      "all_four_episodes_strict_success": 0,
+      "semantic_states": 8,
+      "planner_same_valid_action_across_views": 2
+    },
+    {
+      "arm": "query_js",
+      "family": "internal3",
+      "semantic_world_pairs": 4,
+      "all_four_episodes_strict_success": 0,
+      "semantic_states": 8,
+      "planner_same_valid_action_across_views": 6
+    },
+    {
+      "arm": "query_js",
+      "family": "cycle4",
+      "semantic_world_pairs": 4,
+      "all_four_episodes_strict_success": 0,
+      "semantic_states": 8,
+      "planner_same_valid_action_across_views": 2
+    },
+    {
+      "arm": "query_js",
+      "family": "optional",
+      "semantic_worlds": 4,
+      "both_views_strict_success": 4,
+      "both_views_valid_ci": 4
+    },
+    {
+      "arm": "query_js",
+      "family": "authorized",
+      "semantic_worlds": 4,
+      "both_views_strict_success": 3,
+      "both_views_valid_ci": 4
+    },
+    {
+      "arm": "query_js",
+      "family": "draft",
+      "semantic_worlds": 4,
+      "both_views_strict_success": 3,
+      "both_views_valid_ci": 4
+    },
+    {
+      "arm": "query_js",
+      "family": "both",
+      "semantic_worlds": 4,
+      "both_views_strict_success": 0,
+      "both_views_valid_ci": 2
+    },
+    {
+      "arm": "value_js",
+      "family": "base",
+      "semantic_world_pairs": 8,
+      "all_four_episodes_strict_success": 2,
+      "semantic_states": 16,
+      "planner_same_valid_action_across_views": 16
+    },
+    {
+      "arm": "value_js",
+      "family": "depth3",
+      "semantic_world_pairs": 4,
+      "all_four_episodes_strict_success": 0,
+      "semantic_states": 8,
+      "planner_same_valid_action_across_views": 2
+    },
+    {
+      "arm": "value_js",
+      "family": "internal3",
+      "semantic_world_pairs": 4,
+      "all_four_episodes_strict_success": 0,
+      "semantic_states": 8,
+      "planner_same_valid_action_across_views": 6
+    },
+    {
+      "arm": "value_js",
+      "family": "cycle4",
+      "semantic_world_pairs": 4,
+      "all_four_episodes_strict_success": 0,
+      "semantic_states": 8,
+      "planner_same_valid_action_across_views": 3
+    },
+    {
+      "arm": "value_js",
+      "family": "optional",
+      "semantic_worlds": 4,
+      "both_views_strict_success": 2,
+      "both_views_valid_ci": 2
+    },
+    {
+      "arm": "value_js",
+      "family": "authorized",
+      "semantic_worlds": 4,
+      "both_views_strict_success": 4,
+      "both_views_valid_ci": 4
+    },
+    {
+      "arm": "value_js",
+      "family": "draft",
+      "semantic_worlds": 4,
+      "both_views_strict_success": 4,
+      "both_views_valid_ci": 4
+    },
+    {
+      "arm": "value_js",
+      "family": "both",
+      "semantic_worlds": 4,
+      "both_views_strict_success": 0,
+      "both_views_valid_ci": 0
+    }
+  ],
+  "new_checkpoints": 2,
+  "reused_checkpoints": 2,
+  "new_optimizer_updates": 160,
+  "scope": "Single-seed four-arm loss comparison on same fresh DEV:36groups,56semanticworlds,112presentations perarm; no sourceholdout",
+  "whole_goal_complete": false
+}

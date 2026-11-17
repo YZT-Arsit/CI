@@ -1,0 +1,35 @@
+{
+  "status": "progress",
+  "previous_turn": "progress",
+  "whole_goal_complete": false,
+  "large_gpu_gate": "NO_GO",
+  "new_training_checkpoints": 2,
+  "new_optimizer_updates": 160,
+  "primary_native_episodes": 448,
+  "secondary_reference_episodes": 112,
+  "external_primary_calls": 64,
+  "external_followup_calls": 64,
+  "external_unique_cases": 32,
+  "new_findings": [
+    "Changing actor consistency removes fixed-A base Planner behavior in this seed.",
+    "New variants still underperform earlier SFT in complete shallow episodes and do not solve safety-utility jointly.",
+    "More complex value-class JS is worse than query-only JS on aggregate strict success and CI here.",
+    "Selected external five-tuple probe triggers semantic abstention, not fixed-letter C behavior."
+  ],
+  "remaining": [
+    "robust multi-hop relation-to-action learning",
+    "downstream safety-utility without unnecessary stopping",
+    "independent-source and multi-seed validation",
+    "natural norms with task execution and utility",
+    "actual 32-step learned multi-agent collaboration"
+  ],
+  "next_evidence_needed": "Separate query errors from actor binding under verified matching states, retain a strong shallow baseline, and investigate incomplete normative context before claiming transfer.",
+  "artifact_hashes": {
+    "artifacts/20261117_value_consistency/repair/AUDIT.json": "207fd9b82e8cb3abca06d6ad47bd062c5d0bb8338ca55daca960c61ae764642b",
+    "artifacts/20261117_value_consistency/repair/VIEW_AUDIT.json": "f245d533235bfa11084f71f750fae4ef4b20de9faf1f9a63cb9b8f3fa2cd4cfa",
+    "artifacts/20261117_value_consistency/reference/AUDIT.json": "fad591792e22e26fb11e6ad51db36545814a2899bbb2ba7d5179c517a2bd4d78",
+    "artifacts/20261117_value_consistency/reference/VIEW_AUDIT.json": "0c7f3d72a5b764336bf351d15d222d16fd14ae0ec78eb6cb6855dd0a98bf8676",
+    "artifacts/20261117_external_norm_probe/RESULTS.json": "c33524e1b783bf3df86a077cc986d491481e6df61924bde3cc58bc339e103841",
+    "artifacts/20261117_external_norm_probe/position_followup/RESULTS.json": "ad43248a778cb518bc8204719c0ae855d826d6ae5e3a92a2cff2d1e6113adac9"
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "model": {
+    "name": "qwen2.5:7b-instruct-q4_K_M",
+    "model": "qwen2.5:7b-instruct-q4_K_M",
+    "modified_at": "2026-09-10T02:37:00.6146988-07:00",
+    "size": 4683087332,
+    "digest": "845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e",
+    "details": {
+      "parent_model": "",
+      "format": "gguf",
+      "family": "qwen2",
+      "families": [
+        "qwen2"
+      ],
+      "parameter_size": "7.6B",
+      "quantization_level": "Q4_K_M",
+      "context_length": 32768,
+      "embedding_length": 3584,
+      "runner": "ggml"
+    },
+    "capabilities": [
+      "completion",
+      "tools"
+    ]
+  },
+  "cases": 32,
+  "presentations": 64,
+  "source_title_groups": 16,
+  "selection_seed": 31117,
+  "selected_groups_and_original_names": [
+    [
+      "9389e35c6336aaddea76095857b967b7b6e606432f418507b1c499f04ed04c6b",
+      "main99"
+    ],
+    [
+      "4b02c080d8842cf9476bed7d3f32a2293d5f53f0b795cc59c041a225a53b37b5",
+      "main141"
+    ],
+    [
+      "234df068216873ae56a778ea4c5ac9eedc5f5da3e654a771cc6157bae005fd8c",
+      "main98"
+    ],
+    [
+      "e1a6f5ddeffb9176ee9fae9306eac0c847dd0d3502b0751a6b0dff0412952fec",
+      "main153"
+    ],
+    [
+      "38559c62c80b41ce1b90168a934f302e8cf2f460955ca53782ed5f8ba48b1832",
+      "main87"
+    ],
+    [
+      "d1d13ebbbabfde23f057b5f3e5f71bc34207fd82023ff59c32c1404614b22343",
+      "main149"
+    ],
+    [
+      "db5d87fcd8c2261a651c9b386c0944cf0c37299ddc0650cae7fea79903132c24",
+      "main49"
+    ],
+    [
+      "aef72243e9fb49fe5c7c6ab547ca7501583b46178e9401a7895ae1a94a65f337",
+      "main193"
+    ],
+    [
+      "7e6255b6f260d12333ed7ca76fba7cf95e4bd12c7fc2a165f440950dda26a956",
+      "main57"
+    ],
+    [
+      "2e29987048297dbf896c28a29bbf9040d6b7768083be51c46d418e3f73b0e4fc",
+      "main64"
+    ],
+    [
+      "7e66d5f0a139daceff7ea5018e8732949a55d4481f4080f86fc739ce2bd399ef",
+      "main83"
+    ],
+    [
+      "bba2190f0c4f99c66e65d0802743c54ca26866dc0484f87d128aca03348dc872",
+      "main161"
+    ],
+    [
+      "5fd0a808d5fa5d03d33ffd2ae72029dc2d60afcdb0fcbda77911d086ecf4ef48",
+      "main186"
+    ],
+    [
+      "21cd17f7597324ecf70927a93221868e129cf334a277c2bf9737fdd0e984edfb",
+      "main67"
+    ],
+    [
+      "ae24a90848ada3f005a9e019d31a85dc736f6028d2e893497fcb60eae8b53691",
+      "main144"
+    ],
+    [
+      "cfd0eb58f549ea830bc523fcbbc494450ab39f375c206f1ae194024f0cd26020",
+      "main86"
+    ]
+  ],
+  "data_hashes": {
+    "observations.jsonl": "6d9e875924439bdb54c32d1d4616f6a7c686eec3e0b2dc1e2dcc8f0c75bd1c67",
+    "labels.jsonl": "fcf355af3c11844624c8f1de956eda97d4f7e942c353921e13e39c8886b75060"
+  },
+  "upstream_csv_sha256": "b9a950462ba2ec7ee5fe4ce0f6ec72d313e42cadc0476db886738bf1c90ea4ae",
+  "prior_source_index_sha256": "1b11821c28a6eb5001edd34a9587ee1a7787c64ed3d90de4b17e72d35256744f",
+  "options": {
+    "temperature": 0,
+    "seed": 17,
+    "num_ctx": 2048,
+    "num_predict": 12,
+    "num_gpu": 0,
+    "num_thread": 4
+  },
+  "request_timeout_seconds": 25,
+  "warmup_timeout_seconds": 60,
+  "stop_on_first_request_failure": true,
+  "max_prompt_characters": 649,
+  "negative_seeds_exact_matching_original": 492,
+  "source_mismatches_excluded_before_selection": 1,
+  "training_records_added": 0,
+  "label_independent_expansions_used": false,
+  "label_dependent_expansions_used": false,
+  "scope": "Selected no-expansion CAMBER PrivacyLens+ judgment probe; positive seeds are modified originals, not same-task consent counterfactuals. Frozen different model; not trained-policy transfer or workflow utility. UNKNOWN remains unresolved.",
+  "whole_goal_complete": false
+}

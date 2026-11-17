@@ -1,0 +1,54 @@
+{
+  "results": [
+    {
+      "family": "base",
+      "groups": 8,
+      "all_four_strict_success": 8
+    },
+    {
+      "family": "depth3",
+      "groups": 4,
+      "all_four_strict_success": 0
+    },
+    {
+      "family": "internal3",
+      "groups": 4,
+      "all_four_strict_success": 0
+    },
+    {
+      "family": "cycle4",
+      "groups": 4,
+      "all_four_strict_success": 0
+    },
+    {
+      "family": "optional",
+      "groups": 4,
+      "both_views_strict_success": 1,
+      "both_views_valid_ci": 1
+    },
+    {
+      "family": "authorized",
+      "groups": 4,
+      "both_views_strict_success": 4,
+      "both_views_valid_ci": 4
+    },
+    {
+      "family": "draft",
+      "groups": 4,
+      "both_views_strict_success": 4,
+      "both_views_valid_ci": 4
+    },
+    {
+      "family": "both",
+      "groups": 4,
+      "both_views_strict_success": 0,
+      "both_views_valid_ci": 0
+    }
+  ],
+  "episodes": 112,
+  "strict_success": 75,
+  "valid_ci": 77,
+  "new_updates": 0,
+  "scope": "Exploratory additional fixed-checkpoint comparator; same primary DEV, not a new independent validation.",
+  "whole_goal_complete": false
+}

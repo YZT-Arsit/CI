@@ -1,0 +1,52 @@
+{
+  "model": {
+    "name": "qwen2.5:7b-instruct-q4_K_M",
+    "model": "qwen2.5:7b-instruct-q4_K_M",
+    "modified_at": "2026-09-10T02:37:00.6146988-07:00",
+    "size": 4683087332,
+    "digest": "845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e",
+    "details": {
+      "parent_model": "",
+      "format": "gguf",
+      "family": "qwen2",
+      "families": [
+        "qwen2"
+      ],
+      "parameter_size": "7.6B",
+      "quantization_level": "Q4_K_M",
+      "context_length": 32768,
+      "embedding_length": 3584,
+      "runner": "ggml"
+    },
+    "capabilities": [
+      "completion",
+      "tools"
+    ]
+  },
+  "cases": 32,
+  "presentations": 64,
+  "options": {
+    "temperature": 0,
+    "seed": 17,
+    "num_ctx": 2048,
+    "num_predict": 12,
+    "num_gpu": 0,
+    "num_thread": 4
+  },
+  "request_timeout_seconds": 25,
+  "warmup_timeout_seconds": 60,
+  "data_hashes": {
+    "observations.jsonl": "47c433027cb5dbd47d0c674986c478a56864b41a88eaf9379ecdb24773af9887",
+    "labels.jsonl": "fcf355af3c11844624c8f1de956eda97d4f7e942c353921e13e39c8886b75060"
+  },
+  "parent_hashes": {
+    "PLAN.json": "82f9c25960b881bc091bbdda155bff8163e035fe8e90205f2e4dca077e7922a4",
+    "RESPONSES_SEALED.json": "0408643d10852d7c35d1c77bf46d274043f09ffda6208aa01c51fcf740671232",
+    "observations.jsonl": "6d9e875924439bdb54c32d1d4616f6a7c686eec3e0b2dc1e2dcc8f0c75bd1c67",
+    "responses.jsonl": "e691416d3fe187bb16e71030cca5db1252f5d17c43a1e1f06acd3bda990ee904",
+    "labels.jsonl": "fcf355af3c11844624c8f1de956eda97d4f7e942c353921e13e39c8886b75060"
+  },
+  "added_independent_cases": 0,
+  "new_optimizer_updates": 0,
+  "scope": "Post-primary option-position diagnosis;32reusedsemanticcases,64newpresentations; not a primary-score revision or new external validation."
+}

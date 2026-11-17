@@ -1,0 +1,92 @@
+{
+  "mathematical_checks": "PASS",
+  "all_roles_full_loss_exact_match": true,
+  "finite_gradients_both_variants": true,
+  "optimizer_updates": 0,
+  "trials": [
+    {
+      "role": "Planner",
+      "mode": "none",
+      "seconds": 3.5520504030000026,
+      "full_loss_exact_match_seconds": 3.5437147870000025,
+      "parts": {
+        "query_loss": 0.22136352956295013,
+        "actor_loss": 0.005131812300533056,
+        "query_js": 0.000850382843054831,
+        "actor_js": 0.0
+      },
+      "gradient_tensors": 120
+    },
+    {
+      "role": "Planner",
+      "mode": "value",
+      "seconds": 3.319625858000002,
+      "full_loss_exact_match_seconds": 3.5437147870000025,
+      "parts": {
+        "query_loss": 0.22136352956295013,
+        "actor_loss": 0.005131812300533056,
+        "query_js": 0.000850382843054831,
+        "actor_js": 0.0024329801090061665
+      },
+      "gradient_tensors": 120
+    },
+    {
+      "role": "Source",
+      "mode": "none",
+      "seconds": 3.405538200999999,
+      "full_loss_exact_match_seconds": 3.0110098290000025,
+      "parts": {
+        "query_loss": 0.3852485418319702,
+        "actor_loss": 0.001477499958127737,
+        "query_js": 0.00029392674332484603,
+        "actor_js": 0.0
+      },
+      "gradient_tensors": 120
+    },
+    {
+      "role": "Source",
+      "mode": "value",
+      "seconds": 3.364574036999997,
+      "full_loss_exact_match_seconds": 3.0110098290000025,
+      "parts": {
+        "query_loss": 0.3852485418319702,
+        "actor_loss": 0.001477499958127737,
+        "query_js": 0.00029392674332484603,
+        "actor_js": 6.776721420465037e-06
+      },
+      "gradient_tensors": 120
+    },
+    {
+      "role": "Worker",
+      "mode": "none",
+      "seconds": 4.744088823000006,
+      "full_loss_exact_match_seconds": 4.039850045000001,
+      "parts": {
+        "query_loss": 0.3896906077861786,
+        "actor_loss": 0.5398132801055908,
+        "query_js": 8.560573769500479e-05,
+        "actor_js": 0.0
+      },
+      "gradient_tensors": 120
+    },
+    {
+      "role": "Worker",
+      "mode": "value",
+      "seconds": 4.745339361000006,
+      "full_loss_exact_match_seconds": 4.039850045000001,
+      "parts": {
+        "query_loss": 0.3896906077861786,
+        "actor_loss": 0.5398132801055908,
+        "query_js": 8.560573769500479e-05,
+        "actor_js": 0.0
+      },
+      "gradient_tensors": 120
+    }
+  ],
+  "initial_adapter_hashes": {
+    "adapter_config.json": "317dc54d0fcd6fb3b630eec143c04640103d5388e4a41e5bdedf7f327c2613a7",
+    "adapter_model.safetensors": "12988f6e76bb34fb1eaf4d99bb0ca7e257cd7fe27fcb0eee793c296ee8619475",
+    "README.md": "39d3d3aa2d89a2b4ab09cecd018fbbc4cebc3f4b2c6d9e85b81abc38a1dc4045"
+  },
+  "loss_sha256": "88cbfbb098c282dff2e05d8051b0fcb0ab2d8c099c564160c35509417a87ccfa"
+}
