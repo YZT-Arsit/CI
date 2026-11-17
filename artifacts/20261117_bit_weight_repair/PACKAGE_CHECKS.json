@@ -1,0 +1,29 @@
+{
+  "main_audit_errors": 0,
+  "main_seal_verified": true,
+  "archive_checks": {
+    "archives": 14,
+    "raw_bytes": 978741,
+    "compressed_bytes": 70908,
+    "fresh_restore": "PASS",
+    "idempotence": "PASS",
+    "different_evidence_refused": "PASS",
+    "python_sources_parsed": 14
+  },
+  "evidence_sha256": {
+    "RESULTS.json": "c68d090e884eadf82d0e33bfb34eafd76c569d6ec28eb3b47b8018ee0483d568",
+    "REPORT.md": "ae0166626557c09a54d2fca5a656bb6e5da7d69128c7c52986ab07eaa9fa57eb",
+    "DECISION.json": "98f7e3536468039aef68ef9795c3a37679bd4d5b4d24b343638f0a0fdcbe230a",
+    "SEALED.json": "bad338e8cf5ae7f86689b0bb746ac092d77d6d56a4dc13e309a64d0e26c3e219",
+    "PLAN.json": "2dd36ae0b011d040f14f576dce775e219aa29d3f425eed74677e0da60da712a4",
+    "REVIEW_NOTES.md": "261a5e125c7351fd6e773d401362d26a3ed0b7fbb122922836a825f8ab28515c",
+    "compression_manifest.json": "d567d24bbd276f762a105898b0451ab66749f1c77495c5aebd6c3c25e8ba14f1",
+    "DELIVERY_COST.json": "bc70b8a3e822cb089bc8a6b57fbd2bc96caa46e98f464674f62db9ded793bc5c",
+    "TEST_HISTORY.json": "8ff15dc245567f0527910160a5d2d07abd3995866d56c5e0f6f7cb068b18e318",
+    "PRECONTROL_REGISTRATION.json": "b7b20cfa8902cd566c2e8803402459cb2fa45df0a5bd80709fdf314b32f11c5f",
+    "ERROR_DIRECTION_PLAN.json": "c1462cbe9a18d4e3074b1f98606da7493865d7c23c3146559c5b5b0fa82d63ff",
+    "ERROR_DIRECTION_RESULTS.json": "29200ac77a7bd250475fa29c331914fe5b8bd36ff91d77a7518083cf2e08dde5"
+  },
+  "whole_goal_complete": false,
+  "large_gpu": "NO_GO"
+}

@@ -1,0 +1,26 @@
+{
+  "harness_error": {
+    "path": "harness_error/IMPORT_ERROR.log",
+    "result": "ERROR before the intended assertion",
+    "reason": "Restricted eval builtins prevented a NumPy internal import.",
+    "model_calls": 0,
+    "counts_as_valid_red": false
+  },
+  "red": {
+    "source": "../20261117_teacher_binding/binding_loss.py",
+    "log": "RED.log",
+    "tests": 2,
+    "failing_subtests": 4,
+    "errors": 0,
+    "observed_conditional_log_odds_gradients": [-0.16666666666498298, -0.19999999999742443],
+    "single_candidate_positive_control_passes": true
+  },
+  "green": {
+    "source": "fixed_loss.py",
+    "log": "GREEN.log",
+    "tests": 2,
+    "failures": 0,
+    "errors": 0
+  },
+  "scope": "Tests the actual source bit-expression on controlled conditional-binary CE inputs at fixed binary mass. This is a loss-property regression, not a model-learning or full-vocabulary gradient experiment."
+}

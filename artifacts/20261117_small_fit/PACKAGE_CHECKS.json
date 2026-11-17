@@ -1,0 +1,26 @@
+{
+  "main_audit_errors": 0,
+  "main_seal_verified": true,
+  "archive_checks": {
+    "archives": 14,
+    "raw_bytes": 978741,
+    "compressed_bytes": 70908,
+    "fresh_restore": "PASS",
+    "idempotence": "PASS",
+    "different_evidence_refused": "PASS",
+    "python_sources_parsed": 14
+  },
+  "evidence_sha256": {
+    "RESULTS.json": "aa6d5f27fa7653d802a6aa9089fccee27eb4987b834f343cc7a3f6b03c6bafab",
+    "REPORT.md": "f01cfb12e4aa4c23bac03d46a38975d7dda792b09ae436800186313874342b98",
+    "DECISION.json": "bf5fca972aba307c36c20ddfc51221ab6f6815dd6129caf93f4094f6cdaed30c",
+    "SEALED.json": "42a7fb3ad23cb2ccce0fa0c263cfd73ac58f98984e5ebe3f3c9cd7a0e6e7af9e",
+    "PLAN.json": "0738aad107538949ebb757a6fb66f57079b583db4f53dcb36bfcc2f64bba2803",
+    "REVIEW_NOTES.md": "1e629fdb8a8204c017b28f715cb398ea1534b313b0e99bd16a29466d04cb445e",
+    "compression_manifest.json": "4d9dbe1fe42b04b9a6fbdc0fcf4132f489482fb05944f22ce4b4e3f7d87798d1",
+    "BIT_WEIGHT_DIAGNOSTIC.json": "a815057ec9de253549791f397bda3f5ac0c007dd74817827fc210d975e859482",
+    "ARCHIVE_VERIFIED.json": "1cb0690ae7dc2bb655a11f7e5731522c3705dc2ba2ac611d555bf79d46991dd9"
+  },
+  "whole_goal_complete": false,
+  "large_gpu": "NO_GO"
+}

@@ -1,0 +1,41 @@
+FFFF
+======================================================================
+FAIL: test_opposing_action_pair_has_no_positive_log_odds_push (__main__.BitBalanceTests.test_opposing_action_pair_has_no_positive_log_odds_push) (candidates=2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\research\longhistory\artifacts\20261117_bit_weight_repair\test_bit_balance.py", line 38, in test_opposing_action_pair_has_no_positive_log_odds_push
+    self.assertAlmostEqual((value(h, candidates) - value(-h, candidates)) / (2 * h), 0., places=8)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: -0.16666666666498298 != 0.0 within 8 places (0.16666666666498298 difference)
+
+======================================================================
+FAIL: test_opposing_action_pair_has_no_positive_log_odds_push (__main__.BitBalanceTests.test_opposing_action_pair_has_no_positive_log_odds_push) (candidates=3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\research\longhistory\artifacts\20261117_bit_weight_repair\test_bit_balance.py", line 38, in test_opposing_action_pair_has_no_positive_log_odds_push
+    self.assertAlmostEqual((value(h, candidates) - value(-h, candidates)) / (2 * h), 0., places=8)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: -0.19999999999742443 != 0.0 within 8 places (0.19999999999742443 difference)
+
+======================================================================
+FAIL: test_opposing_action_pair_is_symmetric_after_adding_fixed_negative_actions (__main__.BitBalanceTests.test_opposing_action_pair_is_symmetric_after_adding_fixed_negative_actions) (candidates=2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\research\longhistory\artifacts\20261117_bit_weight_repair\test_bit_balance.py", line 43, in test_opposing_action_pair_is_symmetric_after_adding_fixed_negative_actions
+    self.assertAlmostEqual(value(.7, candidates), value(-.7, candidates), places=12)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 0.3854573659236386 != 0.6187906992569719 within 12 places (0.23333333333333334 difference)
+
+======================================================================
+FAIL: test_opposing_action_pair_is_symmetric_after_adding_fixed_negative_actions (__main__.BitBalanceTests.test_opposing_action_pair_is_symmetric_after_adding_fixed_negative_actions) (candidates=3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\research\longhistory\artifacts\20261117_bit_weight_repair\test_bit_balance.py", line 43, in test_opposing_action_pair_is_symmetric_after_adding_fixed_negative_actions
+    self.assertAlmostEqual(value(.7, candidates), value(-.7, candidates), places=12)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 0.31191162933127475 != 0.5919116293312747 within 12 places (0.27999999999999997 difference)
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.005s
+
+FAILED (failures=4)

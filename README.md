@@ -7,6 +7,10 @@
 
 ## 当前进度
 
+最新续轮：[小集拟合与答案位等权修复](artifacts/20261117_bit_weight_repair/REPORT.md)，前半组详见[查询／行动损失对照](artifacts/20261117_small_fit/REPORT.md)。本轮新增三个 CPU LoRA 检查点、432 次更新、1,776 条生成响应，最长单次更新 5.82 秒。相同 18 组训练关系重复学习后，仅查询／联合监督的原名配对为 37/48、39/48，换名为 21/48、20/48，未建立行动损失是主因的结论。另发现并修正答案位的动作内标签权重不对称，但匹配训练后原名由 39/48 降至 34/48、换名仍为 20/48，假阳性反而增加。**损失性质修复不等于关系学习有效，完整目标仍未完成，GPU 大批量 NO_GO。** 本轮没有完整自主回合或独立世界泛化结果；原始证据、失败测试及复用计数均保留。运行 `python -B tools/restore_small_fit_artifacts.py` 恢复本轮两组记录。
+
+以下保留上一轮结果：
+
 最新续轮：[对照采样修复、一跳恢复与训练内拟合失败](artifacts/20261117_contrast_repair/REPORT.md)，通俗解释见 [SOLUTION.md](artifacts/20261117_contrast_repair/SOLUTION.md)。本次两组实验合计新增 4 个 CPU LoRA 检查点、492 次更新、18,789 条已留存生成响应，最长单次更新 5.81 秒。先完成[下游输入干预与深度覆盖实验](artifacts/20261117_query_coverage/REPORT.md)，再将关系翻转批次从 10/96 修复为 59/96。一跳完整配对恢复至 8/8，但一跳／多跳方案违规升至 29/128、41/128，深层及结构变化的完整配对仍全部失败。训练内探针进一步发现，多跳模型在原训练名称下，三跳 Planner 为 0/24 配对，Source、Worker 各为 0/36；换名后也失败。**工程采样缺口已修复，可靠关系学习与安全—效用联合要求仍未解决，GPU 大批量 NO_GO。** 数据、负面证据、参考复用与复核命令均保留；运行 `python -B tools/restore_contrast_repair_artifacts.py` 恢复本次两组记录。
 
 训练来源更正：本实验的祖先 trace 模型早已采样一到三跳，三跳不能称为整条模型训练来源中的未见深度。详见 [SCOPE_CORRECTION.md](artifacts/20261117_query_coverage/SCOPE_CORRECTION.md)。本轮修复自适应复用 DEV，尚无独立确认；自然业务规范迁移和 32 步 Agent 协作仍未证明。

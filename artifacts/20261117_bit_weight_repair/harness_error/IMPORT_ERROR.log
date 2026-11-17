@@ -1,0 +1,95 @@
+EEEEEE
+======================================================================
+ERROR: test_opposing_action_pair_has_no_positive_log_odds_push (__main__.BitBalanceTests.test_opposing_action_pair_has_no_positive_log_odds_push) (candidates=1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\research\longhistory\artifacts\20261117_bit_weight_repair\test_bit_balance.py", line 38, in test_opposing_action_pair_has_no_positive_log_odds_push
+    self.assertAlmostEqual((value(h, candidates) - value(-h, candidates)) / (2 * h), 0., places=8)
+                            ~~~~~^^^^^^^^^^^^^^^
+  File "D:\research\longhistory\artifacts\20261117_bit_weight_repair\test_bit_balance.py", line 30, in value
+    return float(eval(EXPRESSION, {'__builtins__': {}}, {'qce': qce, 'positive': positive}))
+                 ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "artifacts\20261117_teacher_binding\binding_loss.py", line 30, in <module>
+    bit = .5 * (qce[positive, -2].mean() + qce[~positive, -2].mean()) if positive.any() and (~positive).any() else qce[:, -2].mean()
+                                                                         ~~~~~~~~~~~~^^
+KeyError: '__import__'
+
+======================================================================
+ERROR: test_opposing_action_pair_has_no_positive_log_odds_push (__main__.BitBalanceTests.test_opposing_action_pair_has_no_positive_log_odds_push) (candidates=2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\research\longhistory\artifacts\20261117_bit_weight_repair\test_bit_balance.py", line 38, in test_opposing_action_pair_has_no_positive_log_odds_push
+    self.assertAlmostEqual((value(h, candidates) - value(-h, candidates)) / (2 * h), 0., places=8)
+                            ~~~~~^^^^^^^^^^^^^^^
+  File "D:\research\longhistory\artifacts\20261117_bit_weight_repair\test_bit_balance.py", line 30, in value
+    return float(eval(EXPRESSION, {'__builtins__': {}}, {'qce': qce, 'positive': positive}))
+                 ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "artifacts\20261117_teacher_binding\binding_loss.py", line 30, in <module>
+    bit = .5 * (qce[positive, -2].mean() + qce[~positive, -2].mean()) if positive.any() and (~positive).any() else qce[:, -2].mean()
+                                                                         ~~~~~~~~~~~~^^
+KeyError: '__import__'
+
+======================================================================
+ERROR: test_opposing_action_pair_has_no_positive_log_odds_push (__main__.BitBalanceTests.test_opposing_action_pair_has_no_positive_log_odds_push) (candidates=3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\research\longhistory\artifacts\20261117_bit_weight_repair\test_bit_balance.py", line 38, in test_opposing_action_pair_has_no_positive_log_odds_push
+    self.assertAlmostEqual((value(h, candidates) - value(-h, candidates)) / (2 * h), 0., places=8)
+                            ~~~~~^^^^^^^^^^^^^^^
+  File "D:\research\longhistory\artifacts\20261117_bit_weight_repair\test_bit_balance.py", line 30, in value
+    return float(eval(EXPRESSION, {'__builtins__': {}}, {'qce': qce, 'positive': positive}))
+                 ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "artifacts\20261117_teacher_binding\binding_loss.py", line 30, in <module>
+    bit = .5 * (qce[positive, -2].mean() + qce[~positive, -2].mean()) if positive.any() and (~positive).any() else qce[:, -2].mean()
+                                                                         ~~~~~~~~~~~~^^
+KeyError: '__import__'
+
+======================================================================
+ERROR: test_opposing_action_pair_is_symmetric_after_adding_fixed_negative_actions (__main__.BitBalanceTests.test_opposing_action_pair_is_symmetric_after_adding_fixed_negative_actions) (candidates=1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\research\longhistory\artifacts\20261117_bit_weight_repair\test_bit_balance.py", line 43, in test_opposing_action_pair_is_symmetric_after_adding_fixed_negative_actions
+    self.assertAlmostEqual(value(.7, candidates), value(-.7, candidates), places=12)
+                           ~~~~~^^^^^^^^^^^^^^^^
+  File "D:\research\longhistory\artifacts\20261117_bit_weight_repair\test_bit_balance.py", line 30, in value
+    return float(eval(EXPRESSION, {'__builtins__': {}}, {'qce': qce, 'positive': positive}))
+                 ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "artifacts\20261117_teacher_binding\binding_loss.py", line 30, in <module>
+    bit = .5 * (qce[positive, -2].mean() + qce[~positive, -2].mean()) if positive.any() and (~positive).any() else qce[:, -2].mean()
+                                                                         ~~~~~~~~~~~~^^
+KeyError: '__import__'
+
+======================================================================
+ERROR: test_opposing_action_pair_is_symmetric_after_adding_fixed_negative_actions (__main__.BitBalanceTests.test_opposing_action_pair_is_symmetric_after_adding_fixed_negative_actions) (candidates=2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\research\longhistory\artifacts\20261117_bit_weight_repair\test_bit_balance.py", line 43, in test_opposing_action_pair_is_symmetric_after_adding_fixed_negative_actions
+    self.assertAlmostEqual(value(.7, candidates), value(-.7, candidates), places=12)
+                           ~~~~~^^^^^^^^^^^^^^^^
+  File "D:\research\longhistory\artifacts\20261117_bit_weight_repair\test_bit_balance.py", line 30, in value
+    return float(eval(EXPRESSION, {'__builtins__': {}}, {'qce': qce, 'positive': positive}))
+                 ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "artifacts\20261117_teacher_binding\binding_loss.py", line 30, in <module>
+    bit = .5 * (qce[positive, -2].mean() + qce[~positive, -2].mean()) if positive.any() and (~positive).any() else qce[:, -2].mean()
+                                                                         ~~~~~~~~~~~~^^
+KeyError: '__import__'
+
+======================================================================
+ERROR: test_opposing_action_pair_is_symmetric_after_adding_fixed_negative_actions (__main__.BitBalanceTests.test_opposing_action_pair_is_symmetric_after_adding_fixed_negative_actions) (candidates=3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\research\longhistory\artifacts\20261117_bit_weight_repair\test_bit_balance.py", line 43, in test_opposing_action_pair_is_symmetric_after_adding_fixed_negative_actions
+    self.assertAlmostEqual(value(.7, candidates), value(-.7, candidates), places=12)
+                           ~~~~~^^^^^^^^^^^^^^^^
+  File "D:\research\longhistory\artifacts\20261117_bit_weight_repair\test_bit_balance.py", line 30, in value
+    return float(eval(EXPRESSION, {'__builtins__': {}}, {'qce': qce, 'positive': positive}))
+                 ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "artifacts\20261117_teacher_binding\binding_loss.py", line 30, in <module>
+    bit = .5 * (qce[positive, -2].mean() + qce[~positive, -2].mean()) if positive.any() and (~positive).any() else qce[:, -2].mean()
+                                                                         ~~~~~~~~~~~~^^
+KeyError: '__import__'
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.004s
+
+FAILED (errors=6)

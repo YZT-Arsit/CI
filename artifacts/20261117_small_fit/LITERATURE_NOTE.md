@@ -1,0 +1,5 @@
+# Loss interference is a hypothesis, not an observed mechanism
+
+Exa source check: Yu et al., [Gradient Surgery for Multi-Task Learning, NeurIPS 2020](https://proceedings.neurips.cc/paper/2020/hash/3fe78a8acf5fda99de95303940a2420c-Abstract.html), especially section2.2 of the [original paper](https://proceedings.neurips.cc/paper_files/paper/2020/file/3fe78a8acf5fda99de95303940a2420c-Paper.pdf). The paper distinguishes conflicting gradient directions from conditions under which those conflicts impair optimization; a negative gradient dot product alone is not sufficient evidence of harm.
+
+This experiment does not implement PCGrad, estimate curvature, or claim its mechanism applies here. It directly compares adding versus omitting actor supervision while fitting the same small query dataset from identical weights. Any conclusion remains conditional on this checkpoint, data, loss scale, clipping and update budget. Shared model parameters make interference plausible, but only the local experiment can test the specified outcome effect.
