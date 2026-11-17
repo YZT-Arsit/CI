@@ -1,0 +1,15 @@
+test_bridge.py
+...
+----------------------------------------------------------------------
+Ran 3 tests in 0.252s
+
+OK
+audit_bridge.py
+Traceback (most recent call last):
+  File "D:\research\longhistory\artifacts\20261117_relation_bridge\audit_bridge.py", line 97, in <module>
+    if __name__ == '__main__': main()
+                               ~~~~^^
+  File "D:\research\longhistory\artifacts\20261117_relation_bridge\audit_bridge.py", line 19, in main
+    assert states == rows(R / 'states.jsonl') and queries == rows(R / 'queries.jsonl') and labels == rows(R / 'labels.jsonl')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

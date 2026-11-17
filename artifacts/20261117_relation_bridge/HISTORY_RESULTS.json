@@ -1,0 +1,248 @@
+{
+  "summaries": [
+    {
+      "seed": 17,
+      "mode": "direct",
+      "families": [
+        {
+          "family": "base",
+          "changing_query_pairs": 12,
+          "both_queries_correct_true_world": 8,
+          "planner_pairs": 2,
+          "both_actions_optimal_true_world": 1
+        },
+        {
+          "family": "depth3",
+          "changing_query_pairs": 12,
+          "both_queries_correct_true_world": 2,
+          "planner_pairs": 2,
+          "both_actions_optimal_true_world": 0
+        }
+      ]
+    },
+    {
+      "seed": 17,
+      "mode": "truth",
+      "families": [
+        {
+          "family": "base",
+          "changing_query_pairs": 12,
+          "both_queries_correct_true_world": 7,
+          "planner_pairs": 2,
+          "both_actions_optimal_true_world": 0
+        },
+        {
+          "family": "depth3",
+          "changing_query_pairs": 12,
+          "both_queries_correct_true_world": 12,
+          "planner_pairs": 2,
+          "both_actions_optimal_true_world": 2
+        }
+      ]
+    },
+    {
+      "seed": 17,
+      "mode": "flip",
+      "families": [
+        {
+          "family": "base",
+          "changing_query_pairs": 12,
+          "both_queries_correct_true_world": 0,
+          "planner_pairs": 2,
+          "both_actions_optimal_true_world": 0
+        },
+        {
+          "family": "depth3",
+          "changing_query_pairs": 12,
+          "both_queries_correct_true_world": 0,
+          "planner_pairs": 2,
+          "both_actions_optimal_true_world": 0
+        }
+      ]
+    },
+    {
+      "seed": 17,
+      "mode": "masked",
+      "families": [
+        {
+          "family": "base",
+          "changing_query_pairs": 12,
+          "both_queries_correct_true_world": 0,
+          "planner_pairs": 2,
+          "both_actions_optimal_true_world": 0
+        },
+        {
+          "family": "depth3",
+          "changing_query_pairs": 12,
+          "both_queries_correct_true_world": 0,
+          "planner_pairs": 2,
+          "both_actions_optimal_true_world": 0
+        }
+      ]
+    },
+    {
+      "seed": 29,
+      "mode": "direct",
+      "families": [
+        {
+          "family": "base",
+          "changing_query_pairs": 12,
+          "both_queries_correct_true_world": 10,
+          "planner_pairs": 2,
+          "both_actions_optimal_true_world": 2
+        },
+        {
+          "family": "depth3",
+          "changing_query_pairs": 12,
+          "both_queries_correct_true_world": 3,
+          "planner_pairs": 2,
+          "both_actions_optimal_true_world": 0
+        }
+      ]
+    },
+    {
+      "seed": 29,
+      "mode": "truth",
+      "families": [
+        {
+          "family": "base",
+          "changing_query_pairs": 12,
+          "both_queries_correct_true_world": 11,
+          "planner_pairs": 2,
+          "both_actions_optimal_true_world": 2
+        },
+        {
+          "family": "depth3",
+          "changing_query_pairs": 12,
+          "both_queries_correct_true_world": 10,
+          "planner_pairs": 2,
+          "both_actions_optimal_true_world": 2
+        }
+      ]
+    },
+    {
+      "seed": 29,
+      "mode": "flip",
+      "families": [
+        {
+          "family": "base",
+          "changing_query_pairs": 12,
+          "both_queries_correct_true_world": 0,
+          "planner_pairs": 2,
+          "both_actions_optimal_true_world": 0
+        },
+        {
+          "family": "depth3",
+          "changing_query_pairs": 12,
+          "both_queries_correct_true_world": 0,
+          "planner_pairs": 2,
+          "both_actions_optimal_true_world": 0
+        }
+      ]
+    },
+    {
+      "seed": 29,
+      "mode": "masked",
+      "families": [
+        {
+          "family": "base",
+          "changing_query_pairs": 12,
+          "both_queries_correct_true_world": 3,
+          "planner_pairs": 2,
+          "both_actions_optimal_true_world": 0
+        },
+        {
+          "family": "depth3",
+          "changing_query_pairs": 12,
+          "both_queries_correct_true_world": 1,
+          "planner_pairs": 2,
+          "both_actions_optimal_true_world": 0
+        }
+      ]
+    },
+    {
+      "seed": 41,
+      "mode": "direct",
+      "families": [
+        {
+          "family": "base",
+          "changing_query_pairs": 12,
+          "both_queries_correct_true_world": 7,
+          "planner_pairs": 2,
+          "both_actions_optimal_true_world": 1
+        },
+        {
+          "family": "depth3",
+          "changing_query_pairs": 12,
+          "both_queries_correct_true_world": 1,
+          "planner_pairs": 2,
+          "both_actions_optimal_true_world": 0
+        }
+      ]
+    },
+    {
+      "seed": 41,
+      "mode": "truth",
+      "families": [
+        {
+          "family": "base",
+          "changing_query_pairs": 12,
+          "both_queries_correct_true_world": 12,
+          "planner_pairs": 2,
+          "both_actions_optimal_true_world": 2
+        },
+        {
+          "family": "depth3",
+          "changing_query_pairs": 12,
+          "both_queries_correct_true_world": 10,
+          "planner_pairs": 2,
+          "both_actions_optimal_true_world": 2
+        }
+      ]
+    },
+    {
+      "seed": 41,
+      "mode": "flip",
+      "families": [
+        {
+          "family": "base",
+          "changing_query_pairs": 12,
+          "both_queries_correct_true_world": 0,
+          "planner_pairs": 2,
+          "both_actions_optimal_true_world": 0
+        },
+        {
+          "family": "depth3",
+          "changing_query_pairs": 12,
+          "both_queries_correct_true_world": 0,
+          "planner_pairs": 2,
+          "both_actions_optimal_true_world": 0
+        }
+      ]
+    },
+    {
+      "seed": 41,
+      "mode": "masked",
+      "families": [
+        {
+          "family": "base",
+          "changing_query_pairs": 12,
+          "both_queries_correct_true_world": 3,
+          "planner_pairs": 2,
+          "both_actions_optimal_true_world": 0
+        },
+        {
+          "family": "depth3",
+          "changing_query_pairs": 12,
+          "both_queries_correct_true_world": 0,
+          "planner_pairs": 2,
+          "both_actions_optimal_true_world": 0
+        }
+      ]
+    }
+  ],
+  "new_model_calls": 0,
+  "autonomous_episodes": 0,
+  "declaration_sha256": "22f1f90fdf01f8aaca91a71b0a7f25493ef016947130514f028646ae78bdb08d",
+  "scope": "Actual R-history swaps within the pre-existing frozen worlds, one alias view. All models/modes reported. Truth/flip note inputs remain external; no proof of model-generated relations."
+}

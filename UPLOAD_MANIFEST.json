@@ -1,7 +1,7 @@
 {
   "snapshot_date": "2026-11-17",
   "repository": "YZT-Arsit/CI",
-  "scope": "Research evidence through original task-query rehearsal versus additional local rehearsal. Six CPU continuations,324updates,three frozen starts,288native synthetic three-phase autonomous episodes and unchanged local retention panels. Model-generated global judgments at runtime; no oracle action repair. Equal response counts,unequal tokens. Full relation origin,natural norms and32step effective collaboration remain unproved. Large GPU NO_GO. Raw JSONL losslessly restorable.",
+  "scope": "Research evidence through frozen primitive relation-fact interface diagnostic. Three CPU checkpoints, four input modes, 3264 new responses, no training or autonomous episodes. Correct external relation facts fail reliability and usefulness gates; actual-history pair improvements coexist with task-composition regressions. Learned relation origin,natural norms and32step effective collaboration remain unproved. Large GPU NO_GO. Raw JSONL losslessly restorable.",
   "excluded": [
     "paper PDFs",
     "large pretrained LLM base weights and installed dependencies",
@@ -22,8 +22,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 23698,
-      "sha256": "0b70f1e000d936cc5bc6607e83bee76a5765eb6b23ec117b49a4834efee7dc93"
+      "bytes": 24393,
+      "sha256": "9006fe2b40d5f37f7f0340dcc507c4a95145eb671d1a7306c28b96da7f034346"
     },
     {
       "path": "artifacts/20261112_cpu_pilot/FINAL_VALIDATION.json",
@@ -55796,6 +55796,381 @@
       "sha256": "e8d2f8e1f8a21cc5b240b8dbb59ceae0e8749d854ec20e9ad2c0661984f243bd"
     },
     {
+      "path": "artifacts/20261117_relation_bridge/ARCHIVE_VERIFIED.json",
+      "bytes": 207,
+      "sha256": "ed1a5c153cda2a770ffad5bff164dad12dea745aafacee2b42e35d332e2df2eb"
+    },
+    {
+      "path": "artifacts/20261117_relation_bridge/AUDIT_REPAIR.json",
+      "bytes": 599,
+      "sha256": "21fae93367bcaecaf5513e9a7058c491da3b6cbb2253090d7163ec3fcecb6408"
+    },
+    {
+      "path": "artifacts/20261117_relation_bridge/AUDIT_V0_FAILURE.log",
+      "bytes": 733,
+      "sha256": "69109a6b5e3b5be01e5633240fd21b17ab2b7528861fed795f4dff19a1f41853"
+    },
+    {
+      "path": "artifacts/20261117_relation_bridge/ERROR_CELLS.json",
+      "bytes": 40341,
+      "sha256": "7917b66026899ed1c6880ce1c4d1d9cd50fcb3a251cf02c3110692edc274b79e"
+    },
+    {
+      "path": "artifacts/20261117_relation_bridge/HISTORY_PLAN.json",
+      "bytes": 445,
+      "sha256": "22f1f90fdf01f8aaca91a71b0a7f25493ef016947130514f028646ae78bdb08d"
+    },
+    {
+      "path": "artifacts/20261117_relation_bridge/HISTORY_RESULTS.json",
+      "bytes": 6705,
+      "sha256": "298f6b2db413ff2f9ae3b6d733c2189121afb3edc8b303e633a78493aa5f982a"
+    },
+    {
+      "path": "artifacts/20261117_relation_bridge/PACKAGE_VERIFIED.json",
+      "bytes": 295,
+      "sha256": "f9845354b0c76c0b8008927cf7cbdc8ac494fdf217ec198f927415daf3b0c0b7"
+    },
+    {
+      "path": "artifacts/20261117_relation_bridge/PARENT_LOCALIZATION.json",
+      "bytes": 14077,
+      "sha256": "b91a36f2fa83e3978be0c9baaa29000428666836426b3e7b8cbfb9698e166733"
+    },
+    {
+      "path": "artifacts/20261117_relation_bridge/PLAN.json",
+      "bytes": 4459,
+      "sha256": "c2e7a653ca77b97eaba15f284d63d54ea8c30778fb702fa3a187da5242e634b9"
+    },
+    {
+      "path": "artifacts/20261117_relation_bridge/PLAN.md",
+      "bytes": 6228,
+      "sha256": "9c4d958511be5b21a6eab2a95bcc2ff9b210e1c550238f0f47045f3dcdabe374"
+    },
+    {
+      "path": "artifacts/20261117_relation_bridge/PREFLIGHT_REVISION.json",
+      "bytes": 1767,
+      "sha256": "f63a2a7fefc9b2c0d1b0b08086c65f21453a4e34de1ea640deb24c909e3640b1"
+    },
+    {
+      "path": "artifacts/20261117_relation_bridge/REPORT.md",
+      "bytes": 7454,
+      "sha256": "2516b31cd5a1267d5231c8bef548844017c12518612fce959d3dba06a783f1e8"
+    },
+    {
+      "path": "artifacts/20261117_relation_bridge/REPRODUCE.md",
+      "bytes": 3571,
+      "sha256": "f1f58cafd47251342aa17070515cd444733f459c992ddaf126b918c80483b0ae"
+    },
+    {
+      "path": "artifacts/20261117_relation_bridge/RESULTS.json",
+      "bytes": 17723,
+      "sha256": "9d08c47fef9bf2bc007e475f5b43eb5fff9eb30aa29d884f4f10acafa7e12ca0"
+    },
+    {
+      "path": "artifacts/20261117_relation_bridge/REVIEW.md",
+      "bytes": 1818,
+      "sha256": "1d9a16915a83761e328a63e790d1ad771caf3b54f5d819549451c4e6a0f45d73"
+    },
+    {
+      "path": "artifacts/20261117_relation_bridge/SEALED.json",
+      "bytes": 2920,
+      "sha256": "e78ae140788a35c16771db39538c7331292cf4eea070c7feca9122e9d30e4e5b"
+    },
+    {
+      "path": "artifacts/20261117_relation_bridge/SOLUTION.md",
+      "bytes": 4206,
+      "sha256": "64dd9258dcb2c2bf7310fc8cc8b08d7de16a033ae51561469cc3856b8bee8571"
+    },
+    {
+      "path": "artifacts/20261117_relation_bridge/TOKEN_INSPECTION.json",
+      "bytes": 411,
+      "sha256": "9bd926d47fc23a2fb1e8b974c3f3582f6bb8551876127445b3df78616d355abe"
+    },
+    {
+      "path": "artifacts/20261117_relation_bridge/TOKEN_PREFLIGHT.json",
+      "bytes": 8940,
+      "sha256": "05aa5bdaaea2bac47013c848894350aa5ab2ee274be3122fb63ed6b087ae7543"
+    },
+    {
+      "path": "artifacts/20261117_relation_bridge/audit.log",
+      "bytes": 16654,
+      "sha256": "add716e628adcb6e6ff33a2a00c844bf69a8aa2b8ccc51457be7bda8ddd39bae"
+    },
+    {
+      "path": "artifacts/20261117_relation_bridge/audit_bridge.py",
+      "bytes": 8186,
+      "sha256": "344a0b82da0579904ec0f62c76e644f7fb28e6093bb621efdc1070f6f5eae764"
+    },
+    {
+      "path": "artifacts/20261117_relation_bridge/audit_bridge_v1.py",
+      "bytes": 8307,
+      "sha256": "a300747a4550d50ebdd8a650f89a77a9d336bf22a98fabb1789e2a2e386696e9"
+    },
+    {
+      "path": "artifacts/20261117_relation_bridge/bridge_data.py",
+      "bytes": 7665,
+      "sha256": "ec7c224850507ced9070ec20825f0b9a893c4f86d1cc4195bd4674dc3f6fe723"
+    },
+    {
+      "path": "artifacts/20261117_relation_bridge/compression_manifest.json",
+      "bytes": 13166,
+      "sha256": "b7607088a4153dd6dbb614bdc94a1300facdd5188153cae484f86084129adf0c"
+    },
+    {
+      "path": "artifacts/20261117_relation_bridge/diagnose_errors.py",
+      "bytes": 2179,
+      "sha256": "ed8f5b2a1e4a7dab73e049446aae273d5b9b42b8d28e4fcc1173e61a4fb45508"
+    },
+    {
+      "path": "artifacts/20261117_relation_bridge/history_pairs.py",
+      "bytes": 3480,
+      "sha256": "83adb2ba4a86687b0f0055d0f89fc455083f48c17dfacbf963ec5fb264e24e61"
+    },
+    {
+      "path": "artifacts/20261117_relation_bridge/labels.jsonl.gz",
+      "bytes": 19143,
+      "sha256": "43899a3a8f065d2e576aebe692df7677cd677e906d288360270b4047507f4cbb"
+    },
+    {
+      "path": "artifacts/20261117_relation_bridge/localize_parent.py",
+      "bytes": 3313,
+      "sha256": "d3b94a073911996e4e120d9a76fbc16c3ebb2a1af444ac2fff0f823419c3e300"
+    },
+    {
+      "path": "artifacts/20261117_relation_bridge/preflight_v0/ERROR.log",
+      "bytes": 222,
+      "sha256": "f6e9471737c2c5e332a3b84d0f8661cb7a902c14604724ca407610d02ec89676"
+    },
+    {
+      "path": "artifacts/20261117_relation_bridge/preflight_v0/PARENT_LOCALIZATION.json",
+      "bytes": 14077,
+      "sha256": "b91a36f2fa83e3978be0c9baaa29000428666836426b3e7b8cbfb9698e166733"
+    },
+    {
+      "path": "artifacts/20261117_relation_bridge/preflight_v0/PLAN.json",
+      "bytes": 4261,
+      "sha256": "5658023d772f1deead6a9d85c81f712d565552cc8ab2b23ff5c2873801dc36da"
+    },
+    {
+      "path": "artifacts/20261117_relation_bridge/preflight_v0/PLAN.md",
+      "bytes": 5703,
+      "sha256": "4877123e6a13ca6eaec8a21e695a69f1423357927c0049f26f947dafae71c193"
+    },
+    {
+      "path": "artifacts/20261117_relation_bridge/preflight_v0/audit_bridge.py",
+      "bytes": 8186,
+      "sha256": "344a0b82da0579904ec0f62c76e644f7fb28e6093bb621efdc1070f6f5eae764"
+    },
+    {
+      "path": "artifacts/20261117_relation_bridge/preflight_v0/bridge_data.py",
+      "bytes": 7485,
+      "sha256": "ee04f5b76226f3ea7480cd7a13bb905c6ddee724419cbf5434e58b22518b2432"
+    },
+    {
+      "path": "artifacts/20261117_relation_bridge/preflight_v0/labels.jsonl.gz",
+      "bytes": 19143,
+      "sha256": "43899a3a8f065d2e576aebe692df7677cd677e906d288360270b4047507f4cbb"
+    },
+    {
+      "path": "artifacts/20261117_relation_bridge/preflight_v0/localize_parent.py",
+      "bytes": 3313,
+      "sha256": "d3b94a073911996e4e120d9a76fbc16c3ebb2a1af444ac2fff0f823419c3e300"
+    },
+    {
+      "path": "artifacts/20261117_relation_bridge/preflight_v0/queries.jsonl.gz",
+      "bytes": 12372,
+      "sha256": "7e78b73d8e5078d722f9b66fc70199f9a2fea171f8ebe3b1392014c27724ec6c"
+    },
+    {
+      "path": "artifacts/20261117_relation_bridge/preflight_v0/run_bridge.py",
+      "bytes": 3457,
+      "sha256": "807f9720e9babd7b26fa1e6a6bb693adcdf76220d1fb95311a7428d89ad5d4d0"
+    },
+    {
+      "path": "artifacts/20261117_relation_bridge/preflight_v0/states.jsonl.gz",
+      "bytes": 8498,
+      "sha256": "8c0e225bc3d579711e6c50c7d650f2cf37ada55192956af5b09b2e2b046be8c0"
+    },
+    {
+      "path": "artifacts/20261117_relation_bridge/preflight_v0/test_bridge.py",
+      "bytes": 3154,
+      "sha256": "a05d9dd2d959c7a449933808b0812b4cc03ce93ab4d3f11aeb0b0e5b16d7b5dc"
+    },
+    {
+      "path": "artifacts/20261117_relation_bridge/preflight_v0/token_preflight.py",
+      "bytes": 1940,
+      "sha256": "9e32a46b0b33ab58d10e7565935bcc3b6963ba488311be207ec97f844de956e6"
+    },
+    {
+      "path": "artifacts/20261117_relation_bridge/preflight_v0/worlds.json",
+      "bytes": 18386,
+      "sha256": "fa2bc26fe330fd8eafd797ca57327fe1a369c5421f370424b320381121d40cb1"
+    },
+    {
+      "path": "artifacts/20261117_relation_bridge/queries.jsonl.gz",
+      "bytes": 12372,
+      "sha256": "1282876dabb2fc04a0948948822acfd3ae51fd7fea6d482a667f4aa47dcb00c1"
+    },
+    {
+      "path": "artifacts/20261117_relation_bridge/run_bridge.py",
+      "bytes": 3457,
+      "sha256": "807f9720e9babd7b26fa1e6a6bb693adcdf76220d1fb95311a7428d89ad5d4d0"
+    },
+    {
+      "path": "artifacts/20261117_relation_bridge/states.jsonl.gz",
+      "bytes": 8498,
+      "sha256": "8c0e225bc3d579711e6c50c7d650f2cf37ada55192956af5b09b2e2b046be8c0"
+    },
+    {
+      "path": "artifacts/20261117_relation_bridge/study/17/IDENTITY.json",
+      "bytes": 893,
+      "sha256": "d19acd714a9bfdbca698cf7e7dcef4734515ce4c0266b733f5931b558325e97d"
+    },
+    {
+      "path": "artifacts/20261117_relation_bridge/study/17/direct_actions.jsonl.gz",
+      "bytes": 4594,
+      "sha256": "cb38a9b6a521336f328ef8bc2a54c1ebb78a3bcd3c2f5a0ff380800210e10f75"
+    },
+    {
+      "path": "artifacts/20261117_relation_bridge/study/17/direct_queries.jsonl.gz",
+      "bytes": 1234,
+      "sha256": "b9b030391687c066afcf5840e5ffc515fe08e07fe7a8bc30746e25bc0a84909a"
+    },
+    {
+      "path": "artifacts/20261117_relation_bridge/study/17/flip_actions.jsonl.gz",
+      "bytes": 4643,
+      "sha256": "21dfa59c6a09b760e2f9febb95aa6e5be179f620614fd4a2bbdc439a70b4cf20"
+    },
+    {
+      "path": "artifacts/20261117_relation_bridge/study/17/flip_queries.jsonl.gz",
+      "bytes": 1293,
+      "sha256": "2e12c93a42533bbec49a36a200f9c2942ce6b254ccaa4d217229b241e391301a"
+    },
+    {
+      "path": "artifacts/20261117_relation_bridge/study/17/masked_actions.jsonl.gz",
+      "bytes": 4511,
+      "sha256": "67b0f73d4f3bfa8e84491f13796ea74211ffaff579d36cc9fc088ddf35e6fa83"
+    },
+    {
+      "path": "artifacts/20261117_relation_bridge/study/17/masked_queries.jsonl.gz",
+      "bytes": 1199,
+      "sha256": "36cf5403d3fcab076b8bd86858f3037e89eeb2331b1122243241f6fb2efc879f"
+    },
+    {
+      "path": "artifacts/20261117_relation_bridge/study/17/truth_actions.jsonl.gz",
+      "bytes": 4654,
+      "sha256": "bb43dfe44853d93009e8ed652ade149b7fc6db8cc88a74f76fe84bfb92cfd31d"
+    },
+    {
+      "path": "artifacts/20261117_relation_bridge/study/17/truth_queries.jsonl.gz",
+      "bytes": 1303,
+      "sha256": "9bacce6ac4e190f6599091cb40d4ff0bb47d9dca5994f5c51404cd96a0b72c19"
+    },
+    {
+      "path": "artifacts/20261117_relation_bridge/study/29/IDENTITY.json",
+      "bytes": 893,
+      "sha256": "686abbbb7f7715cc2d8192c95bbbfdb4ccfa63fb19b5bccc6e91236d1ff7d0d5"
+    },
+    {
+      "path": "artifacts/20261117_relation_bridge/study/29/direct_actions.jsonl.gz",
+      "bytes": 4599,
+      "sha256": "c6fe8dbd38bf37cf6dcca8eaa039cebca66cb50a32bce48ba4a93e3a8cbbbb18"
+    },
+    {
+      "path": "artifacts/20261117_relation_bridge/study/29/direct_queries.jsonl.gz",
+      "bytes": 1261,
+      "sha256": "6c36fb3dd7ecb4ef8e09a74e41db16973fe1870c93aba498b939393f0f9f1fb5"
+    },
+    {
+      "path": "artifacts/20261117_relation_bridge/study/29/flip_actions.jsonl.gz",
+      "bytes": 4649,
+      "sha256": "25a21c5153bb2a6f71d16e425521e2b3dd152a0fa13983bf3a49182f0df11644"
+    },
+    {
+      "path": "artifacts/20261117_relation_bridge/study/29/flip_queries.jsonl.gz",
+      "bytes": 1270,
+      "sha256": "be2de5a2c4ba0cfb804c0e01280c1717a4330e37ee7a82ae7a4d89b636a5d6c8"
+    },
+    {
+      "path": "artifacts/20261117_relation_bridge/study/29/masked_actions.jsonl.gz",
+      "bytes": 4525,
+      "sha256": "e0505a4e31fd301d521a18b6edb2ed6f398cb836dc6f826ac0a0f48e4d4e221a"
+    },
+    {
+      "path": "artifacts/20261117_relation_bridge/study/29/masked_queries.jsonl.gz",
+      "bytes": 1208,
+      "sha256": "b255cc3057e72d76bb14f29c824f97dc9f8eb6b4671aef44cff9528cb7cd4a26"
+    },
+    {
+      "path": "artifacts/20261117_relation_bridge/study/29/truth_actions.jsonl.gz",
+      "bytes": 4676,
+      "sha256": "33a7dec163281d6a08801146694b5d9e93bc9d418fe27234e4abc075d5dd7f4a"
+    },
+    {
+      "path": "artifacts/20261117_relation_bridge/study/29/truth_queries.jsonl.gz",
+      "bytes": 1266,
+      "sha256": "7e890562effc897d014de6d273200edd2cd90db66fb43e13fef32d27aea660e6"
+    },
+    {
+      "path": "artifacts/20261117_relation_bridge/study/41/IDENTITY.json",
+      "bytes": 893,
+      "sha256": "f895ebc9b07867136405a595b85d1e722515342387d8a82ca5626ec0e6371644"
+    },
+    {
+      "path": "artifacts/20261117_relation_bridge/study/41/direct_actions.jsonl.gz",
+      "bytes": 4552,
+      "sha256": "8d6d2b4d76caecf3082d16a5c0c0098056845ea2bc140333fa2ef0ac4cda626b"
+    },
+    {
+      "path": "artifacts/20261117_relation_bridge/study/41/direct_queries.jsonl.gz",
+      "bytes": 1272,
+      "sha256": "c705b9870edad985962ee2ef6f8d44e8ca823186798a59026973babd61114149"
+    },
+    {
+      "path": "artifacts/20261117_relation_bridge/study/41/flip_actions.jsonl.gz",
+      "bytes": 4677,
+      "sha256": "4bd541dd2696d952eb9bfa70908b134441f1405c9fd9c373f34a65a4f78da6f3"
+    },
+    {
+      "path": "artifacts/20261117_relation_bridge/study/41/flip_queries.jsonl.gz",
+      "bytes": 1336,
+      "sha256": "f495d3d52289162eec87405bf4143bbfaf6095cdc81547bc610f10083119ae1a"
+    },
+    {
+      "path": "artifacts/20261117_relation_bridge/study/41/masked_actions.jsonl.gz",
+      "bytes": 4527,
+      "sha256": "b11a242d3276fae8bb56d967e75648610deeb537b5db359b3c74db0e12dd6fc4"
+    },
+    {
+      "path": "artifacts/20261117_relation_bridge/study/41/masked_queries.jsonl.gz",
+      "bytes": 1216,
+      "sha256": "daf340b9c45db6b927db274c3592b5121352da69cebfe57f0368fac72179e749"
+    },
+    {
+      "path": "artifacts/20261117_relation_bridge/study/41/truth_actions.jsonl.gz",
+      "bytes": 4643,
+      "sha256": "3c2abcb667172f83e953aac287eb90d3b1630ea03ab0eeea1e34723621292e1f"
+    },
+    {
+      "path": "artifacts/20261117_relation_bridge/study/41/truth_queries.jsonl.gz",
+      "bytes": 1312,
+      "sha256": "1e89c2e156e4cdb2f636ee7b234439d7fea2e16330ee1baa851ff8f6bb0024e7"
+    },
+    {
+      "path": "artifacts/20261117_relation_bridge/test_bridge.py",
+      "bytes": 3154,
+      "sha256": "a05d9dd2d959c7a449933808b0812b4cc03ce93ab4d3f11aeb0b0e5b16d7b5dc"
+    },
+    {
+      "path": "artifacts/20261117_relation_bridge/token_preflight.py",
+      "bytes": 1940,
+      "sha256": "9e32a46b0b33ab58d10e7565935bcc3b6963ba488311be207ec97f844de956e6"
+    },
+    {
+      "path": "artifacts/20261117_relation_bridge/worlds.json",
+      "bytes": 18386,
+      "sha256": "fa2bc26fe330fd8eafd797ca57327fe1a369c5421f370424b320381121d40cb1"
+    },
+    {
       "path": "artifacts/20261117_relation_factors/ARCHIVE_VERIFIED.json",
       "bytes": 208,
       "sha256": "c7ffab83d8f30fc7c1cf088ef0a3b2fb56f08e5dedbd9ea00ab99cc232c01f20"
@@ -63649,6 +64024,11 @@
       "path": "tools/restore_relation_artifacts.py",
       "bytes": 1259,
       "sha256": "67e3d6938948202cf52d56ae7d587f5957617bed159a97504ae86b9419ef0a4d"
+    },
+    {
+      "path": "tools/restore_relation_bridge_artifacts.py",
+      "bytes": 1521,
+      "sha256": "c417922c4661c6121e48a050aae4e3a6507122a5fb3d432c1b66e685576f399c"
     },
     {
       "path": "tools/restore_relation_factors_artifacts.py",

@@ -1,0 +1,10 @@
+{
+  "reason": "Native candidate labels contain tuples; JSON stores arrays as lists. States and queries match directly; labels match after JSON roundtrip. Normalize regenerated records at comparison only.",
+  "original_sha256": "344a0b82da0579904ec0f62c76e644f7fb28e6093bb621efdc1070f6f5eae764",
+  "replacement_sha256": "a300747a4550d50ebdd8a650f89a77a9d336bf22a98fabb1789e2a2e386696e9",
+  "failure_sha256": "69109a6b5e3b5be01e5633240fd21b17ab2b7528861fed795f4dff19a1f41853",
+  "plan_unchanged": true,
+  "outputs_unchanged": true,
+  "scoring_or_gate_changed": false,
+  "new_model_calls": 0
+}

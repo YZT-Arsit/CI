@@ -1,0 +1,810 @@
+{
+  "base": [
+    {
+      "world_id": "meeting_700001000",
+      "kind": "meeting",
+      "subject": "e1779464816",
+      "providers": [
+        {
+          "ticket": "e4849814415",
+          "links": [
+            [
+              "e4849814415",
+              "e8544827051"
+            ]
+          ]
+        },
+        {
+          "ticket": "e7904919778",
+          "links": [
+            [
+              "e7904919778",
+              "e8699024675"
+            ]
+          ]
+        }
+      ],
+      "histories": [
+        [
+          "e3515021690",
+          "e7983922153"
+        ],
+        [
+          "e8699024675",
+          "e9896666385"
+        ],
+        [
+          "e4445793705",
+          "e8702988626"
+        ]
+      ],
+      "allow": false,
+      "binding_required": true,
+      "history_delivered": true,
+      "evidence_class": "source_computation_with_synthetic_receipt_obligation",
+      "source_instance_group": "meeting_original_instance_01",
+      "base_group_id": "meeting_700001000"
+    },
+    {
+      "world_id": "query_700001001",
+      "kind": "query",
+      "subject": "e2054551493",
+      "providers": [
+        {
+          "ticket": "e8866310041",
+          "links": [
+            [
+              "e8866310041",
+              "e6557607731"
+            ]
+          ]
+        },
+        {
+          "ticket": "e2030695183",
+          "links": [
+            [
+              "e2030695183",
+              "e6017533705"
+            ]
+          ]
+        }
+      ],
+      "histories": [
+        [
+          "e1589227450",
+          "e1111452804"
+        ],
+        [
+          "e6557607731",
+          "e7209383289"
+        ],
+        [
+          "e5750064685",
+          "e8560012969"
+        ]
+      ],
+      "allow": false,
+      "binding_required": true,
+      "history_delivered": true,
+      "evidence_class": "source_computation_with_synthetic_receipt_obligation",
+      "source_instance_group": "query_original_instance_01",
+      "base_group_id": "query_700001001"
+    }
+  ],
+  "base_swap": [
+    {
+      "world_id": "meeting_700001000",
+      "kind": "meeting",
+      "subject": "e1779464816",
+      "providers": [
+        {
+          "ticket": "e4849814415",
+          "links": [
+            [
+              "e4849814415",
+              "e8544827051"
+            ]
+          ]
+        },
+        {
+          "ticket": "e7904919778",
+          "links": [
+            [
+              "e7904919778",
+              "e8699024675"
+            ]
+          ]
+        }
+      ],
+      "histories": [
+        [
+          "e3515021690",
+          "e7983922153"
+        ],
+        [
+          "e8544827051",
+          "e9896666385"
+        ],
+        [
+          "e4445793705",
+          "e8702988626"
+        ]
+      ],
+      "allow": false,
+      "binding_required": true,
+      "history_delivered": true,
+      "evidence_class": "source_computation_with_synthetic_receipt_obligation",
+      "source_instance_group": "meeting_original_instance_01",
+      "base_group_id": "meeting_700001000"
+    },
+    {
+      "world_id": "query_700001001",
+      "kind": "query",
+      "subject": "e2054551493",
+      "providers": [
+        {
+          "ticket": "e8866310041",
+          "links": [
+            [
+              "e8866310041",
+              "e6557607731"
+            ]
+          ]
+        },
+        {
+          "ticket": "e2030695183",
+          "links": [
+            [
+              "e2030695183",
+              "e6017533705"
+            ]
+          ]
+        }
+      ],
+      "histories": [
+        [
+          "e1589227450",
+          "e1111452804"
+        ],
+        [
+          "e6017533705",
+          "e7209383289"
+        ],
+        [
+          "e5750064685",
+          "e8560012969"
+        ]
+      ],
+      "allow": false,
+      "binding_required": true,
+      "history_delivered": true,
+      "evidence_class": "source_computation_with_synthetic_receipt_obligation",
+      "source_instance_group": "query_original_instance_01",
+      "base_group_id": "query_700001001"
+    }
+  ],
+  "depth3": [
+    {
+      "world_id": "meeting_700003000",
+      "kind": "meeting",
+      "subject": "e3093312187",
+      "providers": [
+        {
+          "ticket": "e4422367717",
+          "links": [
+            [
+              "e4422367717",
+              "e1005774727"
+            ],
+            [
+              "e1005774727",
+              "e3583821404"
+            ],
+            [
+              "e3583821404",
+              "e7887490737"
+            ]
+          ]
+        },
+        {
+          "ticket": "e8886859939",
+          "links": [
+            [
+              "e8886859939",
+              "e2825652867"
+            ],
+            [
+              "e2825652867",
+              "e2048541019"
+            ],
+            [
+              "e2048541019",
+              "e1212638715"
+            ]
+          ]
+        }
+      ],
+      "histories": [
+        [
+          "e7887490737",
+          "e5464597455"
+        ],
+        [
+          "e3834978340",
+          "e2265387933"
+        ],
+        [
+          "e1993440482",
+          "e2997111908"
+        ]
+      ],
+      "allow": false,
+      "binding_required": true,
+      "history_delivered": true,
+      "evidence_class": "source_computation_with_synthetic_receipt_obligation",
+      "source_instance_group": "meeting_original_instance_01",
+      "base_group_id": "meeting_700003000"
+    },
+    {
+      "world_id": "query_700003001",
+      "kind": "query",
+      "subject": "e5792582042",
+      "providers": [
+        {
+          "ticket": "e3113402334",
+          "links": [
+            [
+              "e3113402334",
+              "e8705528351"
+            ],
+            [
+              "e8705528351",
+              "e5865281087"
+            ],
+            [
+              "e5865281087",
+              "e8445042762"
+            ]
+          ]
+        },
+        {
+          "ticket": "e9796071801",
+          "links": [
+            [
+              "e9796071801",
+              "e3711504258"
+            ],
+            [
+              "e3711504258",
+              "e5971476859"
+            ],
+            [
+              "e5971476859",
+              "e2235243114"
+            ]
+          ]
+        }
+      ],
+      "histories": [
+        [
+          "e2586191897",
+          "e9679894414"
+        ],
+        [
+          "e1867919050",
+          "e2418774389"
+        ],
+        [
+          "e8445042762",
+          "e9797375075"
+        ]
+      ],
+      "allow": false,
+      "binding_required": true,
+      "history_delivered": true,
+      "evidence_class": "source_computation_with_synthetic_receipt_obligation",
+      "source_instance_group": "query_original_instance_01",
+      "base_group_id": "query_700003001"
+    }
+  ],
+  "depth3_swap": [
+    {
+      "world_id": "meeting_700003000",
+      "kind": "meeting",
+      "subject": "e3093312187",
+      "providers": [
+        {
+          "ticket": "e4422367717",
+          "links": [
+            [
+              "e4422367717",
+              "e1005774727"
+            ],
+            [
+              "e1005774727",
+              "e3583821404"
+            ],
+            [
+              "e3583821404",
+              "e7887490737"
+            ]
+          ]
+        },
+        {
+          "ticket": "e8886859939",
+          "links": [
+            [
+              "e8886859939",
+              "e2825652867"
+            ],
+            [
+              "e2825652867",
+              "e2048541019"
+            ],
+            [
+              "e2048541019",
+              "e1212638715"
+            ]
+          ]
+        }
+      ],
+      "histories": [
+        [
+          "e1212638715",
+          "e5464597455"
+        ],
+        [
+          "e3834978340",
+          "e2265387933"
+        ],
+        [
+          "e1993440482",
+          "e2997111908"
+        ]
+      ],
+      "allow": false,
+      "binding_required": true,
+      "history_delivered": true,
+      "evidence_class": "source_computation_with_synthetic_receipt_obligation",
+      "source_instance_group": "meeting_original_instance_01",
+      "base_group_id": "meeting_700003000"
+    },
+    {
+      "world_id": "query_700003001",
+      "kind": "query",
+      "subject": "e5792582042",
+      "providers": [
+        {
+          "ticket": "e3113402334",
+          "links": [
+            [
+              "e3113402334",
+              "e8705528351"
+            ],
+            [
+              "e8705528351",
+              "e5865281087"
+            ],
+            [
+              "e5865281087",
+              "e8445042762"
+            ]
+          ]
+        },
+        {
+          "ticket": "e9796071801",
+          "links": [
+            [
+              "e9796071801",
+              "e3711504258"
+            ],
+            [
+              "e3711504258",
+              "e5971476859"
+            ],
+            [
+              "e5971476859",
+              "e2235243114"
+            ]
+          ]
+        }
+      ],
+      "histories": [
+        [
+          "e2586191897",
+          "e9679894414"
+        ],
+        [
+          "e1867919050",
+          "e2418774389"
+        ],
+        [
+          "e2235243114",
+          "e9797375075"
+        ]
+      ],
+      "allow": false,
+      "binding_required": true,
+      "history_delivered": true,
+      "evidence_class": "source_computation_with_synthetic_receipt_obligation",
+      "source_instance_group": "query_original_instance_01",
+      "base_group_id": "query_700003001"
+    }
+  ],
+  "optional": [
+    {
+      "world_id": "meeting_700010000",
+      "kind": "meeting",
+      "subject": "e6404661289",
+      "providers": [
+        {
+          "ticket": "e5316666955",
+          "links": [
+            [
+              "e5316666955",
+              "e7182756953"
+            ]
+          ]
+        },
+        {
+          "ticket": "e3467252898",
+          "links": [
+            [
+              "e3467252898",
+              "e2027437826"
+            ]
+          ]
+        }
+      ],
+      "histories": [
+        [
+          "e7212775888",
+          "e2317403044"
+        ],
+        [
+          "e7182756953",
+          "e1890250683"
+        ],
+        [
+          "e5188178062",
+          "e6621195759"
+        ]
+      ],
+      "allow": false,
+      "binding_required": false,
+      "history_delivered": true,
+      "evidence_class": "source_computation_with_synthetic_receipt_obligation",
+      "source_instance_group": "meeting_original_instance_01",
+      "base_group_id": "meeting_700010000"
+    },
+    {
+      "world_id": "query_700010001",
+      "kind": "query",
+      "subject": "e7904389383",
+      "providers": [
+        {
+          "ticket": "e6414803166",
+          "links": [
+            [
+              "e6414803166",
+              "e1155363162"
+            ]
+          ]
+        },
+        {
+          "ticket": "e1616691080",
+          "links": [
+            [
+              "e1616691080",
+              "e7028828124"
+            ]
+          ]
+        }
+      ],
+      "histories": [
+        [
+          "e1777358703",
+          "e6695089974"
+        ],
+        [
+          "e8608688475",
+          "e7013731577"
+        ],
+        [
+          "e1155363162",
+          "e1645768798"
+        ]
+      ],
+      "allow": false,
+      "binding_required": false,
+      "history_delivered": true,
+      "evidence_class": "source_computation_with_synthetic_receipt_obligation",
+      "source_instance_group": "query_original_instance_01",
+      "base_group_id": "query_700010001"
+    }
+  ],
+  "authorized": [
+    {
+      "world_id": "meeting_700011000",
+      "kind": "meeting",
+      "subject": "e2996129387",
+      "providers": [
+        {
+          "ticket": "e9145414397",
+          "links": [
+            [
+              "e9145414397",
+              "e9650545810"
+            ]
+          ]
+        },
+        {
+          "ticket": "e4811966101",
+          "links": [
+            [
+              "e4811966101",
+              "e6507552465"
+            ]
+          ]
+        }
+      ],
+      "histories": [
+        [
+          "e9650545810",
+          "e1264570937"
+        ],
+        [
+          "e9802859696",
+          "e5636169062"
+        ],
+        [
+          "e2718678659",
+          "e8375499023"
+        ]
+      ],
+      "allow": true,
+      "binding_required": true,
+      "history_delivered": true,
+      "evidence_class": "source_computation_with_synthetic_receipt_obligation",
+      "source_instance_group": "meeting_original_instance_01",
+      "base_group_id": "meeting_700011000"
+    },
+    {
+      "world_id": "query_700011001",
+      "kind": "query",
+      "subject": "e6135957795",
+      "providers": [
+        {
+          "ticket": "e1392099827",
+          "links": [
+            [
+              "e1392099827",
+              "e2497393211"
+            ]
+          ]
+        },
+        {
+          "ticket": "e5285904727",
+          "links": [
+            [
+              "e5285904727",
+              "e8047051630"
+            ]
+          ]
+        }
+      ],
+      "histories": [
+        [
+          "e4203717452",
+          "e8193947606"
+        ],
+        [
+          "e7686332120",
+          "e9027765627"
+        ],
+        [
+          "e2497393211",
+          "e6225927935"
+        ]
+      ],
+      "allow": true,
+      "binding_required": true,
+      "history_delivered": true,
+      "evidence_class": "source_computation_with_synthetic_receipt_obligation",
+      "source_instance_group": "query_original_instance_01",
+      "base_group_id": "query_700011001"
+    }
+  ],
+  "draft": [
+    {
+      "world_id": "meeting_700012000",
+      "kind": "meeting",
+      "subject": "e5656562085",
+      "providers": [
+        {
+          "ticket": "e5807654519",
+          "links": [
+            [
+              "e5807654519",
+              "e4699035481"
+            ]
+          ]
+        },
+        {
+          "ticket": "e3581043001",
+          "links": [
+            [
+              "e3581043001",
+              "e3807749104"
+            ]
+          ]
+        }
+      ],
+      "histories": [
+        [
+          "e6126826943",
+          "e8541994972"
+        ],
+        [
+          "e4699035481",
+          "e7553373477"
+        ],
+        [
+          "e3020410407",
+          "e4182320364"
+        ]
+      ],
+      "allow": false,
+      "binding_required": true,
+      "history_delivered": false,
+      "evidence_class": "source_computation_with_synthetic_receipt_obligation",
+      "source_instance_group": "meeting_original_instance_01",
+      "base_group_id": "meeting_700012000"
+    },
+    {
+      "world_id": "query_700012001",
+      "kind": "query",
+      "subject": "e5131484257",
+      "providers": [
+        {
+          "ticket": "e3619589852",
+          "links": [
+            [
+              "e3619589852",
+              "e2097877075"
+            ]
+          ]
+        },
+        {
+          "ticket": "e6705743501",
+          "links": [
+            [
+              "e6705743501",
+              "e4101416505"
+            ]
+          ]
+        }
+      ],
+      "histories": [
+        [
+          "e7026969487",
+          "e8634722207"
+        ],
+        [
+          "e4101416505",
+          "e3603631801"
+        ],
+        [
+          "e7077963781",
+          "e3550065748"
+        ]
+      ],
+      "allow": false,
+      "binding_required": true,
+      "history_delivered": false,
+      "evidence_class": "source_computation_with_synthetic_receipt_obligation",
+      "source_instance_group": "query_original_instance_01",
+      "base_group_id": "query_700012001"
+    }
+  ],
+  "both": [
+    {
+      "world_id": "meeting_700013000",
+      "kind": "meeting",
+      "subject": "e7991974077",
+      "providers": [
+        {
+          "ticket": "e1285604000",
+          "links": [
+            [
+              "e1285604000",
+              "e1768746066"
+            ]
+          ]
+        },
+        {
+          "ticket": "e4773754868",
+          "links": [
+            [
+              "e4773754868",
+              "e5230325566"
+            ]
+          ]
+        }
+      ],
+      "histories": [
+        [
+          "e1768746066",
+          "e1179130365"
+        ],
+        [
+          "e3190717782",
+          "e7040669428"
+        ],
+        [
+          "e5230325566",
+          "e1179130365"
+        ],
+        [
+          "e7524988630",
+          "e4030591408"
+        ]
+      ],
+      "allow": false,
+      "binding_required": true,
+      "history_delivered": true,
+      "evidence_class": "source_computation_with_synthetic_receipt_obligation",
+      "source_instance_group": "meeting_original_instance_01",
+      "base_group_id": "meeting_700013000"
+    },
+    {
+      "world_id": "query_700013001",
+      "kind": "query",
+      "subject": "e7272157361",
+      "providers": [
+        {
+          "ticket": "e2411209849",
+          "links": [
+            [
+              "e2411209849",
+              "e3628955003"
+            ]
+          ]
+        },
+        {
+          "ticket": "e6511104672",
+          "links": [
+            [
+              "e6511104672",
+              "e7491001996"
+            ]
+          ]
+        }
+      ],
+      "histories": [
+        [
+          "e5781547394",
+          "e4038415851"
+        ],
+        [
+          "e5647186443",
+          "e3790038377"
+        ],
+        [
+          "e3628955003",
+          "e7594260728"
+        ],
+        [
+          "e7491001996",
+          "e7594260728"
+        ]
+      ],
+      "allow": false,
+      "binding_required": true,
+      "history_delivered": true,
+      "evidence_class": "source_computation_with_synthetic_receipt_obligation",
+      "source_instance_group": "query_original_instance_01",
+      "base_group_id": "query_700013001"
+    }
+  ]
+}

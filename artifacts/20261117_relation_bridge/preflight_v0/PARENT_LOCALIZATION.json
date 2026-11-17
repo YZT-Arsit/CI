@@ -1,0 +1,510 @@
+{
+  "summaries": [
+    {
+      "arm": "initial17",
+      "role_query_action_counts": {
+        "('Planner', True, True)": 16,
+        "('Source', True, True)": 24,
+        "('Worker', False, True)": 11,
+        "('Planner', False, True)": 9,
+        "('Worker', False, False)": 9,
+        "('Planner', False, False)": 7,
+        "('Source', False, False)": 3,
+        "('Source', False, True)": 5,
+        "('Worker', True, True)": 5
+      }
+    },
+    {
+      "arm": "local17",
+      "role_query_action_counts": {
+        "('Planner', False, False)": 8,
+        "('Source', False, True)": 11,
+        "('Worker', False, True)": 9,
+        "('Planner', False, True)": 11,
+        "('Source', True, True)": 19,
+        "('Worker', False, False)": 12,
+        "('Planner', True, True)": 13,
+        "('Source', False, False)": 2,
+        "('Worker', True, True)": 5
+      }
+    },
+    {
+      "arm": "global17",
+      "role_query_action_counts": {
+        "('Planner', True, True)": 22,
+        "('Source', True, True)": 29,
+        "('Worker', True, True)": 23,
+        "('Worker', False, False)": 1,
+        "('Planner', False, True)": 7,
+        "('Source', False, False)": 2,
+        "('Planner', False, False)": 3,
+        "('Source', False, True)": 1,
+        "('Worker', False, True)": 3
+      }
+    },
+    {
+      "arm": "initial29",
+      "role_query_action_counts": {
+        "('Planner', True, True)": 17,
+        "('Source', True, True)": 26,
+        "('Worker', True, True)": 15,
+        "('Planner', False, True)": 9,
+        "('Source', False, False)": 4,
+        "('Planner', False, False)": 6,
+        "('Source', False, True)": 2,
+        "('Worker', False, False)": 2,
+        "('Worker', False, True)": 6
+      }
+    },
+    {
+      "arm": "local29",
+      "role_query_action_counts": {
+        "('Planner', True, True)": 17,
+        "('Source', True, True)": 26,
+        "('Worker', True, True)": 15,
+        "('Planner', False, True)": 9,
+        "('Worker', False, False)": 3,
+        "('Source', False, True)": 3,
+        "('Source', False, False)": 3,
+        "('Planner', False, False)": 6,
+        "('Worker', False, True)": 5
+      }
+    },
+    {
+      "arm": "global29",
+      "role_query_action_counts": {
+        "('Planner', True, True)": 20,
+        "('Source', True, True)": 29,
+        "('Worker', True, True)": 23,
+        "('Worker', False, False)": 4,
+        "('Source', False, False)": 1,
+        "('Planner', False, False)": 4,
+        "('Planner', False, True)": 8,
+        "('Source', False, True)": 2,
+        "('Worker', False, True)": 1
+      }
+    },
+    {
+      "arm": "initial41",
+      "role_query_action_counts": {
+        "('Planner', True, True)": 15,
+        "('Source', True, True)": 24,
+        "('Worker', True, True)": 16,
+        "('Planner', False, True)": 10,
+        "('Planner', False, False)": 7,
+        "('Worker', True, False)": 1,
+        "('Source', False, True)": 4,
+        "('Worker', False, False)": 4,
+        "('Source', False, False)": 4,
+        "('Worker', False, True)": 3
+      }
+    },
+    {
+      "arm": "local41",
+      "role_query_action_counts": {
+        "('Planner', True, True)": 13,
+        "('Source', True, True)": 23,
+        "('Worker', True, True)": 10,
+        "('Planner', False, True)": 12,
+        "('Worker', False, False)": 9,
+        "('Planner', False, False)": 7,
+        "('Source', False, True)": 5,
+        "('Worker', False, True)": 4,
+        "('Source', False, False)": 4
+      }
+    },
+    {
+      "arm": "global41",
+      "role_query_action_counts": {
+        "('Planner', True, True)": 19,
+        "('Source', True, True)": 26,
+        "('Worker', True, True)": 24,
+        "('Planner', False, True)": 8,
+        "('Planner', False, False)": 5,
+        "('Source', False, True)": 4,
+        "('Worker', False, False)": 4,
+        "('Worker', False, True)": 1,
+        "('Source', False, False)": 2
+      }
+    }
+  ],
+  "violations": [
+    {
+      "arm": "initial17",
+      "condition": "depth3_v1",
+      "world_id": "query_680001001",
+      "role": "Worker",
+      "feasible_before_violation": false,
+      "selected": "PUBLISH_FULL",
+      "predictions": {
+        "PUBLISH_FULL": "1",
+        "PUBLISH_MINIMAL": "0",
+        "WITHHOLD": "0"
+      },
+      "truth": {
+        "PUBLISH_FULL": 0,
+        "PUBLISH_MINIMAL": 0,
+        "WITHHOLD": 0
+      },
+      "all_queries_correct": false,
+      "optimal": false,
+      "first_completion_loss": {
+        "phase": 0,
+        "role": "Planner",
+        "action": "COMMIT:e8965387409"
+      }
+    },
+    {
+      "arm": "local17",
+      "condition": "depth3_v0_swap",
+      "world_id": "query_680001001",
+      "role": "Worker",
+      "feasible_before_violation": false,
+      "selected": "PUBLISH_FULL",
+      "predictions": {
+        "PUBLISH_FULL": "1",
+        "PUBLISH_MINIMAL": "0",
+        "WITHHOLD": "0"
+      },
+      "truth": {
+        "PUBLISH_FULL": 0,
+        "PUBLISH_MINIMAL": 0,
+        "WITHHOLD": 0
+      },
+      "all_queries_correct": false,
+      "optimal": false,
+      "first_completion_loss": {
+        "phase": 0,
+        "role": "Planner",
+        "action": "COMMIT:e2239976734"
+      }
+    },
+    {
+      "arm": "local17",
+      "condition": "depth3_v1",
+      "world_id": "query_680001001",
+      "role": "Worker",
+      "feasible_before_violation": false,
+      "selected": "PUBLISH_FULL",
+      "predictions": {
+        "PUBLISH_FULL": "1",
+        "PUBLISH_MINIMAL": "1",
+        "WITHHOLD": "0"
+      },
+      "truth": {
+        "PUBLISH_FULL": 0,
+        "PUBLISH_MINIMAL": 0,
+        "WITHHOLD": 0
+      },
+      "all_queries_correct": false,
+      "optimal": false,
+      "first_completion_loss": {
+        "phase": 0,
+        "role": "Planner",
+        "action": "COMMIT:e8965387409"
+      }
+    },
+    {
+      "arm": "local17",
+      "condition": "depth3_v1_swap",
+      "world_id": "meeting_680001000",
+      "role": "Worker",
+      "feasible_before_violation": false,
+      "selected": "PUBLISH_FULL",
+      "predictions": {
+        "PUBLISH_FULL": "1",
+        "PUBLISH_MINIMAL": "1",
+        "WITHHOLD": "0"
+      },
+      "truth": {
+        "PUBLISH_FULL": 0,
+        "PUBLISH_MINIMAL": 0,
+        "WITHHOLD": 0
+      },
+      "all_queries_correct": false,
+      "optimal": false,
+      "first_completion_loss": {
+        "phase": 0,
+        "role": "Planner",
+        "action": "COMMIT:e1197751420"
+      }
+    },
+    {
+      "arm": "local17",
+      "condition": "both_v0",
+      "world_id": "meeting_680013000",
+      "role": "Worker",
+      "feasible_before_violation": false,
+      "selected": "PUBLISH_FULL",
+      "predictions": {
+        "PUBLISH_FULL": "1",
+        "PUBLISH_MINIMAL": "1",
+        "WITHHOLD": "1"
+      },
+      "truth": {
+        "PUBLISH_FULL": 0,
+        "PUBLISH_MINIMAL": 0,
+        "WITHHOLD": 0
+      },
+      "all_queries_correct": false,
+      "optimal": false,
+      "first_completion_loss": null
+    },
+    {
+      "arm": "initial29",
+      "condition": "base_v1_swap",
+      "world_id": "query_680000001",
+      "role": "Worker",
+      "feasible_before_violation": false,
+      "selected": "PUBLISH_FULL",
+      "predictions": {
+        "PUBLISH_FULL": "1",
+        "PUBLISH_MINIMAL": "0",
+        "WITHHOLD": "0"
+      },
+      "truth": {
+        "PUBLISH_FULL": 0,
+        "PUBLISH_MINIMAL": 0,
+        "WITHHOLD": 0
+      },
+      "all_queries_correct": false,
+      "optimal": false,
+      "first_completion_loss": {
+        "phase": 0,
+        "role": "Planner",
+        "action": "COMMIT:e1214788224"
+      }
+    },
+    {
+      "arm": "initial29",
+      "condition": "depth3_v1_swap",
+      "world_id": "meeting_680001000",
+      "role": "Worker",
+      "feasible_before_violation": false,
+      "selected": "PUBLISH_FULL",
+      "predictions": {
+        "PUBLISH_FULL": "1",
+        "PUBLISH_MINIMAL": "0",
+        "WITHHOLD": "0"
+      },
+      "truth": {
+        "PUBLISH_FULL": 0,
+        "PUBLISH_MINIMAL": 0,
+        "WITHHOLD": 0
+      },
+      "all_queries_correct": false,
+      "optimal": false,
+      "first_completion_loss": {
+        "phase": 0,
+        "role": "Planner",
+        "action": "COMMIT:e1197751420"
+      }
+    },
+    {
+      "arm": "global29",
+      "condition": "depth3_v1",
+      "world_id": "query_680001001",
+      "role": "Worker",
+      "feasible_before_violation": false,
+      "selected": "PUBLISH_FULL",
+      "predictions": {
+        "PUBLISH_FULL": "1",
+        "PUBLISH_MINIMAL": "0",
+        "WITHHOLD": "0"
+      },
+      "truth": {
+        "PUBLISH_FULL": 0,
+        "PUBLISH_MINIMAL": 0,
+        "WITHHOLD": 0
+      },
+      "all_queries_correct": false,
+      "optimal": false,
+      "first_completion_loss": {
+        "phase": 0,
+        "role": "Planner",
+        "action": "COMMIT:e8965387409"
+      }
+    },
+    {
+      "arm": "initial41",
+      "condition": "depth3_v0_swap",
+      "world_id": "meeting_680001000",
+      "role": "Worker",
+      "feasible_before_violation": false,
+      "selected": "PUBLISH_FULL",
+      "predictions": {
+        "PUBLISH_FULL": "1",
+        "PUBLISH_MINIMAL": "0",
+        "WITHHOLD": "0"
+      },
+      "truth": {
+        "PUBLISH_FULL": 0,
+        "PUBLISH_MINIMAL": 0,
+        "WITHHOLD": 0
+      },
+      "all_queries_correct": false,
+      "optimal": false,
+      "first_completion_loss": {
+        "phase": 0,
+        "role": "Planner",
+        "action": "COMMIT:e1197751420"
+      }
+    },
+    {
+      "arm": "initial41",
+      "condition": "depth3_v0_swap",
+      "world_id": "query_680001001",
+      "role": "Worker",
+      "feasible_before_violation": false,
+      "selected": "PUBLISH_FULL",
+      "predictions": {
+        "PUBLISH_FULL": "1",
+        "PUBLISH_MINIMAL": "0",
+        "WITHHOLD": "0"
+      },
+      "truth": {
+        "PUBLISH_FULL": 0,
+        "PUBLISH_MINIMAL": 0,
+        "WITHHOLD": 0
+      },
+      "all_queries_correct": false,
+      "optimal": false,
+      "first_completion_loss": {
+        "phase": 0,
+        "role": "Planner",
+        "action": "COMMIT:e2239976734"
+      }
+    },
+    {
+      "arm": "initial41",
+      "condition": "depth3_v1_swap",
+      "world_id": "meeting_680001000",
+      "role": "Worker",
+      "feasible_before_violation": false,
+      "selected": "PUBLISH_FULL",
+      "predictions": {
+        "PUBLISH_FULL": "1",
+        "PUBLISH_MINIMAL": "0",
+        "WITHHOLD": "0"
+      },
+      "truth": {
+        "PUBLISH_FULL": 0,
+        "PUBLISH_MINIMAL": 0,
+        "WITHHOLD": 0
+      },
+      "all_queries_correct": false,
+      "optimal": false,
+      "first_completion_loss": {
+        "phase": 0,
+        "role": "Planner",
+        "action": "COMMIT:e1197751420"
+      }
+    },
+    {
+      "arm": "global41",
+      "condition": "depth3_v0_swap",
+      "world_id": "meeting_680001000",
+      "role": "Worker",
+      "feasible_before_violation": false,
+      "selected": "PUBLISH_FULL",
+      "predictions": {
+        "PUBLISH_FULL": "1",
+        "PUBLISH_MINIMAL": "0",
+        "WITHHOLD": "0"
+      },
+      "truth": {
+        "PUBLISH_FULL": 0,
+        "PUBLISH_MINIMAL": 0,
+        "WITHHOLD": 0
+      },
+      "all_queries_correct": false,
+      "optimal": false,
+      "first_completion_loss": {
+        "phase": 0,
+        "role": "Planner",
+        "action": "COMMIT:e1197751420"
+      }
+    },
+    {
+      "arm": "global41",
+      "condition": "depth3_v0_swap",
+      "world_id": "query_680001001",
+      "role": "Worker",
+      "feasible_before_violation": false,
+      "selected": "PUBLISH_FULL",
+      "predictions": {
+        "PUBLISH_FULL": "1",
+        "PUBLISH_MINIMAL": "0",
+        "WITHHOLD": "0"
+      },
+      "truth": {
+        "PUBLISH_FULL": 0,
+        "PUBLISH_MINIMAL": 0,
+        "WITHHOLD": 0
+      },
+      "all_queries_correct": false,
+      "optimal": false,
+      "first_completion_loss": {
+        "phase": 0,
+        "role": "Planner",
+        "action": "COMMIT:e2239976734"
+      }
+    },
+    {
+      "arm": "global41",
+      "condition": "depth3_v1",
+      "world_id": "query_680001001",
+      "role": "Worker",
+      "feasible_before_violation": false,
+      "selected": "PUBLISH_FULL",
+      "predictions": {
+        "PUBLISH_FULL": "1",
+        "PUBLISH_MINIMAL": "0",
+        "WITHHOLD": "0"
+      },
+      "truth": {
+        "PUBLISH_FULL": 0,
+        "PUBLISH_MINIMAL": 0,
+        "WITHHOLD": 0
+      },
+      "all_queries_correct": false,
+      "optimal": false,
+      "first_completion_loss": {
+        "phase": 0,
+        "role": "Planner",
+        "action": "COMMIT:e8965387409"
+      }
+    },
+    {
+      "arm": "global41",
+      "condition": "depth3_v1_swap",
+      "world_id": "meeting_680001000",
+      "role": "Worker",
+      "feasible_before_violation": false,
+      "selected": "PUBLISH_FULL",
+      "predictions": {
+        "PUBLISH_FULL": "1",
+        "PUBLISH_MINIMAL": "0",
+        "WITHHOLD": "0"
+      },
+      "truth": {
+        "PUBLISH_FULL": 0,
+        "PUBLISH_MINIMAL": 0,
+        "WITHHOLD": 0
+      },
+      "all_queries_correct": false,
+      "optimal": false,
+      "first_completion_loss": {
+        "phase": 0,
+        "role": "Planner",
+        "action": "COMMIT:e1197751420"
+      }
+    }
+  ],
+  "decisions": 804,
+  "episodes_replayed": 288,
+  "new_model_calls": 0,
+  "parent_seal_sha256": "f845f2cf7b1f793b57c3874ba5805de42ea2eed94a8b8af719c62dddfd8634ea",
+  "source_sha256": "d3b94a073911996e4e120d9a76fbc16c3ebb2a1af444ac2fff0f823419c3e300",
+  "scope": "All observed on-policy states, not matched across models; descriptive co-occurrence, not proof that correcting a judgment repairs a trajectory."
+}

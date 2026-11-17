@@ -1,0 +1,1665 @@
+{
+  "post_score_descriptive": true,
+  "new_model_calls": 0,
+  "gate_changed": false,
+  "source_sha256": "ed8f5b2a1e4a7dab73e049446aae273d5b9b42b8d28e4fcc1173e61a4fb45508",
+  "seal_sha256": "e78ae140788a35c16771db39538c7331292cf4eea070c7feca9122e9d30e4e5b",
+  "summaries": [
+    {
+      "seed": 17,
+      "mode": "direct",
+      "cells": {
+        "condition:base": {
+          "n": 24,
+          "correct": 23,
+          "predicted_one": 5,
+          "target_one": 6
+        },
+        "action:COMMIT": {
+          "n": 32,
+          "correct": 27,
+          "predicted_one": 25,
+          "target_one": 20
+        },
+        "role:Planner": {
+          "n": 32,
+          "correct": 27,
+          "predicted_one": 25,
+          "target_one": 20
+        },
+        "fact:0": {
+          "n": 96,
+          "correct": 89,
+          "predicted_one": 47,
+          "target_one": 50
+        },
+        "permission:False": {
+          "n": 168,
+          "correct": 147,
+          "predicted_one": 57,
+          "target_one": 50
+        },
+        "full_required:True": {
+          "n": 168,
+          "correct": 150,
+          "predicted_one": 56,
+          "target_one": 48
+        },
+        "fact:1": {
+          "n": 96,
+          "correct": 81,
+          "predicted_one": 23,
+          "target_one": 12
+        },
+        "action:DELIVER_INPUTS": {
+          "n": 32,
+          "correct": 26,
+          "predicted_one": 18,
+          "target_one": 20
+        },
+        "role:Source": {
+          "n": 64,
+          "correct": 58,
+          "predicted_one": 18,
+          "target_one": 20
+        },
+        "action:WITHHOLD": {
+          "n": 64,
+          "correct": 62,
+          "predicted_one": 2,
+          "target_one": 0
+        },
+        "action:PUBLISH_FULL": {
+          "n": 32,
+          "correct": 25,
+          "predicted_one": 21,
+          "target_one": 18
+        },
+        "role:Worker": {
+          "n": 96,
+          "correct": 85,
+          "predicted_one": 27,
+          "target_one": 22
+        },
+        "action:PUBLISH_MINIMAL": {
+          "n": 32,
+          "correct": 30,
+          "predicted_one": 4,
+          "target_one": 4
+        },
+        "condition:base_swap": {
+          "n": 24,
+          "correct": 21,
+          "predicted_one": 5,
+          "target_one": 6
+        },
+        "condition:depth3": {
+          "n": 24,
+          "correct": 19,
+          "predicted_one": 9,
+          "target_one": 6
+        },
+        "condition:depth3_swap": {
+          "n": 24,
+          "correct": 16,
+          "predicted_one": 12,
+          "target_one": 6
+        },
+        "condition:optional": {
+          "n": 24,
+          "correct": 20,
+          "predicted_one": 14,
+          "target_one": 14
+        },
+        "full_required:False": {
+          "n": 24,
+          "correct": 20,
+          "predicted_one": 14,
+          "target_one": 14
+        },
+        "condition:authorized": {
+          "n": 24,
+          "correct": 23,
+          "predicted_one": 13,
+          "target_one": 12
+        },
+        "permission:True": {
+          "n": 24,
+          "correct": 23,
+          "predicted_one": 13,
+          "target_one": 12
+        },
+        "condition:draft": {
+          "n": 24,
+          "correct": 24,
+          "predicted_one": 12,
+          "target_one": 12
+        },
+        "condition:both": {
+          "n": 24,
+          "correct": 24,
+          "predicted_one": 0,
+          "target_one": 0
+        }
+      }
+    },
+    {
+      "seed": 17,
+      "mode": "truth",
+      "cells": {
+        "condition:base": {
+          "n": 24,
+          "correct": 19,
+          "predicted_one": 7,
+          "target_one": 6
+        },
+        "action:COMMIT": {
+          "n": 32,
+          "correct": 21,
+          "predicted_one": 9,
+          "target_one": 20
+        },
+        "role:Planner": {
+          "n": 32,
+          "correct": 21,
+          "predicted_one": 9,
+          "target_one": 20
+        },
+        "fact:0": {
+          "n": 96,
+          "correct": 61,
+          "predicted_one": 67,
+          "target_one": 50
+        },
+        "permission:False": {
+          "n": 168,
+          "correct": 133,
+          "predicted_one": 69,
+          "target_one": 50
+        },
+        "full_required:True": {
+          "n": 168,
+          "correct": 130,
+          "predicted_one": 58,
+          "target_one": 48
+        },
+        "fact:1": {
+          "n": 96,
+          "correct": 87,
+          "predicted_one": 5,
+          "target_one": 12
+        },
+        "action:DELIVER_INPUTS": {
+          "n": 32,
+          "correct": 30,
+          "predicted_one": 18,
+          "target_one": 20
+        },
+        "role:Source": {
+          "n": 64,
+          "correct": 52,
+          "predicted_one": 28,
+          "target_one": 20
+        },
+        "action:WITHHOLD": {
+          "n": 64,
+          "correct": 45,
+          "predicted_one": 19,
+          "target_one": 0
+        },
+        "action:PUBLISH_FULL": {
+          "n": 32,
+          "correct": 27,
+          "predicted_one": 15,
+          "target_one": 18
+        },
+        "role:Worker": {
+          "n": 96,
+          "correct": 75,
+          "predicted_one": 35,
+          "target_one": 22
+        },
+        "action:PUBLISH_MINIMAL": {
+          "n": 32,
+          "correct": 25,
+          "predicted_one": 11,
+          "target_one": 4
+        },
+        "condition:base_swap": {
+          "n": 24,
+          "correct": 17,
+          "predicted_one": 7,
+          "target_one": 6
+        },
+        "condition:depth3": {
+          "n": 24,
+          "correct": 19,
+          "predicted_one": 11,
+          "target_one": 6
+        },
+        "condition:depth3_swap": {
+          "n": 24,
+          "correct": 18,
+          "predicted_one": 12,
+          "target_one": 6
+        },
+        "condition:optional": {
+          "n": 24,
+          "correct": 18,
+          "predicted_one": 14,
+          "target_one": 14
+        },
+        "full_required:False": {
+          "n": 24,
+          "correct": 18,
+          "predicted_one": 14,
+          "target_one": 14
+        },
+        "condition:authorized": {
+          "n": 24,
+          "correct": 15,
+          "predicted_one": 3,
+          "target_one": 12
+        },
+        "permission:True": {
+          "n": 24,
+          "correct": 15,
+          "predicted_one": 3,
+          "target_one": 12
+        },
+        "condition:draft": {
+          "n": 24,
+          "correct": 18,
+          "predicted_one": 18,
+          "target_one": 12
+        },
+        "condition:both": {
+          "n": 24,
+          "correct": 24,
+          "predicted_one": 0,
+          "target_one": 0
+        }
+      }
+    },
+    {
+      "seed": 17,
+      "mode": "flip",
+      "cells": {
+        "condition:base": {
+          "n": 24,
+          "correct": 11,
+          "predicted_one": 7,
+          "target_one": 6
+        },
+        "action:COMMIT": {
+          "n": 32,
+          "correct": 10,
+          "predicted_one": 8,
+          "target_one": 20
+        },
+        "role:Planner": {
+          "n": 32,
+          "correct": 10,
+          "predicted_one": 8,
+          "target_one": 20
+        },
+        "fact:0": {
+          "n": 96,
+          "correct": 54,
+          "predicted_one": 8,
+          "target_one": 50
+        },
+        "permission:False": {
+          "n": 168,
+          "correct": 74,
+          "predicted_one": 70,
+          "target_one": 50
+        },
+        "full_required:True": {
+          "n": 168,
+          "correct": 75,
+          "predicted_one": 63,
+          "target_one": 48
+        },
+        "fact:1": {
+          "n": 96,
+          "correct": 36,
+          "predicted_one": 70,
+          "target_one": 12
+        },
+        "action:DELIVER_INPUTS": {
+          "n": 32,
+          "correct": 7,
+          "predicted_one": 17,
+          "target_one": 20
+        },
+        "role:Source": {
+          "n": 64,
+          "correct": 28,
+          "predicted_one": 28,
+          "target_one": 20
+        },
+        "action:WITHHOLD": {
+          "n": 64,
+          "correct": 43,
+          "predicted_one": 21,
+          "target_one": 0
+        },
+        "action:PUBLISH_FULL": {
+          "n": 32,
+          "correct": 8,
+          "predicted_one": 18,
+          "target_one": 18
+        },
+        "role:Worker": {
+          "n": 96,
+          "correct": 52,
+          "predicted_one": 42,
+          "target_one": 22
+        },
+        "action:PUBLISH_MINIMAL": {
+          "n": 32,
+          "correct": 22,
+          "predicted_one": 14,
+          "target_one": 4
+        },
+        "condition:base_swap": {
+          "n": 24,
+          "correct": 10,
+          "predicted_one": 8,
+          "target_one": 6
+        },
+        "condition:depth3": {
+          "n": 24,
+          "correct": 7,
+          "predicted_one": 11,
+          "target_one": 6
+        },
+        "condition:depth3_swap": {
+          "n": 24,
+          "correct": 9,
+          "predicted_one": 9,
+          "target_one": 6
+        },
+        "condition:optional": {
+          "n": 24,
+          "correct": 15,
+          "predicted_one": 15,
+          "target_one": 14
+        },
+        "full_required:False": {
+          "n": 24,
+          "correct": 15,
+          "predicted_one": 15,
+          "target_one": 14
+        },
+        "condition:authorized": {
+          "n": 24,
+          "correct": 16,
+          "predicted_one": 8,
+          "target_one": 12
+        },
+        "permission:True": {
+          "n": 24,
+          "correct": 16,
+          "predicted_one": 8,
+          "target_one": 12
+        },
+        "condition:draft": {
+          "n": 24,
+          "correct": 15,
+          "predicted_one": 3,
+          "target_one": 12
+        },
+        "condition:both": {
+          "n": 24,
+          "correct": 7,
+          "predicted_one": 17,
+          "target_one": 0
+        }
+      }
+    },
+    {
+      "seed": 17,
+      "mode": "masked",
+      "cells": {
+        "condition:base": {
+          "n": 24,
+          "correct": 18,
+          "predicted_one": 0,
+          "target_one": 6
+        },
+        "action:COMMIT": {
+          "n": 32,
+          "correct": 12,
+          "predicted_one": 0,
+          "target_one": 20
+        },
+        "role:Planner": {
+          "n": 32,
+          "correct": 12,
+          "predicted_one": 0,
+          "target_one": 20
+        },
+        "fact:0": {
+          "n": 96,
+          "correct": 59,
+          "predicted_one": 13,
+          "target_one": 50
+        },
+        "permission:False": {
+          "n": 168,
+          "correct": 133,
+          "predicted_one": 19,
+          "target_one": 50
+        },
+        "full_required:True": {
+          "n": 168,
+          "correct": 127,
+          "predicted_one": 7,
+          "target_one": 48
+        },
+        "fact:1": {
+          "n": 96,
+          "correct": 86,
+          "predicted_one": 6,
+          "target_one": 12
+        },
+        "action:DELIVER_INPUTS": {
+          "n": 32,
+          "correct": 19,
+          "predicted_one": 7,
+          "target_one": 20
+        },
+        "role:Source": {
+          "n": 64,
+          "correct": 51,
+          "predicted_one": 7,
+          "target_one": 20
+        },
+        "action:WITHHOLD": {
+          "n": 64,
+          "correct": 64,
+          "predicted_one": 0,
+          "target_one": 0
+        },
+        "action:PUBLISH_FULL": {
+          "n": 32,
+          "correct": 18,
+          "predicted_one": 8,
+          "target_one": 18
+        },
+        "role:Worker": {
+          "n": 96,
+          "correct": 82,
+          "predicted_one": 12,
+          "target_one": 22
+        },
+        "action:PUBLISH_MINIMAL": {
+          "n": 32,
+          "correct": 32,
+          "predicted_one": 4,
+          "target_one": 4
+        },
+        "condition:base_swap": {
+          "n": 24,
+          "correct": 18,
+          "predicted_one": 0,
+          "target_one": 6
+        },
+        "condition:depth3": {
+          "n": 24,
+          "correct": 18,
+          "predicted_one": 0,
+          "target_one": 6
+        },
+        "condition:depth3_swap": {
+          "n": 24,
+          "correct": 18,
+          "predicted_one": 0,
+          "target_one": 6
+        },
+        "condition:optional": {
+          "n": 24,
+          "correct": 18,
+          "predicted_one": 12,
+          "target_one": 14
+        },
+        "full_required:False": {
+          "n": 24,
+          "correct": 18,
+          "predicted_one": 12,
+          "target_one": 14
+        },
+        "condition:authorized": {
+          "n": 24,
+          "correct": 12,
+          "predicted_one": 0,
+          "target_one": 12
+        },
+        "permission:True": {
+          "n": 24,
+          "correct": 12,
+          "predicted_one": 0,
+          "target_one": 12
+        },
+        "condition:draft": {
+          "n": 24,
+          "correct": 19,
+          "predicted_one": 7,
+          "target_one": 12
+        },
+        "condition:both": {
+          "n": 24,
+          "correct": 24,
+          "predicted_one": 0,
+          "target_one": 0
+        }
+      }
+    },
+    {
+      "seed": 29,
+      "mode": "direct",
+      "cells": {
+        "condition:base": {
+          "n": 24,
+          "correct": 23,
+          "predicted_one": 5,
+          "target_one": 6
+        },
+        "action:COMMIT": {
+          "n": 32,
+          "correct": 27,
+          "predicted_one": 23,
+          "target_one": 20
+        },
+        "role:Planner": {
+          "n": 32,
+          "correct": 27,
+          "predicted_one": 23,
+          "target_one": 20
+        },
+        "fact:0": {
+          "n": 96,
+          "correct": 90,
+          "predicted_one": 44,
+          "target_one": 50
+        },
+        "permission:False": {
+          "n": 168,
+          "correct": 156,
+          "predicted_one": 50,
+          "target_one": 50
+        },
+        "full_required:True": {
+          "n": 168,
+          "correct": 156,
+          "predicted_one": 46,
+          "target_one": 48
+        },
+        "fact:1": {
+          "n": 96,
+          "correct": 89,
+          "predicted_one": 17,
+          "target_one": 12
+        },
+        "action:DELIVER_INPUTS": {
+          "n": 32,
+          "correct": 28,
+          "predicted_one": 16,
+          "target_one": 20
+        },
+        "role:Source": {
+          "n": 64,
+          "correct": 60,
+          "predicted_one": 16,
+          "target_one": 20
+        },
+        "action:WITHHOLD": {
+          "n": 64,
+          "correct": 64,
+          "predicted_one": 0,
+          "target_one": 0
+        },
+        "action:PUBLISH_FULL": {
+          "n": 32,
+          "correct": 28,
+          "predicted_one": 18,
+          "target_one": 18
+        },
+        "role:Worker": {
+          "n": 96,
+          "correct": 92,
+          "predicted_one": 22,
+          "target_one": 22
+        },
+        "action:PUBLISH_MINIMAL": {
+          "n": 32,
+          "correct": 32,
+          "predicted_one": 4,
+          "target_one": 4
+        },
+        "condition:base_swap": {
+          "n": 24,
+          "correct": 23,
+          "predicted_one": 5,
+          "target_one": 6
+        },
+        "condition:depth3": {
+          "n": 24,
+          "correct": 19,
+          "predicted_one": 7,
+          "target_one": 6
+        },
+        "condition:depth3_swap": {
+          "n": 24,
+          "correct": 20,
+          "predicted_one": 6,
+          "target_one": 6
+        },
+        "condition:optional": {
+          "n": 24,
+          "correct": 23,
+          "predicted_one": 15,
+          "target_one": 14
+        },
+        "full_required:False": {
+          "n": 24,
+          "correct": 23,
+          "predicted_one": 15,
+          "target_one": 14
+        },
+        "condition:authorized": {
+          "n": 24,
+          "correct": 23,
+          "predicted_one": 11,
+          "target_one": 12
+        },
+        "permission:True": {
+          "n": 24,
+          "correct": 23,
+          "predicted_one": 11,
+          "target_one": 12
+        },
+        "condition:draft": {
+          "n": 24,
+          "correct": 24,
+          "predicted_one": 12,
+          "target_one": 12
+        },
+        "condition:both": {
+          "n": 24,
+          "correct": 24,
+          "predicted_one": 0,
+          "target_one": 0
+        }
+      }
+    },
+    {
+      "seed": 29,
+      "mode": "truth",
+      "cells": {
+        "condition:base": {
+          "n": 24,
+          "correct": 22,
+          "predicted_one": 8,
+          "target_one": 6
+        },
+        "action:COMMIT": {
+          "n": 32,
+          "correct": 23,
+          "predicted_one": 13,
+          "target_one": 20
+        },
+        "role:Planner": {
+          "n": 32,
+          "correct": 23,
+          "predicted_one": 13,
+          "target_one": 20
+        },
+        "fact:0": {
+          "n": 96,
+          "correct": 67,
+          "predicted_one": 71,
+          "target_one": 50
+        },
+        "permission:False": {
+          "n": 168,
+          "correct": 137,
+          "predicted_one": 73,
+          "target_one": 50
+        },
+        "full_required:True": {
+          "n": 168,
+          "correct": 133,
+          "predicted_one": 65,
+          "target_one": 48
+        },
+        "fact:1": {
+          "n": 96,
+          "correct": 86,
+          "predicted_one": 6,
+          "target_one": 12
+        },
+        "action:DELIVER_INPUTS": {
+          "n": 32,
+          "correct": 30,
+          "predicted_one": 18,
+          "target_one": 20
+        },
+        "role:Source": {
+          "n": 64,
+          "correct": 52,
+          "predicted_one": 28,
+          "target_one": 20
+        },
+        "action:WITHHOLD": {
+          "n": 64,
+          "correct": 47,
+          "predicted_one": 17,
+          "target_one": 0
+        },
+        "action:PUBLISH_FULL": {
+          "n": 32,
+          "correct": 29,
+          "predicted_one": 17,
+          "target_one": 18
+        },
+        "role:Worker": {
+          "n": 96,
+          "correct": 78,
+          "predicted_one": 36,
+          "target_one": 22
+        },
+        "action:PUBLISH_MINIMAL": {
+          "n": 32,
+          "correct": 24,
+          "predicted_one": 12,
+          "target_one": 4
+        },
+        "condition:base_swap": {
+          "n": 24,
+          "correct": 21,
+          "predicted_one": 7,
+          "target_one": 6
+        },
+        "condition:depth3": {
+          "n": 24,
+          "correct": 18,
+          "predicted_one": 12,
+          "target_one": 6
+        },
+        "condition:depth3_swap": {
+          "n": 24,
+          "correct": 16,
+          "predicted_one": 14,
+          "target_one": 6
+        },
+        "condition:optional": {
+          "n": 24,
+          "correct": 20,
+          "predicted_one": 12,
+          "target_one": 14
+        },
+        "full_required:False": {
+          "n": 24,
+          "correct": 20,
+          "predicted_one": 12,
+          "target_one": 14
+        },
+        "condition:authorized": {
+          "n": 24,
+          "correct": 16,
+          "predicted_one": 4,
+          "target_one": 12
+        },
+        "permission:True": {
+          "n": 24,
+          "correct": 16,
+          "predicted_one": 4,
+          "target_one": 12
+        },
+        "condition:draft": {
+          "n": 24,
+          "correct": 16,
+          "predicted_one": 20,
+          "target_one": 12
+        },
+        "condition:both": {
+          "n": 24,
+          "correct": 24,
+          "predicted_one": 0,
+          "target_one": 0
+        }
+      }
+    },
+    {
+      "seed": 29,
+      "mode": "flip",
+      "cells": {
+        "condition:base": {
+          "n": 24,
+          "correct": 11,
+          "predicted_one": 9,
+          "target_one": 6
+        },
+        "action:COMMIT": {
+          "n": 32,
+          "correct": 12,
+          "predicted_one": 8,
+          "target_one": 20
+        },
+        "role:Planner": {
+          "n": 32,
+          "correct": 12,
+          "predicted_one": 8,
+          "target_one": 20
+        },
+        "fact:0": {
+          "n": 96,
+          "correct": 68,
+          "predicted_one": 22,
+          "target_one": 50
+        },
+        "permission:False": {
+          "n": 168,
+          "correct": 95,
+          "predicted_one": 75,
+          "target_one": 50
+        },
+        "full_required:True": {
+          "n": 168,
+          "correct": 94,
+          "predicted_one": 64,
+          "target_one": 48
+        },
+        "fact:1": {
+          "n": 96,
+          "correct": 42,
+          "predicted_one": 56,
+          "target_one": 12
+        },
+        "action:DELIVER_INPUTS": {
+          "n": 32,
+          "correct": 13,
+          "predicted_one": 21,
+          "target_one": 20
+        },
+        "role:Source": {
+          "n": 64,
+          "correct": 36,
+          "predicted_one": 30,
+          "target_one": 20
+        },
+        "action:WITHHOLD": {
+          "n": 64,
+          "correct": 47,
+          "predicted_one": 17,
+          "target_one": 0
+        },
+        "action:PUBLISH_FULL": {
+          "n": 32,
+          "correct": 12,
+          "predicted_one": 22,
+          "target_one": 18
+        },
+        "role:Worker": {
+          "n": 96,
+          "correct": 62,
+          "predicted_one": 40,
+          "target_one": 22
+        },
+        "action:PUBLISH_MINIMAL": {
+          "n": 32,
+          "correct": 26,
+          "predicted_one": 10,
+          "target_one": 4
+        },
+        "condition:base_swap": {
+          "n": 24,
+          "correct": 12,
+          "predicted_one": 6,
+          "target_one": 6
+        },
+        "condition:depth3": {
+          "n": 24,
+          "correct": 8,
+          "predicted_one": 14,
+          "target_one": 6
+        },
+        "condition:depth3_swap": {
+          "n": 24,
+          "correct": 11,
+          "predicted_one": 13,
+          "target_one": 6
+        },
+        "condition:optional": {
+          "n": 24,
+          "correct": 16,
+          "predicted_one": 14,
+          "target_one": 14
+        },
+        "full_required:False": {
+          "n": 24,
+          "correct": 16,
+          "predicted_one": 14,
+          "target_one": 14
+        },
+        "condition:authorized": {
+          "n": 24,
+          "correct": 15,
+          "predicted_one": 3,
+          "target_one": 12
+        },
+        "permission:True": {
+          "n": 24,
+          "correct": 15,
+          "predicted_one": 3,
+          "target_one": 12
+        },
+        "condition:draft": {
+          "n": 24,
+          "correct": 22,
+          "predicted_one": 10,
+          "target_one": 12
+        },
+        "condition:both": {
+          "n": 24,
+          "correct": 15,
+          "predicted_one": 9,
+          "target_one": 0
+        }
+      }
+    },
+    {
+      "seed": 29,
+      "mode": "masked",
+      "cells": {
+        "condition:base": {
+          "n": 24,
+          "correct": 19,
+          "predicted_one": 3,
+          "target_one": 6
+        },
+        "action:COMMIT": {
+          "n": 32,
+          "correct": 15,
+          "predicted_one": 3,
+          "target_one": 20
+        },
+        "role:Planner": {
+          "n": 32,
+          "correct": 15,
+          "predicted_one": 3,
+          "target_one": 20
+        },
+        "fact:0": {
+          "n": 96,
+          "correct": 64,
+          "predicted_one": 18,
+          "target_one": 50
+        },
+        "permission:False": {
+          "n": 168,
+          "correct": 135,
+          "predicted_one": 19,
+          "target_one": 50
+        },
+        "full_required:True": {
+          "n": 168,
+          "correct": 136,
+          "predicted_one": 18,
+          "target_one": 48
+        },
+        "fact:1": {
+          "n": 96,
+          "correct": 84,
+          "predicted_one": 2,
+          "target_one": 12
+        },
+        "action:DELIVER_INPUTS": {
+          "n": 32,
+          "correct": 22,
+          "predicted_one": 12,
+          "target_one": 20
+        },
+        "role:Source": {
+          "n": 64,
+          "correct": 54,
+          "predicted_one": 12,
+          "target_one": 20
+        },
+        "action:WITHHOLD": {
+          "n": 64,
+          "correct": 64,
+          "predicted_one": 0,
+          "target_one": 0
+        },
+        "action:PUBLISH_FULL": {
+          "n": 32,
+          "correct": 19,
+          "predicted_one": 5,
+          "target_one": 18
+        },
+        "role:Worker": {
+          "n": 96,
+          "correct": 79,
+          "predicted_one": 5,
+          "target_one": 22
+        },
+        "action:PUBLISH_MINIMAL": {
+          "n": 32,
+          "correct": 28,
+          "predicted_one": 0,
+          "target_one": 4
+        },
+        "condition:base_swap": {
+          "n": 24,
+          "correct": 20,
+          "predicted_one": 2,
+          "target_one": 6
+        },
+        "condition:depth3": {
+          "n": 24,
+          "correct": 18,
+          "predicted_one": 0,
+          "target_one": 6
+        },
+        "condition:depth3_swap": {
+          "n": 24,
+          "correct": 19,
+          "predicted_one": 1,
+          "target_one": 6
+        },
+        "condition:optional": {
+          "n": 24,
+          "correct": 12,
+          "predicted_one": 2,
+          "target_one": 14
+        },
+        "full_required:False": {
+          "n": 24,
+          "correct": 12,
+          "predicted_one": 2,
+          "target_one": 14
+        },
+        "condition:authorized": {
+          "n": 24,
+          "correct": 13,
+          "predicted_one": 1,
+          "target_one": 12
+        },
+        "permission:True": {
+          "n": 24,
+          "correct": 13,
+          "predicted_one": 1,
+          "target_one": 12
+        },
+        "condition:draft": {
+          "n": 24,
+          "correct": 23,
+          "predicted_one": 11,
+          "target_one": 12
+        },
+        "condition:both": {
+          "n": 24,
+          "correct": 24,
+          "predicted_one": 0,
+          "target_one": 0
+        }
+      }
+    },
+    {
+      "seed": 41,
+      "mode": "direct",
+      "cells": {
+        "condition:base": {
+          "n": 24,
+          "correct": 21,
+          "predicted_one": 9,
+          "target_one": 6
+        },
+        "action:COMMIT": {
+          "n": 32,
+          "correct": 26,
+          "predicted_one": 26,
+          "target_one": 20
+        },
+        "role:Planner": {
+          "n": 32,
+          "correct": 26,
+          "predicted_one": 26,
+          "target_one": 20
+        },
+        "fact:0": {
+          "n": 96,
+          "correct": 92,
+          "predicted_one": 46,
+          "target_one": 50
+        },
+        "permission:False": {
+          "n": 168,
+          "correct": 146,
+          "predicted_one": 60,
+          "target_one": 50
+        },
+        "full_required:True": {
+          "n": 168,
+          "correct": 152,
+          "predicted_one": 64,
+          "target_one": 48
+        },
+        "fact:1": {
+          "n": 96,
+          "correct": 78,
+          "predicted_one": 26,
+          "target_one": 12
+        },
+        "action:DELIVER_INPUTS": {
+          "n": 32,
+          "correct": 23,
+          "predicted_one": 21,
+          "target_one": 20
+        },
+        "role:Source": {
+          "n": 64,
+          "correct": 55,
+          "predicted_one": 21,
+          "target_one": 20
+        },
+        "action:WITHHOLD": {
+          "n": 64,
+          "correct": 64,
+          "predicted_one": 0,
+          "target_one": 0
+        },
+        "action:PUBLISH_FULL": {
+          "n": 32,
+          "correct": 25,
+          "predicted_one": 21,
+          "target_one": 18
+        },
+        "role:Worker": {
+          "n": 96,
+          "correct": 89,
+          "predicted_one": 25,
+          "target_one": 22
+        },
+        "action:PUBLISH_MINIMAL": {
+          "n": 32,
+          "correct": 32,
+          "predicted_one": 4,
+          "target_one": 4
+        },
+        "condition:base_swap": {
+          "n": 24,
+          "correct": 22,
+          "predicted_one": 8,
+          "target_one": 6
+        },
+        "condition:depth3": {
+          "n": 24,
+          "correct": 19,
+          "predicted_one": 11,
+          "target_one": 6
+        },
+        "condition:depth3_swap": {
+          "n": 24,
+          "correct": 18,
+          "predicted_one": 12,
+          "target_one": 6
+        },
+        "condition:optional": {
+          "n": 24,
+          "correct": 18,
+          "predicted_one": 8,
+          "target_one": 14
+        },
+        "full_required:False": {
+          "n": 24,
+          "correct": 18,
+          "predicted_one": 8,
+          "target_one": 14
+        },
+        "condition:authorized": {
+          "n": 24,
+          "correct": 24,
+          "predicted_one": 12,
+          "target_one": 12
+        },
+        "permission:True": {
+          "n": 24,
+          "correct": 24,
+          "predicted_one": 12,
+          "target_one": 12
+        },
+        "condition:draft": {
+          "n": 24,
+          "correct": 24,
+          "predicted_one": 12,
+          "target_one": 12
+        },
+        "condition:both": {
+          "n": 24,
+          "correct": 24,
+          "predicted_one": 0,
+          "target_one": 0
+        }
+      }
+    },
+    {
+      "seed": 41,
+      "mode": "truth",
+      "cells": {
+        "condition:base": {
+          "n": 24,
+          "correct": 18,
+          "predicted_one": 12,
+          "target_one": 6
+        },
+        "action:COMMIT": {
+          "n": 32,
+          "correct": 25,
+          "predicted_one": 15,
+          "target_one": 20
+        },
+        "role:Planner": {
+          "n": 32,
+          "correct": 25,
+          "predicted_one": 15,
+          "target_one": 20
+        },
+        "fact:0": {
+          "n": 96,
+          "correct": 49,
+          "predicted_one": 93,
+          "target_one": 50
+        },
+        "permission:False": {
+          "n": 168,
+          "correct": 120,
+          "predicted_one": 84,
+          "target_one": 50
+        },
+        "full_required:True": {
+          "n": 168,
+          "correct": 118,
+          "predicted_one": 86,
+          "target_one": 48
+        },
+        "fact:1": {
+          "n": 96,
+          "correct": 83,
+          "predicted_one": 3,
+          "target_one": 12
+        },
+        "action:DELIVER_INPUTS": {
+          "n": 32,
+          "correct": 28,
+          "predicted_one": 16,
+          "target_one": 20
+        },
+        "role:Source": {
+          "n": 64,
+          "correct": 45,
+          "predicted_one": 31,
+          "target_one": 20
+        },
+        "action:WITHHOLD": {
+          "n": 64,
+          "correct": 33,
+          "predicted_one": 31,
+          "target_one": 0
+        },
+        "action:PUBLISH_FULL": {
+          "n": 32,
+          "correct": 29,
+          "predicted_one": 17,
+          "target_one": 18
+        },
+        "role:Worker": {
+          "n": 96,
+          "correct": 62,
+          "predicted_one": 50,
+          "target_one": 22
+        },
+        "action:PUBLISH_MINIMAL": {
+          "n": 32,
+          "correct": 17,
+          "predicted_one": 17,
+          "target_one": 4
+        },
+        "condition:base_swap": {
+          "n": 24,
+          "correct": 18,
+          "predicted_one": 12,
+          "target_one": 6
+        },
+        "condition:depth3": {
+          "n": 24,
+          "correct": 18,
+          "predicted_one": 12,
+          "target_one": 6
+        },
+        "condition:depth3_swap": {
+          "n": 24,
+          "correct": 16,
+          "predicted_one": 14,
+          "target_one": 6
+        },
+        "condition:optional": {
+          "n": 24,
+          "correct": 14,
+          "predicted_one": 10,
+          "target_one": 14
+        },
+        "full_required:False": {
+          "n": 24,
+          "correct": 14,
+          "predicted_one": 10,
+          "target_one": 14
+        },
+        "condition:authorized": {
+          "n": 24,
+          "correct": 12,
+          "predicted_one": 12,
+          "target_one": 12
+        },
+        "permission:True": {
+          "n": 24,
+          "correct": 12,
+          "predicted_one": 12,
+          "target_one": 12
+        },
+        "condition:draft": {
+          "n": 24,
+          "correct": 12,
+          "predicted_one": 24,
+          "target_one": 12
+        },
+        "condition:both": {
+          "n": 24,
+          "correct": 24,
+          "predicted_one": 0,
+          "target_one": 0
+        }
+      }
+    },
+    {
+      "seed": 41,
+      "mode": "flip",
+      "cells": {
+        "condition:base": {
+          "n": 24,
+          "correct": 8,
+          "predicted_one": 14,
+          "target_one": 6
+        },
+        "action:COMMIT": {
+          "n": 32,
+          "correct": 9,
+          "predicted_one": 19,
+          "target_one": 20
+        },
+        "role:Planner": {
+          "n": 32,
+          "correct": 9,
+          "predicted_one": 19,
+          "target_one": 20
+        },
+        "fact:0": {
+          "n": 96,
+          "correct": 61,
+          "predicted_one": 15,
+          "target_one": 50
+        },
+        "permission:False": {
+          "n": 168,
+          "correct": 64,
+          "predicted_one": 96,
+          "target_one": 50
+        },
+        "full_required:True": {
+          "n": 168,
+          "correct": 65,
+          "predicted_one": 95,
+          "target_one": 48
+        },
+        "fact:1": {
+          "n": 96,
+          "correct": 15,
+          "predicted_one": 93,
+          "target_one": 12
+        },
+        "action:DELIVER_INPUTS": {
+          "n": 32,
+          "correct": 10,
+          "predicted_one": 22,
+          "target_one": 20
+        },
+        "role:Source": {
+          "n": 64,
+          "correct": 26,
+          "predicted_one": 38,
+          "target_one": 20
+        },
+        "action:WITHHOLD": {
+          "n": 64,
+          "correct": 33,
+          "predicted_one": 31,
+          "target_one": 0
+        },
+        "action:PUBLISH_FULL": {
+          "n": 32,
+          "correct": 7,
+          "predicted_one": 19,
+          "target_one": 18
+        },
+        "role:Worker": {
+          "n": 96,
+          "correct": 41,
+          "predicted_one": 51,
+          "target_one": 22
+        },
+        "action:PUBLISH_MINIMAL": {
+          "n": 32,
+          "correct": 17,
+          "predicted_one": 17,
+          "target_one": 4
+        },
+        "condition:base_swap": {
+          "n": 24,
+          "correct": 7,
+          "predicted_one": 13,
+          "target_one": 6
+        },
+        "condition:depth3": {
+          "n": 24,
+          "correct": 7,
+          "predicted_one": 13,
+          "target_one": 6
+        },
+        "condition:depth3_swap": {
+          "n": 24,
+          "correct": 6,
+          "predicted_one": 12,
+          "target_one": 6
+        },
+        "condition:optional": {
+          "n": 24,
+          "correct": 11,
+          "predicted_one": 13,
+          "target_one": 14
+        },
+        "full_required:False": {
+          "n": 24,
+          "correct": 11,
+          "predicted_one": 13,
+          "target_one": 14
+        },
+        "condition:authorized": {
+          "n": 24,
+          "correct": 12,
+          "predicted_one": 12,
+          "target_one": 12
+        },
+        "permission:True": {
+          "n": 24,
+          "correct": 12,
+          "predicted_one": 12,
+          "target_one": 12
+        },
+        "condition:draft": {
+          "n": 24,
+          "correct": 22,
+          "predicted_one": 10,
+          "target_one": 12
+        },
+        "condition:both": {
+          "n": 24,
+          "correct": 3,
+          "predicted_one": 21,
+          "target_one": 0
+        }
+      }
+    },
+    {
+      "seed": 41,
+      "mode": "masked",
+      "cells": {
+        "condition:base": {
+          "n": 24,
+          "correct": 20,
+          "predicted_one": 2,
+          "target_one": 6
+        },
+        "action:COMMIT": {
+          "n": 32,
+          "correct": 15,
+          "predicted_one": 5,
+          "target_one": 20
+        },
+        "role:Planner": {
+          "n": 32,
+          "correct": 15,
+          "predicted_one": 5,
+          "target_one": 20
+        },
+        "fact:0": {
+          "n": 96,
+          "correct": 61,
+          "predicted_one": 15,
+          "target_one": 50
+        },
+        "permission:False": {
+          "n": 168,
+          "correct": 132,
+          "predicted_one": 18,
+          "target_one": 50
+        },
+        "full_required:True": {
+          "n": 168,
+          "correct": 132,
+          "predicted_one": 16,
+          "target_one": 48
+        },
+        "fact:1": {
+          "n": 96,
+          "correct": 84,
+          "predicted_one": 4,
+          "target_one": 12
+        },
+        "action:DELIVER_INPUTS": {
+          "n": 32,
+          "correct": 19,
+          "predicted_one": 7,
+          "target_one": 20
+        },
+        "role:Source": {
+          "n": 64,
+          "correct": 51,
+          "predicted_one": 7,
+          "target_one": 20
+        },
+        "action:WITHHOLD": {
+          "n": 64,
+          "correct": 64,
+          "predicted_one": 0,
+          "target_one": 0
+        },
+        "action:PUBLISH_FULL": {
+          "n": 32,
+          "correct": 16,
+          "predicted_one": 4,
+          "target_one": 18
+        },
+        "role:Worker": {
+          "n": 96,
+          "correct": 79,
+          "predicted_one": 7,
+          "target_one": 22
+        },
+        "action:PUBLISH_MINIMAL": {
+          "n": 32,
+          "correct": 31,
+          "predicted_one": 3,
+          "target_one": 4
+        },
+        "condition:base_swap": {
+          "n": 24,
+          "correct": 19,
+          "predicted_one": 1,
+          "target_one": 6
+        },
+        "condition:depth3": {
+          "n": 24,
+          "correct": 19,
+          "predicted_one": 1,
+          "target_one": 6
+        },
+        "condition:depth3_swap": {
+          "n": 24,
+          "correct": 16,
+          "predicted_one": 2,
+          "target_one": 6
+        },
+        "condition:optional": {
+          "n": 24,
+          "correct": 13,
+          "predicted_one": 3,
+          "target_one": 14
+        },
+        "full_required:False": {
+          "n": 24,
+          "correct": 13,
+          "predicted_one": 3,
+          "target_one": 14
+        },
+        "condition:authorized": {
+          "n": 24,
+          "correct": 13,
+          "predicted_one": 1,
+          "target_one": 12
+        },
+        "permission:True": {
+          "n": 24,
+          "correct": 13,
+          "predicted_one": 1,
+          "target_one": 12
+        },
+        "condition:draft": {
+          "n": 24,
+          "correct": 21,
+          "predicted_one": 9,
+          "target_one": 12
+        },
+        "condition:both": {
+          "n": 24,
+          "correct": 24,
+          "predicted_one": 0,
+          "target_one": 0
+        }
+      }
+    }
+  ]
+}

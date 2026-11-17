@@ -1,0 +1,91 @@
+{
+  "seeds": [
+    17,
+    29,
+    41
+  ],
+  "modes": [
+    "direct",
+    "truth",
+    "flip",
+    "masked"
+  ],
+  "checkpoints": {
+    "17": {
+      "path": "artifacts/20261117_task_rehearsal/study/global17",
+      "seal": {
+        "adapter_hashes": {
+          "adapter_config.json": "962ed6e71f0f3cd8f563679a110b736742c093f5421841fab629b557a171ba48",
+          "adapter_model.safetensors": "42b8e45e4e90631aa974675c4f7314befc4bcfe4dda89f05a6153f5e7e508bdb",
+          "README.md": "39d3d3aa2d89a2b4ab09cecd018fbbc4cebc3f4b2c6d9e85b81abc38a1dc4045"
+        },
+        "steps": 54,
+        "initial_adapter_hashes": {
+          "adapter_config.json": "962ed6e71f0f3cd8f563679a110b736742c093f5421841fab629b557a171ba48",
+          "adapter_model.safetensors": "60b642dc59e63f31722130b06e75824af5a9e4ea7cf75000c97c69fb4af070cd",
+          "README.md": "39d3d3aa2d89a2b4ab09cecd018fbbc4cebc3f4b2c6d9e85b81abc38a1dc4045"
+        }
+      }
+    },
+    "29": {
+      "path": "artifacts/20261117_task_rehearsal/study/global29",
+      "seal": {
+        "adapter_hashes": {
+          "adapter_config.json": "962ed6e71f0f3cd8f563679a110b736742c093f5421841fab629b557a171ba48",
+          "adapter_model.safetensors": "52a3df177a476d19b3c8e7a3893f64c72b7668fb743b1459e35133822b16085b",
+          "README.md": "39d3d3aa2d89a2b4ab09cecd018fbbc4cebc3f4b2c6d9e85b81abc38a1dc4045"
+        },
+        "steps": 54,
+        "initial_adapter_hashes": {
+          "adapter_config.json": "962ed6e71f0f3cd8f563679a110b736742c093f5421841fab629b557a171ba48",
+          "adapter_model.safetensors": "20b20d677df6b9e39f6ca287c15cfb58b9c6133ac69b9ebab7f63584022eb791",
+          "README.md": "39d3d3aa2d89a2b4ab09cecd018fbbc4cebc3f4b2c6d9e85b81abc38a1dc4045"
+        }
+      }
+    },
+    "41": {
+      "path": "artifacts/20261117_task_rehearsal/study/global41",
+      "seal": {
+        "adapter_hashes": {
+          "adapter_config.json": "962ed6e71f0f3cd8f563679a110b736742c093f5421841fab629b557a171ba48",
+          "adapter_model.safetensors": "fa1ce45c0d966468e39428ba71af709ef0bdc8bd89c257c5ac250fed0745bf4d",
+          "README.md": "39d3d3aa2d89a2b4ab09cecd018fbbc4cebc3f4b2c6d9e85b81abc38a1dc4045"
+        },
+        "steps": 54,
+        "initial_adapter_hashes": {
+          "adapter_config.json": "962ed6e71f0f3cd8f563679a110b736742c093f5421841fab629b557a171ba48",
+          "adapter_model.safetensors": "f0ce99a79f87f4bdb3505b9a344167f6df37e3879d0c8d8f4ecab2ecfa33f3bc",
+          "README.md": "39d3d3aa2d89a2b4ab09cecd018fbbc4cebc3f4b2c6d9e85b81abc38a1dc4045"
+        }
+      }
+    }
+  },
+  "parent_seal_sha256": "f845f2cf7b1f793b57c3874ba5805de42ea2eed94a8b8af719c62dddfd8634ea",
+  "new_responses": 3264,
+  "new_updates": 0,
+  "new_checkpoints": 0,
+  "autonomous_episodes": 0,
+  "states_per_model_mode": 80,
+  "queries_per_model_mode": 192,
+  "sources": {
+    "audit_bridge.py": "344a0b82da0579904ec0f62c76e644f7fb28e6093bb621efdc1070f6f5eae764",
+    "bridge_data.py": "ec7c224850507ced9070ec20825f0b9a893c4f86d1cc4195bd4674dc3f6fe723",
+    "localize_parent.py": "d3b94a073911996e4e120d9a76fbc16c3ebb2a1af444ac2fff0f823419c3e300",
+    "run_bridge.py": "807f9720e9babd7b26fa1e6a6bb693adcdf76220d1fb95311a7428d89ad5d4d0",
+    "test_bridge.py": "a05d9dd2d959c7a449933808b0812b4cc03ce93ab4d3f11aeb0b0e5b16d7b5dc",
+    "token_preflight.py": "9e32a46b0b33ab58d10e7565935bcc3b6963ba488311be207ec97f844de956e6"
+  },
+  "data": {
+    "labels.jsonl": "d2bd27a10509ca296a7697a5b9f5d522e58c68afd9de2bd58a129fd02e410a3e",
+    "PARENT_LOCALIZATION.json": "b91a36f2fa83e3978be0c9baaa29000428666836426b3e7b8cbfb9698e166733",
+    "PLAN.md": "9c4d958511be5b21a6eab2a95bcc2ff9b210e1c550238f0f47045f3dcdabe374",
+    "PREFLIGHT_REVISION.json": "f63a2a7fefc9b2c0d1b0b08086c65f21453a4e34de1ea640deb24c909e3640b1",
+    "queries.jsonl": "b63dc4d3bcf136d69a22e41fa679cc01c7e5a4f6ef0e1170995552d22b747c0d",
+    "states.jsonl": "b3544b8bcc33349f0bae7721f3e0d5717b920250115ef39c118746fc73ebc9f5",
+    "TOKEN_INSPECTION.json": "9bd926d47fc23a2fb1e8b974c3f3582f6bb8551876127445b3df78616d355abe",
+    "worlds.json": "fa2bc26fe330fd8eafd797ca57327fe1a369c5421f370424b320381121d40cb1"
+  },
+  "scope": "Frozen fixed-state primitive-fact interface diagnostic. Truth and inverted facts externally supplied. No learned relation-source evidence or autonomous execution.",
+  "whole_goal_complete": false,
+  "large_gpu": "NO_GO"
+}
