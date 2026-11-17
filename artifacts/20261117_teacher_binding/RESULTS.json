@@ -1,0 +1,710 @@
+{
+  "training": {
+    "teacher_sft": {
+      "updates": 80,
+      "actor_input_maps": {
+        "Planner": 80,
+        "Source": 80,
+        "Worker": 160
+      },
+      "maps_different_from_own_predictions": {
+        "Planner": 5,
+        "Source": 8,
+        "Worker": 48
+      },
+      "bits_different_from_own_predictions": {
+        "Planner": 8,
+        "Source": 8,
+        "Worker": 48
+      },
+      "max_update_seconds": 5.3591243620000455,
+      "all_actor_training_maps_equal_native_labels": true
+    },
+    "teacher_query_js": {
+      "updates": 80,
+      "actor_input_maps": {
+        "Planner": 80,
+        "Source": 80,
+        "Worker": 160
+      },
+      "maps_different_from_own_predictions": {
+        "Planner": 5,
+        "Source": 12,
+        "Worker": 53
+      },
+      "bits_different_from_own_predictions": {
+        "Planner": 9,
+        "Source": 12,
+        "Worker": 53
+      },
+      "max_update_seconds": 5.4116181110000525,
+      "all_actor_training_maps_equal_native_labels": true
+    }
+  },
+  "native_training_states_checked": 146,
+  "outcomes": {
+    "own_sft": {
+      "episodes": 112,
+      "strict_success": 38,
+      "safe_success": 38,
+      "valid_ci": 102,
+      "invalid": 0,
+      "invalid_queries": 0,
+      "base_action_counts": {
+        "Planner": {
+          "COMMIT:e2939036228": 2,
+          "COMMIT:e2104256289": 2,
+          "COMMIT:e2444800058": 2,
+          "COMMIT:e2855670774": 2,
+          "COMMIT:e8162741125": 2,
+          "COMMIT:e3696899425": 2,
+          "COMMIT:e4141912347": 2,
+          "COMMIT:e3645527302": 2,
+          "COMMIT:e6101142146": 2,
+          "COMMIT:e3320748022": 2,
+          "COMMIT:e6351092817": 2,
+          "COMMIT:e2111300276": 2,
+          "COMMIT:e5872398666": 2,
+          "COMMIT:e3112197288": 2,
+          "COMMIT:e5514391942": 2,
+          "COMMIT:e7020311205": 2
+        },
+        "Source": {
+          "WITHHOLD": 18,
+          "DELIVER_INPUTS": 14
+        },
+        "Worker": {
+          "PUBLISH_MINIMAL": 5,
+          "PUBLISH_FULL": 9
+        }
+      },
+      "ci_violations": 10,
+      "on_policy_binding_not_matched_across_arms": {
+        "all": {
+          "Planner": {
+            "query_True_actor_True": 60,
+            "query_False_actor_True": 31,
+            "query_False_actor_False": 21
+          },
+          "Source": {
+            "query_False_actor_False": 36,
+            "query_False_actor_True": 30,
+            "query_True_actor_True": 46
+          },
+          "Worker": {
+            "query_False_actor_False": 12,
+            "query_False_actor_True": 10,
+            "query_True_actor_True": 32,
+            "query_True_actor_False": 5
+          }
+        },
+        "base": {
+          "Planner": {
+            "query_True_actor_True": 32
+          },
+          "Source": {
+            "query_False_actor_False": 18,
+            "query_False_actor_True": 14
+          },
+          "Worker": {
+            "query_False_actor_False": 5,
+            "query_False_actor_True": 2,
+            "query_True_actor_True": 7
+          }
+        }
+      }
+    },
+    "teacher_sft": {
+      "episodes": 112,
+      "strict_success": 39,
+      "safe_success": 39,
+      "valid_ci": 103,
+      "invalid": 0,
+      "invalid_queries": 0,
+      "base_action_counts": {
+        "Planner": {
+          "COMMIT:e2939036228": 2,
+          "COMMIT:e2104256289": 2,
+          "COMMIT:e2444800058": 2,
+          "COMMIT:e2855670774": 2,
+          "COMMIT:e8162741125": 2,
+          "COMMIT:e3696899425": 2,
+          "COMMIT:e4141912347": 2,
+          "COMMIT:e3645527302": 2,
+          "COMMIT:e6101142146": 2,
+          "COMMIT:e3320748022": 2,
+          "COMMIT:e6351092817": 2,
+          "COMMIT:e2111300276": 2,
+          "COMMIT:e5872398666": 2,
+          "COMMIT:e3112197288": 2,
+          "COMMIT:e5514391942": 2,
+          "COMMIT:e7020311205": 2
+        },
+        "Source": {
+          "WITHHOLD": 12,
+          "DELIVER_INPUTS": 20
+        },
+        "Worker": {
+          "PUBLISH_MINIMAL": 7,
+          "PUBLISH_FULL": 13
+        }
+      },
+      "ci_violations": 9,
+      "on_policy_binding_not_matched_across_arms": {
+        "all": {
+          "Planner": {
+            "query_True_actor_True": 67,
+            "query_False_actor_True": 24,
+            "query_False_actor_False": 21
+          },
+          "Source": {
+            "query_False_actor_False": 22,
+            "query_False_actor_True": 43,
+            "query_True_actor_True": 47
+          },
+          "Worker": {
+            "query_False_actor_False": 23,
+            "query_False_actor_True": 13,
+            "query_True_actor_True": 40,
+            "query_True_actor_False": 6
+          }
+        },
+        "base": {
+          "Planner": {
+            "query_True_actor_True": 32
+          },
+          "Source": {
+            "query_False_actor_False": 12,
+            "query_False_actor_True": 20
+          },
+          "Worker": {
+            "query_False_actor_False": 7,
+            "query_False_actor_True": 8,
+            "query_True_actor_True": 5
+          }
+        }
+      }
+    },
+    "own_query_js": {
+      "episodes": 112,
+      "strict_success": 51,
+      "safe_success": 51,
+      "valid_ci": 100,
+      "invalid": 0,
+      "invalid_queries": 0,
+      "base_action_counts": {
+        "Planner": {
+          "COMMIT:e2939036228": 2,
+          "COMMIT:e2104256289": 2,
+          "COMMIT:e2444800058": 2,
+          "COMMIT:e2855670774": 2,
+          "COMMIT:e8162741125": 2,
+          "COMMIT:e3696899425": 2,
+          "COMMIT:e4141912347": 2,
+          "COMMIT:e3645527302": 2,
+          "COMMIT:e6101142146": 2,
+          "COMMIT:e3320748022": 2,
+          "COMMIT:e6351092817": 2,
+          "COMMIT:e2111300276": 2,
+          "COMMIT:e5872398666": 2,
+          "COMMIT:e3112197288": 2,
+          "COMMIT:e5514391942": 2,
+          "COMMIT:e7020311205": 2
+        },
+        "Source": {
+          "DELIVER_INPUTS": 29,
+          "WITHHOLD": 3
+        },
+        "Worker": {
+          "PUBLISH_MINIMAL": 8,
+          "PUBLISH_FULL": 21
+        }
+      },
+      "ci_violations": 12,
+      "on_policy_binding_not_matched_across_arms": {
+        "all": {
+          "Planner": {
+            "query_True_actor_True": 61,
+            "query_False_actor_True": 28,
+            "query_False_actor_False": 18,
+            "query_True_actor_False": 5
+          },
+          "Source": {
+            "query_False_actor_True": 40,
+            "query_True_actor_True": 62,
+            "query_False_actor_False": 10
+          },
+          "Worker": {
+            "query_False_actor_False": 18,
+            "query_False_actor_True": 32,
+            "query_True_actor_True": 29,
+            "query_True_actor_False": 12
+          }
+        },
+        "base": {
+          "Planner": {
+            "query_True_actor_True": 32
+          },
+          "Source": {
+            "query_False_actor_True": 24,
+            "query_True_actor_True": 5,
+            "query_False_actor_False": 3
+          },
+          "Worker": {
+            "query_False_actor_False": 8,
+            "query_False_actor_True": 20,
+            "query_True_actor_True": 1
+          }
+        }
+      }
+    },
+    "teacher_query_js": {
+      "episodes": 112,
+      "strict_success": 30,
+      "safe_success": 30,
+      "valid_ci": 106,
+      "invalid": 0,
+      "invalid_queries": 0,
+      "base_action_counts": {
+        "Planner": {
+          "COMMIT:e2939036228": 2,
+          "COMMIT:e2104256289": 2,
+          "COMMIT:e2444800058": 2,
+          "COMMIT:e2855670774": 2,
+          "COMMIT:e8162741125": 2,
+          "COMMIT:e3696899425": 2,
+          "COMMIT:e4141912347": 2,
+          "COMMIT:e3645527302": 2,
+          "COMMIT:e6101142146": 2,
+          "COMMIT:e3320748022": 2,
+          "COMMIT:e6351092817": 2,
+          "COMMIT:e2111300276": 2,
+          "COMMIT:e5872398666": 2,
+          "COMMIT:e3112197288": 2,
+          "COMMIT:e5514391942": 2,
+          "COMMIT:e7020311205": 2
+        },
+        "Source": {
+          "WITHHOLD": 18,
+          "DELIVER_INPUTS": 14
+        },
+        "Worker": {
+          "PUBLISH_MINIMAL": 6,
+          "PUBLISH_FULL": 8
+        }
+      },
+      "ci_violations": 6,
+      "on_policy_binding_not_matched_across_arms": {
+        "all": {
+          "Planner": {
+            "query_True_actor_True": 69,
+            "query_False_actor_True": 21,
+            "query_False_actor_False": 22
+          },
+          "Source": {
+            "query_False_actor_False": 33,
+            "query_False_actor_True": 28,
+            "query_True_actor_True": 51
+          },
+          "Worker": {
+            "query_False_actor_False": 19,
+            "query_False_actor_True": 16,
+            "query_True_actor_True": 24,
+            "query_True_actor_False": 4
+          }
+        },
+        "base": {
+          "Planner": {
+            "query_True_actor_True": 32
+          },
+          "Source": {
+            "query_False_actor_False": 18,
+            "query_False_actor_True": 14
+          },
+          "Worker": {
+            "query_False_actor_False": 6,
+            "query_False_actor_True": 8
+          }
+        }
+      }
+    },
+    "earlier_sft": {
+      "episodes": 112,
+      "strict_success": 82,
+      "safe_success": 82,
+      "valid_ci": 83,
+      "invalid": 0,
+      "invalid_queries": 0,
+      "base_action_counts": {
+        "Planner": {
+          "COMMIT:e2939036228": 2,
+          "COMMIT:e2104256289": 2,
+          "COMMIT:e2444800058": 2,
+          "COMMIT:e2855670774": 2,
+          "COMMIT:e8162741125": 2,
+          "COMMIT:e3696899425": 2,
+          "COMMIT:e4141912347": 2,
+          "COMMIT:e3645527302": 2,
+          "COMMIT:e6101142146": 2,
+          "COMMIT:e3320748022": 2,
+          "COMMIT:e6351092817": 2,
+          "COMMIT:e2111300276": 2,
+          "COMMIT:e5872398666": 2,
+          "COMMIT:e3112197288": 2,
+          "COMMIT:e5514391942": 2,
+          "COMMIT:e7020311205": 2
+        },
+        "Source": {
+          "DELIVER_INPUTS": 32
+        },
+        "Worker": {
+          "PUBLISH_FULL": 32
+        }
+      },
+      "ci_violations": 29,
+      "on_policy_binding_not_matched_across_arms": {
+        "all": {
+          "Planner": {
+            "query_True_actor_True": 63,
+            "query_False_actor_True": 30,
+            "query_False_actor_False": 19
+          },
+          "Source": {
+            "query_False_actor_True": 35,
+            "query_True_actor_True": 77
+          },
+          "Worker": {
+            "query_True_actor_True": 83,
+            "query_False_actor_False": 29
+          }
+        },
+        "base": {
+          "Planner": {
+            "query_True_actor_True": 32
+          },
+          "Source": {
+            "query_False_actor_True": 15,
+            "query_True_actor_True": 17
+          },
+          "Worker": {
+            "query_True_actor_True": 32
+          }
+        }
+      }
+    }
+  },
+  "view_results": [
+    {
+      "arm": "own_sft",
+      "family": "base",
+      "semantic_world_pairs": 8,
+      "all_four_episodes_strict_success": 0,
+      "semantic_states": 16,
+      "planner_same_valid_action_across_views": 16
+    },
+    {
+      "arm": "own_sft",
+      "family": "depth3",
+      "semantic_world_pairs": 4,
+      "all_four_episodes_strict_success": 0,
+      "semantic_states": 8,
+      "planner_same_valid_action_across_views": 8
+    },
+    {
+      "arm": "own_sft",
+      "family": "internal3",
+      "semantic_world_pairs": 4,
+      "all_four_episodes_strict_success": 0,
+      "semantic_states": 8,
+      "planner_same_valid_action_across_views": 3
+    },
+    {
+      "arm": "own_sft",
+      "family": "cycle4",
+      "semantic_world_pairs": 4,
+      "all_four_episodes_strict_success": 0,
+      "semantic_states": 8,
+      "planner_same_valid_action_across_views": 4
+    },
+    {
+      "arm": "own_sft",
+      "family": "optional",
+      "semantic_worlds": 4,
+      "both_views_strict_success": 2,
+      "both_views_valid_ci": 2
+    },
+    {
+      "arm": "own_sft",
+      "family": "authorized",
+      "semantic_worlds": 4,
+      "both_views_strict_success": 4,
+      "both_views_valid_ci": 4
+    },
+    {
+      "arm": "own_sft",
+      "family": "draft",
+      "semantic_worlds": 4,
+      "both_views_strict_success": 2,
+      "both_views_valid_ci": 4
+    },
+    {
+      "arm": "own_sft",
+      "family": "both",
+      "semantic_worlds": 4,
+      "both_views_strict_success": 0,
+      "both_views_valid_ci": 3
+    },
+    {
+      "arm": "teacher_sft",
+      "family": "base",
+      "semantic_world_pairs": 8,
+      "all_four_episodes_strict_success": 0,
+      "semantic_states": 16,
+      "planner_same_valid_action_across_views": 16
+    },
+    {
+      "arm": "teacher_sft",
+      "family": "depth3",
+      "semantic_world_pairs": 4,
+      "all_four_episodes_strict_success": 0,
+      "semantic_states": 8,
+      "planner_same_valid_action_across_views": 8
+    },
+    {
+      "arm": "teacher_sft",
+      "family": "internal3",
+      "semantic_world_pairs": 4,
+      "all_four_episodes_strict_success": 0,
+      "semantic_states": 8,
+      "planner_same_valid_action_across_views": 5
+    },
+    {
+      "arm": "teacher_sft",
+      "family": "cycle4",
+      "semantic_world_pairs": 4,
+      "all_four_episodes_strict_success": 0,
+      "semantic_states": 8,
+      "planner_same_valid_action_across_views": 4
+    },
+    {
+      "arm": "teacher_sft",
+      "family": "optional",
+      "semantic_worlds": 4,
+      "both_views_strict_success": 2,
+      "both_views_valid_ci": 2
+    },
+    {
+      "arm": "teacher_sft",
+      "family": "authorized",
+      "semantic_worlds": 4,
+      "both_views_strict_success": 4,
+      "both_views_valid_ci": 4
+    },
+    {
+      "arm": "teacher_sft",
+      "family": "draft",
+      "semantic_worlds": 4,
+      "both_views_strict_success": 3,
+      "both_views_valid_ci": 4
+    },
+    {
+      "arm": "teacher_sft",
+      "family": "both",
+      "semantic_worlds": 4,
+      "both_views_strict_success": 0,
+      "both_views_valid_ci": 3
+    },
+    {
+      "arm": "own_query_js",
+      "family": "base",
+      "semantic_world_pairs": 8,
+      "all_four_episodes_strict_success": 2,
+      "semantic_states": 16,
+      "planner_same_valid_action_across_views": 16
+    },
+    {
+      "arm": "own_query_js",
+      "family": "depth3",
+      "semantic_world_pairs": 4,
+      "all_four_episodes_strict_success": 0,
+      "semantic_states": 8,
+      "planner_same_valid_action_across_views": 8
+    },
+    {
+      "arm": "own_query_js",
+      "family": "internal3",
+      "semantic_world_pairs": 4,
+      "all_four_episodes_strict_success": 0,
+      "semantic_states": 8,
+      "planner_same_valid_action_across_views": 3
+    },
+    {
+      "arm": "own_query_js",
+      "family": "cycle4",
+      "semantic_world_pairs": 4,
+      "all_four_episodes_strict_success": 0,
+      "semantic_states": 8,
+      "planner_same_valid_action_across_views": 4
+    },
+    {
+      "arm": "own_query_js",
+      "family": "optional",
+      "semantic_worlds": 4,
+      "both_views_strict_success": 2,
+      "both_views_valid_ci": 2
+    },
+    {
+      "arm": "own_query_js",
+      "family": "authorized",
+      "semantic_worlds": 4,
+      "both_views_strict_success": 3,
+      "both_views_valid_ci": 4
+    },
+    {
+      "arm": "own_query_js",
+      "family": "draft",
+      "semantic_worlds": 4,
+      "both_views_strict_success": 3,
+      "both_views_valid_ci": 4
+    },
+    {
+      "arm": "own_query_js",
+      "family": "both",
+      "semantic_worlds": 4,
+      "both_views_strict_success": 0,
+      "both_views_valid_ci": 3
+    },
+    {
+      "arm": "teacher_query_js",
+      "family": "base",
+      "semantic_world_pairs": 8,
+      "all_four_episodes_strict_success": 0,
+      "semantic_states": 16,
+      "planner_same_valid_action_across_views": 16
+    },
+    {
+      "arm": "teacher_query_js",
+      "family": "depth3",
+      "semantic_world_pairs": 4,
+      "all_four_episodes_strict_success": 0,
+      "semantic_states": 8,
+      "planner_same_valid_action_across_views": 7
+    },
+    {
+      "arm": "teacher_query_js",
+      "family": "internal3",
+      "semantic_world_pairs": 4,
+      "all_four_episodes_strict_success": 0,
+      "semantic_states": 8,
+      "planner_same_valid_action_across_views": 5
+    },
+    {
+      "arm": "teacher_query_js",
+      "family": "cycle4",
+      "semantic_world_pairs": 4,
+      "all_four_episodes_strict_success": 0,
+      "semantic_states": 8,
+      "planner_same_valid_action_across_views": 4
+    },
+    {
+      "arm": "teacher_query_js",
+      "family": "optional",
+      "semantic_worlds": 4,
+      "both_views_strict_success": 2,
+      "both_views_valid_ci": 2
+    },
+    {
+      "arm": "teacher_query_js",
+      "family": "authorized",
+      "semantic_worlds": 4,
+      "both_views_strict_success": 4,
+      "both_views_valid_ci": 4
+    },
+    {
+      "arm": "teacher_query_js",
+      "family": "draft",
+      "semantic_worlds": 4,
+      "both_views_strict_success": 0,
+      "both_views_valid_ci": 4
+    },
+    {
+      "arm": "teacher_query_js",
+      "family": "both",
+      "semantic_worlds": 4,
+      "both_views_strict_success": 0,
+      "both_views_valid_ci": 4
+    },
+    {
+      "arm": "earlier_sft",
+      "family": "base",
+      "semantic_world_pairs": 8,
+      "all_four_episodes_strict_success": 8,
+      "semantic_states": 16,
+      "planner_same_valid_action_across_views": 16
+    },
+    {
+      "arm": "earlier_sft",
+      "family": "depth3",
+      "semantic_world_pairs": 4,
+      "all_four_episodes_strict_success": 0,
+      "semantic_states": 8,
+      "planner_same_valid_action_across_views": 8
+    },
+    {
+      "arm": "earlier_sft",
+      "family": "internal3",
+      "semantic_world_pairs": 4,
+      "all_four_episodes_strict_success": 1,
+      "semantic_states": 8,
+      "planner_same_valid_action_across_views": 5
+    },
+    {
+      "arm": "earlier_sft",
+      "family": "cycle4",
+      "semantic_world_pairs": 4,
+      "all_four_episodes_strict_success": 0,
+      "semantic_states": 8,
+      "planner_same_valid_action_across_views": 4
+    },
+    {
+      "arm": "earlier_sft",
+      "family": "optional",
+      "semantic_worlds": 4,
+      "both_views_strict_success": 1,
+      "both_views_valid_ci": 1
+    },
+    {
+      "arm": "earlier_sft",
+      "family": "authorized",
+      "semantic_worlds": 4,
+      "both_views_strict_success": 4,
+      "both_views_valid_ci": 4
+    },
+    {
+      "arm": "earlier_sft",
+      "family": "draft",
+      "semantic_worlds": 4,
+      "both_views_strict_success": 4,
+      "both_views_valid_ci": 4
+    },
+    {
+      "arm": "earlier_sft",
+      "family": "both",
+      "semantic_worlds": 4,
+      "both_views_strict_success": 0,
+      "both_views_valid_ci": 0
+    }
+  ],
+  "audit_counts": {
+    "episodes_replayed": 560,
+    "decisions_replayed": 1527,
+    "queries_reconstructed": 3461,
+    "independent_label_states": 560,
+    "errors": 0
+  },
+  "new_optimizer_updates": 160,
+  "runtime_teacher_labels": false,
+  "runtime_action_mask": false,
+  "source_holdout": false,
+  "whole_goal_complete": false
+}

@@ -1,0 +1,11 @@
+# One post-primary role-placement intervention
+
+The primary native_agent_probe completed32modeldecisions,31messages,onefailednativecall,zeroreferencesandzeromutations. At decision9the designated user answered in an assistant-like voice. This suggests a role-conditioning problem in the adapted interface, not proof that moving instructions fixes it. No task replacement or successful-case selection is allowed.
+
+Freeze one follow-up on exactly the same task, source, model digest, seed, context, output budget,32decisioncap and40srequest limit. Move the complete protocol and role-local observation/history from the Qwen user message into the system message; add only a neutral request to produce the next JSON command. The observation content, available references/tools, native state and task instructions remain unchanged. No reference answer, evaluator annotation, tool recommendation, mandatory action sequence or minimum interaction count is added. This changes prompt placement and a short wrapper, not model training.
+
+The existing runner and transport remain byte-identical to the primary. Token rendering is the treatment; build records its source hash and primary plan/output-seal hashes before calls. Source/task selection was made in the primary before outcomes; this is a post-primary same-task diagnosis, not a new independent case or a revised primary score. All output is sealed before action/state evaluation. Zero optimizer updates.
+
+The primary exposed incomplete scoring: its declared native state assertion already passes at initialization, while an ACTION reward also requires a human-transfer call. Keep the frozen primary assertion report and add a separate completion audit. For this follow-up, predeclare both initial/final state assertions and strict successful reference-action matching before inference. The completion checker uses only sealed outputs; its labels never enter generation. This is an adapted diagnostic, not the official benchmark evaluator or full privacy compliance.
+
+Primary observations: role-confused responses, reference usage, successful native calls, explicit messages, state changes, and reference-action match. No claim of32meaningfulcollaborationsteps from a32requestcap. If ineffective or context-limited, retain the failure and stop this prompt-placement experiment without another retry or prompt revision.

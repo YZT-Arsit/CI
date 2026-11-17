@@ -1,0 +1,25 @@
+{
+  "sealed_raw_calls_replayed": 32,
+  "model_commands_replayed": 32,
+  "stop_reason": "decision_cap",
+  "reference_lookups": 0,
+  "native_counters": {
+    "submitted_tool_calls": 1,
+    "mutating_tool_calls": 0,
+    "messages_sent": 31,
+    "messages_delivered": 31
+  },
+  "native_state_assertions": [
+    true
+  ],
+  "all_native_state_assertions_pass": true,
+  "all_commands_from_raw_model_outputs": true,
+  "oracle_action_interventions": 0,
+  "max_request_seconds": 31.034132700006012,
+  "source_files_verified": 29,
+  "auditor_sha256": "10a12b8bf7fd849c9f0cb9ce75738b5cda4423a676682b3795b52c79782e929f",
+  "full_norm_compliance_established": false,
+  "32_meaningful_collaboration_steps_established": false,
+  "whole_goal_complete": false,
+  "scope": "One source-selected native role-local agent probe with lossless on-demand policy/schema access. Lookup decisions do not count as meaningful collaboration steps; native assertions are not full privacy/norm compliance."
+}

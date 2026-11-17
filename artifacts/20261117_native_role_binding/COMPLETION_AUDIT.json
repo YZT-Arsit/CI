@@ -1,0 +1,53 @@
+{
+  "post_primary_validity_diagnostic": true,
+  "criteria": {
+    "actions": [
+      {
+        "action_id": "transfer_to_human_agents",
+        "requestor": "assistant",
+        "name": "transfer_to_human_agents",
+        "arguments": {
+          "summary": "I cannot fix the issue."
+        },
+        "info": null,
+        "compare_args": []
+      }
+    ],
+    "env_assertions": [
+      {
+        "env_type": "user",
+        "func_name": "assert_service_status",
+        "arguments": {
+          "expected_status": "no_service"
+        },
+        "assert_value": true,
+        "message": null
+      }
+    ],
+    "communicate_info": null,
+    "nl_assertions": null,
+    "reward_basis": [
+      "ENV_ASSERTION",
+      "ACTION"
+    ]
+  },
+  "initial_native_state_assertions": [
+    true
+  ],
+  "initial_assertions_already_pass": true,
+  "successful_native_tool_calls": 0,
+  "strict_reference_action_matches": [
+    {
+      "action_id": "transfer_to_human_agents",
+      "requestor": "assistant",
+      "name": "transfer_to_human_agents",
+      "compare_args": [],
+      "matching_successful_call_indices": []
+    }
+  ],
+  "all_reference_actions_matched": false,
+  "official_benchmark_score": null,
+  "full_task_success_established": false,
+  "scope": "Post-seal scorer coverage diagnosis. Strict declared-argument matching over successful native calls, not a faithful official evaluator or a necessary condition for all alternative plans.",
+  "source_sha256": "2828bd74a525340decb18d63d97eb740a0e6535c304356c8f9af9c3b59d464e3"
+}

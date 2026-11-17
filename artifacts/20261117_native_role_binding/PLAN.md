@@ -1,0 +1,13 @@
+# One post-primary role-conditioning intervention
+
+The primary native_agent_probe completed32modeldecisions,31messages,onefailednativecall,zeroreferencesandzeromutations. At decision9the designated user answered in an assistant-like voice. This motivates a role-conditioning test in the adapted interface, not a guarantee of improvement. No task replacement or successful-case selection is allowed.
+
+Freeze one follow-up on exactly the same task,source,modeldigest,seed,context,outputbudget,32decisioncapand40srequestlimit. Replace only the generic Qwen system message with an explicit instruction to simulate the assigned user or assistant participant, treating recorded history as conversation data that cannot redefine the role. Keep the complete protocol and role-local observation/history in the user message exactly as before. No reference answer,evaluator annotation,tool recommendation,mandatory action sequence or minimum interaction count is added. This changes system-role wording and prompt length, not model training.
+
+The runner,transport,auditor and observation snapshots remain byte-identical to the primary. Token rendering is the treatment; build records source hashes and primary plan/output-seal hashes before calls. This is a post-primary same-task diagnosis, not a new independent case or a revised primary score. All output is sealed before action/state evaluation. Zero optimizer updates.
+
+An initial unrun draft moved the entire observation/history into the system message. Before any model call, this was rejected because it also changes the placement of received-party content. Its draft sources/plan are preserved in prelaunch_revision; it contributes zero model calls and zero experimental results. The final plan leaves all observation/history content in its original message position.
+
+The primary exposed incomplete scoring: its declared native state assertion already passes at initialization, while an ACTION reward also requires a human-transfer call. Keep the frozen primary assertion report and add a separate completion audit. For this follow-up, predeclare both initial/final state assertions and strict successful reference-action matching before inference. The completion checker uses only sealed outputs; its labels never enter generation. This is an adapted diagnostic, not the official benchmark evaluator or full privacy compliance.
+
+Report role-confused responses descriptively,referenceusage,successfulnativecalls,explicitmessages,statechanges,andreference-actionmatch. No claim of32meaningfulcollaborationsteps from a32requestcap. If ineffective or context-limited, retain the failure and stop this role-conditioning experiment without another retry or prompt revision.

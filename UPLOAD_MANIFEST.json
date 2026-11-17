@@ -1,7 +1,7 @@
 {
   "snapshot_date": "2026-11-17",
   "repository": "YZT-Arsit/CI",
-  "scope": "Research evidence through matched query-only/value-class consistency ablations, two new CPU adapters and 160 updates, 448 primary and 112 separately registered reference episodes, plus a pinned positive/negative external norm judgment probe. No trained-policy external transfer, independent-source multi-hop generalization, or 32-step collaboration established. Large GPU NO_GO. JSONL and source CSV restore losslessly.",
+  "scope": "Research evidence through a matched teacher-input training2x2 and stronger predeclared reference: two new CPU adapters,160updates,560free-running DEV episodes. Separate one-task native role-local probe,initial-state scoring counterexample,and same-task role-conditioning followup. No independent-source multi-hop generalization,natural-norm transfer,or32-step collaboration established. Large GPU NO_GO. JSONL restores losslessly.",
   "excluded": [
     "paper PDFs",
     "large pretrained LLM base weights and installed dependencies",
@@ -22,8 +22,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 11812,
-      "sha256": "db451aa967d7938ec776e33ff90633cd88127b732ee690e0262ddd4944238e45"
+      "bytes": 12684,
+      "sha256": "5772cb082567aa0f1bf85dc20c8a441310b3a17524e3f8a113dea04490c676b4"
     },
     {
       "path": "artifacts/20261112_cpu_pilot/FINAL_VALIDATION.json",
@@ -47901,6 +47901,346 @@
       "sha256": "d5348bc8436cb985275124e2382a21ffadbaad5588e6675a3b286e62081bd6a0"
     },
     {
+      "path": "artifacts/20261117_native_agent_probe/COMPLETION_AUDIT.json",
+      "bytes": 1579,
+      "sha256": "4009e361b896b8ff94cec4a66bc4b6fdb5816b48ebecb3c2b39e30f7b08b7eef"
+    },
+    {
+      "path": "artifacts/20261117_native_agent_probe/END.json",
+      "bytes": 346,
+      "sha256": "1d16174693442f25681a72b345580a1e742f44d33a8078d7c91526e7d2852abf"
+    },
+    {
+      "path": "artifacts/20261117_native_agent_probe/INPUT_INVENTORY.json",
+      "bytes": 2253,
+      "sha256": "3fea0e04dba426ce658e2940bc38f246206448420089eb6416b6251a51e06939"
+    },
+    {
+      "path": "artifacts/20261117_native_agent_probe/LOADED_MODEL.json",
+      "bytes": 624,
+      "sha256": "33a593d3fc5b81e4eb0600732587fad59ae6dab6c99cd92f730ad867c19c84f0"
+    },
+    {
+      "path": "artifacts/20261117_native_agent_probe/PLAN.json",
+      "bytes": 2851,
+      "sha256": "c9a3cb0821b7b9254e14e07602da83b3a1a5442904ed8a1fe24b32e9342ce831"
+    },
+    {
+      "path": "artifacts/20261117_native_agent_probe/PLAN.md",
+      "bytes": 3195,
+      "sha256": "81c84b16a4335847e11476fed2e11450873804ff6851e84afbcaee9c8fb22ea7"
+    },
+    {
+      "path": "artifacts/20261117_native_agent_probe/PRELAUNCH_CHECKS.json",
+      "bytes": 1028,
+      "sha256": "67d6bb9376722cbe0c63ff7d6e74ae28a4f94e260cd85188b3528852edd79f23"
+    },
+    {
+      "path": "artifacts/20261117_native_agent_probe/RELEASE_CHECK.json",
+      "bytes": 273,
+      "sha256": "ba0aa14d67f6c62086d27cb50a01358fae43dae243242547b7a1fe569bafc124"
+    },
+    {
+      "path": "artifacts/20261117_native_agent_probe/REPORT.md",
+      "bytes": 4079,
+      "sha256": "c4f16eef8942a0a3dae37857744e39fd45116d66c379da03f615fdc31ec1a952"
+    },
+    {
+      "path": "artifacts/20261117_native_agent_probe/REPRODUCE.md",
+      "bytes": 3409,
+      "sha256": "21898fe95a85f0d0e8f308ae3fa4996a314457ba027875b0a1f2d7207a56437f"
+    },
+    {
+      "path": "artifacts/20261117_native_agent_probe/RESPONSES_SEALED.json",
+      "bytes": 330,
+      "sha256": "b80a691c80e437ea491a5eeaf88df48a0e5ba287dfa7353ccdb90f0ffcdea84e"
+    },
+    {
+      "path": "artifacts/20261117_native_agent_probe/RESULTS.json",
+      "bytes": 998,
+      "sha256": "cc5746189050e2a01944300ec9988bd48ecd5f8993d2067a84f7e5dfe2b8bb08"
+    },
+    {
+      "path": "artifacts/20261117_native_agent_probe/RUN_PLAN.json",
+      "bytes": 364,
+      "sha256": "91ae58f868e7d86e2eb10b85689a1dde40d6ba5cd163e21b3488e0afd8252125"
+    },
+    {
+      "path": "artifacts/20261117_native_agent_probe/WARMUP.json",
+      "bytes": 222,
+      "sha256": "8e34fd7d12c87106eb81992a6af9d30baeee73e197cc9c19f336fbfa22251ade"
+    },
+    {
+      "path": "artifacts/20261117_native_agent_probe/audit.log",
+      "bytes": 1830,
+      "sha256": "659d8fcede17c9fa75454911d6183024e1fe0de33729a988289b11984868d2b2"
+    },
+    {
+      "path": "artifacts/20261117_native_agent_probe/audit.py",
+      "bytes": 7596,
+      "sha256": "10a12b8bf7fd849c9f0cb9ce75738b5cda4423a676682b3795b52c79782e929f"
+    },
+    {
+      "path": "artifacts/20261117_native_agent_probe/build.py",
+      "bytes": 4539,
+      "sha256": "58cd5afede039d3ca09dd87f941324332d4ff410bf7fb827bc3649e29a5a9409"
+    },
+    {
+      "path": "artifacts/20261117_native_agent_probe/check_completion.py",
+      "bytes": 2751,
+      "sha256": "2828bd74a525340decb18d63d97eb740a0e6535c304356c8f9af9c3b59d464e3"
+    },
+    {
+      "path": "artifacts/20261117_native_agent_probe/compression_manifest.json",
+      "bytes": 850,
+      "sha256": "b071628e63d161c2993e185031e8fb41450f67e7d94b3bee4a1e5bf5687d2676"
+    },
+    {
+      "path": "artifacts/20261117_native_agent_probe/events.jsonl.gz",
+      "bytes": 1388,
+      "sha256": "4414879f096213a46a44c100b52672fd233f7594380e1585452d11d8f20a1d5c"
+    },
+    {
+      "path": "artifacts/20261117_native_agent_probe/initial_views.json",
+      "bytes": 55311,
+      "sha256": "59e29e38d5220dac8c2924c0900b6f4c3c0a8b63c14a662ae9aed2bb78a5e1d2"
+    },
+    {
+      "path": "artifacts/20261117_native_agent_probe/inspect_views.py",
+      "bytes": 1808,
+      "sha256": "a098be329f0f6b54777dbe5edcffb2f312ee52449d7889467599d4cecdddcf3b"
+    },
+    {
+      "path": "artifacts/20261117_native_agent_probe/prelaunch_checks.py",
+      "bytes": 1763,
+      "sha256": "d45ef65b8c1b82e0b61823ad6ff53f1b459a8c559529e0ee3ce71b0084ec787d"
+    },
+    {
+      "path": "artifacts/20261117_native_agent_probe/prelaunch_revision/PLAN.json",
+      "bytes": 2766,
+      "sha256": "921560c15a849b869776348cc012033cf41119d1d3a9923bcb487f0a0ac2b9c7"
+    },
+    {
+      "path": "artifacts/20261117_native_agent_probe/prelaunch_revision/PLAN_before_audit_review.json",
+      "bytes": 2851,
+      "sha256": "97d5e3af23b44fab4487acb99599acd52e6202780914c8fcd146e201e0149bb8"
+    },
+    {
+      "path": "artifacts/20261117_native_agent_probe/prelaunch_revision/PLAN_before_review.json",
+      "bytes": 2766,
+      "sha256": "921560c15a849b869776348cc012033cf41119d1d3a9923bcb487f0a0ac2b9c7"
+    },
+    {
+      "path": "artifacts/20261117_native_agent_probe/prelaunch_revision/audit_before_review.py",
+      "bytes": 5061,
+      "sha256": "a3f1301d5dd54a709e4ce26fb64e8090ea686473ccedb78a7bc345d711078411"
+    },
+    {
+      "path": "artifacts/20261117_native_agent_probe/prelaunch_revision/build.py",
+      "bytes": 4070,
+      "sha256": "7ff3a000c6478d103787aefc9c7860ae3b736cf3b8773e463a80f9490bec7dd0"
+    },
+    {
+      "path": "artifacts/20261117_native_agent_probe/prelaunch_revision/run.py",
+      "bytes": 6484,
+      "sha256": "8699b0d4b57cb275b2f6c9dba350fda3af6cf167e86c4ed6f042c1654cf5f446"
+    },
+    {
+      "path": "artifacts/20261117_native_agent_probe/prelaunch_revision/transport.py",
+      "bytes": 4909,
+      "sha256": "b1178f68d0b2faaa1852d78049d879f05f11c0a98a3d5a21a4ece82e6c52a541"
+    },
+    {
+      "path": "artifacts/20261117_native_agent_probe/raw.jsonl.gz",
+      "bytes": 12917,
+      "sha256": "28d00d6735ef6af8ef2f4c7cff8fe120ccb745b633bb1280173914d485f79e9a"
+    },
+    {
+      "path": "artifacts/20261117_native_agent_probe/run.log",
+      "bytes": 5850,
+      "sha256": "5b40a7cdca120c777cd1b43dde810f0ae071c3f5fc5588baa715062b624005c7"
+    },
+    {
+      "path": "artifacts/20261117_native_agent_probe/run.py",
+      "bytes": 7152,
+      "sha256": "fe869c4293a9c10deca253df69f06bc8f2641144155f56438e47eed29c0ef035"
+    },
+    {
+      "path": "artifacts/20261117_native_agent_probe/tokens.py",
+      "bytes": 1216,
+      "sha256": "7fb473c622ab10bc99432d3be0b77d6eb232b4cd5f0986d2661d1bfdc85d07e7"
+    },
+    {
+      "path": "artifacts/20261117_native_agent_probe/transport.py",
+      "bytes": 5146,
+      "sha256": "838d06107853446111cbdc6f5e2f525d9a4b519a1010e4326cf3780ed9945218"
+    },
+    {
+      "path": "artifacts/20261117_native_role_binding/COMPLETION_AUDIT.json",
+      "bytes": 1579,
+      "sha256": "4009e361b896b8ff94cec4a66bc4b6fdb5816b48ebecb3c2b39e30f7b08b7eef"
+    },
+    {
+      "path": "artifacts/20261117_native_role_binding/END.json",
+      "bytes": 352,
+      "sha256": "88f04067db6c08bbe70a8144408a31402e59a00eb2e856f062d0389032e37b93"
+    },
+    {
+      "path": "artifacts/20261117_native_role_binding/INPUT_INVENTORY.json",
+      "bytes": 2253,
+      "sha256": "3fea0e04dba426ce658e2940bc38f246206448420089eb6416b6251a51e06939"
+    },
+    {
+      "path": "artifacts/20261117_native_role_binding/LOADED_MODEL.json",
+      "bytes": 624,
+      "sha256": "3434330c06fb8832d44f5235c83e3b0a225d5f1b2f69e19a97d0946fc8f2badd"
+    },
+    {
+      "path": "artifacts/20261117_native_role_binding/PLAN.json",
+      "bytes": 3401,
+      "sha256": "ce53a2f34ef4bf9ab2736ead786d5eeaa6e31f01908fe34e288b704a28e9a02c"
+    },
+    {
+      "path": "artifacts/20261117_native_role_binding/PLAN.md",
+      "bytes": 2718,
+      "sha256": "bccebe436573a6c83556482d017f7501142950bfbe201b13d0719f5d96ba272b"
+    },
+    {
+      "path": "artifacts/20261117_native_role_binding/RELEASE_CHECK.json",
+      "bytes": 274,
+      "sha256": "8cec79835c898c2d410824aaaaf616896055d2fcda8f215a56aa2baac6a8e4ab"
+    },
+    {
+      "path": "artifacts/20261117_native_role_binding/REPORT.md",
+      "bytes": 3067,
+      "sha256": "e91a4b6b1014d204678df1424c9e8221c7a85e8d0068056ce6730d003bc69ed1"
+    },
+    {
+      "path": "artifacts/20261117_native_role_binding/REPRODUCE.md",
+      "bytes": 1759,
+      "sha256": "eb0d5b0fc4b1d6700bcc6cd66f5df2a4120a53527253df1ee6243a78eb695c1f"
+    },
+    {
+      "path": "artifacts/20261117_native_role_binding/RESPONSES_SEALED.json",
+      "bytes": 330,
+      "sha256": "f37f89dec15c268ba557a24cd696ff57f103cc5e984684fc0304283153b82ad1"
+    },
+    {
+      "path": "artifacts/20261117_native_role_binding/RESULTS.json",
+      "bytes": 1106,
+      "sha256": "866af49e9548996782008ba5d522326931306c26a1392599771551b533a28ba0"
+    },
+    {
+      "path": "artifacts/20261117_native_role_binding/RUN_PLAN.json",
+      "bytes": 364,
+      "sha256": "0cf74e5b737f7b8bb9c1ecc71df93adfec0d3d7ee743768d9e84a30b8071345f"
+    },
+    {
+      "path": "artifacts/20261117_native_role_binding/TREATMENT_CHECK.json",
+      "bytes": 656,
+      "sha256": "fa593c570913f9ce8b4ded230dc345ffb384b67efce4d068e7c3c49a299934c2"
+    },
+    {
+      "path": "artifacts/20261117_native_role_binding/WARMUP.json",
+      "bytes": 222,
+      "sha256": "3b227b3b21c1be99446650fc95224ac06ecbc866df5b7d19da8532499c241c37"
+    },
+    {
+      "path": "artifacts/20261117_native_role_binding/audit.log",
+      "bytes": 2046,
+      "sha256": "f866af98118d8c4977cce3c7848661bb71962b9a0b37f6670b641af805d1ebaa"
+    },
+    {
+      "path": "artifacts/20261117_native_role_binding/audit.py",
+      "bytes": 7596,
+      "sha256": "10a12b8bf7fd849c9f0cb9ce75738b5cda4423a676682b3795b52c79782e929f"
+    },
+    {
+      "path": "artifacts/20261117_native_role_binding/build.py",
+      "bytes": 5062,
+      "sha256": "a38f7f7d85c2ad19d8d2f0978715484106d3941764d35b075700e5bed830751e"
+    },
+    {
+      "path": "artifacts/20261117_native_role_binding/check_completion.py",
+      "bytes": 2751,
+      "sha256": "2828bd74a525340decb18d63d97eb740a0e6535c304356c8f9af9c3b59d464e3"
+    },
+    {
+      "path": "artifacts/20261117_native_role_binding/check_treatment.py",
+      "bytes": 1385,
+      "sha256": "4681554cabd7f0984fed2ada9c62be08e1c7deb8e58796b76ae49654b8f555dc"
+    },
+    {
+      "path": "artifacts/20261117_native_role_binding/completion.log",
+      "bytes": 2488,
+      "sha256": "b5bb7ecb34a4fc9f25c34c1250ff8b9112e18dbe284861cc6e028cd576368980"
+    },
+    {
+      "path": "artifacts/20261117_native_role_binding/compression_manifest.json",
+      "bytes": 850,
+      "sha256": "26105e22c68e740f6a831197f7971d1faa0dd6837a055ee267d365532355349d"
+    },
+    {
+      "path": "artifacts/20261117_native_role_binding/events.jsonl.gz",
+      "bytes": 395,
+      "sha256": "db910ac5cf30f18cf2d9fddb8f3ca606d8bd5fbbfcc2d45a107cb4466b13803a"
+    },
+    {
+      "path": "artifacts/20261117_native_role_binding/initial_views.json",
+      "bytes": 55311,
+      "sha256": "59e29e38d5220dac8c2924c0900b6f4c3c0a8b63c14a662ae9aed2bb78a5e1d2"
+    },
+    {
+      "path": "artifacts/20261117_native_role_binding/inspect_views.py",
+      "bytes": 1808,
+      "sha256": "a098be329f0f6b54777dbe5edcffb2f312ee52449d7889467599d4cecdddcf3b"
+    },
+    {
+      "path": "artifacts/20261117_native_role_binding/prelaunch_revision/PLAN.md",
+      "bytes": 2366,
+      "sha256": "751c67a3fb378275cf4caa6fca47f6eb48b9eaf734b392a0c0a3dfb6b9d4bc30"
+    },
+    {
+      "path": "artifacts/20261117_native_role_binding/prelaunch_revision/PLAN_unrun_placement.json",
+      "bytes": 3235,
+      "sha256": "29b97a62d95dab227a9577434b6fa6158990b2246131ed19c66d8b1ae53b1e82"
+    },
+    {
+      "path": "artifacts/20261117_native_role_binding/prelaunch_revision/build.py",
+      "bytes": 4991,
+      "sha256": "20d2c37df9b72a655580440b362a1763b0d9d9647c7b882882b1d899f9ddafbe"
+    },
+    {
+      "path": "artifacts/20261117_native_role_binding/prelaunch_revision/tokens.py",
+      "bytes": 1253,
+      "sha256": "82d18265abed0633aaa9a25e21e2fc84f5664f697e42afe826d5a89eed26e7ec"
+    },
+    {
+      "path": "artifacts/20261117_native_role_binding/raw.jsonl.gz",
+      "bytes": 4206,
+      "sha256": "83d22670dd02e3d4919cb5ff8648fdaa03f4e0d132ef56b868cc8b6f5175a8fe"
+    },
+    {
+      "path": "artifacts/20261117_native_role_binding/run.log",
+      "bytes": 1100,
+      "sha256": "2e9de9f3fa0dcf687a87b90ff191d7f0bef19d38107061eb83571cb9053a04e7"
+    },
+    {
+      "path": "artifacts/20261117_native_role_binding/run.py",
+      "bytes": 7152,
+      "sha256": "fe869c4293a9c10deca253df69f06bc8f2641144155f56438e47eed29c0ef035"
+    },
+    {
+      "path": "artifacts/20261117_native_role_binding/tokens.py",
+      "bytes": 1698,
+      "sha256": "2f0276d7dbf4d17f04315ee4de76ca79085bd4e57006c9dd5428317b7cee936a"
+    },
+    {
+      "path": "artifacts/20261117_native_role_binding/transport.py",
+      "bytes": 5146,
+      "sha256": "838d06107853446111cbdc6f5e2f525d9a4b519a1010e4326cf3780ed9945218"
+    },
+    {
       "path": "artifacts/20261117_native_roles/NATIVE_RETURN_CODE.json",
       "bytes": 881,
       "sha256": "3c3dff4dcc0fa276e0dbd65191937987ab6cdcd6ea61843befca5693401ec990"
@@ -48659,6 +48999,856 @@
       "path": "artifacts/20261117_sampler_repair/summarize.py",
       "bytes": 2206,
       "sha256": "f395938f78db65991d35e284ed5689f80c847d71135de81bb0c3eea113448d7c"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/ARCHIVE_VERIFIED.json",
+      "bytes": 208,
+      "sha256": "7fbab243e263f7b089bafb4877a8b18ebb2201f800df594db89c5e4efa49e141"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/PLAN.json",
+      "bytes": 51138,
+      "sha256": "000e11f8795bf02bc735ada771a3f986054091763761235adc0dbcdd4ce0a290"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/PLAN.md",
+      "bytes": 2816,
+      "sha256": "c68f6718a2bad08b808a9fc140d9a2d0b308a17a0019edc566f0a4baae64c097"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/PREFLIGHT.json",
+      "bytes": 2160,
+      "sha256": "0175685b076e1630dde7f424f841ecc7b38d38e643714fe0b441cba833a75fce"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/REPORT.md",
+      "bytes": 6194,
+      "sha256": "92cc980445048ebae9e271ded6042401b85963c547b0a6f28964660cb47be71a"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/REPRODUCE.md",
+      "bytes": 2455,
+      "sha256": "9bd35374d8265046ff4738ecd8f492d50e79bef74843211d62e7eeb7e48cc1bd"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/RESULTS.json",
+      "bytes": 19715,
+      "sha256": "2cf6538751728adfe7b5c16ef40327add8e588a0f911456bdbc52fe085430f6b"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/audit.log",
+      "bytes": 22362,
+      "sha256": "e9d416ad43d830d883e8db43bff0abe517d59679c6961dafcea2f0c90b75a81f"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/audit.py",
+      "bytes": 3396,
+      "sha256": "b8bcc2585d29db20a17700a459ec41655df0c69dc72b3adce90c3af925382a3f"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/binding_loss.py",
+      "bytes": 3041,
+      "sha256": "59859a41c3e8ffd5daf7ce29b877a979e19781617020b638cc2b2e3bbab6571a"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/build.py",
+      "bytes": 5846,
+      "sha256": "cd83b3abb08e5a5a783b92d6663fb7df0c1f0e75c0b6395af8e8ec030dee9953"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/compression_manifest.json",
+      "bytes": 55897,
+      "sha256": "7c807b44a0bf5f2d213db84dbfa25e353d4d981201aabe4e1802234d46891df8"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/dev_worlds.json",
+      "bytes": 79090,
+      "sha256": "4a66dd6ee5a493c9fa697dfb7fdce401ac91e3d45744b7e8008fc8ad861b7019"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/preflight.log",
+      "bytes": 1813,
+      "sha256": "a3f6fb7f6459ddeea4fd188892aaf2058507f776f1f834a179450b86df1da2df"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/preflight.py",
+      "bytes": 3785,
+      "sha256": "17cecc165d0cf2981beef2aa79c1e69a1d92df9b76f6987b7c0b6771ea1eb1b7"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/AUDIT.json",
+      "bytes": 47237,
+      "sha256": "dc252cc859713a6ac2cec9856cd65d4719edf3be367771ef4c497da9dffb9fc9"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/PLAN.json",
+      "bytes": 50452,
+      "sha256": "9b58e4075a89b5d415f557788a05a8fa3e95446b76967cc7c072027b010165b6"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/RESULTS.json",
+      "bytes": 36593,
+      "sha256": "190e0f7a14e68a8a48ecb04c1e8783fd406c275f4baef582c0edfc3b3649358e"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/VIEW_AUDIT.json",
+      "bytes": 8383,
+      "sha256": "779dcd9bd2ac17531c6cb74b42ff72d1ba92a7723eb1a1e47b3a6e1fe9309fc2"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/dev_worlds.json",
+      "bytes": 79090,
+      "sha256": "4a66dd6ee5a493c9fa697dfb7fdce401ac91e3d45744b7e8008fc8ad861b7019"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/earlier_sft/CHECKPOINT_SEALED.json",
+      "bytes": 350,
+      "sha256": "8005e9a5eea3634d3e60d7c915681a8aeda06c123fdd43a958981a740b74cd6d"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/earlier_sft/ORIGIN.json",
+      "bytes": 115,
+      "sha256": "5d433e97fc261e348ed435da1100df479461c7a10eb1dbf32acbae87fe3409e1"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/earlier_sft/adapter/README.md",
+      "bytes": 5155,
+      "sha256": "39d3d3aa2d89a2b4ab09cecd018fbbc4cebc3f4b2c6d9e85b81abc38a1dc4045"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/earlier_sft/adapter/adapter_config.json",
+      "bytes": 835,
+      "sha256": "317dc54d0fcd6fb3b630eec143c04640103d5388e4a41e5bdedf7f327c2613a7"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/earlier_sft/adapter/adapter_model.safetensors",
+      "bytes": 1858776,
+      "sha256": "ba44581f6285b002761a8b57393b17dad2a59af3844e9f4b06e5b912ca955e35"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/earlier_sft/authorized_v0.jsonl.gz",
+      "bytes": 5507,
+      "sha256": "bd8ac7a7a59a4d86cf25a091b412d2fca9cd869447ef21d78e765a191159514a"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/earlier_sft/authorized_v1.jsonl.gz",
+      "bytes": 5545,
+      "sha256": "f90cb0dda493b575fd495925bbe7f4e067bc0af8bb24235ea68977032ed063b1"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/earlier_sft/base_v0.jsonl.gz",
+      "bytes": 8196,
+      "sha256": "78261d1071422073d625f75d859e7b3cf4d9e3ed967a9cb375c4e983c71f1638"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/earlier_sft/base_v0_swap.jsonl.gz",
+      "bytes": 8206,
+      "sha256": "09b5e30cb56381d23a94d19f6f3e57c8c3ee2984cb4fa508f6f727b677ddbc29"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/earlier_sft/base_v1.jsonl.gz",
+      "bytes": 8122,
+      "sha256": "f0e5a122fb99629f086378b3cdd17c262e3151dd87b6c960db423f02da25aaa8"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/earlier_sft/base_v1_swap.jsonl.gz",
+      "bytes": 8126,
+      "sha256": "a8bff6284bd51c0a6b74c8b518843d5213c1144f82d947b0b4f08377169e8d18"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/earlier_sft/both_v0.jsonl.gz",
+      "bytes": 5644,
+      "sha256": "3988bf80d575ba686e265c1c38ecbcb7bf85dab7e09b6a1218888513dc375a66"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/earlier_sft/both_v1.jsonl.gz",
+      "bytes": 5608,
+      "sha256": "522a2cc254488f4584f307a6ff5751bd6cba1bdb6bc6d238358708a166aa6834"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/earlier_sft/cycle4_v0.jsonl.gz",
+      "bytes": 7089,
+      "sha256": "c04409a793c63896bb02e5b9f8576e3a7ad0c0678d2946e94f7c2173a31056e3"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/earlier_sft/cycle4_v0_swap.jsonl.gz",
+      "bytes": 7090,
+      "sha256": "45fdbe8ef55b312144fe0c43a833efa56af3695e371f0bd0cb167d386f9f7abb"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/earlier_sft/cycle4_v1.jsonl.gz",
+      "bytes": 6962,
+      "sha256": "22761ff6073bd5dc268b0bbe1d14c34b991342fe547960e8d5481095946dc51d"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/earlier_sft/cycle4_v1_swap.jsonl.gz",
+      "bytes": 7002,
+      "sha256": "d6c0e37a287fad6c2dcbb0f011846c9ece97d99c872ebf5b9aec13514acf7f95"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/earlier_sft/depth3_v0.jsonl.gz",
+      "bytes": 6013,
+      "sha256": "0a1006af4af6c8d3d2c74c8ca177dd740c4d47d2eab8edf63eef58c8b30329cd"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/earlier_sft/depth3_v0_swap.jsonl.gz",
+      "bytes": 6037,
+      "sha256": "f32ea95f7bda672eb69c5e074932f84c98911a121589d5eab0d02928635f4443"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/earlier_sft/depth3_v1.jsonl.gz",
+      "bytes": 6006,
+      "sha256": "82775e7832dfe7a38df0710ba89c9ad94aa922b873a93648a255b7cc836d7966"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/earlier_sft/depth3_v1_swap.jsonl.gz",
+      "bytes": 6018,
+      "sha256": "ee72ddf8bbcea45a6f356c49721852060edfdec0eb00b4449adc28591854291e"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/earlier_sft/draft_v0.jsonl.gz",
+      "bytes": 4861,
+      "sha256": "0e1a497ba68f93e9c2df6c28a7c717236a800d9d6f46de43dcc6c0fe89ea0f8a"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/earlier_sft/draft_v1.jsonl.gz",
+      "bytes": 4850,
+      "sha256": "186497195219e5cd48ceb856a75e3ce6643bc91e360bbd3679fa4335f7978853"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/earlier_sft/internal3_v0.jsonl.gz",
+      "bytes": 6005,
+      "sha256": "711a1ced90ae4b7e0478f8bd3147bfa5a20a7f85cb0ac30e7954876db399f29d"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/earlier_sft/internal3_v0_swap.jsonl.gz",
+      "bytes": 6063,
+      "sha256": "ba7085057c09abd1ad054d5709457015155d8980f7ba930314778b5e076674e5"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/earlier_sft/internal3_v1.jsonl.gz",
+      "bytes": 6100,
+      "sha256": "4597f2f51d2d288e360defa77b54ef72156578e670c5227d99520ced8b6fa875"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/earlier_sft/internal3_v1_swap.jsonl.gz",
+      "bytes": 6029,
+      "sha256": "83a31725f961a9fb44bef4e36a12feac9a6a1d29ea8e860930f9adc307bdb356"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/earlier_sft/optional_v0.jsonl.gz",
+      "bytes": 5611,
+      "sha256": "4aa6bae0451d53dad34dea91d9da637f9bdfadfe00a75faa304375589724a4b6"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/earlier_sft/optional_v1.jsonl.gz",
+      "bytes": 5509,
+      "sha256": "f07edd78ac67684f02bab3a84b5514a992861adc24f801d750c905adbbe5a8a3"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/own_query_js/CHECKPOINT_SEALED.json",
+      "bytes": 350,
+      "sha256": "31f4c28a847ba551f45608fbe48d6f2f1f717a22c3c918ebb694976c84c8771a"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/own_query_js/ORIGIN.json",
+      "bytes": 113,
+      "sha256": "1decb1bc5472081582344634238c63fc16bbc801f79d8895a632092d1ae822cf"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/own_query_js/adapter/README.md",
+      "bytes": 5155,
+      "sha256": "39d3d3aa2d89a2b4ab09cecd018fbbc4cebc3f4b2c6d9e85b81abc38a1dc4045"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/own_query_js/adapter/adapter_config.json",
+      "bytes": 835,
+      "sha256": "962ed6e71f0f3cd8f563679a110b736742c093f5421841fab629b557a171ba48"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/own_query_js/adapter/adapter_model.safetensors",
+      "bytes": 1858776,
+      "sha256": "0c70026284837ef6966aca8aad24dfd3398bc6accad9ddd7f79ff38160102bdf"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/own_query_js/authorized_v0.jsonl.gz",
+      "bytes": 5510,
+      "sha256": "480d4ccdb5ea845eddcb57264ee2a54b4bedad392210832d5b986dc248fffc6b"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/own_query_js/authorized_v1.jsonl.gz",
+      "bytes": 5566,
+      "sha256": "4efa297ee0dd22ff2eeb87ff14ce120655334782f6c90b3e90266a974d54f583"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/own_query_js/base_v0.jsonl.gz",
+      "bytes": 9019,
+      "sha256": "d2dca84f560ac045b7195c7945c26e5f789ee54313aca006c9f1284e602d9ff9"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/own_query_js/base_v0_swap.jsonl.gz",
+      "bytes": 9029,
+      "sha256": "54477e3ecf47bcb01120ba6d2e78f466eef109a0993a8b320a666eb0460683d7"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/own_query_js/base_v1.jsonl.gz",
+      "bytes": 8976,
+      "sha256": "a13dde4b175186ad7a8adc1a8bd3e0575b0d2a067aec6cfc3b991fb41363a4b1"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/own_query_js/base_v1_swap.jsonl.gz",
+      "bytes": 8119,
+      "sha256": "989df5feaccd1ce59459628901220e1f6b5e93958615fbb213811ef83eae95b7"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/own_query_js/both_v0.jsonl.gz",
+      "bytes": 4107,
+      "sha256": "74373d22a33906f8fb79573242e9e10c3063e0cdd8adc1b31eb97353dafe41ae"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/own_query_js/both_v1.jsonl.gz",
+      "bytes": 4158,
+      "sha256": "ddf297fdacf65aa1634baa9c68275c8a8b1623b3f4e9317b354d94b51dc06d75"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/own_query_js/cycle4_v0.jsonl.gz",
+      "bytes": 6621,
+      "sha256": "7b401729b8f372c0fc0ed54375bc1d50e36c217dfc4c4cc7ce4d0559e69d83bf"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/own_query_js/cycle4_v0_swap.jsonl.gz",
+      "bytes": 6352,
+      "sha256": "38141ff5f9347f4a7073543e3ba42790399318a470ef030da452e62f9f4e2360"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/own_query_js/cycle4_v1.jsonl.gz",
+      "bytes": 6719,
+      "sha256": "47e4cd928d0474de60a627c7cb0483f41aab5cb1f45d469323794b1f253f47b6"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/own_query_js/cycle4_v1_swap.jsonl.gz",
+      "bytes": 6508,
+      "sha256": "93bf12aa5f617b1dddc93ef115436a3cbcdb3c5930670cea33d5cfd30bdd4759"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/own_query_js/depth3_v0.jsonl.gz",
+      "bytes": 5730,
+      "sha256": "8bdf3aba1efda04da5f87ef0b88a9dedd66177d50dd7a987dce02e34bdc34a50"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/own_query_js/depth3_v0_swap.jsonl.gz",
+      "bytes": 5757,
+      "sha256": "76b7c976e17dd4ae7259c18635105f4ad366ec91102b42b5f968836c5bc65db9"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/own_query_js/depth3_v1.jsonl.gz",
+      "bytes": 5461,
+      "sha256": "9d4656e2083a5962a80a8a530d7369286285135686ede36cbb5723cfc0ea95bc"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/own_query_js/depth3_v1_swap.jsonl.gz",
+      "bytes": 5731,
+      "sha256": "a86684b6076956b1b25a5ff3a85db3e172990351a8530cd7a1ffc536e952063a"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/own_query_js/draft_v0.jsonl.gz",
+      "bytes": 4863,
+      "sha256": "360a1b8adb01bd6275d240a533ba9251b661bc5a307d643dd4419874747e298f"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/own_query_js/draft_v1.jsonl.gz",
+      "bytes": 4880,
+      "sha256": "7810470ec4804dcea435baf0592f9359fe907cf23988e519559e564b4d92e4d0"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/own_query_js/internal3_v0.jsonl.gz",
+      "bytes": 5989,
+      "sha256": "669e8314454700e25250a391d498f148006521c4070517bbd2c9e947ba0befa5"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/own_query_js/internal3_v0_swap.jsonl.gz",
+      "bytes": 5818,
+      "sha256": "00ada1992fac2dcf163bcf1a528a797f924fc984c2c64519ffef76f9059feba9"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/own_query_js/internal3_v1.jsonl.gz",
+      "bytes": 5541,
+      "sha256": "61190c35672d1221922b555107656bd91efae7098e5c7775e00a33161f01cdbd"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/own_query_js/internal3_v1_swap.jsonl.gz",
+      "bytes": 5515,
+      "sha256": "fa2296553c7d87861cba51fcb9acc05f5c945fdedff54d35cda9ecde0d532e6c"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/own_query_js/optional_v0.jsonl.gz",
+      "bytes": 5638,
+      "sha256": "457bd0876d0ff31270c477a52c64ffaa94b31cadb9d4baa44e2c11d35a793cae"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/own_query_js/optional_v1.jsonl.gz",
+      "bytes": 5521,
+      "sha256": "596f612722de61afa82b58a3e880e6215b9c83998242971b340f4be67fddb899"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/own_sft/CHECKPOINT_SEALED.json",
+      "bytes": 350,
+      "sha256": "6eb164ce7a894b4d1101cf83b3ace782bcfec2d63df77cc5d59c14acc33021aa"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/own_sft/ORIGIN.json",
+      "bytes": 114,
+      "sha256": "9aef21a8b251d83676f997280ef4ad4a40cf49bc8393fc236cd344b57a0b220d"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/own_sft/adapter/README.md",
+      "bytes": 5155,
+      "sha256": "39d3d3aa2d89a2b4ab09cecd018fbbc4cebc3f4b2c6d9e85b81abc38a1dc4045"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/own_sft/adapter/adapter_config.json",
+      "bytes": 835,
+      "sha256": "317dc54d0fcd6fb3b630eec143c04640103d5388e4a41e5bdedf7f327c2613a7"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/own_sft/adapter/adapter_model.safetensors",
+      "bytes": 1858776,
+      "sha256": "19ce84b982ab7c4ed9cd65f5d918a5331f5e7c55e20c6f94ca62044eb648f83c"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/own_sft/authorized_v0.jsonl.gz",
+      "bytes": 5509,
+      "sha256": "d2ba12ed0074a236f7bf09a115f1cb95876ebaabd8fbb750f60ccc97bb84c004"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/own_sft/authorized_v1.jsonl.gz",
+      "bytes": 5546,
+      "sha256": "f014ece4df773124915fb9d2d32a3178ac22d60a679521f764fe49059fc6e828"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/own_sft/base_v0.jsonl.gz",
+      "bytes": 7821,
+      "sha256": "ecd95d0a2fe6f5873b64c216005d34152b132cd12a16a2ee022b281cb71b89ea"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/own_sft/base_v0_swap.jsonl.gz",
+      "bytes": 7825,
+      "sha256": "e64690d3638d2f622a79ff13cb5717c3f098369e46f8446f7a49dd8be202244c"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/own_sft/base_v1.jsonl.gz",
+      "bytes": 7282,
+      "sha256": "55ee84caee8cee9d0d7edbc1bb015c48d563e87b96d2bb0d461b03cafd42a07d"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/own_sft/base_v1_swap.jsonl.gz",
+      "bytes": 7256,
+      "sha256": "a8a7963981de20e9ba9ada3d9f4ec15430f20de1c9864dfb134e10dbcd5da179"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/own_sft/both_v0.jsonl.gz",
+      "bytes": 3873,
+      "sha256": "b73bae02758d94bec7bc91b43dd856d1c6f10d2cccb146abd55cb35bac8fea18"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/own_sft/both_v1.jsonl.gz",
+      "bytes": 4158,
+      "sha256": "2a8a1607d6fee27b4775e3d9c391764806c2868ae8737f7feff15b95a996d8c1"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/own_sft/cycle4_v0.jsonl.gz",
+      "bytes": 6177,
+      "sha256": "fac1829bbcd9179a0ef16e9bbd80e177e88b27edc8afdc246bf7d8c180a010b7"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/own_sft/cycle4_v0_swap.jsonl.gz",
+      "bytes": 5582,
+      "sha256": "a86bb294199859d475ad4a4a17b7c881a688ba99c568734b2bfc310cff14a82c"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/own_sft/cycle4_v1.jsonl.gz",
+      "bytes": 5102,
+      "sha256": "ac81836c313e4fb0f3ba0244ca78a736bc5ccf71078f553496db6fc23c6b251f"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/own_sft/cycle4_v1_swap.jsonl.gz",
+      "bytes": 5130,
+      "sha256": "5865a43ca6fa4750ee14fa7b4e39851fcdc4debc54f03c313f138eb7386a825c"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/own_sft/depth3_v0.jsonl.gz",
+      "bytes": 5497,
+      "sha256": "8196bb803ac7cf58f49fb5f473374fd83e1894f73f2aa0d975dc683b3e93d2ec"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/own_sft/depth3_v0_swap.jsonl.gz",
+      "bytes": 5518,
+      "sha256": "e883c744e80a8a2664bcc11c61888173ed6dbe212ae61d9907ef8795f3692925"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/own_sft/depth3_v1.jsonl.gz",
+      "bytes": 5464,
+      "sha256": "ee57f068af187cacda09b168b1903bfb46ed5ccb89f39eed953ccac915497b28"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/own_sft/depth3_v1_swap.jsonl.gz",
+      "bytes": 5529,
+      "sha256": "21116fb816c6af06ecc497ce1b1942f87255c13c161c0f25ab754b828c7c3c25"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/own_sft/draft_v0.jsonl.gz",
+      "bytes": 4445,
+      "sha256": "b97dc3bfc81425f53bd617a79df8101ad1ed66b2089037dc7430e7ecc5cec238"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/own_sft/draft_v1.jsonl.gz",
+      "bytes": 4458,
+      "sha256": "991679882e380809086afe075f39ccc8c894d0419dd00e7c40f5827dd050ba25"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/own_sft/internal3_v0.jsonl.gz",
+      "bytes": 5761,
+      "sha256": "7005d438e2aa1cfaf35d3094aeb7dadaa65e945b3a8c62f471618027b9811a50"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/own_sft/internal3_v0_swap.jsonl.gz",
+      "bytes": 5817,
+      "sha256": "4a1f92a692f9018f8885d091b84477028823cbbed2c3b10df382aafbfc99fbbf"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/own_sft/internal3_v1.jsonl.gz",
+      "bytes": 4198,
+      "sha256": "e3e54ce689d3291d095875d3a8f8b40e35e84306a255affe4eb1de99e2901599"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/own_sft/internal3_v1_swap.jsonl.gz",
+      "bytes": 4169,
+      "sha256": "f22a77ea3e9e23887f1733941ff71c31ffbb95b0fd02291a7845bdb1b76fdee5"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/own_sft/optional_v0.jsonl.gz",
+      "bytes": 5640,
+      "sha256": "c6a6015380e3556997f9b217638b34c24d535f033b9624275e8bc560e93b1e73"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/own_sft/optional_v1.jsonl.gz",
+      "bytes": 5520,
+      "sha256": "dbb38901932fd5f1d8b691f246ceea65431ae1df2b0441fe6e58a6717ad17b68"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/teacher_query_js/CHECKPOINT_SEALED.json",
+      "bytes": 350,
+      "sha256": "113a184e8a95b87e26e91908f92cd49c07c095c8289caad7481c836f4202591b"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/teacher_query_js/adapter/README.md",
+      "bytes": 5155,
+      "sha256": "39d3d3aa2d89a2b4ab09cecd018fbbc4cebc3f4b2c6d9e85b81abc38a1dc4045"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/teacher_query_js/adapter/adapter_config.json",
+      "bytes": 835,
+      "sha256": "317dc54d0fcd6fb3b630eec143c04640103d5388e4a41e5bdedf7f327c2613a7"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/teacher_query_js/adapter/adapter_model.safetensors",
+      "bytes": 1858776,
+      "sha256": "7aa3ac6d3d5f37d418b65a076e9268441f02d514d1afd3791dcfb0abf8b216aa"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/teacher_query_js/authorized_v0.jsonl.gz",
+      "bytes": 5521,
+      "sha256": "fd8f1e2e21978ba51f6a952ddf636f8f3a461e8dd9072fc3dc691a95a67021f4"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/teacher_query_js/authorized_v1.jsonl.gz",
+      "bytes": 5564,
+      "sha256": "7a66b4593a90c040401deab2dc22e1f41808dd1d7381c4eb665b864ed1c02aa2"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/teacher_query_js/base_v0.jsonl.gz",
+      "bytes": 7812,
+      "sha256": "340e07ab8217930d0bcaa857a55a9c4ea6a7f1a2168942706801fe386fcb3716"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/teacher_query_js/base_v0_swap.jsonl.gz",
+      "bytes": 7827,
+      "sha256": "3bad0283b4a617cde82141fafdff04e813ebd323ec0fbae651b001ae50930b95"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/teacher_query_js/base_v1.jsonl.gz",
+      "bytes": 7255,
+      "sha256": "50855b7c91032d1e9b0dede1cbe5966083b59c47c266b4255941fc3bd54de4e9"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/teacher_query_js/base_v1_swap.jsonl.gz",
+      "bytes": 7246,
+      "sha256": "72aa47f7ce03063e2a9108da0bd38435fb57754e9477a36ab2a1989b41dac0de"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/teacher_query_js/both_v0.jsonl.gz",
+      "bytes": 3879,
+      "sha256": "d9bb6832a3b637e8ef727a95fe8646c9a4c87846943dee95998d35d87204226c"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/teacher_query_js/both_v1.jsonl.gz",
+      "bytes": 4105,
+      "sha256": "9474c138a3cc45c7381be4196ebeb33adff59cefeadf344e9a3b97acbc8f2db9"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/teacher_query_js/cycle4_v0.jsonl.gz",
+      "bytes": 6173,
+      "sha256": "6fb252a09c79bea8114601939e7ba2cd3753c095083529c7c88f06cbe2d47688"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/teacher_query_js/cycle4_v0_swap.jsonl.gz",
+      "bytes": 5138,
+      "sha256": "87ab203c0fd3c2869d12bd7c9a78f427d74ffff01994f2f321cb24eddaab88d4"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/teacher_query_js/cycle4_v1.jsonl.gz",
+      "bytes": 5380,
+      "sha256": "5720abe2888ff1d6e2c2eeceb0aef510c8e0d323425b637c64d7d10a7c9641aa"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/teacher_query_js/cycle4_v1_swap.jsonl.gz",
+      "bytes": 5388,
+      "sha256": "2106379a18a3f71cd4642cd11173141367a6b432d30b287c653765dca64be2f2"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/teacher_query_js/depth3_v0.jsonl.gz",
+      "bytes": 5456,
+      "sha256": "7ff366cf348870cebdd09c864808fa5bc9229e71f971a5c36b52c5340b0160af"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/teacher_query_js/depth3_v0_swap.jsonl.gz",
+      "bytes": 5468,
+      "sha256": "70e03fd5bbb279900ef374e66357df7fb5c53d07a676e7e8562d32f098f418e9"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/teacher_query_js/depth3_v1.jsonl.gz",
+      "bytes": 5455,
+      "sha256": "49de9fec4ff3cd5ee883dad7cfa713e92fc62df26a13c2bcd2fce28b9da373ad"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/teacher_query_js/depth3_v1_swap.jsonl.gz",
+      "bytes": 5472,
+      "sha256": "3ed71df23f5fcca4b4686c5d52345ac0b72bec0728f81b7948a7a91119c98e70"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/teacher_query_js/draft_v0.jsonl.gz",
+      "bytes": 4887,
+      "sha256": "d3dd69ff8fa343b885f38f03ad9faef88d772a179df51b55c0387fac0f35c6c5"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/teacher_query_js/draft_v1.jsonl.gz",
+      "bytes": 4715,
+      "sha256": "86af8dfe927eabd7f0e8f1177440a953aff38346d20dfc061215831bf171e5bd"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/teacher_query_js/internal3_v0.jsonl.gz",
+      "bytes": 5728,
+      "sha256": "25d010f1acb4c582e7e66f6029af6b4e9ff996a2cdd5e9b804278d019b58434d"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/teacher_query_js/internal3_v0_swap.jsonl.gz",
+      "bytes": 5759,
+      "sha256": "ded032287c8b0ad917dcfe5de8cbe9ed19b311057ae6565479637736dc0e43c6"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/teacher_query_js/internal3_v1.jsonl.gz",
+      "bytes": 4130,
+      "sha256": "d4c4090d417d941c17f1a73d4d165f5262befb9e695c6f916c47a6c00ea30360"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/teacher_query_js/internal3_v1_swap.jsonl.gz",
+      "bytes": 4122,
+      "sha256": "b4416119429d0af0cc5e85238b8eca30f3a85daab674920be38f577f51625852"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/teacher_query_js/optional_v0.jsonl.gz",
+      "bytes": 5594,
+      "sha256": "a6850079a53a7947b45717a908edde3f73a2d91f93acff5c35fb6411a0ee3261"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/teacher_query_js/optional_v1.jsonl.gz",
+      "bytes": 5488,
+      "sha256": "85ec86964cecf87d32ac2434595fd21b89c393413d8dd913d3860503d720d7d7"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/teacher_query_js/training.jsonl.gz",
+      "bytes": 5479,
+      "sha256": "838d9dc536c1a8bb80ad87de3b59fc96182d5a585b484c89bbdf416053f70070"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/teacher_sft/CHECKPOINT_SEALED.json",
+      "bytes": 350,
+      "sha256": "f80a940a2a59fde0f2cb307554e076bf60e3cfe3ad1bd2ad4121c46c74e7ed8e"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/teacher_sft/adapter/README.md",
+      "bytes": 5155,
+      "sha256": "39d3d3aa2d89a2b4ab09cecd018fbbc4cebc3f4b2c6d9e85b81abc38a1dc4045"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/teacher_sft/adapter/adapter_config.json",
+      "bytes": 835,
+      "sha256": "317dc54d0fcd6fb3b630eec143c04640103d5388e4a41e5bdedf7f327c2613a7"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/teacher_sft/adapter/adapter_model.safetensors",
+      "bytes": 1858776,
+      "sha256": "b311df52c508b8d2142f9fcaa26b04dae0d92cd1806608eab59207e24dc0a42f"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/teacher_sft/authorized_v0.jsonl.gz",
+      "bytes": 5513,
+      "sha256": "3449a80fc6eea80c434ad0475b4c14394bedc42ef4a7fc140ce5766ec816e31b"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/teacher_sft/authorized_v1.jsonl.gz",
+      "bytes": 5548,
+      "sha256": "d210b8bf3fa67595b944728a4a0e1f187f199725b15857e0470d53d93013ca5d"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/teacher_sft/base_v0.jsonl.gz",
+      "bytes": 8839,
+      "sha256": "5d36845fd018b52a3573d5271f45d03720347174d029d57b098b44bc34b6153b"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/teacher_sft/base_v0_swap.jsonl.gz",
+      "bytes": 8086,
+      "sha256": "2db35912d08c7de61803f1475720e8c7f0ca18bb168c4a2c264d1a3578c0edd0"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/teacher_sft/base_v1.jsonl.gz",
+      "bytes": 7516,
+      "sha256": "d34afef418a9d454c3826ae509c883de65499141bbc21e796c6f34ccf9498ef7"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/teacher_sft/base_v1_swap.jsonl.gz",
+      "bytes": 7550,
+      "sha256": "abb352b6866c4cb1ebd657e6dc20227d3762785d9f4d331519441b9b38110fb6"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/teacher_sft/both_v0.jsonl.gz",
+      "bytes": 5580,
+      "sha256": "39ad1473f1f6119d7e1ac43948233627041b82531d2a19786f6619471237a64a"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/teacher_sft/both_v1.jsonl.gz",
+      "bytes": 5575,
+      "sha256": "f9b53008c6fb847b784e6af1c17cfdb5f0fe593e9cf125d0ad61fa3d3ce9d6e3"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/teacher_sft/cycle4_v0.jsonl.gz",
+      "bytes": 6543,
+      "sha256": "c3a03ca413e1a793c7d33e662a8418bbe41d57d247806f246dd16c1c56376e49"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/teacher_sft/cycle4_v0_swap.jsonl.gz",
+      "bytes": 5515,
+      "sha256": "32279daa1edffeb1d8e9c747a3300ef895223385a9fef3d6b9cc74308fab694c"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/teacher_sft/cycle4_v1.jsonl.gz",
+      "bytes": 6019,
+      "sha256": "26931952a713c5901576bf400d0233f85b7dccb1ca9c0daf30da89788951bc16"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/teacher_sft/cycle4_v1_swap.jsonl.gz",
+      "bytes": 6015,
+      "sha256": "908f1a972187a7b51046d93f166601039bb4bfe84865bdf4932ee05c447e8eac"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/teacher_sft/depth3_v0.jsonl.gz",
+      "bytes": 5656,
+      "sha256": "b5e8fd36aac9d1dc01b5afb52503d825d2e2d002d0374a9acb17bcf35a8ee728"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/teacher_sft/depth3_v0_swap.jsonl.gz",
+      "bytes": 5686,
+      "sha256": "b91f046ef8c36b3fe3e1db60738385c8a012147a339481c962e931f2491e988c"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/teacher_sft/depth3_v1.jsonl.gz",
+      "bytes": 5935,
+      "sha256": "7bc85ba3821b500f518c077470c7402e31afeef710f47813089985b309c7ece3"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/teacher_sft/depth3_v1_swap.jsonl.gz",
+      "bytes": 5949,
+      "sha256": "406b7162aec63e8a4a916bfe43f58a0c614e31488600659ef7aae643fda8daf8"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/teacher_sft/draft_v0.jsonl.gz",
+      "bytes": 4863,
+      "sha256": "5d47f8db1d6022aa788b0538f674c5d39c59377bf54aee10ecc7d4e4d330ae6d"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/teacher_sft/draft_v1.jsonl.gz",
+      "bytes": 4717,
+      "sha256": "77dfe8a573bff5d5ddfae7fd4d4006add521b78e21b6e24b0337d0c947af4d5f"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/teacher_sft/internal3_v0.jsonl.gz",
+      "bytes": 5721,
+      "sha256": "3546910584014cdc8a560c2e97864a65740aaefcb6c29d513a6c30f60017b546"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/teacher_sft/internal3_v0_swap.jsonl.gz",
+      "bytes": 5752,
+      "sha256": "00ce04f78efb0e74ae232b0c00470c041458eabc866318325a0bbed0af95a109"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/teacher_sft/internal3_v1.jsonl.gz",
+      "bytes": 4132,
+      "sha256": "bd855fdba5cd35746776cb82111ecdcee1b100f516aebe8dd0679f81f9986e36"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/teacher_sft/internal3_v1_swap.jsonl.gz",
+      "bytes": 4117,
+      "sha256": "1ba6c0f351e3483354ddc79f6aecc1aaf82ade09b406c6a45a5791f5a3b34756"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/teacher_sft/optional_v0.jsonl.gz",
+      "bytes": 5585,
+      "sha256": "e6ccc5e964e648311a0b8891ffe31407c4f9b6b10f36355d6026c002dcdce725"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/teacher_sft/optional_v1.jsonl.gz",
+      "bytes": 5484,
+      "sha256": "bed8afd5c07680ee9d8874b8cd2f4b965c723aa0ffda26e9bc870d0f09cc9e54"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/repair/teacher_sft/training.jsonl.gz",
+      "bytes": 5474,
+      "sha256": "e8808504d33881bc90dd171b2823797c390d7fd7cbb5da16fbecb80c2420c181"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/replay.py",
+      "bytes": 6340,
+      "sha256": "28bbbeab3a0f7090142c5b387f5f938b94a6d9cc161d706f491f19ede15adfaf"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/run.log",
+      "bytes": 30582,
+      "sha256": "57165ee3a827f27926c0dad8fbded4d1a9e3dca802d97c0ba23079b1271eecbb"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/run.py",
+      "bytes": 6815,
+      "sha256": "a672af6cfc7c9ebde24899b7bd2aadaa25be803ac136712b83c3c356098f1805"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/summarize.py",
+      "bytes": 5933,
+      "sha256": "0ddcb5b4743a2693a716f6ba9b9756cd39b7fdc88576ec68fdf711194cf7b9c1"
+    },
+    {
+      "path": "artifacts/20261117_teacher_binding/summary.log",
+      "bytes": 27090,
+      "sha256": "320dd65c3252620500e6409532ec5efa410fe3d209c74eb7152fe18cef78fa84"
     },
     {
       "path": "artifacts/20261117_value_consistency/ARCHIVE_VERIFIED.json",
@@ -50139,6 +51329,11 @@
       "path": "tools/restore_semantic_artifacts.py",
       "bytes": 1217,
       "sha256": "0423036bd891ea6d4d317a20a2459aace4ccc7345e5f1dd1d69ffef23db73dd3"
+    },
+    {
+      "path": "tools/restore_teacher_binding_artifacts.py",
+      "bytes": 1692,
+      "sha256": "5ba36d3245648251d7f6662a71face2d67dcb541e13496909f3e91ddcff5195a"
     },
     {
       "path": "tools/restore_value_consistency_artifacts.py",

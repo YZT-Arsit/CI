@@ -1,0 +1,45 @@
+{
+  "negative_controls": [
+    {
+      "field": "seconds",
+      "expected": "response_wall_time_limit",
+      "pass": true
+    },
+    {
+      "field": "prompt_eval_count",
+      "expected": "token_count_mismatch",
+      "pass": true
+    },
+    {
+      "field": "done",
+      "expected": "incomplete_response",
+      "pass": true
+    },
+    {
+      "field": "done_reason",
+      "expected": "incomplete_response",
+      "pass": true
+    },
+    {
+      "field": "response",
+      "expected": "invalid_command_format",
+      "pass": true
+    },
+    {
+      "field": "response",
+      "expected": "invalid_command_format",
+      "pass": true
+    },
+    {
+      "field": "response",
+      "expected": "invalid_command_format",
+      "pass": true
+    }
+  ],
+  "valid_response_accepted": true,
+  "plan_source_hashes_match": true,
+  "prelaunch_only": true,
+  "model_calls": 0,
+  "native_tool_calls": 0,
+  "auditor_sha256": "10a12b8bf7fd849c9f0cb9ce75738b5cda4423a676682b3795b52c79782e929f"
+}

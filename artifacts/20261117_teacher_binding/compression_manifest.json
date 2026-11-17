@@ -1,0 +1,980 @@
+{
+  "files": [
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/earlier_sft/authorized_v0.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/earlier_sft/authorized_v0.jsonl.gz",
+      "raw_sha256": "eeee6921b76f33f87b4e2a94d976683b3f9c10ad29f7cc617d56631a31c5a6cb",
+      "compressed_sha256": "bd8ac7a7a59a4d86cf25a091b412d2fca9cd869447ef21d78e765a191159514a",
+      "raw_bytes": 53388,
+      "compressed_bytes": 5507
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/earlier_sft/authorized_v1.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/earlier_sft/authorized_v1.jsonl.gz",
+      "raw_sha256": "d14a2023efb180d69735f8b2163e0b4555bf63800f766f36983fb2e836caf936",
+      "compressed_sha256": "f90cb0dda493b575fd495925bbe7f4e067bc0af8bb24235ea68977032ed063b1",
+      "raw_bytes": 53301,
+      "compressed_bytes": 5545
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/earlier_sft/base_v0.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/earlier_sft/base_v0.jsonl.gz",
+      "raw_sha256": "3cb344928fb659c694d36395e7105e99643ad7fa30cbafdd72a071c318c0d106",
+      "compressed_sha256": "78261d1071422073d625f75d859e7b3cf4d9e3ed967a9cb375c4e983c71f1638",
+      "raw_bytes": 106563,
+      "compressed_bytes": 8196
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/earlier_sft/base_v0_swap.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/earlier_sft/base_v0_swap.jsonl.gz",
+      "raw_sha256": "94e84fff240d9d09b42094e86e9da865cd2590d4ff03f306bc58b29b4c284d98",
+      "compressed_sha256": "09b5e30cb56381d23a94d19f6f3e57c8c3ee2984cb4fa508f6f727b677ddbc29",
+      "raw_bytes": 106566,
+      "compressed_bytes": 8206
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/earlier_sft/base_v1.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/earlier_sft/base_v1.jsonl.gz",
+      "raw_sha256": "3b7623d3b62dbf7bc844e6ac8d108452edb1dd4443dd554e3c39275a926caad6",
+      "compressed_sha256": "f0e5a122fb99629f086378b3cdd17c262e3151dd87b6c960db423f02da25aaa8",
+      "raw_bytes": 106614,
+      "compressed_bytes": 8122
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/earlier_sft/base_v1_swap.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/earlier_sft/base_v1_swap.jsonl.gz",
+      "raw_sha256": "128f7651b77bce66f8141d90700763d4a82697ae1f89af838fb20804e4dc7786",
+      "compressed_sha256": "a8bff6284bd51c0a6b74c8b518843d5213c1144f82d947b0b4f08377169e8d18",
+      "raw_bytes": 106609,
+      "compressed_bytes": 8126
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/earlier_sft/both_v0.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/earlier_sft/both_v0.jsonl.gz",
+      "raw_sha256": "33d14c1864cabce917b35ed0206e22826510d37701085807465c97e6bbb01c06",
+      "compressed_sha256": "3988bf80d575ba686e265c1c38ecbcb7bf85dab7e09b6a1218888513dc375a66",
+      "raw_bytes": 54024,
+      "compressed_bytes": 5644
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/earlier_sft/both_v1.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/earlier_sft/both_v1.jsonl.gz",
+      "raw_sha256": "1efcd23bf925f4b0e2185655aeecd05d7ad4f8343dcfa524b538761730bfcd32",
+      "compressed_sha256": "522a2cc254488f4584f307a6ff5751bd6cba1bdb6bc6d238358708a166aa6834",
+      "raw_bytes": 54075,
+      "compressed_bytes": 5608
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/earlier_sft/cycle4_v0.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/earlier_sft/cycle4_v0.jsonl.gz",
+      "raw_sha256": "51dfb67c89d5a8111f0c53b94336b0fe3179cb95773c51c4651a221fdc30644f",
+      "compressed_sha256": "c04409a793c63896bb02e5b9f8576e3a7ad0c0678d2946e94f7c2173a31056e3",
+      "raw_bytes": 63475,
+      "compressed_bytes": 7089
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/earlier_sft/cycle4_v0_swap.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/earlier_sft/cycle4_v0_swap.jsonl.gz",
+      "raw_sha256": "daadb16095b60d9a49e4760c99f78c320b100c33768be8f44955635aeffe80fd",
+      "compressed_sha256": "45fdbe8ef55b312144fe0c43a833efa56af3695e371f0bd0cb167d386f9f7abb",
+      "raw_bytes": 63461,
+      "compressed_bytes": 7090
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/earlier_sft/cycle4_v1.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/earlier_sft/cycle4_v1.jsonl.gz",
+      "raw_sha256": "987ebd30dc22d2e57b7baf93513ada927145b6df451ee68a6ecd68aeec0d8cab",
+      "compressed_sha256": "22761ff6073bd5dc268b0bbe1d14c34b991342fe547960e8d5481095946dc51d",
+      "raw_bytes": 63372,
+      "compressed_bytes": 6962
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/earlier_sft/cycle4_v1_swap.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/earlier_sft/cycle4_v1_swap.jsonl.gz",
+      "raw_sha256": "4089b6752a4fe727f4851e124fec125f4d4105042feca5a1a25eba23c18b1550",
+      "compressed_sha256": "d6c0e37a287fad6c2dcbb0f011846c9ece97d99c872ebf5b9aec13514acf7f95",
+      "raw_bytes": 63504,
+      "compressed_bytes": 7002
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/earlier_sft/depth3_v0.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/earlier_sft/depth3_v0.jsonl.gz",
+      "raw_sha256": "a6a009b293a10c738f51f908430a7587d4cec16b2465885730a7cea005544b20",
+      "compressed_sha256": "0a1006af4af6c8d3d2c74c8ca177dd740c4d47d2eab8edf63eef58c8b30329cd",
+      "raw_bytes": 55967,
+      "compressed_bytes": 6013
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/earlier_sft/depth3_v0_swap.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/earlier_sft/depth3_v0_swap.jsonl.gz",
+      "raw_sha256": "f38d08201c174e38ba5a32bda2d8083534f2e999f96c4631ed3b342f35651ca6",
+      "compressed_sha256": "f32ea95f7bda672eb69c5e074932f84c98911a121589d5eab0d02928635f4443",
+      "raw_bytes": 56041,
+      "compressed_bytes": 6037
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/earlier_sft/depth3_v1.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/earlier_sft/depth3_v1.jsonl.gz",
+      "raw_sha256": "7139bf6f43c4f3ff569f6327c857b62a001a9965ed8dc17d680eb847cd551521",
+      "compressed_sha256": "82775e7832dfe7a38df0710ba89c9ad94aa922b873a93648a255b7cc836d7966",
+      "raw_bytes": 56002,
+      "compressed_bytes": 6006
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/earlier_sft/depth3_v1_swap.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/earlier_sft/depth3_v1_swap.jsonl.gz",
+      "raw_sha256": "2ac2ca3272bc30692bfd2e0d79b565b5f5a090bf62449ad4f7ad8d51d093c7f5",
+      "compressed_sha256": "ee72ddf8bbcea45a6f356c49721852060edfdec0eb00b4449adc28591854291e",
+      "raw_bytes": 56069,
+      "compressed_bytes": 6018
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/earlier_sft/draft_v0.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/earlier_sft/draft_v0.jsonl.gz",
+      "raw_sha256": "607929f1464423cf349d9b93127d0fb3353985cc13b0c7512f43ea2ea12c9596",
+      "compressed_sha256": "0e1a497ba68f93e9c2df6c28a7c717236a800d9d6f46de43dcc6c0fe89ea0f8a",
+      "raw_bytes": 50430,
+      "compressed_bytes": 4861
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/earlier_sft/draft_v1.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/earlier_sft/draft_v1.jsonl.gz",
+      "raw_sha256": "ddd2895a69239a959fb5816e1a1c0972172690c20b13ea3a5416979f27c8b995",
+      "compressed_sha256": "186497195219e5cd48ceb856a75e3ce6643bc91e360bbd3679fa4335f7978853",
+      "raw_bytes": 50418,
+      "compressed_bytes": 4850
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/earlier_sft/internal3_v0.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/earlier_sft/internal3_v0.jsonl.gz",
+      "raw_sha256": "887efa741612b158914f86426f6bd1a900830b71394f959756c1d36a4f852fbd",
+      "compressed_sha256": "711a1ced90ae4b7e0478f8bd3147bfa5a20a7f85cb0ac30e7954876db399f29d",
+      "raw_bytes": 56724,
+      "compressed_bytes": 6005
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/earlier_sft/internal3_v0_swap.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/earlier_sft/internal3_v0_swap.jsonl.gz",
+      "raw_sha256": "6e2a0852f1dd157d4f7d911bd42cd96fcc07bec81605288d1f1587a57b47f29f",
+      "compressed_sha256": "ba7085057c09abd1ad054d5709457015155d8980f7ba930314778b5e076674e5",
+      "raw_bytes": 56751,
+      "compressed_bytes": 6063
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/earlier_sft/internal3_v1.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/earlier_sft/internal3_v1.jsonl.gz",
+      "raw_sha256": "76852780e94c224f0bd7296a399abc2c94130b281c06af799a5d419c3012786f",
+      "compressed_sha256": "4597f2f51d2d288e360defa77b54ef72156578e670c5227d99520ced8b6fa875",
+      "raw_bytes": 56859,
+      "compressed_bytes": 6100
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/earlier_sft/internal3_v1_swap.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/earlier_sft/internal3_v1_swap.jsonl.gz",
+      "raw_sha256": "40f045c836fe81bd7acb479d61feac016fdb2295c8dace76cab87d2eab580e04",
+      "compressed_sha256": "83a31725f961a9fb44bef4e36a12feac9a6a1d29ea8e860930f9adc307bdb356",
+      "raw_bytes": 56769,
+      "compressed_bytes": 6029
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/earlier_sft/optional_v0.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/earlier_sft/optional_v0.jsonl.gz",
+      "raw_sha256": "9f7d4ae2353628e078c5501fef8334e8b183c366ddcb70b5fb5199e776782aad",
+      "compressed_sha256": "4aa6bae0451d53dad34dea91d9da637f9bdfadfe00a75faa304375589724a4b6",
+      "raw_bytes": 53397,
+      "compressed_bytes": 5611
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/earlier_sft/optional_v1.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/earlier_sft/optional_v1.jsonl.gz",
+      "raw_sha256": "ab651d615371cb99a3cef4bbddcb71a2420d62c22d465b0269e7a97bc542fa86",
+      "compressed_sha256": "f07edd78ac67684f02bab3a84b5514a992861adc24f801d750c905adbbe5a8a3",
+      "raw_bytes": 53269,
+      "compressed_bytes": 5509
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/own_query_js/authorized_v0.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/own_query_js/authorized_v0.jsonl.gz",
+      "raw_sha256": "ac500cb3e2d64ca303486493643b1db065bfddbbf5de646e1327e637d8f10ea2",
+      "compressed_sha256": "480d4ccdb5ea845eddcb57264ee2a54b4bedad392210832d5b986dc248fffc6b",
+      "raw_bytes": 53386,
+      "compressed_bytes": 5510
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/own_query_js/authorized_v1.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/own_query_js/authorized_v1.jsonl.gz",
+      "raw_sha256": "c6ae2c8191b6bc318c0e540974c76c7a88a353985c8f89977910beb87e090834",
+      "compressed_sha256": "4efa297ee0dd22ff2eeb87ff14ce120655334782f6c90b3e90266a974d54f583",
+      "raw_bytes": 53277,
+      "compressed_bytes": 5566
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/own_query_js/base_v0.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/own_query_js/base_v0.jsonl.gz",
+      "raw_sha256": "bccbb0f52c5adb16253bea63e43c82a1a2f4a3acdace28f02ee4cfeb3d1487ec",
+      "compressed_sha256": "d2dca84f560ac045b7195c7945c26e5f789ee54313aca006c9f1284e602d9ff9",
+      "raw_bytes": 99037,
+      "compressed_bytes": 9019
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/own_query_js/base_v0_swap.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/own_query_js/base_v0_swap.jsonl.gz",
+      "raw_sha256": "1a53bd9c2f3f33400d2fa97250bb4b6fe9c97ca173141e080e7b9d3576a5742c",
+      "compressed_sha256": "54477e3ecf47bcb01120ba6d2e78f466eef109a0993a8b320a666eb0460683d7",
+      "raw_bytes": 99027,
+      "compressed_bytes": 9029
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/own_query_js/base_v1.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/own_query_js/base_v1.jsonl.gz",
+      "raw_sha256": "ea06b7e21569af99d7a2c5fc7ec6ce51f1a0c3673f4eada3590afd5dfb86d1a5",
+      "compressed_sha256": "a13dde4b175186ad7a8adc1a8bd3e0575b0d2a067aec6cfc3b991fb41363a4b1",
+      "raw_bytes": 99121,
+      "compressed_bytes": 8976
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/own_query_js/base_v1_swap.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/own_query_js/base_v1_swap.jsonl.gz",
+      "raw_sha256": "8ccf571ab8053f395005b60e1135c19d65fbbb0be47c8a3cb53540322a5502e9",
+      "compressed_sha256": "989df5feaccd1ce59459628901220e1f6b5e93958615fbb213811ef83eae95b7",
+      "raw_bytes": 106571,
+      "compressed_bytes": 8119
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/own_query_js/both_v0.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/own_query_js/both_v0.jsonl.gz",
+      "raw_sha256": "19fd5e9afa9efe8561a868887400838a5d7bc8ca9cefbae95853dfadef23aff8",
+      "compressed_sha256": "74373d22a33906f8fb79573242e9e10c3063e0cdd8adc1b31eb97353dafe41ae",
+      "raw_bytes": 38853,
+      "compressed_bytes": 4107
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/own_query_js/both_v1.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/own_query_js/both_v1.jsonl.gz",
+      "raw_sha256": "b1a3ef9baaea8294e550780a4c41c54f5f546a1d67d599302ba204082b3988b9",
+      "compressed_sha256": "ddf297fdacf65aa1634baa9c68275c8a8b1623b3f4e9317b354d94b51dc06d75",
+      "raw_bytes": 38883,
+      "compressed_bytes": 4158
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/own_query_js/cycle4_v0.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/own_query_js/cycle4_v0.jsonl.gz",
+      "raw_sha256": "90ad1b34834d15e5ea26f748f7fce022244c26e74877ff3d152701ed81c2a5c3",
+      "compressed_sha256": "7b401729b8f372c0fc0ed54375bc1d50e36c217dfc4c4cc7ce4d0559e69d83bf",
+      "raw_bytes": 54499,
+      "compressed_bytes": 6621
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/own_query_js/cycle4_v0_swap.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/own_query_js/cycle4_v0_swap.jsonl.gz",
+      "raw_sha256": "feb369e15ab155d1ebd2c2c1d7954505f452843872a8128a2027d384e46863ab",
+      "compressed_sha256": "38141ff5f9347f4a7073543e3ba42790399318a470ef030da452e62f9f4e2360",
+      "raw_bytes": 47041,
+      "compressed_bytes": 6352
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/own_query_js/cycle4_v1.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/own_query_js/cycle4_v1.jsonl.gz",
+      "raw_sha256": "1775967de100db321fc6f68e26a1f48b7261c66ace79f8fde2dc77b0c6c101f5",
+      "compressed_sha256": "47e4cd928d0474de60a627c7cb0483f41aab5cb1f45d469323794b1f253f47b6",
+      "raw_bytes": 62618,
+      "compressed_bytes": 6719
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/own_query_js/cycle4_v1_swap.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/own_query_js/cycle4_v1_swap.jsonl.gz",
+      "raw_sha256": "ead60d06dd1201683fe1dd98c8f5e5f356daf0b57f72fa8581266a683fb5d0c9",
+      "compressed_sha256": "93bf12aa5f617b1dddc93ef115436a3cbcdb3c5930670cea33d5cfd30bdd4759",
+      "raw_bytes": 55143,
+      "compressed_bytes": 6508
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/own_query_js/depth3_v0.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/own_query_js/depth3_v0.jsonl.gz",
+      "raw_sha256": "8214348e1f5eaacbd7a163ec7d62db23b3ed8c0ce4e41bc8f82cd63cb15ef6d4",
+      "compressed_sha256": "8bdf3aba1efda04da5f87ef0b88a9dedd66177d50dd7a987dce02e34bdc34a50",
+      "raw_bytes": 48967,
+      "compressed_bytes": 5730
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/own_query_js/depth3_v0_swap.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/own_query_js/depth3_v0_swap.jsonl.gz",
+      "raw_sha256": "361cc21a0b9afa65d48bf6f6a622bb1d8493b3e03c3b0369a349f9c604377ff0",
+      "compressed_sha256": "76b7c976e17dd4ae7259c18635105f4ad366ec91102b42b5f968836c5bc65db9",
+      "raw_bytes": 49031,
+      "compressed_bytes": 5757
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/own_query_js/depth3_v1.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/own_query_js/depth3_v1.jsonl.gz",
+      "raw_sha256": "693f703d5d9bfecac927ebfaee2cba7b5289bbf279057496eb68d84d67d38d23",
+      "compressed_sha256": "9d4656e2083a5962a80a8a530d7369286285135686ede36cbb5723cfc0ea95bc",
+      "raw_bytes": 41191,
+      "compressed_bytes": 5461
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/own_query_js/depth3_v1_swap.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/own_query_js/depth3_v1_swap.jsonl.gz",
+      "raw_sha256": "40353f33f71ccbcdd8a17dbe387375bc9cc953451845e3c1fcb74bcd718260b4",
+      "compressed_sha256": "a86684b6076956b1b25a5ff3a85db3e172990351a8530cd7a1ffc536e952063a",
+      "raw_bytes": 48902,
+      "compressed_bytes": 5731
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/own_query_js/draft_v0.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/own_query_js/draft_v0.jsonl.gz",
+      "raw_sha256": "f9a1a7db529cc319fa26eae33ab3818447248ca736b349c0a366600eb3ab62ab",
+      "compressed_sha256": "360a1b8adb01bd6275d240a533ba9251b661bc5a307d643dd4419874747e298f",
+      "raw_bytes": 50434,
+      "compressed_bytes": 4863
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/own_query_js/draft_v1.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/own_query_js/draft_v1.jsonl.gz",
+      "raw_sha256": "2650763e2092d01cbaa73ea15f53eb668d12b55d2626e6e9b898d64d8a45ec88",
+      "compressed_sha256": "7810470ec4804dcea435baf0592f9359fe907cf23988e519559e564b4d92e4d0",
+      "raw_bytes": 50394,
+      "compressed_bytes": 4880
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/own_query_js/internal3_v0.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/own_query_js/internal3_v0.jsonl.gz",
+      "raw_sha256": "546c9b8a0d57c7a5432c897733d312ee1b0039ff5261734048bf07aa74ce2260",
+      "compressed_sha256": "669e8314454700e25250a391d498f148006521c4070517bbd2c9e947ba0befa5",
+      "raw_bytes": 56640,
+      "compressed_bytes": 5989
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/own_query_js/internal3_v0_swap.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/own_query_js/internal3_v0_swap.jsonl.gz",
+      "raw_sha256": "8ee72152baf3636498b46a7ccead9be77179f0609a5c539fe79b2028edb4f550",
+      "compressed_sha256": "00ada1992fac2dcf163bcf1a528a797f924fc984c2c64519ffef76f9059feba9",
+      "raw_bytes": 48894,
+      "compressed_bytes": 5818
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/own_query_js/internal3_v1.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/own_query_js/internal3_v1.jsonl.gz",
+      "raw_sha256": "b52e4e3425cbb03e45a6e6e90de859e19cb7f8cd4e9dc92e5c8cd69670a8916c",
+      "compressed_sha256": "61190c35672d1221922b555107656bd91efae7098e5c7775e00a33161f01cdbd",
+      "raw_bytes": 41957,
+      "compressed_bytes": 5541
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/own_query_js/internal3_v1_swap.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/own_query_js/internal3_v1_swap.jsonl.gz",
+      "raw_sha256": "8767fe2fe8d07844ff682f2ac2ad1df595f307f5b695c51965bcec44430c3618",
+      "compressed_sha256": "fa2296553c7d87861cba51fcb9acc05f5c945fdedff54d35cda9ecde0d532e6c",
+      "raw_bytes": 41920,
+      "compressed_bytes": 5515
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/own_query_js/optional_v0.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/own_query_js/optional_v0.jsonl.gz",
+      "raw_sha256": "4629759ddbe75ab7577211f37cd3b3d5cef69d45d5152a2dfc5699f3017a82ba",
+      "compressed_sha256": "457bd0876d0ff31270c477a52c64ffaa94b31cadb9d4baa44e2c11d35a793cae",
+      "raw_bytes": 53335,
+      "compressed_bytes": 5638
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/own_query_js/optional_v1.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/own_query_js/optional_v1.jsonl.gz",
+      "raw_sha256": "00d397637d4e241db264a9032a37cacfb777b1cb2ddf706c1a82e04492c5366e",
+      "compressed_sha256": "596f612722de61afa82b58a3e880e6215b9c83998242971b340f4be67fddb899",
+      "raw_bytes": 53242,
+      "compressed_bytes": 5521
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/own_sft/authorized_v0.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/own_sft/authorized_v0.jsonl.gz",
+      "raw_sha256": "9945123b4e4efa5b1c58787999b9c5e7c87ba5da022318c72309b0e1ea110cb8",
+      "compressed_sha256": "d2ba12ed0074a236f7bf09a115f1cb95876ebaabd8fbb750f60ccc97bb84c004",
+      "raw_bytes": 53380,
+      "compressed_bytes": 5509
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/own_sft/authorized_v1.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/own_sft/authorized_v1.jsonl.gz",
+      "raw_sha256": "77ec0e2f57a6884040e0b7b595fc3546d4553787c99b2b2631759310bdd5747e",
+      "compressed_sha256": "f014ece4df773124915fb9d2d32a3178ac22d60a679521f764fe49059fc6e828",
+      "raw_bytes": 53297,
+      "compressed_bytes": 5546
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/own_sft/base_v0.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/own_sft/base_v0.jsonl.gz",
+      "raw_sha256": "8ea8ce78fc123263bfb5374149876a9903d30a9b4370ee877fb1ca951df4acb4",
+      "compressed_sha256": "ecd95d0a2fe6f5873b64c216005d34152b132cd12a16a2ee022b281cb71b89ea",
+      "raw_bytes": 70928,
+      "compressed_bytes": 7821
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/own_sft/base_v0_swap.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/own_sft/base_v0_swap.jsonl.gz",
+      "raw_sha256": "a2265477c856fe472bd2b7c6e4a65315a63459270998375a0f029429b536b56a",
+      "compressed_sha256": "e64690d3638d2f622a79ff13cb5717c3f098369e46f8446f7a49dd8be202244c",
+      "raw_bytes": 70931,
+      "compressed_bytes": 7825
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/own_sft/base_v1.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/own_sft/base_v1.jsonl.gz",
+      "raw_sha256": "db37579463eb009ac01dd4c14c81f7517dce32546110ced2df4ba55a7548ee22",
+      "compressed_sha256": "55ee84caee8cee9d0d7edbc1bb015c48d563e87b96d2bb0d461b03cafd42a07d",
+      "raw_bytes": 77563,
+      "compressed_bytes": 7282
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/own_sft/base_v1_swap.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/own_sft/base_v1_swap.jsonl.gz",
+      "raw_sha256": "d095c365906ecb421e231500edfe9ec09b2d51dfec0358671c25f36aad1c44ce",
+      "compressed_sha256": "a8a7963981de20e9ba9ada3d9f4ec15430f20de1c9864dfb134e10dbcd5da179",
+      "raw_bytes": 77519,
+      "compressed_bytes": 7256
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/own_sft/both_v0.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/own_sft/both_v0.jsonl.gz",
+      "raw_sha256": "a1d59fa0905e972533d2606ec3a679478c89541c7ba6d2a877a81180a0c51dd7",
+      "compressed_sha256": "b73bae02758d94bec7bc91b43dd856d1c6f10d2cccb146abd55cb35bac8fea18",
+      "raw_bytes": 32221,
+      "compressed_bytes": 3873
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/own_sft/both_v1.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/own_sft/both_v1.jsonl.gz",
+      "raw_sha256": "69825149398df76cf37a12e336b60ed2dbcb45a9a76fbcf530058c1c432b3865",
+      "compressed_sha256": "2a8a1607d6fee27b4775e3d9c391764806c2868ae8737f7feff15b95a996d8c1",
+      "raw_bytes": 38876,
+      "compressed_bytes": 4158
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/own_sft/cycle4_v0.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/own_sft/cycle4_v0.jsonl.gz",
+      "raw_sha256": "39c71b311abffa3728850a05417d63ac2cf5bf162293cb4137cea696b742f1e0",
+      "compressed_sha256": "fac1829bbcd9179a0ef16e9bbd80e177e88b27edc8afdc246bf7d8c180a010b7",
+      "raw_bytes": 46801,
+      "compressed_bytes": 6177
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/own_sft/cycle4_v0_swap.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/own_sft/cycle4_v0_swap.jsonl.gz",
+      "raw_sha256": "e54fbc92cd1f8a953d98d25fdf7fd06478f5b25cee074cf836443ac4c327824d",
+      "compressed_sha256": "a86bb294199859d475ad4a4a17b7c881a688ba99c568734b2bfc310cff14a82c",
+      "raw_bytes": 47997,
+      "compressed_bytes": 5582
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/own_sft/cycle4_v1.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/own_sft/cycle4_v1.jsonl.gz",
+      "raw_sha256": "0fcc06acd8f14f9e049109fd132029e3acf122800ca98cd7cf26833707d94ed4",
+      "compressed_sha256": "ac81836c313e4fb0f3ba0244ca78a736bc5ccf71078f553496db6fc23c6b251f",
+      "raw_bytes": 39241,
+      "compressed_bytes": 5102
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/own_sft/cycle4_v1_swap.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/own_sft/cycle4_v1_swap.jsonl.gz",
+      "raw_sha256": "5294fc673fe93262d5dbc2e9dafca7a2cd0b7c112199764c1a9b22e6e768c86b",
+      "compressed_sha256": "5865a43ca6fa4750ee14fa7b4e39851fcdc4debc54f03c313f138eb7386a825c",
+      "raw_bytes": 39286,
+      "compressed_bytes": 5130
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/own_sft/depth3_v0.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/own_sft/depth3_v0.jsonl.gz",
+      "raw_sha256": "11bcf77b54536e68b8ccb69d637d79e3efdbcb63af8c8f6dcb566262ee2c622b",
+      "compressed_sha256": "8196bb803ac7cf58f49fb5f473374fd83e1894f73f2aa0d975dc683b3e93d2ec",
+      "raw_bytes": 41259,
+      "compressed_bytes": 5497
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/own_sft/depth3_v0_swap.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/own_sft/depth3_v0_swap.jsonl.gz",
+      "raw_sha256": "11dd0d6f14b2b61138bcd0321f1bdea80bb877492d4d469d5cfae0e6414c45e6",
+      "compressed_sha256": "e883c744e80a8a2664bcc11c61888173ed6dbe212ae61d9907ef8795f3692925",
+      "raw_bytes": 41334,
+      "compressed_bytes": 5518
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/own_sft/depth3_v1.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/own_sft/depth3_v1.jsonl.gz",
+      "raw_sha256": "56bbe939198d9d5f049b104b8c47cd1fe4d607bdf3e61a9625fabdde4d3ac030",
+      "compressed_sha256": "ee57f068af187cacda09b168b1903bfb46ed5ccb89f39eed953ccac915497b28",
+      "raw_bytes": 41196,
+      "compressed_bytes": 5464
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/own_sft/depth3_v1_swap.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/own_sft/depth3_v1_swap.jsonl.gz",
+      "raw_sha256": "119dc903b67489b628e0f2c44575bc7e9c3e613b25da1e6decc74b4a77a6e0ef",
+      "compressed_sha256": "21116fb816c6af06ecc497ce1b1942f87255c13c161c0f25ab754b828c7c3c25",
+      "raw_bytes": 41322,
+      "compressed_bytes": 5529
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/own_sft/draft_v0.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/own_sft/draft_v0.jsonl.gz",
+      "raw_sha256": "780b358a99b5c807ddb656edc3fb391c5b0f34de3c1262d8f33c915430a134c6",
+      "compressed_sha256": "b97dc3bfc81425f53bd617a79df8101ad1ed66b2089037dc7430e7ecc5cec238",
+      "raw_bytes": 36719,
+      "compressed_bytes": 4445
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/own_sft/draft_v1.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/own_sft/draft_v1.jsonl.gz",
+      "raw_sha256": "4dc4382986ba5c2b3e98aad0a1179e344ff3d068ea61d272a1d0b4f90343e7d3",
+      "compressed_sha256": "991679882e380809086afe075f39ccc8c894d0419dd00e7c40f5827dd050ba25",
+      "raw_bytes": 36721,
+      "compressed_bytes": 4458
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/own_sft/internal3_v0.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/own_sft/internal3_v0.jsonl.gz",
+      "raw_sha256": "fb6c462d5cbf768f276267ab4ce1fd632894764f558b2c6b171078b04ea7fd9b",
+      "compressed_sha256": "7005d438e2aa1cfaf35d3094aeb7dadaa65e945b3a8c62f471618027b9811a50",
+      "raw_bytes": 48817,
+      "compressed_bytes": 5761
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/own_sft/internal3_v0_swap.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/own_sft/internal3_v0_swap.jsonl.gz",
+      "raw_sha256": "ff5d8fe94b95841f2be8306bf945f155e09ea2643513f5d2db4a8071c365803a",
+      "compressed_sha256": "4a1f92a692f9018f8885d091b84477028823cbbed2c3b10df382aafbfc99fbbf",
+      "raw_bytes": 48848,
+      "compressed_bytes": 5817
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/own_sft/internal3_v1.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/own_sft/internal3_v1.jsonl.gz",
+      "raw_sha256": "b2aa049216e4dd72913e6a8a814279c26e808abd68464da079546751cd69736b",
+      "compressed_sha256": "e3e54ce689d3291d095875d3a8f8b40e35e84306a255affe4eb1de99e2901599",
+      "raw_bytes": 34167,
+      "compressed_bytes": 4198
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/own_sft/internal3_v1_swap.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/own_sft/internal3_v1_swap.jsonl.gz",
+      "raw_sha256": "639fdfb5d38443def47c37e67e0ceb3b6d52ea6ccc1d53fab7e4632fc19d7c40",
+      "compressed_sha256": "f22a77ea3e9e23887f1733941ff71c31ffbb95b0fd02291a7845bdb1b76fdee5",
+      "raw_bytes": 34124,
+      "compressed_bytes": 4169
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/own_sft/optional_v0.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/own_sft/optional_v0.jsonl.gz",
+      "raw_sha256": "ce1090d9a66329a0172d691924d2af2730ab287eb8104edf67012e5f77c42a4b",
+      "compressed_sha256": "c6a6015380e3556997f9b217638b34c24d535f033b9624275e8bc560e93b1e73",
+      "raw_bytes": 53335,
+      "compressed_bytes": 5640
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/own_sft/optional_v1.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/own_sft/optional_v1.jsonl.gz",
+      "raw_sha256": "3b97f727e81f6ec60307c180afb62dbbfff7955ccc88c7590ccbc50de328a176",
+      "compressed_sha256": "dbb38901932fd5f1d8b691f246ceea65431ae1df2b0441fe6e58a6717ad17b68",
+      "raw_bytes": 53244,
+      "compressed_bytes": 5520
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/teacher_query_js/authorized_v0.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/teacher_query_js/authorized_v0.jsonl.gz",
+      "raw_sha256": "50707bac41b1bca9fbf1b84f5af682003c868a9215c8bf54921d0693b7ce28ef",
+      "compressed_sha256": "fd8f1e2e21978ba51f6a952ddf636f8f3a461e8dd9072fc3dc691a95a67021f4",
+      "raw_bytes": 53394,
+      "compressed_bytes": 5521
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/teacher_query_js/authorized_v1.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/teacher_query_js/authorized_v1.jsonl.gz",
+      "raw_sha256": "bae8c996bf67a89b0d84dd6786b239ae42b325a0428044696bf39312ed58596f",
+      "compressed_sha256": "7a66b4593a90c040401deab2dc22e1f41808dd1d7381c4eb665b864ed1c02aa2",
+      "raw_bytes": 53325,
+      "compressed_bytes": 5564
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/teacher_query_js/base_v0.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/teacher_query_js/base_v0.jsonl.gz",
+      "raw_sha256": "70da3e75376c615a836f8b740cc54e2906a2a048ebac883c1aee2784a305e22a",
+      "compressed_sha256": "340e07ab8217930d0bcaa857a55a9c4ea6a7f1a2168942706801fe386fcb3716",
+      "raw_bytes": 70909,
+      "compressed_bytes": 7812
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/teacher_query_js/base_v0_swap.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/teacher_query_js/base_v0_swap.jsonl.gz",
+      "raw_sha256": "c2eecf277e88a7cdaf7f8b39efba94016405c05f078dc538757fb514f33b4d75",
+      "compressed_sha256": "3bad0283b4a617cde82141fafdff04e813ebd323ec0fbae651b001ae50930b95",
+      "raw_bytes": 70921,
+      "compressed_bytes": 7827
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/teacher_query_js/base_v1.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/teacher_query_js/base_v1.jsonl.gz",
+      "raw_sha256": "8d711622d32e0d8086c797f274031434ad14436be9d676ade8251e523edf6bb5",
+      "compressed_sha256": "50855b7c91032d1e9b0dede1cbe5966083b59c47c266b4255941fc3bd54de4e9",
+      "raw_bytes": 77535,
+      "compressed_bytes": 7255
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/teacher_query_js/base_v1_swap.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/teacher_query_js/base_v1_swap.jsonl.gz",
+      "raw_sha256": "7a5cb405958a1397afae18dceffe2f50e2bfe91148cf861ffa41c4098e983472",
+      "compressed_sha256": "72aa47f7ce03063e2a9108da0bd38435fb57754e9477a36ab2a1989b41dac0de",
+      "raw_bytes": 77515,
+      "compressed_bytes": 7246
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/teacher_query_js/both_v0.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/teacher_query_js/both_v0.jsonl.gz",
+      "raw_sha256": "c4b3d1e880706004556b0931d6bd160efdd36bd6e5f375002b80b20d345de5e5",
+      "compressed_sha256": "d9bb6832a3b637e8ef727a95fe8646c9a4c87846943dee95998d35d87204226c",
+      "raw_bytes": 32229,
+      "compressed_bytes": 3879
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/teacher_query_js/both_v1.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/teacher_query_js/both_v1.jsonl.gz",
+      "raw_sha256": "98d7ffc37cb907107d0d2a95eec24cb0c0bd56de855b1f4286a617247680c41e",
+      "compressed_sha256": "9474c138a3cc45c7381be4196ebeb33adff59cefeadf344e9a3b97acbc8f2db9",
+      "raw_bytes": 38822,
+      "compressed_bytes": 4105
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/teacher_query_js/cycle4_v0.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/teacher_query_js/cycle4_v0.jsonl.gz",
+      "raw_sha256": "c528dc687dc1dd1b57ba69d2e2d7aaef667dfcf185e5ec108650adbb17cde460",
+      "compressed_sha256": "6fb252a09c79bea8114601939e7ba2cd3753c095083529c7c88f06cbe2d47688",
+      "raw_bytes": 46797,
+      "compressed_bytes": 6173
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/teacher_query_js/cycle4_v0_swap.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/teacher_query_js/cycle4_v0_swap.jsonl.gz",
+      "raw_sha256": "79f585b0bdbc314bf7cc9083eaf17cc5e65c185af7d59cfb72c0182c8f2245ae",
+      "compressed_sha256": "87ab203c0fd3c2869d12bd7c9a78f427d74ffff01994f2f321cb24eddaab88d4",
+      "raw_bytes": 39309,
+      "compressed_bytes": 5138
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/teacher_query_js/cycle4_v1.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/teacher_query_js/cycle4_v1.jsonl.gz",
+      "raw_sha256": "3e2313beb34317df31d0b4974899999a842e24e78b616bb110442a25ae65a72c",
+      "compressed_sha256": "5720abe2888ff1d6e2c2eeceb0aef510c8e0d323425b637c64d7d10a7c9641aa",
+      "raw_bytes": 47371,
+      "compressed_bytes": 5380
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/teacher_query_js/cycle4_v1_swap.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/teacher_query_js/cycle4_v1_swap.jsonl.gz",
+      "raw_sha256": "53cbb03cd53ec68e0ab953f9e56fa2bca70749678b3f744766e10c531fe80ebe",
+      "compressed_sha256": "2106379a18a3f71cd4642cd11173141367a6b432d30b287c653765dca64be2f2",
+      "raw_bytes": 47386,
+      "compressed_bytes": 5388
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/teacher_query_js/depth3_v0.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/teacher_query_js/depth3_v0.jsonl.gz",
+      "raw_sha256": "1b55fdf6037d96fe14a1938144124b3725b5b18ac4ec50092cd883e81cbc8927",
+      "compressed_sha256": "7ff366cf348870cebdd09c864808fa5bc9229e71f971a5c36b52c5340b0160af",
+      "raw_bytes": 41180,
+      "compressed_bytes": 5456
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/teacher_query_js/depth3_v0_swap.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/teacher_query_js/depth3_v0_swap.jsonl.gz",
+      "raw_sha256": "066687c97c49a56c8e2f47b601bfb3a7e49cb6ac00e45e15bcdf89986645ff71",
+      "compressed_sha256": "70e03fd5bbb279900ef374e66357df7fb5c53d07a676e7e8562d32f098f418e9",
+      "raw_bytes": 41219,
+      "compressed_bytes": 5468
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/teacher_query_js/depth3_v1.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/teacher_query_js/depth3_v1.jsonl.gz",
+      "raw_sha256": "34b0a60b9cfd0df3fea92d73771e06f597b5a49099d35989518d672b411ddde1",
+      "compressed_sha256": "49de9fec4ff3cd5ee883dad7cfa713e92fc62df26a13c2bcd2fce28b9da373ad",
+      "raw_bytes": 41188,
+      "compressed_bytes": 5455
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/teacher_query_js/depth3_v1_swap.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/teacher_query_js/depth3_v1_swap.jsonl.gz",
+      "raw_sha256": "3e60e6ca9bfc5ba0ecd24bcfa16c92cb633e99a5748d9d96427d2cfcff194da1",
+      "compressed_sha256": "3ed71df23f5fcca4b4686c5d52345ac0b72bec0728f81b7948a7a91119c98e70",
+      "raw_bytes": 41234,
+      "compressed_bytes": 5472
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/teacher_query_js/draft_v0.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/teacher_query_js/draft_v0.jsonl.gz",
+      "raw_sha256": "e92aa27f8b8e9ccd87f58acf682ae6f4fb6f29e9383581beeb0c32a43e7c2b20",
+      "compressed_sha256": "d3dd69ff8fa343b885f38f03ad9faef88d772a179df51b55c0387fac0f35c6c5",
+      "raw_bytes": 50392,
+      "compressed_bytes": 4887
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/teacher_query_js/draft_v1.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/teacher_query_js/draft_v1.jsonl.gz",
+      "raw_sha256": "780f528917fb4c025af61edd184e79af65575624121fa590bb87d877ad4923f4",
+      "compressed_sha256": "86af8dfe927eabd7f0e8f1177440a953aff38346d20dfc061215831bf171e5bd",
+      "raw_bytes": 43972,
+      "compressed_bytes": 4715
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/teacher_query_js/internal3_v0.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/teacher_query_js/internal3_v0.jsonl.gz",
+      "raw_sha256": "ff010ec2a2022196311cbdffb71f29ef062d278c43fd6c1d35ba78a8c2b9beca",
+      "compressed_sha256": "25d010f1acb4c582e7e66f6029af6b4e9ff996a2cdd5e9b804278d019b58434d",
+      "raw_bytes": 48735,
+      "compressed_bytes": 5728
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/teacher_query_js/internal3_v0_swap.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/teacher_query_js/internal3_v0_swap.jsonl.gz",
+      "raw_sha256": "be5c65089a7497f3775e804014efaf9468f9c86abe1341f4a4980145b67617ca",
+      "compressed_sha256": "ded032287c8b0ad917dcfe5de8cbe9ed19b311057ae6565479637736dc0e43c6",
+      "raw_bytes": 48777,
+      "compressed_bytes": 5759
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/teacher_query_js/internal3_v1.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/teacher_query_js/internal3_v1.jsonl.gz",
+      "raw_sha256": "4c6f6d526b927186e43560f8d5129c456db1c0e2299a94cb8692c77d479a8238",
+      "compressed_sha256": "d4c4090d417d941c17f1a73d4d165f5262befb9e695c6f916c47a6c00ea30360",
+      "raw_bytes": 34030,
+      "compressed_bytes": 4130
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/teacher_query_js/internal3_v1_swap.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/teacher_query_js/internal3_v1_swap.jsonl.gz",
+      "raw_sha256": "830434d6175d1900679a5ee94ee7b8d8338919fde2cb75be3453dd59784b4640",
+      "compressed_sha256": "b4416119429d0af0cc5e85238b8eca30f3a85daab674920be38f577f51625852",
+      "raw_bytes": 34039,
+      "compressed_bytes": 4122
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/teacher_query_js/optional_v0.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/teacher_query_js/optional_v0.jsonl.gz",
+      "raw_sha256": "287b95f49fbd868ed0e4778dc5fe56ab207024f807c8e00e28d5f73f69efd1d4",
+      "compressed_sha256": "a6850079a53a7947b45717a908edde3f73a2d91f93acff5c35fb6411a0ee3261",
+      "raw_bytes": 53314,
+      "compressed_bytes": 5594
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/teacher_query_js/optional_v1.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/teacher_query_js/optional_v1.jsonl.gz",
+      "raw_sha256": "200ab3b7d5a7797e91a904eafff0fdc08228567ff3b30b55f6d0b9fb4954b0ae",
+      "compressed_sha256": "85ec86964cecf87d32ac2434595fd21b89c393413d8dd913d3860503d720d7d7",
+      "raw_bytes": 53182,
+      "compressed_bytes": 5488
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/teacher_query_js/training.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/teacher_query_js/training.jsonl.gz",
+      "raw_sha256": "fbf057774d38a45f9da9ecb73b7138a8e3937f0a5ff5b7c8e99d2b85a1e6d444",
+      "compressed_sha256": "838d9dc536c1a8bb80ad87de3b59fc96182d5a585b484c89bbdf416053f70070",
+      "raw_bytes": 57578,
+      "compressed_bytes": 5479
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/teacher_sft/authorized_v0.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/teacher_sft/authorized_v0.jsonl.gz",
+      "raw_sha256": "a47c96067e9a6ce5b5a74c6ba27d58d1582335a45907d98e0ac2ef4529894a97",
+      "compressed_sha256": "3449a80fc6eea80c434ad0475b4c14394bedc42ef4a7fc140ce5766ec816e31b",
+      "raw_bytes": 53392,
+      "compressed_bytes": 5513
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/teacher_sft/authorized_v1.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/teacher_sft/authorized_v1.jsonl.gz",
+      "raw_sha256": "09e2e055827fc9a4a54dba3c7f99a75466ac7ec294ee586f1c09135c15a41b84",
+      "compressed_sha256": "d210b8bf3fa67595b944728a4a0e1f187f199725b15857e0470d53d93013ca5d",
+      "raw_bytes": 53307,
+      "compressed_bytes": 5548
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/teacher_sft/base_v0.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/teacher_sft/base_v0.jsonl.gz",
+      "raw_sha256": "bc9b1f980b50d00e752ef1177fd73176d187450cc36c8e853329f804bf6b2ec2",
+      "compressed_sha256": "5d36845fd018b52a3573d5271f45d03720347174d029d57b098b44bc34b6153b",
+      "raw_bytes": 91554,
+      "compressed_bytes": 8839
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/teacher_sft/base_v0_swap.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/teacher_sft/base_v0_swap.jsonl.gz",
+      "raw_sha256": "db222d3a0e32044007b9265d5dad24f614e506f079218d7efa98c08b1868efa9",
+      "compressed_sha256": "2db35912d08c7de61803f1475720e8c7f0ca18bb168c4a2c264d1a3578c0edd0",
+      "raw_bytes": 77456,
+      "compressed_bytes": 8086
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/teacher_sft/base_v1.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/teacher_sft/base_v1.jsonl.gz",
+      "raw_sha256": "dbf2cd8b7c8688594da151780d993582b720aa0c736cfe2222327ea210bc70eb",
+      "compressed_sha256": "d34afef418a9d454c3826ae509c883de65499141bbc21e796c6f34ccf9498ef7",
+      "raw_bytes": 84166,
+      "compressed_bytes": 7516
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/teacher_sft/base_v1_swap.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/teacher_sft/base_v1_swap.jsonl.gz",
+      "raw_sha256": "eda96d3130365180142d632dd7140d000a8a6c27003343c1ad077bab7d257d4c",
+      "compressed_sha256": "abb352b6866c4cb1ebd657e6dc20227d3762785d9f4d331519441b9b38110fb6",
+      "raw_bytes": 84190,
+      "compressed_bytes": 7550
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/teacher_sft/both_v0.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/teacher_sft/both_v0.jsonl.gz",
+      "raw_sha256": "b222f54de252a36939e249c4e802aa73c4d65bd4f1d2f52a537a1d1639eb71d5",
+      "compressed_sha256": "39ad1473f1f6119d7e1ac43948233627041b82531d2a19786f6619471237a64a",
+      "raw_bytes": 53908,
+      "compressed_bytes": 5580
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/teacher_sft/both_v1.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/teacher_sft/both_v1.jsonl.gz",
+      "raw_sha256": "389e366d4eb5576103425bd61e4f052a96987aa53868c7489e599d755e57af31",
+      "compressed_sha256": "f9b53008c6fb847b784e6af1c17cfdb5f0fe593e9cf125d0ad61fa3d3ce9d6e3",
+      "raw_bytes": 53880,
+      "compressed_bytes": 5575
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/teacher_sft/cycle4_v0.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/teacher_sft/cycle4_v0.jsonl.gz",
+      "raw_sha256": "c8048cfc67e62fbe93a78748d24d3dfc4ce2e1a2f9c82422c860d0d269c634b0",
+      "compressed_sha256": "c3a03ca413e1a793c7d33e662a8418bbe41d57d247806f246dd16c1c56376e49",
+      "raw_bytes": 55229,
+      "compressed_bytes": 6543
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/teacher_sft/cycle4_v0_swap.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/teacher_sft/cycle4_v0_swap.jsonl.gz",
+      "raw_sha256": "fb43f88b6cdf52715f4b664b583a4155acddb493e9a5b9ea83408ca55f433a54",
+      "compressed_sha256": "32279daa1edffeb1d8e9c747a3300ef895223385a9fef3d6b9cc74308fab694c",
+      "raw_bytes": 47746,
+      "compressed_bytes": 5515
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/teacher_sft/cycle4_v1.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/teacher_sft/cycle4_v1.jsonl.gz",
+      "raw_sha256": "4eeb121734150f5f10be8acb6b9da315551206a45d40cdda8e6b434693d2fa31",
+      "compressed_sha256": "26931952a713c5901576bf400d0233f85b7dccb1ca9c0daf30da89788951bc16",
+      "raw_bytes": 46523,
+      "compressed_bytes": 6019
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/teacher_sft/cycle4_v1_swap.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/teacher_sft/cycle4_v1_swap.jsonl.gz",
+      "raw_sha256": "2a9f86337827e520eeb42e9b5ed8c5bc2b1c7079233fe2a7ea72b978deda37c9",
+      "compressed_sha256": "908f1a972187a7b51046d93f166601039bb4bfe84865bdf4932ee05c447e8eac",
+      "raw_bytes": 46511,
+      "compressed_bytes": 6015
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/teacher_sft/depth3_v0.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/teacher_sft/depth3_v0.jsonl.gz",
+      "raw_sha256": "5908f6ef11b10a29872204b218b00c7208c0b654319b9827f3886039754cad89",
+      "compressed_sha256": "b5e8fd36aac9d1dc01b5afb52503d825d2e2d002d0374a9acb17bcf35a8ee728",
+      "raw_bytes": 48877,
+      "compressed_bytes": 5656
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/teacher_sft/depth3_v0_swap.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/teacher_sft/depth3_v0_swap.jsonl.gz",
+      "raw_sha256": "70010d64b13e04c31cf45bd0c46c71a9c96dcf0c0d0fb12f22a43a8582480055",
+      "compressed_sha256": "b91f046ef8c36b3fe3e1db60738385c8a012147a339481c962e931f2491e988c",
+      "raw_bytes": 48908,
+      "compressed_bytes": 5686
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/teacher_sft/depth3_v1.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/teacher_sft/depth3_v1.jsonl.gz",
+      "raw_sha256": "090382c8edf69501865d134f467eea62fbaa2f20ecbf321c64501c4ba9bec0a1",
+      "compressed_sha256": "7bc85ba3821b500f518c077470c7402e31afeef710f47813089985b309c7ece3",
+      "raw_bytes": 55791,
+      "compressed_bytes": 5935
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/teacher_sft/depth3_v1_swap.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/teacher_sft/depth3_v1_swap.jsonl.gz",
+      "raw_sha256": "2281ee9e705894b1088939c004d64897a93677e949a4e2a3a72d1a446c7a7d73",
+      "compressed_sha256": "406b7162aec63e8a4a916bfe43f58a0c614e31488600659ef7aae643fda8daf8",
+      "raw_bytes": 55850,
+      "compressed_bytes": 5949
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/teacher_sft/draft_v0.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/teacher_sft/draft_v0.jsonl.gz",
+      "raw_sha256": "f01b1fe85df5fa958fcf639725b4bdc5e61444176cdbd5bdfae0757f25b05a85",
+      "compressed_sha256": "5d47f8db1d6022aa788b0538f674c5d39c59377bf54aee10ecc7d4e4d330ae6d",
+      "raw_bytes": 50428,
+      "compressed_bytes": 4863
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/teacher_sft/draft_v1.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/teacher_sft/draft_v1.jsonl.gz",
+      "raw_sha256": "96b4bc0b3b737274c31157774b666e464f1b6dd5fcc7a11cdf65e049650b34f4",
+      "compressed_sha256": "77dfe8a573bff5d5ddfae7fd4d4006add521b78e21b6e24b0337d0c947af4d5f",
+      "raw_bytes": 44022,
+      "compressed_bytes": 4717
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/teacher_sft/internal3_v0.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/teacher_sft/internal3_v0.jsonl.gz",
+      "raw_sha256": "33d8115b59ccc0b06b593935302f82a51118142e4a55c384ad48d5f975093d60",
+      "compressed_sha256": "3546910584014cdc8a560c2e97864a65740aaefcb6c29d513a6c30f60017b546",
+      "raw_bytes": 48734,
+      "compressed_bytes": 5721
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/teacher_sft/internal3_v0_swap.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/teacher_sft/internal3_v0_swap.jsonl.gz",
+      "raw_sha256": "5995332a485e67c889482465c3f38d8a3729774501ff851ba0a10c6bc83cfec4",
+      "compressed_sha256": "00ce04f78efb0e74ae232b0c00470c041458eabc866318325a0bbed0af95a109",
+      "raw_bytes": 48764,
+      "compressed_bytes": 5752
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/teacher_sft/internal3_v1.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/teacher_sft/internal3_v1.jsonl.gz",
+      "raw_sha256": "947dbb5e4cb84affd61b818de4af992b61f8c981e994b8fad236cf354f4268ac",
+      "compressed_sha256": "bd855fdba5cd35746776cb82111ecdcee1b100f516aebe8dd0679f81f9986e36",
+      "raw_bytes": 34042,
+      "compressed_bytes": 4132
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/teacher_sft/internal3_v1_swap.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/teacher_sft/internal3_v1_swap.jsonl.gz",
+      "raw_sha256": "173a2c37885a1a0cb4cab6ea9c71426b7dad02a25c486b47e036123557587c21",
+      "compressed_sha256": "1ba6c0f351e3483354ddc79f6aecc1aaf82ade09b406c6a45a5791f5a3b34756",
+      "raw_bytes": 34035,
+      "compressed_bytes": 4117
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/teacher_sft/optional_v0.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/teacher_sft/optional_v0.jsonl.gz",
+      "raw_sha256": "7b2ff9ed4fd39a2ee3e46b48d7170a22ad6855ef7d1b265d3e4bb764cb67dddf",
+      "compressed_sha256": "e6ccc5e964e648311a0b8891ffe31407c4f9b6b10f36355d6026c002dcdce725",
+      "raw_bytes": 53306,
+      "compressed_bytes": 5585
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/teacher_sft/optional_v1.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/teacher_sft/optional_v1.jsonl.gz",
+      "raw_sha256": "8cfb925c8a10d0dde5dfd746d1e501ad28db401cfe7372cf39c3a7aaba7adf5d",
+      "compressed_sha256": "bed8afd5c07680ee9d8874b8cd2f4b965c723aa0ffda26e9bc870d0f09cc9e54",
+      "raw_bytes": 53194,
+      "compressed_bytes": 5484
+    },
+    {
+      "raw_path": "artifacts/20261117_teacher_binding/repair/teacher_sft/training.jsonl",
+      "compressed_path": "artifacts/20261117_teacher_binding/repair/teacher_sft/training.jsonl.gz",
+      "raw_sha256": "0aa77686a03cd2df5762ac683848626192cf5a751fd30d07f078b5df2d020ff8",
+      "compressed_sha256": "e8808504d33881bc90dd171b2823797c390d7fd7cbb5da16fbecb80c2420c181",
+      "raw_bytes": 57581,
+      "compressed_bytes": 5474
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "own_mode_exact_match": true,
+  "teacher_gradients_finite": true,
+  "query_computation_unchanged": true,
+  "optimizer_updates": 0,
+  "trials": [
+    {
+      "role": "Planner",
+      "query_weight": 0.0,
+      "seconds": 3.7522109259999965,
+      "equivalence_seconds": 3.449663089999998,
+      "actor_loss_own": 0.005131812300533056,
+      "actor_loss_teacher": 0.005131812300533056,
+      "changed_maps": 0
+    },
+    {
+      "role": "Planner",
+      "query_weight": 1.0,
+      "seconds": 3.4266611610000055,
+      "equivalence_seconds": 2.9174980160000032,
+      "actor_loss_own": 0.005131812300533056,
+      "actor_loss_teacher": 0.005131812300533056,
+      "changed_maps": 0
+    },
+    {
+      "role": "Source",
+      "query_weight": 0.0,
+      "seconds": 3.423632400999999,
+      "equivalence_seconds": 3.1167486950000054,
+      "actor_loss_own": 0.001477499958127737,
+      "actor_loss_teacher": 0.0018367996672168374,
+      "changed_maps": 4
+    },
+    {
+      "role": "Source",
+      "query_weight": 1.0,
+      "seconds": 3.523630433000001,
+      "equivalence_seconds": 3.0502492559999936,
+      "actor_loss_own": 0.001477499958127737,
+      "actor_loss_teacher": 0.0018367996672168374,
+      "changed_maps": 4
+    },
+    {
+      "role": "Worker",
+      "query_weight": 0.0,
+      "seconds": 4.737644124999996,
+      "equivalence_seconds": 4.136622625000001,
+      "actor_loss_own": 0.5398132801055908,
+      "actor_loss_teacher": 0.594740629196167,
+      "changed_maps": 2
+    },
+    {
+      "role": "Worker",
+      "query_weight": 1.0,
+      "seconds": 4.666337052000003,
+      "equivalence_seconds": 4.204972639000005,
+      "actor_loss_own": 0.5398132801055908,
+      "actor_loss_teacher": 0.594740629196167,
+      "changed_maps": 2
+    }
+  ],
+  "initial_adapter_hashes": {
+    "adapter_config.json": "317dc54d0fcd6fb3b630eec143c04640103d5388e4a41e5bdedf7f327c2613a7",
+    "adapter_model.safetensors": "12988f6e76bb34fb1eaf4d99bb0ca7e257cd7fe27fcb0eee793c296ee8619475",
+    "README.md": "39d3d3aa2d89a2b4ab09cecd018fbbc4cebc3f4b2c6d9e85b81abc38a1dc4045"
+  },
+  "loss_sha256": "59859a41c3e8ffd5daf7ce29b877a979e19781617020b638cc2b2e3bbab6571a"
+}

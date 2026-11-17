@@ -1,0 +1,26 @@
+{
+  "unchanged_plan_keys": [
+    "task_id_outside_policy_input",
+    "model",
+    "options",
+    "request_timeout_seconds",
+    "warmup_timeout_seconds",
+    "max_model_decisions",
+    "context_safety_margin",
+    "tokenizer",
+    "source_manifest_sha256",
+    "session_sha256",
+    "policy_pages"
+  ],
+  "byte_identical_files": [
+    "run.py",
+    "transport.py",
+    "audit.py",
+    "initial_views.json",
+    "INPUT_INVENTORY.json"
+  ],
+  "plan_source_hashes_match": true,
+  "model_calls_so_far": 0,
+  "new_training_updates": 0,
+  "primary_output_seal_sha256": "b80a691c80e437ea491a5eeaf88df48a0e5ba287dfa7353ccdb90f0ffcdea84e"
+}
