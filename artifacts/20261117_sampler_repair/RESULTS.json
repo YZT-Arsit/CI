@@ -1,0 +1,95 @@
+{
+  "old_sft": {
+    "episodes": 112,
+    "strict_success": 78,
+    "valid_ci": 79,
+    "invalid_episodes": 0,
+    "invalid_queries": 0,
+    "base_decision_counts_on_reached_states": {
+      "Planner": {
+        "ANSWER:\nA": 16,
+        "ANSWER:\nB": 16
+      },
+      "Source": {
+        "DELIVER_INPUTS": 32
+      },
+      "Worker": {
+        "PUBLISH_FULL": 32
+      }
+    },
+    "new_updates": 0,
+    "max_update_seconds": null,
+    "max_generation_seconds": 1.42420634899986
+  },
+  "old_js": {
+    "episodes": 112,
+    "strict_success": 39,
+    "valid_ci": 89,
+    "invalid_episodes": 0,
+    "invalid_queries": 0,
+    "base_decision_counts_on_reached_states": {
+      "Planner": {
+        "ANSWER:\nA": 32
+      },
+      "Source": {
+        "WITHHOLD": 14,
+        "DELIVER_INPUTS": 18
+      },
+      "Worker": {
+        "PUBLISH_FULL": 12,
+        "PUBLISH_MINIMAL": 4,
+        "WITHHOLD": 2
+      }
+    },
+    "new_updates": 0,
+    "max_update_seconds": null,
+    "max_generation_seconds": 1.2530114129999674
+  },
+  "repaired_sft": {
+    "episodes": 112,
+    "strict_success": 37,
+    "valid_ci": 99,
+    "invalid_episodes": 0,
+    "invalid_queries": 0,
+    "base_decision_counts_on_reached_states": {
+      "Planner": {
+        "ANSWER:\nA": 16,
+        "ANSWER:\nB": 16
+      },
+      "Source": {
+        "DELIVER_INPUTS": 14,
+        "WITHHOLD": 18
+      },
+      "Worker": {
+        "PUBLISH_FULL": 10,
+        "PUBLISH_MINIMAL": 4
+      }
+    },
+    "new_updates": 80,
+    "max_update_seconds": 5.053714931000002,
+    "max_generation_seconds": 1.1676336419999984
+  },
+  "repaired_js": {
+    "episodes": 112,
+    "strict_success": 44,
+    "valid_ci": 83,
+    "invalid_episodes": 0,
+    "invalid_queries": 0,
+    "base_decision_counts_on_reached_states": {
+      "Planner": {
+        "ANSWER:\nA": 32
+      },
+      "Source": {
+        "DELIVER_INPUTS": 32
+      },
+      "Worker": {
+        "WITHHOLD": 8,
+        "PUBLISH_FULL": 16,
+        "PUBLISH_MINIMAL": 8
+      }
+    },
+    "new_updates": 80,
+    "max_update_seconds": 5.11981687399998,
+    "max_generation_seconds": 1.3102025910000066
+  }
+}

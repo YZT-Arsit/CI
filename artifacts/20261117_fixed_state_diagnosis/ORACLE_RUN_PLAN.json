@@ -1,0 +1,35 @@
+{
+  "source_sha256": "33cd79b785e18282b02c546977e3c1d252002b46e9c4723da0ed3632678a6d24",
+  "read_labels": true,
+  "scope": "ORACLE_ESTIMATE_ACTOR_DIAGNOSTIC_NOT_LEARNED_POLICY",
+  "model_updates": 0,
+  "own_responses_sealed_before_oracle": {
+    "files": {
+      "two_view_sft.jsonl": "448d704fce7f301bddfb5ceee2e2eb9b35dec73383d77435981ecab061ff53ed",
+      "conditional_js.jsonl": "b800707c3663ecc877bf1c0981b3380bd11ae0337c4da2a633d99e494650ddd5"
+    },
+    "complete": true,
+    "labels_scored": false
+  },
+  "checkpoints": {
+    "two_view_sft": {
+      "adapter_hashes": {
+        "adapter_config.json": "317dc54d0fcd6fb3b630eec143c04640103d5388e4a41e5bdedf7f327c2613a7",
+        "adapter_model.safetensors": "ba44581f6285b002761a8b57393b17dad2a59af3844e9f4b06e5b912ca955e35",
+        "README.md": "39d3d3aa2d89a2b4ab09cecd018fbbc4cebc3f4b2c6d9e85b81abc38a1dc4045"
+      },
+      "steps": 80,
+      "input_tokens": 238768
+    },
+    "conditional_js": {
+      "adapter_hashes": {
+        "adapter_config.json": "317dc54d0fcd6fb3b630eec143c04640103d5388e4a41e5bdedf7f327c2613a7",
+        "adapter_model.safetensors": "181c9c821c600b180bb85ff388302f4609c970ea494ec9be60ed66ed061a4a82",
+        "README.md": "39d3d3aa2d89a2b4ab09cecd018fbbc4cebc3f4b2c6d9e85b81abc38a1dc4045"
+      },
+      "steps": 80,
+      "input_tokens": 238768
+    }
+  },
+  "state_versions": 560
+}

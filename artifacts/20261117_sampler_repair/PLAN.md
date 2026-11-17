@@ -1,0 +1,11 @@
+# Repair scheduled relational-action coverage
+
+The previous80-update schedule contains20Planner batches,40state occurrences before duplicate views. **Every Planner occurrence has all actions tied.** The corpus has strict history-reversal pairs, but the actual schedule has none. The fixed-state audit also shows that the consistency checkpoint always emits A at Planner and never changes its selected action when51incorrect estimate maps are corrected. This motivates testing missing discriminative supervision before changing the loss.
+
+Repair only8of the20Planner batch choices: the first8alternating Planner batches will use unique-optimum history reversals, sampled without replacement with4Meeting and4Query groups. Preserve the original80steps,20/20/40role schedule, random presentation seeds,72other batch choices, initial checkpoint, optimizer settings, and losses. The remaining12Planner batches retain tied-value supervision. Training still uses the original one-hop TRAIN corpus and training entity palette.
+
+Preflight found that this corpus has only8eligible strict-reversal groups (4per task kind). An initial proposal for10unique groups was therefore rejected before data freezing or model work. The final plan covers all8without duplication, rather than silently inventing two more independent groups. This small effective supervision set is itself a limitation.
+
+The experiment is2x2: old/repaired sampler crossed with SFT/conditional JS. Reuse the two immutable old80-update checkpoints; train exactly two new80-update checkpoints. All four are evaluated on the same new112presentation-world versions, generated with unused seed offsets. Each arm's native execution and model-generated queries/actions are audited. No oracle bits enter deployment or evaluation.
+
+Primary diagnostic: does strict-reversal coverage prevent fixed-letter collapse and restore one-hop success across both histories and both presentations? Keep deep-chain, internal-edge, cycle, authorization, optional-publication, undelivered-history, and no-safe-completion conditions. A repaired one-hop result does not close deeper relation generalization, natural-policy transfer,32-step collaboration, sourceholdout, or multi-seed requirements. No GPU launch and no post-hoc loss/learning-rate changes.

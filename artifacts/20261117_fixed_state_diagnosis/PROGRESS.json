@@ -1,0 +1,21 @@
+{
+  "status": "progress",
+  "whole_goal_complete": false,
+  "large_gpu_gate": "NO_GO",
+  "completed": [
+    "fixed-state and oracle localization",
+    "18 frozen gradient trials",
+    "actual sampler coverage audit and scale simulation",
+    "matched 2x2 sampler intervention",
+    "448 native replays",
+    "493 external norm records pinned and reserved for evaluation"
+  ],
+  "rejected_hypothesis": "Covering all existing strict Planner reversal groups alone resolves relation-to-action learning.",
+  "remaining": [
+    "robust relation-to-action learning without downstream regression",
+    "multi-hop and source-held-out multi-seed evidence",
+    "natural norm validity with positive and negative utility controls",
+    "actual 32-step learned agent collaboration"
+  ],
+  "scope": "CPU single-seed same-source diagnostics; external data ingestion is not external model validation."
+}

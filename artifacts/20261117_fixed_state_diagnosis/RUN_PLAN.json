@@ -1,0 +1,27 @@
+{
+  "source_sha256": "53eff947a4b14860eabd167d76ea825012121a34d8011007857e3e3a16e7d67f",
+  "checkpoints": {
+    "two_view_sft": {
+      "adapter_hashes": {
+        "adapter_config.json": "317dc54d0fcd6fb3b630eec143c04640103d5388e4a41e5bdedf7f327c2613a7",
+        "adapter_model.safetensors": "ba44581f6285b002761a8b57393b17dad2a59af3844e9f4b06e5b912ca955e35",
+        "README.md": "39d3d3aa2d89a2b4ab09cecd018fbbc4cebc3f4b2c6d9e85b81abc38a1dc4045"
+      },
+      "steps": 80,
+      "input_tokens": 238768
+    },
+    "conditional_js": {
+      "adapter_hashes": {
+        "adapter_config.json": "317dc54d0fcd6fb3b630eec143c04640103d5388e4a41e5bdedf7f327c2613a7",
+        "adapter_model.safetensors": "181c9c821c600b180bb85ff388302f4609c970ea494ec9be60ed66ed061a4a82",
+        "README.md": "39d3d3aa2d89a2b4ab09cecd018fbbc4cebc3f4b2c6d9e85b81abc38a1dc4045"
+      },
+      "steps": 80,
+      "input_tokens": 238768
+    }
+  },
+  "read_labels": false,
+  "own_estimates_only": true,
+  "model_updates": 0,
+  "batch_states": 2
+}

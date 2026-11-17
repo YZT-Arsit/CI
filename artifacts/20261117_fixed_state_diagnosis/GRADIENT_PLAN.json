@@ -1,0 +1,182 @@
+{
+  "batches": [
+    {
+      "original_step_index": 0,
+      "key": [
+        "Planner",
+        false,
+        false,
+        true,
+        false
+      ],
+      "index": 20,
+      "views": [
+        {
+          "names": 129475514,
+          "facts": 858299745,
+          "plans": 940226923,
+          "options": 456496983,
+          "links": 600938170
+        },
+        {
+          "names": 390486957,
+          "facts": 215807395,
+          "plans": 503945651,
+          "options": 814724345,
+          "links": 582180635
+        }
+      ]
+    },
+    {
+      "original_step_index": 4,
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 1,
+      "views": [
+        {
+          "names": 215954223,
+          "facts": 560666230,
+          "plans": 763009789,
+          "options": 802859030,
+          "links": 879208705
+        },
+        {
+          "names": 857403376,
+          "facts": 494304358,
+          "plans": 516197890,
+          "options": 193052713,
+          "links": 82268975
+        }
+      ]
+    },
+    {
+      "original_step_index": 1,
+      "key": [
+        "Source",
+        false,
+        true,
+        false,
+        false
+      ],
+      "index": 15,
+      "views": [
+        {
+          "names": 682827158,
+          "facts": 582813131,
+          "plans": 133153127,
+          "options": 946537824,
+          "links": 57785938
+        },
+        {
+          "names": 259431306,
+          "facts": 965195874,
+          "plans": 353722447,
+          "options": 36080141,
+          "links": 364478663
+        }
+      ]
+    },
+    {
+      "original_step_index": 5,
+      "key": [
+        "Source",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 15,
+      "views": [
+        {
+          "names": 665596280,
+          "facts": 868105891,
+          "plans": 897690751,
+          "options": 121804219,
+          "links": 15839110
+        },
+        {
+          "names": 937287879,
+          "facts": 918204515,
+          "plans": 21906698,
+          "options": 406719421,
+          "links": 591645985
+        }
+      ]
+    },
+    {
+      "original_step_index": 2,
+      "key": [
+        "Worker",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 56,
+      "views": [
+        {
+          "names": 138292792,
+          "facts": 604006598,
+          "plans": 388140197,
+          "options": 323502133,
+          "links": 218608029
+        },
+        {
+          "names": 977216443,
+          "facts": 470481733,
+          "plans": 320031419,
+          "options": 254483258,
+          "links": 112424663
+        }
+      ]
+    },
+    {
+      "original_step_index": 3,
+      "key": [
+        "Worker",
+        false,
+        false,
+        true,
+        true
+      ],
+      "index": 0,
+      "views": [
+        {
+          "names": 194727183,
+          "facts": 300835462,
+          "plans": 756333829,
+          "options": 254190385,
+          "links": 314900546
+        },
+        {
+          "names": 769048335,
+          "facts": 623558206,
+          "plans": 967834707,
+          "options": 879345485,
+          "links": 241788937
+        }
+      ]
+    }
+  ],
+  "selection": "first two original training batches per role, independent of diagnostic outcomes",
+  "components": [
+    "query_loss",
+    "actor_loss",
+    "query_js",
+    "actor_js"
+  ],
+  "updates": 0,
+  "trial_watchdog_seconds": 15,
+  "source_sha256": "439f144d9876397daaeeff3440a3752e4de3715593601fcca7bd59af74bff205",
+  "training_plan_sha256": "3e0ce3fa5d4f33931391da7846c90300914202fb5ef375b89902acc94b530c91",
+  "dependency_hashes": {
+    "render.py": "f15b7da32b9af10871909cc4b3ca92862785b518d0b7c49845358757b67224e4",
+    "two_view_loss.py": "a641f92807f1cbff93047bc650e07e88614d21a7314da2cd1e070e934b19d94a"
+  },
+  "scope": "Local representative TRAIN gradients only, not a causal explanation or whole-distribution claim"
+}

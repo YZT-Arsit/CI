@@ -1,0 +1,66 @@
+{
+  "original80batch_schedule_exactly_reproduced": true,
+  "strict_probability_per_planner_batch": 0.04,
+  "unique_strict_groups_available": 8,
+  "results": [
+    {
+      "total_updates": 80,
+      "planner_batches": 20,
+      "expected_strict_batches": 0.8,
+      "probability_zero_strict_batches_exact": 0.4420024338794074,
+      "expected_unique_strict_groups_exact": 0.7631161578030596,
+      "monte_carlo_replicas": 5000,
+      "zero_strict_frequency": 0.4348,
+      "mean_unique_strict_groups": 0.779,
+      "seconds": 0.005460099957417697
+    },
+    {
+      "total_updates": 200,
+      "planner_batches": 50,
+      "expected_strict_batches": 2.0,
+      "probability_zero_strict_batches_exact": 0.12988579352203838,
+      "expected_unique_strict_groups_exact": 1.773499543450865,
+      "monte_carlo_replicas": 5000,
+      "zero_strict_frequency": 0.1304,
+      "mean_unique_strict_groups": 1.803,
+      "seconds": 0.012887799995951355
+    },
+    {
+      "total_updates": 400,
+      "planner_batches": 100,
+      "expected_strict_batches": 4.0,
+      "probability_zero_strict_batches_exact": 0.016870319358849587,
+      "expected_unique_strict_groups_exact": 3.1538365080741766,
+      "monte_carlo_replicas": 5000,
+      "zero_strict_frequency": 0.0158,
+      "mean_unique_strict_groups": 3.1662,
+      "seconds": 0.02600959996925667
+    },
+    {
+      "total_updates": 800,
+      "planner_batches": 200,
+      "expected_strict_batches": 8.0,
+      "probability_zero_strict_batches_exact": 0.00028460767526957515,
+      "expected_unique_strict_groups_exact": 5.064337426190663,
+      "monte_carlo_replicas": 5000,
+      "zero_strict_frequency": 0.0002,
+      "mean_unique_strict_groups": 5.0834,
+      "seconds": 0.05081330001121387
+    },
+    {
+      "total_updates": 4000,
+      "planner_batches": 1000,
+      "expected_strict_batches": 40.0,
+      "probability_zero_strict_batches_exact": 1.8673814466701247e-18,
+      "expected_unique_strict_groups_exact": 7.9467682513693445,
+      "monte_carlo_replicas": 5000,
+      "zero_strict_frequency": 0.0,
+      "mean_unique_strict_groups": 7.9462,
+      "seconds": 0.26315680000698194
+    }
+  ],
+  "model_calls": 0,
+  "optimizer_updates": 0,
+  "original_plan_sha256": "3e0ce3fa5d4f33931391da7846c90300914202fb5ef375b89902acc94b530c91",
+  "scope": "Monte Carlo samples the equivalent marginal strict-group distribution, not identical RNG streams. Coverage probabilities do not predict accuracy, gradient quality, or scaling efficacy."
+}

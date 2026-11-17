@@ -1,0 +1,394 @@
+{
+  "records": 493,
+  "source_counts": {
+    "crowdsourcing": 337,
+    "regulation": 69,
+    "literature": 87
+  },
+  "unique_normalized_norm_groups": 493,
+  "duplicate_norm_groups": {},
+  "source_details_presence": [
+    {
+      "source": "crowdsourcing",
+      "present": false,
+      "records": 337
+    },
+    {
+      "source": "regulation",
+      "present": true,
+      "records": 69
+    },
+    {
+      "source": "literature",
+      "present": true,
+      "records": 87
+    }
+  ],
+  "final_action_types": {
+    "FacebookManagerCreatePost": 33,
+    "GmailSendEmail": 174,
+    "MessengerSendMessage": 243,
+    "SlackSendMessage": 43
+  },
+  "trajectory_character_lengths": {
+    "min": 608,
+    "max": 9460
+  },
+  "source_document_groups": [
+    {
+      "source": "regulation",
+      "normalized_title": "federal trade commission s fair credit reporting act",
+      "original_title_aliases": [
+        "Federal Trade Commission\u2019s Fair Credit Reporting Act"
+      ],
+      "group_sha256": "db5d87fcd8c2261a651c9b386c0944cf0c37299ddc0650cae7fea79903132c24",
+      "records": 10
+    },
+    {
+      "source": "regulation",
+      "normalized_title": "health insurance portability and accountability act hipaa",
+      "original_title_aliases": [
+        "Health Insurance Portability and Accountability Act (HIPAA)"
+      ],
+      "group_sha256": "27e00530001bd0410ed9aaa2d120eb0dd4de87de7b974789a3bbcbcbb26db7a7",
+      "records": 5
+    },
+    {
+      "source": "regulation",
+      "normalized_title": "family educational rights and privacy act ferpa",
+      "original_title_aliases": [
+        "Family Educational Rights and Privacy Act (FERPA)"
+      ],
+      "group_sha256": "83031a99a8ae51952907e44697ed3c38c5996b62aa89c17cbf0025c7dfbfbe32",
+      "records": 5
+    },
+    {
+      "source": "regulation",
+      "normalized_title": "clergy confidentiality and mandated reporting",
+      "original_title_aliases": [
+        "Clergy Confidentiality and Mandated Reporting"
+      ],
+      "group_sha256": "21cd17f7597324ecf70927a93221868e129cf334a277c2bf9737fdd0e984edfb",
+      "records": 8
+    },
+    {
+      "source": "regulation",
+      "normalized_title": "american nurses association ana position statement on privacy and confidentiality",
+      "original_title_aliases": [
+        "American Nurses Association (ANA) Position Statement on Privacy and Confidentiality"
+      ],
+      "group_sha256": "a0fcf7a5e838c6903fd290bc88704b9c9a69a903b273ae9841814f352711437d",
+      "records": 4
+    },
+    {
+      "source": "regulation",
+      "normalized_title": "confidential address program for victims of domestic violence sexual assault and stalking program law",
+      "original_title_aliases": [
+        "Confidential Address Program for Victims of Domestic Violence, Sexual Assault and\nStalking - Program Law"
+      ],
+      "group_sha256": "5724e8ec10e9b7c139bf6b46486d8a26f3a35be7c8abc17b5a8f7440e192cd5b",
+      "records": 4
+    },
+    {
+      "source": "regulation",
+      "normalized_title": "americans with disabilities act",
+      "original_title_aliases": [
+        "Americans with Disabilities Act"
+      ],
+      "group_sha256": "7e6255b6f260d12333ed7ca76fba7cf95e4bd12c7fc2a165f440950dda26a956",
+      "records": 4
+    },
+    {
+      "source": "regulation",
+      "normalized_title": "gramm leach bliley act glba",
+      "original_title_aliases": [
+        "Gramm-Leach-Bliley Act (GLBA)"
+      ],
+      "group_sha256": "9389e35c6336aaddea76095857b967b7b6e606432f418507b1c499f04ed04c6b",
+      "records": 5
+    },
+    {
+      "source": "regulation",
+      "normalized_title": "hr training material",
+      "original_title_aliases": [
+        "HR training material"
+      ],
+      "group_sha256": "234df068216873ae56a778ea4c5ac9eedc5f5da3e654a771cc6157bae005fd8c",
+      "records": 9
+    },
+    {
+      "source": "regulation",
+      "normalized_title": "american bar association aba model rules",
+      "original_title_aliases": [
+        "American Bar Association (ABA) Model Rules"
+      ],
+      "group_sha256": "cfd0eb58f549ea830bc523fcbbc494450ab39f375c206f1ae194024f0cd26020",
+      "records": 3
+    },
+    {
+      "source": "regulation",
+      "normalized_title": "american medical association ama code of medical ethics",
+      "original_title_aliases": [
+        "American Medical Association (AMA) Code of Medical Ethics"
+      ],
+      "group_sha256": "a20add4c1eb6fa9c303e2bd568dfd7c348c5204add005551d9ee57dc561a5a6c",
+      "records": 1
+    },
+    {
+      "source": "regulation",
+      "normalized_title": "office of privacy and civil liberties overview of the privacy act",
+      "original_title_aliases": [
+        "Office of Privacy and Civil Liberties\u2019 Overview of the Privacy Act"
+      ],
+      "group_sha256": "b2446367c4d2d3447be58364e1cc55ff00903d7bc59b15d5f3d87287054fa478",
+      "records": 1
+    },
+    {
+      "source": "regulation",
+      "normalized_title": "federal trade commission consumer advice",
+      "original_title_aliases": [
+        "Federal Trade commission Consumer Advice"
+      ],
+      "group_sha256": "2e29987048297dbf896c28a29bbf9040d6b7768083be51c46d418e3f73b0e4fc",
+      "records": 2
+    },
+    {
+      "source": "regulation",
+      "normalized_title": "children s online privacy protection rule coppa",
+      "original_title_aliases": [
+        "Children\u2019s Online Privacy Protection Rule (COPPA)"
+      ],
+      "group_sha256": "72b97d2effe85fe0bf8f7823e907380d17a0caaa7a0ec26a178c01a761fce325",
+      "records": 1
+    },
+    {
+      "source": "regulation",
+      "normalized_title": "hr training materials",
+      "original_title_aliases": [
+        "HR training materials"
+      ],
+      "group_sha256": "7e66d5f0a139daceff7ea5018e8732949a55d4481f4080f86fc739ce2bd399ef",
+      "records": 2
+    },
+    {
+      "source": "regulation",
+      "normalized_title": "the federal deposit insurance corporation fdic s privacy rule handbook",
+      "original_title_aliases": [
+        "The Federal Deposit Insurance Corporation (FDIC)\u2019s Privacy Rule Handbook"
+      ],
+      "group_sha256": "a79518d677766284d66ecd1e37922b43c117963d28522185594dc1d97f2ce571",
+      "records": 1
+    },
+    {
+      "source": "regulation",
+      "normalized_title": "ban the box policies",
+      "original_title_aliases": [
+        "Ban the Box Policies"
+      ],
+      "group_sha256": "0a5ad07ea51b3f4d3dc656764652bf62e7a7f680b1b62c10f88981db8f03230d",
+      "records": 1
+    },
+    {
+      "source": "regulation",
+      "normalized_title": "american occupational therapy association aota s occupational therapy code of ethics",
+      "original_title_aliases": [
+        "American Occupational Therapy Association (AOTA)\u2019s Occupational Therapy Code of Ethics"
+      ],
+      "group_sha256": "38559c62c80b41ce1b90168a934f302e8cf2f460955ca53782ed5f8ba48b1832",
+      "records": 1
+    },
+    {
+      "source": "regulation",
+      "normalized_title": "teacher training material",
+      "original_title_aliases": [
+        "Teacher training material"
+      ],
+      "group_sha256": "6c171630546ae3088536acd974d42ae20033e6e23e4071d290b73a50edf936a7",
+      "records": 2
+    },
+    {
+      "source": "literature",
+      "normalized_title": "social norm vulnerability and its consequences for privacy and safety in an online community",
+      "original_title_aliases": [
+        "Social Norm Vulnerability and its Consequences for Privacy and Safety in an Online Community",
+        "Social Norm Vulnerability and its Consequences for Privacy and Safety in an Online Community "
+      ],
+      "group_sha256": "29f0af544ec07fcbc51a538627d2455dc50af27e0bfbbe35c8ab5c7e2fce3860",
+      "records": 12
+    },
+    {
+      "source": "literature",
+      "normalized_title": "lgbt parents and social media advocacy privacy and disclosure during shifting social movements",
+      "original_title_aliases": [
+        "LGBT Parents and Social Media: Advocacy, Privacy, and Disclosure during Shifting Social Movements",
+        "LGBT Parents and Social Media: Advocacy, Privacy,and Disclosure during Shifting Social Movements"
+      ],
+      "group_sha256": "a0ce7ca76cfb319da47cdb996520bf3e67f2fa6d2c21a1e225d63c5befffaeb1",
+      "records": 10
+    },
+    {
+      "source": "literature",
+      "normalized_title": "privacy anonymity and perceived risk in open collaboration a study of tor users and wikipedians",
+      "original_title_aliases": [
+        "Privacy, Anonymity, and Perceived Risk in Open Collaboration: A Study of Tor Users and Wikipedians"
+      ],
+      "group_sha256": "7d552ed9332245878ba48ff5319f6fb8c0c0a49e2000c7552be1c71b7cf84e9c",
+      "records": 1
+    },
+    {
+      "source": "literature",
+      "normalized_title": "participatory design of technologies to support recovery from substance use disorders",
+      "original_title_aliases": [
+        "Participatory Design of Technologies to Support Recovery from Substance Use Disorders"
+      ],
+      "group_sha256": "272a1023e48bcdc3c9e9671c01dce1d2901868b21052f897c32fdae3b6377e53",
+      "records": 4
+    },
+    {
+      "source": "literature",
+      "normalized_title": "being in visible privacy transparency and disclosure in the self management of bipolar disorder",
+      "original_title_aliases": [
+        "Being (In)Visible: Privacy, Transparency, and Disclosure in the Self-Management of Bipolar Disorder"
+      ],
+      "group_sha256": "d1d13ebbbabfde23f057b5f3e5f71bc34207fd82023ff59c32c1404614b22343",
+      "records": 2
+    },
+    {
+      "source": "literature",
+      "normalized_title": "keeping a low profile technology risk and privacy among undocumented immigrants",
+      "original_title_aliases": [
+        "Keeping a Low Profile? Technology, Risk and Privacy among Undocumented Immigrants"
+      ],
+      "group_sha256": "bba2190f0c4f99c66e65d0802743c54ca26866dc0484f87d128aca03348dc872",
+      "records": 4
+    },
+    {
+      "source": "literature",
+      "normalized_title": "trust identity privacy and security considerations for designing a peer data sharing platform between people living with hiv",
+      "original_title_aliases": [
+        "Trust, Identity, Privacy, and Security Considerations for Designing a Peer Data Sharing Platform Between People Living With HIV"
+      ],
+      "group_sha256": "8ec52721457fb321f5a3e2f4bbcfed65f67d29558d304346beab611b9345d7ae",
+      "records": 3
+    },
+    {
+      "source": "literature",
+      "normalized_title": "the spyware used in intimate partner violence",
+      "original_title_aliases": [
+        "The Spyware Used in Intimate Partner Violence"
+      ],
+      "group_sha256": "2d0708f38b2d201f16e4c92399d51c1a857056eb83c153e8971d41c7d454ff1d",
+      "records": 4
+    },
+    {
+      "source": "literature",
+      "normalized_title": "designing a social network to support the independence of young adults with autism",
+      "original_title_aliases": [
+        "Designing a Social Network to Support the Independence of Young Adults with Autism"
+      ],
+      "group_sha256": "f0031a3caf87c3b932df36907560ecba7350f21eb96e57acd40b1f6e709b8ad1",
+      "records": 4
+    },
+    {
+      "source": "literature",
+      "normalized_title": "privacy and activism in the transgender community",
+      "original_title_aliases": [
+        "Privacy and Activism in the Transgender Community"
+      ],
+      "group_sha256": "ae24a90848ada3f005a9e019d31a85dc736f6028d2e893497fcb60eae8b53691",
+      "records": 3
+    },
+    {
+      "source": "literature",
+      "normalized_title": "i think people are powerful the sociality of individuals managing depression",
+      "original_title_aliases": [
+        "\u201cI think people are powerful\u201d: The Sociality of Individuals Managing Depression"
+      ],
+      "group_sha256": "3bf6e447be8fafefd928412399039557dfaa11afc55d2e88b0590d85448fe06f",
+      "records": 4
+    },
+    {
+      "source": "literature",
+      "normalized_title": "towards understanding privacy and trust in online reporting of sexual assault",
+      "original_title_aliases": [
+        "Towards Understanding Privacy and Trust in Online Reporting of Sexual Assault"
+      ],
+      "group_sha256": "4b02c080d8842cf9476bed7d3f32a2293d5f53f0b795cc59c041a225a53b37b5",
+      "records": 4
+    },
+    {
+      "source": "literature",
+      "normalized_title": "vulnerability sharing and privacy analyzing art therapy for older adults with dementia",
+      "original_title_aliases": [
+        "Vulnerability, Sharing, and Privacy: Analyzing Art Therapy for Older Adults with Dementia"
+      ],
+      "group_sha256": "e1a6f5ddeffb9176ee9fae9306eac0c847dd0d3502b0751a6b0dff0412952fec",
+      "records": 2
+    },
+    {
+      "source": "literature",
+      "normalized_title": "privacy concerns of digital phenotyping for older adults with mental health issues",
+      "original_title_aliases": [
+        "Privacy Concerns of Digital Phenotyping for Older Adults with Mental Health Issues"
+      ],
+      "group_sha256": "ef15995dd97c11a878344f29d7dfe49933532a2d5ad26a1a943aaff27ba53de7",
+      "records": 4
+    },
+    {
+      "source": "literature",
+      "normalized_title": "networked privacy how teenagers negotiate context in social media",
+      "original_title_aliases": [
+        "Networked privacy: How teenagers negotiate context in social media"
+      ],
+      "group_sha256": "334ca437ededaef4b83fdaf68a0a589910b52e6d6809afafc69b90d90a3e550a",
+      "records": 5
+    },
+    {
+      "source": "literature",
+      "normalized_title": "digital privacy challenges for single mothers",
+      "original_title_aliases": [
+        "Digital Privacy Challenges for Single Mothers"
+      ],
+      "group_sha256": "e26331054bdba50970b36fbc819ad6946db0826939d97175296894b3e04f4964",
+      "records": 3
+    },
+    {
+      "source": "literature",
+      "normalized_title": "youth privacy and reputation",
+      "original_title_aliases": [
+        "Youth, Privacy and Reputation"
+      ],
+      "group_sha256": "aef72243e9fb49fe5c7c6ab547ca7501583b46178e9401a7895ae1a94a65f337",
+      "records": 10
+    },
+    {
+      "source": "literature",
+      "normalized_title": "being public while vulnerable recommendations for researchers and platforms",
+      "original_title_aliases": [
+        "Being \u201cPublic\u201d while Vulnerable: Recommendations for Researchers and Platforms"
+      ],
+      "group_sha256": "5fd0a808d5fa5d03d33ffd2ae72029dc2d60afcdb0fcbda77911d086ecf4ef48",
+      "records": 3
+    },
+    {
+      "source": "literature",
+      "normalized_title": "privacy framework for older adults",
+      "original_title_aliases": [
+        "Privacy Framework for Older Adults"
+      ],
+      "group_sha256": "42794f19d801731ce07b2d2c08f911b68e472988f8a2bdd4afcc0bb01ff8fc0b",
+      "records": 5
+    }
+  ],
+  "title_grouping_scope": "Case, punctuation and whitespace normalization only; citation identity and semantic duplicates still require review before splitting.",
+  "crowdsourcing_participant_provenance": "Not present in released records; independence unresolved",
+  "model_calls": 0,
+  "executed_workflows": 0,
+  "training_records_added": 0,
+  "pretraining_contamination": "UNKNOWN",
+  "data_license": "CC-BY-4.0",
+  "scope": "Source/schema inventory only. Negative-norm benchmark with simulated trajectories; no natural-business validity or transfer result.",
+  "errors": 0,
+  "whole_goal_complete": false,
+  "evaluation_index_sha256": "1b11821c28a6eb5001edd34a9587ee1a7787c64ed3d90de4b17e72d35256744f"
+}
