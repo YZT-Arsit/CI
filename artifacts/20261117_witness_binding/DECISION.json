@@ -1,0 +1,49 @@
+{
+  "decision": "WITNESS_SUPERVISION_LOCAL_DIAGNOSTIC_FULL_GOAL_UNPROVED",
+  "matched_contrasts": [
+    {
+      "seed": 17,
+      "binary_pair_delta": -23,
+      "binary_random_delta": -14,
+      "valid_witness_delta": 332,
+      "proof_arm_actor_retained": true
+    },
+    {
+      "seed": 29,
+      "binary_pair_delta": -21,
+      "binary_random_delta": 0,
+      "valid_witness_delta": 320,
+      "proof_arm_actor_retained": true
+    },
+    {
+      "seed": 41,
+      "binary_pair_delta": -26,
+      "binary_random_delta": -12,
+      "valid_witness_delta": 300,
+      "proof_arm_actor_retained": true
+    }
+  ],
+  "necessary_gates": {
+    "proof17": {
+      "binary": false,
+      "proof": false,
+      "actor": true
+    },
+    "proof29": {
+      "binary": false,
+      "proof": false,
+      "actor": true
+    },
+    "proof41": {
+      "binary": false,
+      "proof": false,
+      "actor": true
+    }
+  },
+  "all_witness_joint_gates_passed": false,
+  "new_autonomous_episodes": 0,
+  "natural_norm_cross_task_validity_verified": false,
+  "32_step_agent_collaboration_verified": false,
+  "whole_goal_complete": false,
+  "large_gpu": "NO_GO"
+}

@@ -1,0 +1,7 @@
+# Fixed TRAIN generation diagnostic
+
+Declared before main-study scoring while the original worker is live. This adds no training and cannot select checkpoints or alter the main gates. For each seed17/29/41, take exactly the first12scheduled batches (one complete epoch of12strata), four original presentations each:48records with24positive/24negative labels,18changing pairs and12controls. Retain the exact names/order used in training. Every record was presented once in the current continuation, not repeatedly memorized; this diagnoses fit on a selected TRAIN subset, not whole-training fit or generalization.
+
+Each corresponding start/bit/proof model answers its seed's48binary and48proof questions, totaling864newresponses over9frozen models. Use the same greedy16token,max_time8decoding and9.5second scoring cutoff as the main study. Report binary correctness, positive/negative correctness, both-correct switch pairs, controls, valid witness counts and invalid outputs. Every model/seed remains in the report; no result-based stopping, retries or further tuning. No actor evaluation or autonomous episode is added.
+
+Run only after the main study completes and seals all final checkpoints. Preserve its seal hash and per-model parameter identity before/after. The selected TRAIN questions are separate diagnostic evidence and must not be pooled into the480-question confirmation scores. Constantnone can score24/48overall but0/18changing pairs and0/24positive witnesses.

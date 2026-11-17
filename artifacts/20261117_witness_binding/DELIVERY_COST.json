@@ -1,0 +1,53 @@
+{
+  "new_responses": 10368,
+  "new_updates": 1152,
+  "external_reused_responses": 432,
+  "autonomous_episodes": 0,
+  "training_seconds": 3061.965343470998,
+  "max_update_seconds": 4.053922531000126,
+  "generation_seconds": 1830.536949214998,
+  "max_generation_seconds": 1.3059586040000113,
+  "whole_goal_complete": false,
+  "large_gpu": "NO_GO",
+  "token_counts": [
+    {
+      "arm": "bit17",
+      "query_tokens": 123178,
+      "actor_tokens": 182432,
+      "proof_tokens": 0
+    },
+    {
+      "arm": "proof17",
+      "query_tokens": 123178,
+      "actor_tokens": 182432,
+      "proof_tokens": 147754
+    },
+    {
+      "arm": "bit29",
+      "query_tokens": 123300,
+      "actor_tokens": 183008,
+      "proof_tokens": 0
+    },
+    {
+      "arm": "proof29",
+      "query_tokens": 123300,
+      "actor_tokens": 183008,
+      "proof_tokens": 147876
+    },
+    {
+      "arm": "bit41",
+      "query_tokens": 123342,
+      "actor_tokens": 182848,
+      "proof_tokens": 0
+    },
+    {
+      "arm": "proof41",
+      "query_tokens": 123342,
+      "actor_tokens": 182848,
+      "proof_tokens": 147918
+    }
+  ],
+  "new_trained_checkpoints": 6,
+  "main_responses": 9504,
+  "train_fit_responses": 864
+}

@@ -7,6 +7,10 @@
 
 ## 当前进度
 
+最新续轮：[辅助见证监督与关系学习检验](artifacts/20261117_witness_binding/REPORT.md)，通俗方案见 [SOLUTION.md](artifacts/20261117_witness_binding/SOLUTION.md)，完整范围见[目标核对](artifacts/20261117_witness_binding/OBJECTIVE_AUDIT.md)。扩大到2,304条自建训练世界记录后，匹配比较二值监督和额外见证监督；三个日程的二值变化配对为103/106/106→80/85/80（各144对），辅助组有效见证为332/320/300/480，条件Worker保留3/3组通过。未在三个日程共同通过预设必要门槛。**完整可靠关系与自主安全—效用目标仍未完成，GPU大批量NO_GO。** 新增6个CPU检查点、1,152次更新、10,368条响应（含864条固定TRAIN诊断），复用432条；最长更新4.05秒，新增自主回合0。有效见证不是内部决策忠实性的证明。原始记录恢复：`python -B tools/restore_witness_binding_artifacts.py`。
+
+以下保留上一轮结果：
+
 最新续轮：[行动重放修复与名称／顺序分离诊断](artifacts/20261117_step_replay/REPORT.md)，完整范围见[目标核对](artifacts/20261117_step_replay/OBJECTIVE_AUDIT.md)。保持三个日程的关系批次不变，加入原TRAIN行动重放后，Worker在正确判断输入下全部恢复为24/24状态通过六种选项排列，零不安全/无效动作。同一批新关系题的配对为66/59/67→66/62/63（各128对），三个日程均未通过完整必要门槛。独立名称／顺序干预均能改变预测；平均分不变也可能掩盖逐例翻转。**修复了有限开发集上的条件Worker退化，尚未解决可靠关系与自主安全—效用目标，GPU大批量仍NO_GO。** 本次新增3个检查点、432次CPU更新、3,248条生成响应，复用576条；最长更新2.65秒，没有新增自主回合。原始记录恢复：`python -B tools/restore_step_replay_artifacts.py`。
 
 以下保留上一轮结果：

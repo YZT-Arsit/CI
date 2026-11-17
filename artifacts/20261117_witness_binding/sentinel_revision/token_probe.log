@@ -1,0 +1,6 @@
+{"words_checked": 257, "failures": ["NONE"], "model_loaded": false, "model_calls": 0}
+Traceback (most recent call last):
+  File "/mnt/d/research/longhistory/artifacts/20261117_witness_binding/token_probe.py", line 19, in <module>
+    print(json.dumps(result)); assert not failures
+                                      ^^^^^^^^^^^^
+AssertionError

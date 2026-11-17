@@ -1,0 +1,966 @@
+{
+  "analyses": [
+    {
+      "arm": "start17",
+      "binary_confusion": {
+        "truth1_pred1": 161,
+        "truth0_pred0": 183,
+        "truth0_pred1": 54,
+        "truth1_pred0": 68,
+        "truth1_predNone": 11,
+        "truth0_predNone": 3
+      },
+      "witness_categories": {
+        "invalid_format_or_time": 475,
+        "not_a_present_name": 5
+      },
+      "separate_request_agreement": {
+        "binary_True_valid_proof_False": 344,
+        "binary_False_valid_proof_False": 136
+      },
+      "strata": {
+        "family=edge_swap": {
+          "queries": 96,
+          "binary_correct": 69,
+          "valid_proof": 0
+        },
+        "noise=0": {
+          "queries": 88,
+          "binary_correct": 70,
+          "valid_proof": 0
+        },
+        "vocab=familiar": {
+          "queries": 240,
+          "binary_correct": 171,
+          "valid_proof": 0
+        },
+        "valid_witness_count=1": {
+          "queries": 212,
+          "binary_correct": 142,
+          "valid_proof": 0
+        },
+        "vocab=third": {
+          "queries": 240,
+          "binary_correct": 173,
+          "valid_proof": 0
+        },
+        "valid_witness_count=0": {
+          "queries": 240,
+          "binary_correct": 183,
+          "valid_proof": 0
+        },
+        "noise=4": {
+          "queries": 152,
+          "binary_correct": 127,
+          "valid_proof": 0
+        },
+        "noise=12": {
+          "queries": 152,
+          "binary_correct": 97,
+          "valid_proof": 0
+        },
+        "noise=20": {
+          "queries": 88,
+          "binary_correct": 50,
+          "valid_proof": 0
+        },
+        "family=frontier_swap": {
+          "queries": 96,
+          "binary_correct": 69,
+          "valid_proof": 0
+        },
+        "family=direction_cycle": {
+          "queries": 96,
+          "binary_correct": 60,
+          "valid_proof": 0
+        },
+        "family=known": {
+          "queries": 16,
+          "binary_correct": 16,
+          "valid_proof": 0
+        },
+        "valid_witness_count=2": {
+          "queries": 28,
+          "binary_correct": 19,
+          "valid_proof": 0
+        },
+        "family=empty": {
+          "queries": 16,
+          "binary_correct": 9,
+          "valid_proof": 0
+        },
+        "family=two_hop": {
+          "queries": 16,
+          "binary_correct": 15,
+          "valid_proof": 0
+        },
+        "family=multiple": {
+          "queries": 16,
+          "binary_correct": 9,
+          "valid_proof": 0
+        },
+        "family=random": {
+          "queries": 128,
+          "binary_correct": 97,
+          "valid_proof": 0
+        }
+      }
+    },
+    {
+      "arm": "start29",
+      "binary_confusion": {
+        "truth1_pred1": 141,
+        "truth1_pred0": 95,
+        "truth0_pred0": 197,
+        "truth0_pred1": 39,
+        "truth1_predNone": 4,
+        "truth0_predNone": 4
+      },
+      "witness_categories": {
+        "invalid_format_or_time": 479,
+        "not_a_present_name": 1
+      },
+      "separate_request_agreement": {
+        "binary_True_valid_proof_False": 338,
+        "binary_False_valid_proof_False": 142
+      },
+      "strata": {
+        "family=edge_swap": {
+          "queries": 96,
+          "binary_correct": 67,
+          "valid_proof": 0
+        },
+        "noise=0": {
+          "queries": 88,
+          "binary_correct": 68,
+          "valid_proof": 0
+        },
+        "vocab=familiar": {
+          "queries": 240,
+          "binary_correct": 168,
+          "valid_proof": 0
+        },
+        "valid_witness_count=1": {
+          "queries": 212,
+          "binary_correct": 122,
+          "valid_proof": 0
+        },
+        "vocab=third": {
+          "queries": 240,
+          "binary_correct": 170,
+          "valid_proof": 0
+        },
+        "valid_witness_count=0": {
+          "queries": 240,
+          "binary_correct": 197,
+          "valid_proof": 0
+        },
+        "noise=4": {
+          "queries": 152,
+          "binary_correct": 122,
+          "valid_proof": 0
+        },
+        "noise=12": {
+          "queries": 152,
+          "binary_correct": 95,
+          "valid_proof": 0
+        },
+        "noise=20": {
+          "queries": 88,
+          "binary_correct": 53,
+          "valid_proof": 0
+        },
+        "family=frontier_swap": {
+          "queries": 96,
+          "binary_correct": 67,
+          "valid_proof": 0
+        },
+        "family=direction_cycle": {
+          "queries": 96,
+          "binary_correct": 57,
+          "valid_proof": 0
+        },
+        "family=known": {
+          "queries": 16,
+          "binary_correct": 16,
+          "valid_proof": 0
+        },
+        "valid_witness_count=2": {
+          "queries": 28,
+          "binary_correct": 19,
+          "valid_proof": 0
+        },
+        "family=empty": {
+          "queries": 16,
+          "binary_correct": 12,
+          "valid_proof": 0
+        },
+        "family=two_hop": {
+          "queries": 16,
+          "binary_correct": 15,
+          "valid_proof": 0
+        },
+        "family=multiple": {
+          "queries": 16,
+          "binary_correct": 11,
+          "valid_proof": 0
+        },
+        "family=random": {
+          "queries": 128,
+          "binary_correct": 93,
+          "valid_proof": 0
+        }
+      }
+    },
+    {
+      "arm": "start41",
+      "binary_confusion": {
+        "truth1_pred1": 127,
+        "truth0_pred0": 214,
+        "truth1_pred0": 112,
+        "truth0_pred1": 25,
+        "truth0_predNone": 1,
+        "truth1_predNone": 1
+      },
+      "witness_categories": {
+        "invalid_format_or_time": 478,
+        "not_a_present_name": 2
+      },
+      "separate_request_agreement": {
+        "binary_True_valid_proof_False": 341,
+        "binary_False_valid_proof_False": 139
+      },
+      "strata": {
+        "family=edge_swap": {
+          "queries": 96,
+          "binary_correct": 73,
+          "valid_proof": 0
+        },
+        "noise=0": {
+          "queries": 88,
+          "binary_correct": 74,
+          "valid_proof": 0
+        },
+        "vocab=familiar": {
+          "queries": 240,
+          "binary_correct": 175,
+          "valid_proof": 0
+        },
+        "valid_witness_count=1": {
+          "queries": 212,
+          "binary_correct": 111,
+          "valid_proof": 0
+        },
+        "vocab=third": {
+          "queries": 240,
+          "binary_correct": 166,
+          "valid_proof": 0
+        },
+        "valid_witness_count=0": {
+          "queries": 240,
+          "binary_correct": 214,
+          "valid_proof": 0
+        },
+        "noise=4": {
+          "queries": 152,
+          "binary_correct": 117,
+          "valid_proof": 0
+        },
+        "noise=12": {
+          "queries": 152,
+          "binary_correct": 97,
+          "valid_proof": 0
+        },
+        "noise=20": {
+          "queries": 88,
+          "binary_correct": 53,
+          "valid_proof": 0
+        },
+        "family=frontier_swap": {
+          "queries": 96,
+          "binary_correct": 68,
+          "valid_proof": 0
+        },
+        "family=direction_cycle": {
+          "queries": 96,
+          "binary_correct": 57,
+          "valid_proof": 0
+        },
+        "family=known": {
+          "queries": 16,
+          "binary_correct": 15,
+          "valid_proof": 0
+        },
+        "valid_witness_count=2": {
+          "queries": 28,
+          "binary_correct": 16,
+          "valid_proof": 0
+        },
+        "family=empty": {
+          "queries": 16,
+          "binary_correct": 14,
+          "valid_proof": 0
+        },
+        "family=two_hop": {
+          "queries": 16,
+          "binary_correct": 15,
+          "valid_proof": 0
+        },
+        "family=multiple": {
+          "queries": 16,
+          "binary_correct": 8,
+          "valid_proof": 0
+        },
+        "family=random": {
+          "queries": 128,
+          "binary_correct": 91,
+          "valid_proof": 0
+        }
+      }
+    },
+    {
+      "arm": "bit17",
+      "binary_confusion": {
+        "truth1_pred1": 191,
+        "truth0_pred0": 233,
+        "truth1_pred0": 49,
+        "truth0_pred1": 7
+      },
+      "witness_categories": {
+        "invalid_format_or_time": 480
+      },
+      "separate_request_agreement": {
+        "binary_True_valid_proof_False": 424,
+        "binary_False_valid_proof_False": 56
+      },
+      "strata": {
+        "family=edge_swap": {
+          "queries": 96,
+          "binary_correct": 86,
+          "valid_proof": 0
+        },
+        "noise=0": {
+          "queries": 88,
+          "binary_correct": 87,
+          "valid_proof": 0
+        },
+        "vocab=familiar": {
+          "queries": 240,
+          "binary_correct": 213,
+          "valid_proof": 0
+        },
+        "valid_witness_count=1": {
+          "queries": 212,
+          "binary_correct": 169,
+          "valid_proof": 0
+        },
+        "vocab=third": {
+          "queries": 240,
+          "binary_correct": 211,
+          "valid_proof": 0
+        },
+        "valid_witness_count=0": {
+          "queries": 240,
+          "binary_correct": 233,
+          "valid_proof": 0
+        },
+        "noise=4": {
+          "queries": 152,
+          "binary_correct": 145,
+          "valid_proof": 0
+        },
+        "noise=12": {
+          "queries": 152,
+          "binary_correct": 131,
+          "valid_proof": 0
+        },
+        "noise=20": {
+          "queries": 88,
+          "binary_correct": 61,
+          "valid_proof": 0
+        },
+        "family=frontier_swap": {
+          "queries": 96,
+          "binary_correct": 89,
+          "valid_proof": 0
+        },
+        "family=direction_cycle": {
+          "queries": 96,
+          "binary_correct": 71,
+          "valid_proof": 0
+        },
+        "family=known": {
+          "queries": 16,
+          "binary_correct": 16,
+          "valid_proof": 0
+        },
+        "valid_witness_count=2": {
+          "queries": 28,
+          "binary_correct": 22,
+          "valid_proof": 0
+        },
+        "family=empty": {
+          "queries": 16,
+          "binary_correct": 15,
+          "valid_proof": 0
+        },
+        "family=two_hop": {
+          "queries": 16,
+          "binary_correct": 16,
+          "valid_proof": 0
+        },
+        "family=multiple": {
+          "queries": 16,
+          "binary_correct": 10,
+          "valid_proof": 0
+        },
+        "family=random": {
+          "queries": 128,
+          "binary_correct": 121,
+          "valid_proof": 0
+        }
+      }
+    },
+    {
+      "arm": "proof17",
+      "binary_confusion": {
+        "truth1_pred1": 155,
+        "truth0_pred0": 228,
+        "truth1_pred0": 81,
+        "truth0_pred1": 12,
+        "truth1_predNone": 4
+      },
+      "witness_categories": {
+        "valid_witness": 332,
+        "invalid_format_or_time": 25,
+        "false_no_witness": 84,
+        "present_name_but_not_witness": 37,
+        "not_a_present_name": 2
+      },
+      "separate_request_agreement": {
+        "binary_True_valid_proof_True": 311,
+        "binary_True_valid_proof_False": 72,
+        "binary_False_valid_proof_False": 76,
+        "binary_False_valid_proof_True": 21
+      },
+      "strata": {
+        "family=edge_swap": {
+          "queries": 96,
+          "binary_correct": 82,
+          "valid_proof": 68
+        },
+        "noise=0": {
+          "queries": 88,
+          "binary_correct": 83,
+          "valid_proof": 76
+        },
+        "vocab=familiar": {
+          "queries": 240,
+          "binary_correct": 191,
+          "valid_proof": 171
+        },
+        "valid_witness_count=1": {
+          "queries": 212,
+          "binary_correct": 137,
+          "valid_proof": 102
+        },
+        "vocab=third": {
+          "queries": 240,
+          "binary_correct": 192,
+          "valid_proof": 161
+        },
+        "valid_witness_count=0": {
+          "queries": 240,
+          "binary_correct": 228,
+          "valid_proof": 215
+        },
+        "noise=4": {
+          "queries": 152,
+          "binary_correct": 134,
+          "valid_proof": 111
+        },
+        "noise=12": {
+          "queries": 152,
+          "binary_correct": 112,
+          "valid_proof": 96
+        },
+        "noise=20": {
+          "queries": 88,
+          "binary_correct": 54,
+          "valid_proof": 49
+        },
+        "family=frontier_swap": {
+          "queries": 96,
+          "binary_correct": 76,
+          "valid_proof": 68
+        },
+        "family=direction_cycle": {
+          "queries": 96,
+          "binary_correct": 64,
+          "valid_proof": 56
+        },
+        "family=known": {
+          "queries": 16,
+          "binary_correct": 15,
+          "valid_proof": 11
+        },
+        "valid_witness_count=2": {
+          "queries": 28,
+          "binary_correct": 18,
+          "valid_proof": 15
+        },
+        "family=empty": {
+          "queries": 16,
+          "binary_correct": 15,
+          "valid_proof": 16
+        },
+        "family=two_hop": {
+          "queries": 16,
+          "binary_correct": 16,
+          "valid_proof": 15
+        },
+        "family=multiple": {
+          "queries": 16,
+          "binary_correct": 8,
+          "valid_proof": 8
+        },
+        "family=random": {
+          "queries": 128,
+          "binary_correct": 107,
+          "valid_proof": 90
+        }
+      }
+    },
+    {
+      "arm": "bit29",
+      "binary_confusion": {
+        "truth1_pred1": 195,
+        "truth0_pred0": 217,
+        "truth1_pred0": 45,
+        "truth0_pred1": 23
+      },
+      "witness_categories": {
+        "invalid_format_or_time": 480
+      },
+      "separate_request_agreement": {
+        "binary_True_valid_proof_False": 412,
+        "binary_False_valid_proof_False": 68
+      },
+      "strata": {
+        "family=edge_swap": {
+          "queries": 96,
+          "binary_correct": 86,
+          "valid_proof": 0
+        },
+        "noise=0": {
+          "queries": 88,
+          "binary_correct": 86,
+          "valid_proof": 0
+        },
+        "vocab=familiar": {
+          "queries": 240,
+          "binary_correct": 203,
+          "valid_proof": 0
+        },
+        "valid_witness_count=1": {
+          "queries": 212,
+          "binary_correct": 173,
+          "valid_proof": 0
+        },
+        "vocab=third": {
+          "queries": 240,
+          "binary_correct": 209,
+          "valid_proof": 0
+        },
+        "valid_witness_count=0": {
+          "queries": 240,
+          "binary_correct": 217,
+          "valid_proof": 0
+        },
+        "noise=4": {
+          "queries": 152,
+          "binary_correct": 139,
+          "valid_proof": 0
+        },
+        "noise=12": {
+          "queries": 152,
+          "binary_correct": 123,
+          "valid_proof": 0
+        },
+        "noise=20": {
+          "queries": 88,
+          "binary_correct": 64,
+          "valid_proof": 0
+        },
+        "family=frontier_swap": {
+          "queries": 96,
+          "binary_correct": 89,
+          "valid_proof": 0
+        },
+        "family=direction_cycle": {
+          "queries": 96,
+          "binary_correct": 75,
+          "valid_proof": 0
+        },
+        "family=known": {
+          "queries": 16,
+          "binary_correct": 16,
+          "valid_proof": 0
+        },
+        "valid_witness_count=2": {
+          "queries": 28,
+          "binary_correct": 22,
+          "valid_proof": 0
+        },
+        "family=empty": {
+          "queries": 16,
+          "binary_correct": 13,
+          "valid_proof": 0
+        },
+        "family=two_hop": {
+          "queries": 16,
+          "binary_correct": 15,
+          "valid_proof": 0
+        },
+        "family=multiple": {
+          "queries": 16,
+          "binary_correct": 12,
+          "valid_proof": 0
+        },
+        "family=random": {
+          "queries": 128,
+          "binary_correct": 106,
+          "valid_proof": 0
+        }
+      }
+    },
+    {
+      "arm": "proof29",
+      "binary_confusion": {
+        "truth1_pred1": 163,
+        "truth0_pred0": 227,
+        "truth1_pred0": 76,
+        "truth0_pred1": 13,
+        "truth1_predNone": 1
+      },
+      "witness_categories": {
+        "valid_witness": 320,
+        "false_no_witness": 115,
+        "present_name_but_not_witness": 39,
+        "invalid_format_or_time": 5,
+        "not_a_present_name": 1
+      },
+      "separate_request_agreement": {
+        "binary_True_valid_proof_True": 302,
+        "binary_True_valid_proof_False": 88,
+        "binary_False_valid_proof_False": 72,
+        "binary_False_valid_proof_True": 18
+      },
+      "strata": {
+        "family=edge_swap": {
+          "queries": 96,
+          "binary_correct": 80,
+          "valid_proof": 65
+        },
+        "noise=0": {
+          "queries": 88,
+          "binary_correct": 82,
+          "valid_proof": 72
+        },
+        "vocab=familiar": {
+          "queries": 240,
+          "binary_correct": 193,
+          "valid_proof": 164
+        },
+        "valid_witness_count=1": {
+          "queries": 212,
+          "binary_correct": 144,
+          "valid_proof": 88
+        },
+        "vocab=third": {
+          "queries": 240,
+          "binary_correct": 197,
+          "valid_proof": 156
+        },
+        "valid_witness_count=0": {
+          "queries": 240,
+          "binary_correct": 227,
+          "valid_proof": 215
+        },
+        "noise=4": {
+          "queries": 152,
+          "binary_correct": 134,
+          "valid_proof": 104
+        },
+        "noise=12": {
+          "queries": 152,
+          "binary_correct": 117,
+          "valid_proof": 90
+        },
+        "noise=20": {
+          "queries": 88,
+          "binary_correct": 57,
+          "valid_proof": 54
+        },
+        "family=frontier_swap": {
+          "queries": 96,
+          "binary_correct": 81,
+          "valid_proof": 65
+        },
+        "family=direction_cycle": {
+          "queries": 96,
+          "binary_correct": 68,
+          "valid_proof": 57
+        },
+        "family=known": {
+          "queries": 16,
+          "binary_correct": 15,
+          "valid_proof": 13
+        },
+        "valid_witness_count=2": {
+          "queries": 28,
+          "binary_correct": 19,
+          "valid_proof": 17
+        },
+        "family=empty": {
+          "queries": 16,
+          "binary_correct": 14,
+          "valid_proof": 16
+        },
+        "family=two_hop": {
+          "queries": 16,
+          "binary_correct": 16,
+          "valid_proof": 15
+        },
+        "family=multiple": {
+          "queries": 16,
+          "binary_correct": 10,
+          "valid_proof": 7
+        },
+        "family=random": {
+          "queries": 128,
+          "binary_correct": 106,
+          "valid_proof": 82
+        }
+      }
+    },
+    {
+      "arm": "bit41",
+      "binary_confusion": {
+        "truth1_pred1": 201,
+        "truth0_pred0": 218,
+        "truth1_pred0": 39,
+        "truth0_pred1": 22
+      },
+      "witness_categories": {
+        "invalid_format_or_time": 480
+      },
+      "separate_request_agreement": {
+        "binary_True_valid_proof_False": 419,
+        "binary_False_valid_proof_False": 61
+      },
+      "strata": {
+        "family=edge_swap": {
+          "queries": 96,
+          "binary_correct": 84,
+          "valid_proof": 0
+        },
+        "noise=0": {
+          "queries": 88,
+          "binary_correct": 88,
+          "valid_proof": 0
+        },
+        "vocab=familiar": {
+          "queries": 240,
+          "binary_correct": 211,
+          "valid_proof": 0
+        },
+        "valid_witness_count=1": {
+          "queries": 212,
+          "binary_correct": 177,
+          "valid_proof": 0
+        },
+        "vocab=third": {
+          "queries": 240,
+          "binary_correct": 208,
+          "valid_proof": 0
+        },
+        "valid_witness_count=0": {
+          "queries": 240,
+          "binary_correct": 218,
+          "valid_proof": 0
+        },
+        "noise=4": {
+          "queries": 152,
+          "binary_correct": 139,
+          "valid_proof": 0
+        },
+        "noise=12": {
+          "queries": 152,
+          "binary_correct": 128,
+          "valid_proof": 0
+        },
+        "noise=20": {
+          "queries": 88,
+          "binary_correct": 64,
+          "valid_proof": 0
+        },
+        "family=frontier_swap": {
+          "queries": 96,
+          "binary_correct": 89,
+          "valid_proof": 0
+        },
+        "family=direction_cycle": {
+          "queries": 96,
+          "binary_correct": 76,
+          "valid_proof": 0
+        },
+        "family=known": {
+          "queries": 16,
+          "binary_correct": 16,
+          "valid_proof": 0
+        },
+        "valid_witness_count=2": {
+          "queries": 28,
+          "binary_correct": 24,
+          "valid_proof": 0
+        },
+        "family=empty": {
+          "queries": 16,
+          "binary_correct": 14,
+          "valid_proof": 0
+        },
+        "family=two_hop": {
+          "queries": 16,
+          "binary_correct": 13,
+          "valid_proof": 0
+        },
+        "family=multiple": {
+          "queries": 16,
+          "binary_correct": 12,
+          "valid_proof": 0
+        },
+        "family=random": {
+          "queries": 128,
+          "binary_correct": 115,
+          "valid_proof": 0
+        }
+      }
+    },
+    {
+      "arm": "proof41",
+      "binary_confusion": {
+        "truth1_pred1": 159,
+        "truth0_pred0": 220,
+        "truth0_pred1": 20,
+        "truth1_pred0": 80,
+        "truth1_predNone": 1
+      },
+      "witness_categories": {
+        "valid_witness": 300,
+        "false_no_witness": 121,
+        "present_name_but_not_witness": 57,
+        "not_a_present_name": 1,
+        "invalid_format_or_time": 1
+      },
+      "separate_request_agreement": {
+        "binary_True_valid_proof_True": 282,
+        "binary_False_valid_proof_True": 18,
+        "binary_True_valid_proof_False": 97,
+        "binary_False_valid_proof_False": 83
+      },
+      "strata": {
+        "family=edge_swap": {
+          "queries": 96,
+          "binary_correct": 78,
+          "valid_proof": 61
+        },
+        "noise=0": {
+          "queries": 88,
+          "binary_correct": 80,
+          "valid_proof": 71
+        },
+        "vocab=familiar": {
+          "queries": 240,
+          "binary_correct": 189,
+          "valid_proof": 148
+        },
+        "valid_witness_count=1": {
+          "queries": 212,
+          "binary_correct": 140,
+          "valid_proof": 83
+        },
+        "vocab=third": {
+          "queries": 240,
+          "binary_correct": 190,
+          "valid_proof": 152
+        },
+        "valid_witness_count=0": {
+          "queries": 240,
+          "binary_correct": 220,
+          "valid_proof": 202
+        },
+        "noise=4": {
+          "queries": 152,
+          "binary_correct": 131,
+          "valid_proof": 96
+        },
+        "noise=12": {
+          "queries": 152,
+          "binary_correct": 113,
+          "valid_proof": 85
+        },
+        "noise=20": {
+          "queries": 88,
+          "binary_correct": 55,
+          "valid_proof": 48
+        },
+        "family=frontier_swap": {
+          "queries": 96,
+          "binary_correct": 76,
+          "valid_proof": 55
+        },
+        "family=direction_cycle": {
+          "queries": 96,
+          "binary_correct": 68,
+          "valid_proof": 55
+        },
+        "family=known": {
+          "queries": 16,
+          "binary_correct": 15,
+          "valid_proof": 14
+        },
+        "valid_witness_count=2": {
+          "queries": 28,
+          "binary_correct": 19,
+          "valid_proof": 15
+        },
+        "family=empty": {
+          "queries": 16,
+          "binary_correct": 16,
+          "valid_proof": 16
+        },
+        "family=two_hop": {
+          "queries": 16,
+          "binary_correct": 14,
+          "valid_proof": 15
+        },
+        "family=multiple": {
+          "queries": 16,
+          "binary_correct": 9,
+          "valid_proof": 6
+        },
+        "family=random": {
+          "queries": 128,
+          "binary_correct": 103,
+          "valid_proof": 78
+        }
+      }
+    }
+  ],
+  "scope": "Descriptive saved-output analysis; no gate changes, causal faithfulness claim or new model calls.",
+  "results_sha256": "6dd8512982418ef8101c8524951f85fc64f8e3e148790451b30bdc0e212d0e8e",
+  "seal_sha256": "43aee37c88c5e1088945a01b00aec9319a687c6ff83666973d674071632dace7",
+  "script_sha256": "4fcee0c67dad9724eb01419d3cb5a42cece9bb69f2b2939445014c0cf099ca95",
+  "new_model_calls": 0
+}

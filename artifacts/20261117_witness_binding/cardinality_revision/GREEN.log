@@ -1,0 +1,32 @@
+.F.F
+======================================================================
+FAIL: test_counterfactuals_keep_declared_invariants (__main__.WitnessTests.test_counterfactuals_keep_declared_invariants)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\research\longhistory\artifacts\20261117_witness_binding\test_graphs.py", line 35, in test_counterfactuals_keep_declared_invariants
+    for seed in range(20): self.assertGreaterEqual(len(witnesses(control(seed, 'multiple', 12))), 2)
+                                                                 ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\research\longhistory\artifacts\20261117_witness_binding\graph_data.py", line 68, in control
+    assert truth(w) == int(kind in ['known', 'multiple'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+
+======================================================================
+FAIL: test_training_balance_and_confirmation_sizes (__main__.WitnessTests.test_training_balance_and_confirmation_sizes)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\research\longhistory\artifacts\20261117_witness_binding\test_graphs.py", line 39, in test_training_balance_and_confirmation_sizes
+    worlds, schedule = training(seed); self.assertEqual(len(worlds), 768)
+                       ~~~~~~~~^^^^^^
+  File "D:\research\longhistory\artifacts\20261117_witness_binding\graph_data.py", line 99, in training
+    items = [control(base + i, kind, noise) for i, kind in enumerate(['known', 'empty', 'two_hop', 'multiple'])]
+             ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\research\longhistory\artifacts\20261117_witness_binding\graph_data.py", line 68, in control
+    assert truth(w) == int(kind in ['known', 'multiple'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.088s
+
+FAILED (failures=2)

@@ -1,0 +1,24 @@
+FF
+======================================================================
+FAIL: test_all_small_graphs_match_independent_matrix (__main__.WitnessTests.test_all_small_graphs_match_independent_matrix)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\research\longhistory\artifacts\20261117_witness_binding\test_graphs.py", line 21, in test_all_small_graphs_match_independent_matrix
+    self.assertEqual(bool(witnesses(w)), bool(truth(w)))
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False != True
+
+======================================================================
+FAIL: test_retention_direction_and_one_round (__main__.WitnessTests.test_retention_direction_and_one_round)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\research\longhistory\artifacts\20261117_witness_binding\test_graphs.py", line 9, in test_retention_direction_and_one_round
+    self.assertEqual(witnesses(w), {0})
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+AssertionError: Items in the second set but not the first:
+0
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.001s
+
+FAILED (failures=2)

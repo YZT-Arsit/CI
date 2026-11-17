@@ -1,0 +1,34 @@
+{
+  "evidence_sha256": {
+    "PLAN.json": "8c094631c2308489bcb129caf9dab8b223d2e6a2c81ba4c47c4a8374716b05fe",
+    "SEALED.json": "43aee37c88c5e1088945a01b00aec9319a687c6ff83666973d674071632dace7",
+    "RESULTS.json": "6dd8512982418ef8101c8524951f85fc64f8e3e148790451b30bdc0e212d0e8e",
+    "REPORT.md": "952aaa82d6be598d8ca037f8c225ebec4aad75171087582b3a0af5f4a166bfe1",
+    "OBJECTIVE_AUDIT.md": "0cbc2bda344cdb475022661ac830e8855416e7c83ec861d365678ed22f7bc459",
+    "REPRODUCE.md": "ad8265dffb5827693b40cce6a9f043b732465cb85fdc9fb17bd8e999991310ca",
+    "REVIEW_NOTES.md": "c5f8d88d59281728ec7b05da6d0c120251ae558c236315c5dee4b084d0ed28fe",
+    "DECISION.json": "95d5de34992cb6e74a3c98d48a70ff4665ff8d3f8e71b981ea212723e0a4fb4d",
+    "TOKEN_PREFLIGHT.json": "0d5696a9f5132352fbdc2d78b35b3d8cf73ba2adcf2e606c4d7bdaa64ec6216c",
+    "DATA_AUDIT.json": "e5424b7b45054975d50c92cbc79cd13745f435329e56565954e9c397faac6b48",
+    "DIAGNOSTICS.json": "662c43ab1168ee8bf61258ea797ae204cec09b75ae61163931d72b65c4f41156",
+    "DIAGNOSTIC_SCOPE.md": "0b34ccec383852c923de23bc874dddc8e704b270180bcea9628175535e2b829f",
+    "compression_manifest.json": "ff2948cbd947642e1702184b47beeab770901106500004bef251328418107201",
+    "ARCHIVE_VERIFIED.json": "52142fc53f63f739873223a700dd9245c5a4fa1cbc0fad30de97b0421670ae68",
+    "DELIVERY_COST.json": "5ebd3e33619ef3bedfe6f5dedcc24c442819d79f784b4f3a2f804100584581b1",
+    "training_fit/PLAN.json": "4bc6a570cf5b85b7aa4f54b463a7ce96b85d3fa9705e6694929ef85bea8c77ce",
+    "training_fit/SEALED.json": "64a496bc4a215f86ea8ea990e1696ee73bec934f4b5fd9950f9351c3345568dc",
+    "training_fit/RESULTS.json": "53b376ead4581ff15b6ce9d6584856848ef977b15872ccaca5a9c32b8575ed52"
+  },
+  "archive_checks": {
+    "archives": 60,
+    "raw_bytes": 7273782,
+    "compressed_bytes": 592861,
+    "fresh_restore": "PASS",
+    "idempotence": "PASS",
+    "different_evidence_refused": "PASS",
+    "python_sources_parsed": 25
+  },
+  "audit_errors": 0,
+  "whole_goal_complete": false,
+  "large_gpu": "NO_GO"
+}
