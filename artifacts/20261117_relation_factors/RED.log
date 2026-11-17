@@ -1,0 +1,26 @@
+EE
+======================================================================
+ERROR: test_controlled_pair_invariants (__main__.FactorTests.test_controlled_pair_invariants)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\research\longhistory\artifacts\20261117_relation_factors\test_factors.py", line 27, in test_controlled_pair_invariants
+    a, b = pair(71, family, known, noise)
+           ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\research\longhistory\artifacts\20261117_relation_factors\factor_data.py", line 6, in pair
+    raise NotImplementedError('matched-factor generator not implemented')
+NotImplementedError: matched-factor generator not implemented
+
+======================================================================
+ERROR: test_labels_and_frontier_expansion (__main__.FactorTests.test_labels_and_frontier_expansion)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\research\longhistory\artifacts\20261117_relation_factors\test_factors.py", line 15, in test_labels_and_frontier_expansion
+    small = pair(seed, family, 1, noise); large = pair(seed, family, 4, noise)
+  File "D:\research\longhistory\artifacts\20261117_relation_factors\factor_data.py", line 6, in pair
+    raise NotImplementedError('matched-factor generator not implemented')
+NotImplementedError: matched-factor generator not implemented
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.001s
+
+FAILED (errors=2)

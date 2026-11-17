@@ -1,0 +1,21 @@
+# Prelaunch review and scope
+
+This follow-up was declared while the matched background worker was running, before its final scoring. All nine model arms and the670millionpanel were fixed. No outcome-based case/model selection or new training. The synthetic task schemas and vocabulary remain developed assets.
+
+Independent pure review passed source verification, exact data reconstruction, native auditor imports and the unit test. It confirmed28feasible and4infeasible presentations/model. Native replay differs from rename_coverage's version only in the docstring and referenced-checkpoint resolution; no checkpoints are copied or newly trained here.
+
+Review caught a prelaunch metric omission: PLAN promised separate optimal-action adherence on infeasible worlds, but the first auditor only separated their validCI. The auditor now reports infeasible decisions,optimal decisions and all-actions-optimal episodes. The conservative3,168response bound was tightened to the actual2,880maximum. Prior plan,PLAN.md,auditor and import receipt are preserved under prelaunch_metric_revision. Data and worker source did not change. Refrozen plan:a228748bf67be6cb910fd78cb425e5c318b51a9280a0ee209ee452f972cd1ff1.
+
+Actual WSL import-only checks passed for the original and corrected plans. The final receipt identifies the original action_binding evaluator and current native auditor root,with no model load/calls. Model inference will only begin after the parent study seals.
+
+This tests original global-query policy transfer and forgetting under shared parameters. It does not test an iterative scaffold built from the new local operator, establish a faithful internal reasoning mechanism, validate natural business rules or provide32effectiveAgent steps. All reached-state statistics remain policy-dependent.
+
+During policy inference, before scoring, diagnose_initial.py was added as a separate descriptive check. It compares the identical32initial states across all nine models and separates judgment accuracy,optimal action and their joint correctness,including history-changing pairs. This avoids treating different later trajectories as matched states. It adds no model calls or gates and cannot establish causal use of a judgment; its output binds the scored result and its own script hash.
+
+Static review and a fabricated perfect-response check passed for nine models×32initial states and eight changing pairs/model,without reading live outputs. Report wording distinguishes both-judgments-correct per state from single-query accuracy. Infeasible validCI excludes invalid actions but does not require every intermediate query to be valid; query failures are separately reported. No reviewer inference or edits.
+
+Independent final native review exactly reproduced RESULTS,study/AUDIT and INITIAL_DIAGNOSTICS with writes intercepted. Seals,identities,transitions and timing checks passed:2,568responses=786actions+1,782queries;288episodes,28feasible/4infeasible permodel. All models are valid and optimal on their four infeasible episodes. Targeted successes10/18/16versusinitial17/16/21and violations2/0/0versus3/2/3are mixed utility transfer,not joint improvement. All targeted four-presentation groups failed. No inference or edits.
+
+Before native scoring,a separate handoff intervention was frozen as9c3bab7a109007dcd9907ddc40269525228c4e72d58b21079364ab66c2bf80e3. Pure review verified all16states×2treatments×9models,source/seal bindings,balanced treatment/positive-option positions,and fabricated scoring controls. Token/import preflight passed218–234tokens,equal pair lengths and exactly two changed token positions,without model loading/calls. Both treatments are injected oracle values,not self-generated reasoning; no sourcebatch2responses are reused in the batch4causal contrast.
+
+Independent final handoff audit exactly reproduced RESULTS and report rows with writes intercepted. Raw recount:139/144action flips,two unchanged valid pairs,three invalid pairs;truthful inputs142/144true-optimal,inverted inputs1/144. Source/seal/identity/label/two-token checks pass. Entire delivery13,656newresponses. These are correlated model-state pairs,not independent business tasks;influence of injected values does not prove self-generated relations or safe reliance. No inference or edits.

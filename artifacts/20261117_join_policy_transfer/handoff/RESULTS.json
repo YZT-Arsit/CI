@@ -1,0 +1,186 @@
+{
+  "summaries": [
+    {
+      "arm": "initial17",
+      "scores": {
+        "truth": {
+          "queries": 16,
+          "invalid": 0,
+          "true_optimal": 16,
+          "follows_supplied_positive": 16
+        },
+        "inverted": {
+          "queries": 16,
+          "invalid": 0,
+          "true_optimal": 0,
+          "follows_supplied_positive": 16
+        }
+      },
+      "valid_action_flips": 16,
+      "states": 16
+    },
+    {
+      "arm": "initial29",
+      "scores": {
+        "truth": {
+          "queries": 16,
+          "invalid": 0,
+          "true_optimal": 16,
+          "follows_supplied_positive": 16
+        },
+        "inverted": {
+          "queries": 16,
+          "invalid": 0,
+          "true_optimal": 0,
+          "follows_supplied_positive": 16
+        }
+      },
+      "valid_action_flips": 16,
+      "states": 16
+    },
+    {
+      "arm": "initial41",
+      "scores": {
+        "truth": {
+          "queries": 16,
+          "invalid": 0,
+          "true_optimal": 16,
+          "follows_supplied_positive": 16
+        },
+        "inverted": {
+          "queries": 16,
+          "invalid": 0,
+          "true_optimal": 0,
+          "follows_supplied_positive": 16
+        }
+      },
+      "valid_action_flips": 16,
+      "states": 16
+    },
+    {
+      "arm": "random17",
+      "scores": {
+        "truth": {
+          "queries": 16,
+          "invalid": 0,
+          "true_optimal": 16,
+          "follows_supplied_positive": 16
+        },
+        "inverted": {
+          "queries": 16,
+          "invalid": 0,
+          "true_optimal": 1,
+          "follows_supplied_positive": 15
+        }
+      },
+      "valid_action_flips": 15,
+      "states": 16
+    },
+    {
+      "arm": "targeted17",
+      "scores": {
+        "truth": {
+          "queries": 16,
+          "invalid": 0,
+          "true_optimal": 16,
+          "follows_supplied_positive": 16
+        },
+        "inverted": {
+          "queries": 16,
+          "invalid": 0,
+          "true_optimal": 0,
+          "follows_supplied_positive": 16
+        }
+      },
+      "valid_action_flips": 16,
+      "states": 16
+    },
+    {
+      "arm": "random29",
+      "scores": {
+        "truth": {
+          "queries": 16,
+          "invalid": 0,
+          "true_optimal": 15,
+          "follows_supplied_positive": 15
+        },
+        "inverted": {
+          "queries": 16,
+          "invalid": 0,
+          "true_optimal": 0,
+          "follows_supplied_positive": 16
+        }
+      },
+      "valid_action_flips": 15,
+      "states": 16
+    },
+    {
+      "arm": "targeted29",
+      "scores": {
+        "truth": {
+          "queries": 16,
+          "invalid": 0,
+          "true_optimal": 16,
+          "follows_supplied_positive": 16
+        },
+        "inverted": {
+          "queries": 16,
+          "invalid": 0,
+          "true_optimal": 0,
+          "follows_supplied_positive": 16
+        }
+      },
+      "valid_action_flips": 16,
+      "states": 16
+    },
+    {
+      "arm": "random41",
+      "scores": {
+        "truth": {
+          "queries": 16,
+          "invalid": 0,
+          "true_optimal": 16,
+          "follows_supplied_positive": 16
+        },
+        "inverted": {
+          "queries": 16,
+          "invalid": 0,
+          "true_optimal": 0,
+          "follows_supplied_positive": 16
+        }
+      },
+      "valid_action_flips": 16,
+      "states": 16
+    },
+    {
+      "arm": "targeted41",
+      "scores": {
+        "truth": {
+          "queries": 16,
+          "invalid": 1,
+          "true_optimal": 15,
+          "follows_supplied_positive": 15
+        },
+        "inverted": {
+          "queries": 16,
+          "invalid": 2,
+          "true_optimal": 0,
+          "follows_supplied_positive": 14
+        }
+      },
+      "valid_action_flips": 13,
+      "states": 16
+    }
+  ],
+  "new_responses": 288,
+  "new_updates": 0,
+  "new_checkpoints": 0,
+  "reused_responses": 0,
+  "autonomous_episodes": 0,
+  "generation_seconds": 54.753892439000026,
+  "max_generation_seconds": 0.9002101620000076,
+  "errors": 0,
+  "whole_goal_complete": false,
+  "large_gpu": "NO_GO",
+  "scope": "Injected judgment-channel intervention only; neither treatment contains model-generated judgments. Does not prove relational origin or faithful internal reasoning."
+}

@@ -7,6 +7,10 @@
 
 ## 当前进度
 
+最新续轮：[近似干扰的配对训练修复](artifacts/20261117_join_repair/REPORT.md)，附[原任务自主回归](artifacts/20261117_join_policy_transfer/REPORT.md)、[冻结因子诊断](artifacts/20261117_relation_factors/REPORT.md)与[完整目标核对](artifacts/20261117_join_repair/OBJECTIVE_AUDIT.md)。三个日程内分别以相同初始化比较普通/针对背景训练，各96次更新；所有训练前、普通组、针对组及普通图/控制题/随机图/干扰图均完整报告。三个针对组未共同通过严格局部必要门槛。三个针对组的近似干扰配对相对普通组增加3/16/8，普通关系配对减少3/3/17；判断输入干预产生139/144次动作翻转，但注入值不等于模型自产关系。**关系知识进入自主行动、自然规范跨任务与32步有效协作仍未证明，GPU大批量NO_GO。** 本次新增6个CPU检查点、576次更新、13,656条响应（含336条固定TRAIN、2,568条原任务回归及288条判断干预回答），复用432条，新增合成环境三阶段自主回合288；最长更新3.09秒。恢复原始记录：`python -B tools/restore_relation_factors_artifacts.py`。
+
+以下保留上一轮结果：
+
 最新续轮：[辅助见证监督与关系学习检验](artifacts/20261117_witness_binding/REPORT.md)，通俗方案见 [SOLUTION.md](artifacts/20261117_witness_binding/SOLUTION.md)，完整范围见[目标核对](artifacts/20261117_witness_binding/OBJECTIVE_AUDIT.md)。扩大到2,304条自建训练世界记录后，匹配比较二值监督和额外见证监督；三个日程的二值变化配对为103/106/106→80/85/80（各144对），辅助组有效见证为332/320/300/480，条件Worker保留3/3组通过。未在三个日程共同通过预设必要门槛。**完整可靠关系与自主安全—效用目标仍未完成，GPU大批量NO_GO。** 新增6个CPU检查点、1,152次更新、10,368条响应（含864条固定TRAIN诊断），复用432条；最长更新4.05秒，新增自主回合0。有效见证不是内部决策忠实性的证明。原始记录恢复：`python -B tools/restore_witness_binding_artifacts.py`。
 
 以下保留上一轮结果：

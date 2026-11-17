@@ -1,0 +1,2135 @@
+{
+  "error_categories": {
+    "initial17": {
+      "standard": {
+        "correct": 429,
+        "false_positive": 9,
+        "false_negative": 39,
+        "invalid": 3
+      },
+      "factors": {
+        "false_negative": 39,
+        "correct": 248,
+        "false_positive": 1
+      }
+    },
+    "initial29": {
+      "standard": {
+        "correct": 415,
+        "false_positive": 24,
+        "false_negative": 40,
+        "invalid": 1
+      },
+      "factors": {
+        "correct": 237,
+        "false_positive": 4,
+        "false_negative": 47
+      }
+    },
+    "initial41": {
+      "standard": {
+        "correct": 430,
+        "false_positive": 30,
+        "false_negative": 20
+      },
+      "factors": {
+        "correct": 255,
+        "invalid": 3,
+        "false_positive": 3,
+        "false_negative": 27
+      }
+    },
+    "random17": {
+      "standard": {
+        "correct": 456,
+        "false_positive": 14,
+        "false_negative": 6,
+        "invalid": 4
+      },
+      "factors": {
+        "false_negative": 15,
+        "correct": 271,
+        "false_positive": 2
+      }
+    },
+    "targeted17": {
+      "standard": {
+        "correct": 455,
+        "false_positive": 14,
+        "false_negative": 9,
+        "invalid": 2
+      },
+      "factors": {
+        "false_negative": 15,
+        "correct": 268,
+        "false_positive": 5
+      }
+    },
+    "random29": {
+      "standard": {
+        "correct": 439,
+        "false_negative": 24,
+        "invalid": 3,
+        "false_positive": 14
+      },
+      "factors": {
+        "correct": 256,
+        "false_positive": 3,
+        "false_negative": 29
+      }
+    },
+    "targeted29": {
+      "standard": {
+        "correct": 444,
+        "false_negative": 20,
+        "invalid": 4,
+        "false_positive": 12
+      },
+      "factors": {
+        "correct": 262,
+        "false_negative": 25,
+        "false_positive": 1
+      }
+    },
+    "random41": {
+      "standard": {
+        "correct": 458,
+        "false_positive": 8,
+        "false_negative": 14
+      },
+      "factors": {
+        "correct": 259,
+        "false_positive": 1,
+        "false_negative": 28
+      }
+    },
+    "targeted41": {
+      "standard": {
+        "correct": 436,
+        "false_positive": 37,
+        "false_negative": 6,
+        "invalid": 1
+      },
+      "factors": {
+        "correct": 270,
+        "false_positive": 8,
+        "false_negative": 10
+      }
+    }
+  },
+  "matched_transitions": [
+    {
+      "panel": "standard",
+      "from": "initial17",
+      "to": "random17",
+      "counts": {
+        "correct->correct": 419,
+        "false_positive->correct": 2,
+        "false_positive->false_positive": 7,
+        "false_negative->correct": 33,
+        "correct->false_positive": 7,
+        "false_negative->false_negative": 6,
+        "correct->invalid": 3,
+        "invalid->correct": 2,
+        "invalid->invalid": 1
+      },
+      "slices": {
+        "switch/0/label1": {
+          "correct->correct": 36
+        },
+        "switch/0/label0": {
+          "correct->correct": 35,
+          "false_positive->false_positive": 1
+        },
+        "switch/4/label1": {
+          "correct->correct": 33,
+          "false_negative->correct": 3
+        },
+        "switch/4/label0": {
+          "false_positive->correct": 1,
+          "correct->correct": 30,
+          "false_positive->false_positive": 3,
+          "correct->false_positive": 2
+        },
+        "switch/12/label1": {
+          "correct->correct": 28,
+          "false_negative->correct": 8
+        },
+        "switch/12/label0": {
+          "correct->correct": 35,
+          "correct->false_positive": 1
+        },
+        "switch/20/label1": {
+          "false_negative->correct": 14,
+          "correct->correct": 16,
+          "false_negative->false_negative": 6
+        },
+        "switch/20/label0": {
+          "correct->correct": 31,
+          "false_positive->false_positive": 1,
+          "correct->false_positive": 3,
+          "false_positive->correct": 1
+        },
+        "known/0/label1": {
+          "correct->correct": 4
+        },
+        "known/4/label1": {
+          "correct->correct": 4
+        },
+        "known/12/label1": {
+          "correct->correct": 4
+        },
+        "known/20/label1": {
+          "correct->correct": 4
+        },
+        "empty/0/label0": {
+          "correct->correct": 4
+        },
+        "empty/4/label0": {
+          "correct->correct": 4
+        },
+        "empty/12/label0": {
+          "correct->correct": 4
+        },
+        "empty/20/label0": {
+          "correct->correct": 4
+        },
+        "two_hop/0/label0": {
+          "correct->correct": 4
+        },
+        "two_hop/4/label0": {
+          "correct->correct": 3,
+          "false_positive->false_positive": 1
+        },
+        "two_hop/12/label0": {
+          "correct->correct": 4
+        },
+        "two_hop/20/label0": {
+          "correct->correct": 4
+        },
+        "multiple/0/label1": {
+          "correct->correct": 3,
+          "correct->invalid": 1
+        },
+        "multiple/4/label1": {
+          "correct->correct": 4
+        },
+        "multiple/12/label1": {
+          "correct->correct": 3,
+          "false_negative->correct": 1
+        },
+        "multiple/20/label1": {
+          "correct->correct": 4
+        },
+        "random/4/label0": {
+          "correct->correct": 31,
+          "false_positive->false_positive": 1
+        },
+        "random/4/label1": {
+          "correct->correct": 26,
+          "correct->invalid": 2,
+          "false_negative->correct": 2,
+          "invalid->correct": 1,
+          "invalid->invalid": 1
+        },
+        "random/12/label0": {
+          "correct->correct": 31,
+          "correct->false_positive": 1
+        },
+        "random/12/label1": {
+          "correct->correct": 26,
+          "false_negative->correct": 5,
+          "invalid->correct": 1
+        }
+      }
+    },
+    {
+      "panel": "standard",
+      "from": "initial17",
+      "to": "targeted17",
+      "counts": {
+        "correct->correct": 417,
+        "false_positive->correct": 3,
+        "false_positive->false_positive": 6,
+        "false_negative->false_negative": 7,
+        "false_negative->correct": 32,
+        "correct->false_positive": 8,
+        "correct->invalid": 2,
+        "correct->false_negative": 2,
+        "invalid->correct": 3
+      },
+      "slices": {
+        "switch/0/label1": {
+          "correct->correct": 36
+        },
+        "switch/0/label0": {
+          "correct->correct": 35,
+          "false_positive->false_positive": 1
+        },
+        "switch/4/label1": {
+          "correct->correct": 33,
+          "false_negative->false_negative": 1,
+          "false_negative->correct": 2
+        },
+        "switch/4/label0": {
+          "false_positive->correct": 1,
+          "correct->correct": 31,
+          "false_positive->false_positive": 3,
+          "correct->false_positive": 1
+        },
+        "switch/12/label1": {
+          "correct->correct": 26,
+          "false_negative->false_negative": 2,
+          "correct->invalid": 2,
+          "false_negative->correct": 6
+        },
+        "switch/12/label0": {
+          "correct->correct": 35,
+          "correct->false_positive": 1
+        },
+        "switch/20/label1": {
+          "false_negative->correct": 16,
+          "correct->correct": 15,
+          "false_negative->false_negative": 4,
+          "correct->false_negative": 1
+        },
+        "switch/20/label0": {
+          "correct->correct": 30,
+          "false_positive->correct": 2,
+          "correct->false_positive": 4
+        },
+        "known/0/label1": {
+          "correct->correct": 4
+        },
+        "known/4/label1": {
+          "correct->correct": 4
+        },
+        "known/12/label1": {
+          "correct->correct": 3,
+          "correct->false_negative": 1
+        },
+        "known/20/label1": {
+          "correct->correct": 4
+        },
+        "empty/0/label0": {
+          "correct->correct": 4
+        },
+        "empty/4/label0": {
+          "correct->correct": 4
+        },
+        "empty/12/label0": {
+          "correct->correct": 4
+        },
+        "empty/20/label0": {
+          "correct->correct": 4
+        },
+        "two_hop/0/label0": {
+          "correct->correct": 4
+        },
+        "two_hop/4/label0": {
+          "correct->correct": 3,
+          "false_positive->false_positive": 1
+        },
+        "two_hop/12/label0": {
+          "correct->correct": 4
+        },
+        "two_hop/20/label0": {
+          "correct->correct": 4
+        },
+        "multiple/0/label1": {
+          "correct->correct": 4
+        },
+        "multiple/4/label1": {
+          "correct->correct": 4
+        },
+        "multiple/12/label1": {
+          "correct->correct": 3,
+          "false_negative->correct": 1
+        },
+        "multiple/20/label1": {
+          "correct->correct": 4
+        },
+        "random/4/label0": {
+          "correct->correct": 31,
+          "false_positive->false_positive": 1
+        },
+        "random/4/label1": {
+          "correct->correct": 28,
+          "false_negative->correct": 2,
+          "invalid->correct": 2
+        },
+        "random/12/label0": {
+          "correct->correct": 30,
+          "correct->false_positive": 2
+        },
+        "random/12/label1": {
+          "correct->correct": 26,
+          "false_negative->correct": 5,
+          "invalid->correct": 1
+        }
+      }
+    },
+    {
+      "panel": "standard",
+      "from": "random17",
+      "to": "targeted17",
+      "counts": {
+        "correct->correct": 446,
+        "false_positive->false_positive": 12,
+        "correct->false_negative": 6,
+        "false_positive->correct": 2,
+        "correct->false_positive": 2,
+        "correct->invalid": 2,
+        "false_negative->correct": 3,
+        "false_negative->false_negative": 3,
+        "invalid->correct": 4
+      },
+      "slices": {
+        "switch/0/label1": {
+          "correct->correct": 36
+        },
+        "switch/0/label0": {
+          "correct->correct": 35,
+          "false_positive->false_positive": 1
+        },
+        "switch/4/label1": {
+          "correct->correct": 35,
+          "correct->false_negative": 1
+        },
+        "switch/4/label0": {
+          "correct->correct": 31,
+          "false_positive->false_positive": 4,
+          "false_positive->correct": 1
+        },
+        "switch/12/label1": {
+          "correct->correct": 32,
+          "correct->false_negative": 2,
+          "correct->invalid": 2
+        },
+        "switch/12/label0": {
+          "correct->correct": 35,
+          "false_positive->false_positive": 1
+        },
+        "switch/20/label1": {
+          "correct->correct": 28,
+          "correct->false_negative": 2,
+          "false_negative->correct": 3,
+          "false_negative->false_negative": 3
+        },
+        "switch/20/label0": {
+          "correct->correct": 31,
+          "false_positive->correct": 1,
+          "correct->false_positive": 1,
+          "false_positive->false_positive": 3
+        },
+        "known/0/label1": {
+          "correct->correct": 4
+        },
+        "known/4/label1": {
+          "correct->correct": 4
+        },
+        "known/12/label1": {
+          "correct->correct": 3,
+          "correct->false_negative": 1
+        },
+        "known/20/label1": {
+          "correct->correct": 4
+        },
+        "empty/0/label0": {
+          "correct->correct": 4
+        },
+        "empty/4/label0": {
+          "correct->correct": 4
+        },
+        "empty/12/label0": {
+          "correct->correct": 4
+        },
+        "empty/20/label0": {
+          "correct->correct": 4
+        },
+        "two_hop/0/label0": {
+          "correct->correct": 4
+        },
+        "two_hop/4/label0": {
+          "correct->correct": 3,
+          "false_positive->false_positive": 1
+        },
+        "two_hop/12/label0": {
+          "correct->correct": 4
+        },
+        "two_hop/20/label0": {
+          "correct->correct": 4
+        },
+        "multiple/0/label1": {
+          "correct->correct": 3,
+          "invalid->correct": 1
+        },
+        "multiple/4/label1": {
+          "correct->correct": 4
+        },
+        "multiple/12/label1": {
+          "correct->correct": 4
+        },
+        "multiple/20/label1": {
+          "correct->correct": 4
+        },
+        "random/4/label0": {
+          "correct->correct": 31,
+          "false_positive->false_positive": 1
+        },
+        "random/4/label1": {
+          "correct->correct": 29,
+          "invalid->correct": 3
+        },
+        "random/12/label0": {
+          "correct->correct": 30,
+          "false_positive->false_positive": 1,
+          "correct->false_positive": 1
+        },
+        "random/12/label1": {
+          "correct->correct": 32
+        }
+      }
+    },
+    {
+      "panel": "standard",
+      "from": "initial29",
+      "to": "random29",
+      "counts": {
+        "correct->correct": 396,
+        "false_positive->correct": 19,
+        "false_negative->false_negative": 15,
+        "false_negative->correct": 24,
+        "invalid->invalid": 1,
+        "correct->false_negative": 9,
+        "correct->false_positive": 9,
+        "false_positive->false_positive": 5,
+        "false_negative->invalid": 1,
+        "correct->invalid": 1
+      },
+      "slices": {
+        "switch/0/label1": {
+          "correct->correct": 35,
+          "false_negative->correct": 1
+        },
+        "switch/0/label0": {
+          "correct->correct": 31,
+          "correct->false_positive": 4,
+          "false_positive->correct": 1
+        },
+        "switch/4/label1": {
+          "correct->correct": 27,
+          "false_negative->false_negative": 2,
+          "false_negative->correct": 7
+        },
+        "switch/4/label0": {
+          "correct->correct": 31,
+          "false_positive->correct": 5
+        },
+        "switch/12/label1": {
+          "invalid->invalid": 1,
+          "false_negative->false_negative": 5,
+          "correct->correct": 23,
+          "false_negative->correct": 6,
+          "correct->false_negative": 1
+        },
+        "switch/12/label0": {
+          "correct->correct": 35,
+          "false_positive->correct": 1
+        },
+        "switch/20/label1": {
+          "correct->correct": 19,
+          "false_negative->correct": 4,
+          "false_negative->false_negative": 8,
+          "correct->false_negative": 5
+        },
+        "switch/20/label0": {
+          "correct->correct": 26,
+          "false_positive->correct": 9,
+          "correct->false_positive": 1
+        },
+        "known/0/label1": {
+          "correct->correct": 4
+        },
+        "known/4/label1": {
+          "correct->correct": 4
+        },
+        "known/12/label1": {
+          "correct->correct": 3,
+          "correct->false_negative": 1
+        },
+        "known/20/label1": {
+          "correct->correct": 4
+        },
+        "empty/0/label0": {
+          "correct->correct": 4
+        },
+        "empty/4/label0": {
+          "correct->correct": 4
+        },
+        "empty/12/label0": {
+          "correct->correct": 4
+        },
+        "empty/20/label0": {
+          "correct->correct": 4
+        },
+        "two_hop/0/label0": {
+          "correct->correct": 4
+        },
+        "two_hop/4/label0": {
+          "correct->correct": 3,
+          "false_positive->false_positive": 1
+        },
+        "two_hop/12/label0": {
+          "correct->correct": 4
+        },
+        "two_hop/20/label0": {
+          "correct->correct": 4
+        },
+        "multiple/0/label1": {
+          "correct->correct": 3,
+          "false_negative->correct": 1
+        },
+        "multiple/4/label1": {
+          "correct->correct": 4
+        },
+        "multiple/12/label1": {
+          "correct->correct": 4
+        },
+        "multiple/20/label1": {
+          "correct->false_negative": 1,
+          "correct->correct": 3
+        },
+        "random/4/label0": {
+          "correct->correct": 25,
+          "false_positive->false_positive": 4,
+          "correct->false_positive": 2,
+          "correct->invalid": 1
+        },
+        "random/4/label1": {
+          "correct->correct": 30,
+          "false_negative->invalid": 1,
+          "false_negative->correct": 1
+        },
+        "random/12/label0": {
+          "correct->correct": 27,
+          "false_positive->correct": 3,
+          "correct->false_positive": 2
+        },
+        "random/12/label1": {
+          "correct->correct": 27,
+          "false_negative->correct": 4,
+          "correct->false_negative": 1
+        }
+      }
+    },
+    {
+      "panel": "standard",
+      "from": "initial29",
+      "to": "targeted29",
+      "counts": {
+        "correct->correct": 403,
+        "correct->false_negative": 6,
+        "false_positive->correct": 15,
+        "false_negative->false_negative": 14,
+        "false_negative->correct": 26,
+        "invalid->invalid": 1,
+        "false_positive->false_positive": 9,
+        "correct->invalid": 3,
+        "correct->false_positive": 3
+      },
+      "slices": {
+        "switch/0/label1": {
+          "correct->correct": 33,
+          "correct->false_negative": 2,
+          "false_negative->correct": 1
+        },
+        "switch/0/label0": {
+          "correct->correct": 32,
+          "correct->invalid": 3,
+          "false_positive->false_positive": 1
+        },
+        "switch/4/label1": {
+          "correct->correct": 27,
+          "false_negative->false_negative": 3,
+          "false_negative->correct": 6
+        },
+        "switch/4/label0": {
+          "correct->correct": 31,
+          "false_positive->correct": 3,
+          "false_positive->false_positive": 2
+        },
+        "switch/12/label1": {
+          "invalid->invalid": 1,
+          "false_negative->false_negative": 4,
+          "correct->correct": 24,
+          "false_negative->correct": 7
+        },
+        "switch/12/label0": {
+          "correct->correct": 34,
+          "false_positive->correct": 1,
+          "correct->false_positive": 1
+        },
+        "switch/20/label1": {
+          "correct->correct": 21,
+          "false_negative->correct": 5,
+          "false_negative->false_negative": 7,
+          "correct->false_negative": 3
+        },
+        "switch/20/label0": {
+          "correct->correct": 27,
+          "false_positive->correct": 6,
+          "false_positive->false_positive": 3
+        },
+        "known/0/label1": {
+          "correct->correct": 4
+        },
+        "known/4/label1": {
+          "correct->correct": 4
+        },
+        "known/12/label1": {
+          "correct->correct": 4
+        },
+        "known/20/label1": {
+          "correct->correct": 4
+        },
+        "empty/0/label0": {
+          "correct->correct": 4
+        },
+        "empty/4/label0": {
+          "correct->correct": 4
+        },
+        "empty/12/label0": {
+          "correct->correct": 4
+        },
+        "empty/20/label0": {
+          "correct->correct": 4
+        },
+        "two_hop/0/label0": {
+          "correct->correct": 4
+        },
+        "two_hop/4/label0": {
+          "correct->correct": 3,
+          "false_positive->correct": 1
+        },
+        "two_hop/12/label0": {
+          "correct->correct": 4
+        },
+        "two_hop/20/label0": {
+          "correct->correct": 3,
+          "correct->false_positive": 1
+        },
+        "multiple/0/label1": {
+          "correct->correct": 3,
+          "false_negative->correct": 1
+        },
+        "multiple/4/label1": {
+          "correct->correct": 4
+        },
+        "multiple/12/label1": {
+          "correct->correct": 4
+        },
+        "multiple/20/label1": {
+          "correct->correct": 4
+        },
+        "random/4/label0": {
+          "correct->correct": 28,
+          "false_positive->false_positive": 3,
+          "false_positive->correct": 1
+        },
+        "random/4/label1": {
+          "correct->correct": 29,
+          "false_negative->correct": 2,
+          "correct->false_negative": 1
+        },
+        "random/12/label0": {
+          "correct->correct": 28,
+          "false_positive->correct": 3,
+          "correct->false_positive": 1
+        },
+        "random/12/label1": {
+          "correct->correct": 28,
+          "false_negative->correct": 4
+        }
+      }
+    },
+    {
+      "panel": "standard",
+      "from": "random29",
+      "to": "targeted29",
+      "counts": {
+        "correct->correct": 422,
+        "correct->false_negative": 6,
+        "false_negative->false_negative": 14,
+        "invalid->invalid": 1,
+        "false_negative->correct": 10,
+        "correct->false_positive": 8,
+        "false_positive->correct": 10,
+        "correct->invalid": 3,
+        "false_positive->false_positive": 4,
+        "invalid->correct": 2
+      },
+      "slices": {
+        "switch/0/label1": {
+          "correct->correct": 34,
+          "correct->false_negative": 2
+        },
+        "switch/0/label0": {
+          "correct->correct": 28,
+          "false_positive->correct": 4,
+          "correct->invalid": 3,
+          "correct->false_positive": 1
+        },
+        "switch/4/label1": {
+          "correct->correct": 33,
+          "false_negative->false_negative": 2,
+          "correct->false_negative": 1
+        },
+        "switch/4/label0": {
+          "correct->correct": 34,
+          "correct->false_positive": 2
+        },
+        "switch/12/label1": {
+          "invalid->invalid": 1,
+          "false_negative->false_negative": 4,
+          "correct->correct": 29,
+          "false_negative->correct": 2
+        },
+        "switch/12/label0": {
+          "correct->correct": 35,
+          "correct->false_positive": 1
+        },
+        "switch/20/label1": {
+          "correct->correct": 21,
+          "false_negative->false_negative": 8,
+          "false_negative->correct": 5,
+          "correct->false_negative": 2
+        },
+        "switch/20/label0": {
+          "correct->correct": 32,
+          "correct->false_positive": 3,
+          "false_positive->correct": 1
+        },
+        "known/0/label1": {
+          "correct->correct": 4
+        },
+        "known/4/label1": {
+          "correct->correct": 4
+        },
+        "known/12/label1": {
+          "correct->correct": 3,
+          "false_negative->correct": 1
+        },
+        "known/20/label1": {
+          "correct->correct": 4
+        },
+        "empty/0/label0": {
+          "correct->correct": 4
+        },
+        "empty/4/label0": {
+          "correct->correct": 4
+        },
+        "empty/12/label0": {
+          "correct->correct": 4
+        },
+        "empty/20/label0": {
+          "correct->correct": 4
+        },
+        "two_hop/0/label0": {
+          "correct->correct": 4
+        },
+        "two_hop/4/label0": {
+          "correct->correct": 3,
+          "false_positive->correct": 1
+        },
+        "two_hop/12/label0": {
+          "correct->correct": 4
+        },
+        "two_hop/20/label0": {
+          "correct->correct": 3,
+          "correct->false_positive": 1
+        },
+        "multiple/0/label1": {
+          "correct->correct": 4
+        },
+        "multiple/4/label1": {
+          "correct->correct": 4
+        },
+        "multiple/12/label1": {
+          "correct->correct": 4
+        },
+        "multiple/20/label1": {
+          "false_negative->correct": 1,
+          "correct->correct": 3
+        },
+        "random/4/label0": {
+          "correct->correct": 25,
+          "false_positive->false_positive": 3,
+          "false_positive->correct": 3,
+          "invalid->correct": 1
+        },
+        "random/4/label1": {
+          "correct->correct": 30,
+          "invalid->correct": 1,
+          "correct->false_negative": 1
+        },
+        "random/12/label0": {
+          "correct->correct": 30,
+          "false_positive->correct": 1,
+          "false_positive->false_positive": 1
+        },
+        "random/12/label1": {
+          "correct->correct": 31,
+          "false_negative->correct": 1
+        }
+      }
+    },
+    {
+      "panel": "standard",
+      "from": "initial41",
+      "to": "random41",
+      "counts": {
+        "correct->correct": 424,
+        "false_positive->false_positive": 6,
+        "false_negative->false_negative": 10,
+        "false_positive->correct": 24,
+        "false_negative->correct": 10,
+        "correct->false_negative": 4,
+        "correct->false_positive": 2
+      },
+      "slices": {
+        "switch/0/label1": {
+          "correct->correct": 36
+        },
+        "switch/0/label0": {
+          "correct->correct": 35,
+          "false_positive->correct": 1
+        },
+        "switch/4/label1": {
+          "correct->correct": 34,
+          "false_negative->false_negative": 1,
+          "correct->false_negative": 1
+        },
+        "switch/4/label0": {
+          "false_positive->false_positive": 3,
+          "correct->correct": 27,
+          "false_positive->correct": 5,
+          "correct->false_positive": 1
+        },
+        "switch/12/label1": {
+          "correct->correct": 31,
+          "false_negative->false_negative": 4,
+          "false_negative->correct": 1
+        },
+        "switch/12/label0": {
+          "correct->correct": 32,
+          "false_positive->correct": 4
+        },
+        "switch/20/label1": {
+          "correct->correct": 24,
+          "false_negative->correct": 6,
+          "false_negative->false_negative": 4,
+          "correct->false_negative": 2
+        },
+        "switch/20/label0": {
+          "false_positive->correct": 11,
+          "correct->correct": 24,
+          "false_positive->false_positive": 1
+        },
+        "known/0/label1": {
+          "correct->correct": 4
+        },
+        "known/4/label1": {
+          "correct->correct": 4
+        },
+        "known/12/label1": {
+          "correct->correct": 3,
+          "correct->false_negative": 1
+        },
+        "known/20/label1": {
+          "correct->correct": 4
+        },
+        "empty/0/label0": {
+          "correct->correct": 4
+        },
+        "empty/4/label0": {
+          "correct->correct": 4
+        },
+        "empty/12/label0": {
+          "correct->correct": 4
+        },
+        "empty/20/label0": {
+          "correct->correct": 4
+        },
+        "two_hop/0/label0": {
+          "correct->correct": 4
+        },
+        "two_hop/4/label0": {
+          "false_positive->correct": 2,
+          "false_positive->false_positive": 1,
+          "correct->correct": 1
+        },
+        "two_hop/12/label0": {
+          "correct->correct": 4
+        },
+        "two_hop/20/label0": {
+          "correct->correct": 4
+        },
+        "multiple/0/label1": {
+          "correct->correct": 3,
+          "false_negative->correct": 1
+        },
+        "multiple/4/label1": {
+          "correct->correct": 4
+        },
+        "multiple/12/label1": {
+          "correct->correct": 4
+        },
+        "multiple/20/label1": {
+          "correct->correct": 4
+        },
+        "random/4/label0": {
+          "correct->correct": 31,
+          "correct->false_positive": 1
+        },
+        "random/4/label1": {
+          "correct->correct": 30,
+          "false_negative->false_negative": 1,
+          "false_negative->correct": 1
+        },
+        "random/12/label0": {
+          "correct->correct": 30,
+          "false_positive->false_positive": 1,
+          "false_positive->correct": 1
+        },
+        "random/12/label1": {
+          "correct->correct": 31,
+          "false_negative->correct": 1
+        }
+      }
+    },
+    {
+      "panel": "standard",
+      "from": "initial41",
+      "to": "targeted41",
+      "counts": {
+        "correct->correct": 410,
+        "false_positive->correct": 9,
+        "false_positive->false_positive": 21,
+        "false_negative->correct": 17,
+        "correct->false_positive": 16,
+        "false_negative->false_negative": 3,
+        "correct->false_negative": 3,
+        "correct->invalid": 1
+      },
+      "slices": {
+        "switch/0/label1": {
+          "correct->correct": 34,
+          "correct->false_negative": 2
+        },
+        "switch/0/label0": {
+          "correct->correct": 34,
+          "correct->false_positive": 1,
+          "false_positive->false_positive": 1
+        },
+        "switch/4/label1": {
+          "correct->correct": 34,
+          "false_negative->correct": 1,
+          "correct->false_negative": 1
+        },
+        "switch/4/label0": {
+          "false_positive->correct": 3,
+          "correct->correct": 28,
+          "false_positive->false_positive": 5
+        },
+        "switch/12/label1": {
+          "correct->correct": 31,
+          "false_negative->correct": 5
+        },
+        "switch/12/label0": {
+          "correct->correct": 28,
+          "false_positive->false_positive": 3,
+          "false_positive->correct": 1,
+          "correct->false_positive": 4
+        },
+        "switch/20/label1": {
+          "correct->correct": 26,
+          "false_negative->correct": 8,
+          "false_negative->false_negative": 2
+        },
+        "switch/20/label0": {
+          "false_positive->correct": 4,
+          "false_positive->false_positive": 8,
+          "correct->false_positive": 7,
+          "correct->correct": 17
+        },
+        "known/0/label1": {
+          "correct->correct": 4
+        },
+        "known/4/label1": {
+          "correct->correct": 4
+        },
+        "known/12/label1": {
+          "correct->correct": 4
+        },
+        "known/20/label1": {
+          "correct->correct": 4
+        },
+        "empty/0/label0": {
+          "correct->correct": 4
+        },
+        "empty/4/label0": {
+          "correct->correct": 4
+        },
+        "empty/12/label0": {
+          "correct->correct": 4
+        },
+        "empty/20/label0": {
+          "correct->correct": 4
+        },
+        "two_hop/0/label0": {
+          "correct->correct": 4
+        },
+        "two_hop/4/label0": {
+          "false_positive->correct": 1,
+          "false_positive->false_positive": 2,
+          "correct->correct": 1
+        },
+        "two_hop/12/label0": {
+          "correct->correct": 4
+        },
+        "two_hop/20/label0": {
+          "correct->false_positive": 2,
+          "correct->correct": 2
+        },
+        "multiple/0/label1": {
+          "correct->correct": 3,
+          "false_negative->correct": 1
+        },
+        "multiple/4/label1": {
+          "correct->correct": 4
+        },
+        "multiple/12/label1": {
+          "correct->correct": 4
+        },
+        "multiple/20/label1": {
+          "correct->correct": 4
+        },
+        "random/4/label0": {
+          "correct->correct": 30,
+          "correct->false_positive": 1,
+          "correct->invalid": 1
+        },
+        "random/4/label1": {
+          "correct->correct": 30,
+          "false_negative->correct": 1,
+          "false_negative->false_negative": 1
+        },
+        "random/12/label0": {
+          "correct->correct": 29,
+          "false_positive->false_positive": 2,
+          "correct->false_positive": 1
+        },
+        "random/12/label1": {
+          "correct->correct": 31,
+          "false_negative->correct": 1
+        }
+      }
+    },
+    {
+      "panel": "standard",
+      "from": "random41",
+      "to": "targeted41",
+      "counts": {
+        "correct->correct": 422,
+        "false_positive->correct": 3,
+        "false_positive->false_positive": 5,
+        "false_negative->correct": 11,
+        "correct->false_positive": 32,
+        "false_negative->false_negative": 3,
+        "correct->false_negative": 3,
+        "correct->invalid": 1
+      },
+      "slices": {
+        "switch/0/label1": {
+          "correct->correct": 34,
+          "correct->false_negative": 2
+        },
+        "switch/0/label0": {
+          "correct->correct": 34,
+          "correct->false_positive": 2
+        },
+        "switch/4/label1": {
+          "correct->correct": 34,
+          "false_negative->correct": 1,
+          "false_negative->false_negative": 1
+        },
+        "switch/4/label0": {
+          "false_positive->correct": 2,
+          "correct->correct": 29,
+          "false_positive->false_positive": 2,
+          "correct->false_positive": 3
+        },
+        "switch/12/label1": {
+          "correct->correct": 32,
+          "false_negative->correct": 4
+        },
+        "switch/12/label0": {
+          "correct->correct": 29,
+          "correct->false_positive": 7
+        },
+        "switch/20/label1": {
+          "correct->correct": 30,
+          "false_negative->false_negative": 2,
+          "false_negative->correct": 4
+        },
+        "switch/20/label0": {
+          "correct->correct": 21,
+          "correct->false_positive": 14,
+          "false_positive->false_positive": 1
+        },
+        "known/0/label1": {
+          "correct->correct": 4
+        },
+        "known/4/label1": {
+          "correct->correct": 4
+        },
+        "known/12/label1": {
+          "correct->correct": 3,
+          "false_negative->correct": 1
+        },
+        "known/20/label1": {
+          "correct->correct": 4
+        },
+        "empty/0/label0": {
+          "correct->correct": 4
+        },
+        "empty/4/label0": {
+          "correct->correct": 4
+        },
+        "empty/12/label0": {
+          "correct->correct": 4
+        },
+        "empty/20/label0": {
+          "correct->correct": 4
+        },
+        "two_hop/0/label0": {
+          "correct->correct": 4
+        },
+        "two_hop/4/label0": {
+          "correct->correct": 2,
+          "correct->false_positive": 1,
+          "false_positive->false_positive": 1
+        },
+        "two_hop/12/label0": {
+          "correct->correct": 4
+        },
+        "two_hop/20/label0": {
+          "correct->false_positive": 2,
+          "correct->correct": 2
+        },
+        "multiple/0/label1": {
+          "correct->correct": 4
+        },
+        "multiple/4/label1": {
+          "correct->correct": 4
+        },
+        "multiple/12/label1": {
+          "correct->correct": 4
+        },
+        "multiple/20/label1": {
+          "correct->correct": 4
+        },
+        "random/4/label0": {
+          "correct->correct": 29,
+          "false_positive->correct": 1,
+          "correct->false_positive": 1,
+          "correct->invalid": 1
+        },
+        "random/4/label1": {
+          "correct->correct": 30,
+          "false_negative->correct": 1,
+          "correct->false_negative": 1
+        },
+        "random/12/label0": {
+          "correct->correct": 29,
+          "false_positive->false_positive": 1,
+          "correct->false_positive": 2
+        },
+        "random/12/label1": {
+          "correct->correct": 32
+        }
+      }
+    },
+    {
+      "panel": "factors",
+      "from": "initial17",
+      "to": "random17",
+      "counts": {
+        "false_negative->false_negative": 15,
+        "correct->correct": 247,
+        "false_positive->false_positive": 1,
+        "false_negative->correct": 24,
+        "correct->false_positive": 1
+      },
+      "slices": {
+        "retention/none/label1": {
+          "false_negative->false_negative": 3,
+          "correct->correct": 11,
+          "false_negative->correct": 2
+        },
+        "retention/none/label0": {
+          "correct->correct": 16
+        },
+        "retention/irrelevant/label1": {
+          "correct->correct": 13,
+          "false_negative->correct": 3
+        },
+        "retention/irrelevant/label0": {
+          "correct->correct": 16
+        },
+        "retention/near_miss/label1": {
+          "correct->correct": 13,
+          "false_negative->correct": 3
+        },
+        "retention/near_miss/label0": {
+          "false_positive->false_positive": 1,
+          "correct->correct": 15
+        },
+        "direction/none/label1": {
+          "correct->correct": 15,
+          "false_negative->correct": 1
+        },
+        "direction/none/label0": {
+          "correct->correct": 16
+        },
+        "direction/irrelevant/label1": {
+          "correct->correct": 16
+        },
+        "direction/irrelevant/label0": {
+          "correct->correct": 16
+        },
+        "direction/near_miss/label1": {
+          "false_negative->correct": 7,
+          "false_negative->false_negative": 8,
+          "correct->correct": 1
+        },
+        "direction/near_miss/label0": {
+          "correct->correct": 16
+        },
+        "binding/none/label1": {
+          "correct->correct": 16
+        },
+        "binding/none/label0": {
+          "correct->correct": 16
+        },
+        "binding/irrelevant/label1": {
+          "correct->correct": 16
+        },
+        "binding/irrelevant/label0": {
+          "correct->correct": 16
+        },
+        "binding/near_miss/label1": {
+          "false_negative->correct": 8,
+          "correct->correct": 4,
+          "false_negative->false_negative": 4
+        },
+        "binding/near_miss/label0": {
+          "correct->correct": 15,
+          "correct->false_positive": 1
+        }
+      }
+    },
+    {
+      "panel": "factors",
+      "from": "initial17",
+      "to": "targeted17",
+      "counts": {
+        "false_negative->false_negative": 12,
+        "correct->correct": 241,
+        "false_positive->false_positive": 1,
+        "correct->false_positive": 4,
+        "false_negative->correct": 27,
+        "correct->false_negative": 3
+      },
+      "slices": {
+        "retention/none/label1": {
+          "false_negative->false_negative": 4,
+          "correct->correct": 10,
+          "false_negative->correct": 1,
+          "correct->false_negative": 1
+        },
+        "retention/none/label0": {
+          "correct->correct": 16
+        },
+        "retention/irrelevant/label1": {
+          "correct->correct": 13,
+          "false_negative->correct": 1,
+          "false_negative->false_negative": 2
+        },
+        "retention/irrelevant/label0": {
+          "correct->correct": 16
+        },
+        "retention/near_miss/label1": {
+          "correct->correct": 13,
+          "false_negative->correct": 3
+        },
+        "retention/near_miss/label0": {
+          "false_positive->false_positive": 1,
+          "correct->correct": 14,
+          "correct->false_positive": 1
+        },
+        "direction/none/label1": {
+          "correct->correct": 14,
+          "correct->false_negative": 1,
+          "false_negative->correct": 1
+        },
+        "direction/none/label0": {
+          "correct->correct": 16
+        },
+        "direction/irrelevant/label1": {
+          "correct->correct": 16
+        },
+        "direction/irrelevant/label0": {
+          "correct->correct": 16
+        },
+        "direction/near_miss/label1": {
+          "false_negative->correct": 11,
+          "correct->correct": 1,
+          "false_negative->false_negative": 4
+        },
+        "direction/near_miss/label0": {
+          "correct->correct": 16
+        },
+        "binding/none/label1": {
+          "correct->correct": 15,
+          "correct->false_negative": 1
+        },
+        "binding/none/label0": {
+          "correct->correct": 16
+        },
+        "binding/irrelevant/label1": {
+          "correct->correct": 16
+        },
+        "binding/irrelevant/label0": {
+          "correct->correct": 16
+        },
+        "binding/near_miss/label1": {
+          "false_negative->correct": 10,
+          "correct->correct": 4,
+          "false_negative->false_negative": 2
+        },
+        "binding/near_miss/label0": {
+          "correct->correct": 13,
+          "correct->false_positive": 3
+        }
+      }
+    },
+    {
+      "panel": "factors",
+      "from": "random17",
+      "to": "targeted17",
+      "counts": {
+        "false_negative->false_negative": 9,
+        "correct->correct": 262,
+        "false_positive->false_positive": 2,
+        "correct->false_positive": 3,
+        "correct->false_negative": 6,
+        "false_negative->correct": 6
+      },
+      "slices": {
+        "retention/none/label1": {
+          "false_negative->false_negative": 3,
+          "correct->correct": 11,
+          "correct->false_negative": 2
+        },
+        "retention/none/label0": {
+          "correct->correct": 16
+        },
+        "retention/irrelevant/label1": {
+          "correct->correct": 14,
+          "correct->false_negative": 2
+        },
+        "retention/irrelevant/label0": {
+          "correct->correct": 16
+        },
+        "retention/near_miss/label1": {
+          "correct->correct": 16
+        },
+        "retention/near_miss/label0": {
+          "false_positive->false_positive": 1,
+          "correct->correct": 14,
+          "correct->false_positive": 1
+        },
+        "direction/none/label1": {
+          "correct->correct": 15,
+          "correct->false_negative": 1
+        },
+        "direction/none/label0": {
+          "correct->correct": 16
+        },
+        "direction/irrelevant/label1": {
+          "correct->correct": 16
+        },
+        "direction/irrelevant/label0": {
+          "correct->correct": 16
+        },
+        "direction/near_miss/label1": {
+          "correct->correct": 8,
+          "false_negative->correct": 4,
+          "false_negative->false_negative": 4
+        },
+        "direction/near_miss/label0": {
+          "correct->correct": 16
+        },
+        "binding/none/label1": {
+          "correct->correct": 15,
+          "correct->false_negative": 1
+        },
+        "binding/none/label0": {
+          "correct->correct": 16
+        },
+        "binding/irrelevant/label1": {
+          "correct->correct": 16
+        },
+        "binding/irrelevant/label0": {
+          "correct->correct": 16
+        },
+        "binding/near_miss/label1": {
+          "correct->correct": 12,
+          "false_negative->false_negative": 2,
+          "false_negative->correct": 2
+        },
+        "binding/near_miss/label0": {
+          "correct->correct": 13,
+          "correct->false_positive": 2,
+          "false_positive->false_positive": 1
+        }
+      }
+    },
+    {
+      "panel": "factors",
+      "from": "initial29",
+      "to": "random29",
+      "counts": {
+        "correct->correct": 236,
+        "false_positive->correct": 2,
+        "false_positive->false_positive": 2,
+        "false_negative->correct": 18,
+        "false_negative->false_negative": 29,
+        "correct->false_positive": 1
+      },
+      "slices": {
+        "retention/none/label1": {
+          "correct->correct": 14,
+          "false_negative->correct": 1,
+          "false_negative->false_negative": 1
+        },
+        "retention/none/label0": {
+          "correct->correct": 15,
+          "false_positive->false_positive": 1
+        },
+        "retention/irrelevant/label1": {
+          "correct->correct": 14,
+          "false_negative->correct": 2
+        },
+        "retention/irrelevant/label0": {
+          "correct->correct": 16
+        },
+        "retention/near_miss/label1": {
+          "correct->correct": 8,
+          "false_negative->correct": 5,
+          "false_negative->false_negative": 3
+        },
+        "retention/near_miss/label0": {
+          "false_positive->correct": 1,
+          "correct->correct": 14,
+          "false_positive->false_positive": 1
+        },
+        "direction/none/label1": {
+          "correct->correct": 15,
+          "false_negative->correct": 1
+        },
+        "direction/none/label0": {
+          "correct->correct": 15,
+          "correct->false_positive": 1
+        },
+        "direction/irrelevant/label1": {
+          "correct->correct": 14,
+          "false_negative->correct": 2
+        },
+        "direction/irrelevant/label0": {
+          "correct->correct": 16
+        },
+        "direction/near_miss/label1": {
+          "false_negative->false_negative": 14,
+          "false_negative->correct": 2
+        },
+        "direction/near_miss/label0": {
+          "correct->correct": 16
+        },
+        "binding/none/label1": {
+          "correct->correct": 16
+        },
+        "binding/none/label0": {
+          "correct->correct": 16
+        },
+        "binding/irrelevant/label1": {
+          "correct->correct": 12,
+          "false_negative->correct": 4
+        },
+        "binding/irrelevant/label0": {
+          "correct->correct": 16
+        },
+        "binding/near_miss/label1": {
+          "false_negative->false_negative": 11,
+          "correct->correct": 4,
+          "false_negative->correct": 1
+        },
+        "binding/near_miss/label0": {
+          "correct->correct": 15,
+          "false_positive->correct": 1
+        }
+      }
+    },
+    {
+      "panel": "factors",
+      "from": "initial29",
+      "to": "targeted29",
+      "counts": {
+        "correct->correct": 230,
+        "false_positive->correct": 3,
+        "false_negative->correct": 29,
+        "false_negative->false_negative": 18,
+        "correct->false_negative": 7,
+        "false_positive->false_positive": 1
+      },
+      "slices": {
+        "retention/none/label1": {
+          "correct->correct": 14,
+          "false_negative->false_negative": 2
+        },
+        "retention/none/label0": {
+          "correct->correct": 15,
+          "false_positive->correct": 1
+        },
+        "retention/irrelevant/label1": {
+          "correct->correct": 14,
+          "false_negative->false_negative": 2
+        },
+        "retention/irrelevant/label0": {
+          "correct->correct": 16
+        },
+        "retention/near_miss/label1": {
+          "correct->correct": 8,
+          "false_negative->correct": 7,
+          "false_negative->false_negative": 1
+        },
+        "retention/near_miss/label0": {
+          "false_positive->correct": 2,
+          "correct->correct": 14
+        },
+        "direction/none/label1": {
+          "correct->false_negative": 5,
+          "correct->correct": 10,
+          "false_negative->false_negative": 1
+        },
+        "direction/none/label0": {
+          "correct->correct": 16
+        },
+        "direction/irrelevant/label1": {
+          "correct->correct": 14,
+          "false_negative->correct": 2
+        },
+        "direction/irrelevant/label0": {
+          "correct->correct": 16
+        },
+        "direction/near_miss/label1": {
+          "false_negative->correct": 9,
+          "false_negative->false_negative": 7
+        },
+        "direction/near_miss/label0": {
+          "correct->correct": 16
+        },
+        "binding/none/label1": {
+          "correct->correct": 14,
+          "correct->false_negative": 2
+        },
+        "binding/none/label0": {
+          "correct->correct": 16
+        },
+        "binding/irrelevant/label1": {
+          "correct->correct": 12,
+          "false_negative->correct": 3,
+          "false_negative->false_negative": 1
+        },
+        "binding/irrelevant/label0": {
+          "correct->correct": 16
+        },
+        "binding/near_miss/label1": {
+          "false_negative->correct": 8,
+          "correct->correct": 4,
+          "false_negative->false_negative": 4
+        },
+        "binding/near_miss/label0": {
+          "correct->correct": 15,
+          "false_positive->false_positive": 1
+        }
+      }
+    },
+    {
+      "panel": "factors",
+      "from": "random29",
+      "to": "targeted29",
+      "counts": {
+        "correct->correct": 243,
+        "false_positive->correct": 3,
+        "false_negative->correct": 16,
+        "correct->false_negative": 12,
+        "false_negative->false_negative": 13,
+        "correct->false_positive": 1
+      },
+      "slices": {
+        "retention/none/label1": {
+          "correct->correct": 14,
+          "correct->false_negative": 1,
+          "false_negative->false_negative": 1
+        },
+        "retention/none/label0": {
+          "correct->correct": 15,
+          "false_positive->correct": 1
+        },
+        "retention/irrelevant/label1": {
+          "correct->correct": 14,
+          "correct->false_negative": 2
+        },
+        "retention/irrelevant/label0": {
+          "correct->correct": 16
+        },
+        "retention/near_miss/label1": {
+          "correct->correct": 13,
+          "false_negative->correct": 2,
+          "false_negative->false_negative": 1
+        },
+        "retention/near_miss/label0": {
+          "correct->correct": 15,
+          "false_positive->correct": 1
+        },
+        "direction/none/label1": {
+          "correct->false_negative": 6,
+          "correct->correct": 10
+        },
+        "direction/none/label0": {
+          "correct->correct": 15,
+          "false_positive->correct": 1
+        },
+        "direction/irrelevant/label1": {
+          "correct->correct": 16
+        },
+        "direction/irrelevant/label0": {
+          "correct->correct": 16
+        },
+        "direction/near_miss/label1": {
+          "false_negative->correct": 7,
+          "correct->correct": 2,
+          "false_negative->false_negative": 7
+        },
+        "direction/near_miss/label0": {
+          "correct->correct": 16
+        },
+        "binding/none/label1": {
+          "correct->correct": 14,
+          "correct->false_negative": 2
+        },
+        "binding/none/label0": {
+          "correct->correct": 16
+        },
+        "binding/irrelevant/label1": {
+          "correct->correct": 15,
+          "correct->false_negative": 1
+        },
+        "binding/irrelevant/label0": {
+          "correct->correct": 16
+        },
+        "binding/near_miss/label1": {
+          "false_negative->correct": 7,
+          "correct->correct": 5,
+          "false_negative->false_negative": 4
+        },
+        "binding/near_miss/label0": {
+          "correct->correct": 15,
+          "correct->false_positive": 1
+        }
+      }
+    },
+    {
+      "panel": "factors",
+      "from": "initial41",
+      "to": "random41",
+      "counts": {
+        "correct->correct": 252,
+        "invalid->correct": 3,
+        "false_positive->false_positive": 1,
+        "false_negative->false_negative": 25,
+        "correct->false_negative": 3,
+        "false_negative->correct": 2,
+        "false_positive->correct": 2
+      },
+      "slices": {
+        "retention/none/label1": {
+          "correct->correct": 13,
+          "correct->false_negative": 1,
+          "false_negative->false_negative": 2
+        },
+        "retention/none/label0": {
+          "correct->correct": 16
+        },
+        "retention/irrelevant/label1": {
+          "invalid->correct": 2,
+          "correct->correct": 12,
+          "correct->false_negative": 2
+        },
+        "retention/irrelevant/label0": {
+          "correct->correct": 16
+        },
+        "retention/near_miss/label1": {
+          "correct->correct": 13,
+          "false_negative->false_negative": 3
+        },
+        "retention/near_miss/label0": {
+          "correct->correct": 15,
+          "false_positive->false_positive": 1
+        },
+        "direction/none/label1": {
+          "correct->correct": 16
+        },
+        "direction/none/label0": {
+          "correct->correct": 15,
+          "invalid->correct": 1
+        },
+        "direction/irrelevant/label1": {
+          "correct->correct": 16
+        },
+        "direction/irrelevant/label0": {
+          "correct->correct": 16
+        },
+        "direction/near_miss/label1": {
+          "correct->correct": 6,
+          "false_negative->correct": 2,
+          "false_negative->false_negative": 8
+        },
+        "direction/near_miss/label0": {
+          "correct->correct": 16
+        },
+        "binding/none/label1": {
+          "correct->correct": 16
+        },
+        "binding/none/label0": {
+          "correct->correct": 16
+        },
+        "binding/irrelevant/label1": {
+          "correct->correct": 16
+        },
+        "binding/irrelevant/label0": {
+          "correct->correct": 16
+        },
+        "binding/near_miss/label1": {
+          "false_negative->false_negative": 12,
+          "correct->correct": 4
+        },
+        "binding/near_miss/label0": {
+          "correct->correct": 14,
+          "false_positive->correct": 2
+        }
+      }
+    },
+    {
+      "panel": "factors",
+      "from": "initial41",
+      "to": "targeted41",
+      "counts": {
+        "correct->correct": 250,
+        "invalid->correct": 3,
+        "correct->false_positive": 5,
+        "false_positive->false_positive": 3,
+        "false_negative->correct": 17,
+        "false_negative->false_negative": 10
+      },
+      "slices": {
+        "retention/none/label1": {
+          "correct->correct": 14,
+          "false_negative->false_negative": 2
+        },
+        "retention/none/label0": {
+          "correct->correct": 16
+        },
+        "retention/irrelevant/label1": {
+          "invalid->correct": 2,
+          "correct->correct": 14
+        },
+        "retention/irrelevant/label0": {
+          "correct->correct": 16
+        },
+        "retention/near_miss/label1": {
+          "correct->correct": 13,
+          "false_negative->correct": 3
+        },
+        "retention/near_miss/label0": {
+          "correct->false_positive": 1,
+          "correct->correct": 14,
+          "false_positive->false_positive": 1
+        },
+        "direction/none/label1": {
+          "correct->correct": 16
+        },
+        "direction/none/label0": {
+          "correct->correct": 15,
+          "invalid->correct": 1
+        },
+        "direction/irrelevant/label1": {
+          "correct->correct": 16
+        },
+        "direction/irrelevant/label0": {
+          "correct->correct": 16
+        },
+        "direction/near_miss/label1": {
+          "correct->correct": 6,
+          "false_negative->correct": 5,
+          "false_negative->false_negative": 5
+        },
+        "direction/near_miss/label0": {
+          "correct->correct": 15,
+          "correct->false_positive": 1
+        },
+        "binding/none/label1": {
+          "correct->correct": 16
+        },
+        "binding/none/label0": {
+          "correct->correct": 16
+        },
+        "binding/irrelevant/label1": {
+          "correct->correct": 16
+        },
+        "binding/irrelevant/label0": {
+          "correct->correct": 16
+        },
+        "binding/near_miss/label1": {
+          "false_negative->correct": 9,
+          "correct->correct": 4,
+          "false_negative->false_negative": 3
+        },
+        "binding/near_miss/label0": {
+          "correct->correct": 11,
+          "correct->false_positive": 3,
+          "false_positive->false_positive": 2
+        }
+      }
+    },
+    {
+      "panel": "factors",
+      "from": "random41",
+      "to": "targeted41",
+      "counts": {
+        "correct->correct": 252,
+        "correct->false_positive": 7,
+        "false_positive->false_positive": 1,
+        "false_negative->correct": 18,
+        "false_negative->false_negative": 10
+      },
+      "slices": {
+        "retention/none/label1": {
+          "correct->correct": 13,
+          "false_negative->correct": 1,
+          "false_negative->false_negative": 2
+        },
+        "retention/none/label0": {
+          "correct->correct": 16
+        },
+        "retention/irrelevant/label1": {
+          "correct->correct": 14,
+          "false_negative->correct": 2
+        },
+        "retention/irrelevant/label0": {
+          "correct->correct": 16
+        },
+        "retention/near_miss/label1": {
+          "correct->correct": 13,
+          "false_negative->correct": 3
+        },
+        "retention/near_miss/label0": {
+          "correct->false_positive": 1,
+          "correct->correct": 14,
+          "false_positive->false_positive": 1
+        },
+        "direction/none/label1": {
+          "correct->correct": 16
+        },
+        "direction/none/label0": {
+          "correct->correct": 16
+        },
+        "direction/irrelevant/label1": {
+          "correct->correct": 16
+        },
+        "direction/irrelevant/label0": {
+          "correct->correct": 16
+        },
+        "direction/near_miss/label1": {
+          "correct->correct": 8,
+          "false_negative->false_negative": 5,
+          "false_negative->correct": 3
+        },
+        "direction/near_miss/label0": {
+          "correct->correct": 15,
+          "correct->false_positive": 1
+        },
+        "binding/none/label1": {
+          "correct->correct": 16
+        },
+        "binding/none/label0": {
+          "correct->correct": 16
+        },
+        "binding/irrelevant/label1": {
+          "correct->correct": 16
+        },
+        "binding/irrelevant/label0": {
+          "correct->correct": 16
+        },
+        "binding/near_miss/label1": {
+          "false_negative->correct": 9,
+          "correct->correct": 4,
+          "false_negative->false_negative": 3
+        },
+        "binding/near_miss/label0": {
+          "correct->correct": 11,
+          "correct->false_positive": 5
+        }
+      }
+    }
+  ],
+  "training_descriptives": [
+    {
+      "arm": "random17",
+      "first_24_mean": {
+        "bit_loss": 0.37354693151913426,
+        "format_loss": 0.0011608837488286856,
+        "actor_bit_loss": 0.00021449724833170572,
+        "actor_format_loss": 7.090095353608679e-05,
+        "gradient_norm": 18.53607200210293,
+        "seconds": 2.3145638855416735
+      },
+      "last_24_mean": {
+        "bit_loss": 0.2131303310088697,
+        "format_loss": 0.00024632193253637524,
+        "actor_bit_loss": 0.011643469333648682,
+        "actor_format_loss": 4.3235788022381407e-05,
+        "gradient_norm": 9.973754811721543,
+        "seconds": 2.3281012430833337
+      },
+      "gradient_norm_max": 64.02516174316406
+    },
+    {
+      "arm": "targeted17",
+      "first_24_mean": {
+        "bit_loss": 0.6563710792106576,
+        "format_loss": 0.0003260162278214314,
+        "actor_bit_loss": 0.00020857652028401694,
+        "actor_format_loss": 7.01917761034565e-05,
+        "gradient_norm": 15.582247786223888,
+        "seconds": 2.3778430982500063
+      },
+      "last_24_mean": {
+        "bit_loss": 0.3698748477715223,
+        "format_loss": 0.00014946759802114684,
+        "actor_bit_loss": 0.00021898746490478516,
+        "actor_format_loss": 6.003439906028992e-05,
+        "gradient_norm": 13.591110774936775,
+        "seconds": 2.243771898958338
+      },
+      "gradient_norm_max": 57.36884307861328
+    },
+    {
+      "arm": "random29",
+      "first_24_mean": {
+        "bit_loss": 0.6004355316205571,
+        "format_loss": 0.0012784377304342343,
+        "actor_bit_loss": 0.0005649526913960775,
+        "actor_format_loss": 3.295034548500553e-05,
+        "gradient_norm": 15.254530066003403,
+        "seconds": 2.3405760254583563
+      },
+      "last_24_mean": {
+        "bit_loss": 0.23675880258209267,
+        "format_loss": 0.0003495508781270473,
+        "actor_bit_loss": 0.0002475579579671224,
+        "actor_format_loss": 2.7207275858624296e-05,
+        "gradient_norm": 4.883505893250306,
+        "seconds": 2.3903855042916953
+      },
+      "gradient_norm_max": 47.02595138549805
+    },
+    {
+      "arm": "targeted29",
+      "first_24_mean": {
+        "bit_loss": 0.6821217722802734,
+        "format_loss": 0.0011878363957293914,
+        "actor_bit_loss": 0.0004550814628601074,
+        "actor_format_loss": 3.8348564885382075e-05,
+        "gradient_norm": 10.295791854461035,
+        "seconds": 2.3253337026666636
+      },
+      "last_24_mean": {
+        "bit_loss": 0.5786131978675257,
+        "format_loss": 0.0004972565293428488,
+        "actor_bit_loss": 0.0003521243731180827,
+        "actor_format_loss": 5.896176495904607e-05,
+        "gradient_norm": 15.182952851988375,
+        "seconds": 2.2587016233332995
+      },
+      "gradient_norm_max": 53.737911224365234
+    },
+    {
+      "arm": "random41",
+      "first_24_mean": {
+        "bit_loss": 0.3627362747211009,
+        "format_loss": 0.0002715114651437034,
+        "actor_bit_loss": 0.0014214515686035156,
+        "actor_format_loss": 4.9986514416862825e-05,
+        "gradient_norm": 6.550991997743647,
+        "seconds": 2.3835038928332986
+      },
+      "last_24_mean": {
+        "bit_loss": 0.14725669829689045,
+        "format_loss": 0.0003894605891521981,
+        "actor_bit_loss": 0.00025540590286254883,
+        "actor_format_loss": 3.752251245714433e-05,
+        "gradient_norm": 7.286211859357233,
+        "seconds": 2.4116138987500713
+      },
+      "gradient_norm_max": 40.145530700683594
+    },
+    {
+      "arm": "targeted41",
+      "first_24_mean": {
+        "bit_loss": 0.5745560188467304,
+        "format_loss": 0.00022068828942186278,
+        "actor_bit_loss": 0.0003133813540140788,
+        "actor_format_loss": 4.388949105305073e-05,
+        "gradient_norm": 8.649316469828287,
+        "seconds": 2.3855415859583027
+      },
+      "last_24_mean": {
+        "bit_loss": 0.31077048438601196,
+        "format_loss": 0.000331573167386523,
+        "actor_bit_loss": 0.0004455248514811198,
+        "actor_format_loss": 4.866431178622103e-05,
+        "gradient_norm": 13.625730962492526,
+        "seconds": 2.2872742790416205
+      },
+      "gradient_norm_max": 35.5612678527832
+    }
+  ],
+  "new_model_calls": 0,
+  "scope": "Post-declared descriptive breakdown only; no new gate, tuning or checkpoint selection. Loss trends are not evidence of internal circuits or gradient conflict.",
+  "results_sha256": "839f5f9e4755350dd703ae29a4a95c1f8ea96b3f767e3df8fdbe93fdf426ce55",
+  "script_sha256": "e80e8e557255b5284574daae29341ec17c7e2e9c54b0c835aebe25330274af93"
+}

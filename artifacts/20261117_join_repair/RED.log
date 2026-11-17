@@ -1,0 +1,16 @@
+E
+======================================================================
+ERROR: test_matched_labels_and_cores (__main__.JoinTests.test_matched_labels_and_cores)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\research\longhistory\artifacts\20261117_join_repair\test_join.py", line 15, in test_matched_labels_and_cores
+    a, b = matched(seed * 1000, family, known)
+           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\research\longhistory\artifacts\20261117_join_repair\join_data.py", line 3, in matched
+    raise NotImplementedError('matched background training not implemented')
+NotImplementedError: matched background training not implemented
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (errors=1)

@@ -1,0 +1,8 @@
+# Literature qualification for this diagnostic
+
+Exa discovery followed by primary-source reading,2026-11-17. These papers motivate separating skills; neither establishes the cause of our model's errors or warrants an architecture change by itself.
+
+- [When can transformers reason with abstract symbols?, v2](https://arxiv.org/html/2310.09753v2), especially sections1.1,1.2and3.1, separates fixed-label relation classification from predicting symbol-valued outputs. Its theoretical setting includes a wide one-layer random-feature model and unseen symbol alphabets. Our pretrained135M LoRA model and familiar vocabulary do not meet that theorem's setting. We borrow the diagnostic distinction between identifying a relation and outputting a name, not a claimed theorem about this model.
+- [Relational reasoning and inductive bias in transformers trained on a transitive inference task, v1](https://arxiv.org/html/2506.04289v1), sections2and3, studies two-layer attention-only models on ordered Omniglot-item pairs. Its adjacent-pair matching results and non-adjacent tests illustrate why performance on a component task does not establish composition. This is an ordinal transitive task, not our directed one-round knowledge update; no result is treated as a faithful reproduction or proof of our mechanism. The pinnedv1differs from the later title/abstract returned by search.
+
+Our concrete choice is a controlled finite input experiment, keeping checkpoint weights fixed and preserving the task answer across nuisance changes. It can identify observable sensitivity. Internal causal mechanisms, natural business norms and autonomous CI policy behavior require separate evidence.

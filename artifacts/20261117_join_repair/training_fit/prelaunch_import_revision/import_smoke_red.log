@@ -1,0 +1,23 @@
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    import sys; sys.path.insert(0,'artifacts/20261117_join_repair/training_fit'); import fit_data
+                                                                                  ^^^^^^^^^^^^^^^
+  File "D:\research\longhistory\artifacts/20261117_join_repair/training_fit\fit_data.py", line 7, in <module>
+    import join_data as data
+  File "D:\research\longhistory\artifacts\20261117_join_repair\join_data.py", line 10, in <module>
+    factors = importlib.util.module_from_spec(spec); spec.loader.exec_module(factors)
+                                                     ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\research\longhistory\artifacts\20261117_relation_factors\factor_data.py", line 8, in <module>
+    prior = importlib.util.module_from_spec(spec); spec.loader.exec_module(prior)
+                                                   ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "D:\research\longhistory\artifacts\20261117_witness_binding\graph_data.py", line 10, in <module>
+    from replay_data import NAMES, read, rows, sha, verify as verify_parent, replay_schedule
+  File "D:\research\longhistory\artifacts\20261117_step_replay\replay_data.py", line 12, in <module>
+    from learning_data import NAMES, read, rows, sha, verify as verify_parent, train_worlds, training_schedule, confirmation_worlds, prompt, label, pair
+  File "D:\research\longhistory\artifacts\20261117_step_learning\learning_data.py", line 12, in <module>
+    from step_data import worlds, pair, prompt, label, read, rows, sha, cases as probe_cases, verify as verify_parent
+  File "D:\research\longhistory\artifacts\20261117_local_relation_step\step_data.py", line 12, in <module>
+    from rename_data import verify as verify_parent
+  File "D:\research\longhistory\artifacts\20261117_rename_coverage\rename_data.py", line 9, in <module>
+    from fit_data import batches, schedule, cases, read, rows, sha, verify as verify_parent
+ImportError: cannot import name 'batches' from partially initialized module 'fit_data' (most likely due to a circular import) (D:\research\longhistory\artifacts/20261117_join_repair/training_fit\fit_data.py)

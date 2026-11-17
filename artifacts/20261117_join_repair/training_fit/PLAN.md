@@ -1,0 +1,9 @@
+# Fixed selected-TRAIN decoding, declared before main scoring
+
+During the matched continuation worker, before reading its model scores, freeze a small descriptive check on the six final trained models. No initial models, new optimization, model selection or gate changes. This diagnoses fit on selected training presentations; it cannot establish improvement over initialization or generalization.
+
+Select each seed's first eight schedule batches, exactly the first epoch containing each of eight strata once. Preserve the original TRAIN name seeds, ordering and rendered prompts. Six switch batches each have four records; evaluate both random and targeted backgrounds. Two control batches have four records each, identical across arms, so include them once. Each seed has56queries:24random switch,24targeted switch,8shared controls. Six trained models each answer their own seed's56identical queries,336new responses total. No test or failure-dependent selection.
+
+For a random model, the random-switch24and shared8are exact selected training prompts; targeted-switch24use the same cores with the other background. Reverse that interpretation for targeted models. The controls are not duplicated. This cross-background diagnostic uses trained cores and familiar names, so it is not a held-out structure/name test. Report each background's12changing pairs and8shared controls, with invalid/positive/negative counts. Do not pool these results with confirmation scores.
+
+Run only after the main study seals all nine models and final checkpoint hashes. Bind the completed parent seal at activation, verify every checkpoint and model parameter identity, and use the same greedy16-token/max_time8generation and9.5second scoring cutoff. No runtime oracle substitution or autonomous action; the full goal and largeGPU decision remain unchanged. Refuse existing output files. The parent study's7,776responses remain its own count; this adds336separately.

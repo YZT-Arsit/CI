@@ -1,0 +1,44 @@
+{
+  "parent_plan_sha256": "24992fcbf3fbe44c4c163c0330c5fbac01cd092ed760b4d985f91b4eb54ab436",
+  "arms": {
+    "random17": {
+      "seed": 17,
+      "kind": "random"
+    },
+    "targeted17": {
+      "seed": 17,
+      "kind": "targeted"
+    },
+    "random29": {
+      "seed": 29,
+      "kind": "random"
+    },
+    "targeted29": {
+      "seed": 29,
+      "kind": "targeted"
+    },
+    "random41": {
+      "seed": 41,
+      "kind": "random"
+    },
+    "targeted41": {
+      "seed": 41,
+      "kind": "targeted"
+    }
+  },
+  "selection": "First eight batches, one full first epoch; two switch backgrounds and shared controls once, original TRAIN names/order.",
+  "new_responses": 336,
+  "new_updates": 0,
+  "new_checkpoints": 0,
+  "whole_goal_complete": false,
+  "sources": {
+    "join_fit_data.py": "368b4906642d5b6f330b6d230e9f35ccb211cbd284961f068de976f256d60c12",
+    "run_fit.py": "6eaff984c18e1a7e073eefa074b43e4951b5acb63ec5e856b571b2c5b3b4dd05",
+    "audit_fit.py": "80f74fdc76ae8d5558059bbea6413b455cb2cc10b6aadd52da9d636e7609e726",
+    "PLAN.md": "47997fc20931ed04e5471de8f2bdf3dd016121c4e5f67a5e48bafe799a1cbee7"
+  },
+  "data": {
+    "observations.jsonl": "40a1c34777b10209430e2d8ce571c00ab73a45546e592bf97ab2021391a5476d",
+    "labels.jsonl": "6f6871207048ad0b2aa14c99d8154f61429eb86b990e60773f60c4304bc0a9d9"
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "arms": {
+    "initial17": {
+      "seed": 17,
+      "kind": "initial"
+    },
+    "initial29": {
+      "seed": 29,
+      "kind": "initial"
+    },
+    "initial41": {
+      "seed": 41,
+      "kind": "initial"
+    },
+    "random17": {
+      "seed": 17,
+      "kind": "random"
+    },
+    "targeted17": {
+      "seed": 17,
+      "kind": "targeted"
+    },
+    "random29": {
+      "seed": 29,
+      "kind": "random"
+    },
+    "targeted29": {
+      "seed": 29,
+      "kind": "targeted"
+    },
+    "random41": {
+      "seed": 41,
+      "kind": "random"
+    },
+    "targeted41": {
+      "seed": 41,
+      "kind": "targeted"
+    }
+  },
+  "parent_plan_sha256": "24992fcbf3fbe44c4c163c0330c5fbac01cd092ed760b4d985f91b4eb54ab436",
+  "paired_conditions": [
+    "base_v0",
+    "base_v1",
+    "depth3_v0",
+    "depth3_v1"
+  ],
+  "episodes_per_model": 32,
+  "new_episodes": 288,
+  "new_updates": 0,
+  "new_checkpoints": 0,
+  "oracle_at_runtime": false,
+  "scope": "Frozen original global-query policy interface, native synthetic three-phase environment, developed tasks and vocabulary. Not execution of the newly learned local-step operator, external business validation or32step collaboration.",
+  "dependencies": {
+    "artifacts/20261117_action_binding/learned_evidence.py": "aee9664d6880fe716d6bf3cf99fa31ca76d0768a546272e047e77b9cea13d663",
+    "artifacts/20261117_frozen_crossover/common.py": "dcd23f7191532fb86b8c14b21e08045cdc2615c036720c6215bdc4759f1d4e79",
+    "artifacts/20261116_relation_solution/audit_data.py": "a29c309d3516de226e38217ec8bcc60136d3a772b58d39bd5694db041d20d546",
+    "code/experiments/receipt_dataset.py": "8d46b3f1c74c0fa6405dfa37284175d1afce21016889709b35f8db276fde62f5",
+    "code/experiments/relation_solution_data.py": "89a5ebd7499dca4b22e9d9f3d542490777a6d879c3f44fd1465e82193dd20bbf",
+    "code/kci/action_binding_metrics.py": "755a53039cfba6ee278e1216533221ffa5ce590a15d4efb9f4568b37d104dc3a",
+    "code/kci/batch_evidence.py": "d8e159f518ff21526877b0e6136b27b134b79caeb624bccbb8847c3134e02718",
+    "code/kci/candidates.py": "b47ca449b6cd3dde7492be17c6003fb6a53f314e3d54ee7a3bc0da64ed82bb56",
+    "code/kci/continuation.py": "717065c2882b77c5d7cda8de7f35f1603718206aa1dfbb3e610697e1615b651b",
+    "code/kci/contracts.py": "416e1efd3823e581289b356d12f840e98d6d7e2af3f9dfe18f418db71a61d7ce",
+    "code/kci/datasets.py": "87f4f1348ffd15de4b58e460a528d1486a8df189ac782299f2afd225011606be",
+    "code/kci/dynamic_reference.py": "e926f1253e3c64a3057fcfeca8cf584204d5b025af57584149154c666da5f5a4",
+    "code/kci/dynamic_tasks.py": "4f8bd33a2d120d2929e9ebbeefa45fb4ae89437dcb10a0c4943cb3d175f26ac4",
+    "code/kci/dynamic_training.py": "d374b9146e785a4bec4fb6b1501244b05df544510387d1383755d7bab860ced7",
+    "code/kci/execution_envelope.py": "58044cc79d8779732992ebddd13dbf2232d5ef44cee1bf2b7e340f5f7868e4d4",
+    "code/kci/extended_meeting_tasks.py": "d98d2642ec4e5fa138041b57b16cb718c25804794154d6a8a633dfe29ce7d3c7",
+    "code/kci/interfaces.py": "bc2ebab9b85ae62cece956b06b0ce853365f7934e482200ce0421cc20c016f6f",
+    "code/kci/legacy_dynamic_tasks_v1.py": "554e5efb246a32c2274831d5f4f86166a75948bd2a1a539478b8b0483d1321af",
+    "code/kci/multi_candidates.py": "96fe990025f50e14457319cf56df4f9a6ec79a6c18a343e6f0a4c7449963e5b8",
+    "code/kci/multi_env.py": "9445b753f3cbf5d82db2871b5a830b54b7a84b8e2551b0484d8116b4306a997b",
+    "code/kci/multi_history.py": "0891da93f85fb2871005b8434a65c0b1028e7793ac7b68f0fd353fd9cd5d13ac",
+    "code/kci/native_result_tasks.py": "c53ce19503658c9c34350b1e7d066760958b7197fe5b0b361b3c443e424d81c5",
+    "code/kci/ordering_receipt_tasks.py": "8b568252005c3506578a2e332fdf9f3023be2d41f0de6d5679f8e79a44ca1b6b",
+    "code/kci/paired.py": "b279c076d8f3c6e4db452f3bf06759002bf3433b0e8a5869773d7090f44760ef",
+    "code/kci/receipt_policy.py": "0cfbdd3714db1f1d124ce9e6a7470e59640a650547bfcb9ef1e857605a6cd68d",
+    "code/kci/receipt_tasks.py": "5bc58c4efe248910fe1429f408cdc42d42e6f89fa5e20570c0612a605c1011db",
+    "code/kci/relation_language.py": "a966b9375e7243b78b1f0baf9b4a9b42a21246bc70f9e85a1cc39d7dd01ae771",
+    "code/kci/relation_runtime.py": "26d16648e00ec9b8c893a374b43b97c69670a2bd6a1213c633faff6b7020534e",
+    "code/kci/relation_solution.py": "5934460ae73905250227a89a0635c6c56f663f72dd02bbb6c8c086e10ecf7838",
+    "code/kci/repair.py": "d395851ac5a0756d3eaa0f92139672ee779e77fc700b76f56f2a82aceaa3c9c6",
+    "code/kci/rewards.py": "54023bccaf5d295e7bc106f63ca93b79897075965c487528fe6710e0841b6892",
+    "code/kci/source_ingest.py": "657a41cf3436b20d9f9e77fed591cef40c29c7a7ea5d024b4b7b00fa4d357566",
+    "code/kci/stratified.py": "0e6a4768e963822473c0c671de07b65dbb53b4e037d0614546b2bc1c41fe49a3",
+    "code/kci/stream_cce.py": "67d788b2f5bf4f3ec12521c2a29f75efd46fa0d40af808804afc33490a01f826",
+    "code/kci/toy_env.py": "618390ca75fdf1c503e6d8c8942a25656cbdc8a939349104704cee0bef2a47d0",
+    "code/kci/training_data.py": "411d6c107c2f34baa1b8a93ff1ea4c1a7e42942b3e7a44bd9a5295e559dafd9f",
+    "code/kci/__init__.py": "9a5bc441896f06c62aef1fbed5a9783bb5519f2af72985e601169e1376406ec4"
+  },
+  "sources": {
+    "policy_data.py": "ac3510958dc212c5efeb5684b764bb9cbd511c40e95ebae1d21083e29700b75a",
+    "run_policy.py": "1efba73961a65cf67825f517c8d9e260fa6bb561671ce24ccda17fda85f3fd46",
+    "native_replay.py": "dc2afcbe9b194578549807ee0fd78a858548602de2ae7f9d19912d725d39a9aa",
+    "audit_policy.py": "1e781c6621769557d411c9ab1c3587c28a2268f4897473123fce460ed75dd372",
+    "test_policy.py": "c7ed1df3395726a5fea78239af421b52652adcd41346261c5c296d8c3f77de59",
+    "PLAN.md": "61cfe376a22fefbb9d95f38e02d4574f1c93d8c8ee9584c600c1489801f822e7"
+  },
+  "data": {
+    "dev_worlds.json": "4a8c6f2f708d00a4049b0bb3c3e728c012d9b2cb93f9bcae42f79bc315b66725",
+    "palettes.json": "4a66f1101a7b6161a1056d63090d205a9823383ba214b24dec6d19f0a4f8e345"
+  }
+}

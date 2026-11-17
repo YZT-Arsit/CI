@@ -1,0 +1,57 @@
+{
+  "arms": {
+    "initial17": {
+      "seed": 17,
+      "kind": "initial"
+    },
+    "initial29": {
+      "seed": 29,
+      "kind": "initial"
+    },
+    "initial41": {
+      "seed": 41,
+      "kind": "initial"
+    },
+    "random17": {
+      "seed": 17,
+      "kind": "random"
+    },
+    "targeted17": {
+      "seed": 17,
+      "kind": "targeted"
+    },
+    "random29": {
+      "seed": 29,
+      "kind": "random"
+    },
+    "targeted29": {
+      "seed": 29,
+      "kind": "targeted"
+    },
+    "random41": {
+      "seed": 41,
+      "kind": "random"
+    },
+    "targeted41": {
+      "seed": 41,
+      "kind": "targeted"
+    }
+  },
+  "parent_plan_sha256": "a228748bf67be6cb910fd78cb425e5c318b51a9280a0ee209ee452f972cd1ff1",
+  "parent_seal_sha256": "6c346edc277b3d4a4b8e1bb6a4b1e3fc6d9363d25bd3db31219fb699b6911701",
+  "new_responses": 288,
+  "new_updates": 0,
+  "new_checkpoints": 0,
+  "autonomous_episodes": 0,
+  "sources": {
+    "join_handoff_data.py": "099876fa5b492d5b24845fa4c7ceb36d2f3607b518e1af441083bc3bca4a9526",
+    "run_handoff.py": "99717bf9a9d14eac4eafb99d63b82d0bd7a6b5278a51269c931ec13d499f5aba",
+    "audit_handoff.py": "8c0437ef22e956cd286f6ebe47b24612cd82639e4b5d9a18022db4f28bfa7c51",
+    "token_preflight.py": "730d162eac1a1215babc4220e2439e1d1979d92f2577ace7248dc7f463fa3f54",
+    "PLAN.md": "84a7010afcb33b373d8e92d7e1c28925a613548cd5c8f7698e4754ea93eb209d"
+  },
+  "data": {
+    "observations.jsonl": "551b46ac8ba1202a3ccc6bf5ac3248b329b199e854d8a1fc8462d5c30f3388db",
+    "labels.jsonl": "9e3edd4962e40074cc5f64d0469f1fa79c0b56b88706bd37a09f4c1853e34820"
+  }
+}

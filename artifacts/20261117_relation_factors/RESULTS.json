@@ -1,0 +1,2094 @@
+{
+  "summaries": [
+    {
+      "arm": "bit17",
+      "mode": "binary",
+      "queries": 288,
+      "correct": 240,
+      "invalid": 0,
+      "positive_correct": 96,
+      "negative_correct": 144,
+      "paired_correct": 96,
+      "pairs": 144,
+      "all_conditions_and_names_correct": 1,
+      "base_groups": 12,
+      "cells": [
+        {
+          "family": "retention",
+          "known": 1,
+          "noise": "none",
+          "queries": 16,
+          "correct": 14,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 6
+        },
+        {
+          "family": "retention",
+          "known": 1,
+          "noise": "irrelevant",
+          "queries": 16,
+          "correct": 15,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 7
+        },
+        {
+          "family": "retention",
+          "known": 1,
+          "noise": "near_miss",
+          "queries": 16,
+          "correct": 15,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 7
+        },
+        {
+          "family": "retention",
+          "known": 4,
+          "noise": "none",
+          "queries": 16,
+          "correct": 11,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 3
+        },
+        {
+          "family": "retention",
+          "known": 4,
+          "noise": "irrelevant",
+          "queries": 16,
+          "correct": 15,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 7
+        },
+        {
+          "family": "retention",
+          "known": 4,
+          "noise": "near_miss",
+          "queries": 16,
+          "correct": 12,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 4
+        },
+        {
+          "family": "direction",
+          "known": 1,
+          "noise": "none",
+          "queries": 16,
+          "correct": 16,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 8
+        },
+        {
+          "family": "direction",
+          "known": 1,
+          "noise": "irrelevant",
+          "queries": 16,
+          "correct": 16,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 8
+        },
+        {
+          "family": "direction",
+          "known": 1,
+          "noise": "near_miss",
+          "queries": 16,
+          "correct": 10,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 2
+        },
+        {
+          "family": "direction",
+          "known": 4,
+          "noise": "none",
+          "queries": 16,
+          "correct": 15,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 7
+        },
+        {
+          "family": "direction",
+          "known": 4,
+          "noise": "irrelevant",
+          "queries": 16,
+          "correct": 16,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 8
+        },
+        {
+          "family": "direction",
+          "known": 4,
+          "noise": "near_miss",
+          "queries": 16,
+          "correct": 8,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 0
+        },
+        {
+          "family": "binding",
+          "known": 1,
+          "noise": "none",
+          "queries": 16,
+          "correct": 16,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 8
+        },
+        {
+          "family": "binding",
+          "known": 1,
+          "noise": "irrelevant",
+          "queries": 16,
+          "correct": 15,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 7
+        },
+        {
+          "family": "binding",
+          "known": 1,
+          "noise": "near_miss",
+          "queries": 16,
+          "correct": 9,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 1
+        },
+        {
+          "family": "binding",
+          "known": 4,
+          "noise": "none",
+          "queries": 16,
+          "correct": 15,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 7
+        },
+        {
+          "family": "binding",
+          "known": 4,
+          "noise": "irrelevant",
+          "queries": 16,
+          "correct": 14,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 6
+        },
+        {
+          "family": "binding",
+          "known": 4,
+          "noise": "near_miss",
+          "queries": 16,
+          "correct": 8,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 0
+        }
+      ],
+      "matched_correctness_transitions": {
+        "add_irrelevant": {
+          "cases": 96,
+          "before_correct": 87,
+          "after_correct": 91,
+          "unchanged_correctness": 86,
+          "wrong_to_correct": 7,
+          "correct_to_wrong": 3
+        },
+        "add_near_miss": {
+          "cases": 96,
+          "before_correct": 87,
+          "after_correct": 62,
+          "unchanged_correctness": 67,
+          "wrong_to_correct": 2,
+          "correct_to_wrong": 27
+        },
+        "equal_count_near_miss": {
+          "cases": 96,
+          "before_correct": 91,
+          "after_correct": 62,
+          "unchanged_correctness": 67,
+          "correct_to_wrong": 29
+        },
+        "expand_frontier": {
+          "cases": 144,
+          "before_correct": 126,
+          "after_correct": 114,
+          "unchanged_correctness": 132,
+          "correct_to_wrong": 12
+        }
+      }
+    },
+    {
+      "arm": "proof17",
+      "mode": "binary",
+      "queries": 288,
+      "correct": 219,
+      "invalid": 5,
+      "positive_correct": 85,
+      "negative_correct": 134,
+      "paired_correct": 76,
+      "pairs": 144,
+      "all_conditions_and_names_correct": 0,
+      "base_groups": 12,
+      "cells": [
+        {
+          "family": "retention",
+          "known": 1,
+          "noise": "none",
+          "queries": 16,
+          "correct": 13,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 5
+        },
+        {
+          "family": "retention",
+          "known": 1,
+          "noise": "irrelevant",
+          "queries": 16,
+          "correct": 11,
+          "invalid": 2,
+          "pairs": 8,
+          "both_correct": 3
+        },
+        {
+          "family": "retention",
+          "known": 1,
+          "noise": "near_miss",
+          "queries": 16,
+          "correct": 13,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 5
+        },
+        {
+          "family": "retention",
+          "known": 4,
+          "noise": "none",
+          "queries": 16,
+          "correct": 13,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 5
+        },
+        {
+          "family": "retention",
+          "known": 4,
+          "noise": "irrelevant",
+          "queries": 16,
+          "correct": 11,
+          "invalid": 1,
+          "pairs": 8,
+          "both_correct": 3
+        },
+        {
+          "family": "retention",
+          "known": 4,
+          "noise": "near_miss",
+          "queries": 16,
+          "correct": 11,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 3
+        },
+        {
+          "family": "direction",
+          "known": 1,
+          "noise": "none",
+          "queries": 16,
+          "correct": 14,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 6
+        },
+        {
+          "family": "direction",
+          "known": 1,
+          "noise": "irrelevant",
+          "queries": 16,
+          "correct": 16,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 8
+        },
+        {
+          "family": "direction",
+          "known": 1,
+          "noise": "near_miss",
+          "queries": 16,
+          "correct": 8,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 0
+        },
+        {
+          "family": "direction",
+          "known": 4,
+          "noise": "none",
+          "queries": 16,
+          "correct": 14,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 6
+        },
+        {
+          "family": "direction",
+          "known": 4,
+          "noise": "irrelevant",
+          "queries": 16,
+          "correct": 16,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 8
+        },
+        {
+          "family": "direction",
+          "known": 4,
+          "noise": "near_miss",
+          "queries": 16,
+          "correct": 9,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 1
+        },
+        {
+          "family": "binding",
+          "known": 1,
+          "noise": "none",
+          "queries": 16,
+          "correct": 15,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 7
+        },
+        {
+          "family": "binding",
+          "known": 1,
+          "noise": "irrelevant",
+          "queries": 16,
+          "correct": 14,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 6
+        },
+        {
+          "family": "binding",
+          "known": 1,
+          "noise": "near_miss",
+          "queries": 16,
+          "correct": 9,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 1
+        },
+        {
+          "family": "binding",
+          "known": 4,
+          "noise": "none",
+          "queries": 16,
+          "correct": 13,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 5
+        },
+        {
+          "family": "binding",
+          "known": 4,
+          "noise": "irrelevant",
+          "queries": 16,
+          "correct": 12,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 4
+        },
+        {
+          "family": "binding",
+          "known": 4,
+          "noise": "near_miss",
+          "queries": 16,
+          "correct": 7,
+          "invalid": 2,
+          "pairs": 8,
+          "both_correct": 0
+        }
+      ],
+      "matched_correctness_transitions": {
+        "add_irrelevant": {
+          "cases": 96,
+          "before_correct": 82,
+          "after_correct": 80,
+          "unchanged_correctness": 82,
+          "wrong_to_correct": 6,
+          "correct_to_wrong": 8
+        },
+        "add_near_miss": {
+          "cases": 96,
+          "before_correct": 82,
+          "after_correct": 57,
+          "unchanged_correctness": 65,
+          "wrong_to_correct": 3,
+          "correct_to_wrong": 28
+        },
+        "equal_count_near_miss": {
+          "cases": 96,
+          "before_correct": 80,
+          "after_correct": 57,
+          "unchanged_correctness": 63,
+          "correct_to_wrong": 28,
+          "wrong_to_correct": 5
+        },
+        "expand_frontier": {
+          "cases": 144,
+          "before_correct": 113,
+          "after_correct": 106,
+          "unchanged_correctness": 123,
+          "wrong_to_correct": 7,
+          "correct_to_wrong": 14
+        }
+      }
+    },
+    {
+      "arm": "proof17",
+      "mode": "proof",
+      "queries": 288,
+      "correct": 192,
+      "invalid": 20,
+      "positive_correct": 55,
+      "negative_correct": 137,
+      "paired_correct": 52,
+      "pairs": 144,
+      "all_conditions_and_names_correct": 0,
+      "base_groups": 12,
+      "cells": [
+        {
+          "family": "retention",
+          "known": 1,
+          "noise": "none",
+          "queries": 16,
+          "correct": 16,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 8
+        },
+        {
+          "family": "retention",
+          "known": 1,
+          "noise": "irrelevant",
+          "queries": 16,
+          "correct": 13,
+          "invalid": 3,
+          "pairs": 8,
+          "both_correct": 5
+        },
+        {
+          "family": "retention",
+          "known": 1,
+          "noise": "near_miss",
+          "queries": 16,
+          "correct": 14,
+          "invalid": 1,
+          "pairs": 8,
+          "both_correct": 6
+        },
+        {
+          "family": "retention",
+          "known": 4,
+          "noise": "none",
+          "queries": 16,
+          "correct": 14,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 6
+        },
+        {
+          "family": "retention",
+          "known": 4,
+          "noise": "irrelevant",
+          "queries": 16,
+          "correct": 13,
+          "invalid": 1,
+          "pairs": 8,
+          "both_correct": 5
+        },
+        {
+          "family": "retention",
+          "known": 4,
+          "noise": "near_miss",
+          "queries": 16,
+          "correct": 11,
+          "invalid": 2,
+          "pairs": 8,
+          "both_correct": 3
+        },
+        {
+          "family": "direction",
+          "known": 1,
+          "noise": "none",
+          "queries": 16,
+          "correct": 8,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 0
+        },
+        {
+          "family": "direction",
+          "known": 1,
+          "noise": "irrelevant",
+          "queries": 16,
+          "correct": 11,
+          "invalid": 4,
+          "pairs": 8,
+          "both_correct": 3
+        },
+        {
+          "family": "direction",
+          "known": 1,
+          "noise": "near_miss",
+          "queries": 16,
+          "correct": 8,
+          "invalid": 3,
+          "pairs": 8,
+          "both_correct": 1
+        },
+        {
+          "family": "direction",
+          "known": 4,
+          "noise": "none",
+          "queries": 16,
+          "correct": 8,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 0
+        },
+        {
+          "family": "direction",
+          "known": 4,
+          "noise": "irrelevant",
+          "queries": 16,
+          "correct": 9,
+          "invalid": 2,
+          "pairs": 8,
+          "both_correct": 1
+        },
+        {
+          "family": "direction",
+          "known": 4,
+          "noise": "near_miss",
+          "queries": 16,
+          "correct": 8,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 0
+        },
+        {
+          "family": "binding",
+          "known": 1,
+          "noise": "none",
+          "queries": 16,
+          "correct": 13,
+          "invalid": 1,
+          "pairs": 8,
+          "both_correct": 5
+        },
+        {
+          "family": "binding",
+          "known": 1,
+          "noise": "irrelevant",
+          "queries": 16,
+          "correct": 12,
+          "invalid": 1,
+          "pairs": 8,
+          "both_correct": 4
+        },
+        {
+          "family": "binding",
+          "known": 1,
+          "noise": "near_miss",
+          "queries": 16,
+          "correct": 7,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 0
+        },
+        {
+          "family": "binding",
+          "known": 4,
+          "noise": "none",
+          "queries": 16,
+          "correct": 11,
+          "invalid": 1,
+          "pairs": 8,
+          "both_correct": 3
+        },
+        {
+          "family": "binding",
+          "known": 4,
+          "noise": "irrelevant",
+          "queries": 16,
+          "correct": 9,
+          "invalid": 1,
+          "pairs": 8,
+          "both_correct": 2
+        },
+        {
+          "family": "binding",
+          "known": 4,
+          "noise": "near_miss",
+          "queries": 16,
+          "correct": 7,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 0
+        }
+      ],
+      "matched_correctness_transitions": {
+        "add_irrelevant": {
+          "cases": 96,
+          "before_correct": 70,
+          "after_correct": 67,
+          "unchanged_correctness": 81,
+          "correct_to_wrong": 9,
+          "wrong_to_correct": 6
+        },
+        "add_near_miss": {
+          "cases": 96,
+          "before_correct": 70,
+          "after_correct": 55,
+          "unchanged_correctness": 79,
+          "correct_to_wrong": 16,
+          "wrong_to_correct": 1
+        },
+        "equal_count_near_miss": {
+          "cases": 96,
+          "before_correct": 67,
+          "after_correct": 55,
+          "unchanged_correctness": 76,
+          "correct_to_wrong": 16,
+          "wrong_to_correct": 4
+        },
+        "expand_frontier": {
+          "cases": 144,
+          "before_correct": 102,
+          "after_correct": 90,
+          "unchanged_correctness": 120,
+          "correct_to_wrong": 18,
+          "wrong_to_correct": 6
+        }
+      }
+    },
+    {
+      "arm": "proof17",
+      "mode": "echo",
+      "queries": 32,
+      "correct": 5,
+      "invalid": 19
+    },
+    {
+      "arm": "bit29",
+      "mode": "binary",
+      "queries": 288,
+      "correct": 244,
+      "invalid": 2,
+      "positive_correct": 104,
+      "negative_correct": 140,
+      "paired_correct": 101,
+      "pairs": 144,
+      "all_conditions_and_names_correct": 2,
+      "base_groups": 12,
+      "cells": [
+        {
+          "family": "retention",
+          "known": 1,
+          "noise": "none",
+          "queries": 16,
+          "correct": 15,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 7
+        },
+        {
+          "family": "retention",
+          "known": 1,
+          "noise": "irrelevant",
+          "queries": 16,
+          "correct": 14,
+          "invalid": 2,
+          "pairs": 8,
+          "both_correct": 7
+        },
+        {
+          "family": "retention",
+          "known": 1,
+          "noise": "near_miss",
+          "queries": 16,
+          "correct": 15,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 7
+        },
+        {
+          "family": "retention",
+          "known": 4,
+          "noise": "none",
+          "queries": 16,
+          "correct": 14,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 6
+        },
+        {
+          "family": "retention",
+          "known": 4,
+          "noise": "irrelevant",
+          "queries": 16,
+          "correct": 15,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 7
+        },
+        {
+          "family": "retention",
+          "known": 4,
+          "noise": "near_miss",
+          "queries": 16,
+          "correct": 12,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 4
+        },
+        {
+          "family": "direction",
+          "known": 1,
+          "noise": "none",
+          "queries": 16,
+          "correct": 16,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 8
+        },
+        {
+          "family": "direction",
+          "known": 1,
+          "noise": "irrelevant",
+          "queries": 16,
+          "correct": 15,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 7
+        },
+        {
+          "family": "direction",
+          "known": 1,
+          "noise": "near_miss",
+          "queries": 16,
+          "correct": 8,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 0
+        },
+        {
+          "family": "direction",
+          "known": 4,
+          "noise": "none",
+          "queries": 16,
+          "correct": 15,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 7
+        },
+        {
+          "family": "direction",
+          "known": 4,
+          "noise": "irrelevant",
+          "queries": 16,
+          "correct": 15,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 7
+        },
+        {
+          "family": "direction",
+          "known": 4,
+          "noise": "near_miss",
+          "queries": 16,
+          "correct": 8,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 0
+        },
+        {
+          "family": "binding",
+          "known": 1,
+          "noise": "none",
+          "queries": 16,
+          "correct": 16,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 8
+        },
+        {
+          "family": "binding",
+          "known": 1,
+          "noise": "irrelevant",
+          "queries": 16,
+          "correct": 16,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 8
+        },
+        {
+          "family": "binding",
+          "known": 1,
+          "noise": "near_miss",
+          "queries": 16,
+          "correct": 10,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 2
+        },
+        {
+          "family": "binding",
+          "known": 4,
+          "noise": "none",
+          "queries": 16,
+          "correct": 16,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 8
+        },
+        {
+          "family": "binding",
+          "known": 4,
+          "noise": "irrelevant",
+          "queries": 16,
+          "correct": 15,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 7
+        },
+        {
+          "family": "binding",
+          "known": 4,
+          "noise": "near_miss",
+          "queries": 16,
+          "correct": 9,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 1
+        }
+      ],
+      "matched_correctness_transitions": {
+        "add_irrelevant": {
+          "cases": 96,
+          "before_correct": 92,
+          "after_correct": 90,
+          "unchanged_correctness": 90,
+          "wrong_to_correct": 2,
+          "correct_to_wrong": 4
+        },
+        "add_near_miss": {
+          "cases": 96,
+          "before_correct": 92,
+          "after_correct": 62,
+          "unchanged_correctness": 64,
+          "correct_to_wrong": 31,
+          "wrong_to_correct": 1
+        },
+        "equal_count_near_miss": {
+          "cases": 96,
+          "before_correct": 90,
+          "after_correct": 62,
+          "unchanged_correctness": 60,
+          "correct_to_wrong": 32,
+          "wrong_to_correct": 4
+        },
+        "expand_frontier": {
+          "cases": 144,
+          "before_correct": 125,
+          "after_correct": 119,
+          "unchanged_correctness": 134,
+          "correct_to_wrong": 8,
+          "wrong_to_correct": 2
+        }
+      }
+    },
+    {
+      "arm": "proof29",
+      "mode": "binary",
+      "queries": 288,
+      "correct": 222,
+      "invalid": 3,
+      "positive_correct": 82,
+      "negative_correct": 140,
+      "paired_correct": 78,
+      "pairs": 144,
+      "all_conditions_and_names_correct": 1,
+      "base_groups": 12,
+      "cells": [
+        {
+          "family": "retention",
+          "known": 1,
+          "noise": "none",
+          "queries": 16,
+          "correct": 14,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 6
+        },
+        {
+          "family": "retention",
+          "known": 1,
+          "noise": "irrelevant",
+          "queries": 16,
+          "correct": 11,
+          "invalid": 2,
+          "pairs": 8,
+          "both_correct": 3
+        },
+        {
+          "family": "retention",
+          "known": 1,
+          "noise": "near_miss",
+          "queries": 16,
+          "correct": 15,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 7
+        },
+        {
+          "family": "retention",
+          "known": 4,
+          "noise": "none",
+          "queries": 16,
+          "correct": 12,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 4
+        },
+        {
+          "family": "retention",
+          "known": 4,
+          "noise": "irrelevant",
+          "queries": 16,
+          "correct": 13,
+          "invalid": 1,
+          "pairs": 8,
+          "both_correct": 5
+        },
+        {
+          "family": "retention",
+          "known": 4,
+          "noise": "near_miss",
+          "queries": 16,
+          "correct": 10,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 2
+        },
+        {
+          "family": "direction",
+          "known": 1,
+          "noise": "none",
+          "queries": 16,
+          "correct": 14,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 6
+        },
+        {
+          "family": "direction",
+          "known": 1,
+          "noise": "irrelevant",
+          "queries": 16,
+          "correct": 16,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 8
+        },
+        {
+          "family": "direction",
+          "known": 1,
+          "noise": "near_miss",
+          "queries": 16,
+          "correct": 9,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 1
+        },
+        {
+          "family": "direction",
+          "known": 4,
+          "noise": "none",
+          "queries": 16,
+          "correct": 12,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 4
+        },
+        {
+          "family": "direction",
+          "known": 4,
+          "noise": "irrelevant",
+          "queries": 16,
+          "correct": 15,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 7
+        },
+        {
+          "family": "direction",
+          "known": 4,
+          "noise": "near_miss",
+          "queries": 16,
+          "correct": 9,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 1
+        },
+        {
+          "family": "binding",
+          "known": 1,
+          "noise": "none",
+          "queries": 16,
+          "correct": 16,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 8
+        },
+        {
+          "family": "binding",
+          "known": 1,
+          "noise": "irrelevant",
+          "queries": 16,
+          "correct": 14,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 6
+        },
+        {
+          "family": "binding",
+          "known": 1,
+          "noise": "near_miss",
+          "queries": 16,
+          "correct": 9,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 1
+        },
+        {
+          "family": "binding",
+          "known": 4,
+          "noise": "none",
+          "queries": 16,
+          "correct": 14,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 6
+        },
+        {
+          "family": "binding",
+          "known": 4,
+          "noise": "irrelevant",
+          "queries": 16,
+          "correct": 11,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 3
+        },
+        {
+          "family": "binding",
+          "known": 4,
+          "noise": "near_miss",
+          "queries": 16,
+          "correct": 8,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 0
+        }
+      ],
+      "matched_correctness_transitions": {
+        "add_irrelevant": {
+          "cases": 96,
+          "before_correct": 82,
+          "after_correct": 80,
+          "unchanged_correctness": 80,
+          "correct_to_wrong": 9,
+          "wrong_to_correct": 7
+        },
+        "add_near_miss": {
+          "cases": 96,
+          "before_correct": 82,
+          "after_correct": 60,
+          "unchanged_correctness": 68,
+          "wrong_to_correct": 3,
+          "correct_to_wrong": 25
+        },
+        "equal_count_near_miss": {
+          "cases": 96,
+          "before_correct": 80,
+          "after_correct": 60,
+          "unchanged_correctness": 68,
+          "wrong_to_correct": 4,
+          "correct_to_wrong": 24
+        },
+        "expand_frontier": {
+          "cases": 144,
+          "before_correct": 118,
+          "after_correct": 104,
+          "unchanged_correctness": 122,
+          "wrong_to_correct": 4,
+          "correct_to_wrong": 18
+        }
+      }
+    },
+    {
+      "arm": "proof29",
+      "mode": "proof",
+      "queries": 288,
+      "correct": 195,
+      "invalid": 2,
+      "positive_correct": 56,
+      "negative_correct": 139,
+      "paired_correct": 52,
+      "pairs": 144,
+      "all_conditions_and_names_correct": 1,
+      "base_groups": 12,
+      "cells": [
+        {
+          "family": "retention",
+          "known": 1,
+          "noise": "none",
+          "queries": 16,
+          "correct": 13,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 5
+        },
+        {
+          "family": "retention",
+          "known": 1,
+          "noise": "irrelevant",
+          "queries": 16,
+          "correct": 15,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 7
+        },
+        {
+          "family": "retention",
+          "known": 1,
+          "noise": "near_miss",
+          "queries": 16,
+          "correct": 15,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 7
+        },
+        {
+          "family": "retention",
+          "known": 4,
+          "noise": "none",
+          "queries": 16,
+          "correct": 11,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 3
+        },
+        {
+          "family": "retention",
+          "known": 4,
+          "noise": "irrelevant",
+          "queries": 16,
+          "correct": 11,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 3
+        },
+        {
+          "family": "retention",
+          "known": 4,
+          "noise": "near_miss",
+          "queries": 16,
+          "correct": 12,
+          "invalid": 1,
+          "pairs": 8,
+          "both_correct": 4
+        },
+        {
+          "family": "direction",
+          "known": 1,
+          "noise": "none",
+          "queries": 16,
+          "correct": 8,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 0
+        },
+        {
+          "family": "direction",
+          "known": 1,
+          "noise": "irrelevant",
+          "queries": 16,
+          "correct": 14,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 6
+        },
+        {
+          "family": "direction",
+          "known": 1,
+          "noise": "near_miss",
+          "queries": 16,
+          "correct": 9,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 1
+        },
+        {
+          "family": "direction",
+          "known": 4,
+          "noise": "none",
+          "queries": 16,
+          "correct": 8,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 0
+        },
+        {
+          "family": "direction",
+          "known": 4,
+          "noise": "irrelevant",
+          "queries": 16,
+          "correct": 10,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 2
+        },
+        {
+          "family": "direction",
+          "known": 4,
+          "noise": "near_miss",
+          "queries": 16,
+          "correct": 8,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 0
+        },
+        {
+          "family": "binding",
+          "known": 1,
+          "noise": "none",
+          "queries": 16,
+          "correct": 13,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 5
+        },
+        {
+          "family": "binding",
+          "known": 1,
+          "noise": "irrelevant",
+          "queries": 16,
+          "correct": 13,
+          "invalid": 1,
+          "pairs": 8,
+          "both_correct": 5
+        },
+        {
+          "family": "binding",
+          "known": 1,
+          "noise": "near_miss",
+          "queries": 16,
+          "correct": 9,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 2
+        },
+        {
+          "family": "binding",
+          "known": 4,
+          "noise": "none",
+          "queries": 16,
+          "correct": 9,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 1
+        },
+        {
+          "family": "binding",
+          "known": 4,
+          "noise": "irrelevant",
+          "queries": 16,
+          "correct": 8,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 0
+        },
+        {
+          "family": "binding",
+          "known": 4,
+          "noise": "near_miss",
+          "queries": 16,
+          "correct": 9,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 1
+        }
+      ],
+      "matched_correctness_transitions": {
+        "add_irrelevant": {
+          "cases": 96,
+          "before_correct": 62,
+          "after_correct": 71,
+          "unchanged_correctness": 79,
+          "wrong_to_correct": 13,
+          "correct_to_wrong": 4
+        },
+        "add_near_miss": {
+          "cases": 96,
+          "before_correct": 62,
+          "after_correct": 62,
+          "unchanged_correctness": 82,
+          "wrong_to_correct": 7,
+          "correct_to_wrong": 7
+        },
+        "equal_count_near_miss": {
+          "cases": 96,
+          "before_correct": 71,
+          "after_correct": 62,
+          "unchanged_correctness": 77,
+          "correct_to_wrong": 14,
+          "wrong_to_correct": 5
+        },
+        "expand_frontier": {
+          "cases": 144,
+          "before_correct": 109,
+          "after_correct": 86,
+          "unchanged_correctness": 115,
+          "correct_to_wrong": 26,
+          "wrong_to_correct": 3
+        }
+      }
+    },
+    {
+      "arm": "proof29",
+      "mode": "echo",
+      "queries": 32,
+      "correct": 7,
+      "invalid": 11
+    },
+    {
+      "arm": "bit41",
+      "mode": "binary",
+      "queries": 288,
+      "correct": 252,
+      "invalid": 0,
+      "positive_correct": 112,
+      "negative_correct": 140,
+      "paired_correct": 108,
+      "pairs": 144,
+      "all_conditions_and_names_correct": 2,
+      "base_groups": 12,
+      "cells": [
+        {
+          "family": "retention",
+          "known": 1,
+          "noise": "none",
+          "queries": 16,
+          "correct": 16,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 8
+        },
+        {
+          "family": "retention",
+          "known": 1,
+          "noise": "irrelevant",
+          "queries": 16,
+          "correct": 16,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 8
+        },
+        {
+          "family": "retention",
+          "known": 1,
+          "noise": "near_miss",
+          "queries": 16,
+          "correct": 16,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 8
+        },
+        {
+          "family": "retention",
+          "known": 4,
+          "noise": "none",
+          "queries": 16,
+          "correct": 15,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 7
+        },
+        {
+          "family": "retention",
+          "known": 4,
+          "noise": "irrelevant",
+          "queries": 16,
+          "correct": 16,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 8
+        },
+        {
+          "family": "retention",
+          "known": 4,
+          "noise": "near_miss",
+          "queries": 16,
+          "correct": 14,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 6
+        },
+        {
+          "family": "direction",
+          "known": 1,
+          "noise": "none",
+          "queries": 16,
+          "correct": 16,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 8
+        },
+        {
+          "family": "direction",
+          "known": 1,
+          "noise": "irrelevant",
+          "queries": 16,
+          "correct": 15,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 7
+        },
+        {
+          "family": "direction",
+          "known": 1,
+          "noise": "near_miss",
+          "queries": 16,
+          "correct": 9,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 1
+        },
+        {
+          "family": "direction",
+          "known": 4,
+          "noise": "none",
+          "queries": 16,
+          "correct": 15,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 7
+        },
+        {
+          "family": "direction",
+          "known": 4,
+          "noise": "irrelevant",
+          "queries": 16,
+          "correct": 15,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 7
+        },
+        {
+          "family": "direction",
+          "known": 4,
+          "noise": "near_miss",
+          "queries": 16,
+          "correct": 8,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 0
+        },
+        {
+          "family": "binding",
+          "known": 1,
+          "noise": "none",
+          "queries": 16,
+          "correct": 16,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 8
+        },
+        {
+          "family": "binding",
+          "known": 1,
+          "noise": "irrelevant",
+          "queries": 16,
+          "correct": 16,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 8
+        },
+        {
+          "family": "binding",
+          "known": 1,
+          "noise": "near_miss",
+          "queries": 16,
+          "correct": 10,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 2
+        },
+        {
+          "family": "binding",
+          "known": 4,
+          "noise": "none",
+          "queries": 16,
+          "correct": 16,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 8
+        },
+        {
+          "family": "binding",
+          "known": 4,
+          "noise": "irrelevant",
+          "queries": 16,
+          "correct": 14,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 6
+        },
+        {
+          "family": "binding",
+          "known": 4,
+          "noise": "near_miss",
+          "queries": 16,
+          "correct": 9,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 1
+        }
+      ],
+      "matched_correctness_transitions": {
+        "add_irrelevant": {
+          "cases": 96,
+          "before_correct": 94,
+          "after_correct": 92,
+          "unchanged_correctness": 92,
+          "wrong_to_correct": 1,
+          "correct_to_wrong": 3
+        },
+        "add_near_miss": {
+          "cases": 96,
+          "before_correct": 94,
+          "after_correct": 66,
+          "unchanged_correctness": 66,
+          "correct_to_wrong": 29,
+          "wrong_to_correct": 1
+        },
+        "equal_count_near_miss": {
+          "cases": 96,
+          "before_correct": 92,
+          "after_correct": 66,
+          "unchanged_correctness": 66,
+          "correct_to_wrong": 28,
+          "wrong_to_correct": 2
+        },
+        "expand_frontier": {
+          "cases": 144,
+          "before_correct": 130,
+          "after_correct": 122,
+          "unchanged_correctness": 134,
+          "correct_to_wrong": 9,
+          "wrong_to_correct": 1
+        }
+      }
+    },
+    {
+      "arm": "proof41",
+      "mode": "binary",
+      "queries": 288,
+      "correct": 239,
+      "invalid": 6,
+      "positive_correct": 102,
+      "negative_correct": 137,
+      "paired_correct": 96,
+      "pairs": 144,
+      "all_conditions_and_names_correct": 1,
+      "base_groups": 12,
+      "cells": [
+        {
+          "family": "retention",
+          "known": 1,
+          "noise": "none",
+          "queries": 16,
+          "correct": 14,
+          "invalid": 2,
+          "pairs": 8,
+          "both_correct": 6
+        },
+        {
+          "family": "retention",
+          "known": 1,
+          "noise": "irrelevant",
+          "queries": 16,
+          "correct": 13,
+          "invalid": 3,
+          "pairs": 8,
+          "both_correct": 5
+        },
+        {
+          "family": "retention",
+          "known": 1,
+          "noise": "near_miss",
+          "queries": 16,
+          "correct": 15,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 7
+        },
+        {
+          "family": "retention",
+          "known": 4,
+          "noise": "none",
+          "queries": 16,
+          "correct": 14,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 6
+        },
+        {
+          "family": "retention",
+          "known": 4,
+          "noise": "irrelevant",
+          "queries": 16,
+          "correct": 15,
+          "invalid": 1,
+          "pairs": 8,
+          "both_correct": 7
+        },
+        {
+          "family": "retention",
+          "known": 4,
+          "noise": "near_miss",
+          "queries": 16,
+          "correct": 15,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 7
+        },
+        {
+          "family": "direction",
+          "known": 1,
+          "noise": "none",
+          "queries": 16,
+          "correct": 14,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 6
+        },
+        {
+          "family": "direction",
+          "known": 1,
+          "noise": "irrelevant",
+          "queries": 16,
+          "correct": 16,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 8
+        },
+        {
+          "family": "direction",
+          "known": 1,
+          "noise": "near_miss",
+          "queries": 16,
+          "correct": 11,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 3
+        },
+        {
+          "family": "direction",
+          "known": 4,
+          "noise": "none",
+          "queries": 16,
+          "correct": 13,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 5
+        },
+        {
+          "family": "direction",
+          "known": 4,
+          "noise": "irrelevant",
+          "queries": 16,
+          "correct": 15,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 7
+        },
+        {
+          "family": "direction",
+          "known": 4,
+          "noise": "near_miss",
+          "queries": 16,
+          "correct": 10,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 2
+        },
+        {
+          "family": "binding",
+          "known": 1,
+          "noise": "none",
+          "queries": 16,
+          "correct": 16,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 8
+        },
+        {
+          "family": "binding",
+          "known": 1,
+          "noise": "irrelevant",
+          "queries": 16,
+          "correct": 15,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 7
+        },
+        {
+          "family": "binding",
+          "known": 1,
+          "noise": "near_miss",
+          "queries": 16,
+          "correct": 7,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 0
+        },
+        {
+          "family": "binding",
+          "known": 4,
+          "noise": "none",
+          "queries": 16,
+          "correct": 15,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 7
+        },
+        {
+          "family": "binding",
+          "known": 4,
+          "noise": "irrelevant",
+          "queries": 16,
+          "correct": 13,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 5
+        },
+        {
+          "family": "binding",
+          "known": 4,
+          "noise": "near_miss",
+          "queries": 16,
+          "correct": 8,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 0
+        }
+      ],
+      "matched_correctness_transitions": {
+        "add_irrelevant": {
+          "cases": 96,
+          "before_correct": 86,
+          "after_correct": 87,
+          "unchanged_correctness": 81,
+          "wrong_to_correct": 8,
+          "correct_to_wrong": 7
+        },
+        "add_near_miss": {
+          "cases": 96,
+          "before_correct": 86,
+          "after_correct": 66,
+          "unchanged_correctness": 64,
+          "correct_to_wrong": 26,
+          "wrong_to_correct": 6
+        },
+        "equal_count_near_miss": {
+          "cases": 96,
+          "before_correct": 87,
+          "after_correct": 66,
+          "unchanged_correctness": 67,
+          "correct_to_wrong": 25,
+          "wrong_to_correct": 4
+        },
+        "expand_frontier": {
+          "cases": 144,
+          "before_correct": 121,
+          "after_correct": 118,
+          "unchanged_correctness": 125,
+          "wrong_to_correct": 8,
+          "correct_to_wrong": 11
+        }
+      }
+    },
+    {
+      "arm": "proof41",
+      "mode": "proof",
+      "queries": 288,
+      "correct": 207,
+      "invalid": 0,
+      "positive_correct": 77,
+      "negative_correct": 130,
+      "paired_correct": 65,
+      "pairs": 144,
+      "all_conditions_and_names_correct": 1,
+      "base_groups": 12,
+      "cells": [
+        {
+          "family": "retention",
+          "known": 1,
+          "noise": "none",
+          "queries": 16,
+          "correct": 16,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 8
+        },
+        {
+          "family": "retention",
+          "known": 1,
+          "noise": "irrelevant",
+          "queries": 16,
+          "correct": 16,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 8
+        },
+        {
+          "family": "retention",
+          "known": 1,
+          "noise": "near_miss",
+          "queries": 16,
+          "correct": 14,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 6
+        },
+        {
+          "family": "retention",
+          "known": 4,
+          "noise": "none",
+          "queries": 16,
+          "correct": 11,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 4
+        },
+        {
+          "family": "retention",
+          "known": 4,
+          "noise": "irrelevant",
+          "queries": 16,
+          "correct": 13,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 5
+        },
+        {
+          "family": "retention",
+          "known": 4,
+          "noise": "near_miss",
+          "queries": 16,
+          "correct": 12,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 4
+        },
+        {
+          "family": "direction",
+          "known": 1,
+          "noise": "none",
+          "queries": 16,
+          "correct": 9,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 1
+        },
+        {
+          "family": "direction",
+          "known": 1,
+          "noise": "irrelevant",
+          "queries": 16,
+          "correct": 15,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 7
+        },
+        {
+          "family": "direction",
+          "known": 1,
+          "noise": "near_miss",
+          "queries": 16,
+          "correct": 9,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 1
+        },
+        {
+          "family": "direction",
+          "known": 4,
+          "noise": "none",
+          "queries": 16,
+          "correct": 10,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 2
+        },
+        {
+          "family": "direction",
+          "known": 4,
+          "noise": "irrelevant",
+          "queries": 16,
+          "correct": 10,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 2
+        },
+        {
+          "family": "direction",
+          "known": 4,
+          "noise": "near_miss",
+          "queries": 16,
+          "correct": 8,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 0
+        },
+        {
+          "family": "binding",
+          "known": 1,
+          "noise": "none",
+          "queries": 16,
+          "correct": 14,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 6
+        },
+        {
+          "family": "binding",
+          "known": 1,
+          "noise": "irrelevant",
+          "queries": 16,
+          "correct": 13,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 5
+        },
+        {
+          "family": "binding",
+          "known": 1,
+          "noise": "near_miss",
+          "queries": 16,
+          "correct": 9,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 2
+        },
+        {
+          "family": "binding",
+          "known": 4,
+          "noise": "none",
+          "queries": 16,
+          "correct": 12,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 4
+        },
+        {
+          "family": "binding",
+          "known": 4,
+          "noise": "irrelevant",
+          "queries": 16,
+          "correct": 8,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 0
+        },
+        {
+          "family": "binding",
+          "known": 4,
+          "noise": "near_miss",
+          "queries": 16,
+          "correct": 8,
+          "invalid": 0,
+          "pairs": 8,
+          "both_correct": 0
+        }
+      ],
+      "matched_correctness_transitions": {
+        "add_irrelevant": {
+          "cases": 96,
+          "before_correct": 72,
+          "after_correct": 75,
+          "unchanged_correctness": 79,
+          "wrong_to_correct": 10,
+          "correct_to_wrong": 7
+        },
+        "add_near_miss": {
+          "cases": 96,
+          "before_correct": 72,
+          "after_correct": 60,
+          "unchanged_correctness": 72,
+          "correct_to_wrong": 18,
+          "wrong_to_correct": 6
+        },
+        "equal_count_near_miss": {
+          "cases": 96,
+          "before_correct": 75,
+          "after_correct": 60,
+          "unchanged_correctness": 77,
+          "correct_to_wrong": 17,
+          "wrong_to_correct": 2
+        },
+        "expand_frontier": {
+          "cases": 144,
+          "before_correct": 115,
+          "after_correct": 92,
+          "unchanged_correctness": 97,
+          "correct_to_wrong": 35,
+          "wrong_to_correct": 12
+        }
+      }
+    },
+    {
+      "arm": "proof41",
+      "mode": "echo",
+      "queries": 32,
+      "correct": 11,
+      "invalid": 12
+    }
+  ],
+  "new_responses": 2688,
+  "new_updates": 0,
+  "new_checkpoints": 0,
+  "reused_responses": 0,
+  "generation_seconds": 386.2016567289986,
+  "max_generation_seconds": 1.091706142000021,
+  "errors": 0,
+  "autonomous_episodes": 0,
+  "whole_goal_complete": false,
+  "large_gpu": "NO_GO"
+}
