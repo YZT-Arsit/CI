@@ -1,0 +1,2389 @@
+{
+  "episodes_replayed": 288,
+  "decisions_replayed": 804,
+  "queries_reconstructed": 1836,
+  "independent_label_states": 160,
+  "paired": [
+    {
+      "arm": "initial17",
+      "condition": "base_v0",
+      "groups": 2,
+      "both_strict_success": 0,
+      "both_planner_correct": 1
+    },
+    {
+      "arm": "initial17",
+      "condition": "base_v1",
+      "groups": 2,
+      "both_strict_success": 0,
+      "both_planner_correct": 0
+    },
+    {
+      "arm": "initial17",
+      "condition": "depth3_v0",
+      "groups": 2,
+      "both_strict_success": 0,
+      "both_planner_correct": 0
+    },
+    {
+      "arm": "initial17",
+      "condition": "depth3_v1",
+      "groups": 2,
+      "both_strict_success": 1,
+      "both_planner_correct": 1
+    },
+    {
+      "arm": "local17",
+      "condition": "base_v0",
+      "groups": 2,
+      "both_strict_success": 0,
+      "both_planner_correct": 0
+    },
+    {
+      "arm": "local17",
+      "condition": "base_v1",
+      "groups": 2,
+      "both_strict_success": 0,
+      "both_planner_correct": 0
+    },
+    {
+      "arm": "local17",
+      "condition": "depth3_v0",
+      "groups": 2,
+      "both_strict_success": 0,
+      "both_planner_correct": 0
+    },
+    {
+      "arm": "local17",
+      "condition": "depth3_v1",
+      "groups": 2,
+      "both_strict_success": 0,
+      "both_planner_correct": 0
+    },
+    {
+      "arm": "global17",
+      "condition": "base_v0",
+      "groups": 2,
+      "both_strict_success": 2,
+      "both_planner_correct": 2
+    },
+    {
+      "arm": "global17",
+      "condition": "base_v1",
+      "groups": 2,
+      "both_strict_success": 1,
+      "both_planner_correct": 2
+    },
+    {
+      "arm": "global17",
+      "condition": "depth3_v0",
+      "groups": 2,
+      "both_strict_success": 0,
+      "both_planner_correct": 0
+    },
+    {
+      "arm": "global17",
+      "condition": "depth3_v1",
+      "groups": 2,
+      "both_strict_success": 1,
+      "both_planner_correct": 1
+    },
+    {
+      "arm": "initial29",
+      "condition": "base_v0",
+      "groups": 2,
+      "both_strict_success": 1,
+      "both_planner_correct": 2
+    },
+    {
+      "arm": "initial29",
+      "condition": "base_v1",
+      "groups": 2,
+      "both_strict_success": 0,
+      "both_planner_correct": 0
+    },
+    {
+      "arm": "initial29",
+      "condition": "depth3_v0",
+      "groups": 2,
+      "both_strict_success": 0,
+      "both_planner_correct": 0
+    },
+    {
+      "arm": "initial29",
+      "condition": "depth3_v1",
+      "groups": 2,
+      "both_strict_success": 0,
+      "both_planner_correct": 0
+    },
+    {
+      "arm": "local29",
+      "condition": "base_v0",
+      "groups": 2,
+      "both_strict_success": 1,
+      "both_planner_correct": 2
+    },
+    {
+      "arm": "local29",
+      "condition": "base_v1",
+      "groups": 2,
+      "both_strict_success": 0,
+      "both_planner_correct": 1
+    },
+    {
+      "arm": "local29",
+      "condition": "depth3_v0",
+      "groups": 2,
+      "both_strict_success": 0,
+      "both_planner_correct": 0
+    },
+    {
+      "arm": "local29",
+      "condition": "depth3_v1",
+      "groups": 2,
+      "both_strict_success": 0,
+      "both_planner_correct": 0
+    },
+    {
+      "arm": "global29",
+      "condition": "base_v0",
+      "groups": 2,
+      "both_strict_success": 1,
+      "both_planner_correct": 2
+    },
+    {
+      "arm": "global29",
+      "condition": "base_v1",
+      "groups": 2,
+      "both_strict_success": 1,
+      "both_planner_correct": 2
+    },
+    {
+      "arm": "global29",
+      "condition": "depth3_v0",
+      "groups": 2,
+      "both_strict_success": 0,
+      "both_planner_correct": 0
+    },
+    {
+      "arm": "global29",
+      "condition": "depth3_v1",
+      "groups": 2,
+      "both_strict_success": 0,
+      "both_planner_correct": 1
+    },
+    {
+      "arm": "initial41",
+      "condition": "base_v0",
+      "groups": 2,
+      "both_strict_success": 1,
+      "both_planner_correct": 1
+    },
+    {
+      "arm": "initial41",
+      "condition": "base_v1",
+      "groups": 2,
+      "both_strict_success": 0,
+      "both_planner_correct": 0
+    },
+    {
+      "arm": "initial41",
+      "condition": "depth3_v0",
+      "groups": 2,
+      "both_strict_success": 0,
+      "both_planner_correct": 0
+    },
+    {
+      "arm": "initial41",
+      "condition": "depth3_v1",
+      "groups": 2,
+      "both_strict_success": 0,
+      "both_planner_correct": 0
+    },
+    {
+      "arm": "local41",
+      "condition": "base_v0",
+      "groups": 2,
+      "both_strict_success": 1,
+      "both_planner_correct": 1
+    },
+    {
+      "arm": "local41",
+      "condition": "base_v1",
+      "groups": 2,
+      "both_strict_success": 0,
+      "both_planner_correct": 0
+    },
+    {
+      "arm": "local41",
+      "condition": "depth3_v0",
+      "groups": 2,
+      "both_strict_success": 0,
+      "both_planner_correct": 0
+    },
+    {
+      "arm": "local41",
+      "condition": "depth3_v1",
+      "groups": 2,
+      "both_strict_success": 0,
+      "both_planner_correct": 0
+    },
+    {
+      "arm": "global41",
+      "condition": "base_v0",
+      "groups": 2,
+      "both_strict_success": 2,
+      "both_planner_correct": 2
+    },
+    {
+      "arm": "global41",
+      "condition": "base_v1",
+      "groups": 2,
+      "both_strict_success": 1,
+      "both_planner_correct": 1
+    },
+    {
+      "arm": "global41",
+      "condition": "depth3_v0",
+      "groups": 2,
+      "both_strict_success": 0,
+      "both_planner_correct": 0
+    },
+    {
+      "arm": "global41",
+      "condition": "depth3_v1",
+      "groups": 2,
+      "both_strict_success": 0,
+      "both_planner_correct": 0
+    }
+  ],
+  "on_policy_query_accuracy_not_matched_across_arms": {
+    "initial17_base_v0_Planner": {
+      "queries": 4,
+      "correct": 3,
+      "invalid": 0
+    },
+    "initial17_base_v0_Source": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "initial17_base_v0_Worker": {
+      "queries": 6,
+      "correct": 4,
+      "invalid": 0
+    },
+    "initial17_base_v0_swap_Planner": {
+      "queries": 4,
+      "correct": 3,
+      "invalid": 0
+    },
+    "initial17_base_v0_swap_Source": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "initial17_base_v0_swap_Worker": {
+      "queries": 3,
+      "correct": 2,
+      "invalid": 0
+    },
+    "initial17_base_v1_Planner": {
+      "queries": 4,
+      "correct": 3,
+      "invalid": 0
+    },
+    "initial17_base_v1_Source": {
+      "queries": 4,
+      "correct": 3,
+      "invalid": 0
+    },
+    "initial17_base_v1_Worker": {
+      "queries": 3,
+      "correct": 2,
+      "invalid": 0
+    },
+    "initial17_base_v1_swap_Planner": {
+      "queries": 4,
+      "correct": 2,
+      "invalid": 0
+    },
+    "initial17_base_v1_swap_Source": {
+      "queries": 4,
+      "correct": 3,
+      "invalid": 0
+    },
+    "initial17_base_v1_swap_Worker": {
+      "queries": 3,
+      "correct": 2,
+      "invalid": 0
+    },
+    "initial17_depth3_v0_Planner": {
+      "queries": 4,
+      "correct": 2,
+      "invalid": 0
+    },
+    "initial17_depth3_v0_Source": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "initial17_depth3_v0_Worker": {
+      "queries": 6,
+      "correct": 5,
+      "invalid": 0
+    },
+    "initial17_depth3_v0_swap_Planner": {
+      "queries": 4,
+      "correct": 2,
+      "invalid": 0
+    },
+    "initial17_depth3_v0_swap_Source": {
+      "queries": 4,
+      "correct": 2,
+      "invalid": 0
+    },
+    "initial17_depth3_v0_swap_Worker": {
+      "queries": 6,
+      "correct": 5,
+      "invalid": 0
+    },
+    "initial17_depth3_v1_Planner": {
+      "queries": 4,
+      "correct": 2,
+      "invalid": 0
+    },
+    "initial17_depth3_v1_Source": {
+      "queries": 4,
+      "correct": 3,
+      "invalid": 0
+    },
+    "initial17_depth3_v1_Worker": {
+      "queries": 6,
+      "correct": 4,
+      "invalid": 0
+    },
+    "initial17_depth3_v1_swap_Planner": {
+      "queries": 4,
+      "correct": 2,
+      "invalid": 0
+    },
+    "initial17_depth3_v1_swap_Source": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "initial17_depth3_v1_swap_Worker": {
+      "queries": 3,
+      "correct": 2,
+      "invalid": 0
+    },
+    "initial17_optional_v0_Planner": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "initial17_optional_v0_Source": {
+      "queries": 4,
+      "correct": 3,
+      "invalid": 0
+    },
+    "initial17_optional_v0_Worker": {
+      "queries": 3,
+      "correct": 2,
+      "invalid": 0
+    },
+    "initial17_optional_v1_Planner": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "initial17_optional_v1_Source": {
+      "queries": 4,
+      "correct": 3,
+      "invalid": 0
+    },
+    "initial17_optional_v1_Worker": {
+      "queries": 3,
+      "correct": 3,
+      "invalid": 0
+    },
+    "initial17_authorized_v0_Planner": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "initial17_authorized_v0_Source": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "initial17_authorized_v0_Worker": {
+      "queries": 6,
+      "correct": 3,
+      "invalid": 0
+    },
+    "initial17_authorized_v1_Planner": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "initial17_authorized_v1_Source": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "initial17_authorized_v1_Worker": {
+      "queries": 6,
+      "correct": 4,
+      "invalid": 0
+    },
+    "initial17_draft_v0_Planner": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "initial17_draft_v0_Source": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "initial17_draft_v0_Worker": {
+      "queries": 6,
+      "correct": 4,
+      "invalid": 0
+    },
+    "initial17_draft_v1_Planner": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "initial17_draft_v1_Source": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "initial17_draft_v1_Worker": {
+      "queries": 6,
+      "correct": 5,
+      "invalid": 0
+    },
+    "initial17_both_v0_Planner": {
+      "queries": 4,
+      "correct": 2,
+      "invalid": 0
+    },
+    "initial17_both_v0_Source": {
+      "queries": 4,
+      "correct": 3,
+      "invalid": 0
+    },
+    "initial17_both_v0_Worker": {
+      "queries": 3,
+      "correct": 1,
+      "invalid": 0
+    },
+    "initial17_both_v1_Planner": {
+      "queries": 4,
+      "correct": 0,
+      "invalid": 0
+    },
+    "initial17_both_v1_Source": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "initial17_both_v1_Worker": {
+      "queries": 6,
+      "correct": 5,
+      "invalid": 0
+    },
+    "local17_base_v0_Planner": {
+      "queries": 4,
+      "correct": 2,
+      "invalid": 0
+    },
+    "local17_base_v0_Source": {
+      "queries": 4,
+      "correct": 3,
+      "invalid": 0
+    },
+    "local17_base_v0_Worker": {
+      "queries": 6,
+      "correct": 2,
+      "invalid": 0
+    },
+    "local17_base_v0_swap_Planner": {
+      "queries": 4,
+      "correct": 2,
+      "invalid": 0
+    },
+    "local17_base_v0_swap_Source": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "local17_base_v0_swap_Worker": {
+      "queries": 3,
+      "correct": 1,
+      "invalid": 0
+    },
+    "local17_base_v1_Planner": {
+      "queries": 4,
+      "correct": 3,
+      "invalid": 0
+    },
+    "local17_base_v1_Source": {
+      "queries": 4,
+      "correct": 3,
+      "invalid": 0
+    },
+    "local17_base_v1_Worker": {
+      "queries": 3,
+      "correct": 1,
+      "invalid": 0
+    },
+    "local17_base_v1_swap_Planner": {
+      "queries": 4,
+      "correct": 2,
+      "invalid": 0
+    },
+    "local17_base_v1_swap_Source": {
+      "queries": 4,
+      "correct": 2,
+      "invalid": 0
+    },
+    "local17_depth3_v0_Planner": {
+      "queries": 4,
+      "correct": 2,
+      "invalid": 0
+    },
+    "local17_depth3_v0_Source": {
+      "queries": 4,
+      "correct": 3,
+      "invalid": 0
+    },
+    "local17_depth3_v0_Worker": {
+      "queries": 6,
+      "correct": 5,
+      "invalid": 0
+    },
+    "local17_depth3_v0_swap_Planner": {
+      "queries": 4,
+      "correct": 2,
+      "invalid": 0
+    },
+    "local17_depth3_v0_swap_Source": {
+      "queries": 4,
+      "correct": 1,
+      "invalid": 0
+    },
+    "local17_depth3_v0_swap_Worker": {
+      "queries": 6,
+      "correct": 3,
+      "invalid": 0
+    },
+    "local17_depth3_v1_Planner": {
+      "queries": 4,
+      "correct": 2,
+      "invalid": 0
+    },
+    "local17_depth3_v1_Source": {
+      "queries": 4,
+      "correct": 3,
+      "invalid": 0
+    },
+    "local17_depth3_v1_Worker": {
+      "queries": 6,
+      "correct": 3,
+      "invalid": 0
+    },
+    "local17_depth3_v1_swap_Planner": {
+      "queries": 4,
+      "correct": 2,
+      "invalid": 0
+    },
+    "local17_depth3_v1_swap_Source": {
+      "queries": 4,
+      "correct": 3,
+      "invalid": 0
+    },
+    "local17_depth3_v1_swap_Worker": {
+      "queries": 6,
+      "correct": 4,
+      "invalid": 0
+    },
+    "local17_optional_v0_Planner": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "local17_optional_v0_Source": {
+      "queries": 4,
+      "correct": 3,
+      "invalid": 0
+    },
+    "local17_optional_v0_Worker": {
+      "queries": 3,
+      "correct": 3,
+      "invalid": 0
+    },
+    "local17_optional_v1_Planner": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "local17_optional_v1_Source": {
+      "queries": 4,
+      "correct": 3,
+      "invalid": 0
+    },
+    "local17_optional_v1_Worker": {
+      "queries": 6,
+      "correct": 4,
+      "invalid": 0
+    },
+    "local17_authorized_v0_Planner": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "local17_authorized_v0_Source": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "local17_authorized_v0_Worker": {
+      "queries": 6,
+      "correct": 3,
+      "invalid": 0
+    },
+    "local17_authorized_v1_Planner": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "local17_authorized_v1_Source": {
+      "queries": 4,
+      "correct": 3,
+      "invalid": 0
+    },
+    "local17_authorized_v1_Worker": {
+      "queries": 6,
+      "correct": 4,
+      "invalid": 0
+    },
+    "local17_draft_v0_Planner": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "local17_draft_v0_Source": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "local17_draft_v0_Worker": {
+      "queries": 6,
+      "correct": 3,
+      "invalid": 0
+    },
+    "local17_draft_v1_Planner": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "local17_draft_v1_Source": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "local17_draft_v1_Worker": {
+      "queries": 6,
+      "correct": 4,
+      "invalid": 0
+    },
+    "local17_both_v0_Planner": {
+      "queries": 4,
+      "correct": 1,
+      "invalid": 0
+    },
+    "local17_both_v0_Source": {
+      "queries": 4,
+      "correct": 2,
+      "invalid": 0
+    },
+    "local17_both_v0_Worker": {
+      "queries": 3,
+      "correct": 0,
+      "invalid": 0
+    },
+    "local17_both_v1_Planner": {
+      "queries": 4,
+      "correct": 0,
+      "invalid": 0
+    },
+    "local17_both_v1_Source": {
+      "queries": 4,
+      "correct": 3,
+      "invalid": 0
+    },
+    "local17_both_v1_Worker": {
+      "queries": 6,
+      "correct": 4,
+      "invalid": 0
+    },
+    "global17_base_v0_Planner": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "global17_base_v0_Source": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "global17_base_v0_Worker": {
+      "queries": 6,
+      "correct": 6,
+      "invalid": 0
+    },
+    "global17_base_v0_swap_Planner": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "global17_base_v0_swap_Source": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "global17_base_v0_swap_Worker": {
+      "queries": 6,
+      "correct": 6,
+      "invalid": 0
+    },
+    "global17_base_v1_Planner": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "global17_base_v1_Source": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "global17_base_v1_Worker": {
+      "queries": 6,
+      "correct": 6,
+      "invalid": 0
+    },
+    "global17_base_v1_swap_Planner": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "global17_base_v1_swap_Source": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "global17_base_v1_swap_Worker": {
+      "queries": 6,
+      "correct": 5,
+      "invalid": 0
+    },
+    "global17_depth3_v0_Planner": {
+      "queries": 4,
+      "correct": 2,
+      "invalid": 0
+    },
+    "global17_depth3_v0_Source": {
+      "queries": 4,
+      "correct": 3,
+      "invalid": 0
+    },
+    "global17_depth3_v0_Worker": {
+      "queries": 3,
+      "correct": 3,
+      "invalid": 0
+    },
+    "global17_depth3_v0_swap_Planner": {
+      "queries": 4,
+      "correct": 2,
+      "invalid": 0
+    },
+    "global17_depth3_v0_swap_Source": {
+      "queries": 4,
+      "correct": 3,
+      "invalid": 0
+    },
+    "global17_depth3_v0_swap_Worker": {
+      "queries": 3,
+      "correct": 3,
+      "invalid": 0
+    },
+    "global17_depth3_v1_Planner": {
+      "queries": 4,
+      "correct": 2,
+      "invalid": 0
+    },
+    "global17_depth3_v1_Source": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "global17_depth3_v1_Worker": {
+      "queries": 3,
+      "correct": 3,
+      "invalid": 0
+    },
+    "global17_depth3_v1_swap_Planner": {
+      "queries": 4,
+      "correct": 3,
+      "invalid": 0
+    },
+    "global17_depth3_v1_swap_Source": {
+      "queries": 4,
+      "correct": 3,
+      "invalid": 0
+    },
+    "global17_depth3_v1_swap_Worker": {
+      "queries": 3,
+      "correct": 3,
+      "invalid": 0
+    },
+    "global17_optional_v0_Planner": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "global17_optional_v0_Source": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "global17_optional_v0_Worker": {
+      "queries": 6,
+      "correct": 6,
+      "invalid": 0
+    },
+    "global17_optional_v1_Planner": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "global17_optional_v1_Source": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "global17_optional_v1_Worker": {
+      "queries": 6,
+      "correct": 5,
+      "invalid": 0
+    },
+    "global17_authorized_v0_Planner": {
+      "queries": 4,
+      "correct": 2,
+      "invalid": 0
+    },
+    "global17_authorized_v0_Source": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "global17_authorized_v0_Worker": {
+      "queries": 6,
+      "correct": 4,
+      "invalid": 0
+    },
+    "global17_authorized_v1_Planner": {
+      "queries": 4,
+      "correct": 3,
+      "invalid": 0
+    },
+    "global17_authorized_v1_Source": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "global17_authorized_v1_Worker": {
+      "queries": 6,
+      "correct": 5,
+      "invalid": 0
+    },
+    "global17_draft_v0_Planner": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "global17_draft_v0_Source": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "global17_draft_v0_Worker": {
+      "queries": 6,
+      "correct": 6,
+      "invalid": 0
+    },
+    "global17_draft_v1_Planner": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "global17_draft_v1_Source": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "global17_draft_v1_Worker": {
+      "queries": 6,
+      "correct": 6,
+      "invalid": 0
+    },
+    "global17_both_v0_Planner": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "global17_both_v0_Source": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "global17_both_v0_Worker": {
+      "queries": 6,
+      "correct": 6,
+      "invalid": 0
+    },
+    "global17_both_v1_Planner": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "global17_both_v1_Source": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "global17_both_v1_Worker": {
+      "queries": 3,
+      "correct": 3,
+      "invalid": 0
+    },
+    "initial29_base_v0_Planner": {
+      "queries": 4,
+      "correct": 3,
+      "invalid": 0
+    },
+    "initial29_base_v0_Source": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "initial29_base_v0_Worker": {
+      "queries": 6,
+      "correct": 6,
+      "invalid": 0
+    },
+    "initial29_base_v0_swap_Planner": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "initial29_base_v0_swap_Source": {
+      "queries": 4,
+      "correct": 3,
+      "invalid": 0
+    },
+    "initial29_base_v0_swap_Worker": {
+      "queries": 3,
+      "correct": 3,
+      "invalid": 0
+    },
+    "initial29_base_v1_Planner": {
+      "queries": 4,
+      "correct": 3,
+      "invalid": 0
+    },
+    "initial29_base_v1_Source": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "initial29_base_v1_Worker": {
+      "queries": 6,
+      "correct": 6,
+      "invalid": 0
+    },
+    "initial29_base_v1_swap_Planner": {
+      "queries": 4,
+      "correct": 2,
+      "invalid": 0
+    },
+    "initial29_base_v1_swap_Source": {
+      "queries": 4,
+      "correct": 3,
+      "invalid": 0
+    },
+    "initial29_base_v1_swap_Worker": {
+      "queries": 3,
+      "correct": 2,
+      "invalid": 0
+    },
+    "initial29_depth3_v0_Planner": {
+      "queries": 4,
+      "correct": 2,
+      "invalid": 0
+    },
+    "initial29_depth3_v0_Source": {
+      "queries": 4,
+      "correct": 2,
+      "invalid": 0
+    },
+    "initial29_depth3_v0_swap_Planner": {
+      "queries": 4,
+      "correct": 2,
+      "invalid": 0
+    },
+    "initial29_depth3_v0_swap_Source": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "initial29_depth3_v1_Planner": {
+      "queries": 4,
+      "correct": 2,
+      "invalid": 0
+    },
+    "initial29_depth3_v1_Source": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "initial29_depth3_v1_Worker": {
+      "queries": 3,
+      "correct": 3,
+      "invalid": 0
+    },
+    "initial29_depth3_v1_swap_Planner": {
+      "queries": 4,
+      "correct": 2,
+      "invalid": 0
+    },
+    "initial29_depth3_v1_swap_Source": {
+      "queries": 4,
+      "correct": 2,
+      "invalid": 0
+    },
+    "initial29_depth3_v1_swap_Worker": {
+      "queries": 3,
+      "correct": 2,
+      "invalid": 0
+    },
+    "initial29_optional_v0_Planner": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "initial29_optional_v0_Source": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "initial29_optional_v0_Worker": {
+      "queries": 6,
+      "correct": 4,
+      "invalid": 0
+    },
+    "initial29_optional_v1_Planner": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "initial29_optional_v1_Source": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "initial29_optional_v1_Worker": {
+      "queries": 6,
+      "correct": 5,
+      "invalid": 0
+    },
+    "initial29_authorized_v0_Planner": {
+      "queries": 4,
+      "correct": 3,
+      "invalid": 0
+    },
+    "initial29_authorized_v0_Source": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "initial29_authorized_v0_Worker": {
+      "queries": 6,
+      "correct": 4,
+      "invalid": 0
+    },
+    "initial29_authorized_v1_Planner": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "initial29_authorized_v1_Source": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "initial29_authorized_v1_Worker": {
+      "queries": 6,
+      "correct": 4,
+      "invalid": 0
+    },
+    "initial29_draft_v0_Planner": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "initial29_draft_v0_Source": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "initial29_draft_v0_Worker": {
+      "queries": 6,
+      "correct": 6,
+      "invalid": 0
+    },
+    "initial29_draft_v1_Planner": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "initial29_draft_v1_Source": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "initial29_draft_v1_Worker": {
+      "queries": 6,
+      "correct": 6,
+      "invalid": 0
+    },
+    "initial29_both_v0_Planner": {
+      "queries": 4,
+      "correct": 3,
+      "invalid": 0
+    },
+    "initial29_both_v0_Source": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "initial29_both_v0_Worker": {
+      "queries": 6,
+      "correct": 6,
+      "invalid": 0
+    },
+    "initial29_both_v1_Planner": {
+      "queries": 4,
+      "correct": 3,
+      "invalid": 0
+    },
+    "initial29_both_v1_Source": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "initial29_both_v1_Worker": {
+      "queries": 3,
+      "correct": 3,
+      "invalid": 0
+    },
+    "local29_base_v0_Planner": {
+      "queries": 4,
+      "correct": 3,
+      "invalid": 0
+    },
+    "local29_base_v0_Source": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "local29_base_v0_Worker": {
+      "queries": 6,
+      "correct": 5,
+      "invalid": 0
+    },
+    "local29_base_v0_swap_Planner": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "local29_base_v0_swap_Source": {
+      "queries": 4,
+      "correct": 3,
+      "invalid": 0
+    },
+    "local29_base_v0_swap_Worker": {
+      "queries": 6,
+      "correct": 6,
+      "invalid": 0
+    },
+    "local29_base_v1_Planner": {
+      "queries": 4,
+      "correct": 3,
+      "invalid": 0
+    },
+    "local29_base_v1_Source": {
+      "queries": 4,
+      "correct": 3,
+      "invalid": 0
+    },
+    "local29_base_v1_Worker": {
+      "queries": 3,
+      "correct": 3,
+      "invalid": 0
+    },
+    "local29_base_v1_swap_Planner": {
+      "queries": 4,
+      "correct": 3,
+      "invalid": 0
+    },
+    "local29_base_v1_swap_Source": {
+      "queries": 4,
+      "correct": 2,
+      "invalid": 0
+    },
+    "local29_base_v1_swap_Worker": {
+      "queries": 3,
+      "correct": 3,
+      "invalid": 0
+    },
+    "local29_depth3_v0_Planner": {
+      "queries": 4,
+      "correct": 2,
+      "invalid": 0
+    },
+    "local29_depth3_v0_Source": {
+      "queries": 4,
+      "correct": 3,
+      "invalid": 0
+    },
+    "local29_depth3_v0_Worker": {
+      "queries": 3,
+      "correct": 3,
+      "invalid": 0
+    },
+    "local29_depth3_v0_swap_Planner": {
+      "queries": 4,
+      "correct": 2,
+      "invalid": 0
+    },
+    "local29_depth3_v0_swap_Source": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "local29_depth3_v1_Planner": {
+      "queries": 4,
+      "correct": 2,
+      "invalid": 0
+    },
+    "local29_depth3_v1_Source": {
+      "queries": 4,
+      "correct": 3,
+      "invalid": 0
+    },
+    "local29_depth3_v1_Worker": {
+      "queries": 3,
+      "correct": 2,
+      "invalid": 0
+    },
+    "local29_depth3_v1_swap_Planner": {
+      "queries": 4,
+      "correct": 1,
+      "invalid": 0
+    },
+    "local29_depth3_v1_swap_Source": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "local29_depth3_v1_swap_Worker": {
+      "queries": 3,
+      "correct": 3,
+      "invalid": 0
+    },
+    "local29_optional_v0_Planner": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "local29_optional_v0_Source": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "local29_optional_v0_Worker": {
+      "queries": 6,
+      "correct": 5,
+      "invalid": 0
+    },
+    "local29_optional_v1_Planner": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "local29_optional_v1_Source": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "local29_optional_v1_Worker": {
+      "queries": 6,
+      "correct": 5,
+      "invalid": 0
+    },
+    "local29_authorized_v0_Planner": {
+      "queries": 4,
+      "correct": 3,
+      "invalid": 0
+    },
+    "local29_authorized_v0_Source": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "local29_authorized_v0_Worker": {
+      "queries": 6,
+      "correct": 3,
+      "invalid": 0
+    },
+    "local29_authorized_v1_Planner": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "local29_authorized_v1_Source": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "local29_authorized_v1_Worker": {
+      "queries": 6,
+      "correct": 4,
+      "invalid": 0
+    },
+    "local29_draft_v0_Planner": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "local29_draft_v0_Source": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "local29_draft_v0_Worker": {
+      "queries": 6,
+      "correct": 6,
+      "invalid": 0
+    },
+    "local29_draft_v1_Planner": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "local29_draft_v1_Source": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "local29_draft_v1_Worker": {
+      "queries": 6,
+      "correct": 6,
+      "invalid": 0
+    },
+    "local29_both_v0_Planner": {
+      "queries": 4,
+      "correct": 3,
+      "invalid": 0
+    },
+    "local29_both_v0_Source": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "local29_both_v0_Worker": {
+      "queries": 3,
+      "correct": 3,
+      "invalid": 0
+    },
+    "local29_both_v1_Planner": {
+      "queries": 4,
+      "correct": 2,
+      "invalid": 0
+    },
+    "local29_both_v1_Source": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "local29_both_v1_Worker": {
+      "queries": 3,
+      "correct": 3,
+      "invalid": 0
+    },
+    "global29_base_v0_Planner": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "global29_base_v0_Source": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "global29_base_v0_Worker": {
+      "queries": 6,
+      "correct": 6,
+      "invalid": 0
+    },
+    "global29_base_v0_swap_Planner": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "global29_base_v0_swap_Source": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "global29_base_v0_swap_Worker": {
+      "queries": 6,
+      "correct": 5,
+      "invalid": 0
+    },
+    "global29_base_v1_Planner": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "global29_base_v1_Source": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "global29_base_v1_Worker": {
+      "queries": 6,
+      "correct": 5,
+      "invalid": 0
+    },
+    "global29_base_v1_swap_Planner": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "global29_base_v1_swap_Source": {
+      "queries": 4,
+      "correct": 3,
+      "invalid": 0
+    },
+    "global29_base_v1_swap_Worker": {
+      "queries": 3,
+      "correct": 3,
+      "invalid": 0
+    },
+    "global29_depth3_v0_Planner": {
+      "queries": 4,
+      "correct": 2,
+      "invalid": 0
+    },
+    "global29_depth3_v0_Source": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "global29_depth3_v0_Worker": {
+      "queries": 3,
+      "correct": 3,
+      "invalid": 0
+    },
+    "global29_depth3_v0_swap_Planner": {
+      "queries": 4,
+      "correct": 2,
+      "invalid": 0
+    },
+    "global29_depth3_v0_swap_Source": {
+      "queries": 4,
+      "correct": 3,
+      "invalid": 0
+    },
+    "global29_depth3_v0_swap_Worker": {
+      "queries": 3,
+      "correct": 3,
+      "invalid": 0
+    },
+    "global29_depth3_v1_Planner": {
+      "queries": 4,
+      "correct": 2,
+      "invalid": 0
+    },
+    "global29_depth3_v1_Source": {
+      "queries": 4,
+      "correct": 3,
+      "invalid": 0
+    },
+    "global29_depth3_v1_Worker": {
+      "queries": 6,
+      "correct": 5,
+      "invalid": 0
+    },
+    "global29_depth3_v1_swap_Planner": {
+      "queries": 4,
+      "correct": 2,
+      "invalid": 0
+    },
+    "global29_depth3_v1_swap_Source": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "global29_depth3_v1_swap_Worker": {
+      "queries": 6,
+      "correct": 5,
+      "invalid": 0
+    },
+    "global29_optional_v0_Planner": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "global29_optional_v0_Source": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "global29_optional_v0_Worker": {
+      "queries": 6,
+      "correct": 5,
+      "invalid": 0
+    },
+    "global29_optional_v1_Planner": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "global29_optional_v1_Source": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "global29_optional_v1_Worker": {
+      "queries": 6,
+      "correct": 6,
+      "invalid": 0
+    },
+    "global29_authorized_v0_Planner": {
+      "queries": 4,
+      "correct": 2,
+      "invalid": 0
+    },
+    "global29_authorized_v0_Source": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "global29_authorized_v0_Worker": {
+      "queries": 6,
+      "correct": 6,
+      "invalid": 0
+    },
+    "global29_authorized_v1_Planner": {
+      "queries": 4,
+      "correct": 2,
+      "invalid": 0
+    },
+    "global29_authorized_v1_Source": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "global29_authorized_v1_Worker": {
+      "queries": 6,
+      "correct": 6,
+      "invalid": 0
+    },
+    "global29_draft_v0_Planner": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "global29_draft_v0_Source": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "global29_draft_v0_Worker": {
+      "queries": 6,
+      "correct": 6,
+      "invalid": 0
+    },
+    "global29_draft_v1_Planner": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "global29_draft_v1_Source": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "global29_draft_v1_Worker": {
+      "queries": 6,
+      "correct": 6,
+      "invalid": 0
+    },
+    "global29_both_v0_Planner": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "global29_both_v0_Source": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "global29_both_v0_Worker": {
+      "queries": 6,
+      "correct": 6,
+      "invalid": 0
+    },
+    "global29_both_v1_Planner": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "global29_both_v1_Source": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "global29_both_v1_Worker": {
+      "queries": 3,
+      "correct": 3,
+      "invalid": 0
+    },
+    "initial41_base_v0_Planner": {
+      "queries": 4,
+      "correct": 3,
+      "invalid": 0
+    },
+    "initial41_base_v0_Source": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "initial41_base_v0_Worker": {
+      "queries": 6,
+      "correct": 6,
+      "invalid": 0
+    },
+    "initial41_base_v0_swap_Planner": {
+      "queries": 4,
+      "correct": 2,
+      "invalid": 0
+    },
+    "initial41_base_v0_swap_Source": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "initial41_base_v0_swap_Worker": {
+      "queries": 3,
+      "correct": 3,
+      "invalid": 0
+    },
+    "initial41_base_v1_Planner": {
+      "queries": 4,
+      "correct": 2,
+      "invalid": 0
+    },
+    "initial41_base_v1_Source": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "initial41_base_v1_Worker": {
+      "queries": 6,
+      "correct": 6,
+      "invalid": 0
+    },
+    "initial41_base_v1_swap_Planner": {
+      "queries": 4,
+      "correct": 2,
+      "invalid": 0
+    },
+    "initial41_base_v1_swap_Source": {
+      "queries": 4,
+      "correct": 3,
+      "invalid": 0
+    },
+    "initial41_base_v1_swap_Worker": {
+      "queries": 3,
+      "correct": 3,
+      "invalid": 0
+    },
+    "initial41_depth3_v0_Planner": {
+      "queries": 4,
+      "correct": 2,
+      "invalid": 0
+    },
+    "initial41_depth3_v0_Source": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "initial41_depth3_v0_Worker": {
+      "queries": 6,
+      "correct": 6,
+      "invalid": 0
+    },
+    "initial41_depth3_v0_swap_Planner": {
+      "queries": 4,
+      "correct": 2,
+      "invalid": 0
+    },
+    "initial41_depth3_v0_swap_Source": {
+      "queries": 4,
+      "correct": 2,
+      "invalid": 0
+    },
+    "initial41_depth3_v0_swap_Worker": {
+      "queries": 6,
+      "correct": 4,
+      "invalid": 0
+    },
+    "initial41_depth3_v1_Planner": {
+      "queries": 4,
+      "correct": 2,
+      "invalid": 0
+    },
+    "initial41_depth3_v1_Source": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "initial41_depth3_v1_Worker": {
+      "queries": 3,
+      "correct": 3,
+      "invalid": 0
+    },
+    "initial41_depth3_v1_swap_Planner": {
+      "queries": 4,
+      "correct": 2,
+      "invalid": 0
+    },
+    "initial41_depth3_v1_swap_Source": {
+      "queries": 4,
+      "correct": 2,
+      "invalid": 0
+    },
+    "initial41_depth3_v1_swap_Worker": {
+      "queries": 3,
+      "correct": 2,
+      "invalid": 0
+    },
+    "initial41_optional_v0_Planner": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "initial41_optional_v0_Source": {
+      "queries": 4,
+      "correct": 1,
+      "invalid": 0
+    },
+    "initial41_optional_v1_Planner": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "initial41_optional_v1_Source": {
+      "queries": 4,
+      "correct": 3,
+      "invalid": 0
+    },
+    "initial41_optional_v1_Worker": {
+      "queries": 3,
+      "correct": 3,
+      "invalid": 0
+    },
+    "initial41_authorized_v0_Planner": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "initial41_authorized_v0_Source": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "initial41_authorized_v0_Worker": {
+      "queries": 6,
+      "correct": 3,
+      "invalid": 0
+    },
+    "initial41_authorized_v1_Planner": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "initial41_authorized_v1_Source": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "initial41_authorized_v1_Worker": {
+      "queries": 6,
+      "correct": 4,
+      "invalid": 0
+    },
+    "initial41_draft_v0_Planner": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "initial41_draft_v0_Source": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "initial41_draft_v0_Worker": {
+      "queries": 6,
+      "correct": 6,
+      "invalid": 0
+    },
+    "initial41_draft_v1_Planner": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "initial41_draft_v1_Source": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "initial41_draft_v1_Worker": {
+      "queries": 6,
+      "correct": 6,
+      "invalid": 0
+    },
+    "initial41_both_v0_Planner": {
+      "queries": 4,
+      "correct": 3,
+      "invalid": 0
+    },
+    "initial41_both_v0_Source": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "initial41_both_v0_Worker": {
+      "queries": 6,
+      "correct": 6,
+      "invalid": 0
+    },
+    "initial41_both_v1_Planner": {
+      "queries": 4,
+      "correct": 3,
+      "invalid": 0
+    },
+    "initial41_both_v1_Source": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "initial41_both_v1_Worker": {
+      "queries": 3,
+      "correct": 3,
+      "invalid": 0
+    },
+    "local41_base_v0_Planner": {
+      "queries": 4,
+      "correct": 3,
+      "invalid": 0
+    },
+    "local41_base_v0_Source": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "local41_base_v0_Worker": {
+      "queries": 6,
+      "correct": 5,
+      "invalid": 0
+    },
+    "local41_base_v0_swap_Planner": {
+      "queries": 4,
+      "correct": 2,
+      "invalid": 0
+    },
+    "local41_base_v0_swap_Source": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "local41_base_v0_swap_Worker": {
+      "queries": 3,
+      "correct": 3,
+      "invalid": 0
+    },
+    "local41_base_v1_Planner": {
+      "queries": 4,
+      "correct": 2,
+      "invalid": 0
+    },
+    "local41_base_v1_Source": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "local41_base_v1_Worker": {
+      "queries": 6,
+      "correct": 4,
+      "invalid": 0
+    },
+    "local41_base_v1_swap_Planner": {
+      "queries": 4,
+      "correct": 2,
+      "invalid": 0
+    },
+    "local41_base_v1_swap_Source": {
+      "queries": 4,
+      "correct": 3,
+      "invalid": 0
+    },
+    "local41_base_v1_swap_Worker": {
+      "queries": 3,
+      "correct": 3,
+      "invalid": 0
+    },
+    "local41_depth3_v0_Planner": {
+      "queries": 4,
+      "correct": 2,
+      "invalid": 0
+    },
+    "local41_depth3_v0_Source": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "local41_depth3_v0_Worker": {
+      "queries": 6,
+      "correct": 5,
+      "invalid": 0
+    },
+    "local41_depth3_v0_swap_Planner": {
+      "queries": 4,
+      "correct": 2,
+      "invalid": 0
+    },
+    "local41_depth3_v0_swap_Source": {
+      "queries": 4,
+      "correct": 2,
+      "invalid": 0
+    },
+    "local41_depth3_v0_swap_Worker": {
+      "queries": 6,
+      "correct": 4,
+      "invalid": 0
+    },
+    "local41_depth3_v1_Planner": {
+      "queries": 4,
+      "correct": 2,
+      "invalid": 0
+    },
+    "local41_depth3_v1_Source": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "local41_depth3_v1_Worker": {
+      "queries": 3,
+      "correct": 2,
+      "invalid": 0
+    },
+    "local41_depth3_v1_swap_Planner": {
+      "queries": 4,
+      "correct": 2,
+      "invalid": 0
+    },
+    "local41_depth3_v1_swap_Source": {
+      "queries": 4,
+      "correct": 2,
+      "invalid": 0
+    },
+    "local41_depth3_v1_swap_Worker": {
+      "queries": 3,
+      "correct": 3,
+      "invalid": 0
+    },
+    "local41_optional_v0_Planner": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "local41_optional_v0_Source": {
+      "queries": 4,
+      "correct": 1,
+      "invalid": 0
+    },
+    "local41_optional_v1_Planner": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "local41_optional_v1_Source": {
+      "queries": 4,
+      "correct": 3,
+      "invalid": 0
+    },
+    "local41_optional_v1_Worker": {
+      "queries": 3,
+      "correct": 3,
+      "invalid": 0
+    },
+    "local41_authorized_v0_Planner": {
+      "queries": 4,
+      "correct": 3,
+      "invalid": 0
+    },
+    "local41_authorized_v0_Source": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "local41_authorized_v0_Worker": {
+      "queries": 6,
+      "correct": 3,
+      "invalid": 0
+    },
+    "local41_authorized_v1_Planner": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "local41_authorized_v1_Source": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "local41_authorized_v1_Worker": {
+      "queries": 6,
+      "correct": 4,
+      "invalid": 0
+    },
+    "local41_draft_v0_Planner": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "local41_draft_v0_Source": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "local41_draft_v0_Worker": {
+      "queries": 6,
+      "correct": 4,
+      "invalid": 0
+    },
+    "local41_draft_v1_Planner": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "local41_draft_v1_Source": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "local41_draft_v1_Worker": {
+      "queries": 6,
+      "correct": 5,
+      "invalid": 0
+    },
+    "local41_both_v0_Planner": {
+      "queries": 4,
+      "correct": 3,
+      "invalid": 0
+    },
+    "local41_both_v0_Source": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "local41_both_v1_Planner": {
+      "queries": 4,
+      "correct": 1,
+      "invalid": 0
+    },
+    "local41_both_v1_Source": {
+      "queries": 4,
+      "correct": 3,
+      "invalid": 0
+    },
+    "local41_both_v1_Worker": {
+      "queries": 6,
+      "correct": 6,
+      "invalid": 0
+    },
+    "global41_base_v0_Planner": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "global41_base_v0_Source": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "global41_base_v0_Worker": {
+      "queries": 6,
+      "correct": 6,
+      "invalid": 0
+    },
+    "global41_base_v0_swap_Planner": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "global41_base_v0_swap_Source": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "global41_base_v0_swap_Worker": {
+      "queries": 6,
+      "correct": 6,
+      "invalid": 0
+    },
+    "global41_base_v1_Planner": {
+      "queries": 4,
+      "correct": 3,
+      "invalid": 0
+    },
+    "global41_base_v1_Source": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "global41_base_v1_Worker": {
+      "queries": 6,
+      "correct": 6,
+      "invalid": 0
+    },
+    "global41_base_v1_swap_Planner": {
+      "queries": 4,
+      "correct": 3,
+      "invalid": 0
+    },
+    "global41_base_v1_swap_Source": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "global41_base_v1_swap_Worker": {
+      "queries": 3,
+      "correct": 3,
+      "invalid": 0
+    },
+    "global41_depth3_v0_Planner": {
+      "queries": 4,
+      "correct": 2,
+      "invalid": 0
+    },
+    "global41_depth3_v0_Source": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "global41_depth3_v0_Worker": {
+      "queries": 6,
+      "correct": 6,
+      "invalid": 0
+    },
+    "global41_depth3_v0_swap_Planner": {
+      "queries": 4,
+      "correct": 2,
+      "invalid": 0
+    },
+    "global41_depth3_v0_swap_Source": {
+      "queries": 4,
+      "correct": 2,
+      "invalid": 0
+    },
+    "global41_depth3_v0_swap_Worker": {
+      "queries": 6,
+      "correct": 4,
+      "invalid": 0
+    },
+    "global41_depth3_v1_Planner": {
+      "queries": 4,
+      "correct": 2,
+      "invalid": 0
+    },
+    "global41_depth3_v1_Source": {
+      "queries": 4,
+      "correct": 3,
+      "invalid": 0
+    },
+    "global41_depth3_v1_Worker": {
+      "queries": 6,
+      "correct": 5,
+      "invalid": 0
+    },
+    "global41_depth3_v1_swap_Planner": {
+      "queries": 4,
+      "correct": 2,
+      "invalid": 0
+    },
+    "global41_depth3_v1_swap_Source": {
+      "queries": 4,
+      "correct": 3,
+      "invalid": 0
+    },
+    "global41_depth3_v1_swap_Worker": {
+      "queries": 6,
+      "correct": 5,
+      "invalid": 0
+    },
+    "global41_optional_v0_Planner": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "global41_optional_v0_Source": {
+      "queries": 4,
+      "correct": 3,
+      "invalid": 0
+    },
+    "global41_optional_v0_Worker": {
+      "queries": 3,
+      "correct": 2,
+      "invalid": 0
+    },
+    "global41_optional_v1_Planner": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "global41_optional_v1_Source": {
+      "queries": 4,
+      "correct": 3,
+      "invalid": 0
+    },
+    "global41_optional_v1_Worker": {
+      "queries": 3,
+      "correct": 3,
+      "invalid": 0
+    },
+    "global41_authorized_v0_Planner": {
+      "queries": 4,
+      "correct": 3,
+      "invalid": 0
+    },
+    "global41_authorized_v0_Source": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "global41_authorized_v0_Worker": {
+      "queries": 6,
+      "correct": 6,
+      "invalid": 0
+    },
+    "global41_authorized_v1_Planner": {
+      "queries": 4,
+      "correct": 3,
+      "invalid": 0
+    },
+    "global41_authorized_v1_Source": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "global41_authorized_v1_Worker": {
+      "queries": 6,
+      "correct": 6,
+      "invalid": 0
+    },
+    "global41_draft_v0_Planner": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "global41_draft_v0_Source": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "global41_draft_v0_Worker": {
+      "queries": 6,
+      "correct": 6,
+      "invalid": 0
+    },
+    "global41_draft_v1_Planner": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "global41_draft_v1_Source": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "global41_draft_v1_Worker": {
+      "queries": 6,
+      "correct": 6,
+      "invalid": 0
+    },
+    "global41_both_v0_Planner": {
+      "queries": 4,
+      "correct": 3,
+      "invalid": 0
+    },
+    "global41_both_v0_Source": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "global41_both_v0_Worker": {
+      "queries": 6,
+      "correct": 6,
+      "invalid": 0
+    },
+    "global41_both_v1_Planner": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "global41_both_v1_Source": {
+      "queries": 4,
+      "correct": 4,
+      "invalid": 0
+    },
+    "global41_both_v1_Worker": {
+      "queries": 6,
+      "correct": 6,
+      "invalid": 0
+    }
+  },
+  "errors": 0,
+  "whole_goal_complete": false
+}

@@ -1,0 +1,105 @@
+{
+  "source_global_pairs": 18,
+  "source_global_state_action_targets": 48,
+  "local_worlds_across_seeds": 648,
+  "supervised_responses": {
+    "common_local": 1296,
+    "extra_local_control": 648,
+    "original_global": 648,
+    "actor": 1296
+  },
+  "per_seed": {
+    "17": {
+      "global_cells": {
+        "['Worker', 2, 'query']": 3,
+        "['Source', 3, 'query']": 3,
+        "['Source', 1, 'query']": 3,
+        "['Source', 2, 'query']": 3,
+        "['Worker', 3, 'query']": 3,
+        "['Worker', 1, 'query']": 3,
+        "['Source', 1, 'meeting']": 3,
+        "['Planner', 3, 'meeting']": 3,
+        "['Planner', 1, 'query']": 3,
+        "['Planner', 3, 'query']": 3,
+        "['Planner', 2, 'meeting']": 3,
+        "['Worker', 1, 'meeting']": 3,
+        "['Worker', 2, 'meeting']": 3,
+        "['Planner', 1, 'meeting']": 3,
+        "['Source', 2, 'meeting']": 3,
+        "['Planner', 2, 'query']": 3,
+        "['Source', 3, 'meeting']": 3,
+        "['Worker', 3, 'meeting']": 3
+      },
+      "actor_option_orders": {
+        "['PUBLISH_FULL', 'PUBLISH_MINIMAL', 'WITHHOLD']": 36,
+        "['PUBLISH_MINIMAL', 'WITHHOLD', 'PUBLISH_FULL']": 36,
+        "['PUBLISH_FULL', 'WITHHOLD', 'PUBLISH_MINIMAL']": 36,
+        "['WITHHOLD', 'PUBLISH_FULL', 'PUBLISH_MINIMAL']": 36,
+        "['PUBLISH_MINIMAL', 'PUBLISH_FULL', 'WITHHOLD']": 36,
+        "['WITHHOLD', 'PUBLISH_MINIMAL', 'PUBLISH_FULL']": 36
+      }
+    },
+    "29": {
+      "global_cells": {
+        "['Planner', 1, 'meeting']": 3,
+        "['Source', 3, 'query']": 3,
+        "['Planner', 2, 'meeting']": 3,
+        "['Source', 2, 'meeting']": 3,
+        "['Worker', 1, 'meeting']": 3,
+        "['Planner', 1, 'query']": 3,
+        "['Planner', 3, 'meeting']": 3,
+        "['Worker', 3, 'meeting']": 3,
+        "['Source', 1, 'query']": 3,
+        "['Worker', 1, 'query']": 3,
+        "['Source', 2, 'query']": 3,
+        "['Planner', 2, 'query']": 3,
+        "['Worker', 2, 'meeting']": 3,
+        "['Worker', 2, 'query']": 3,
+        "['Source', 3, 'meeting']": 3,
+        "['Source', 1, 'meeting']": 3,
+        "['Worker', 3, 'query']": 3,
+        "['Planner', 3, 'query']": 3
+      },
+      "actor_option_orders": {
+        "['PUBLISH_FULL', 'PUBLISH_MINIMAL', 'WITHHOLD']": 36,
+        "['PUBLISH_MINIMAL', 'WITHHOLD', 'PUBLISH_FULL']": 36,
+        "['PUBLISH_FULL', 'WITHHOLD', 'PUBLISH_MINIMAL']": 36,
+        "['WITHHOLD', 'PUBLISH_FULL', 'PUBLISH_MINIMAL']": 36,
+        "['PUBLISH_MINIMAL', 'PUBLISH_FULL', 'WITHHOLD']": 36,
+        "['WITHHOLD', 'PUBLISH_MINIMAL', 'PUBLISH_FULL']": 36
+      }
+    },
+    "41": {
+      "global_cells": {
+        "['Planner', 1, 'query']": 3,
+        "['Worker', 2, 'query']": 3,
+        "['Worker', 1, 'meeting']": 3,
+        "['Planner', 3, 'query']": 3,
+        "['Source', 3, 'query']": 3,
+        "['Source', 3, 'meeting']": 3,
+        "['Worker', 2, 'meeting']": 3,
+        "['Worker', 3, 'meeting']": 3,
+        "['Source', 1, 'query']": 3,
+        "['Source', 2, 'query']": 3,
+        "['Planner', 1, 'meeting']": 3,
+        "['Source', 2, 'meeting']": 3,
+        "['Planner', 3, 'meeting']": 3,
+        "['Planner', 2, 'query']": 3,
+        "['Source', 1, 'meeting']": 3,
+        "['Planner', 2, 'meeting']": 3,
+        "['Worker', 3, 'query']": 3,
+        "['Worker', 1, 'query']": 3
+      },
+      "actor_option_orders": {
+        "['PUBLISH_FULL', 'PUBLISH_MINIMAL', 'WITHHOLD']": 36,
+        "['PUBLISH_MINIMAL', 'WITHHOLD', 'PUBLISH_FULL']": 36,
+        "['PUBLISH_FULL', 'WITHHOLD', 'PUBLISH_MINIMAL']": 36,
+        "['WITHHOLD', 'PUBLISH_FULL', 'PUBLISH_MINIMAL']": 36,
+        "['PUBLISH_MINIMAL', 'PUBLISH_FULL', 'WITHHOLD']": 36,
+        "['WITHHOLD', 'PUBLISH_MINIMAL', 'PUBLISH_FULL']": 36
+      }
+    }
+  },
+  "training_only": true,
+  "model_outputs_read": false
+}

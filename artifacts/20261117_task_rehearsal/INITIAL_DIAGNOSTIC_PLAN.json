@@ -1,0 +1,16 @@
+{
+  "declared_utc": "2026-11-17 21:38",
+  "stage": "Main inference in progress; no model prediction scores inspected. No change to training, evaluation calls or predeclared gate.",
+  "analysis": "Extract identical32initial Planner states already present in native episode traces; compare correctness of both judgments, actions and history pairs descriptively.",
+  "new_model_calls": 0,
+  "plan_sha256": "60b59604c07da424fa42f8871f441eb8a83484cc535347d41a1b45d23ecf7bdf",
+  "source": "artifacts/20261117_join_policy_transfer/diagnose_initial.py",
+  "source_sha256": "747d66673fc2279a3726a6fc6780e28cb4103d6e51c363e37bf0d1fb04c13d1e",
+  "script_sha256": "c980b37a7e4629b564f15a9b32af350a66fd54ab5c933495ab6643a3e421706b",
+  "revised_utc": "2026-11-17 21:48",
+  "revision_reason": "Independent review requested enforced analysis declaration; no prediction scores read or new model calls; frozen training and gate unchanged.",
+  "preserved_revision": {
+    "diagnostic_revision_v0/diagnose_initial.py": "e9512fc2d672c30cda299a6b20b28dc84babc15d0ab21e1fa03a60551d4101c8",
+    "diagnostic_revision_v0/INITIAL_DIAGNOSTIC_PLAN.json": "247252af572b59ce475dd0cb0bd65350bbac17f0766b9a5b2abfc37681c9b682"
+  }
+}

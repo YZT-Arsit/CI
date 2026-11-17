@@ -1,0 +1,361 @@
+{
+  "summaries": [
+    {
+      "arm": "initial17",
+      "states": 32,
+      "all_queries_correct": 16,
+      "optimal_action": 25,
+      "joint_correct": 16,
+      "judgments_correct_action_wrong": 0,
+      "judgments_wrong_action_correct": 9,
+      "matched_changing_pairs": [
+        {
+          "condition": "base_v0",
+          "pairs": 2,
+          "both_judgments_correct": 1,
+          "both_actions_optimal": 1,
+          "joint_pair_correct": 1
+        },
+        {
+          "condition": "base_v1",
+          "pairs": 2,
+          "both_judgments_correct": 0,
+          "both_actions_optimal": 0,
+          "joint_pair_correct": 0
+        },
+        {
+          "condition": "depth3_v0",
+          "pairs": 2,
+          "both_judgments_correct": 0,
+          "both_actions_optimal": 0,
+          "joint_pair_correct": 0
+        },
+        {
+          "condition": "depth3_v1",
+          "pairs": 2,
+          "both_judgments_correct": 0,
+          "both_actions_optimal": 1,
+          "joint_pair_correct": 0
+        }
+      ]
+    },
+    {
+      "arm": "local17",
+      "states": 32,
+      "all_queries_correct": 13,
+      "optimal_action": 24,
+      "joint_correct": 13,
+      "judgments_correct_action_wrong": 0,
+      "judgments_wrong_action_correct": 11,
+      "matched_changing_pairs": [
+        {
+          "condition": "base_v0",
+          "pairs": 2,
+          "both_judgments_correct": 0,
+          "both_actions_optimal": 0,
+          "joint_pair_correct": 0
+        },
+        {
+          "condition": "base_v1",
+          "pairs": 2,
+          "both_judgments_correct": 0,
+          "both_actions_optimal": 0,
+          "joint_pair_correct": 0
+        },
+        {
+          "condition": "depth3_v0",
+          "pairs": 2,
+          "both_judgments_correct": 0,
+          "both_actions_optimal": 0,
+          "joint_pair_correct": 0
+        },
+        {
+          "condition": "depth3_v1",
+          "pairs": 2,
+          "both_judgments_correct": 0,
+          "both_actions_optimal": 0,
+          "joint_pair_correct": 0
+        }
+      ]
+    },
+    {
+      "arm": "global17",
+      "states": 32,
+      "all_queries_correct": 22,
+      "optimal_action": 29,
+      "joint_correct": 22,
+      "judgments_correct_action_wrong": 0,
+      "judgments_wrong_action_correct": 7,
+      "matched_changing_pairs": [
+        {
+          "condition": "base_v0",
+          "pairs": 2,
+          "both_judgments_correct": 2,
+          "both_actions_optimal": 2,
+          "joint_pair_correct": 2
+        },
+        {
+          "condition": "base_v1",
+          "pairs": 2,
+          "both_judgments_correct": 2,
+          "both_actions_optimal": 2,
+          "joint_pair_correct": 2
+        },
+        {
+          "condition": "depth3_v0",
+          "pairs": 2,
+          "both_judgments_correct": 0,
+          "both_actions_optimal": 0,
+          "joint_pair_correct": 0
+        },
+        {
+          "condition": "depth3_v1",
+          "pairs": 2,
+          "both_judgments_correct": 0,
+          "both_actions_optimal": 1,
+          "joint_pair_correct": 0
+        }
+      ]
+    },
+    {
+      "arm": "initial29",
+      "states": 32,
+      "all_queries_correct": 17,
+      "optimal_action": 26,
+      "joint_correct": 17,
+      "judgments_correct_action_wrong": 0,
+      "judgments_wrong_action_correct": 9,
+      "matched_changing_pairs": [
+        {
+          "condition": "base_v0",
+          "pairs": 2,
+          "both_judgments_correct": 1,
+          "both_actions_optimal": 2,
+          "joint_pair_correct": 1
+        },
+        {
+          "condition": "base_v1",
+          "pairs": 2,
+          "both_judgments_correct": 0,
+          "both_actions_optimal": 0,
+          "joint_pair_correct": 0
+        },
+        {
+          "condition": "depth3_v0",
+          "pairs": 2,
+          "both_judgments_correct": 0,
+          "both_actions_optimal": 0,
+          "joint_pair_correct": 0
+        },
+        {
+          "condition": "depth3_v1",
+          "pairs": 2,
+          "both_judgments_correct": 0,
+          "both_actions_optimal": 0,
+          "joint_pair_correct": 0
+        }
+      ]
+    },
+    {
+      "arm": "local29",
+      "states": 32,
+      "all_queries_correct": 17,
+      "optimal_action": 26,
+      "joint_correct": 17,
+      "judgments_correct_action_wrong": 0,
+      "judgments_wrong_action_correct": 9,
+      "matched_changing_pairs": [
+        {
+          "condition": "base_v0",
+          "pairs": 2,
+          "both_judgments_correct": 1,
+          "both_actions_optimal": 2,
+          "joint_pair_correct": 1
+        },
+        {
+          "condition": "base_v1",
+          "pairs": 2,
+          "both_judgments_correct": 1,
+          "both_actions_optimal": 1,
+          "joint_pair_correct": 1
+        },
+        {
+          "condition": "depth3_v0",
+          "pairs": 2,
+          "both_judgments_correct": 0,
+          "both_actions_optimal": 0,
+          "joint_pair_correct": 0
+        },
+        {
+          "condition": "depth3_v1",
+          "pairs": 2,
+          "both_judgments_correct": 0,
+          "both_actions_optimal": 0,
+          "joint_pair_correct": 0
+        }
+      ]
+    },
+    {
+      "arm": "global29",
+      "states": 32,
+      "all_queries_correct": 20,
+      "optimal_action": 28,
+      "joint_correct": 20,
+      "judgments_correct_action_wrong": 0,
+      "judgments_wrong_action_correct": 8,
+      "matched_changing_pairs": [
+        {
+          "condition": "base_v0",
+          "pairs": 2,
+          "both_judgments_correct": 2,
+          "both_actions_optimal": 2,
+          "joint_pair_correct": 2
+        },
+        {
+          "condition": "base_v1",
+          "pairs": 2,
+          "both_judgments_correct": 2,
+          "both_actions_optimal": 2,
+          "joint_pair_correct": 2
+        },
+        {
+          "condition": "depth3_v0",
+          "pairs": 2,
+          "both_judgments_correct": 0,
+          "both_actions_optimal": 0,
+          "joint_pair_correct": 0
+        },
+        {
+          "condition": "depth3_v1",
+          "pairs": 2,
+          "both_judgments_correct": 0,
+          "both_actions_optimal": 1,
+          "joint_pair_correct": 0
+        }
+      ]
+    },
+    {
+      "arm": "initial41",
+      "states": 32,
+      "all_queries_correct": 15,
+      "optimal_action": 25,
+      "joint_correct": 15,
+      "judgments_correct_action_wrong": 0,
+      "judgments_wrong_action_correct": 10,
+      "matched_changing_pairs": [
+        {
+          "condition": "base_v0",
+          "pairs": 2,
+          "both_judgments_correct": 0,
+          "both_actions_optimal": 1,
+          "joint_pair_correct": 0
+        },
+        {
+          "condition": "base_v1",
+          "pairs": 2,
+          "both_judgments_correct": 0,
+          "both_actions_optimal": 0,
+          "joint_pair_correct": 0
+        },
+        {
+          "condition": "depth3_v0",
+          "pairs": 2,
+          "both_judgments_correct": 0,
+          "both_actions_optimal": 0,
+          "joint_pair_correct": 0
+        },
+        {
+          "condition": "depth3_v1",
+          "pairs": 2,
+          "both_judgments_correct": 0,
+          "both_actions_optimal": 0,
+          "joint_pair_correct": 0
+        }
+      ]
+    },
+    {
+      "arm": "local41",
+      "states": 32,
+      "all_queries_correct": 13,
+      "optimal_action": 25,
+      "joint_correct": 13,
+      "judgments_correct_action_wrong": 0,
+      "judgments_wrong_action_correct": 12,
+      "matched_changing_pairs": [
+        {
+          "condition": "base_v0",
+          "pairs": 2,
+          "both_judgments_correct": 0,
+          "both_actions_optimal": 1,
+          "joint_pair_correct": 0
+        },
+        {
+          "condition": "base_v1",
+          "pairs": 2,
+          "both_judgments_correct": 0,
+          "both_actions_optimal": 0,
+          "joint_pair_correct": 0
+        },
+        {
+          "condition": "depth3_v0",
+          "pairs": 2,
+          "both_judgments_correct": 0,
+          "both_actions_optimal": 0,
+          "joint_pair_correct": 0
+        },
+        {
+          "condition": "depth3_v1",
+          "pairs": 2,
+          "both_judgments_correct": 0,
+          "both_actions_optimal": 0,
+          "joint_pair_correct": 0
+        }
+      ]
+    },
+    {
+      "arm": "global41",
+      "states": 32,
+      "all_queries_correct": 19,
+      "optimal_action": 27,
+      "joint_correct": 19,
+      "judgments_correct_action_wrong": 0,
+      "judgments_wrong_action_correct": 8,
+      "matched_changing_pairs": [
+        {
+          "condition": "base_v0",
+          "pairs": 2,
+          "both_judgments_correct": 2,
+          "both_actions_optimal": 2,
+          "joint_pair_correct": 2
+        },
+        {
+          "condition": "base_v1",
+          "pairs": 2,
+          "both_judgments_correct": 1,
+          "both_actions_optimal": 1,
+          "joint_pair_correct": 1
+        },
+        {
+          "condition": "depth3_v0",
+          "pairs": 2,
+          "both_judgments_correct": 0,
+          "both_actions_optimal": 0,
+          "joint_pair_correct": 0
+        },
+        {
+          "condition": "depth3_v1",
+          "pairs": 2,
+          "both_judgments_correct": 0,
+          "both_actions_optimal": 0,
+          "joint_pair_correct": 0
+        }
+      ]
+    }
+  ],
+  "new_model_calls": 0,
+  "matched_initial_states_per_model": 32,
+  "scope": "Post-declared descriptive initial-state decomposition, identical states across nine models. Judgments/action association does not establish causal use of judgments.",
+  "results_sha256": "4392518cbda10d42b07f0ee7733b95c7fbb1e1aacd01b3d6ad6baa33c274f364",
+  "script_sha256": "c980b37a7e4629b564f15a9b32af350a66fd54ab5c933495ab6643a3e421706b",
+  "declaration_sha256": "d42dec4a671bfe9bcb050afdcd6b7205236d6cad377ae46e26107b2c40fd229f"
+}
