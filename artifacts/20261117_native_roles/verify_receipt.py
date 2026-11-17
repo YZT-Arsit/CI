@@ -1,0 +1,8 @@
+"""Obtain the native return code without PowerShell's stderr wrapper ambiguity."""
+import hashlib,json,shutil,subprocess,sys,uuid
+from pathlib import Path
+R=Path(__file__).resolve().parent;ROOT=R.parents[1];out=ROOT/'.publish_verify'/('role_receipt_'+uuid.uuid4().hex[:10]);out.mkdir(parents=True)
+for name in ['session.py','check.py']:shutil.copy2(R/name,out/name)
+code='import sys\nfrom pathlib import Path\nsys.path.insert(0,'+repr(str(R))+')\nimport check\ncheck.R=Path('+repr(str(out))+')\ncheck.main()\n'
+result=subprocess.run([sys.executable,'-X','utf8','-B','-c',code],cwd=ROOT,capture_output=True,text=True,encoding='utf-8');(out/'stdout.log').write_text(result.stdout,encoding='utf-8');(out/'stderr.log').write_text(result.stderr,encoding='utf-8');assert result.returncode==0,result.stderr[-1500:];a=json.loads((R/'RESULTS.json').read_text());b=json.loads((out/'RESULTS.json').read_text());fields=['tasks','native_replay_success','private_tool_result_checks','wrong_role_rejections','model_decisions'];assert all(a[k]==b[k] for k in fields)
+receipt={'native_python_returncode':result.returncode,'original_powershell_session_exitcode':1,'original_stderr_log_preserved':True,'verification':'same source and114tasks rerun to isolated output with subprocess capture; no model calls','replay_directory':out.relative_to(ROOT).as_posix(),'matching_fields':{k:a[k] for k in fields},'original_raw_sha256':a['raw_sha256'],'verified_replay_raw_sha256':b['raw_sha256'],'source_sha256':{p:hashlib.sha256((R/p).read_bytes()).hexdigest() for p in ['check.py','session.py']}};(R/'NATIVE_RETURN_CODE.json').write_text(json.dumps(receipt,indent=2));print(json.dumps(receipt))

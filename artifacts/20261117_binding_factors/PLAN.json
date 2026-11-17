@@ -1,0 +1,119 @@
+{
+  "scope": "same-DEV complete factorial attribution, not a new performance test; fixed one-hop coverage/class_balanced checkpoint; no training",
+  "factors": [
+    "names",
+    "facts",
+    "plans",
+    "options"
+  ],
+  "profiles": [
+    {
+      "names": 0,
+      "facts": 0,
+      "plans": 0,
+      "options": 0
+    },
+    {
+      "names": 0,
+      "facts": 0,
+      "plans": 0,
+      "options": 1
+    },
+    {
+      "names": 0,
+      "facts": 0,
+      "plans": 1,
+      "options": 0
+    },
+    {
+      "names": 0,
+      "facts": 0,
+      "plans": 1,
+      "options": 1
+    },
+    {
+      "names": 0,
+      "facts": 1,
+      "plans": 0,
+      "options": 0
+    },
+    {
+      "names": 0,
+      "facts": 1,
+      "plans": 0,
+      "options": 1
+    },
+    {
+      "names": 0,
+      "facts": 1,
+      "plans": 1,
+      "options": 0
+    },
+    {
+      "names": 0,
+      "facts": 1,
+      "plans": 1,
+      "options": 1
+    },
+    {
+      "names": 1,
+      "facts": 0,
+      "plans": 0,
+      "options": 0
+    },
+    {
+      "names": 1,
+      "facts": 0,
+      "plans": 0,
+      "options": 1
+    },
+    {
+      "names": 1,
+      "facts": 0,
+      "plans": 1,
+      "options": 0
+    },
+    {
+      "names": 1,
+      "facts": 0,
+      "plans": 1,
+      "options": 1
+    },
+    {
+      "names": 1,
+      "facts": 1,
+      "plans": 0,
+      "options": 0
+    },
+    {
+      "names": 1,
+      "facts": 1,
+      "plans": 0,
+      "options": 1
+    },
+    {
+      "names": 1,
+      "facts": 1,
+      "plans": 1,
+      "options": 0
+    },
+    {
+      "names": 1,
+      "facts": 1,
+      "plans": 1,
+      "options": 1
+    }
+  ],
+  "states": 32,
+  "independent_world_pairs": 16,
+  "expected_query_outputs": 1024,
+  "expected_action_outputs": 512,
+  "links_note": "one edge per provider, so edge-order intervention is a no-op; fixed to base seed",
+  "case_source_sha256": "4a057d3cfe56a5193e096abad5e68fa420d645368ce0ca91ab7fab8e25c18b32",
+  "cases_sha256": "82267b746148fbd5a86af98505b28d8e42bca4ca933af1362f0eb66cc652e1cd",
+  "byte_equal_original_renders_checked": 192,
+  "independent_prompt_graph_checks": 512,
+  "initial_checkpoint": "../20261117_action_binding/coverage_repair/class_balanced",
+  "renderer_sha256": "f15b7da32b9af10871909cc4b3ca92862785b518d0b7c49845358757b67224e4",
+  "whole_goal_complete": false
+}

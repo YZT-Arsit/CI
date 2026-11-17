@@ -1,0 +1,14 @@
+# Conditional two-view consistency repair
+
+The full factorial reproduces192previous outputs exactly and identifies two failures: names change40/512matched query estimates and32/256actions; option order changes8/96effective actor inputs despite identical own estimates. Facts/plans have smaller effects with explicit no-op denominators. Only10/16world pairs survive all16presentations. This is a same-DEV diagnosis over16groups, not a new test distribution.
+
+The next matched CPU pilot compares two-view supervised training with the same training plus consistency. Both use the same initial coverage/class_balanced adapter, batches, fresh optimizer, role schedule and two independently randomized presentations of each world. They retain the existing query class balance, actor optimal-set loss and format supervision. No diagnosed DEV world or held-out entity word is trained on.
+
+- Query consistency aligns probabilities for the semantic outcomes0,1,and OTHER across two presentations of the **same world and candidate**. Full-vocabulary supervision remains; OTHER is retained rather than silently masking invalid tokens.
+- Actor consistency aligns probabilities for semantic actions and OTHER, accounting for shuffled letters. It applies only when the two presentations have exactly the same model-produced estimate map. This avoids forcing actions to ignore conflicting self-estimates merely to look invariant.
+- Both consistency gradient paths remain live. History-counterfactual sides are never aligned to each other: their correct choices may differ. The two view losses are averaged, not doubled accidentally.
+- The additional divergence is Jensen–Shannon, weight1, with no post-hoc tuning in the pilot. Identical inputs must produce zero loss and zero consistency gradient; action permutations must be semantically aligned; different history labels retain their contrastive supervised targets.
+
+The idea is a repair baseline, not a novelty claim or faithful R-Drop reproduction. [R-Drop](https://proceedings.neurips.cc/paper_files/paper/2021/file/5a66b9200f29ac3fa0ae244cc2a51b39-Paper.pdf), section2.1, uses two dropout passes and bidirectional KL alongside supervision. Here LoRA dropout stays0; the two views are input symmetries, the divergence is JS, and actor comparisons are conditioned on matching predicted estimates. That paper does not establish CI or relational-composition efficacy. Exa transport failed on this continuation; the primary proceedings PDF was verified through the web fallback.
+
+Evaluate fresh groups with two renderings, free queries/actions and complete episodes. Keep deeper/internal-edge/cycle and normative stress cases, not only the diagnosed one-hop family. Record query accuracy, semantic invariance, paired full success, invalid formats and safety separately. A one-seed repair pilot does not close the full goal, source holdout, multi-seed, long-collaboration or natural-policy requirements.

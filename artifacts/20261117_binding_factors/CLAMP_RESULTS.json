@@ -1,0 +1,157 @@
+{
+  "rows": 512,
+  "same_prompt_raw_identity_controls": 464,
+  "improved_cells": 30,
+  "worsened_cells": 6,
+  "robust_states_all16views": 31,
+  "robust_pairs_all16views": 15,
+  "profiles": [
+    {
+      "profile": "0000",
+      "groups": 16,
+      "both_valid": 16,
+      "both_correct": 16,
+      "same_action": 0,
+      "reversed_both_wrong": 0,
+      "invalid_groups": 0
+    },
+    {
+      "profile": "0001",
+      "groups": 16,
+      "both_valid": 16,
+      "both_correct": 15,
+      "same_action": 1,
+      "reversed_both_wrong": 0,
+      "invalid_groups": 0
+    },
+    {
+      "profile": "0010",
+      "groups": 16,
+      "both_valid": 16,
+      "both_correct": 16,
+      "same_action": 0,
+      "reversed_both_wrong": 0,
+      "invalid_groups": 0
+    },
+    {
+      "profile": "0011",
+      "groups": 16,
+      "both_valid": 16,
+      "both_correct": 15,
+      "same_action": 1,
+      "reversed_both_wrong": 0,
+      "invalid_groups": 0
+    },
+    {
+      "profile": "0100",
+      "groups": 16,
+      "both_valid": 16,
+      "both_correct": 16,
+      "same_action": 0,
+      "reversed_both_wrong": 0,
+      "invalid_groups": 0
+    },
+    {
+      "profile": "0101",
+      "groups": 16,
+      "both_valid": 16,
+      "both_correct": 15,
+      "same_action": 1,
+      "reversed_both_wrong": 0,
+      "invalid_groups": 0
+    },
+    {
+      "profile": "0110",
+      "groups": 16,
+      "both_valid": 16,
+      "both_correct": 16,
+      "same_action": 0,
+      "reversed_both_wrong": 0,
+      "invalid_groups": 0
+    },
+    {
+      "profile": "0111",
+      "groups": 16,
+      "both_valid": 16,
+      "both_correct": 15,
+      "same_action": 1,
+      "reversed_both_wrong": 0,
+      "invalid_groups": 0
+    },
+    {
+      "profile": "1000",
+      "groups": 16,
+      "both_valid": 16,
+      "both_correct": 16,
+      "same_action": 0,
+      "reversed_both_wrong": 0,
+      "invalid_groups": 0
+    },
+    {
+      "profile": "1001",
+      "groups": 16,
+      "both_valid": 16,
+      "both_correct": 15,
+      "same_action": 1,
+      "reversed_both_wrong": 0,
+      "invalid_groups": 0
+    },
+    {
+      "profile": "1010",
+      "groups": 16,
+      "both_valid": 16,
+      "both_correct": 16,
+      "same_action": 0,
+      "reversed_both_wrong": 0,
+      "invalid_groups": 0
+    },
+    {
+      "profile": "1011",
+      "groups": 16,
+      "both_valid": 16,
+      "both_correct": 15,
+      "same_action": 1,
+      "reversed_both_wrong": 0,
+      "invalid_groups": 0
+    },
+    {
+      "profile": "1100",
+      "groups": 16,
+      "both_valid": 16,
+      "both_correct": 16,
+      "same_action": 0,
+      "reversed_both_wrong": 0,
+      "invalid_groups": 0
+    },
+    {
+      "profile": "1101",
+      "groups": 16,
+      "both_valid": 16,
+      "both_correct": 15,
+      "same_action": 1,
+      "reversed_both_wrong": 0,
+      "invalid_groups": 0
+    },
+    {
+      "profile": "1110",
+      "groups": 16,
+      "both_valid": 16,
+      "both_correct": 16,
+      "same_action": 0,
+      "reversed_both_wrong": 0,
+      "invalid_groups": 0
+    },
+    {
+      "profile": "1111",
+      "groups": 16,
+      "both_valid": 16,
+      "both_correct": 15,
+      "same_action": 1,
+      "reversed_both_wrong": 0,
+      "invalid_groups": 0
+    }
+  ],
+  "errors": 0,
+  "scope": "model-generated base-view estimate clamp; mediated diagnostic on same16pairs, not a deployable improvement or independent test",
+  "whole_goal_complete": false
+}

@@ -1,0 +1,20 @@
+{
+  "native_python_returncode": 0,
+  "original_powershell_session_exitcode": 1,
+  "original_stderr_log_preserved": true,
+  "verification": "same source and114tasks rerun to isolated output with subprocess capture; no model calls",
+  "replay_directory": ".publish_verify/role_receipt_eecabab945",
+  "matching_fields": {
+    "tasks": 114,
+    "native_replay_success": 114,
+    "private_tool_result_checks": 516,
+    "wrong_role_rejections": 516,
+    "model_decisions": 0
+  },
+  "original_raw_sha256": "4209c485af8adf95a402b4dbff33db4554230ee93ab80b5405f6ab949cdcdf7a",
+  "verified_replay_raw_sha256": "fb9746ca8a78e3db4f16a5004ec13ffe063d5ce1475d7c869e0edbb4ad2a9bed",
+  "source_sha256": {
+    "check.py": "ae1677af9cd774ae78042309cefe7951b8e0add311972d6832941a478ab51cec",
+    "session.py": "e317059fca9766e6aa4b9e0b0baf00a2acc55cc0d7054317997af4a6dda1da2a"
+  }
+}

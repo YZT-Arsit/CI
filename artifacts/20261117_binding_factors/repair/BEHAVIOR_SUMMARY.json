@@ -1,0 +1,49 @@
+{
+  "arms": {
+    "two_view_sft": {
+      "updates": 80,
+      "max_update_seconds": 5.400817708999995,
+      "input_tokens": 238768,
+      "actor_consistency_eligible_states": 152,
+      "eligible_state_opportunities": 160,
+      "episodes": 112,
+      "safe_failed_episodes": 1,
+      "selected_actions": {
+        "Planner:COMMIT": 112,
+        "Source:DELIVER_INPUTS": 112,
+        "Worker:PUBLISH_FULL": 111,
+        "Worker:PUBLISH_MINIMAL": 1
+      },
+      "totals": {
+        "strict_success": 75,
+        "valid_ci": 76,
+        "invalid": 0,
+        "invalid_queries": 0
+      }
+    },
+    "conditional_js": {
+      "updates": 80,
+      "max_update_seconds": 5.481442566000055,
+      "input_tokens": 238768,
+      "actor_consistency_eligible_states": 154,
+      "eligible_state_opportunities": 160,
+      "episodes": 112,
+      "safe_failed_episodes": 64,
+      "selected_actions": {
+        "Planner:COMMIT": 112,
+        "Source:WITHHOLD": 41,
+        "Source:DELIVER_INPUTS": 71,
+        "Worker:PUBLISH_FULL": 42,
+        "Worker:WITHHOLD": 9,
+        "Worker:PUBLISH_MINIMAL": 20
+      },
+      "totals": {
+        "strict_success": 34,
+        "valid_ci": 98,
+        "invalid": 0,
+        "invalid_queries": 0
+      }
+    }
+  },
+  "scope": "Descriptive on-policy counts; condition mixtures and reached states differ. No additional independent samples or conditional causal comparison."
+}

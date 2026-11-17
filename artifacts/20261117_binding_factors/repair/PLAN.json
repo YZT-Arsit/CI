@@ -1,0 +1,2129 @@
+{
+  "arms": [
+    "two_view_sft",
+    "conditional_js"
+  ],
+  "evidence_arms": [
+    "two_view_sft",
+    "conditional_js"
+  ],
+  "steps": 80,
+  "seed": 17,
+  "lr": 0.0008,
+  "batches": [
+    {
+      "key": [
+        "Planner",
+        false,
+        false,
+        true,
+        false
+      ],
+      "index": 20,
+      "views": [
+        {
+          "names": 129475514,
+          "facts": 858299745,
+          "plans": 940226923,
+          "options": 456496983,
+          "links": 600938170
+        },
+        {
+          "names": 390486957,
+          "facts": 215807395,
+          "plans": 503945651,
+          "options": 814724345,
+          "links": 582180635
+        }
+      ]
+    },
+    {
+      "key": [
+        "Source",
+        false,
+        true,
+        false,
+        false
+      ],
+      "index": 15,
+      "views": [
+        {
+          "names": 682827158,
+          "facts": 582813131,
+          "plans": 133153127,
+          "options": 946537824,
+          "links": 57785938
+        },
+        {
+          "names": 259431306,
+          "facts": 965195874,
+          "plans": 353722447,
+          "options": 36080141,
+          "links": 364478663
+        }
+      ]
+    },
+    {
+      "key": [
+        "Worker",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 56,
+      "views": [
+        {
+          "names": 138292792,
+          "facts": 604006598,
+          "plans": 388140197,
+          "options": 323502133,
+          "links": 218608029
+        },
+        {
+          "names": 977216443,
+          "facts": 470481733,
+          "plans": 320031419,
+          "options": 254483258,
+          "links": 112424663
+        }
+      ]
+    },
+    {
+      "key": [
+        "Worker",
+        false,
+        false,
+        true,
+        true
+      ],
+      "index": 0,
+      "views": [
+        {
+          "names": 194727183,
+          "facts": 300835462,
+          "plans": 756333829,
+          "options": 254190385,
+          "links": 314900546
+        },
+        {
+          "names": 769048335,
+          "facts": 623558206,
+          "plans": 967834707,
+          "options": 879345485,
+          "links": 241788937
+        }
+      ]
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 1,
+      "views": [
+        {
+          "names": 215954223,
+          "facts": 560666230,
+          "plans": 763009789,
+          "options": 802859030,
+          "links": 879208705
+        },
+        {
+          "names": 857403376,
+          "facts": 494304358,
+          "plans": 516197890,
+          "options": 193052713,
+          "links": 82268975
+        }
+      ]
+    },
+    {
+      "key": [
+        "Source",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 15,
+      "views": [
+        {
+          "names": 665596280,
+          "facts": 868105891,
+          "plans": 897690751,
+          "options": 121804219,
+          "links": 15839110
+        },
+        {
+          "names": 937287879,
+          "facts": 918204515,
+          "plans": 21906698,
+          "options": 406719421,
+          "links": 591645985
+        }
+      ]
+    },
+    {
+      "key": [
+        "Worker",
+        false,
+        false,
+        true,
+        true
+      ],
+      "index": 23,
+      "views": [
+        {
+          "names": 136302396,
+          "facts": 331928566,
+          "plans": 658181098,
+          "options": 904291483,
+          "links": 940649022
+        },
+        {
+          "names": 514506293,
+          "facts": 653671645,
+          "plans": 481929801,
+          "options": 903185841,
+          "links": 783208756
+        }
+      ]
+    },
+    {
+      "key": [
+        "Worker",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 23,
+      "views": [
+        {
+          "names": 838617646,
+          "facts": 615215223,
+          "plans": 665016532,
+          "options": 785902134,
+          "links": 338290355
+        },
+        {
+          "names": 162830528,
+          "facts": 101691150,
+          "plans": 560119477,
+          "options": 360742399,
+          "links": 509201864
+        }
+      ]
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        false,
+        true,
+        false
+      ],
+      "index": 34,
+      "views": [
+        {
+          "names": 830486199,
+          "facts": 150087422,
+          "plans": 122774949,
+          "options": 761077581,
+          "links": 588584677
+        },
+        {
+          "names": 79375745,
+          "facts": 388004416,
+          "plans": 482953559,
+          "options": 232033032,
+          "links": 63566045
+        }
+      ]
+    },
+    {
+      "key": [
+        "Source",
+        false,
+        false,
+        true,
+        false
+      ],
+      "index": 19,
+      "views": [
+        {
+          "names": 89086807,
+          "facts": 921738868,
+          "plans": 214328622,
+          "options": 624618732,
+          "links": 704973572
+        },
+        {
+          "names": 560070002,
+          "facts": 941266608,
+          "plans": 268671772,
+          "options": 301145578,
+          "links": 343578295
+        }
+      ]
+    },
+    {
+      "key": [
+        "Worker",
+        true,
+        false,
+        true,
+        false
+      ],
+      "index": 19,
+      "views": [
+        {
+          "names": 591260589,
+          "facts": 762994658,
+          "plans": 367533878,
+          "options": 686057902,
+          "links": 225254470
+        },
+        {
+          "names": 906179846,
+          "facts": 236159127,
+          "plans": 583512514,
+          "options": 794285822,
+          "links": 125817454
+        }
+      ]
+    },
+    {
+      "key": [
+        "Worker",
+        false,
+        false,
+        true,
+        false
+      ],
+      "index": 50,
+      "views": [
+        {
+          "names": 282662461,
+          "facts": 59016010,
+          "plans": 519278663,
+          "options": 329528546,
+          "links": 366185520
+        },
+        {
+          "names": 677120158,
+          "facts": 530974540,
+          "plans": 33641316,
+          "options": 828419411,
+          "links": 106283727
+        }
+      ]
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        false,
+        false
+      ],
+      "index": 0,
+      "views": [
+        {
+          "names": 658808352,
+          "facts": 57618754,
+          "plans": 840483296,
+          "options": 120912356,
+          "links": 635798513
+        },
+        {
+          "names": 78464786,
+          "facts": 473479129,
+          "plans": 191369025,
+          "options": 416490357,
+          "links": 565213530
+        }
+      ]
+    },
+    {
+      "key": [
+        "Source",
+        true,
+        true,
+        true,
+        false
+      ],
+      "index": 51,
+      "views": [
+        {
+          "names": 557086656,
+          "facts": 32053679,
+          "plans": 636810290,
+          "options": 382400752,
+          "links": 605624174
+        },
+        {
+          "names": 224393835,
+          "facts": 908864932,
+          "plans": 293427203,
+          "options": 24654800,
+          "links": 600947598
+        }
+      ]
+    },
+    {
+      "key": [
+        "Worker",
+        false,
+        true,
+        true,
+        true
+      ],
+      "index": 1,
+      "views": [
+        {
+          "names": 380946716,
+          "facts": 590697888,
+          "plans": 412375347,
+          "options": 810958104,
+          "links": 95740096
+        },
+        {
+          "names": 156492132,
+          "facts": 714723288,
+          "plans": 255217899,
+          "options": 545328384,
+          "links": 627045618
+        }
+      ]
+    },
+    {
+      "key": [
+        "Worker",
+        true,
+        true,
+        true,
+        false
+      ],
+      "index": 39,
+      "views": [
+        {
+          "names": 312545257,
+          "facts": 350875436,
+          "plans": 883479574,
+          "options": 116555722,
+          "links": 425018444
+        },
+        {
+          "names": 883977605,
+          "facts": 636795396,
+          "plans": 331209984,
+          "options": 639439689,
+          "links": 644667499
+        }
+      ]
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        false,
+        false
+      ],
+      "index": 0,
+      "views": [
+        {
+          "names": 760603356,
+          "facts": 156734832,
+          "plans": 503143041,
+          "options": 196735402,
+          "links": 540208633
+        },
+        {
+          "names": 460756508,
+          "facts": 15121124,
+          "plans": 978532824,
+          "options": 578864692,
+          "links": 705103591
+        }
+      ]
+    },
+    {
+      "key": [
+        "Source",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 52,
+      "views": [
+        {
+          "names": 39258412,
+          "facts": 195478784,
+          "plans": 921183121,
+          "options": 136262257,
+          "links": 285540507
+        },
+        {
+          "names": 828871193,
+          "facts": 911162961,
+          "plans": 563289616,
+          "options": 131022196,
+          "links": 880350824
+        }
+      ]
+    },
+    {
+      "key": [
+        "Worker",
+        true,
+        false,
+        true,
+        false
+      ],
+      "index": 40,
+      "views": [
+        {
+          "names": 315572015,
+          "facts": 25106342,
+          "plans": 51140406,
+          "options": 836911765,
+          "links": 823873844
+        },
+        {
+          "names": 59780128,
+          "facts": 943532920,
+          "plans": 702734131,
+          "options": 70014507,
+          "links": 212861851
+        }
+      ]
+    },
+    {
+      "key": [
+        "Worker",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 42,
+      "views": [
+        {
+          "names": 901233989,
+          "facts": 985600782,
+          "plans": 192290322,
+          "options": 184681323,
+          "links": 443991251
+        },
+        {
+          "names": 98822885,
+          "facts": 386877788,
+          "plans": 343730318,
+          "options": 626551162,
+          "links": 237967115
+        }
+      ]
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 18,
+      "views": [
+        {
+          "names": 356097122,
+          "facts": 1291632,
+          "plans": 24780298,
+          "options": 237949663,
+          "links": 688118858
+        },
+        {
+          "names": 423571669,
+          "facts": 703098500,
+          "plans": 684408892,
+          "options": 6549823,
+          "links": 798450110
+        }
+      ]
+    },
+    {
+      "key": [
+        "Source",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 49,
+      "views": [
+        {
+          "names": 404046806,
+          "facts": 701323604,
+          "plans": 924819429,
+          "options": 540426959,
+          "links": 455051123
+        },
+        {
+          "names": 520996406,
+          "facts": 995943562,
+          "plans": 121067779,
+          "options": 209966952,
+          "links": 377745176
+        }
+      ]
+    },
+    {
+      "key": [
+        "Worker",
+        false,
+        false,
+        true,
+        true
+      ],
+      "index": 0,
+      "views": [
+        {
+          "names": 451703801,
+          "facts": 955819007,
+          "plans": 430014635,
+          "options": 87655177,
+          "links": 398200550
+        },
+        {
+          "names": 867271565,
+          "facts": 457475862,
+          "plans": 150575631,
+          "options": 250725590,
+          "links": 619515566
+        }
+      ]
+    },
+    {
+      "key": [
+        "Worker",
+        false,
+        false,
+        true,
+        true
+      ],
+      "index": 29,
+      "views": [
+        {
+          "names": 778279993,
+          "facts": 412307293,
+          "plans": 825189274,
+          "options": 676918158,
+          "links": 333533631
+        },
+        {
+          "names": 482084183,
+          "facts": 347540973,
+          "plans": 713305469,
+          "options": 110732958,
+          "links": 780946735
+        }
+      ]
+    },
+    {
+      "key": [
+        "Planner",
+        true,
+        true,
+        true,
+        false
+      ],
+      "index": 39,
+      "views": [
+        {
+          "names": 33055390,
+          "facts": 731139341,
+          "plans": 398142903,
+          "options": 715585490,
+          "links": 841165952
+        },
+        {
+          "names": 920838740,
+          "facts": 164762671,
+          "plans": 536071605,
+          "options": 673807156,
+          "links": 93137623
+        }
+      ]
+    },
+    {
+      "key": [
+        "Source",
+        true,
+        true,
+        true,
+        false
+      ],
+      "index": 65,
+      "views": [
+        {
+          "names": 417331251,
+          "facts": 612723747,
+          "plans": 171253207,
+          "options": 472390936,
+          "links": 623524422
+        },
+        {
+          "names": 458638101,
+          "facts": 617842202,
+          "plans": 928572249,
+          "options": 551601517,
+          "links": 381444836
+        }
+      ]
+    },
+    {
+      "key": [
+        "Worker",
+        false,
+        true,
+        true,
+        true
+      ],
+      "index": 3,
+      "views": [
+        {
+          "names": 18780172,
+          "facts": 796034709,
+          "plans": 560001641,
+          "options": 48318016,
+          "links": 442366885
+        },
+        {
+          "names": 582683712,
+          "facts": 75703503,
+          "plans": 729219604,
+          "options": 96806072,
+          "links": 855520129
+        }
+      ]
+    },
+    {
+      "key": [
+        "Worker",
+        false,
+        false,
+        true,
+        false
+      ],
+      "index": 3,
+      "views": [
+        {
+          "names": 620690178,
+          "facts": 992815905,
+          "plans": 796596683,
+          "options": 546932127,
+          "links": 173176329
+        },
+        {
+          "names": 708465803,
+          "facts": 461683035,
+          "plans": 774125707,
+          "options": 978914442,
+          "links": 805942864
+        }
+      ]
+    },
+    {
+      "key": [
+        "Planner",
+        true,
+        false,
+        true,
+        false
+      ],
+      "index": 30,
+      "views": [
+        {
+          "names": 350282180,
+          "facts": 220932771,
+          "plans": 895218586,
+          "options": 102010075,
+          "links": 977807982
+        },
+        {
+          "names": 864547273,
+          "facts": 506647947,
+          "plans": 955547276,
+          "options": 213823395,
+          "links": 261543666
+        }
+      ]
+    },
+    {
+      "key": [
+        "Source",
+        true,
+        true,
+        true,
+        false
+      ],
+      "index": 30,
+      "views": [
+        {
+          "names": 869415910,
+          "facts": 756104059,
+          "plans": 556968472,
+          "options": 675088638,
+          "links": 799053870
+        },
+        {
+          "names": 301243846,
+          "facts": 934122437,
+          "plans": 297291818,
+          "options": 955148543,
+          "links": 773033235
+        }
+      ]
+    },
+    {
+      "key": [
+        "Worker",
+        false,
+        true,
+        true,
+        true
+      ],
+      "index": 8,
+      "views": [
+        {
+          "names": 860009051,
+          "facts": 503960891,
+          "plans": 832995277,
+          "options": 348973156,
+          "links": 83704760
+        },
+        {
+          "names": 237953023,
+          "facts": 702353916,
+          "plans": 927151294,
+          "options": 343505567,
+          "links": 382835563
+        }
+      ]
+    },
+    {
+      "key": [
+        "Worker",
+        true,
+        true,
+        true,
+        false
+      ],
+      "index": 84,
+      "views": [
+        {
+          "names": 957113597,
+          "facts": 137898801,
+          "plans": 836607499,
+          "options": 911636645,
+          "links": 576683859
+        },
+        {
+          "names": 542333205,
+          "facts": 874203173,
+          "plans": 200355681,
+          "options": 206496535,
+          "links": 61441920
+        }
+      ]
+    },
+    {
+      "key": [
+        "Planner",
+        true,
+        true,
+        true,
+        false
+      ],
+      "index": 15,
+      "views": [
+        {
+          "names": 334502361,
+          "facts": 566071156,
+          "plans": 970460089,
+          "options": 543939149,
+          "links": 316299622
+        },
+        {
+          "names": 691815087,
+          "facts": 756766996,
+          "plans": 643242957,
+          "options": 609781871,
+          "links": 526756652
+        }
+      ]
+    },
+    {
+      "key": [
+        "Source",
+        false,
+        false,
+        true,
+        false
+      ],
+      "index": 31,
+      "views": [
+        {
+          "names": 572577472,
+          "facts": 514550760,
+          "plans": 607459997,
+          "options": 542217,
+          "links": 975799123
+        },
+        {
+          "names": 601603386,
+          "facts": 123323667,
+          "plans": 555939921,
+          "options": 591837760,
+          "links": 697723494
+        }
+      ]
+    },
+    {
+      "key": [
+        "Worker",
+        false,
+        false,
+        true,
+        true
+      ],
+      "index": 18,
+      "views": [
+        {
+          "names": 175235649,
+          "facts": 574304862,
+          "plans": 350891781,
+          "options": 935512865,
+          "links": 779049866
+        },
+        {
+          "names": 759745577,
+          "facts": 161430167,
+          "plans": 953597110,
+          "options": 54448104,
+          "links": 43417440
+        }
+      ]
+    },
+    {
+      "key": [
+        "Worker",
+        true,
+        true,
+        true,
+        false
+      ],
+      "index": 5,
+      "views": [
+        {
+          "names": 10580670,
+          "facts": 727056033,
+          "plans": 54964053,
+          "options": 564609299,
+          "links": 666112375
+        },
+        {
+          "names": 241396708,
+          "facts": 302921930,
+          "plans": 156089815,
+          "options": 383460832,
+          "links": 471237003
+        }
+      ]
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        false,
+        false
+      ],
+      "index": 0,
+      "views": [
+        {
+          "names": 185240880,
+          "facts": 8904262,
+          "plans": 573646808,
+          "options": 492064702,
+          "links": 104856612
+        },
+        {
+          "names": 599440867,
+          "facts": 904663297,
+          "plans": 201614386,
+          "options": 590476678,
+          "links": 468234605
+        }
+      ]
+    },
+    {
+      "key": [
+        "Source",
+        true,
+        false,
+        true,
+        false
+      ],
+      "index": 61,
+      "views": [
+        {
+          "names": 624517396,
+          "facts": 956941300,
+          "plans": 618193341,
+          "options": 626172672,
+          "links": 611611964
+        },
+        {
+          "names": 663911991,
+          "facts": 826000721,
+          "plans": 814911180,
+          "options": 536228626,
+          "links": 41300009
+        }
+      ]
+    },
+    {
+      "key": [
+        "Worker",
+        false,
+        true,
+        false,
+        true
+      ],
+      "index": 7,
+      "views": [
+        {
+          "names": 247244518,
+          "facts": 138335366,
+          "plans": 254887214,
+          "options": 964706286,
+          "links": 827297387
+        },
+        {
+          "names": 742061765,
+          "facts": 685168604,
+          "plans": 214410796,
+          "options": 809191761,
+          "links": 86409707
+        }
+      ]
+    },
+    {
+      "key": [
+        "Worker",
+        false,
+        true,
+        true,
+        true
+      ],
+      "index": 0,
+      "views": [
+        {
+          "names": 900629190,
+          "facts": 268115198,
+          "plans": 187655840,
+          "options": 406907912,
+          "links": 875935909
+        },
+        {
+          "names": 246899364,
+          "facts": 534842849,
+          "plans": 629342617,
+          "options": 352695526,
+          "links": 418815319
+        }
+      ]
+    },
+    {
+      "key": [
+        "Planner",
+        true,
+        false,
+        true,
+        false
+      ],
+      "index": 4,
+      "views": [
+        {
+          "names": 144784795,
+          "facts": 306325152,
+          "plans": 471409156,
+          "options": 343468249,
+          "links": 260957762
+        },
+        {
+          "names": 883468814,
+          "facts": 825963916,
+          "plans": 557321366,
+          "options": 323333567,
+          "links": 588100512
+        }
+      ]
+    },
+    {
+      "key": [
+        "Source",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 33,
+      "views": [
+        {
+          "names": 482303161,
+          "facts": 862520591,
+          "plans": 674636259,
+          "options": 575111790,
+          "links": 968620633
+        },
+        {
+          "names": 339572367,
+          "facts": 139164620,
+          "plans": 734550437,
+          "options": 797282408,
+          "links": 858566251
+        }
+      ]
+    },
+    {
+      "key": [
+        "Worker",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 58,
+      "views": [
+        {
+          "names": 250960411,
+          "facts": 348862953,
+          "plans": 173674503,
+          "options": 39980721,
+          "links": 846099304
+        },
+        {
+          "names": 729574360,
+          "facts": 124338636,
+          "plans": 762350093,
+          "options": 31254696,
+          "links": 369218991
+        }
+      ]
+    },
+    {
+      "key": [
+        "Worker",
+        false,
+        false,
+        true,
+        false
+      ],
+      "index": 38,
+      "views": [
+        {
+          "names": 282064151,
+          "facts": 738969237,
+          "plans": 849501371,
+          "options": 647596378,
+          "links": 739547470
+        },
+        {
+          "names": 378392810,
+          "facts": 43239077,
+          "plans": 297823154,
+          "options": 43695032,
+          "links": 542225564
+        }
+      ]
+    },
+    {
+      "key": [
+        "Planner",
+        true,
+        false,
+        true,
+        false
+      ],
+      "index": 35,
+      "views": [
+        {
+          "names": 899922083,
+          "facts": 461593822,
+          "plans": 32938916,
+          "options": 208959793,
+          "links": 519074406
+        },
+        {
+          "names": 62943047,
+          "facts": 124230263,
+          "plans": 410105547,
+          "options": 944628794,
+          "links": 119539707
+        }
+      ]
+    },
+    {
+      "key": [
+        "Source",
+        true,
+        false,
+        true,
+        false
+      ],
+      "index": 85,
+      "views": [
+        {
+          "names": 980036634,
+          "facts": 31616778,
+          "plans": 932095200,
+          "options": 875286544,
+          "links": 263031545
+        },
+        {
+          "names": 818108297,
+          "facts": 572414374,
+          "plans": 968992464,
+          "options": 739630164,
+          "links": 5880287
+        }
+      ]
+    },
+    {
+      "key": [
+        "Worker",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 16,
+      "views": [
+        {
+          "names": 387679601,
+          "facts": 981115296,
+          "plans": 453696018,
+          "options": 377609264,
+          "links": 27493688
+        },
+        {
+          "names": 381973980,
+          "facts": 260006566,
+          "plans": 455251530,
+          "options": 168198468,
+          "links": 443088495
+        }
+      ]
+    },
+    {
+      "key": [
+        "Worker",
+        false,
+        false,
+        true,
+        true
+      ],
+      "index": 14,
+      "views": [
+        {
+          "names": 179135185,
+          "facts": 889541356,
+          "plans": 598849909,
+          "options": 311620737,
+          "links": 646826235
+        },
+        {
+          "names": 987368916,
+          "facts": 120002512,
+          "plans": 533203310,
+          "options": 876406114,
+          "links": 12397821
+        }
+      ]
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        false,
+        true,
+        false
+      ],
+      "index": 10,
+      "views": [
+        {
+          "names": 129677180,
+          "facts": 589996428,
+          "plans": 212707003,
+          "options": 138613218,
+          "links": 63450225
+        },
+        {
+          "names": 489165809,
+          "facts": 253158163,
+          "plans": 538162109,
+          "options": 782247721,
+          "links": 735521801
+        }
+      ]
+    },
+    {
+      "key": [
+        "Source",
+        true,
+        true,
+        true,
+        false
+      ],
+      "index": 52,
+      "views": [
+        {
+          "names": 276472156,
+          "facts": 809751000,
+          "plans": 703912619,
+          "options": 666150665,
+          "links": 763601516
+        },
+        {
+          "names": 122878585,
+          "facts": 31061697,
+          "plans": 245623052,
+          "options": 335718432,
+          "links": 164711712
+        }
+      ]
+    },
+    {
+      "key": [
+        "Worker",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 32,
+      "views": [
+        {
+          "names": 658546895,
+          "facts": 601589388,
+          "plans": 25457351,
+          "options": 408119601,
+          "links": 435545730
+        },
+        {
+          "names": 413787481,
+          "facts": 451195035,
+          "plans": 316220586,
+          "options": 262646826,
+          "links": 691225284
+        }
+      ]
+    },
+    {
+      "key": [
+        "Worker",
+        true,
+        true,
+        true,
+        false
+      ],
+      "index": 39,
+      "views": [
+        {
+          "names": 750021562,
+          "facts": 773586925,
+          "plans": 59814495,
+          "options": 752303184,
+          "links": 385207925
+        },
+        {
+          "names": 569453054,
+          "facts": 238988161,
+          "plans": 249949230,
+          "options": 397667750,
+          "links": 495009830
+        }
+      ]
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        false,
+        false
+      ],
+      "index": 3,
+      "views": [
+        {
+          "names": 129618223,
+          "facts": 491975836,
+          "plans": 638538468,
+          "options": 8642771,
+          "links": 58080589
+        },
+        {
+          "names": 445495775,
+          "facts": 842204140,
+          "plans": 414770464,
+          "options": 623377187,
+          "links": 196110444
+        }
+      ]
+    },
+    {
+      "key": [
+        "Source",
+        true,
+        true,
+        true,
+        false
+      ],
+      "index": 74,
+      "views": [
+        {
+          "names": 416968935,
+          "facts": 485908261,
+          "plans": 827182716,
+          "options": 612948186,
+          "links": 853121817
+        },
+        {
+          "names": 881713166,
+          "facts": 303979947,
+          "plans": 875247832,
+          "options": 27085346,
+          "links": 399767085
+        }
+      ]
+    },
+    {
+      "key": [
+        "Worker",
+        true,
+        true,
+        true,
+        false
+      ],
+      "index": 79,
+      "views": [
+        {
+          "names": 717054458,
+          "facts": 383369903,
+          "plans": 694177072,
+          "options": 764720777,
+          "links": 729302787
+        },
+        {
+          "names": 614452226,
+          "facts": 86623702,
+          "plans": 254582408,
+          "options": 505605246,
+          "links": 73801321
+        }
+      ]
+    },
+    {
+      "key": [
+        "Worker",
+        false,
+        false,
+        true,
+        false
+      ],
+      "index": 34,
+      "views": [
+        {
+          "names": 949875938,
+          "facts": 400079463,
+          "plans": 425874824,
+          "options": 839781155,
+          "links": 495589309
+        },
+        {
+          "names": 858461661,
+          "facts": 914337460,
+          "plans": 203235153,
+          "options": 398680560,
+          "links": 306193607
+        }
+      ]
+    },
+    {
+      "key": [
+        "Planner",
+        true,
+        true,
+        true,
+        false
+      ],
+      "index": 44,
+      "views": [
+        {
+          "names": 227504785,
+          "facts": 931325516,
+          "plans": 473533016,
+          "options": 736633741,
+          "links": 683181698
+        },
+        {
+          "names": 351518650,
+          "facts": 217651164,
+          "plans": 640904453,
+          "options": 309385003,
+          "links": 916572154
+        }
+      ]
+    },
+    {
+      "key": [
+        "Source",
+        false,
+        true,
+        false,
+        false
+      ],
+      "index": 14,
+      "views": [
+        {
+          "names": 579090098,
+          "facts": 249209042,
+          "plans": 867573716,
+          "options": 266665456,
+          "links": 103883187
+        },
+        {
+          "names": 88078054,
+          "facts": 671153026,
+          "plans": 809734165,
+          "options": 508226811,
+          "links": 640103368
+        }
+      ]
+    },
+    {
+      "key": [
+        "Worker",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 33,
+      "views": [
+        {
+          "names": 777547152,
+          "facts": 139954267,
+          "plans": 387249568,
+          "options": 289085845,
+          "links": 605462055
+        },
+        {
+          "names": 855708455,
+          "facts": 43140243,
+          "plans": 901279318,
+          "options": 988300930,
+          "links": 603242050
+        }
+      ]
+    },
+    {
+      "key": [
+        "Worker",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 18,
+      "views": [
+        {
+          "names": 290918166,
+          "facts": 631844081,
+          "plans": 142114653,
+          "options": 808700838,
+          "links": 667777088
+        },
+        {
+          "names": 368206920,
+          "facts": 833066921,
+          "plans": 720839371,
+          "options": 134190513,
+          "links": 698710999
+        }
+      ]
+    },
+    {
+      "key": [
+        "Planner",
+        true,
+        true,
+        true,
+        false
+      ],
+      "index": 10,
+      "views": [
+        {
+          "names": 74383596,
+          "facts": 957084472,
+          "plans": 744426563,
+          "options": 354803049,
+          "links": 814707880
+        },
+        {
+          "names": 649404713,
+          "facts": 67258069,
+          "plans": 532097119,
+          "options": 994513030,
+          "links": 391047556
+        }
+      ]
+    },
+    {
+      "key": [
+        "Source",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 62,
+      "views": [
+        {
+          "names": 700831087,
+          "facts": 370757540,
+          "plans": 99466449,
+          "options": 597144022,
+          "links": 431184200
+        },
+        {
+          "names": 338196988,
+          "facts": 568637850,
+          "plans": 389365389,
+          "options": 747579566,
+          "links": 839489457
+        }
+      ]
+    },
+    {
+      "key": [
+        "Worker",
+        true,
+        true,
+        true,
+        false
+      ],
+      "index": 29,
+      "views": [
+        {
+          "names": 663802066,
+          "facts": 506871470,
+          "plans": 855830715,
+          "options": 516411606,
+          "links": 429543163
+        },
+        {
+          "names": 544608859,
+          "facts": 640736236,
+          "plans": 557545970,
+          "options": 436713691,
+          "links": 325218707
+        }
+      ]
+    },
+    {
+      "key": [
+        "Worker",
+        false,
+        false,
+        true,
+        true
+      ],
+      "index": 25,
+      "views": [
+        {
+          "names": 33666011,
+          "facts": 993906267,
+          "plans": 24859691,
+          "options": 604980396,
+          "links": 924274521
+        },
+        {
+          "names": 939081398,
+          "facts": 309474663,
+          "plans": 545381310,
+          "options": 494007172,
+          "links": 174014736
+        }
+      ]
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        false,
+        false
+      ],
+      "index": 3,
+      "views": [
+        {
+          "names": 816928281,
+          "facts": 523934482,
+          "plans": 508610172,
+          "options": 540698278,
+          "links": 960687605
+        },
+        {
+          "names": 271705255,
+          "facts": 207938572,
+          "plans": 969666439,
+          "options": 935131259,
+          "links": 506929313
+        }
+      ]
+    },
+    {
+      "key": [
+        "Source",
+        false,
+        false,
+        true,
+        false
+      ],
+      "index": 55,
+      "views": [
+        {
+          "names": 542166932,
+          "facts": 357002590,
+          "plans": 81522656,
+          "options": 134233448,
+          "links": 925813321
+        },
+        {
+          "names": 152449724,
+          "facts": 842168933,
+          "plans": 456360439,
+          "options": 435534193,
+          "links": 637231590
+        }
+      ]
+    },
+    {
+      "key": [
+        "Worker",
+        false,
+        true,
+        true,
+        true
+      ],
+      "index": 10,
+      "views": [
+        {
+          "names": 830127109,
+          "facts": 373233946,
+          "plans": 881717968,
+          "options": 273929468,
+          "links": 291101732
+        },
+        {
+          "names": 462501653,
+          "facts": 110139911,
+          "plans": 70006618,
+          "options": 745949417,
+          "links": 346611034
+        }
+      ]
+    },
+    {
+      "key": [
+        "Worker",
+        false,
+        false,
+        true,
+        true
+      ],
+      "index": 0,
+      "views": [
+        {
+          "names": 310239843,
+          "facts": 7834120,
+          "plans": 849343738,
+          "options": 893977960,
+          "links": 490064076
+        },
+        {
+          "names": 406158909,
+          "facts": 247072315,
+          "plans": 392107154,
+          "options": 867573339,
+          "links": 849993014
+        }
+      ]
+    },
+    {
+      "key": [
+        "Planner",
+        true,
+        false,
+        true,
+        false
+      ],
+      "index": 44,
+      "views": [
+        {
+          "names": 651660536,
+          "facts": 113095425,
+          "plans": 29382073,
+          "options": 794441772,
+          "links": 478340190
+        },
+        {
+          "names": 16794534,
+          "facts": 831182930,
+          "plans": 389095945,
+          "options": 778397419,
+          "links": 362200135
+        }
+      ]
+    },
+    {
+      "key": [
+        "Source",
+        true,
+        false,
+        true,
+        false
+      ],
+      "index": 17,
+      "views": [
+        {
+          "names": 270525760,
+          "facts": 493785295,
+          "plans": 688025441,
+          "options": 737755406,
+          "links": 71177753
+        },
+        {
+          "names": 993767558,
+          "facts": 185750369,
+          "plans": 668699240,
+          "options": 611711570,
+          "links": 886407955
+        }
+      ]
+    },
+    {
+      "key": [
+        "Worker",
+        true,
+        true,
+        true,
+        false
+      ],
+      "index": 49,
+      "views": [
+        {
+          "names": 580472033,
+          "facts": 114527906,
+          "plans": 539740215,
+          "options": 332986928,
+          "links": 289098604
+        },
+        {
+          "names": 315051248,
+          "facts": 826076184,
+          "plans": 391153226,
+          "options": 387025550,
+          "links": 75151944
+        }
+      ]
+    },
+    {
+      "key": [
+        "Worker",
+        false,
+        true,
+        false,
+        true
+      ],
+      "index": 7,
+      "views": [
+        {
+          "names": 872759291,
+          "facts": 380740341,
+          "plans": 132850228,
+          "options": 641096324,
+          "links": 597451119
+        },
+        {
+          "names": 507702220,
+          "facts": 456734105,
+          "plans": 752815962,
+          "options": 4839712,
+          "links": 936134066
+        }
+      ]
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        false,
+        true,
+        false
+      ],
+      "index": 42,
+      "views": [
+        {
+          "names": 117245687,
+          "facts": 517910749,
+          "plans": 289220694,
+          "options": 315261268,
+          "links": 125813163
+        },
+        {
+          "names": 12965576,
+          "facts": 590726009,
+          "plans": 306979110,
+          "options": 219737374,
+          "links": 390753937
+        }
+      ]
+    },
+    {
+      "key": [
+        "Source",
+        false,
+        true,
+        false,
+        false
+      ],
+      "index": 10,
+      "views": [
+        {
+          "names": 251049521,
+          "facts": 67199104,
+          "plans": 666435214,
+          "options": 343854078,
+          "links": 907513109
+        },
+        {
+          "names": 53612517,
+          "facts": 882097296,
+          "plans": 546078606,
+          "options": 700864621,
+          "links": 401083561
+        }
+      ]
+    },
+    {
+      "key": [
+        "Worker",
+        false,
+        false,
+        true,
+        false
+      ],
+      "index": 34,
+      "views": [
+        {
+          "names": 696006218,
+          "facts": 914697822,
+          "plans": 221913108,
+          "options": 601257620,
+          "links": 313226010
+        },
+        {
+          "names": 255615204,
+          "facts": 327756362,
+          "plans": 105289472,
+          "options": 501616775,
+          "links": 240001316
+        }
+      ]
+    },
+    {
+      "key": [
+        "Worker",
+        true,
+        false,
+        true,
+        false
+      ],
+      "index": 29,
+      "views": [
+        {
+          "names": 44738515,
+          "facts": 356949343,
+          "plans": 258634169,
+          "options": 209348116,
+          "links": 599928569
+        },
+        {
+          "names": 619497732,
+          "facts": 43355071,
+          "plans": 360012489,
+          "options": 831573939,
+          "links": 778834303
+        }
+      ]
+    },
+    {
+      "key": [
+        "Planner",
+        false,
+        true,
+        false,
+        false
+      ],
+      "index": 7,
+      "views": [
+        {
+          "names": 284646140,
+          "facts": 471677034,
+          "plans": 486523328,
+          "options": 272331425,
+          "links": 532207557
+        },
+        {
+          "names": 193520066,
+          "facts": 14752753,
+          "plans": 93966507,
+          "options": 432985716,
+          "links": 502830073
+        }
+      ]
+    },
+    {
+      "key": [
+        "Source",
+        true,
+        true,
+        true,
+        false
+      ],
+      "index": 18,
+      "views": [
+        {
+          "names": 363177023,
+          "facts": 62878851,
+          "plans": 54192085,
+          "options": 650355616,
+          "links": 248914976
+        },
+        {
+          "names": 793332379,
+          "facts": 428091670,
+          "plans": 928531381,
+          "options": 445471846,
+          "links": 766135785
+        }
+      ]
+    },
+    {
+      "key": [
+        "Worker",
+        false,
+        false,
+        true,
+        true
+      ],
+      "index": 12,
+      "views": [
+        {
+          "names": 857049295,
+          "facts": 686068136,
+          "plans": 961985700,
+          "options": 852958845,
+          "links": 283674986
+        },
+        {
+          "names": 729732221,
+          "facts": 430640279,
+          "plans": 710185938,
+          "options": 492187716,
+          "links": 968534568
+        }
+      ]
+    },
+    {
+      "key": [
+        "Worker",
+        false,
+        true,
+        true,
+        false
+      ],
+      "index": 61,
+      "views": [
+        {
+          "names": 404316273,
+          "facts": 721399912,
+          "plans": 114685855,
+          "options": 367194999,
+          "links": 959538237
+        },
+        {
+          "names": 850165418,
+          "facts": 951784617,
+          "plans": 648682088,
+          "options": 135372625,
+          "links": 29799899
+        }
+      ]
+    }
+  ],
+  "paired_conditions": [
+    "base_v0",
+    "base_v1",
+    "depth3_v0",
+    "depth3_v1",
+    "internal3_v0",
+    "internal3_v1",
+    "cycle4_v0",
+    "cycle4_v1"
+  ],
+  "initial_adapter_hashes": {
+    "adapter_config.json": "317dc54d0fcd6fb3b630eec143c04640103d5388e4a41e5bdedf7f327c2613a7",
+    "adapter_model.safetensors": "12988f6e76bb34fb1eaf4d99bb0ca7e257cd7fe27fcb0eee793c296ee8619475",
+    "README.md": "39d3d3aa2d89a2b4ab09cecd018fbbc4cebc3f4b2c6d9e85b81abc38a1dc4045"
+  },
+  "consistency_weights": {
+    "two_view_sft": 0.0,
+    "conditional_js": 1.0
+  },
+  "query_classes": [
+    "0",
+    "1",
+    "OTHER"
+  ],
+  "actor_classes": "semantic action IDs plus OTHER, compared only when model-estimate maps agree",
+  "format_weight": 0.1,
+  "source_sha256": "144b2c9f27ddffbde9a0b767cfd20317edaf2147b925beddb3e9acaf4304d060",
+  "dependency_hashes": {
+    "render.py": "f15b7da32b9af10871909cc4b3ca92862785b518d0b7c49845358757b67224e4",
+    "two_view_loss.py": "a641f92807f1cbff93047bc650e07e88614d21a7314da2cd1e070e934b19d94a"
+  },
+  "dev_sha256": "1c5e56d16c134b8de921d021f4520b9aaff7beb38a7e8fb0ab2ce03c0bf0b692",
+  "scope": "matched seed17 freshDEV pilot; same worlds reused across two presentations; no source-level holdout or full-goal completion",
+  "oracle_at_runtime": false
+}

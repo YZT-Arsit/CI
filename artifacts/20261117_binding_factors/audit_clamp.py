@@ -1,0 +1,15 @@
+"""Score own-estimate clamping without treating it as a policy improvement."""
+from audit import *
+
+def run():
+    plan=json.loads((R/'PLAN.json').read_text());cp=json.loads((R/'CLAMP_PLAN.json').read_text());seal=json.loads((R/'CLAMP_SEALED.json').read_text());assert seal['complete'] and hashlib.sha256((R/'clamped_actions.jsonl').read_bytes()).hexdigest()==seal['raw_sha256'];assert hashlib.sha256((R/'clamp.py').read_bytes()).hexdigest()==cp['source_sha256'];assert hashlib.sha256((R/'queries.jsonl').read_bytes()).hexdigest()==cp['queries_sha256'];cases={(c['group'],c['side']):c for c in json.loads((R/'cases.json').read_text())};pool=json.loads((OLD/'entity_palettes.json').read_text())['fresh'];base={};old={(a['group'],a['side'],a['profile']):a for a in map(json.loads,(R/'actions.jsonl').read_text().splitlines())};rows=list(map(json.loads,(R/'clamped_actions.jsonl').read_text().splitlines()));assert len(rows)==512
+    for q in map(json.loads,(R/'queries.jsonl').read_text().splitlines()):
+        if q['profile']=='0000':base.setdefault((q['group'],q['side']),{})[q['action']]=q['estimate']
+    scored=[];index={};identity=0;improved=0;worsened=0
+    for row in rows:
+        key=row['group'],row['side'];case=cases[key];seeds={**{k:case['nonces'][int(v)] for k,v in zip(plan['factors'],row['profile'])},'links':case['nonces'][0]};text,order=actor(case['observation'],pool,seeds,base[key]);assert text==row['prompt'] and order==row['actions'] and row['estimates']==base[key];m=re.findall(r'ANSWER:\s*([ABC])\b',row['raw']);valid=len(m)==1 and ord(m[0])-65<len(order) and row['seconds_batch']<9.5;selected=order[ord(m[0])-65] if valid else None;assert row['valid']==valid and row['selected']==selected;labels=targets(case['world'])[0];assert not check(labels);truth=labels['candidates'][labels['optimal_indices'][0]]['action'];unique=(*key,row['profile']);assert unique not in index;index[unique]=row;before=old[unique]
+        if row['prompt']==before['prompt']:assert row['raw']==before['raw'];identity+=1
+        improved+=selected==truth and before['selected']!=truth;worsened+=selected!=truth and before['selected']==truth;row['correct']=selected==truth;scored.append({**row,'pair_id':str(row['group']),'optimal_action':truth})
+    profiles=sorted({r['profile'] for r in rows});result={'rows':512,'same_prompt_raw_identity_controls':identity,'improved_cells':improved,'worsened_cells':worsened,'robust_states_all16views':sum(all(index[(*key,p)]['correct'] for p in profiles) for key in cases),'robust_pairs_all16views':sum(all(index[(g,s,p)]['correct'] for s in (0,1) for p in profiles) for g in range(16)),'profiles':[{'profile':p,**pair_metrics([r for r in scored if r['profile']==p])} for p in profiles],'errors':0,'scope':'model-generated base-view estimate clamp; mediated diagnostic on same16pairs, not a deployable improvement or independent test','whole_goal_complete':False};(R/'CLAMP_RESULTS.json').write_text(json.dumps(result,indent=2));print(json.dumps(result))
+
+if __name__=='__main__':run()

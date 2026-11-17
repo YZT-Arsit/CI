@@ -1,0 +1,38 @@
+{
+  "roles": [
+    {
+      "role": "Planner",
+      "query_js": 1.005099511530716e-05,
+      "actor_js": 6.880037835799158e-05,
+      "eligible_states": 2,
+      "all120_consistency_gradients_finite": true,
+      "nonzero_consistency_gradient": true,
+      "seconds": 3.635480020000003
+    },
+    {
+      "role": "Source",
+      "query_js": 2.6212619559373707e-06,
+      "actor_js": 1.0889605164265959e-06,
+      "eligible_states": 2,
+      "all120_consistency_gradients_finite": true,
+      "nonzero_consistency_gradient": true,
+      "seconds": 3.210561620000007
+    },
+    {
+      "role": "Worker",
+      "query_js": 1.4379244930751156e-05,
+      "actor_js": 0.1779312789440155,
+      "eligible_states": 2,
+      "all120_consistency_gradients_finite": true,
+      "nonzero_consistency_gradient": true,
+      "seconds": 4.289487058999995
+    }
+  ],
+  "optimizer_updates": 0,
+  "all_roles_passed": true,
+  "adapter_hashes": {
+    "adapter_config.json": "317dc54d0fcd6fb3b630eec143c04640103d5388e4a41e5bdedf7f327c2613a7",
+    "adapter_model.safetensors": "12988f6e76bb34fb1eaf4d99bb0ca7e257cd7fe27fcb0eee793c296ee8619475",
+    "README.md": "39d3d3aa2d89a2b4ab09cecd018fbbc4cebc3f4b2c6d9e85b81abc38a1dc4045"
+  }
+}
