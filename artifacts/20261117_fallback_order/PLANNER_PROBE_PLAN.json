@@ -1,0 +1,13 @@
+{
+  "source_sha256": "a9cf75f5e8c976dde9dfb24573cbcf3c5c7a17c664d5a3b5dbcb1bc583e2135b",
+  "auditor_sha256": "27472449bb2c7e9b4d402b60e2a80ba40baf901053454c67c12f473cf90d08f8",
+  "main_plan_sha256": "27838f24f601bcad0c631c8a08c68f14104cfda1460f0080c83f27c0fedb4c75",
+  "scope": "Post-launch attribution diagnostic;all112initialPlannerstates and all4final models. No training or selectedcases.",
+  "registered_during": "replay_then_correct training, after observing correct_then_replay oracleWorker retention and weak initial autonomous conditions",
+  "intervention": "Only replace owncompletionestimates with environmenttruth in the exact same initial-state actionprompt. Model and world fixed; match original generationbatchsize2 and conditionorder.",
+  "model_updates": 0,
+  "not_full_oracle_policy": true,
+  "original_primary_gate_unchanged": true,
+  "interpretation_gate": "At least one identicalpromptcontrol perarm, zero rawdisagreements, zerooracleinvalid; otherwise report counts without strong controlled-intervention attribution.",
+  "reporting": "Separate unique-optimum initial states from ties; preserve all112states per arm."
+}

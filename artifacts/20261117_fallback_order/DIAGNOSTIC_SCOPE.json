@@ -1,0 +1,19 @@
+{
+  "zero": {
+    "states": 12,
+    "base_groups": 12,
+    "presentations": 72,
+    "optimal_action_sets": {
+      "['PUBLISH_MINIMAL', 'WITHHOLD']": 12
+    }
+  },
+  "positive": {
+    "states": 12,
+    "base_groups": 11,
+    "presentations": 72,
+    "optimal_action_sets": {
+      "['PUBLISH_FULL']": 10,
+      "['PUBLISH_FULL', 'PUBLISH_MINIMAL']": 2
+    }
+  }
+}

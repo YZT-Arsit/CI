@@ -1,0 +1,592 @@
+{
+  "scope": "Same112initialPlannerstates per checkpoint; oracle-input diagnostic only, not full oracle rollouts or learned-policy success",
+  "summaries": [
+    {
+      "arm": "correct_then_replay",
+      "queries": 224,
+      "query_correct": 172,
+      "query_invalid": 2,
+      "false_negative": 16,
+      "false_positive": 34,
+      "states": 112,
+      "all_queries_correct": 62,
+      "self_actor_optimal": 89,
+      "oracle_actor_optimal": 112,
+      "action_changed": 27,
+      "wrong_to_correct": 23,
+      "correct_to_wrong": 0,
+      "identical_prompts": 62,
+      "identical_prompt_raw_disagreements": 0,
+      "oracle_invalid": 0,
+      "unique_states": 80,
+      "self_unique_correct": 57,
+      "oracle_unique_correct": 80,
+      "unique_wrong_to_correct": 23,
+      "unique_correct_to_wrong": 0,
+      "conditions": {
+        "base_v0": {
+          "states": 8,
+          "self_optimal": 8,
+          "oracle_optimal": 8
+        },
+        "base_v0_swap": {
+          "states": 8,
+          "self_optimal": 8,
+          "oracle_optimal": 8
+        },
+        "base_v1": {
+          "states": 8,
+          "self_optimal": 8,
+          "oracle_optimal": 8
+        },
+        "base_v1_swap": {
+          "states": 8,
+          "self_optimal": 8,
+          "oracle_optimal": 8
+        },
+        "depth3_v0": {
+          "states": 4,
+          "self_optimal": 1,
+          "oracle_optimal": 4
+        },
+        "depth3_v0_swap": {
+          "states": 4,
+          "self_optimal": 3,
+          "oracle_optimal": 4
+        },
+        "depth3_v1": {
+          "states": 4,
+          "self_optimal": 4,
+          "oracle_optimal": 4
+        },
+        "depth3_v1_swap": {
+          "states": 4,
+          "self_optimal": 0,
+          "oracle_optimal": 4
+        },
+        "internal3_v0": {
+          "states": 4,
+          "self_optimal": 4,
+          "oracle_optimal": 4
+        },
+        "internal3_v0_swap": {
+          "states": 4,
+          "self_optimal": 1,
+          "oracle_optimal": 4
+        },
+        "internal3_v1": {
+          "states": 4,
+          "self_optimal": 3,
+          "oracle_optimal": 4
+        },
+        "internal3_v1_swap": {
+          "states": 4,
+          "self_optimal": 1,
+          "oracle_optimal": 4
+        },
+        "cycle4_v0": {
+          "states": 4,
+          "self_optimal": 1,
+          "oracle_optimal": 4
+        },
+        "cycle4_v0_swap": {
+          "states": 4,
+          "self_optimal": 3,
+          "oracle_optimal": 4
+        },
+        "cycle4_v1": {
+          "states": 4,
+          "self_optimal": 0,
+          "oracle_optimal": 4
+        },
+        "cycle4_v1_swap": {
+          "states": 4,
+          "self_optimal": 4,
+          "oracle_optimal": 4
+        },
+        "optional_v0": {
+          "states": 4,
+          "self_optimal": 4,
+          "oracle_optimal": 4
+        },
+        "optional_v1": {
+          "states": 4,
+          "self_optimal": 4,
+          "oracle_optimal": 4
+        },
+        "authorized_v0": {
+          "states": 4,
+          "self_optimal": 4,
+          "oracle_optimal": 4
+        },
+        "authorized_v1": {
+          "states": 4,
+          "self_optimal": 4,
+          "oracle_optimal": 4
+        },
+        "draft_v0": {
+          "states": 4,
+          "self_optimal": 4,
+          "oracle_optimal": 4
+        },
+        "draft_v1": {
+          "states": 4,
+          "self_optimal": 4,
+          "oracle_optimal": 4
+        },
+        "both_v0": {
+          "states": 4,
+          "self_optimal": 4,
+          "oracle_optimal": 4
+        },
+        "both_v1": {
+          "states": 4,
+          "self_optimal": 4,
+          "oracle_optimal": 4
+        }
+      }
+    },
+    {
+      "arm": "replay_then_correct",
+      "queries": 224,
+      "query_correct": 171,
+      "query_invalid": 0,
+      "false_negative": 17,
+      "false_positive": 36,
+      "states": 112,
+      "all_queries_correct": 61,
+      "self_actor_optimal": 89,
+      "oracle_actor_optimal": 112,
+      "action_changed": 29,
+      "wrong_to_correct": 23,
+      "correct_to_wrong": 0,
+      "identical_prompts": 61,
+      "identical_prompt_raw_disagreements": 0,
+      "oracle_invalid": 0,
+      "unique_states": 80,
+      "self_unique_correct": 57,
+      "oracle_unique_correct": 80,
+      "unique_wrong_to_correct": 23,
+      "unique_correct_to_wrong": 0,
+      "conditions": {
+        "base_v0": {
+          "states": 8,
+          "self_optimal": 8,
+          "oracle_optimal": 8
+        },
+        "base_v0_swap": {
+          "states": 8,
+          "self_optimal": 8,
+          "oracle_optimal": 8
+        },
+        "base_v1": {
+          "states": 8,
+          "self_optimal": 8,
+          "oracle_optimal": 8
+        },
+        "base_v1_swap": {
+          "states": 8,
+          "self_optimal": 8,
+          "oracle_optimal": 8
+        },
+        "depth3_v0": {
+          "states": 4,
+          "self_optimal": 1,
+          "oracle_optimal": 4
+        },
+        "depth3_v0_swap": {
+          "states": 4,
+          "self_optimal": 3,
+          "oracle_optimal": 4
+        },
+        "depth3_v1": {
+          "states": 4,
+          "self_optimal": 4,
+          "oracle_optimal": 4
+        },
+        "depth3_v1_swap": {
+          "states": 4,
+          "self_optimal": 0,
+          "oracle_optimal": 4
+        },
+        "internal3_v0": {
+          "states": 4,
+          "self_optimal": 4,
+          "oracle_optimal": 4
+        },
+        "internal3_v0_swap": {
+          "states": 4,
+          "self_optimal": 1,
+          "oracle_optimal": 4
+        },
+        "internal3_v1": {
+          "states": 4,
+          "self_optimal": 3,
+          "oracle_optimal": 4
+        },
+        "internal3_v1_swap": {
+          "states": 4,
+          "self_optimal": 1,
+          "oracle_optimal": 4
+        },
+        "cycle4_v0": {
+          "states": 4,
+          "self_optimal": 1,
+          "oracle_optimal": 4
+        },
+        "cycle4_v0_swap": {
+          "states": 4,
+          "self_optimal": 3,
+          "oracle_optimal": 4
+        },
+        "cycle4_v1": {
+          "states": 4,
+          "self_optimal": 0,
+          "oracle_optimal": 4
+        },
+        "cycle4_v1_swap": {
+          "states": 4,
+          "self_optimal": 4,
+          "oracle_optimal": 4
+        },
+        "optional_v0": {
+          "states": 4,
+          "self_optimal": 4,
+          "oracle_optimal": 4
+        },
+        "optional_v1": {
+          "states": 4,
+          "self_optimal": 4,
+          "oracle_optimal": 4
+        },
+        "authorized_v0": {
+          "states": 4,
+          "self_optimal": 4,
+          "oracle_optimal": 4
+        },
+        "authorized_v1": {
+          "states": 4,
+          "self_optimal": 4,
+          "oracle_optimal": 4
+        },
+        "draft_v0": {
+          "states": 4,
+          "self_optimal": 4,
+          "oracle_optimal": 4
+        },
+        "draft_v1": {
+          "states": 4,
+          "self_optimal": 4,
+          "oracle_optimal": 4
+        },
+        "both_v0": {
+          "states": 4,
+          "self_optimal": 4,
+          "oracle_optimal": 4
+        },
+        "both_v1": {
+          "states": 4,
+          "self_optimal": 4,
+          "oracle_optimal": 4
+        }
+      }
+    },
+    {
+      "arm": "interleaved",
+      "queries": 224,
+      "query_correct": 169,
+      "query_invalid": 0,
+      "false_negative": 21,
+      "false_positive": 34,
+      "states": 112,
+      "all_queries_correct": 59,
+      "self_actor_optimal": 87,
+      "oracle_actor_optimal": 112,
+      "action_changed": 30,
+      "wrong_to_correct": 25,
+      "correct_to_wrong": 0,
+      "identical_prompts": 59,
+      "identical_prompt_raw_disagreements": 0,
+      "oracle_invalid": 0,
+      "unique_states": 80,
+      "self_unique_correct": 55,
+      "oracle_unique_correct": 80,
+      "unique_wrong_to_correct": 25,
+      "unique_correct_to_wrong": 0,
+      "conditions": {
+        "base_v0": {
+          "states": 8,
+          "self_optimal": 8,
+          "oracle_optimal": 8
+        },
+        "base_v0_swap": {
+          "states": 8,
+          "self_optimal": 8,
+          "oracle_optimal": 8
+        },
+        "base_v1": {
+          "states": 8,
+          "self_optimal": 8,
+          "oracle_optimal": 8
+        },
+        "base_v1_swap": {
+          "states": 8,
+          "self_optimal": 8,
+          "oracle_optimal": 8
+        },
+        "depth3_v0": {
+          "states": 4,
+          "self_optimal": 1,
+          "oracle_optimal": 4
+        },
+        "depth3_v0_swap": {
+          "states": 4,
+          "self_optimal": 3,
+          "oracle_optimal": 4
+        },
+        "depth3_v1": {
+          "states": 4,
+          "self_optimal": 4,
+          "oracle_optimal": 4
+        },
+        "depth3_v1_swap": {
+          "states": 4,
+          "self_optimal": 0,
+          "oracle_optimal": 4
+        },
+        "internal3_v0": {
+          "states": 4,
+          "self_optimal": 3,
+          "oracle_optimal": 4
+        },
+        "internal3_v0_swap": {
+          "states": 4,
+          "self_optimal": 1,
+          "oracle_optimal": 4
+        },
+        "internal3_v1": {
+          "states": 4,
+          "self_optimal": 3,
+          "oracle_optimal": 4
+        },
+        "internal3_v1_swap": {
+          "states": 4,
+          "self_optimal": 1,
+          "oracle_optimal": 4
+        },
+        "cycle4_v0": {
+          "states": 4,
+          "self_optimal": 0,
+          "oracle_optimal": 4
+        },
+        "cycle4_v0_swap": {
+          "states": 4,
+          "self_optimal": 3,
+          "oracle_optimal": 4
+        },
+        "cycle4_v1": {
+          "states": 4,
+          "self_optimal": 0,
+          "oracle_optimal": 4
+        },
+        "cycle4_v1_swap": {
+          "states": 4,
+          "self_optimal": 4,
+          "oracle_optimal": 4
+        },
+        "optional_v0": {
+          "states": 4,
+          "self_optimal": 4,
+          "oracle_optimal": 4
+        },
+        "optional_v1": {
+          "states": 4,
+          "self_optimal": 4,
+          "oracle_optimal": 4
+        },
+        "authorized_v0": {
+          "states": 4,
+          "self_optimal": 4,
+          "oracle_optimal": 4
+        },
+        "authorized_v1": {
+          "states": 4,
+          "self_optimal": 4,
+          "oracle_optimal": 4
+        },
+        "draft_v0": {
+          "states": 4,
+          "self_optimal": 4,
+          "oracle_optimal": 4
+        },
+        "draft_v1": {
+          "states": 4,
+          "self_optimal": 4,
+          "oracle_optimal": 4
+        },
+        "both_v0": {
+          "states": 4,
+          "self_optimal": 4,
+          "oracle_optimal": 4
+        },
+        "both_v1": {
+          "states": 4,
+          "self_optimal": 4,
+          "oracle_optimal": 4
+        }
+      }
+    },
+    {
+      "arm": "initial",
+      "queries": 224,
+      "query_correct": 168,
+      "query_invalid": 0,
+      "false_negative": 20,
+      "false_positive": 36,
+      "states": 112,
+      "all_queries_correct": 59,
+      "self_actor_optimal": 88,
+      "oracle_actor_optimal": 112,
+      "action_changed": 30,
+      "wrong_to_correct": 24,
+      "correct_to_wrong": 0,
+      "identical_prompts": 59,
+      "identical_prompt_raw_disagreements": 0,
+      "oracle_invalid": 0,
+      "unique_states": 80,
+      "self_unique_correct": 56,
+      "oracle_unique_correct": 80,
+      "unique_wrong_to_correct": 24,
+      "unique_correct_to_wrong": 0,
+      "conditions": {
+        "base_v0": {
+          "states": 8,
+          "self_optimal": 8,
+          "oracle_optimal": 8
+        },
+        "base_v0_swap": {
+          "states": 8,
+          "self_optimal": 8,
+          "oracle_optimal": 8
+        },
+        "base_v1": {
+          "states": 8,
+          "self_optimal": 8,
+          "oracle_optimal": 8
+        },
+        "base_v1_swap": {
+          "states": 8,
+          "self_optimal": 8,
+          "oracle_optimal": 8
+        },
+        "depth3_v0": {
+          "states": 4,
+          "self_optimal": 1,
+          "oracle_optimal": 4
+        },
+        "depth3_v0_swap": {
+          "states": 4,
+          "self_optimal": 3,
+          "oracle_optimal": 4
+        },
+        "depth3_v1": {
+          "states": 4,
+          "self_optimal": 3,
+          "oracle_optimal": 4
+        },
+        "depth3_v1_swap": {
+          "states": 4,
+          "self_optimal": 1,
+          "oracle_optimal": 4
+        },
+        "internal3_v0": {
+          "states": 4,
+          "self_optimal": 4,
+          "oracle_optimal": 4
+        },
+        "internal3_v0_swap": {
+          "states": 4,
+          "self_optimal": 0,
+          "oracle_optimal": 4
+        },
+        "internal3_v1": {
+          "states": 4,
+          "self_optimal": 3,
+          "oracle_optimal": 4
+        },
+        "internal3_v1_swap": {
+          "states": 4,
+          "self_optimal": 1,
+          "oracle_optimal": 4
+        },
+        "cycle4_v0": {
+          "states": 4,
+          "self_optimal": 2,
+          "oracle_optimal": 4
+        },
+        "cycle4_v0_swap": {
+          "states": 4,
+          "self_optimal": 2,
+          "oracle_optimal": 4
+        },
+        "cycle4_v1": {
+          "states": 4,
+          "self_optimal": 0,
+          "oracle_optimal": 4
+        },
+        "cycle4_v1_swap": {
+          "states": 4,
+          "self_optimal": 4,
+          "oracle_optimal": 4
+        },
+        "optional_v0": {
+          "states": 4,
+          "self_optimal": 4,
+          "oracle_optimal": 4
+        },
+        "optional_v1": {
+          "states": 4,
+          "self_optimal": 4,
+          "oracle_optimal": 4
+        },
+        "authorized_v0": {
+          "states": 4,
+          "self_optimal": 4,
+          "oracle_optimal": 4
+        },
+        "authorized_v1": {
+          "states": 4,
+          "self_optimal": 4,
+          "oracle_optimal": 4
+        },
+        "draft_v0": {
+          "states": 4,
+          "self_optimal": 4,
+          "oracle_optimal": 4
+        },
+        "draft_v1": {
+          "states": 4,
+          "self_optimal": 4,
+          "oracle_optimal": 4
+        },
+        "both_v0": {
+          "states": 4,
+          "self_optimal": 4,
+          "oracle_optimal": 4
+        },
+        "both_v1": {
+          "states": 4,
+          "self_optimal": 4,
+          "oracle_optimal": 4
+        }
+      }
+    }
+  ],
+  "responses": 448,
+  "generation_seconds": 104.21410714099784,
+  "max_seconds": 0.6911484270003712,
+  "model_updates": 0,
+  "errors": 0,
+  "whole_goal_complete": false,
+  "intervention_controls_passed": true
+}

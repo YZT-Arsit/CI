@@ -1,0 +1,39 @@
+{
+  "result_consistency": "PASS",
+  "main_audit_errors": 0,
+  "planner_audit_errors": 0,
+  "full_policy_episodes": 448,
+  "model_updates": 321,
+  "free_responses": 6616,
+  "core_tests_run": 187,
+  "core_tests_skipped": 1,
+  "core_test_exit_code": 0,
+  "archive_checks": {
+    "archives": 115,
+    "raw_bytes": 6984816,
+    "compressed_bytes": 658052,
+    "fresh_restore": "PASS",
+    "idempotence": "PASS",
+    "different_evidence_refused": "PASS",
+    "python_sources_parsed": 15
+  },
+  "evidence_sha256": {
+    "RESULTS.json": "ef696f6a45f0f5cf6494cd11846bddeeec0bc516346385d42234284f0b29a804",
+    "PLANNER_PROBE_RESULTS.json": "c8cf332fe6436439ef366dd35840248dc4d4c5aaccde08dc845b90996f656d39",
+    "FAILURE_LOCATIONS.json": "ce2747e34181faf50ab2a59832828472f13f2547db1e0fa7ce2424f383812e44",
+    "DECISION.json": "438721d3814843d2dece27471fbbf27c37959a9ddc96ad3222d550f43d279098",
+    "REPORT.md": "04e1ac398db1650767011bdfc140d795f45410754f84cf88aef1e22eaf5b6865",
+    "audit_failure_locations.py": "39ed630f40e4e079037ce67d13dc8afa22bf60fa459546ca88acf8209a6688b1",
+    "QUERY_COVERAGE_RECHECK.json": "f0296ef8c95c6453010a08e2d52268511e0b48907b74f82c8e03408b732e9865",
+    "ARCHIVE_VERIFIED.json": "6ee5ac3bf5c1e6d9e690c2b9c0bf6c0ef5b7c668e571f2001bbfa391a2f433fe",
+    "EXACT_REPLAY_CONTROL.json": "309c53dd83b06147236a5d923fc6831001681f7303390dd1fb743bc925690d3d",
+    "CORE_TESTS.log": "50e5fba7b2fd7b7ae5ae2942b5313c8d7f9d0073fadbc7e5ac8f29581877128c",
+    "TEST_HISTORY.json": "464416da022d65ed92e428c1b59c1350f9e213284e6f5484d566964836fd3bdf",
+    "SEALED.json": "a4906f271a8a67f0bac04225e028ba99b3a71fa1c3a9a00631c08ba49fea21ed",
+    "PLANNER_PROBE_SEALED.json": "e9a3156992cc7a22bccc93539f9a7950d68ed6ebe43c1e23a161bd6c12e2eaca",
+    "REVIEW_NOTES.md": "40f176d904bd9737f76a169324f7cd96237eefe1bc524a39a4f4bd0eb7469e5b"
+  },
+  "gpu": "NO_GO",
+  "whole_goal_complete": false,
+  "final_agent_review": "PASS after restricting no-relapse claim to measured checkpoints"
+}
