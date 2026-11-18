@@ -7,6 +7,8 @@
 
 ## 当前进度
 
+**2026-11-17：关系—规范—任务组合续训完成。** 三起点、六续训检查点、720次CPU更新，14304新增响应。整体门槛未通过：两个起点有相对对照收益，但三个起点仍有不安全动作且配对关系能力退化。结果与失败条件见[报告](artifacts/20261117_composition_repair/REPORT.md)。关系事实仍由外部提供，本轮零自主轨迹，完整目标和大批量GPU门槛均未通过。[复现](artifacts/20261117_composition_repair/REPRODUCE.md)。
+
 **2026-11-17：关系事实到行动的接口诊断未通过。** 固定三个CPU模型，新增3264个响应，比较原问题、正确关系提示、反转提示与等长unknown提示。正确提示改善小样本深链历史配对，但总体判断/动作低于原问题，权限、Minimal和Stop组合出现退化。三个起点可靠性及增益门槛均失败；零新训练、零自主轨迹，关系事实来自外部诊断程序。完整目标未完成，大批量GPU维持NO_GO。见[本轮报告](artifacts/20261117_relation_bridge/REPORT.md)、[后续修复方案](artifacts/20261117_relation_bridge/SOLUTION.md)和[复现步骤](artifacts/20261117_relation_bridge/REPRODUCE.md)。
 
 最新续轮：[原任务判断重放修复](artifacts/20261117_task_rehearsal/REPORT.md)，[通俗方案](artifacts/20261117_task_rehearsal/SOLUTION.md)。三个起点各比较额外局部题与原任务判断监督，每模型54次更新，保留相同局部训练和行动重放；三日程共同进展判据未通过。新增6个CPU检查点、324次更新、8,112条响应和288个三阶段自主回合；复用2,736条固定面板响应。**完整关系机制、自然规范迁移和32步有效协作仍未完成，大批量GPU为NO_GO。** 原始记录恢复：`python -B tools/restore_task_rehearsal_artifacts.py`。
