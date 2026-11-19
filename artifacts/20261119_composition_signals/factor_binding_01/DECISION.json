@@ -1,0 +1,80 @@
+{
+  "decision": "NO_GO",
+  "study_goal": "KCI autonomous relation -> normative-utility composition minimum test",
+  "precommitted_gates": {
+    "dev_task_flip_margin": false,
+    "dev_task_hold_retention": true,
+    "dev_relation_gain": false,
+    "original_native_action_retention": false,
+    "original_native_unsafe_retention": false
+  },
+  "result_rows": [
+    {
+      "arm": "initial",
+      "dev_task": 105,
+      "dev_relation": 59,
+      "dev_task_flip": 9,
+      "dev_task_hold": 32,
+      "dev_relation_flip": 0,
+      "confirm_task": 179,
+      "confirm_relation": 96,
+      "confirm_task_flip": 3,
+      "native_direct_correct": 175,
+      "native_direct_optimal": 74,
+      "native_direct_unsafe": 4,
+      "native_self_correct": 157,
+      "native_self_optimal": 63,
+      "native_self_unsafe": 2,
+      "native_relation": 80
+    },
+    {
+      "arm": "task_replay_control",
+      "dev_task": 113,
+      "dev_relation": 46,
+      "dev_task_flip": 18,
+      "dev_task_hold": 31,
+      "dev_relation_flip": 0,
+      "confirm_task": 179,
+      "confirm_relation": 93,
+      "confirm_task_flip": 3,
+      "native_direct_correct": 180,
+      "native_direct_optimal": 74,
+      "native_direct_unsafe": 0,
+      "native_self_correct": 160,
+      "native_self_optimal": 63,
+      "native_self_unsafe": 6,
+      "native_relation": 68
+    },
+    {
+      "arm": "relation_factor",
+      "dev_task": 106,
+      "dev_relation": 61,
+      "dev_task_flip": 10,
+      "dev_task_hold": 32,
+      "dev_relation_flip": 2,
+      "confirm_task": 178,
+      "confirm_relation": 95,
+      "confirm_task_flip": 2,
+      "native_direct_correct": 171,
+      "native_direct_optimal": 72,
+      "native_direct_unsafe": 6,
+      "native_self_correct": 154,
+      "native_self_optimal": 56,
+      "native_self_unsafe": 1,
+      "native_relation": 81
+    }
+  ],
+  "failure_localization_hypothesis": "Insufficient learned relation recognition on paired DEV under this training budget; no evidence for reliable autonomous knowledge update.",
+  "next_move": "STOP local loss/format/batching tweaks. Review data task realism and model capacity; do not scale factor-supervision without new independent evidence.",
+  "confirmed_method_superiority": false,
+  "confirmed_long_horizon_ci_policy_learning": false,
+  "large_gpu": "NO_GO",
+  "notes": [
+    "Synthetic root-disjoint DEV explored, not blind generalization.",
+    "Depth4 confirm shares source tasks and grammar; cannot claim new domain transfer.",
+    "One CPU LoRA start and 64 updates per trained arm.",
+    "Control extra objective repeats task answers; factor extra objective is relation truth. Padded tokens differ.",
+    "No 32-step effective autonomous agent collaboration or externally validated natural CI norms.",
+    "Self-generated factor route is observational prompt intervention, not causal proof of internal reasoning."
+  ]
+}

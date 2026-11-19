@@ -1,0 +1,73 @@
+{
+  "study": "KCI autonomous relation -> normative-utility composition minimum test",
+  "arms": [
+    "task_replay_control",
+    "relation_factor"
+  ],
+  "start_checkpoint": "artifacts/20261117_composition_repair/study/truth17",
+  "start_seal": {
+    "steps": 120,
+    "initial_adapter_hashes": {
+      "adapter_config.json": "962ed6e71f0f3cd8f563679a110b736742c093f5421841fab629b557a171ba48",
+      "adapter_model.safetensors": "42b8e45e4e90631aa974675c4f7314befc4bcfe4dda89f05a6153f5e7e508bdb",
+      "README.md": "39d3d3aa2d89a2b4ab09cecd018fbbc4cebc3f4b2c6d9e85b81abc38a1dc4045"
+    },
+    "adapter_hashes": {
+      "adapter_config.json": "962ed6e71f0f3cd8f563679a110b736742c093f5421841fab629b557a171ba48",
+      "adapter_model.safetensors": "a420c084aa2e7b0d56890455e585a5450a3480a004e48a86c3b55c702de4ee9c",
+      "README.md": "39d3d3aa2d89a2b4ab09cecd018fbbc4cebc3f4b2c6d9e85b81abc38a1dc4045"
+    }
+  },
+  "cpu_training_seed": 17,
+  "updates_per_arm": 64,
+  "query_per_batch": 4,
+  "extra_per_batch": 4,
+  "actor_per_batch": 4,
+  "learning_rate": 0.0002,
+  "weight_decay": 0,
+  "gradient_clip": 1.0,
+  "model_output": "ANSWER binary",
+  "comparison": "same task, same source examples, same actor replay, same updates; extra branch ordinary task repeat vs relation target",
+  "primary_gate": "relation_factor must beat control and initial on flip, preserve hold and native actions, never increase unsafe, and improve self-predicted relation accuracy",
+  "thresholds": {
+    "dev_flip_margin_pairs": 2,
+    "hold_tolerance_pairs": 0,
+    "native_optimal_tolerance": 0,
+    "native_unsafe_tolerance": 0,
+    "factor_relation_improvement_min": 4
+  },
+  "stop_if_fails": true,
+  "next_if_passes": "repeat matched on seeds29/41 plus autonomous and external norms",
+  "confirm_scope": "closed-world same source tasks, depth4 structural shift within generator; not independent business norms",
+  "new_full_agent_32_step_validation": false,
+  "unknown_norms": false,
+  "no_paid_api": true,
+  "no_large_gpu": true,
+  "preflight_only": true,
+  "train_ready_for_acl": false,
+  "source_sha256": {
+    "factor_targets": "9a2b4955a2936128308358627c991458b11ab54dc0279d20100bd84852c210b6",
+    "train_candidates": "1c9f128f2c87d28e083ffb690393f2da721104df8f0e88f3b2d15b48a7bab89f",
+    "dev_candidates": "19aec3a4d2b486094995e18449d27667bb833ce6980efeac90f4e7d0cbbf5303",
+    "old_actor_replay": "3148d883df05ace03372adda70e3ce2d7320251d3110146702b87d9d439fcd7d"
+  },
+  "data_sha256": {
+    "train": "a8b85204e2b7ac0505f9dee349bb68a2c27e9042d0ac8e57dca9171959e31bde",
+    "dev": "2c63e0d20d09176a445f7bad814564fbb3c1b1f594334cb52a2d6d744edfa6bc",
+    "confirm_depth4": "ccd4f2eeaa2eeb6041e7d7734f695853765ec2fea9bdabc39e3534e156682019",
+    "schedule": "f233e5d597ae18d11520eec07a08cadb6f90daafeaf479f725d8f22f26790e1e"
+  },
+  "counts": {
+    "train": 128,
+    "dev": 128,
+    "confirm": 192,
+    "train_relation_labels": {
+      "0": 80,
+      "1": 48
+    },
+    "dev_relation_labels": {
+      "0": 80,
+      "1": 48
+    }
+  }
+}

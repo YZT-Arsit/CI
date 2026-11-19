@@ -1,0 +1,25 @@
+{
+  "scope": "same truth17 archived starting model / 80 frozen states / no new model call",
+  "archived_source_sha256": "d76f187511ab4896fbb1033f545efa90608aede352d4470b22a00b38d3dd0c9c",
+  "archived_oracle_external_truth": {
+    "query_correct": 185,
+    "actions_optimal": 77,
+    "unsafe_actions": 2
+  },
+  "archived_original_direct": {
+    "query_correct": 175,
+    "actions_optimal": 74,
+    "unsafe_actions": 4
+  },
+  "current_start_self_generated_relation": {
+    "query_correct": 157,
+    "actions_optimal": 63,
+    "unsafe_actions": 2
+  },
+  "current_start_direct": {
+    "query_correct": 175,
+    "actions_optimal": 74,
+    "unsafe_actions": 4
+  },
+  "interpretation": "True relation note is an external diagnosis and can help; noisy self-produced relation can harm. Does not prove a causal internal mediator."
+}

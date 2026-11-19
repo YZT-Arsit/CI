@@ -1,0 +1,37 @@
+{
+  "preflight": "PASS",
+  "model_calls": 0,
+  "plan_sha256": "e3d0533cadcfb6f59a699ac5cc9c356ec758732358853037af2ea19beb5a0539",
+  "metrics": {
+    "task_replay_control": {
+      "task_padded_tokens": 58664,
+      "extra_padded_tokens": 58664,
+      "actor_padded_tokens": 60352,
+      "max_sequence_length": 249,
+      "train_task_labels": {
+        "1": 64,
+        "0": 64
+      },
+      "train_relation_labels": {
+        "0": 80,
+        "1": 48
+      }
+    },
+    "relation_factor": {
+      "task_padded_tokens": 58664,
+      "extra_padded_tokens": 62504,
+      "actor_padded_tokens": 60352,
+      "max_sequence_length": 249,
+      "train_task_labels": {
+        "1": 64,
+        "0": 64
+      },
+      "train_relation_labels": {
+        "0": 80,
+        "1": 48
+      }
+    }
+  },
+  "comparison_limit": "Equal query/actor counts and updates, but extra objective and padded tokens differ",
+  "train_ready_for_formal_claim": false
+}

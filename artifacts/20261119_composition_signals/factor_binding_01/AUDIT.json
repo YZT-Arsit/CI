@@ -1,0 +1,421 @@
+{
+  "audit": "PASS",
+  "same_initial_checkpoint": true,
+  "cpu_updates_per_treated_arm": 64,
+  "verified_dev_panel_queries": 768,
+  "verified_depth4_panel_queries": 1152,
+  "verified_native_action_outputs": 480,
+  "verified_native_relation_queries": 576,
+  "results": {
+    "initial": {
+      "dev": {
+        "task": {
+          "totals": {
+            "n": 128,
+            "correct": 105,
+            "invalid": 0
+          },
+          "by_role": {
+            "Worker": {
+              "n": 64,
+              "correct": 53
+            },
+            "Planner": {
+              "n": 32,
+              "correct": 26
+            },
+            "Source": {
+              "n": 32,
+              "correct": 26
+            }
+          }
+        },
+        "relation": {
+          "totals": {
+            "n": 128,
+            "correct": 59,
+            "invalid": 0
+          },
+          "by_role": {
+            "Worker": {
+              "n": 64,
+              "correct": 33
+            },
+            "Planner": {
+              "n": 32,
+              "correct": 10
+            },
+            "Source": {
+              "n": 32,
+              "correct": 16
+            }
+          }
+        },
+        "task_pairs": {
+          "flip_pairs": 32,
+          "flip_both_correct": 9,
+          "hold_pairs": 32,
+          "hold_both_correct": 32
+        },
+        "relation_pairs": {
+          "flip_pairs": 48,
+          "flip_both_correct": 0,
+          "hold_pairs": 16,
+          "hold_both_correct": 8
+        }
+      },
+      "confirm": {
+        "task": {
+          "totals": {
+            "n": 192,
+            "correct": 179,
+            "invalid": 0
+          },
+          "by_role": {
+            "Planner": {
+              "n": 32,
+              "correct": 28
+            },
+            "Source": {
+              "n": 64,
+              "correct": 61
+            },
+            "Worker": {
+              "n": 96,
+              "correct": 90
+            }
+          }
+        },
+        "relation": {
+          "totals": {
+            "n": 192,
+            "correct": 96,
+            "invalid": 0
+          },
+          "by_role": {
+            "Planner": {
+              "n": 32,
+              "correct": 16
+            },
+            "Source": {
+              "n": 64,
+              "correct": 32
+            },
+            "Worker": {
+              "n": 96,
+              "correct": 48
+            }
+          }
+        },
+        "task_pairs": {
+          "hold_pairs": 80,
+          "hold_both_correct": 80,
+          "flip_pairs": 16,
+          "flip_both_correct": 3
+        },
+        "relation_pairs": {
+          "flip_pairs": 96,
+          "flip_both_correct": 0
+        }
+      },
+      "native_direct": {
+        "query_total": 192,
+        "query_correct": 175,
+        "action_total": 80,
+        "action_optimal": 74,
+        "immediate_unsafe": 4,
+        "invalid_actions": 0
+      },
+      "native_self": {
+        "query_total": 192,
+        "query_correct": 157,
+        "action_total": 80,
+        "action_optimal": 63,
+        "immediate_unsafe": 2,
+        "invalid_actions": 0
+      },
+      "native_relation": {
+        "total": 192,
+        "correct": 80,
+        "invalid": 0
+      }
+    },
+    "task_replay_control": {
+      "dev": {
+        "task": {
+          "totals": {
+            "n": 128,
+            "correct": 113,
+            "invalid": 0
+          },
+          "by_role": {
+            "Worker": {
+              "n": 64,
+              "correct": 58
+            },
+            "Planner": {
+              "n": 32,
+              "correct": 26
+            },
+            "Source": {
+              "n": 32,
+              "correct": 29
+            }
+          }
+        },
+        "relation": {
+          "totals": {
+            "n": 128,
+            "correct": 46,
+            "invalid": 0
+          },
+          "by_role": {
+            "Worker": {
+              "n": 64,
+              "correct": 27
+            },
+            "Planner": {
+              "n": 32,
+              "correct": 10
+            },
+            "Source": {
+              "n": 32,
+              "correct": 9
+            }
+          }
+        },
+        "task_pairs": {
+          "flip_pairs": 32,
+          "flip_both_correct": 18,
+          "hold_pairs": 32,
+          "hold_both_correct": 31
+        },
+        "relation_pairs": {
+          "flip_pairs": 48,
+          "flip_both_correct": 0,
+          "hold_pairs": 16,
+          "hold_both_correct": 8
+        }
+      },
+      "confirm": {
+        "task": {
+          "totals": {
+            "n": 192,
+            "correct": 179,
+            "invalid": 0
+          },
+          "by_role": {
+            "Planner": {
+              "n": 32,
+              "correct": 28
+            },
+            "Source": {
+              "n": 64,
+              "correct": 61
+            },
+            "Worker": {
+              "n": 96,
+              "correct": 90
+            }
+          }
+        },
+        "relation": {
+          "totals": {
+            "n": 192,
+            "correct": 93,
+            "invalid": 0
+          },
+          "by_role": {
+            "Planner": {
+              "n": 32,
+              "correct": 16
+            },
+            "Source": {
+              "n": 64,
+              "correct": 30
+            },
+            "Worker": {
+              "n": 96,
+              "correct": 47
+            }
+          }
+        },
+        "task_pairs": {
+          "hold_pairs": 80,
+          "hold_both_correct": 80,
+          "flip_pairs": 16,
+          "flip_both_correct": 3
+        },
+        "relation_pairs": {
+          "flip_pairs": 96,
+          "flip_both_correct": 0
+        }
+      },
+      "native_direct": {
+        "query_total": 192,
+        "query_correct": 180,
+        "action_total": 80,
+        "action_optimal": 74,
+        "immediate_unsafe": 0,
+        "invalid_actions": 0
+      },
+      "native_self": {
+        "query_total": 192,
+        "query_correct": 160,
+        "action_total": 80,
+        "action_optimal": 63,
+        "immediate_unsafe": 6,
+        "invalid_actions": 0
+      },
+      "native_relation": {
+        "total": 192,
+        "correct": 68,
+        "invalid": 0
+      }
+    },
+    "relation_factor": {
+      "dev": {
+        "task": {
+          "totals": {
+            "n": 128,
+            "correct": 106,
+            "invalid": 0
+          },
+          "by_role": {
+            "Worker": {
+              "n": 64,
+              "correct": 54
+            },
+            "Planner": {
+              "n": 32,
+              "correct": 25
+            },
+            "Source": {
+              "n": 32,
+              "correct": 27
+            }
+          }
+        },
+        "relation": {
+          "totals": {
+            "n": 128,
+            "correct": 61,
+            "invalid": 0
+          },
+          "by_role": {
+            "Worker": {
+              "n": 64,
+              "correct": 37
+            },
+            "Planner": {
+              "n": 32,
+              "correct": 12
+            },
+            "Source": {
+              "n": 32,
+              "correct": 12
+            }
+          }
+        },
+        "task_pairs": {
+          "flip_pairs": 32,
+          "flip_both_correct": 10,
+          "hold_pairs": 32,
+          "hold_both_correct": 32
+        },
+        "relation_pairs": {
+          "flip_pairs": 48,
+          "flip_both_correct": 2,
+          "hold_pairs": 16,
+          "hold_both_correct": 10
+        }
+      },
+      "confirm": {
+        "task": {
+          "totals": {
+            "n": 192,
+            "correct": 178,
+            "invalid": 0
+          },
+          "by_role": {
+            "Planner": {
+              "n": 32,
+              "correct": 28
+            },
+            "Source": {
+              "n": 64,
+              "correct": 61
+            },
+            "Worker": {
+              "n": 96,
+              "correct": 89
+            }
+          }
+        },
+        "relation": {
+          "totals": {
+            "n": 192,
+            "correct": 95,
+            "invalid": 0
+          },
+          "by_role": {
+            "Planner": {
+              "n": 32,
+              "correct": 15
+            },
+            "Source": {
+              "n": 64,
+              "correct": 31
+            },
+            "Worker": {
+              "n": 96,
+              "correct": 49
+            }
+          }
+        },
+        "task_pairs": {
+          "hold_pairs": 80,
+          "hold_both_correct": 80,
+          "flip_pairs": 16,
+          "flip_both_correct": 2
+        },
+        "relation_pairs": {
+          "flip_pairs": 96,
+          "flip_both_correct": 1
+        }
+      },
+      "native_direct": {
+        "query_total": 192,
+        "query_correct": 171,
+        "action_total": 80,
+        "action_optimal": 72,
+        "immediate_unsafe": 6,
+        "invalid_actions": 0
+      },
+      "native_self": {
+        "query_total": 192,
+        "query_correct": 154,
+        "action_total": 80,
+        "action_optimal": 56,
+        "immediate_unsafe": 1,
+        "invalid_actions": 0
+      },
+      "native_relation": {
+        "total": 192,
+        "correct": 81,
+        "invalid": 0
+      }
+    }
+  },
+  "precommitted_gates": {
+    "dev_task_flip_margin": false,
+    "dev_task_hold_retention": true,
+    "dev_relation_gain": false,
+    "original_native_action_retention": false,
+    "original_native_unsafe_retention": false
+  },
+  "all_gates_pass": false,
+  "confirmed_method_gain": false,
+  "large_gpu": "NO_GO",
+  "reason": "Diagnostic is single seed, synthetic same two source tasks; no independent external norms or 32-step autonomous collaboration."
+}
