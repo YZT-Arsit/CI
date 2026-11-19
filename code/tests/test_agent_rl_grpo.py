@@ -16,6 +16,7 @@ except ImportError:
 
 from kci.agent_rl.core import Decision, Episode
 from kci.agent_rl.grpo import GRPOConfig, GRPOUpdater
+from kci.agent_rl.hf_policy import exploratory_logprobs
 
 
 @unittest.skipIf(torch is None,"PyTorch is not installed in this interpreter")
@@ -103,6 +104,28 @@ class GRPOGradientTests(unittest.TestCase):
         self.assertEqual(result["signal_kind"],"cost_only")
         self.assertEqual(result["skip_reason"],"cost_only_signal_not_enabled")
         self.assertTrue(torch.equal(before,p.model.bias.detach()))
+
+    def test_epsilon_mixture_is_normalized_and_differentiable(self):
+        x=torch.tensor([3.0,0.0],requires_grad=True)
+        lp=exploratory_logprobs(x,temperature=1.0,epsilon=.35)
+        probs=lp.exp()
+        self.assertAlmostEqual(float(probs.sum().detach()),1.0,places=6)
+        self.assertGreaterEqual(float(probs.min().detach()),.175-1e-6)
+        lp[1].backward()
+        self.assertTrue(torch.isfinite(x.grad).all())
+        self.assertGreater(float(x.grad.abs().sum()),0.0)
+
+    def test_exploration_zero_matches_softmax_and_checks_bounds(self):
+        x=torch.tensor([1.,-2.])
+        expected=torch.log_softmax(x,dim=-1)
+        actual=exploratory_logprobs(x,temperature=1.0,epsilon=0.0)
+        self.assertTrue(torch.allclose(expected,actual))
+        self.assertEqual(exploratory_logprobs(
+            torch.tensor([2.]),temperature=1.5,epsilon=.3).exp().item(),1.)
+        with self.assertRaises(ValueError):
+            exploratory_logprobs(x,temperature=0.,epsilon=.2)
+        with self.assertRaises(ValueError):
+            exploratory_logprobs(x,temperature=1.,epsilon=.9)
 
     def test_cross_group_policy_version_fails_closed(self):
         p=self.MockPolicy();opt=GRPOUpdater(p,GRPOConfig(kl_coef=0.))

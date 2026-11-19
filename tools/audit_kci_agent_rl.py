@@ -140,7 +140,8 @@ def main():
         current.update(env.source_hashes)
     assert config["source_hashes"]==current
     results={}
-    folders=[f for f in (out,out/"dev_before",out/"dev_after") if (f/"episodes.jsonl").exists()]
+    dev_milestones=sorted(p for p in out.glob("dev_at_*") if p.is_dir())
+    folders=[f for f in (out,out/"dev_before",*dev_milestones,out/"dev_after") if (f/"episodes.jsonl").exists()]
     for folder in folders:
         results[folder.relative_to(out).as_posix()]=audit_folder(folder,source_root)
     assert results

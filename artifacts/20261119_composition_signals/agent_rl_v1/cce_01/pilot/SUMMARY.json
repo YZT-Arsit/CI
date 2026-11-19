@@ -1,0 +1,51 @@
+{
+  "source": "verified 64-group Qwen 4B 512 sampled episodes",
+  "archive_sha256": "453e5d76c84f1bbde37458b56bd294c6ea558850d6f06bbf926db5a53d3113d1",
+  "groups": 64,
+  "episodes": 512,
+  "steps": 2342,
+  "distinct_branching_prefixes": 352,
+  "signal_categories": {
+    "cost_gap": 94,
+    "reachable_gap": 235,
+    "equal_legal": 15,
+    "one_legal": 8
+  },
+  "role_phase": {
+    "('Broker', 'choose')": {
+      "cost_gap": 15,
+      "reachable_gap": 1
+    },
+    "('Broker', 'collect')": {
+      "cost_gap": 39,
+      "reachable_gap": 13,
+      "equal_legal": 4,
+      "one_legal": 4
+    },
+    "('JoinTool', 'reduce')": {
+      "reachable_gap": 66,
+      "equal_legal": 10
+    },
+    "('Broker', 'notify')": {
+      "reachable_gap": 61
+    },
+    "('Planner', 'choose')": {
+      "cost_gap": 16
+    },
+    "('HR', 'hr')": {
+      "one_legal": 4,
+      "cost_gap": 24,
+      "reachable_gap": 3
+    },
+    "('Room', 'book')": {
+      "reachable_gap": 46,
+      "equal_legal": 1
+    },
+    "('Planner', 'notify')": {
+      "reachable_gap": 45
+    }
+  },
+  "oracle": "exact native task reachability Q*, training-only, NOT policy continuation",
+  "no_model_training": true,
+  "no_claim_of_business_generalization": true
+}

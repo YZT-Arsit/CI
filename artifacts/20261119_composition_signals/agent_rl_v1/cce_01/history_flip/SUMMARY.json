@@ -1,0 +1,48 @@
+{
+  "checks": "PASS",
+  "source": "native source-adapted synthetic DynamicTask",
+  "pairing": "same source+permission+action prefix, unrelated vs related delivered history",
+  "max_prefix_actions": 5,
+  "counts": {
+    "compared_prefixes": 384,
+    "history_sensitive_prefixes": 40,
+    "both_legal_future_changed_prefixes": 24,
+    "immediate_ci_change_prefixes": 24,
+    "future_reachability_change_prefixes": 25
+  },
+  "by_role": {
+    "Planner": {
+      "compared": 56,
+      "history_sensitive": 8,
+      "reachability_changed": 0,
+      "both_legal_future_changed": 8
+    },
+    "HR": {
+      "compared": 32,
+      "history_sensitive": 8,
+      "reachability_changed": 8,
+      "both_legal_future_changed": 0
+    },
+    "Room": {
+      "compared": 56,
+      "history_sensitive": 0,
+      "reachability_changed": 0,
+      "both_legal_future_changed": 0
+    },
+    "Broker": {
+      "compared": 128,
+      "history_sensitive": 24,
+      "reachability_changed": 17,
+      "both_legal_future_changed": 16
+    },
+    "JoinTool": {
+      "compared": 112,
+      "history_sensitive": 0,
+      "reachability_changed": 0,
+      "both_legal_future_changed": 0
+    }
+  },
+  "no_gpu": true,
+  "no_real_norm_validation": true,
+  "cce_eligibility_does_not_prove_policy_expected_advantage": true
+}

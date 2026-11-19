@@ -52,8 +52,27 @@ class GRPOUpdater:
             self.params, lr=cfg.lr, weight_decay=0.0)
         self.optimizer_steps = 0
 
-    def update(self, group: list[Episode]) -> dict:
+    def update(self, group: list[Episode], *,
+               local_credits: list[dict[int, float]] | None = None,
+               cce_weight: float = 0.0) -> dict:
+        from .cce import score_credit
+        if not 0 <= cce_weight <= 1:
+            raise ValueError("CCE weight outside [0,1]")
+        if local_credits is not None:
+            if len(local_credits) != len(group):
+                raise ValueError("CCE credit count differs from sampled episode count")
+            for episode, credits in zip(group,local_credits):
+                if not isinstance(credits,dict):
+                    raise TypeError("CCE credits must be per-episode decision maps")
+                for step,value in credits.items():
+                    if type(step) is not int or not 0<=step<len(episode.decisions):
+                        raise ValueError("CCE credit points outside model decision trace")
+                    if not math.isfinite(value) or not -1.000001<=value<=1.000001:
+                        raise ValueError("Invalid CCE local credit")
+        usable_local=(local_credits is not None and cce_weight>0 and
+                      any(abs(v)>1e-8 for credits in local_credits for v in credits.values()))
         advantages = group_advantages(group)
+        terminal_advantage_missing = advantages is None
         rewards = [e.reward for e in group]
         base = {
             "group_id": group[0].scenario_key,
@@ -63,15 +82,26 @@ class GRPOUpdater:
             "safe_success": sum(e.success and not e.violation for e in group),
             "violations": sum(e.violation for e in group),
             "optimizer_step": self.optimizer_steps,
+            "cce_weight": cce_weight if local_credits is not None else 0.0,
+            "cce_nonzero_local_decisions": sum(abs(x)>1e-8 for c in (local_credits or []) for x in c.values()),
         }
         if any(e.policy_id != self.policy.policy_id for e in group):
             raise RuntimeError("Mixed old-policy versions in a GRPO group")
         base["signal_kind"] = group_signal(group)
-        if advantages is None:
+        if advantages is None and not usable_local:
             return {**base, "updated": False, "skip_reason": "zero_reward_variance"}
         if base["signal_kind"] == "cost_only" and not self.cfg.train_cost_only:
-            return {**base, "updated": False,
-                    "skip_reason": "cost_only_signal_not_enabled"}
+            if not usable_local:
+                return {**base, "updated": False,
+                        "skip_reason": "cost_only_signal_not_enabled"}
+            # Do not normalize tiny pure-cost terminal differences into large
+            # GRPO advantages. The strong teacher's verified state contrast
+            # alone supplies credits in this upper-bound mechanism test.
+            advantages = [0.0 for _ in group]
+        if advantages is None:
+            advantages = [0.0 for _ in group]
+        local_only=(terminal_advantage_missing or
+                    (base["signal_kind"]=="cost_only" and not self.cfg.train_cost_only))
         branch_counts = [
             sum(len(d.actions) > 1 for d in e.decisions) for e in group
         ]
@@ -90,11 +120,14 @@ class GRPOUpdater:
         pg_losses = []
         used = 0
         n = len(group)
-        for episode, adv, branch in zip(group, advantages, branch_counts):
+        for ep_idx, (episode, adv, branch) in enumerate(zip(group, advantages, branch_counts)):
             if branch == 0:
                 continue
-            for decision in episode.decisions:
+            for step_idx,decision in enumerate(episode.decisions):
                 if len(decision.actions) <= 1:
+                    continue
+                local=(local_credits[ep_idx].get(step_idx) if local_credits is not None else None)
+                if local_only and (local is None or abs(local)<1e-8):
                     continue
                 lp = self.policy.log_distribution(
                     decision.prompt, tuple(decision.actions))
@@ -106,8 +139,9 @@ class GRPOUpdater:
                 ratio = delta.exp()
                 if not self.torch.isfinite(ratio):
                     raise RuntimeError("Non-finite importance ratio")
+                decision_adv=score_credit(adv,local,cce_weight)
                 a = self.torch.tensor(
-                    adv, device=lp.device, dtype=lp.dtype)
+                    decision_adv, device=lp.device, dtype=lp.dtype)
                 pg = -self.torch.minimum(
                     ratio * a,
                     ratio.clamp(1 - self.cfg.clip_eps,

@@ -66,7 +66,8 @@ def policy(args,trainable=False):
        quantization="4bit" if args.bits4 else "none",dtype=args.dtype,
        max_prompt_tokens=args.max_prompt_tokens,
        allow_download=args.allow_download,lora_rank=args.lora_rank,
-       lora_alpha=args.lora_alpha,gradient_checkpointing=args.gradient_checkpointing)
+       lora_alpha=args.lora_alpha,gradient_checkpointing=args.gradient_checkpointing,
+       temperature=args.temperature,explore_epsilon=args.explore_epsilon)
 def make_fresh(path):
     if path is None:raise ValueError("--output required")
     p=Path(path).resolve()
@@ -101,28 +102,80 @@ def train(policy_obj,out,args,source_root):
                    train_cost_only=args.train_cost_only)
     write(out/"GRPO_CONFIG.json",asdict(cfg))
     updater=GRPOUpdater(policy_obj,cfg)
+    if args.credit_mode == "cce_oracle":
+        from kci.agent_rl.cce import NativeCCEOracle
+        teacher=NativeCCEOracle(source_root=source_root,
+                                min_q_gap=args.cce_min_gap)
+        write(out/"CCE_CONFIG.json",{
+            "mode":"native_exact_synthetic_Qstar_teacher",
+            "scope":"TRAIN-only; no Qstar in policy observation",
+            "weight":args.cce_weight,
+            "minimum_q_difference":args.cce_min_gap,
+            "eligible_role_phases":[["Planner","choose"],["Broker","choose"],
+                                    ["Broker","collect"],["HR","hr"]],
+            "not_frozen_policy_expected_return":True,
+            "not_complete_KCI_CCE_DPR_method":True
+        })
+    else:
+        teacher=None
     dev_seed=args.seed+700000
     before_dir=out/"dev_before";before_dir.mkdir()
     before=evaluate(policy_obj,before_dir,"dev",dev_seed,args.dev_world_limit,args.group_size,source_root)
     write(before_dir/"SUMMARY.json",before)
     worlds=world_order("train",args.seed,len(scenarios("train")))
+    learning_curve=[{"after_attempted_groups":0,"optimizer_steps":0,"dev":before}]
     for idx in range(args.max_updates):
         world=worlds[idx%len(worlds)]
         policy_obj.policy_id=f"hf:{args.model}:old_step_{updater.optimizer_steps}"
         group=sample_group(world,policy_obj,args.group_size,
                            args.seed+1000000+2897*idx,source_root=source_root)
-        result=updater.update(group)
+        if teacher is None:
+            result=updater.update(group)
+        else:
+            credits,proofs,evidence=teacher.make_credits(world,group)
+            for item in proofs:
+                append(out/"cce_proofs.jsonl",{"training_group":idx,**item})
+            result=updater.update(group,local_credits=credits,
+                                  cce_weight=args.cce_weight)
+            result["cce_evidence"]=evidence
+            result["cce_proof_count"]=len(proofs)
         result["group_index"]=idx
         record_group(out,group,result)
         print(json.dumps({"group":idx+1,"updated":result["updated"],
                "safe_success":result["safe_success"],
                "violations":result["violations"],"optimizer_steps":updater.optimizer_steps}),flush=True)
+        if args.eval_every and (idx+1)%args.eval_every==0 and (idx+1)<args.max_updates:
+            marker=idx+1
+            dirname=f"dev_at_{marker:04d}"
+            eval_dir=out/dirname
+            eval_dir.mkdir()
+            policy_obj.policy_id=f"hf:{args.model}:eval_after_{updater.optimizer_steps}_updates"
+            point=evaluate(
+                policy_obj,eval_dir,"dev",dev_seed,
+                args.dev_world_limit,args.group_size,source_root)
+            write(eval_dir/"SUMMARY.json",point)
+            if args.save_milestone_adapters:
+                policy_obj.save_adapter(out/f"adapter_at_{marker:04d}")
+            learning_curve.append({"after_attempted_groups":marker,
+                                   "optimizer_steps":updater.optimizer_steps,
+                                   "dev":point})
+            print(json.dumps({"dev_milestone":marker,
+                 "optimizer_steps":updater.optimizer_steps,
+                 "safe_success":point["safe_success"],
+                 "violations":point["violations"],
+                 "informative_groups":point["outcome_contrast_groups"]}),flush=True)
     policy_obj.save_adapter(out/"adapter")
     policy_obj.policy_id=f"hf:{args.model}:updated_step_{updater.optimizer_steps}"
     after_dir=out/"dev_after";after_dir.mkdir()
     after=evaluate(policy_obj,after_dir,"dev",dev_seed,args.dev_world_limit,args.group_size,source_root)
     write(after_dir/"SUMMARY.json",after)
+    learning_curve.append({"after_attempted_groups":args.max_updates,
+                           "optimizer_steps":updater.optimizer_steps,
+                           "dev":after})
     write(out/"SUMMARY.json",{"stage":"bounded_on_policy_action_grpo",
+        "dev_learning_curve":learning_curve,
+        "credit_mode":args.credit_mode,
+        "cce_teacher_is_training_only":True,
         "before":before,"after":after,"groups_attempted":args.max_updates,
         "optimizer_steps":updater.optimizer_steps,
         "same_dev_scenarios_seeds":True,
@@ -144,9 +197,16 @@ def parse_args():
     p.add_argument("--dev-world-limit",type=int,default=8)
     p.add_argument("--seed",type=int,default=9111926)
     p.add_argument("--max-updates",type=int,default=8)
+    p.add_argument("--eval-every",type=int,default=0,
+                   help="Run matched developed DEV every N attempted groups, 0 means final only")
+    p.add_argument("--save-milestone-adapters",action="store_true")
     p.add_argument("--dtype",choices=("fp32","fp16","bf16"),default="fp32")
     p.add_argument("--bits4",action="store_true")
     p.add_argument("--max-prompt-tokens",type=int,default=4096)
+    p.add_argument("--temperature",type=float,default=1.0,
+                   help="Fixed temperature for BOTH sampling and log-prob training")
+    p.add_argument("--explore-epsilon",type=float,default=0.0,
+                   help="On-policy epsilon mixture: (1-eps)*softmax+eps/uniform")
     p.add_argument("--lora-rank",type=int,default=8)
     p.add_argument("--lora-alpha",type=int,default=16)
     p.add_argument("--gradient-checkpointing",action="store_true")
@@ -156,6 +216,9 @@ def parse_args():
     p.add_argument("--entropy-coef",type=float,default=0.)
     p.add_argument("--grad-clip",type=float,default=1.)
     p.add_argument("--train-cost-only",action="store_true")
+    p.add_argument("--credit-mode",choices=("terminal","cce_oracle"),default="terminal")
+    p.add_argument("--cce-weight",type=float,default=.5)
+    p.add_argument("--cce-min-gap",type=float,default=.005)
     p.add_argument("--confirm-gpu-training",action="store_true")
     p.add_argument("--allow-cpu-smoke",action="store_true")
     return p.parse_args()
@@ -177,6 +240,12 @@ def main():
              "cuda_available":cuda,"cuda_devices":gpu_count,
              "hf_model_not_loaded":True,"no_training":True}));return
     if not 2<=a.group_size<=32:raise ValueError("Use 2..32 rollouts per group")
+    if a.eval_every<0:
+        raise ValueError("--eval-every cannot be negative")
+    if a.credit_mode=="cce_oracle" and a.mode!="train":
+        raise ValueError("Counterfactual oracle may be used for TRAINING only")
+    if not 0<a.cce_weight<=1 or not 0<a.cce_min_gap<=1:
+        raise ValueError("CCE weight or Q gap invalid")
     if a.mode=="train":
         if a.backend!="hf" or not a.confirm_gpu_training:
             raise ValueError("Real HF training requires --confirm-gpu-training")
@@ -189,6 +258,14 @@ def main():
         if torch.cuda.is_available() and a.bits4 and a.dtype=="bf16" and not torch.cuda.is_bf16_supported():
             raise RuntimeError("This CUDA GPU cannot run bf16")
     if not a.output:raise ValueError("--output required")
+    if a.mode=="train":
+        # Fresh LoRA initialization must be reproducible across identical runs.
+        # The source, model path, and loaded weights are separately hashed.
+        import torch
+        random.seed(a.seed)
+        torch.manual_seed(a.seed)
+        if torch.cuda.is_available():
+            torch.cuda.manual_seed_all(a.seed)
     obj=policy(a,trainable=a.mode=="train")
     out=make_fresh(a.output)
     revision=subprocess.run(["git","-C",str(ROOT),"rev-parse","HEAD"],

@@ -14,15 +14,41 @@ from pathlib import Path
 from .core import ActionSample, LETTERS
 
 
+def exploratory_logprobs(action_logits, *, temperature: float = 1.0,
+                         epsilon: float = 0.0):
+    """Differentiable on-policy mixture: (1-eps)*softmax(logits/T) + eps/|A|.
+
+    The same mixture must be used for action sampling, stored OLD log-probs,
+    CURRENT log-probs, and frozen-reference KL. No off-policy uniform actions.
+    """
+    import torch
+    if not 0 < temperature <= 8:
+        raise ValueError("Temperature must be in (0,8]")
+    if not 0 <= epsilon <= 0.75:
+        raise ValueError("Exploration epsilon must be in [0,.75]")
+    if action_logits.ndim != 1 or action_logits.numel() == 0:
+        raise ValueError("Expected a nonempty action logit vector")
+    logp = torch.log_softmax(action_logits.float() / temperature, dim=-1)
+    if epsilon:
+        uniform = torch.full_like(logp, math.log(epsilon / logp.numel()))
+        logp = torch.logaddexp(logp + math.log1p(-epsilon), uniform)
+    if not torch.isfinite(logp).all():
+        raise RuntimeError("Nonfinite exploratory action probabilities")
+    return logp
+
+
 class HFActionPolicy:
     def __init__(self, *, model_path: str, adapter: str | None = None,
                  trainable: bool = False, quantization: str = "none",
                  dtype: str = "bf16", max_prompt_tokens: int = 4096,
                  allow_download: bool = False, lora_rank: int = 8,
-                 lora_alpha: int = 16, gradient_checkpointing: bool = False):
+                 lora_alpha: int = 16, gradient_checkpointing: bool = False,
+                 temperature: float = 1.0, explore_epsilon: float = 0.0):
         import torch
         from transformers import AutoModelForCausalLM, AutoTokenizer
 
+        if not 0 < temperature <= 8 or not 0 <= explore_epsilon <= 0.75:
+            raise ValueError("Invalid fixed on-policy sampling parameters")
         if quantization not in ("none", "4bit"):
             raise ValueError("Quantization must be none or 4bit")
         if dtype not in ("fp32", "fp16", "bf16"):
@@ -44,7 +70,12 @@ class HFActionPolicy:
         torch_dtype = {"fp32": torch.float32, "fp16": torch.float16,
                        "bf16": torch.bfloat16}[dtype]
         self.torch = torch
-        self.policy_id = f"hf-categorical:{model_path}:{adapter or ('fresh-lora' if trainable else 'base')}"
+        self.policy_id = (
+            f"hf-categorical:{model_path}:{adapter or ('fresh-lora' if trainable else 'base')}"
+            f":temp{temperature}:eps{explore_epsilon}"
+        )
+        self.temperature = temperature
+        self.explore_epsilon = explore_epsilon
         self.model_path = model_path
         self.trainable = trainable
         self.max_prompt_tokens = max_prompt_tokens
@@ -150,7 +181,9 @@ class HFActionPolicy:
         else:
             logits = self.model(**kwargs).logits[0, -1, :]
         selected = logits[self.label_ids[:n]].float()
-        result = self.torch.log_softmax(selected, dim=-1)
+        result = exploratory_logprobs(
+            selected, temperature=self.temperature, epsilon=self.explore_epsilon
+        )
         if not self.torch.isfinite(result).all():
             raise RuntimeError("Non-finite legal-action probabilities")
         return result
