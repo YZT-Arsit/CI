@@ -148,7 +148,7 @@ def probe_or_train(a,model,folder,specs):
                        grad_clip=1.,train_cost_only=False)
         updater=GRPOUpdater(model,cfg)
         write(folder/"GRPO_CONFIG.json",asdict(cfg))
-    if a.credit_mode=="policy_cce" or a.probe_credit:
+    if a.credit_mode=="policy_cce" or a.probe_credit or a.matched_budget_teacher:
         teacher=StateDirectedPCCE(
            source_root=source_root,n_continuations=a.cce_rollouts,
            minimum_gap=a.cce_min_gap,
@@ -164,7 +164,9 @@ def probe_or_train(a,model,folder,specs):
            "terminal_gradient_preserved_by_additive_credit":True,
            "local_weight":a.cce_weight,
            "no_ideal_Qstar_labels_in_credit":True,
-           "no_curriculum_label_in_policy_prompt":True})
+           "no_curriculum_label_in_policy_prompt":True,
+           "local_credit_applied_to_gradient":a.credit_mode=="policy_cce",
+           "counterfactual_budget_only_control":bool(a.matched_budget_teacher)})
     dev_seed=a.seed+700000
     if a.mode=="train":
         ev=folder/"dev_before";ev.mkdir()
@@ -255,6 +257,8 @@ def parser():
     p.add_argument("--dev-world-limit",type=int,default=12)
     p.add_argument("--seed",type=int,default=9111926)
     p.add_argument("--credit-mode",choices=("terminal","policy_cce"),default="terminal")
+    p.add_argument("--matched-budget-teacher",action="store_true",
+                   help="Control arm computes the same Qpi branches but applies NO local credit")
     p.add_argument("--probe-credit",action="store_true",
                    help="Do frozen-policy Qpi evidence in a PROBE; no optimizer")
     p.add_argument("--cce-rollouts",type=int,default=4)
@@ -294,6 +298,8 @@ def main():
         raise ValueError("Probe uses --probe-credit; no training credit labels")
     if a.mode=="train" and a.probe_credit:
         raise ValueError("Training uses --credit-mode policy_cce")
+    if a.matched_budget_teacher and (a.mode!="train" or a.credit_mode!="terminal"):
+        raise ValueError("Matched-budget teacher can be used only with terminal-only TRAIN control")
     root=Path(a.source_root).resolve()
     path=Path(a.selection).resolve()
     specs,selected,hashes=load_selection(path,root)
