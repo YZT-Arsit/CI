@@ -86,6 +86,15 @@ class HFActionPolicy:
                 task_type="CAUSAL_LM")
             self.model = get_peft_model(self.model, config)
             self.model.config.use_cache = False
+            # Training uses model.train() to activate checkpointing; any
+            # stochastic dropout would make logged rollout probabilities
+            # inconsistent with the differentiable policy distribution.
+            nonzero_dropout = [(name, m.p) for name, m in self.model.named_modules()
+                               if isinstance(m, torch.nn.Dropout) and m.p > 0]
+            attention_dropout = float(getattr(self.model.config, "attention_dropout", 0.0))
+            if nonzero_dropout or attention_dropout:
+                raise RuntimeError("Action GRPO v1 requires a zero-dropout model: "
+                                   + str((nonzero_dropout[:3], attention_dropout)))
         elif adapter:
             from peft import PeftModel
             self.model = PeftModel.from_pretrained(

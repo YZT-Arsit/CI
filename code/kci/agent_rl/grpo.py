@@ -80,8 +80,10 @@ class GRPOUpdater:
                     "skip_reason": "no_trainable_branch_decisions"}
 
         self.optimizer.zero_grad(set_to_none=True)
-        # Preserve dropout-free action distributions across old/new/ref logp.
-        self.policy.model.eval()
+        # Enable activation checkpointing while training large QLoRA models.
+        # LoRA dropout is fixed at zero; model configuration must also have
+        # zero base dropout to preserve rollout/optimization policy identity.
+        self.policy.model.train()
         ratios = []
         divergences = []
         entropies = []
