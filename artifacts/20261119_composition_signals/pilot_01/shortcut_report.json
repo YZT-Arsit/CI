@@ -1,0 +1,55 @@
+{
+  "baseline": "history_blind_majority_per_role_action_and_factors",
+  "training_examples": 768,
+  "dev_examples": 768,
+  "dev_accuracy": 0.9583333333333334,
+  "dev_correct": 736,
+  "dev_total": 768,
+  "dev_flip_pair_both_correct": 0,
+  "dev_flip_pairs": 32,
+  "dev_hold_pair_both_correct": 352,
+  "dev_hold_pairs": 352,
+  "by_role": {
+    "Planner": {
+      "correct": 120,
+      "n": 128
+    },
+    "Source": {
+      "correct": 248,
+      "n": 256
+    },
+    "Worker": {
+      "correct": 368,
+      "n": 384
+    }
+  },
+  "by_role_pair": {
+    "('Planner', 'flip')": {
+      "correct": 0,
+      "n": 8
+    },
+    "('Planner', 'hold')": {
+      "correct": 56,
+      "n": 56
+    },
+    "('Source', 'flip')": {
+      "correct": 0,
+      "n": 8
+    },
+    "('Source', 'hold')": {
+      "correct": 120,
+      "n": 120
+    },
+    "('Worker', 'flip')": {
+      "correct": 0,
+      "n": 16
+    },
+    "('Worker', 'hold')": {
+      "correct": 176,
+      "n": 176
+    }
+  },
+  "interpretation": "High individual accuracy is not evidence of relation learning; this baseline deliberately cannot read historical edges.",
+  "not_independent_business_generalization": true,
+  "no_training_performed": true
+}

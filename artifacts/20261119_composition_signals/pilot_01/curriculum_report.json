@@ -1,0 +1,21 @@
+{
+  "selected_pairs": 64,
+  "flip_pairs": 32,
+  "hold_pairs": 32,
+  "candidate_rows": 128,
+  "positive": 64,
+  "negative": 64,
+  "roles": {
+    "('Planner', 'flip')": 8,
+    "('Planner', 'hold')": 8,
+    "('Source', 'flip')": 8,
+    "('Source', 'hold')": 8,
+    "('Worker', 'flip')": 16,
+    "('Worker', 'hold')": 16
+  },
+  "label_provenance": "native exact action continuation; not GPT generated",
+  "data_exposure": "TRAIN split only; DEV not read for selection",
+  "trained_or_verified_model_gain": false,
+  "independent_business_diversity": false,
+  "training_ready": false
+}
