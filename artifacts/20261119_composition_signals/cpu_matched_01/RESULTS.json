@@ -1,0 +1,238 @@
+{
+  "arms": {
+    "initial": {
+      "dev": {
+        "summary": {
+          "individual_total": 128,
+          "individual_correct": 105,
+          "unknown": 0,
+          "flip_pairs": 32,
+          "flip_both_correct": 9,
+          "hold_pairs": 32,
+          "hold_both_correct": 32
+        },
+        "by_role": {
+          "Planner": {
+            "individual_total": 32,
+            "individual_correct": 26,
+            "flip_pairs": 8,
+            "flip_both_correct": 2,
+            "hold_pairs": 8,
+            "hold_both_correct": 8
+          },
+          "Source": {
+            "individual_total": 32,
+            "individual_correct": 26,
+            "flip_pairs": 8,
+            "flip_both_correct": 2,
+            "hold_pairs": 8,
+            "hold_both_correct": 8
+          },
+          "Worker": {
+            "individual_total": 64,
+            "individual_correct": 53,
+            "flip_pairs": 16,
+            "flip_both_correct": 5,
+            "hold_pairs": 16,
+            "hold_both_correct": 16
+          }
+        }
+      },
+      "native": {
+        "summary": {
+          "query_correct": 175,
+          "query_total": 192,
+          "action_total": 80,
+          "action_optimal": 74,
+          "immediate_unsafe": 4,
+          "invalid_actions": 0
+        },
+        "by_role": {
+          "Planner": {
+            "query_correct": 28,
+            "query_total": 32,
+            "action_total": 16,
+            "action_optimal": 14,
+            "immediate_unsafe": 0
+          },
+          "Source": {
+            "query_correct": 57,
+            "query_total": 64,
+            "action_total": 32,
+            "action_optimal": 32,
+            "immediate_unsafe": 0
+          },
+          "Worker": {
+            "query_correct": 90,
+            "query_total": 96,
+            "action_total": 32,
+            "action_optimal": 28,
+            "immediate_unsafe": 4
+          }
+        },
+        "panel_scope": "Previously developed native fixed states; NOT a blind test or autonomous trajectory"
+      },
+      "identity": {
+        "initial": "a3204a9c55d2ffe3abf20130626e91684313a0b3b4362e7c4e29c1331af08949",
+        "after": "a3204a9c55d2ffe3abf20130626e91684313a0b3b4362e7c4e29c1331af08949"
+      }
+    },
+    "paired": {
+      "dev": {
+        "summary": {
+          "individual_total": 128,
+          "individual_correct": 106,
+          "unknown": 0,
+          "flip_pairs": 32,
+          "flip_both_correct": 14,
+          "hold_pairs": 32,
+          "hold_both_correct": 31
+        },
+        "by_role": {
+          "Planner": {
+            "individual_total": 32,
+            "individual_correct": 24,
+            "flip_pairs": 8,
+            "flip_both_correct": 1,
+            "hold_pairs": 8,
+            "hold_both_correct": 8
+          },
+          "Source": {
+            "individual_total": 32,
+            "individual_correct": 29,
+            "flip_pairs": 8,
+            "flip_both_correct": 6,
+            "hold_pairs": 8,
+            "hold_both_correct": 7
+          },
+          "Worker": {
+            "individual_total": 64,
+            "individual_correct": 53,
+            "flip_pairs": 16,
+            "flip_both_correct": 7,
+            "hold_pairs": 16,
+            "hold_both_correct": 16
+          }
+        }
+      },
+      "native": {
+        "summary": {
+          "query_correct": 177,
+          "query_total": 192,
+          "action_total": 80,
+          "action_optimal": 73,
+          "immediate_unsafe": 1,
+          "invalid_actions": 0
+        },
+        "by_role": {
+          "Planner": {
+            "query_correct": 27,
+            "query_total": 32,
+            "action_total": 16,
+            "action_optimal": 14,
+            "immediate_unsafe": 0
+          },
+          "Source": {
+            "query_correct": 59,
+            "query_total": 64,
+            "action_total": 32,
+            "action_optimal": 31,
+            "immediate_unsafe": 0
+          },
+          "Worker": {
+            "query_correct": 91,
+            "query_total": 96,
+            "action_total": 32,
+            "action_optimal": 28,
+            "immediate_unsafe": 1
+          }
+        },
+        "panel_scope": "Previously developed native fixed states; NOT a blind test or autonomous trajectory"
+      },
+      "identity": {
+        "initial": "a3204a9c55d2ffe3abf20130626e91684313a0b3b4362e7c4e29c1331af08949",
+        "after": "af43acfc02c0cb6b3b86342208a267f21c1ec0af86cfc734d167e2c8de86a402"
+      }
+    },
+    "shuffled": {
+      "dev": {
+        "summary": {
+          "individual_total": 128,
+          "individual_correct": 111,
+          "unknown": 0,
+          "flip_pairs": 32,
+          "flip_both_correct": 15,
+          "hold_pairs": 32,
+          "hold_both_correct": 32
+        },
+        "by_role": {
+          "Planner": {
+            "individual_total": 32,
+            "individual_correct": 26,
+            "flip_pairs": 8,
+            "flip_both_correct": 2,
+            "hold_pairs": 8,
+            "hold_both_correct": 8
+          },
+          "Source": {
+            "individual_total": 32,
+            "individual_correct": 30,
+            "flip_pairs": 8,
+            "flip_both_correct": 6,
+            "hold_pairs": 8,
+            "hold_both_correct": 8
+          },
+          "Worker": {
+            "individual_total": 64,
+            "individual_correct": 55,
+            "flip_pairs": 16,
+            "flip_both_correct": 7,
+            "hold_pairs": 16,
+            "hold_both_correct": 16
+          }
+        }
+      },
+      "native": {
+        "summary": {
+          "query_correct": 174,
+          "query_total": 192,
+          "action_total": 80,
+          "action_optimal": 69,
+          "immediate_unsafe": 0,
+          "invalid_actions": 0
+        },
+        "by_role": {
+          "Planner": {
+            "query_correct": 27,
+            "query_total": 32,
+            "action_total": 16,
+            "action_optimal": 14,
+            "immediate_unsafe": 0
+          },
+          "Source": {
+            "query_correct": 60,
+            "query_total": 64,
+            "action_total": 32,
+            "action_optimal": 31,
+            "immediate_unsafe": 0
+          },
+          "Worker": {
+            "query_correct": 87,
+            "query_total": 96,
+            "action_total": 32,
+            "action_optimal": 24,
+            "immediate_unsafe": 0
+          }
+        },
+        "panel_scope": "Previously developed native fixed states; NOT a blind test or autonomous trajectory"
+      },
+      "identity": {
+        "initial": "a3204a9c55d2ffe3abf20130626e91684313a0b3b4362e7c4e29c1331af08949",
+        "after": "6accddbce18461559a7e0660df374c30b6e5d43215720c3c93a939ea85e876e8"
+      }
+    }
+  },
+  "comparison_scope": "Matched CPU training; synthetic-developed DEV and native regression; no causality beyond batch organization",
+  "formal_method_contribution_established": false,
+  "gpu_training": "NO_GO"
+}

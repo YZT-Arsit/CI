@@ -1,0 +1,53 @@
+{
+  "version": "kci-cpu-matched-01",
+  "seed": 17,
+  "arms": [
+    "paired",
+    "shuffled"
+  ],
+  "updates_per_arm": 32,
+  "query_batch_size": 4,
+  "replay_actor_batch_size": 4,
+  "lr": 0.0002,
+  "optimizer": "AdamW",
+  "clip": 1.0,
+  "max_tokens": 1024,
+  "model_start_path": "artifacts/20261117_composition_repair/study/truth17",
+  "model_start_seal": {
+    "steps": 120,
+    "initial_adapter_hashes": {
+      "adapter_config.json": "962ed6e71f0f3cd8f563679a110b736742c093f5421841fab629b557a171ba48",
+      "adapter_model.safetensors": "42b8e45e4e90631aa974675c4f7314befc4bcfe4dda89f05a6153f5e7e508bdb",
+      "README.md": "39d3d3aa2d89a2b4ab09cecd018fbbc4cebc3f4b2c6d9e85b81abc38a1dc4045"
+    },
+    "adapter_hashes": {
+      "adapter_config.json": "962ed6e71f0f3cd8f563679a110b736742c093f5421841fab629b557a171ba48",
+      "adapter_model.safetensors": "a420c084aa2e7b0d56890455e585a5450a3480a004e48a86c3b55c702de4ee9c",
+      "README.md": "39d3d3aa2d89a2b4ab09cecd018fbbc4cebc3f4b2c6d9e85b81abc38a1dc4045"
+    }
+  },
+  "source_commit": "13c2997",
+  "training_scope": "existing task query and actor replay; no new independent business tasks",
+  "task_split": "source-adapted / developed synthetic grammar / dev not blind",
+  "relevant_label_coverage": {
+    "flip_pairs": 32,
+    "hold_pairs": 32,
+    "positive_queries": 64,
+    "negative_queries": 64
+  },
+  "source_hashes": {
+    "train": "4434919fdd8db8c69c2e3b97820f9aa9e1c25a7078c489b4aa7bf615c4aa4909",
+    "dev": "247e005a0da9d3a24c4264d5d20885d16603329b8d6434e364122d488cb2550e",
+    "old_actor": "3148d883df05ace03372adda70e3ce2d7320251d3110146702b87d9d439fcd7d"
+  },
+  "no_paid_api": true,
+  "no_large_gpu": true,
+  "study_status": "PREFLIGHT_ONLY",
+  "train_ready_as_formal_dpo": false,
+  "frozen_data_hashes": {
+    "dev_panel.jsonl": "19aec3a4d2b486094995e18449d27667bb833ce6980efeac90f4e7d0cbbf5303",
+    "paired_steps.jsonl": "500291b4b30b6d8a983fa1408455ac7502cfff204fccd6e860334eca77f9aa47",
+    "shuffled_steps.jsonl": "67934a9fe5d90443171eef0845d10f9dfe1e5c9e36276096e09b6d64a70bd7c6",
+    "train_panel.jsonl": "1c9f128f2c87d28e083ffb690393f2da721104df8f0e88f3b2d15b48a7bab89f"
+  }
+}

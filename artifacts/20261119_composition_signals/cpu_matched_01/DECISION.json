@@ -1,0 +1,61 @@
+{
+  "study": "32-step CPU LoRA batch grouping, seed 17",
+  "audit": "PASS",
+  "model_start": "artifacts/20261117_composition_repair/study/truth17",
+  "training_queries_identical_both_arms": true,
+  "matched_actor_replay": true,
+  "updates_per_treated_arm": 32,
+  "preflight_padded_query_tokens": {
+    "paired": 28860,
+    "shuffled": 29332
+  },
+  "model_results": [
+    {
+      "arm": "initial",
+      "individual_correct": 105,
+      "flip_both_correct": 9,
+      "hold_both_correct": 32,
+      "native_query_correct": 175,
+      "native_action_optimal": 74,
+      "native_immediate_unsafe": 4,
+      "native_invalid": 0
+    },
+    {
+      "arm": "paired",
+      "individual_correct": 106,
+      "flip_both_correct": 14,
+      "hold_both_correct": 31,
+      "native_query_correct": 177,
+      "native_action_optimal": 73,
+      "native_immediate_unsafe": 1,
+      "native_invalid": 0
+    },
+    {
+      "arm": "shuffled",
+      "individual_correct": 111,
+      "flip_both_correct": 15,
+      "hold_both_correct": 32,
+      "native_query_correct": 174,
+      "native_action_optimal": 69,
+      "native_immediate_unsafe": 0,
+      "native_invalid": 0
+    }
+  ],
+  "diagnostic_gate": {
+    "paired_flip_strictly_better_than_both": false,
+    "paired_hold_not_worse_than_both": false,
+    "paired_native_actions_not_worse_than_both": false,
+    "paired_native_unsafe_not_worse_than_both": false,
+    "paired_native_queries_not_worse_than_both": true
+  },
+  "diagnostic_gate_passed": false,
+  "gpu_training": "NO_GO",
+  "paper_level_method_claim": false,
+  "limitations": [
+    "single training seed and developed synthetic two-task grammar",
+    "batch grouping changes padding, not strictly equal compute",
+    "binary per-candidate supervision, not new long-horizon preference optimization",
+    "fixed-state action evaluation, not autonomous full agent task",
+    "no external norm verification, not independent business transfer"
+  ]
+}
