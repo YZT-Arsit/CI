@@ -1,0 +1,24 @@
+{
+  "aborted_episodes": 19,
+  "cost_only_groups": 0,
+  "decision_tokens": 155,
+  "groups": 8,
+  "informative_groups": 6,
+  "mean_action_steps": 4.84375,
+  "mean_decision_entropy": 0.49199832835466023,
+  "mean_reward": -0.045312500000000006,
+  "model_training_occurred": false,
+  "model_weights_verified_for_action_tokens": false,
+  "outcome_contrast_groups": 6,
+  "policy_backend": "random",
+  "policy_ids": [
+    "uniform-legal-action-control"
+  ],
+  "private_route_episodes": 11,
+  "rollouts": 32,
+  "safe_failure": 19,
+  "safe_success": 6,
+  "scope": "source-adapted synthetic KCI multi-step executor; not business-domain TEST",
+  "violations": 7,
+  "zero_variance_groups": 2
+}
