@@ -1,0 +1,74 @@
+{
+  "study": "PCCE_onpolicy_Qpi_additive_gradient_fixed_8_group",
+  "frozen_qpi": {
+    "status": "COMPLETE_INFERENCE_ONLY",
+    "selected_prefixes": 16,
+    "source_train_conditions_not_blind_TEST": true,
+    "rankings": {
+      "policy_tie": 6,
+      "agree": 10
+    },
+    "counts": {
+      "model_forks": 16,
+      "branch_rollouts": 256,
+      "high_confidence_qpi_action_preference": 10,
+      "policy_qpi_rank_different_from_Qstar": 0,
+      "policy_ties_despite_teacher_preference": 6
+    },
+    "paired_history": {
+      "history_pairs": 8,
+      "Qstar_action_value_changed": 4,
+      "Qpi_action_value_changed": 4,
+      "Qpi_preference_changed": 4
+    },
+    "checkpoint": "hf-categorical:/root/autodl-tmp/kci_models/Qwen3-4B-Instruct-2507-ms:base:temp1.0:eps0.35",
+    "cannot_claim_joint_CI_policy_gain": true,
+    "no_optimizer_or_parameter_updates": true,
+    "Qstar_not_policy_expected_value": true,
+    "not_a_significance_test": true,
+    "recommended_next_step": "Review high-confidence Qpi/Qstar conflicts before using policy-conditioned CCE to train."
+  },
+  "pcce_8": {
+    "before": {
+      "safe_success": 41,
+      "violations": 19,
+      "safe_failure": 36
+    },
+    "after": {
+      "safe_success": 41,
+      "violations": 19,
+      "safe_failure": 36
+    },
+    "counts": {
+      "queried_prefixes": 18,
+      "supported_prefixes": 1,
+      "additional_frozen_policy_rollouts": 144,
+      "proofs": 8,
+      "optimizer_updates": 8
+    },
+    "mean_preclip_gradient_norm": 0.8980873203836381,
+    "mean_reference_kl": 0.00012887148810553762,
+    "proof_role_counts": {
+      "Planner": 8
+    },
+    "proof_signs": {
+      "negative": 7,
+      "positive": 1
+    }
+  },
+  "pilot_gates": {
+    "all_required_audits_PASS": true,
+    "real_4b_optimizer_steps_positive": true,
+    "at_least_two_supported_early_prefixes": false,
+    "nonzero_policy_credits": true,
+    "DEV_task_success_retained": true,
+    "DEV_privacy_violations_not_increased": true
+  },
+  "pilot_passed": false,
+  "next_action": "STOP_64_GROUP_SCALING__INSUFFICIENT_SUPPORTED_COUNTERFACTUAL_PREFIXES",
+  "fix_needed": "Improve training-state exposure and replay to verified history-sensitive early decisions; do not lower fixed confidence gate post hoc.",
+  "policy_gradients_confirmed": true,
+  "independent_business_generalization_proven": false,
+  "method_superiority_proven": false,
+  "GPUs_used_for_offline_analysis": 0
+}

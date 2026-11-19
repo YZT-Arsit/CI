@@ -54,8 +54,11 @@ class GRPOUpdater:
 
     def update(self, group: list[Episode], *,
                local_credits: list[dict[int, float]] | None = None,
-               cce_weight: float = 0.0) -> dict:
+               cce_weight: float = 0.0,
+               credit_style: str = "convex") -> dict:
         from .cce import score_credit
+        if credit_style not in ("convex","additive"):
+            raise ValueError("Unrecognized local credit composition rule")
         if not 0 <= cce_weight <= 1:
             raise ValueError("CCE weight outside [0,1]")
         if local_credits is not None:
@@ -83,6 +86,7 @@ class GRPOUpdater:
             "violations": sum(e.violation for e in group),
             "optimizer_step": self.optimizer_steps,
             "cce_weight": cce_weight if local_credits is not None else 0.0,
+            "credit_style":credit_style,
             "cce_nonzero_local_decisions": sum(abs(x)>1e-8 for c in (local_credits or []) for x in c.values()),
         }
         if any(e.policy_id != self.policy.policy_id for e in group):
@@ -139,7 +143,12 @@ class GRPOUpdater:
                 ratio = delta.exp()
                 if not self.torch.isfinite(ratio):
                     raise RuntimeError("Non-finite importance ratio")
-                decision_adv=score_credit(adv,local,cce_weight)
+                if local is not None and credit_style=="additive":
+                    # Preserve proven terminal signal; apply only calibrated
+                    # policy-conditioned credit at its actual decision point.
+                    decision_adv=adv+cce_weight*local
+                else:
+                    decision_adv=score_credit(adv,local,cce_weight)
                 a = self.torch.tensor(
                     decision_adv, device=lp.device, dtype=lp.dtype)
                 pg = -self.torch.minimum(

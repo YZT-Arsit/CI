@@ -131,6 +131,10 @@ class HFActionPolicy:
             self.model = PeftModel.from_pretrained(
                 self.model, adapter, is_trainable=False,
                 local_files_only=not allow_download)
+        if not trainable:
+            # Frozen reference/continuation evaluations must not retain
+            # accidentally trainable pretrained base model parameters.
+            self.model.requires_grad_(False)
         self.model.eval()
         self.label_ids = self._verify_action_tokens()
         self.dtype = dtype

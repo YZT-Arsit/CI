@@ -116,6 +116,28 @@ def train(policy_obj,out,args,source_root):
             "not_frozen_policy_expected_return":True,
             "not_complete_KCI_CCE_DPR_method":True
         })
+    elif args.credit_mode == "policy_cce":
+        from kci.agent_rl.policy_cce import PolicyCCEEstimator
+        teacher=PolicyCCEEstimator(
+            source_root=source_root,
+            n_continuations=args.policy_cce_rollouts,
+            min_mean_gap=args.policy_cce_min_gap,
+            min_consensus=args.policy_cce_min_consensus,
+            max_prefixes_per_group=args.policy_cce_max_prefixes,
+            seed=args.seed+870112)
+        write(out/"POLICY_CCE_CONFIG.json",{
+            "method":"on_policy_Qpi_same_prefix_continuation",
+            "uses_native_Qstar":False,
+            "local_credit_style":"additive",
+            "terminal_grpo_gradient_preserved":True,
+            "n_frozen_continuations_per_action":args.policy_cce_rollouts,
+            "minimum_raw_return_gap":args.policy_cce_min_gap,
+            "minimum_paired_direction_consensus":args.policy_cce_min_consensus,
+            "maximum_early_prefixes_per_training_group":args.policy_cce_max_prefixes,
+            "inference_oracle_truth_exposed":False,
+            "fixed_reference_policy":"the current frozen-at-group-collection LM",
+            "pilot_only_no_research_superiority_claim":True
+        })
     else:
         teacher=None
     dev_seed=args.seed+700000
@@ -131,14 +153,27 @@ def train(policy_obj,out,args,source_root):
                            args.seed+1000000+2897*idx,source_root=source_root)
         if teacher is None:
             result=updater.update(group)
-        else:
+        elif args.credit_mode=="cce_oracle":
             credits,proofs,evidence=teacher.make_credits(world,group)
             for item in proofs:
                 append(out/"cce_proofs.jsonl",{"training_group":idx,**item})
             result=updater.update(group,local_credits=credits,
-                                  cce_weight=args.cce_weight)
+                                  cce_weight=args.cce_weight,
+                                  credit_style="convex")
             result["cce_evidence"]=evidence
             result["cce_proof_count"]=len(proofs)
+        else:
+            # The weights are frozen between on-policy group sampling,
+            # frozen Q_pi continuation, and the single optimizer update.
+            credits,proofs,evidence=teacher.make_credits(
+                world,group,policy_obj,group_index=idx)
+            for item in proofs:
+                append(out/"policy_cce_proofs.jsonl",item)
+            result=updater.update(group,local_credits=credits,
+                                  cce_weight=args.cce_weight,
+                                  credit_style="additive")
+            result["policy_cce_evidence"]=evidence
+            result["policy_cce_proof_count"]=len(proofs)
         result["group_index"]=idx
         record_group(out,group,result)
         print(json.dumps({"group":idx+1,"updated":result["updated"],
@@ -216,7 +251,11 @@ def parse_args():
     p.add_argument("--entropy-coef",type=float,default=0.)
     p.add_argument("--grad-clip",type=float,default=1.)
     p.add_argument("--train-cost-only",action="store_true")
-    p.add_argument("--credit-mode",choices=("terminal","cce_oracle"),default="terminal")
+    p.add_argument("--credit-mode",choices=("terminal","cce_oracle","policy_cce"),default="terminal")
+    p.add_argument("--policy-cce-rollouts",type=int,default=4)
+    p.add_argument("--policy-cce-min-gap",type=float,default=.5)
+    p.add_argument("--policy-cce-min-consensus",type=float,default=.75)
+    p.add_argument("--policy-cce-max-prefixes",type=int,default=4)
     p.add_argument("--cce-weight",type=float,default=.5)
     p.add_argument("--cce-min-gap",type=float,default=.005)
     p.add_argument("--confirm-gpu-training",action="store_true")
@@ -242,8 +281,12 @@ def main():
     if not 2<=a.group_size<=32:raise ValueError("Use 2..32 rollouts per group")
     if a.eval_every<0:
         raise ValueError("--eval-every cannot be negative")
-    if a.credit_mode=="cce_oracle" and a.mode!="train":
-        raise ValueError("Counterfactual oracle may be used for TRAINING only")
+    if a.credit_mode!="terminal" and a.mode!="train":
+        raise ValueError("Local counterfactual credit applies only to TRAINING")
+    if not 2<=a.policy_cce_rollouts<=16 or not 0<a.policy_cce_min_gap<=2:
+        raise ValueError("Policy CCE rollout budget or return gap invalid")
+    if not .5<a.policy_cce_min_consensus<=1 or not 1<=a.policy_cce_max_prefixes<=16:
+        raise ValueError("Policy CCE confidence threshold or prefix budget invalid")
     if not 0<a.cce_weight<=1 or not 0<a.cce_min_gap<=1:
         raise ValueError("CCE weight or Q gap invalid")
     if a.mode=="train":

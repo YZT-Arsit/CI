@@ -1,0 +1,375 @@
+{
+  "version": "policy-conditioned-CI-Qpi-diagnostic-v1",
+  "source_archive_sha256": "453e5d76c84f1bbde37458b56bd294c6ea558850d6f06bbf926db5a53d3113d1",
+  "train_episodes": 512,
+  "candidate_history_prefixes": 64,
+  "eligible_history_pairs": 40,
+  "eligible_history_sensitive": 8,
+  "eligible_history_insensitive": 32,
+  "selected_history_pairs": 8,
+  "selected_forks": 16,
+  "n_rollouts_per_action": 8,
+  "max_policy_action_branch_rollouts": 256,
+  "selected_history_sensitive": 4,
+  "selected_reachability_sensitive": 1,
+  "source_business_generalization": false,
+  "uses_known_train_prefixes": true,
+  "fixed_checkpoint": "Qwen3-4B-Instruct-2507-ms base, local, frozen, temp=1 epsilon=.35",
+  "policy_gradient_allowed": false,
+  "qstar_teacher_only_selection_and_diagnostic": true,
+  "selected_pair_metadata": [
+    {
+      "kind": "meeting",
+      "allow": false,
+      "horizon": 7,
+      "prefix": [],
+      "role": "Planner",
+      "phase": "choose",
+      "actions": [
+        "PRIVATE_BOOKING",
+        "SEND_ROSTER"
+      ],
+      "native_qstar_unrelated": {
+        "SEND_ROSTER": {
+          "legal": true,
+          "reachable": true,
+          "q": 0.95,
+          "optimal_terminal_turn": 5
+        },
+        "PRIVATE_BOOKING": {
+          "legal": true,
+          "reachable": true,
+          "q": 0.94,
+          "optimal_terminal_turn": 6
+        }
+      },
+      "native_qstar_related": {
+        "SEND_ROSTER": {
+          "legal": true,
+          "reachable": true,
+          "q": 0.9299999999999999,
+          "optimal_terminal_turn": 7
+        },
+        "PRIVATE_BOOKING": {
+          "legal": true,
+          "reachable": true,
+          "q": 0.94,
+          "optimal_terminal_turn": 6
+        }
+      },
+      "history_sensitive_qstar": true,
+      "history_sensitive_reachability": false,
+      "largest_within_state_qstar_gap": 0.010000000000000009
+    },
+    {
+      "kind": "query",
+      "allow": false,
+      "horizon": 7,
+      "prefix": [],
+      "role": "Broker",
+      "phase": "choose",
+      "actions": [
+        "OPEN_INDEX",
+        "OPEN_VAULT"
+      ],
+      "native_qstar_unrelated": {
+        "OPEN_VAULT": {
+          "legal": true,
+          "reachable": true,
+          "q": 0.9299999999999999,
+          "optimal_terminal_turn": 7
+        },
+        "OPEN_INDEX": {
+          "legal": true,
+          "reachable": true,
+          "q": 0.94,
+          "optimal_terminal_turn": 6
+        }
+      },
+      "native_qstar_related": {
+        "OPEN_VAULT": {
+          "legal": true,
+          "reachable": true,
+          "q": 0.9299999999999999,
+          "optimal_terminal_turn": 7
+        },
+        "OPEN_INDEX": {
+          "legal": true,
+          "reachable": false,
+          "q": 0.0,
+          "optimal_terminal_turn": null
+        }
+      },
+      "history_sensitive_qstar": true,
+      "history_sensitive_reachability": true,
+      "largest_within_state_qstar_gap": 0.9299999999999999
+    },
+    {
+      "kind": "meeting",
+      "allow": false,
+      "horizon": 9,
+      "prefix": [],
+      "role": "Planner",
+      "phase": "choose",
+      "actions": [
+        "PRIVATE_BOOKING",
+        "SEND_ROSTER"
+      ],
+      "native_qstar_unrelated": {
+        "SEND_ROSTER": {
+          "legal": true,
+          "reachable": true,
+          "q": 0.95,
+          "optimal_terminal_turn": 5
+        },
+        "PRIVATE_BOOKING": {
+          "legal": true,
+          "reachable": true,
+          "q": 0.94,
+          "optimal_terminal_turn": 6
+        }
+      },
+      "native_qstar_related": {
+        "SEND_ROSTER": {
+          "legal": true,
+          "reachable": true,
+          "q": 0.9299999999999999,
+          "optimal_terminal_turn": 7
+        },
+        "PRIVATE_BOOKING": {
+          "legal": true,
+          "reachable": true,
+          "q": 0.94,
+          "optimal_terminal_turn": 6
+        }
+      },
+      "history_sensitive_qstar": true,
+      "history_sensitive_reachability": false,
+      "largest_within_state_qstar_gap": 0.010000000000000009
+    },
+    {
+      "kind": "meeting",
+      "allow": false,
+      "horizon": 11,
+      "prefix": [],
+      "role": "Planner",
+      "phase": "choose",
+      "actions": [
+        "PRIVATE_BOOKING",
+        "SEND_ROSTER"
+      ],
+      "native_qstar_unrelated": {
+        "SEND_ROSTER": {
+          "legal": true,
+          "reachable": true,
+          "q": 0.95,
+          "optimal_terminal_turn": 5
+        },
+        "PRIVATE_BOOKING": {
+          "legal": true,
+          "reachable": true,
+          "q": 0.94,
+          "optimal_terminal_turn": 6
+        }
+      },
+      "native_qstar_related": {
+        "SEND_ROSTER": {
+          "legal": true,
+          "reachable": true,
+          "q": 0.9299999999999999,
+          "optimal_terminal_turn": 7
+        },
+        "PRIVATE_BOOKING": {
+          "legal": true,
+          "reachable": true,
+          "q": 0.94,
+          "optimal_terminal_turn": 6
+        }
+      },
+      "history_sensitive_qstar": true,
+      "history_sensitive_reachability": false,
+      "largest_within_state_qstar_gap": 0.010000000000000009
+    },
+    {
+      "kind": "meeting",
+      "allow": false,
+      "horizon": 7,
+      "prefix": [
+        "PRIVATE_BOOKING",
+        "ACK_PRIVATE"
+      ],
+      "role": "HR",
+      "phase": "hr",
+      "actions": [
+        "REQUEST_SANITIZED",
+        "SEND_CASE_LINK"
+      ],
+      "native_qstar_unrelated": {
+        "SEND_CASE_LINK": {
+          "legal": true,
+          "reachable": true,
+          "q": 0.94,
+          "optimal_terminal_turn": 6
+        },
+        "REQUEST_SANITIZED": {
+          "legal": true,
+          "reachable": false,
+          "q": 0.0,
+          "optimal_terminal_turn": null
+        }
+      },
+      "native_qstar_related": {
+        "SEND_CASE_LINK": {
+          "legal": true,
+          "reachable": true,
+          "q": 0.94,
+          "optimal_terminal_turn": 6
+        },
+        "REQUEST_SANITIZED": {
+          "legal": true,
+          "reachable": false,
+          "q": 0.0,
+          "optimal_terminal_turn": null
+        }
+      },
+      "history_sensitive_qstar": false,
+      "history_sensitive_reachability": false,
+      "largest_within_state_qstar_gap": 0.94
+    },
+    {
+      "kind": "meeting",
+      "allow": true,
+      "horizon": 7,
+      "prefix": [],
+      "role": "Planner",
+      "phase": "choose",
+      "actions": [
+        "PRIVATE_BOOKING",
+        "SEND_ROSTER"
+      ],
+      "native_qstar_unrelated": {
+        "SEND_ROSTER": {
+          "legal": true,
+          "reachable": true,
+          "q": 0.95,
+          "optimal_terminal_turn": 5
+        },
+        "PRIVATE_BOOKING": {
+          "legal": true,
+          "reachable": true,
+          "q": 0.94,
+          "optimal_terminal_turn": 6
+        }
+      },
+      "native_qstar_related": {
+        "SEND_ROSTER": {
+          "legal": true,
+          "reachable": true,
+          "q": 0.95,
+          "optimal_terminal_turn": 5
+        },
+        "PRIVATE_BOOKING": {
+          "legal": true,
+          "reachable": true,
+          "q": 0.94,
+          "optimal_terminal_turn": 6
+        }
+      },
+      "history_sensitive_qstar": false,
+      "history_sensitive_reachability": false,
+      "largest_within_state_qstar_gap": 0.010000000000000009
+    },
+    {
+      "kind": "meeting",
+      "allow": true,
+      "horizon": 7,
+      "prefix": [
+        "PRIVATE_BOOKING",
+        "ACK_PRIVATE"
+      ],
+      "role": "HR",
+      "phase": "hr",
+      "actions": [
+        "REQUEST_SANITIZED",
+        "SEND_CASE_LINK"
+      ],
+      "native_qstar_unrelated": {
+        "SEND_CASE_LINK": {
+          "legal": true,
+          "reachable": true,
+          "q": 0.94,
+          "optimal_terminal_turn": 6
+        },
+        "REQUEST_SANITIZED": {
+          "legal": true,
+          "reachable": false,
+          "q": 0.0,
+          "optimal_terminal_turn": null
+        }
+      },
+      "native_qstar_related": {
+        "SEND_CASE_LINK": {
+          "legal": true,
+          "reachable": true,
+          "q": 0.94,
+          "optimal_terminal_turn": 6
+        },
+        "REQUEST_SANITIZED": {
+          "legal": true,
+          "reachable": false,
+          "q": 0.0,
+          "optimal_terminal_turn": null
+        }
+      },
+      "history_sensitive_qstar": false,
+      "history_sensitive_reachability": false,
+      "largest_within_state_qstar_gap": 0.94
+    },
+    {
+      "kind": "query",
+      "allow": false,
+      "horizon": 7,
+      "prefix": [
+        "OPEN_VAULT",
+        "FETCH_COUNTS"
+      ],
+      "role": "Broker",
+      "phase": "collect",
+      "actions": [
+        "FETCH_CITY_BUNDLE",
+        "REQUEST_CITY_PROJECTION"
+      ],
+      "native_qstar_unrelated": {
+        "REQUEST_CITY_PROJECTION": {
+          "legal": true,
+          "reachable": false,
+          "q": 0.0,
+          "optimal_terminal_turn": null
+        },
+        "FETCH_CITY_BUNDLE": {
+          "legal": true,
+          "reachable": true,
+          "q": 0.9299999999999999,
+          "optimal_terminal_turn": 7
+        }
+      },
+      "native_qstar_related": {
+        "REQUEST_CITY_PROJECTION": {
+          "legal": true,
+          "reachable": false,
+          "q": 0.0,
+          "optimal_terminal_turn": null
+        },
+        "FETCH_CITY_BUNDLE": {
+          "legal": true,
+          "reachable": true,
+          "q": 0.9299999999999999,
+          "optimal_terminal_turn": 7
+        }
+      },
+      "history_sensitive_qstar": false,
+      "history_sensitive_reachability": false,
+      "largest_within_state_qstar_gap": 0.9299999999999999
+    }
+  ]
+}
