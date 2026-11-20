@@ -1,0 +1,26 @@
+{
+  "status": "SOURCE_CHECKED_P0_ABLATION_AND_DYNAMIC_CHAIN",
+  "fixed_original_v31": true,
+  "five_seeds": [
+    7,
+    1234,
+    2025,
+    42,
+    999
+  ],
+  "all_three_BCE_methods_test_accuracy": {
+    "label_BCE": 1.0,
+    "Qmargin_weighted_BCE": 1.0,
+    "shuffled_Qmargin_BCE": 1.0
+  },
+  "P1_dynamic_native_paths": 112,
+  "P1_history_only_B_flips": 14,
+  "P1_downstream_native_correction_cases": 28,
+  "no_trained_shared_LLM": true,
+  "is_paper_method_contribution": false,
+  "source_sha256": {
+    "artifacts\\20261120_v31\\P0_LABEL_VS_QMARGIN_BCE_20261120\\ABLATION_RESULTS.json": "8b27cfb013f53512a648d3b1844e7ececdc19028e4801a99b0c49a2b987a3585",
+    "artifacts\\20261120_v31\\P0_LOW_DATA_LABEL_VS_QMARGIN_ABLATION\\RESULTS.json": "6394753b83d9d5d43a11bbcd8ba527f0e1eba3f0f9be6dc906cc82ffa9ccbb4c",
+    "artifacts\\20261120_v31\\DYNAMIC_UPSTREAM_DOWNSTREAM_CHAIN_PILOT_01\\INDEPENDENT_CAUSAL_REPLAY_AUDIT.json": "6ab7f5c9430f93cf5011a079e99c47340bf05c038bd5777951665ca252e98698"
+  }
+}
