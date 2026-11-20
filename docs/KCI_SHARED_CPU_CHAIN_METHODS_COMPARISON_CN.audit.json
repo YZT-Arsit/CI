@@ -1,0 +1,29 @@
+{
+  "status": "SOURCE_VERIFIED_CPU_METHOD_COMPARISON",
+  "train_worlds": 16,
+  "dev_worlds": 4,
+  "exploratory_test_worlds": 8,
+  "shared_policy_stored_parameters": 4466,
+  "methods": [
+    "action_sft",
+    "sft_counterfactual_coverage",
+    "terminal_reinforce",
+    "cce_reference_dpo_proxy",
+    "cce_reference_dpo_plus_dpr_proxy"
+  ],
+  "seeds": [
+    7,
+    1234,
+    2025
+  ],
+  "native_agent_traces_independently_verified": true,
+  "not_full_4B_or_original_CCE_DPR_implementation": true,
+  "graph_ref_search_train_states": 3956,
+  "result_source_sha256": {
+    "artifacts\\20261120_v31\\CHAIN_SHARED_POLICY_METHOD_COMPARISON_01\\RESULTS.json": "83cd13c3fc9c766ee99a05a5af785735d382f7e3f8d65a2c7d2202c070af138b",
+    "artifacts\\20261120_v31\\CHAIN_SHARED_POLICY_METHOD_COMPARISON_01\\INDEPENDENT_NATIVE_REPLAY_AUDIT.json": "af594014acce2373b457320e28833af0146020c2da098e38e5b2f98e1621a011",
+    "artifacts\\20261120_v31\\CHAIN_NATIVE_ORACLE_BASELINES_01\\SUMMARY.json": "614ab1e46b6714f52d1251fd48c824b6d7f57a7b08d715851a180b2cdeaa1341",
+    "artifacts\\20261120_v31\\CHAIN_DPR_BACKTRACKED_POLICY_COMPARISON_02\\RESULTS.json": "fb0fd6daa0a911f7a18af18386309581d11638ecf22cf6a7e4ee2fad6417d556",
+    "artifacts\\20261120_v31\\CHAIN_DPR_BACKTRACKED_POLICY_COMPARISON_02\\INDEPENDENT_NATIVE_REPLAY_AUDIT.json": "a9396acc0d21eb5d81f165d0e238fb45c561280610e8da95c956642d98693488"
+  }
+}
