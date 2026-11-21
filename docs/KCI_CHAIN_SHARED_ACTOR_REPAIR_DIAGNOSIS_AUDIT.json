@@ -1,0 +1,66 @@
+{
+  "status": "SOURCE_VERIFIED_CHAIN_ACTOR_TWO_BUG_FIX",
+  "old_safe_B_false_risk_rate": [
+    28,
+    28
+  ],
+  "two_by_two_sft_safe_successes": {
+    "ORIGINAL_soft_infer_no_interaction": [
+      0,
+      0,
+      0
+    ],
+    "FIXED_logic_only": [
+      0,
+      0,
+      0
+    ],
+    "INTERACTION_only_SOFT_INFER": [
+      4,
+      4,
+      4
+    ],
+    "BOTH_zero_preserving_and_action_interaction": [
+      8,
+      8,
+      8
+    ]
+  },
+  "repaired_sft_success_per_seed": [
+    8,
+    8,
+    8
+  ],
+  "repaired_cce_success_per_seed": [
+    8,
+    8,
+    8
+  ],
+  "repaired_terminal_success_per_seed": [
+    5,
+    2,
+    4
+  ],
+  "repaired_downstream_B_visited_action_per_seed": [
+    8,
+    8,
+    8
+  ],
+  "reference_native_mean_Qstar": 0.6779999999999999,
+  "repaired_sft_mean_native_return": 0.6085,
+  "repair_success_not_algorithm_contribution": true,
+  "original_data_changed": false,
+  "not_fresh_blind_test": true,
+  "not_trained_LLM": true,
+  "evidence_SHA256": {
+    "artifacts\\20261120_v31\\CHAIN_SHARED_POLICY_METHOD_COMPARISON_01\\RESULTS.json": "83cd13c3fc9c766ee99a05a5af785735d382f7e3f8d65a2c7d2202c070af138b",
+    "artifacts\\20261120_v31\\CHAIN_SHARED_POLICY_METHOD_COMPARISON_ACTION_INTERACTION_01\\RESULTS.json": "f92608b80e7d01dae8198d3ee68a9f8409ae0d9481391c19cda6106050ee0b4f",
+    "artifacts\\20261120_v31\\CHAIN_SHARED_POLICY_METHOD_COMPARISON_ACTION_INTERACTION_01\\INDEPENDENT_NATIVE_REPLAY_AUDIT.json": "5accd5566d742b828871334cb815820e894436ce8fbfbb64eef2bd30fdf6f9dc",
+    "artifacts\\20261120_v31\\CHAIN_DPR_BACKTRACKED_ACTION_INTERACTION_REPAIRED_01\\RESULTS.json": "aaa12a38dfa0ddc68ffc031808562e987067832993e8ff0d98aa7c31249d5ee2",
+    "artifacts\\20261120_v31\\CHAIN_DPR_BACKTRACKED_ACTION_INTERACTION_REPAIRED_01\\INDEPENDENT_NATIVE_REPLAY_AUDIT.json": "73c84deeb0510ec673a1da6447c61884352c5783d52e48d7e80bae1ed1a9f472",
+    "artifacts\\20261120_v31\\CHAIN_CPU_HORN_RULE_BY_ACTION_INTERACTION_2X2_01\\RESULTS.json": "aa8a840ce7a235e9efb1f8e5cedffad665b1fa4774a981f1c5935007c6d0f3dd",
+    "artifacts\\20261120_v31\\CHAIN_REPAIRED_POSTHOC_NEW_VARIANTS_01\\STRESS.json": "263ed61df98f838c5aad6408a0069c01078a21f7f4a852d3df5392a2262d034b",
+    "artifacts\\20261120_v31\\CHAIN_REPAIRED_POSTHOC_NEW_VARIANTS_01\\INDEPENDENT_REPLAY_AUDIT.json": "061beafa09e6d820910869f2a6681a74a35db4c4ecd5e12fb99908d8c78a56cd",
+    "artifacts\\20261120_v31\\CHAIN_CPU_HELDOUT_FAILURE_DIAG_01\\DIAGNOSIS.json": "1b63eac720d5ecf0978310c008156fa3fef12e7248dfd8e92efe16d5c888c952"
+  }
+}
