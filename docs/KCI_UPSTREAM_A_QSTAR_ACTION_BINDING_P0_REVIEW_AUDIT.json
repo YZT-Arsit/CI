@@ -1,0 +1,44 @@
+{
+  "status": "KCI_A_UPSTREAM_P0_RESEARCH_DECISION_SUPPORTED_BY_REPLAY",
+  "original_dynamic_dataset_modified": false,
+  "graph_family_root_counts": {
+    "train": 4,
+    "dev": 1,
+    "exploratory_test": 2
+  },
+  "test_strict_comparisons": 6,
+  "test_ties": 2,
+  "raw_shared_policy_strict_success": 2,
+  "public_visible_planner_Q_gap_exact_instances": 28,
+  "A_only_SFT_strict_success_5_seed": [
+    6,
+    6,
+    6,
+    6,
+    6
+  ],
+  "A_only_Qstar_weighted_strict_success_5_seed": [
+    4,
+    4,
+    4,
+    4,
+    4
+  ],
+  "A_only_Qstar_DPO_proxy_strict_success_5_seed": [
+    6,
+    6,
+    6,
+    6,
+    6
+  ],
+  "main_CCE_independent_gain_demonstrated": false,
+  "new_LLM_training": false,
+  "blind_test": false,
+  "supporting_sha256": {
+    "artifacts\\20261120_v31\\A_UPSTREAM_DECISION_LABEL_AND_OBSERVABILITY_AUDIT_01\\RAW_AUDIT.json": "7fac825b28fde717dc4c8795694a671ce45c16807853b5c763d65b0ae584e7ef",
+    "artifacts\\20261120_v31\\A_UPSTREAM_DECISION_LABEL_AND_OBSERVABILITY_AUDIT_01\\PROBABILITIES_TRAINED_SHARED_ACTOR.json": "0601b4e941a7e9194fb217bf6612ff85159d1fe0f03ae7a63d8d06f43496da32",
+    "artifacts\\20261120_v31\\A_PUBLIC_ONLY_COST_PLANNER_P0_01\\RESULT.json": "0b6394afb001659e6eab758160d4039ffb1a4114895858fa36ec4c2ed59a1cc8",
+    "artifacts\\20261120_v31\\A_PUBLIC_COST_SFT_CCE_PAIRED_P0_01\\P0_A_SFT_VS_QSTAR.json": "1e7ace3cf2c4e6765512f92ac5d124b06d7e6e07d92c94af98b0b8db8e990a21",
+    "artifacts\\20261120_v31\\A_UPSTREAM_P0_INDEPENDENT_VALIDATION_01\\VALIDATION.json": "7e11148334f7e0c3ea04a1b9d32d19779a8168605efb6cff7013e3e8aef4e1f6"
+  }
+}
