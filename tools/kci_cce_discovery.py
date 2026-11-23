@@ -228,6 +228,13 @@ def compare_branches(a, b, *, alpha, risk_ceiling):
     radius = sqrt(8 * log(2/alpha) / n)
     diff = means[0] - means[1]
     result = {"n": n, "alpha_per_test": alpha, "risk_test": risk, "success_test": success,
+              "value_estimates": [{"n": n,
+                  "p_violation": sum(r["ci_violation"] for r in rows) / n,
+                  "p_safe_success": sum(r["ci_safe_success"] for r in rows) / n,
+                  "mean_cost_given_safe_success": (sum(r["continuation_steps"] for r in rows if r["ci_safe_success"]) /
+                      sum(r["ci_safe_success"] for r in rows)) if any(r["ci_safe_success"] for r in rows) else None}
+                  for rows in (a, b)],
+              "ci_first_point_preference": risk["preference"] if risk["preference"] is not None else success["preference"],
               "risk_upper_bounds": upper, "risk_ceiling": risk_ceiling,
               "mean_returns": means, "mean_return_preference": 0 if diff > 0 else 1 if diff < 0 else None,
               "confidence_same_reward_preference": (0 if diff > 0 else 1) if abs(diff) > radius else None,
@@ -236,7 +243,7 @@ def compare_branches(a, b, *, alpha, risk_ceiling):
               "conditional_costs_descriptive_only": [[r["continuation_steps"] for r in rows if r["ci_safe_success"]] for rows in (a,b)]}
     if any(r["unknown"] for r in a+b):
         result.update(status="ABSTAIN_UNKNOWN", mean_return_preference=None,
-                      confidence_same_reward_preference=None)
+                      confidence_same_reward_preference=None, ci_first_point_preference=None)
     elif risk["p"] <= alpha:
         result.update(status="ACCEPT_RISK", cce_preference=risk["preference"], dimension="risk")
     elif risk["plus"] + risk["minus"]:

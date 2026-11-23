@@ -33,7 +33,7 @@ def canonical_actor_candidates(model_view:Mapping)->tuple[str,dict[str,str],str]
     if set(model_view)-{"actor","stage","model_prompt","prompt_sha256","available_actions",
                         "complete_role_observable_empirical_probability",
                         "no_ground_truth_label_or_specific_future_realization",
-                        "no_hidden_teacher_or_future_truth",
+                        "no_hidden_teacher_or_future_truth","no_hidden_realized_outcome_or_teacher",
                         "role_observation_sha256",
                         "actual_public_routing_and_automatic_source_contract_present",
                         "actual_signed_tool_status_is_visible"}:
@@ -74,6 +74,32 @@ def semantic_candidate_prompt(view:Mapping,action:str):
         "\nAnswer A if this should be the preferred action, or B otherwise. "
         "Respond with exactly one letter.\nAnswer:"
     )
+def install_isolated_precision_matched_hf(*, study_dir:Path, expected_sha256:str):
+    """Load audited QLoRA precision fix only in this study Python process.
+
+    Never replace the shared HF policy file on GPU or alter other models.
+    Must happen BEFORE a model is imported, trained, or scored.
+    """
+    import sys,importlib.util,inspect
+    import kci.agent_rl
+    path=study_dir/"MATCHED_HF_ACTION_POLICY_PRECISION_V2.py"
+    if file_sha(path)!=expected_sha256:
+        raise ValueError("isolated 4bit precision runtime SHA256 mismatch")
+    target="kci.agent_rl.hf_policy"
+    if target in sys.modules:
+        raise RuntimeError("precision override must be installed before HF imports")
+    spec=importlib.util.spec_from_file_location(target,path)
+    module=importlib.util.module_from_spec(spec)
+    sys.modules[target]=module
+    spec.loader.exec_module(module)
+    setattr(kci.agent_rl,"hf_policy",module)
+    sig=inspect.signature(module.HFActionPolicy.__init__)
+    assert "kbit_inference_precision" in sig.parameters
+    assert sig.parameters["kbit_inference_precision"].default=="training"
+    return {"study_local_HF_policy_file_sha256":file_sha(path),
+            "remote_shared_HF_policy_unmodified":True,
+            "inference_path":"NF4+BF16 with non-quantized embed/norm/lm_head cast before adapter load"}
+
 class FrozenSharedSemantic4B:
     def __init__(self,base:str,adapter:str,max_prompt_tokens:int=8192,
                  inference_precision:str="training"):

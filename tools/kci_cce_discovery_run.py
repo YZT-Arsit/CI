@@ -16,6 +16,7 @@ from kci_cce_discovery import (
     ROOT, digest, file_sha, read_jsonl, context_from_source, collect_episode,
     select_states, branch_rollout, compare_branches, audit_teachers, validate_protocol,
 )
+from kci_unique_supervision import summarize, conditional_capability
 
 
 def write(path, value):
@@ -67,16 +68,19 @@ def freeze(args):
     contexts = {digest(context_from_source(r)): context_from_source(r) for r in rows}
     inputs = [args.source, *args.teachers, args.legacy_labels,
               Path(__file__), ROOT / "tools/kci_cce_discovery.py",
-              ROOT / "tools/kci_cce_phase2_frozen4b_rollout.py",
+              ROOT / "tools/kci_cce_phase2_frozen4b_rollout.py", ROOT / "tools/kci_unique_supervision.py",
               ROOT / "code/kci/v4_phase2_workflows.py", ROOT / "code/kci/v4_phase2_data.py",
               ROOT / "code/kci/agent_rl/hf_policy.py"]
     for adapter in (args.collector, args.reference):
         inputs += [adapter / "adapter_model.safetensors", adapter / "adapter_config.json"]
+    capability_files = getattr(args, "capability_evaluations", None) or []
+    cost_ledger = getattr(args, "cost_ledger", None)
+    inputs += capability_files + ([cost_ledger] if cost_ledger else [])
     base_files = sorted(args.base.glob("*.safetensors"))
     if not base_files:
         raise ValueError("base has no model weights")
     inputs += base_files + [args.base / "config.json", args.base / "tokenizer.json", args.base / "tokenizer_config.json"]
-    p = {"version": "cce_policy_visit_discovery_v1", "scope": "TRAIN diagnostic, not a method superiority experiment",
+    p = {"version": "cce_policy_visit_discovery_v2_uus", "scope": "TRAIN diagnostic, not a method superiority experiment",
          "plumbing_smoke_only": args.smoke,
          "power_check": {"minimum_two_sided_binary_p": minimum_binary_p,
                          "per_test_alpha": alpha_per_test,
@@ -89,6 +93,8 @@ def freeze(args):
          "selection_split": "train", "source": str(args.source.resolve()),
          "teachers": [str(t.resolve()) for t in args.teachers],
          "legacy_labels": str(args.legacy_labels.resolve()),
+         "capability_evaluations": [str(f.resolve()) for f in capability_files],
+         "additional_cost_ledger": str(cost_ledger.resolve()) if cost_ledger else None,
          "contexts": [contexts[k] for k in sorted(contexts)],
          "collection_seeds": [810011, 810013],
          "discovery_seeds": list(range(820000, 820000 + args.k)),
@@ -103,7 +109,7 @@ def freeze(args):
          "seed_coupling": "common random numbers per action pair; not identical exogenous noise after paths diverge",
          "selection": "full initial-state policy visits, current validity only, hash-stratified before any fork outcomes",
          "abort": "always available to policy; two non-ABORT forks used to study lawful-action credit",
-         "full_evaluation_gate": "requires competence + independently confirmed new observation supervision; current generator shortcut still blocks generalization claims",
+         "full_evaluation_gate": "requires conditional capability, nonredundant confirmed supervision and complete costs; separate comparison protocol still required",
          "C_comparison": {
              "main_arms": ["adapted_PrivAct_descendant_mean", "full_role_authorized_history_CE", "CCE"],
              "auxiliary": ["single_trajectory_terminal_return", "confidence_filter_same_scalar_reward"],
@@ -244,7 +250,28 @@ def analyze(args):
             labels.append({"decision_id": state["decision_id"], "observation": state["observation"],
                            "chosen_action": choice, "evidence": cell})
         cells.append(cell)
-    ready = not p["plumbing_smoke_only"] and all(c["passed"] for c in competence.values()) and any(c["new_exact_observation"] and c["independently_confirmed_across_named_policies"] for c in cells)
+    costs = {}
+    for name, filename in (("collection", "COLLECTION_COST.json"),
+                           ("collector", "collector_COST.json"), ("reference", "reference_COST.json")):
+        path = args.study / filename
+        if path.exists():
+            value = json.loads(path.read_text(encoding="utf8"))
+            costs[name] = dict(value)
+            if "native_transitions" not in value and all(k in value for k in ("branch_native_transitions", "competence_native_transitions")):
+                costs[name]["native_transitions"] = value["branch_native_transitions"] + value["competence_native_transitions"]
+    for name, path in zip(("collector", "reference"), p.get("capability_evaluations", [])):
+        evaluation = json.loads(Path(path).read_text(encoding="utf8"))
+        competence[name]["conditional_capability_passed"] = conditional_capability(evaluation, p[name + "_sha256"])
+    if p.get("additional_cost_ledger"):
+        extra = json.loads(Path(p["additional_cost_ledger"]).read_text(encoding="utf8"))
+        if set(extra) != {"witness_search", "validation"}:
+            raise ValueError("cost ledger requires witness_search and extra verification only; fork validation already charged")
+        costs.update(extra)
+    # A global initial completion score is not a conditional capability certificate.
+    # Historical search/validation costs remain unknown, never filled with zero.
+    admission = summarize(cells, competence=competence, costs=costs,
+                          smoke=p["plumbing_smoke_only"])
+    ready = admission["signal_gate_passed"]
     report = {"legacy": audit_teachers(read_jsonl(p["legacy_labels"])),
               "visited_occurrences": pool["visited_occurrences"], "unique_visited_states": pool["unique_visited_states"],
               "eligible_states": pool["eligible_unique_states"], "selected_states": len(cells),
@@ -252,6 +279,7 @@ def analyze(args):
               "competence": competence, "cells": cells,
               "confirmed_labels": len(labels), "new_exact_observation_states": sum(c["new_exact_observation"] for c in cells),
               "stage_C_signal_gate_passed": ready, "stage_C_training_authorized_by_this_script": False,
+              "unique_useful_supervision": admission,
               "decision": "SIGNAL_READY_FOR_SEPARATE_C_PROTOCOL" if ready else "SIGNAL_NOT_ESTABLISHED_NO_C_TRAINING",
               "limitations": ["exact observation novelty is not new relations or new task generalization",
                               "two correlated backbone policies are not independent ground truth",
@@ -260,8 +288,10 @@ def analyze(args):
                               "safe abort rate is not an overprotection metric without a feasible continuation witness"]}
     write(args.study / "ANALYSIS.json", report)
     # Candidate evidence is retained even if competence fails; never exported as training labels.
-    write(args.study / "CONFIRMED_LABELS.json", labels if ready else [])
-    print(json.dumps({k: v for k, v in report.items() if k not in ("cells", "limitations")}, ensure_ascii=False), flush=True)
+    useful_ids = {r["decision_id"] for r in admission["cells"] if r["candidate_unique_useful"]}
+    write(args.study / "UNIQUE_USEFUL_SUPERVISION.json", admission)
+    write(args.study / "CONFIRMED_LABELS.json", [r for r in labels if r["decision_id"] in useful_ids] if ready else [])
+    print(json.dumps({k: v for k, v in report.items() if k not in ("cells", "limitations", "unique_useful_supervision")}, ensure_ascii=False), flush=True)
 
 
 def main():
@@ -277,6 +307,10 @@ def main():
             q.add_argument("--k", type=int, default=32)
             q.add_argument("--max-states", type=int, default=4)
             q.add_argument("--smoke", action="store_true", help="plumbing only; cannot open the stage C signal gate")
+            q.add_argument("--capability-evaluations", type=Path, nargs=2,
+                           help="collector then reference executor coverage EVAL.json; bound to checkpoints")
+            q.add_argument("--cost-ledger", type=Path,
+                           help="measured witness_search and extra verification cost components")
         if command == "fork":
             q.add_argument("--policy", choices=("collector", "reference"), required=True)
     args = parser.parse_args()

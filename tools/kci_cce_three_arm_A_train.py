@@ -12,13 +12,9 @@ from __future__ import annotations
 from pathlib import Path
 from collections import Counter
 from hashlib import sha256
-import argparse,json,random,sys,time,torch
-from torch.nn.functional import log_softmax
+import argparse,json,random,sys,time
 ROOT=Path(__file__).resolve().parents[1]
 sys.path[:0]=[str(ROOT/"tools"),str(ROOT/"code")]
-from kci.agent_rl.hf_policy import HFActionPolicy
-from kci_cce_full_flow_sft_train import candidate_scores
-from kci_cce_phase2_frozen4b_rollout import model_candidate_prompt
 FROZEN_SEED=7
 STEPS=48
 LR=2e-5
@@ -48,7 +44,16 @@ def main():
     p.add_argument("--pre-reg",type=Path,required=True)
     p.add_argument("--arm",choices=tuple(ARM_TO_LABEL),required=True)
     p.add_argument("--output",type=Path,required=True)
+    p.add_argument("--legacy-negative-control",action="store_true",
+                   help="explicit historical reproduction only; cannot support method superiority")
     args=p.parse_args()
+    if not args.legacy_negative_control:
+        p.error("same-label seven-state study retired; use --legacy-negative-control only for historical reproduction")
+    import torch
+    from torch.nn.functional import log_softmax
+    from kci.agent_rl.hf_policy import HFActionPolicy
+    from kci_cce_full_flow_sft_train import candidate_scores
+    from kci_cce_phase2_frozen4b_rollout import model_candidate_prompt
     if args.output.exists():raise FileExistsError(args.output)
     meta=json.loads(args.pre_reg.read_text(encoding="utf8"))
     assert meta["status"]=="FROZEN_MATCHED_THREE_ARM_A_SUPERVISION"
