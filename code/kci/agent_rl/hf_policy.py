@@ -9,6 +9,7 @@ from __future__ import annotations
 
 import math
 import random
+import json
 from pathlib import Path
 
 from .core import ActionSample, LETTERS
@@ -43,7 +44,8 @@ class HFActionPolicy:
                  dtype: str = "bf16", max_prompt_tokens: int = 4096,
                  allow_download: bool = False, lora_rank: int = 8,
                  lora_alpha: int = 16, gradient_checkpointing: bool = False,
-                 temperature: float = 1.0, explore_epsilon: float = 0.0):
+                 temperature: float = 1.0, explore_epsilon: float = 0.0,
+                 kbit_inference_precision: str = "training"):
         import torch
         from transformers import AutoModelForCausalLM, AutoTokenizer
 
@@ -51,6 +53,8 @@ class HFActionPolicy:
             raise ValueError("Invalid fixed on-policy sampling parameters")
         if quantization not in ("none", "4bit"):
             raise ValueError("Quantization must be none or 4bit")
+        if kbit_inference_precision not in ("training", "legacy"):
+            raise ValueError("4-bit inference precision must be training or legacy")
         if dtype not in ("fp32", "fp16", "bf16"):
             raise ValueError("Unsupported compute dtype")
         if max_prompt_tokens < 128:
@@ -74,6 +78,10 @@ class HFActionPolicy:
             f"hf-categorical:{model_path}:{adapter or ('fresh-lora' if trainable else 'base')}"
             f":temp{temperature}:eps{explore_epsilon}"
         )
+        self.kbit_inference_precision = kbit_inference_precision
+        if quantization == "4bit":
+            self.policy_id += ":kbit-precision=" + (
+                "training" if trainable else kbit_inference_precision)
         self.temperature = temperature
         self.explore_epsilon = explore_epsilon
         self.model_path = model_path
@@ -101,6 +109,14 @@ class HFActionPolicy:
         elif torch.cuda.is_available():
             kwargs["device_map"] = "auto"
         self.model = AutoModelForCausalLM.from_pretrained(model_path, **kwargs)
+        if not trainable and quantization == "4bit" and kbit_inference_precision == "training":
+            # QLoRA training upcasts non-quantized embeddings/norms/head to
+            # FP32. Reproduce that path BEFORE loading an adapter, including
+            # for the frozen base comparator. Casting logits after forward
+            # cannot recover precision lost inside a BF16 output head.
+            from peft import prepare_model_for_kbit_training
+            self.model = prepare_model_for_kbit_training(
+                self.model, use_gradient_checkpointing=False)
         if trainable:
             from peft import LoraConfig, get_peft_model, prepare_model_for_kbit_training
             if quantization == "4bit":
@@ -227,3 +243,9 @@ class HFActionPolicy:
             raise FileExistsError("Refuse to overwrite an existing adapter")
         directory.mkdir(parents=True, exist_ok=True)
         self.model.save_pretrained(str(directory), safe_serialization=True)
+        (directory / "kci_runtime.json").write_text(json.dumps({
+            "quantization": self.quantization,
+            "compute_dtype": self.dtype,
+            "kbit_inference_precision": "training" if self.quantization == "4bit" else None,
+            "policy_id": self.policy_id,
+        }, indent=2) + "\n", encoding="utf-8")

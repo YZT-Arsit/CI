@@ -42,8 +42,15 @@ def render_role_text(observation):
                           observation.get("declared_knowledge_rules",[]))
     for rule in rules:
         req=_replace_codes(", ".join(rule["requires"]),domain)
-        lines.append("Inference warning: if reviewer R possesses all of "+req+
-                     ", R can infer the restricted association.")
+        conclusion=str(rule["entails"])
+        if conclusion=="protected association":
+            consequence="the restricted association"
+        elif conclusion in ("X","Y","Z"):
+            consequence="intermediate fact "+conclusion+" (not itself a restricted association)"
+        else:
+            consequence=_replace_codes(conclusion,domain)
+        lines.append("Inference rule: if reviewer R possesses all of "+req+
+                     ", R can infer "+consequence+".")
     req=observation.get("downstream_required_business_checks")
     if req is None:
         req=(observation.get("task_evidence_contract") or {}).get("required_slots",[])
