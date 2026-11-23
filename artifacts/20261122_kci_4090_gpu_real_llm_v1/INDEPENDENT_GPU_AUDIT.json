@@ -1,0 +1,147 @@
+{
+  "status": "INDEPENDENT_REAL_QWEN3_4B_4090_TRAIN_NATIVE_REPLAY_PASS",
+  "base_model": "Qwen3-4B-Instruct-2507",
+  "gpu": "NVIDIA GeForce RTX 4090 D 24GB",
+  "model_parameters_trained": true,
+  "train_steps": {
+    "Coordinator": 64,
+    "SourceAgent": 128
+  },
+  "LoRA": {
+    "checkpoint": {
+      "B": {
+        "size": 11815504,
+        "sha256": "a20df908313c219a28b06962a3fe32ea8187151706fe149cae8dbd79d8199cc7"
+      },
+      "R": {
+        "size": 11815504,
+        "sha256": "08876a5f8d2ede8ee0a78b7d9c2bb96d895a3775b6901d3bce0da05eb02d903b"
+      }
+    }
+  },
+  "all_native_replay": {
+    "B": {
+      "native_actions": 272,
+      "episodes": 24,
+      "safe_success": 16,
+      "CI_violations": 0,
+      "roots_DG14": 8,
+      "roots_DG18": 8,
+      "roots_DG19": 8
+    },
+    "R": {
+      "native_actions": 292,
+      "episodes": 24,
+      "safe_success": 20,
+      "CI_violations": 0,
+      "roots_DG14": 8,
+      "roots_DG18": 8,
+      "roots_DG19": 8
+    }
+  },
+  "reward_and_CI_verdicts_recomputed": true,
+  "source_role_training": {
+    "pairs": 204,
+    "distinct_role_observations": 40,
+    "independent_training_graph_roots": 4
+  },
+  "B_adapter_eval": {
+    "dev": {
+      "base": {
+        "n": 4,
+        "safe_task_success": 0,
+        "CI_violations": 0,
+        "mean_native_reward": 0.0
+      },
+      "trained_B": {
+        "n": 4,
+        "safe_task_success": 0,
+        "CI_violations": 0,
+        "mean_native_reward": 0.0
+      }
+    },
+    "exploratory_test": {
+      "base": {
+        "n": 8,
+        "safe_task_success": 8,
+        "CI_violations": 0,
+        "mean_native_reward": 0.583
+      },
+      "trained_B": {
+        "n": 8,
+        "safe_task_success": 8,
+        "CI_violations": 0,
+        "mean_native_reward": 0.583
+      }
+    }
+  },
+  "SourceAgent_adapter_eval": {
+    "dev": {
+      "base": {
+        "n": 4,
+        "safe_task_success": 0,
+        "CI_violations": 0,
+        "mean_native_reward": 0.0
+      },
+      "trained_R": {
+        "n": 4,
+        "safe_task_success": 4,
+        "CI_violations": 0,
+        "mean_native_reward": 0.505
+      }
+    },
+    "exploratory_test": {
+      "base": {
+        "n": 8,
+        "safe_task_success": 8,
+        "CI_violations": 0,
+        "mean_native_reward": 0.583
+      },
+      "trained_R": {
+        "n": 8,
+        "safe_task_success": 8,
+        "CI_violations": 0,
+        "mean_native_reward": 0.583
+      }
+    }
+  },
+  "SourceAgent_R_probe": {
+    "train": {
+      "base": {
+        "VERIFY_PRIVATE_R": 12,
+        "ABORT": 4
+      },
+      "trained_R": {
+        "VERIFY_PRIVATE_R": 16
+      }
+    },
+    "dev": {
+      "base": {
+        "ABORT": 4
+      },
+      "trained_R": {
+        "VERIFY_PRIVATE_R": 4
+      }
+    },
+    "exploratory_test": {
+      "base": {
+        "VERIFY_PRIVATE_R": 8
+      },
+      "trained_R": {
+        "VERIFY_PRIVATE_R": 8
+      }
+    }
+  },
+  "B_own_policy_after_R": {
+    "n_pairs": 16,
+    "directions": {
+      "OPEN_PRIVATE_CHANNEL": 16
+    },
+    "reasons": {
+      "safe_task_success": 14,
+      "CI_verified": 2
+    }
+  },
+  "no_credential_in_artifacts": true,
+  "developer_seen_exploratory_test": true
+}

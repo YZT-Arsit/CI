@@ -1,0 +1,21 @@
+{
+  "status": "SOURCE_ROLE_CI_PRIVACY_AND_VERIFIED_TASK_COMPLETION",
+  "training_roots": [
+    "DG01",
+    "DG05",
+    "DG09",
+    "DG10"
+  ],
+  "unique_witness_pairs": 104,
+  "total_pairs": 204,
+  "group_sizes": {
+    "ci_violation": 28,
+    "legal_raw": 72,
+    "task_witness": 104
+  },
+  "native_replay_counts": {
+    "native_witness_vs_abort_pairs": 104
+  },
+  "file_sha256": "89297b6acacb75d776737ec79eff02c1bf5f10647681dac5cdf440440e60d337",
+  "witness_type": "verified successful native continuation, not Qstar/Qpi"
+}

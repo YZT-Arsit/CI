@@ -1,0 +1,463 @@
+{
+  "status": "TRAINED_ACTUAL_PRETRAINED_ROLE_ADAPTER",
+  "role": "Coordinator",
+  "seed": 7,
+  "step_count": 64,
+  "pair_count": 8,
+  "beta": 2.0,
+  "lr": 5e-05,
+  "model_path": "/root/autodl-tmp/kci_models/Qwen3-4B-Instruct-2507-ms",
+  "source_pairs_sha256": "460f61766d762524f3b9fb7e25e6dae168f133f9f04c2109ad3a6683620d7164",
+  "only_train_split": true,
+  "original_native_truth_unchanged": true,
+  "train_curve": [
+    {
+      "step": 1,
+      "mean_loss": 0.6931471824645996,
+      "mean_margin": 0.0,
+      "mean_actor_action_log_odds": 5.22050666809082,
+      "preclip_gradient_norm": 68.7283935546875
+    },
+    {
+      "step": 2,
+      "mean_loss": 0.047071512788534164,
+      "mean_margin": 1.5162296295166016,
+      "mean_actor_action_log_odds": 6.736736297607422,
+      "preclip_gradient_norm": 6.5632195472717285
+    },
+    {
+      "step": 3,
+      "mean_loss": 0.006949250586330891,
+      "mean_margin": 2.4828224182128906,
+      "mean_actor_action_log_odds": 8.448040008544922,
+      "preclip_gradient_norm": 0.9326384663581848
+    },
+    {
+      "step": 4,
+      "mean_loss": 0.00025756278773769736,
+      "mean_margin": 4.132059097290039,
+      "mean_actor_action_log_odds": 10.09727668762207,
+      "preclip_gradient_norm": 0.0381445586681366
+    },
+    {
+      "step": 5,
+      "mean_loss": 6.518031625546428e-08,
+      "mean_margin": 8.273054122924805,
+      "mean_actor_action_log_odds": 15.19007682800293,
+      "preclip_gradient_norm": 1.3916343959863298e-05
+    },
+    {
+      "step": 6,
+      "mean_loss": 1.0656231452799148e-09,
+      "mean_margin": 10.329853057861328,
+      "mean_actor_action_log_odds": 16.74715805053711,
+      "preclip_gradient_norm": 2.2576496405690705e-07
+    },
+    {
+      "step": 7,
+      "mean_loss": 1.5488941240704435e-09,
+      "mean_margin": 10.142862319946289,
+      "mean_actor_action_log_odds": 17.52539825439453,
+      "preclip_gradient_norm": 2.628804622872849e-07
+    },
+    {
+      "step": 8,
+      "mean_loss": 2.409795696323158e-10,
+      "mean_margin": 11.07315444946289,
+      "mean_actor_action_log_odds": 18.455690383911133,
+      "preclip_gradient_norm": 3.978019691430745e-08
+    },
+    {
+      "step": 9,
+      "mean_loss": 1.0051959264956167e-11,
+      "mean_margin": 12.661626815795898,
+      "mean_actor_action_log_odds": 17.88213348388672,
+      "preclip_gradient_norm": 1.7822529008171273e-09
+    },
+    {
+      "step": 10,
+      "mean_loss": 2.7346044265824654e-12,
+      "mean_margin": 13.312517166137695,
+      "mean_actor_action_log_odds": 18.533023834228516,
+      "preclip_gradient_norm": 4.806604558815764e-10
+    },
+    {
+      "step": 11,
+      "mean_loss": 2.538385474037952e-11,
+      "mean_margin": 12.198453903198242,
+      "mean_actor_action_log_odds": 18.163671493530273,
+      "preclip_gradient_norm": 4.3097738711139755e-09
+    },
+    {
+      "step": 12,
+      "mean_loss": 1.005023321509757e-11,
+      "mean_margin": 12.661712646484375,
+      "mean_actor_action_log_odds": 18.626930236816406,
+      "preclip_gradient_norm": 1.720708242558544e-09
+    },
+    {
+      "step": 13,
+      "mean_loss": 7.963185436033436e-15,
+      "mean_margin": 16.23197364807129,
+      "mean_actor_action_log_odds": 23.148996353149414,
+      "preclip_gradient_norm": 1.3750130591419496e-12
+    },
+    {
+      "step": 14,
+      "mean_loss": 1.5102646153938642e-15,
+      "mean_margin": 17.06324577331543,
+      "mean_actor_action_log_odds": 23.48055076599121,
+      "preclip_gradient_norm": 2.6488205617618277e-13
+    },
+    {
+      "step": 15,
+      "mean_loss": 3.203604983831494e-14,
+      "mean_margin": 15.535957336425781,
+      "mean_actor_action_log_odds": 22.918493270874023,
+      "preclip_gradient_norm": 4.790205558602434e-12
+    },
+    {
+      "step": 16,
+      "mean_loss": 1.0805079229893495e-14,
+      "mean_margin": 16.07938003540039,
+      "mean_actor_action_log_odds": 23.461915969848633,
+      "preclip_gradient_norm": 1.5955589714039542e-12
+    },
+    {
+      "step": 17,
+      "mean_loss": 6.013585053810382e-16,
+      "mean_margin": 17.523670196533203,
+      "mean_actor_action_log_odds": 22.744176864624023,
+      "preclip_gradient_norm": 9.585625885709034e-14
+    },
+    {
+      "step": 18,
+      "mean_loss": 3.8047044453614384e-16,
+      "mean_margin": 17.752561569213867,
+      "mean_actor_action_log_odds": 22.973068237304688,
+      "preclip_gradient_norm": 6.024770526219525e-14
+    },
+    {
+      "step": 19,
+      "mean_loss": 1.4576698409516503e-14,
+      "mean_margin": 15.929676055908203,
+      "mean_actor_action_log_odds": 21.894893646240234,
+      "preclip_gradient_norm": 2.2890194514152418e-12
+    },
+    {
+      "step": 20,
+      "mean_loss": 9.88293563604142e-15,
+      "mean_margin": 16.12398338317871,
+      "mean_actor_action_log_odds": 22.089200973510742,
+      "preclip_gradient_norm": 1.521586350840265e-12
+    },
+    {
+      "step": 21,
+      "mean_loss": 3.40722344842717e-17,
+      "mean_margin": 18.95902442932129,
+      "mean_actor_action_log_odds": 25.876047134399414,
+      "preclip_gradient_norm": 5.268846899167444e-15
+    },
+    {
+      "step": 22,
+      "mean_loss": 1.2882237063118098e-17,
+      "mean_margin": 19.445341110229492,
+      "mean_actor_action_log_odds": 25.862646102905273,
+      "preclip_gradient_norm": 2.015825547325013e-15
+    },
+    {
+      "step": 23,
+      "mean_loss": 5.00014083736495e-16,
+      "mean_margin": 17.615947723388672,
+      "mean_actor_action_log_odds": 24.998483657836914,
+      "preclip_gradient_norm": 7.122243333296252e-14
+    },
+    {
+      "step": 24,
+      "mean_loss": 3.4008751350108463e-16,
+      "mean_margin": 17.808664321899414,
+      "mean_actor_action_log_odds": 25.191200256347656,
+      "preclip_gradient_norm": 4.805716981586168e-14
+    },
+    {
+      "step": 25,
+      "mean_loss": 1.5324611071592183e-17,
+      "mean_margin": 19.358535766601562,
+      "mean_actor_action_log_odds": 24.579042434692383,
+      "preclip_gradient_norm": 2.3022260215165317e-15
+    },
+    {
+      "step": 26,
+      "mean_loss": 1.2360592980604395e-17,
+      "mean_margin": 19.46600914001465,
+      "mean_actor_action_log_odds": 24.68651580810547,
+      "preclip_gradient_norm": 1.840918961189394e-15
+    },
+    {
+      "step": 27,
+      "mean_loss": 8.58958429997812e-16,
+      "mean_margin": 17.34540557861328,
+      "mean_actor_action_log_odds": 23.310623168945312,
+      "preclip_gradient_norm": 1.290531673496173e-13
+    },
+    {
+      "step": 28,
+      "mean_loss": 4.653679480345115e-16,
+      "mean_margin": 17.651851654052734,
+      "mean_actor_action_log_odds": 23.617069244384766,
+      "preclip_gradient_norm": 6.906619915737766e-14
+    },
+    {
+      "step": 29,
+      "mean_loss": 3.1066806904638898e-18,
+      "mean_margin": 20.1564884185791,
+      "mean_actor_action_log_odds": 27.073511123657227,
+      "preclip_gradient_norm": 4.600016237367411e-16
+    },
+    {
+      "step": 30,
+      "mean_loss": 1.1448039057029769e-18,
+      "mean_margin": 20.655649185180664,
+      "mean_actor_action_log_odds": 27.072954177856445,
+      "preclip_gradient_norm": 1.6941716412781095e-16
+    },
+    {
+      "step": 31,
+      "mean_loss": 7.382314990050365e-17,
+      "mean_margin": 18.572429656982422,
+      "mean_actor_action_log_odds": 25.954965591430664,
+      "preclip_gradient_norm": 1.0290381353560314e-14
+    },
+    {
+      "step": 32,
+      "mean_loss": 5.193275135774118e-17,
+      "mean_margin": 18.748291015625,
+      "mean_actor_action_log_odds": 26.130826950073242,
+      "preclip_gradient_norm": 7.21881796418404e-15
+    },
+    {
+      "step": 33,
+      "mean_loss": 2.625815578173285e-18,
+      "mean_margin": 20.240570068359375,
+      "mean_actor_action_log_odds": 25.461076736450195,
+      "preclip_gradient_norm": 3.8048632640390486e-16
+    },
+    {
+      "step": 34,
+      "mean_loss": 1.908342069106787e-18,
+      "mean_margin": 20.400148391723633,
+      "mean_actor_action_log_odds": 25.620655059814453,
+      "preclip_gradient_norm": 2.7600327711287e-16
+    },
+    {
+      "step": 35,
+      "mean_loss": 1.7213771484038355e-16,
+      "mean_margin": 18.149118423461914,
+      "mean_actor_action_log_odds": 24.114336013793945,
+      "preclip_gradient_norm": 2.4804057123669308e-14
+    },
+    {
+      "step": 36,
+      "mean_loss": 2.1346529936986812e-16,
+      "mean_margin": 18.041528701782227,
+      "mean_actor_action_log_odds": 24.006746292114258,
+      "preclip_gradient_norm": 3.563507589053952e-14
+    },
+    {
+      "step": 37,
+      "mean_loss": 1.2229077467063057e-18,
+      "mean_margin": 20.622650146484375,
+      "mean_actor_action_log_odds": 27.5396728515625,
+      "preclip_gradient_norm": 1.7905278594264925e-16
+    },
+    {
+      "step": 38,
+      "mean_loss": 5.467888221716668e-19,
+      "mean_margin": 21.02511215209961,
+      "mean_actor_action_log_odds": 27.44241714477539,
+      "preclip_gradient_norm": 7.961729201108649e-17
+    },
+    {
+      "step": 39,
+      "mean_loss": 5.4237901892857003e-17,
+      "mean_margin": 18.72657585144043,
+      "mean_actor_action_log_odds": 26.109111785888672,
+      "preclip_gradient_norm": 7.520234638464483e-15
+    },
+    {
+      "step": 40,
+      "mean_loss": 2.959558263997147e-17,
+      "mean_margin": 19.02945327758789,
+      "mean_actor_action_log_odds": 26.411989212036133,
+      "preclip_gradient_norm": 4.0983502805650926e-15
+    },
+    {
+      "step": 41,
+      "mean_loss": 1.1117045836843972e-18,
+      "mean_margin": 20.670318603515625,
+      "mean_actor_action_log_odds": 25.890825271606445,
+      "preclip_gradient_norm": 1.6068119718207511e-16
+    },
+    {
+      "step": 42,
+      "mean_loss": 8.681908831549114e-19,
+      "mean_margin": 20.79393768310547,
+      "mean_actor_action_log_odds": 26.01444435119629,
+      "preclip_gradient_norm": 1.254256742141014e-16
+    },
+    {
+      "step": 43,
+      "mean_loss": 6.15194073890388e-17,
+      "mean_margin": 18.663589477539062,
+      "mean_actor_action_log_odds": 24.628807067871094,
+      "preclip_gradient_norm": 2.8247595031832308e-14
+    },
+    {
+      "step": 44,
+      "mean_loss": 7.669982599061196e-17,
+      "mean_margin": 18.553316116333008,
+      "mean_actor_action_log_odds": 24.51853370666504,
+      "preclip_gradient_norm": 4.662573156884696e-14
+    },
+    {
+      "step": 45,
+      "mean_loss": 1.0402305952906809e-18,
+      "mean_margin": 20.70354461669922,
+      "mean_actor_action_log_odds": 27.620567321777344,
+      "preclip_gradient_norm": 1.5084456386094152e-16
+    },
+    {
+      "step": 46,
+      "mean_loss": 3.41157693101031e-19,
+      "mean_margin": 21.260971069335938,
+      "mean_actor_action_log_odds": 27.67827606201172,
+      "preclip_gradient_norm": 5.010206831326332e-17
+    },
+    {
+      "step": 47,
+      "mean_loss": 2.1178783333589223e-17,
+      "mean_margin": 19.196765899658203,
+      "mean_actor_action_log_odds": 26.579301834106445,
+      "preclip_gradient_norm": 2.9377372659077777e-15
+    },
+    {
+      "step": 48,
+      "mean_loss": 1.8541437064472102e-17,
+      "mean_margin": 19.263261795043945,
+      "mean_actor_action_log_odds": 26.645797729492188,
+      "preclip_gradient_norm": 2.55437756551877e-15
+    },
+    {
+      "step": 49,
+      "mean_loss": 7.543404836788917e-19,
+      "mean_margin": 20.864221572875977,
+      "mean_actor_action_log_odds": 26.084728240966797,
+      "preclip_gradient_norm": 1.0741867358031614e-16
+    },
+    {
+      "step": 50,
+      "mean_loss": 8.909179806775355e-19,
+      "mean_margin": 20.781017303466797,
+      "mean_actor_action_log_odds": 26.001523971557617,
+      "preclip_gradient_norm": 1.2799889413341096e-16
+    },
+    {
+      "step": 51,
+      "mean_loss": 6.792144122306441e-17,
+      "mean_margin": 18.614089965820312,
+      "mean_actor_action_log_odds": 24.579307556152344,
+      "preclip_gradient_norm": 9.727745647577276e-15
+    },
+    {
+      "step": 52,
+      "mean_loss": 6.966729524136373e-17,
+      "mean_margin": 18.60140037536621,
+      "mean_actor_action_log_odds": 24.566617965698242,
+      "preclip_gradient_norm": 1.0101526040607548e-14
+    },
+    {
+      "step": 53,
+      "mean_loss": 4.524625217901011e-19,
+      "mean_margin": 21.11979103088379,
+      "mean_actor_action_log_odds": 28.036813735961914,
+      "preclip_gradient_norm": 6.478404442132428e-17
+    },
+    {
+      "step": 54,
+      "mean_loss": 2.9978134337930427e-19,
+      "mean_margin": 21.32561683654785,
+      "mean_actor_action_log_odds": 27.742921829223633,
+      "preclip_gradient_norm": 4.371270026877712e-17
+    },
+    {
+      "step": 55,
+      "mean_loss": 1.7551265475299176e-17,
+      "mean_margin": 19.29070281982422,
+      "mean_actor_action_log_odds": 26.67323875427246,
+      "preclip_gradient_norm": 2.4049139432945387e-15
+    },
+    {
+      "step": 56,
+      "mean_loss": 1.8162639629120794e-17,
+      "mean_margin": 19.273582458496094,
+      "mean_actor_action_log_odds": 26.656118392944336,
+      "preclip_gradient_norm": 2.510801108514325e-15
+    },
+    {
+      "step": 57,
+      "mean_loss": 6.039991665764601e-19,
+      "mean_margin": 20.975357055664062,
+      "mean_actor_action_log_odds": 26.195863723754883,
+      "preclip_gradient_norm": 8.636159994769674e-17
+    },
+    {
+      "step": 58,
+      "mean_loss": 6.390146007852306e-19,
+      "mean_margin": 20.947179794311523,
+      "mean_actor_action_log_odds": 26.167686462402344,
+      "preclip_gradient_norm": 9.124852344965593e-17
+    },
+    {
+      "step": 59,
+      "mean_loss": 5.580462829514674e-17,
+      "mean_margin": 18.712337493896484,
+      "mean_actor_action_log_odds": 24.677555084228516,
+      "preclip_gradient_norm": 8.696346661990657e-15
+    },
+    {
+      "step": 60,
+      "mean_loss": 4.7358598080278095e-17,
+      "mean_margin": 18.794391632080078,
+      "mean_actor_action_log_odds": 24.75960922241211,
+      "preclip_gradient_norm": 1.0328884930243653e-14
+    },
+    {
+      "step": 61,
+      "mean_loss": 5.396789463128321e-19,
+      "mean_margin": 21.03165626525879,
+      "mean_actor_action_log_odds": 27.948678970336914,
+      "preclip_gradient_norm": 7.71201528557971e-17
+    },
+    {
+      "step": 62,
+      "mean_loss": 2.488091815640796e-19,
+      "mean_margin": 21.418800354003906,
+      "mean_actor_action_log_odds": 27.836105346679688,
+      "preclip_gradient_norm": 3.5898162894588606e-17
+    },
+    {
+      "step": 63,
+      "mean_loss": 2.2379922374910124e-17,
+      "mean_margin": 19.1691837310791,
+      "mean_actor_action_log_odds": 26.551719665527344,
+      "preclip_gradient_norm": 3.115567174502608e-15
+    },
+    {
+      "step": 64,
+      "mean_loss": 1.9020057001785085e-17,
+      "mean_margin": 19.250518798828125,
+      "mean_actor_action_log_odds": 26.633054733276367,
+      "preclip_gradient_norm": 2.6284071863176117e-15
+    }
+  ]
+}

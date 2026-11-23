@@ -1,0 +1,82 @@
+{
+  "status": "REAL_PRETRAINED_QWEN3_4B_Qlora_NATIVE_BEFORE_AFTER_EVAL",
+  "trained_role": "SourceAgent/release only",
+  "base_checkpoint": "/root/autodl-tmp/kci_models/Qwen3-4B-Instruct-2507-ms",
+  "trained_adapter": "artifacts/gpu_4090_R_CI_task_Qwen3_4B_v1/adapter",
+  "train_test_task_roots_split_not_mixed": true,
+  "exploratory_test_seen_by_developers": true,
+  "R_probe": {
+    "train": {
+      "base": {
+        "VERIFY_PRIVATE_R": 12,
+        "ABORT": 4
+      },
+      "trained_R": {
+        "VERIFY_PRIVATE_R": 16
+      }
+    },
+    "dev": {
+      "base": {
+        "ABORT": 4
+      },
+      "trained_R": {
+        "VERIFY_PRIVATE_R": 4
+      }
+    },
+    "exploratory_test": {
+      "base": {
+        "VERIFY_PRIVATE_R": 8
+      },
+      "trained_R": {
+        "VERIFY_PRIVATE_R": 8
+      }
+    }
+  },
+  "R_probe_mean_verify_prob": {
+    "train": {
+      "base": 0.75023035625,
+      "trained_R": 0.9817518000000001
+    },
+    "dev": {
+      "base": 0.3502016,
+      "trained_R": 0.984989125
+    },
+    "exploratory_test": {
+      "base": 0.8921735,
+      "trained_R": 0.9998830750000001
+    }
+  },
+  "full": {
+    "dev": {
+      "base": {
+        "n": 4,
+        "safe_task_success": 0,
+        "CI_violations": 0,
+        "mean_native_reward": 0.0
+      },
+      "trained_R": {
+        "n": 4,
+        "safe_task_success": 4,
+        "CI_violations": 0,
+        "mean_native_reward": 0.505
+      }
+    },
+    "exploratory_test": {
+      "base": {
+        "n": 8,
+        "safe_task_success": 8,
+        "CI_violations": 0,
+        "mean_native_reward": 0.583
+      },
+      "trained_R": {
+        "n": 8,
+        "safe_task_success": 8,
+        "CI_violations": 0,
+        "mean_native_reward": 0.583
+      }
+    }
+  },
+  "hf_forward_calls": 93,
+  "cache_hits": 83,
+  "measured_prompt_tokens": 65617
+}

@@ -1,0 +1,25 @@
+{
+  "status": "REAL_QWEN3_4B_ROLE_STAGED_B_CCE_FROM_OWN_FROZEN_POLICY",
+  "train_worlds": 16,
+  "train_roots": [
+    "DG01",
+    "DG05",
+    "DG09",
+    "DG10"
+  ],
+  "n_counterfactual_full_episodes": 32,
+  "n_accepted_pairs": 16,
+  "labels": {
+    "OPEN_PRIVATE_CHANNEL": 16
+  },
+  "reasons": {
+    "safe_task_success": 14,
+    "CI_verified": 2
+  },
+  "both_safe_success": 0,
+  "source_adapter": "artifacts/gpu_4090_R_CI_task_Qwen3_4B_v1/adapter",
+  "same_frozen_LM_for_both_branches": true,
+  "no_test_label_for_train": true,
+  "model_forward_calls": 66,
+  "elapsed": 6.58
+}
