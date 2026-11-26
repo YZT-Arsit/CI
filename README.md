@@ -5,7 +5,13 @@
 
 ## 当前进度
 
-最新一轮在 32 个新开发根上验证了同一披露的两段历史。DPR 在 19 个原失败中修复 14 个，同时在可披露和危险历史上作出正确选择的开发根由 7 个降至 2 个。配对即时 CI 为 4/32，普通即时 CI 对照为 5/32。五臂原生执行、菜单顺序交叉和共享参数诊断见[历史条件化 DPR 研究报告](docs/KCI_V9_HISTORY_DEPENDENT_DPR_CN.md)。
+2026-11-25 完成了统一多角色训练接口的数据验收。六类训练分片共 86,611 条记录、881 个来源组。本轮留出 40 个来源组，与训练分区的来源组、角色观察及观察与菜单组合均无交叉。CPU 小模型跑通了六类损失的反向传播；这版数据的 4B 验证仍待完成。[数据说明](artifacts/20261125_unified_roles_v1/README.md) · [全量审计](artifacts/20261125_unified_roles_v1/AUDIT.json) · [训练入口](tools/unified_data/train.py)
+
+复建需要研究工作区的 V9 交付、多源续行表、各域原生执行器和历史分组记录。已有授权数据包可直接交给训练入口。内部训练分片、原始轨迹、封存集和模型权重保存在研究工作区。
+
+前一轮共享 4B 策略与读出的开发结果见[过程蒸馏](artifacts/20261125_process_policy/REPORT.md)、[共享读出同面板比较](artifacts/20261125_readout_generalization/DECISION.md)与[多源原生执行结果](artifacts/20261125_multisource_policy/DECISION.md)。
+
+此前在 32 个新开发根上验证了同一披露的两段历史。DPR 在 19 个原失败中修复 14 个，同时在可披露和危险历史上作出正确选择的开发根由 7 个降至 2 个。配对即时 CI 为 4/32，普通即时 CI 对照为 5/32。五臂原生执行、菜单顺序交叉和共享参数诊断见[历史条件化 DPR 研究报告](docs/KCI_V9_HISTORY_DEPENDENT_DPR_CN.md)。
 
 2026-11-24 已完成 [V9 Qwen3-4B 单种子算法验证](docs/KCI_V9_QWEN3_ALGORITHM_PILOT_CN.md)。ProofWriter 上 CCE 与即时 CI 的首步排序同为 10/16，安全完成分别为 6/16 与 5/16。协商上 DPR 与普通下游 DPO 的安全完成同为 38/56，开发面板没有初始掩盖的续行排序。两项均未达到三种子确认标准。
 
