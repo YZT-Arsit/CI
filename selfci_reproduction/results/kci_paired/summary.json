@@ -1,0 +1,2115 @@
+{
+  "records": 4133,
+  "groups": 40,
+  "unique_prompts": 4077,
+  "labels_sha256": "e447496b315963f51747270d1b27333bb036b6abfe940bbe20abfae7c1fa8bd1",
+  "group_macro_reference_match": {
+    "base": 0.07811098204916846,
+    "selfci": 0.08962684613228822
+  },
+  "slices": {
+    "all": {
+      "base": {
+        "rejected": 32,
+        "accepted": 540,
+        "off_menu": 1948,
+        "invalid_json": 1431,
+        "legal_unlabelled": 176,
+        "invalid_contract": 5,
+        "other_output": 1
+      },
+      "selfci": {
+        "rejected": 40,
+        "accepted": 310,
+        "off_menu": 1874,
+        "invalid_json": 1665,
+        "legal_unlabelled": 242,
+        "invalid_contract": 1,
+        "other_output": 1
+      },
+      "transitions": {
+        "rejected->rejected": 31,
+        "accepted->accepted": 230,
+        "off_menu->off_menu": 1528,
+        "off_menu->rejected": 7,
+        "invalid_json->invalid_json": 1395,
+        "off_menu->accepted": 77,
+        "invalid_json->accepted": 3,
+        "accepted->rejected": 2,
+        "invalid_json->off_menu": 30,
+        "off_menu->invalid_json": 202,
+        "rejected->invalid_json": 1,
+        "accepted->invalid_json": 50,
+        "accepted->off_menu": 258,
+        "off_menu->legal_unlabelled": 134,
+        "legal_unlabelled->legal_unlabelled": 105,
+        "legal_unlabelled->off_menu": 58,
+        "legal_unlabelled->invalid_json": 13,
+        "invalid_json->legal_unlabelled": 3,
+        "invalid_contract->invalid_json": 3,
+        "other_output->invalid_json": 1,
+        "invalid_contract->invalid_contract": 1,
+        "invalid_contract->other_output": 1
+      }
+    },
+    "group/DEAL_OR_NO_DEAL:deal-47e78a2923bcbae2f4a008cf822689e9adbd9c36853382ae891e65c8a11b0d5a": {
+      "base": {
+        "rejected": 2,
+        "accepted": 1,
+        "invalid_json": 39,
+        "off_menu": 3
+      },
+      "selfci": {
+        "rejected": 2,
+        "accepted": 2,
+        "invalid_json": 41
+      },
+      "transitions": {
+        "rejected->rejected": 2,
+        "accepted->accepted": 1,
+        "invalid_json->invalid_json": 38,
+        "off_menu->invalid_json": 3,
+        "invalid_json->accepted": 1
+      }
+    },
+    "domain/DEAL_OR_NO_DEAL": {
+      "base": {
+        "rejected": 26,
+        "accepted": 46,
+        "invalid_json": 844,
+        "off_menu": 164
+      },
+      "selfci": {
+        "rejected": 28,
+        "accepted": 99,
+        "invalid_json": 950,
+        "off_menu": 3
+      },
+      "transitions": {
+        "rejected->rejected": 26,
+        "accepted->accepted": 44,
+        "accepted->rejected": 2,
+        "invalid_json->invalid_json": 841,
+        "off_menu->invalid_json": 109,
+        "off_menu->accepted": 54,
+        "invalid_json->off_menu": 2,
+        "off_menu->off_menu": 1,
+        "invalid_json->accepted": 1
+      }
+    },
+    "role/A": {
+      "base": {
+        "rejected": 26,
+        "accepted": 46
+      },
+      "selfci": {
+        "rejected": 28,
+        "accepted": 44
+      },
+      "transitions": {
+        "rejected->rejected": 26,
+        "accepted->accepted": 44,
+        "accepted->rejected": 2
+      }
+    },
+    "route/dpo": {
+      "base": {
+        "rejected": 32,
+        "accepted": 49,
+        "off_menu": 61,
+        "invalid_json": 26
+      },
+      "selfci": {
+        "rejected": 40,
+        "accepted": 48,
+        "off_menu": 53,
+        "invalid_json": 27
+      },
+      "transitions": {
+        "rejected->rejected": 31,
+        "accepted->accepted": 46,
+        "off_menu->off_menu": 52,
+        "off_menu->rejected": 7,
+        "invalid_json->invalid_json": 24,
+        "off_menu->accepted": 1,
+        "invalid_json->accepted": 1,
+        "accepted->rejected": 2,
+        "invalid_json->off_menu": 1,
+        "off_menu->invalid_json": 1,
+        "rejected->invalid_json": 1,
+        "accepted->invalid_json": 1
+      }
+    },
+    "domain_role/DEAL_OR_NO_DEAL/A": {
+      "base": {
+        "rejected": 26,
+        "accepted": 46
+      },
+      "selfci": {
+        "rejected": 28,
+        "accepted": 44
+      },
+      "transitions": {
+        "rejected->rejected": 26,
+        "accepted->accepted": 44,
+        "accepted->rejected": 2
+      }
+    },
+    "menu/choice": {
+      "base": {
+        "rejected": 32,
+        "accepted": 140,
+        "off_menu": 1358,
+        "invalid_json": 1369,
+        "legal_unlabelled": 176
+      },
+      "selfci": {
+        "rejected": 40,
+        "accepted": 114,
+        "off_menu": 1125,
+        "invalid_json": 1554,
+        "legal_unlabelled": 242
+      },
+      "transitions": {
+        "rejected->rejected": 31,
+        "accepted->accepted": 88,
+        "off_menu->off_menu": 1061,
+        "off_menu->rejected": 7,
+        "invalid_json->invalid_json": 1359,
+        "off_menu->accepted": 23,
+        "invalid_json->accepted": 3,
+        "accepted->rejected": 2,
+        "invalid_json->off_menu": 4,
+        "off_menu->invalid_json": 133,
+        "rejected->invalid_json": 1,
+        "accepted->invalid_json": 48,
+        "off_menu->legal_unlabelled": 134,
+        "legal_unlabelled->legal_unlabelled": 105,
+        "legal_unlabelled->off_menu": 58,
+        "legal_unlabelled->invalid_json": 13,
+        "invalid_json->legal_unlabelled": 3,
+        "accepted->off_menu": 2
+      }
+    },
+    "evidence/exact_bounded_reference": {
+      "base": {
+        "rejected": 26,
+        "accepted": 46
+      },
+      "selfci": {
+        "rejected": 28,
+        "accepted": 44
+      },
+      "transitions": {
+        "rejected->rejected": 26,
+        "accepted->accepted": 44,
+        "accepted->rejected": 2
+      }
+    },
+    "group/DEAL_OR_NO_DEAL:deal-c005dd5e988585740f2dd275d48077ae209872d4cae42ed95448956547d0956d": {
+      "base": {
+        "accepted": 4,
+        "rejected": 2,
+        "invalid_json": 61,
+        "off_menu": 23
+      },
+      "selfci": {
+        "accepted": 12,
+        "rejected": 2,
+        "invalid_json": 75,
+        "off_menu": 1
+      },
+      "transitions": {
+        "accepted->accepted": 4,
+        "rejected->rejected": 2,
+        "invalid_json->invalid_json": 60,
+        "off_menu->invalid_json": 15,
+        "invalid_json->off_menu": 1,
+        "off_menu->accepted": 8
+      }
+    },
+    "group/MAP-FILE:80874a7d74624b9e5c981e628417850a34be19b41fab5ee14256a7fa3af304ed": {
+      "base": {
+        "off_menu": 28,
+        "accepted": 6,
+        "rejected": 2,
+        "legal_unlabelled": 5,
+        "invalid_json": 2
+      },
+      "selfci": {
+        "off_menu": 30,
+        "accepted": 6,
+        "rejected": 3,
+        "legal_unlabelled": 4
+      },
+      "transitions": {
+        "off_menu->off_menu": 25,
+        "accepted->accepted": 6,
+        "rejected->rejected": 2,
+        "off_menu->rejected": 1,
+        "legal_unlabelled->legal_unlabelled": 2,
+        "legal_unlabelled->off_menu": 3,
+        "off_menu->legal_unlabelled": 2,
+        "invalid_json->off_menu": 2
+      }
+    },
+    "domain/MULTIAGENTPRIVACY": {
+      "base": {
+        "off_menu": 45,
+        "accepted": 12,
+        "rejected": 4,
+        "legal_unlabelled": 9,
+        "invalid_json": 2
+      },
+      "selfci": {
+        "off_menu": 41,
+        "accepted": 14,
+        "rejected": 10,
+        "legal_unlabelled": 7
+      },
+      "transitions": {
+        "off_menu->off_menu": 34,
+        "accepted->accepted": 12,
+        "off_menu->rejected": 6,
+        "rejected->rejected": 4,
+        "off_menu->accepted": 2,
+        "legal_unlabelled->legal_unlabelled": 4,
+        "legal_unlabelled->off_menu": 5,
+        "off_menu->legal_unlabelled": 3,
+        "invalid_json->off_menu": 2
+      }
+    },
+    "role/protected": {
+      "base": {
+        "off_menu": 14,
+        "legal_unlabelled": 4
+      },
+      "selfci": {
+        "off_menu": 11,
+        "legal_unlabelled": 7
+      },
+      "transitions": {
+        "off_menu->off_menu": 11,
+        "legal_unlabelled->legal_unlabelled": 4,
+        "off_menu->legal_unlabelled": 3
+      }
+    },
+    "domain_role/MULTIAGENTPRIVACY/protected": {
+      "base": {
+        "off_menu": 14,
+        "legal_unlabelled": 4
+      },
+      "selfci": {
+        "off_menu": 11,
+        "legal_unlabelled": 7
+      },
+      "transitions": {
+        "off_menu->off_menu": 11,
+        "legal_unlabelled->legal_unlabelled": 4,
+        "off_menu->legal_unlabelled": 3
+      }
+    },
+    "evidence/IMMEDIATE_CI_SYNTHETIC_SCOPE": {
+      "base": {
+        "off_menu": 38
+      },
+      "selfci": {
+        "off_menu": 36,
+        "rejected": 1,
+        "accepted": 1
+      },
+      "transitions": {
+        "off_menu->off_menu": 36,
+        "off_menu->rejected": 1,
+        "off_menu->accepted": 1
+      }
+    },
+    "group/PISAS:inpatient_discharge/scenario_13": {
+      "base": {
+        "off_menu": 4,
+        "accepted": 121,
+        "invalid_json": 60
+      },
+      "selfci": {
+        "rejected": 1,
+        "accepted": 22,
+        "invalid_json": 80,
+        "off_menu": 82
+      },
+      "transitions": {
+        "off_menu->rejected": 1,
+        "accepted->accepted": 19,
+        "off_menu->accepted": 1,
+        "invalid_json->accepted": 2,
+        "invalid_json->invalid_json": 58,
+        "off_menu->off_menu": 2,
+        "accepted->invalid_json": 22,
+        "accepted->off_menu": 80
+      }
+    },
+    "domain/PISAS": {
+      "base": {
+        "off_menu": 1728,
+        "accepted": 482,
+        "invalid_json": 582,
+        "rejected": 2,
+        "legal_unlabelled": 167
+      },
+      "selfci": {
+        "rejected": 2,
+        "accepted": 197,
+        "off_menu": 1817,
+        "invalid_json": 710,
+        "legal_unlabelled": 235
+      },
+      "transitions": {
+        "off_menu->rejected": 1,
+        "accepted->accepted": 174,
+        "off_menu->off_menu": 1482,
+        "invalid_json->invalid_json": 553,
+        "off_menu->accepted": 21,
+        "invalid_json->accepted": 2,
+        "off_menu->invalid_json": 93,
+        "rejected->invalid_json": 1,
+        "rejected->rejected": 1,
+        "accepted->invalid_json": 50,
+        "invalid_json->off_menu": 24,
+        "accepted->off_menu": 258,
+        "off_menu->legal_unlabelled": 131,
+        "legal_unlabelled->legal_unlabelled": 101,
+        "legal_unlabelled->off_menu": 53,
+        "legal_unlabelled->invalid_json": 13,
+        "invalid_json->legal_unlabelled": 3
+      }
+    },
+    "role/delegate": {
+      "base": {
+        "off_menu": 529,
+        "accepted": 1
+      },
+      "selfci": {
+        "rejected": 1,
+        "off_menu": 472,
+        "accepted": 21,
+        "legal_unlabelled": 35,
+        "invalid_json": 1
+      },
+      "transitions": {
+        "off_menu->rejected": 1,
+        "off_menu->off_menu": 472,
+        "off_menu->accepted": 20,
+        "off_menu->legal_unlabelled": 35,
+        "off_menu->invalid_json": 1,
+        "accepted->accepted": 1
+      }
+    },
+    "domain_role/PISAS/delegate": {
+      "base": {
+        "off_menu": 529,
+        "accepted": 1
+      },
+      "selfci": {
+        "rejected": 1,
+        "off_menu": 472,
+        "accepted": 21,
+        "legal_unlabelled": 35,
+        "invalid_json": 1
+      },
+      "transitions": {
+        "off_menu->rejected": 1,
+        "off_menu->off_menu": 472,
+        "off_menu->accepted": 20,
+        "off_menu->legal_unlabelled": 35,
+        "off_menu->invalid_json": 1,
+        "accepted->accepted": 1
+      }
+    },
+    "group/DEAL_OR_NO_DEAL:deal-0a3bd56f61ecbc92f27f67f77ca6e20dd51b7305996d7516e5a2621b0bf79ba0": {
+      "base": {
+        "accepted": 9,
+        "rejected": 5,
+        "invalid_json": 180,
+        "off_menu": 16
+      },
+      "selfci": {
+        "accepted": 14,
+        "rejected": 6,
+        "invalid_json": 190
+      },
+      "transitions": {
+        "accepted->accepted": 8,
+        "rejected->rejected": 5,
+        "accepted->rejected": 1,
+        "invalid_json->invalid_json": 180,
+        "off_menu->invalid_json": 10,
+        "off_menu->accepted": 6
+      }
+    },
+    "role/relay_a": {
+      "base": {
+        "accepted": 59,
+        "invalid_json": 232,
+        "legal_unlabelled": 4,
+        "off_menu": 5
+      },
+      "selfci": {
+        "accepted": 28,
+        "invalid_json": 272
+      },
+      "transitions": {
+        "accepted->accepted": 26,
+        "invalid_json->invalid_json": 230,
+        "invalid_json->accepted": 2,
+        "accepted->invalid_json": 33,
+        "legal_unlabelled->invalid_json": 4,
+        "off_menu->invalid_json": 5
+      }
+    },
+    "domain_role/PISAS/relay_a": {
+      "base": {
+        "accepted": 59,
+        "invalid_json": 232,
+        "legal_unlabelled": 4,
+        "off_menu": 5
+      },
+      "selfci": {
+        "accepted": 28,
+        "invalid_json": 272
+      },
+      "transitions": {
+        "accepted->accepted": 26,
+        "invalid_json->invalid_json": 230,
+        "invalid_json->accepted": 2,
+        "accepted->invalid_json": 33,
+        "legal_unlabelled->invalid_json": 4,
+        "off_menu->invalid_json": 5
+      }
+    },
+    "evidence/REF_POST_STATUS_LOCAL_PLANNING": {
+      "base": {
+        "accepted": 2,
+        "invalid_json": 10
+      },
+      "selfci": {
+        "accepted": 1,
+        "invalid_json": 11
+      },
+      "transitions": {
+        "accepted->accepted": 1,
+        "invalid_json->invalid_json": 10,
+        "accepted->invalid_json": 1
+      }
+    },
+    "evidence/REAL_MODEL_ORIGIN_DPR": {
+      "base": {
+        "accepted": 1,
+        "invalid_json": 4,
+        "off_menu": 2
+      },
+      "selfci": {
+        "accepted": 1,
+        "invalid_json": 4,
+        "off_menu": 2
+      },
+      "transitions": {
+        "accepted->accepted": 1,
+        "invalid_json->invalid_json": 4,
+        "off_menu->off_menu": 2
+      }
+    },
+    "group/DEAL_OR_NO_DEAL:deal-056040051fb04899d6749228b3964c1b422b6f484fc2f6a72e940a26e5d63c2a": {
+      "base": {
+        "accepted": 1,
+        "rejected": 2,
+        "off_menu": 7,
+        "invalid_json": 35
+      },
+      "selfci": {
+        "accepted": 1,
+        "rejected": 2,
+        "invalid_json": 42
+      },
+      "transitions": {
+        "accepted->accepted": 1,
+        "rejected->rejected": 2,
+        "off_menu->invalid_json": 7,
+        "invalid_json->invalid_json": 35
+      }
+    },
+    "group/PISAS:thesis_readiness/scenario_29": {
+      "base": {
+        "off_menu": 277,
+        "legal_unlabelled": 3
+      },
+      "selfci": {
+        "off_menu": 269,
+        "legal_unlabelled": 11
+      },
+      "transitions": {
+        "off_menu->off_menu": 269,
+        "off_menu->legal_unlabelled": 8,
+        "legal_unlabelled->legal_unlabelled": 3
+      }
+    },
+    "role/source_holder": {
+      "base": {
+        "off_menu": 424,
+        "invalid_json": 57
+      },
+      "selfci": {
+        "off_menu": 380,
+        "invalid_json": 101
+      },
+      "transitions": {
+        "off_menu->off_menu": 358,
+        "invalid_json->off_menu": 22,
+        "off_menu->invalid_json": 66,
+        "invalid_json->invalid_json": 35
+      }
+    },
+    "domain_role/PISAS/source_holder": {
+      "base": {
+        "off_menu": 424,
+        "invalid_json": 57
+      },
+      "selfci": {
+        "off_menu": 380,
+        "invalid_json": 101
+      },
+      "transitions": {
+        "off_menu->off_menu": 358,
+        "invalid_json->off_menu": 22,
+        "off_menu->invalid_json": 66,
+        "invalid_json->invalid_json": 35
+      }
+    },
+    "evidence/FORMAL_CORE_CONDITIONAL_LITERAL_RULE": {
+      "base": {
+        "off_menu": 10
+      },
+      "selfci": {
+        "off_menu": 10
+      },
+      "transitions": {
+        "off_menu->off_menu": 10
+      }
+    },
+    "group/PISAS:thesis_readiness/scenario_20": {
+      "base": {
+        "off_menu": 723,
+        "invalid_json": 99,
+        "rejected": 2,
+        "accepted": 11,
+        "legal_unlabelled": 7
+      },
+      "selfci": {
+        "off_menu": 698,
+        "invalid_json": 127,
+        "rejected": 1,
+        "legal_unlabelled": 10,
+        "accepted": 6
+      },
+      "transitions": {
+        "off_menu->off_menu": 692,
+        "invalid_json->invalid_json": 97,
+        "off_menu->invalid_json": 20,
+        "rejected->invalid_json": 1,
+        "rejected->rejected": 1,
+        "off_menu->legal_unlabelled": 10,
+        "accepted->accepted": 5,
+        "legal_unlabelled->invalid_json": 5,
+        "accepted->invalid_json": 4,
+        "invalid_json->off_menu": 2,
+        "legal_unlabelled->off_menu": 2,
+        "accepted->off_menu": 2,
+        "off_menu->accepted": 1
+      }
+    },
+    "role/relay_b": {
+      "base": {
+        "invalid_json": 276,
+        "legal_unlabelled": 4,
+        "accepted": 13,
+        "off_menu": 4
+      },
+      "selfci": {
+        "invalid_json": 297
+      },
+      "transitions": {
+        "invalid_json->invalid_json": 276,
+        "legal_unlabelled->invalid_json": 4,
+        "accepted->invalid_json": 13,
+        "off_menu->invalid_json": 4
+      }
+    },
+    "domain_role/PISAS/relay_b": {
+      "base": {
+        "invalid_json": 276,
+        "legal_unlabelled": 4,
+        "accepted": 13,
+        "off_menu": 4
+      },
+      "selfci": {
+        "invalid_json": 297
+      },
+      "transitions": {
+        "invalid_json->invalid_json": 276,
+        "legal_unlabelled->invalid_json": 4,
+        "accepted->invalid_json": 13,
+        "off_menu->invalid_json": 4
+      }
+    },
+    "role/public": {
+      "base": {
+        "accepted": 3,
+        "off_menu": 3
+      },
+      "selfci": {
+        "accepted": 5,
+        "rejected": 1
+      },
+      "transitions": {
+        "accepted->accepted": 3,
+        "off_menu->rejected": 1,
+        "off_menu->accepted": 2
+      }
+    },
+    "domain_role/MULTIAGENTPRIVACY/public": {
+      "base": {
+        "accepted": 3,
+        "off_menu": 3
+      },
+      "selfci": {
+        "accepted": 5,
+        "rejected": 1
+      },
+      "transitions": {
+        "accepted->accepted": 3,
+        "off_menu->rejected": 1,
+        "off_menu->accepted": 2
+      }
+    },
+    "evidence/FORMAL_CORE_CONDITIONAL_SOURCE_JOIN": {
+      "base": {
+        "accepted": 1,
+        "off_menu": 2
+      },
+      "selfci": {
+        "accepted": 1,
+        "rejected": 1,
+        "off_menu": 1
+      },
+      "transitions": {
+        "accepted->accepted": 1,
+        "off_menu->rejected": 1,
+        "off_menu->off_menu": 1
+      }
+    },
+    "group/DEAL_OR_NO_DEAL:deal-1050655819de819ffc5a629a19bd937a3b97d42cb967ff2c83449db4f03c670e": {
+      "base": {
+        "accepted": 5,
+        "off_menu": 22,
+        "invalid_json": 48
+      },
+      "selfci": {
+        "accepted": 17,
+        "invalid_json": 58
+      },
+      "transitions": {
+        "accepted->accepted": 5,
+        "off_menu->invalid_json": 10,
+        "invalid_json->invalid_json": 48,
+        "off_menu->accepted": 12
+      }
+    },
+    "group/DEAL_OR_NO_DEAL:deal-67f66362b9c8647ed8f5c49be7ed1c9a79062a996ae4436a9600f3369a21807e": {
+      "base": {
+        "accepted": 2,
+        "invalid_json": 22,
+        "off_menu": 6
+      },
+      "selfci": {
+        "accepted": 6,
+        "invalid_json": 24
+      },
+      "transitions": {
+        "accepted->accepted": 2,
+        "invalid_json->invalid_json": 22,
+        "off_menu->accepted": 4,
+        "off_menu->invalid_json": 2
+      }
+    },
+    "role/holder": {
+      "base": {
+        "invalid_json": 12,
+        "off_menu": 2
+      },
+      "selfci": {
+        "invalid_json": 14
+      },
+      "transitions": {
+        "invalid_json->invalid_json": 12,
+        "off_menu->invalid_json": 2
+      }
+    },
+    "domain_role/PISAS/holder": {
+      "base": {
+        "invalid_json": 12,
+        "off_menu": 2
+      },
+      "selfci": {
+        "invalid_json": 14
+      },
+      "transitions": {
+        "invalid_json->invalid_json": 12,
+        "off_menu->invalid_json": 2
+      }
+    },
+    "evidence/REF_CI_CAUSAL_EVIDENCE_SUBTASK": {
+      "base": {
+        "invalid_json": 2
+      },
+      "selfci": {
+        "invalid_json": 2
+      },
+      "transitions": {
+        "invalid_json->invalid_json": 2
+      }
+    },
+    "evidence/IMMEDIATE_CI_ORIGINAL_ACL": {
+      "base": {
+        "invalid_json": 6,
+        "rejected": 2,
+        "off_menu": 5
+      },
+      "selfci": {
+        "invalid_json": 6,
+        "accepted": 1,
+        "rejected": 1,
+        "off_menu": 5
+      },
+      "transitions": {
+        "invalid_json->invalid_json": 5,
+        "invalid_json->accepted": 1,
+        "rejected->invalid_json": 1,
+        "rejected->rejected": 1,
+        "off_menu->off_menu": 5
+      }
+    },
+    "group/DEAL_OR_NO_DEAL:deal-f2d71e1e21f407e3d487f6c3edd1865a45be6a775e1d5cea0b12589f763dd59d": {
+      "base": {
+        "accepted": 3,
+        "rejected": 1,
+        "invalid_json": 49,
+        "off_menu": 7
+      },
+      "selfci": {
+        "accepted": 7,
+        "rejected": 1,
+        "invalid_json": 52
+      },
+      "transitions": {
+        "accepted->accepted": 3,
+        "rejected->rejected": 1,
+        "invalid_json->invalid_json": 49,
+        "off_menu->invalid_json": 3,
+        "off_menu->accepted": 4
+      }
+    },
+    "group/PISAS:special_event_permit_readiness/scenario_10": {
+      "base": {
+        "invalid_json": 94,
+        "off_menu": 186,
+        "accepted": 80,
+        "legal_unlabelled": 41
+      },
+      "selfci": {
+        "invalid_json": 127,
+        "off_menu": 174,
+        "legal_unlabelled": 85,
+        "accepted": 15
+      },
+      "transitions": {
+        "invalid_json->invalid_json": 93,
+        "off_menu->off_menu": 109,
+        "accepted->off_menu": 65,
+        "off_menu->legal_unlabelled": 51,
+        "legal_unlabelled->legal_unlabelled": 33,
+        "accepted->accepted": 13,
+        "off_menu->invalid_json": 24,
+        "legal_unlabelled->invalid_json": 8,
+        "accepted->invalid_json": 2,
+        "invalid_json->legal_unlabelled": 1,
+        "off_menu->accepted": 2
+      }
+    },
+    "group/MAP-FILE:ef6ffc5dbfa2b4afc385860b1e13c47c7c7fc2d5b4f5947006fe2d287bab23dd": {
+      "base": {
+        "off_menu": 3,
+        "rejected": 1,
+        "accepted": 3
+      },
+      "selfci": {
+        "rejected": 3,
+        "off_menu": 1,
+        "accepted": 3
+      },
+      "transitions": {
+        "off_menu->rejected": 2,
+        "rejected->rejected": 1,
+        "off_menu->off_menu": 1,
+        "accepted->accepted": 3
+      }
+    },
+    "role/source_analyst_1": {
+      "base": {
+        "off_menu": 5,
+        "rejected": 4
+      },
+      "selfci": {
+        "rejected": 9
+      },
+      "transitions": {
+        "off_menu->rejected": 5,
+        "rejected->rejected": 4
+      }
+    },
+    "domain_role/MULTIAGENTPRIVACY/source_analyst_1": {
+      "base": {
+        "off_menu": 5,
+        "rejected": 4
+      },
+      "selfci": {
+        "rejected": 9
+      },
+      "transitions": {
+        "off_menu->rejected": 5,
+        "rejected->rejected": 4
+      }
+    },
+    "evidence/FORMAL_CORE_CONDITIONAL_EXACT_AGGREGATE_INFERENCE": {
+      "base": {
+        "off_menu": 5,
+        "rejected": 4
+      },
+      "selfci": {
+        "rejected": 9
+      },
+      "transitions": {
+        "off_menu->rejected": 5,
+        "rejected->rejected": 4
+      }
+    },
+    "group/PISAS:special_event_permit_readiness/scenario_21": {
+      "base": {
+        "invalid_json": 121,
+        "off_menu": 127,
+        "accepted": 97,
+        "legal_unlabelled": 57
+      },
+      "selfci": {
+        "invalid_json": 138,
+        "off_menu": 187,
+        "legal_unlabelled": 74,
+        "accepted": 3
+      },
+      "transitions": {
+        "invalid_json->invalid_json": 115,
+        "off_menu->off_menu": 94,
+        "accepted->invalid_json": 14,
+        "invalid_json->off_menu": 4,
+        "legal_unlabelled->legal_unlabelled": 48,
+        "off_menu->invalid_json": 9,
+        "accepted->off_menu": 80,
+        "legal_unlabelled->off_menu": 9,
+        "off_menu->legal_unlabelled": 24,
+        "accepted->accepted": 3,
+        "invalid_json->legal_unlabelled": 2
+      }
+    },
+    "group/DEAL_OR_NO_DEAL:deal-39335818b5dbce44da84537063c0bcc5166be91558e17ab8e421609be608cd5d": {
+      "base": {
+        "rejected": 2,
+        "invalid_json": 28
+      },
+      "selfci": {
+        "rejected": 2,
+        "invalid_json": 28
+      },
+      "transitions": {
+        "rejected->rejected": 2,
+        "invalid_json->invalid_json": 28
+      }
+    },
+    "group/PISAS:thesis_readiness/scenario_09": {
+      "base": {
+        "off_menu": 210,
+        "invalid_json": 102,
+        "accepted": 89
+      },
+      "selfci": {
+        "off_menu": 203,
+        "invalid_json": 113,
+        "legal_unlabelled": 10,
+        "accepted": 75
+      },
+      "transitions": {
+        "off_menu->off_menu": 181,
+        "invalid_json->invalid_json": 94,
+        "off_menu->legal_unlabelled": 10,
+        "accepted->accepted": 70,
+        "accepted->off_menu": 14,
+        "off_menu->accepted": 5,
+        "off_menu->invalid_json": 14,
+        "invalid_json->off_menu": 8,
+        "accepted->invalid_json": 5
+      }
+    },
+    "group/DEAL_OR_NO_DEAL:deal-ab4de6382326fc3cbff6c6f820f85212d6aec90d461bed45cc87ca66871362df": {
+      "base": {
+        "rejected": 3,
+        "accepted": 2,
+        "invalid_json": 57,
+        "off_menu": 13
+      },
+      "selfci": {
+        "rejected": 3,
+        "accepted": 2,
+        "invalid_json": 68,
+        "off_menu": 2
+      },
+      "transitions": {
+        "rejected->rejected": 3,
+        "accepted->accepted": 2,
+        "invalid_json->invalid_json": 56,
+        "invalid_json->off_menu": 1,
+        "off_menu->invalid_json": 12,
+        "off_menu->off_menu": 1
+      }
+    },
+    "group/PISAS:special_event_permit_readiness/scenario_23": {
+      "base": {
+        "invalid_json": 106,
+        "off_menu": 154,
+        "accepted": 84,
+        "legal_unlabelled": 57
+      },
+      "selfci": {
+        "invalid_json": 125,
+        "off_menu": 163,
+        "accepted": 76,
+        "legal_unlabelled": 37
+      },
+      "transitions": {
+        "invalid_json->invalid_json": 96,
+        "off_menu->off_menu": 94,
+        "invalid_json->off_menu": 10,
+        "accepted->accepted": 64,
+        "off_menu->invalid_json": 26,
+        "legal_unlabelled->legal_unlabelled": 15,
+        "off_menu->accepted": 12,
+        "accepted->off_menu": 17,
+        "legal_unlabelled->off_menu": 42,
+        "off_menu->legal_unlabelled": 22,
+        "accepted->invalid_json": 3
+      }
+    },
+    "group/DEAL_OR_NO_DEAL:deal-87c63798fec4892dce9b00a9ae79ae05f84a5bb53194c09de413852df4fc6f54": {
+      "base": {
+        "accepted": 5,
+        "rejected": 1,
+        "invalid_json": 70,
+        "off_menu": 14
+      },
+      "selfci": {
+        "accepted": 5,
+        "rejected": 1,
+        "invalid_json": 84
+      },
+      "transitions": {
+        "accepted->accepted": 5,
+        "rejected->rejected": 1,
+        "invalid_json->invalid_json": 70,
+        "off_menu->invalid_json": 14
+      }
+    },
+    "group/DEAL_OR_NO_DEAL:deal-8e952b0310f658ebceeb1960fe997c8258def43380bf263a1e8d2622e8eb78b3": {
+      "base": {
+        "accepted": 2,
+        "off_menu": 3,
+        "invalid_json": 25
+      },
+      "selfci": {
+        "accepted": 4,
+        "invalid_json": 26
+      },
+      "transitions": {
+        "accepted->accepted": 2,
+        "off_menu->accepted": 2,
+        "invalid_json->invalid_json": 25,
+        "off_menu->invalid_json": 1
+      }
+    },
+    "group/DEAL_OR_NO_DEAL:deal-8c153d28f4a47534407355b945a09c5d34713bfe8b98d0671dc076032c61e922": {
+      "base": {
+        "accepted": 3,
+        "invalid_json": 38,
+        "off_menu": 4
+      },
+      "selfci": {
+        "accepted": 3,
+        "invalid_json": 42
+      },
+      "transitions": {
+        "accepted->accepted": 3,
+        "invalid_json->invalid_json": 38,
+        "off_menu->invalid_json": 4
+      }
+    },
+    "group/PISAS:thesis_readiness/scenario_18": {
+      "base": {
+        "off_menu": 47,
+        "legal_unlabelled": 2
+      },
+      "selfci": {
+        "off_menu": 41,
+        "legal_unlabelled": 8
+      },
+      "transitions": {
+        "off_menu->off_menu": 41,
+        "off_menu->legal_unlabelled": 6,
+        "legal_unlabelled->legal_unlabelled": 2
+      }
+    },
+    "group/DEAL_OR_NO_DEAL:deal-4bf848283e7871cc458d161a0fdc8b68990a8fedf1ee72727b14860231f51e40": {
+      "base": {
+        "accepted": 1,
+        "invalid_json": 12,
+        "off_menu": 2
+      },
+      "selfci": {
+        "accepted": 3,
+        "invalid_json": 12
+      },
+      "transitions": {
+        "accepted->accepted": 1,
+        "invalid_json->invalid_json": 12,
+        "off_menu->accepted": 2
+      }
+    },
+    "group/DEAL_OR_NO_DEAL:deal-a6f17c3c07db1357b389982325213cc9502d8ee74157ae0734b9a5797cf176f4": {
+      "base": {
+        "rejected": 1,
+        "invalid_json": 13,
+        "off_menu": 1
+      },
+      "selfci": {
+        "rejected": 1,
+        "invalid_json": 14
+      },
+      "transitions": {
+        "rejected->rejected": 1,
+        "invalid_json->invalid_json": 13,
+        "off_menu->invalid_json": 1
+      }
+    },
+    "evidence/REF_EVIDENCE_SUBTASK_OTHER": {
+      "base": {
+        "invalid_json": 4,
+        "off_menu": 1
+      },
+      "selfci": {
+        "invalid_json": 5
+      },
+      "transitions": {
+        "invalid_json->invalid_json": 4,
+        "off_menu->invalid_json": 1
+      }
+    },
+    "group/DEAL_OR_NO_DEAL:deal-19d3ecdffbf53e31993ad89a77f6e2df0f128ba38348051d3cd5ca36650d436e": {
+      "base": {
+        "rejected": 1,
+        "accepted": 1,
+        "off_menu": 14,
+        "invalid_json": 14
+      },
+      "selfci": {
+        "rejected": 2,
+        "invalid_json": 20,
+        "accepted": 8
+      },
+      "transitions": {
+        "rejected->rejected": 1,
+        "accepted->rejected": 1,
+        "off_menu->invalid_json": 6,
+        "off_menu->accepted": 8,
+        "invalid_json->invalid_json": 14
+      }
+    },
+    "group/DEAL_OR_NO_DEAL:deal-2fc598c9860fc3b27ff737710c1929d6ba42d4890a0acd3b63e4389c8edc0c00": {
+      "base": {
+        "accepted": 3,
+        "off_menu": 12,
+        "invalid_json": 30
+      },
+      "selfci": {
+        "accepted": 3,
+        "invalid_json": 42
+      },
+      "transitions": {
+        "accepted->accepted": 3,
+        "off_menu->invalid_json": 12,
+        "invalid_json->invalid_json": 30
+      }
+    },
+    "group/DEAL_OR_NO_DEAL:deal-0c6a631dacc796d57ff7c0304e5a54ff2f57b9236e07d4d078e705bddd33fdd9": {
+      "base": {
+        "accepted": 1,
+        "invalid_json": 12,
+        "off_menu": 2
+      },
+      "selfci": {
+        "accepted": 1,
+        "invalid_json": 14
+      },
+      "transitions": {
+        "accepted->accepted": 1,
+        "invalid_json->invalid_json": 12,
+        "off_menu->invalid_json": 2
+      }
+    },
+    "group/DEAL_OR_NO_DEAL:deal-02fbc9da089fa0109415d5ea3192522764cdf64552a4f4619ae4469ffecb1557": {
+      "base": {
+        "rejected": 3,
+        "accepted": 1,
+        "invalid_json": 50,
+        "off_menu": 6
+      },
+      "selfci": {
+        "rejected": 3,
+        "accepted": 3,
+        "invalid_json": 54
+      },
+      "transitions": {
+        "rejected->rejected": 3,
+        "accepted->accepted": 1,
+        "invalid_json->invalid_json": 50,
+        "off_menu->invalid_json": 4,
+        "off_menu->accepted": 2
+      }
+    },
+    "evidence/REF_CI_CAUSAL_FULL_BUSINESS": {
+      "base": {
+        "off_menu": 1
+      },
+      "selfci": {
+        "off_menu": 1
+      },
+      "transitions": {
+        "off_menu->off_menu": 1
+      }
+    },
+    "evidence/REF_FULL_BUSINESS_OTHER": {
+      "base": {
+        "off_menu": 3
+      },
+      "selfci": {
+        "off_menu": 3
+      },
+      "transitions": {
+        "off_menu->off_menu": 3
+      }
+    },
+    "group/DEAL_OR_NO_DEAL:deal-4cb83f0db9d76cbf5ed3ee2fb207918f38046e2e9ec574122462738d8c79fd64": {
+      "base": {
+        "accepted": 1,
+        "rejected": 1,
+        "invalid_json": 27,
+        "off_menu": 1
+      },
+      "selfci": {
+        "accepted": 1,
+        "rejected": 1,
+        "invalid_json": 28
+      },
+      "transitions": {
+        "accepted->accepted": 1,
+        "rejected->rejected": 1,
+        "invalid_json->invalid_json": 27,
+        "off_menu->invalid_json": 1
+      }
+    },
+    "group/MAP-FILE:8a40fe30e592bd741e60322671523b297559e5bdaabe61baae4c6477cb5444a3": {
+      "base": {
+        "off_menu": 14,
+        "rejected": 1,
+        "accepted": 3,
+        "legal_unlabelled": 4
+      },
+      "selfci": {
+        "rejected": 4,
+        "off_menu": 10,
+        "accepted": 5,
+        "legal_unlabelled": 3
+      },
+      "transitions": {
+        "off_menu->rejected": 3,
+        "rejected->rejected": 1,
+        "off_menu->off_menu": 8,
+        "off_menu->accepted": 2,
+        "accepted->accepted": 3,
+        "legal_unlabelled->legal_unlabelled": 2,
+        "legal_unlabelled->off_menu": 2,
+        "off_menu->legal_unlabelled": 1
+      }
+    },
+    "group/PROOFWRITER:dc9367a67d6e2a5f97dbdeb4f396c3e28cc6d0c8d6432cb3b708955181de6728": {
+      "base": {
+        "invalid_json": 2,
+        "off_menu": 11
+      },
+      "selfci": {
+        "off_menu": 13
+      },
+      "transitions": {
+        "invalid_json->off_menu": 2,
+        "off_menu->off_menu": 11
+      }
+    },
+    "domain/PROOFWRITER": {
+      "base": {
+        "invalid_json": 2,
+        "off_menu": 11
+      },
+      "selfci": {
+        "off_menu": 13
+      },
+      "transitions": {
+        "invalid_json->off_menu": 2,
+        "off_menu->off_menu": 11
+      }
+    },
+    "role/source_A": {
+      "base": {
+        "invalid_json": 2,
+        "off_menu": 1
+      },
+      "selfci": {
+        "off_menu": 3
+      },
+      "transitions": {
+        "invalid_json->off_menu": 2,
+        "off_menu->off_menu": 1
+      }
+    },
+    "domain_role/PROOFWRITER/source_A": {
+      "base": {
+        "invalid_json": 2,
+        "off_menu": 1
+      },
+      "selfci": {
+        "off_menu": 3
+      },
+      "transitions": {
+        "invalid_json->off_menu": 2,
+        "off_menu->off_menu": 1
+      }
+    },
+    "evidence/EXACT_BOUNDED_NATIVE_K_MEDIATED_SUCCESS": {
+      "base": {
+        "invalid_json": 1
+      },
+      "selfci": {
+        "off_menu": 1
+      },
+      "transitions": {
+        "invalid_json->off_menu": 1
+      }
+    },
+    "group/DEAL_OR_NO_DEAL:deal-89edcbd4c890e7138406ffe4ee8a90a90c04c0da0f7da55cbdf456e7c4c65810": {
+      "base": {
+        "rejected": 1,
+        "off_menu": 5,
+        "invalid_json": 9
+      },
+      "selfci": {
+        "rejected": 1,
+        "invalid_json": 10,
+        "accepted": 4
+      },
+      "transitions": {
+        "rejected->rejected": 1,
+        "off_menu->invalid_json": 1,
+        "invalid_json->invalid_json": 9,
+        "off_menu->accepted": 4
+      }
+    },
+    "role/bridge": {
+      "base": {
+        "off_menu": 3
+      },
+      "selfci": {
+        "off_menu": 3
+      },
+      "transitions": {
+        "off_menu->off_menu": 3
+      }
+    },
+    "domain_role/MULTIAGENTPRIVACY/bridge": {
+      "base": {
+        "off_menu": 3
+      },
+      "selfci": {
+        "off_menu": 3
+      },
+      "transitions": {
+        "off_menu->off_menu": 3
+      }
+    },
+    "role/relay": {
+      "base": {
+        "rejected": 2,
+        "off_menu": 29,
+        "accepted": 9,
+        "legal_unlabelled": 7
+      },
+      "selfci": {
+        "invalid_json": 20,
+        "rejected": 1,
+        "off_menu": 19,
+        "accepted": 6,
+        "legal_unlabelled": 1
+      },
+      "transitions": {
+        "rejected->invalid_json": 1,
+        "rejected->rejected": 1,
+        "off_menu->off_menu": 15,
+        "off_menu->invalid_json": 12,
+        "accepted->accepted": 5,
+        "legal_unlabelled->invalid_json": 5,
+        "accepted->invalid_json": 2,
+        "legal_unlabelled->off_menu": 2,
+        "off_menu->legal_unlabelled": 1,
+        "accepted->off_menu": 2,
+        "off_menu->accepted": 1
+      }
+    },
+    "domain_role/PISAS/relay": {
+      "base": {
+        "rejected": 2,
+        "off_menu": 29,
+        "accepted": 9,
+        "legal_unlabelled": 7
+      },
+      "selfci": {
+        "invalid_json": 20,
+        "rejected": 1,
+        "off_menu": 19,
+        "accepted": 6,
+        "legal_unlabelled": 1
+      },
+      "transitions": {
+        "rejected->invalid_json": 1,
+        "rejected->rejected": 1,
+        "off_menu->off_menu": 15,
+        "off_menu->invalid_json": 12,
+        "accepted->accepted": 5,
+        "legal_unlabelled->invalid_json": 5,
+        "accepted->invalid_json": 2,
+        "legal_unlabelled->off_menu": 2,
+        "off_menu->legal_unlabelled": 1,
+        "accepted->off_menu": 2,
+        "off_menu->accepted": 1
+      }
+    },
+    "group/DEAL_OR_NO_DEAL:deal-489f86572104f04d78177fdf06b05d6b1ea55df48299824511151586e328c5f9": {
+      "base": {
+        "rejected": 1,
+        "invalid_json": 13,
+        "off_menu": 1
+      },
+      "selfci": {
+        "rejected": 1,
+        "invalid_json": 14
+      },
+      "transitions": {
+        "rejected->rejected": 1,
+        "invalid_json->invalid_json": 13,
+        "off_menu->invalid_json": 1
+      }
+    },
+    "group/DEAL_OR_NO_DEAL:deal-f7a0b7d16a00f83994a906b2ec30b1b7283c3537560334042cfa5eee6ea4c37c": {
+      "base": {
+        "accepted": 1,
+        "off_menu": 2,
+        "invalid_json": 12
+      },
+      "selfci": {
+        "accepted": 3,
+        "invalid_json": 12
+      },
+      "transitions": {
+        "accepted->accepted": 1,
+        "off_menu->accepted": 2,
+        "invalid_json->invalid_json": 12
+      }
+    },
+    "role/recipient": {
+      "base": {
+        "off_menu": 9,
+        "legal_unlabelled": 5
+      },
+      "selfci": {
+        "off_menu": 14
+      },
+      "transitions": {
+        "off_menu->off_menu": 9,
+        "legal_unlabelled->off_menu": 5
+      }
+    },
+    "domain_role/MULTIAGENTPRIVACY/recipient": {
+      "base": {
+        "off_menu": 9,
+        "legal_unlabelled": 5
+      },
+      "selfci": {
+        "off_menu": 14
+      },
+      "transitions": {
+        "off_menu->off_menu": 9,
+        "legal_unlabelled->off_menu": 5
+      }
+    },
+    "role/private_mediator": {
+      "base": {
+        "invalid_json": 844,
+        "off_menu": 164
+      },
+      "selfci": {
+        "invalid_json": 950,
+        "accepted": 55,
+        "off_menu": 3
+      },
+      "transitions": {
+        "invalid_json->invalid_json": 841,
+        "off_menu->invalid_json": 109,
+        "off_menu->accepted": 54,
+        "invalid_json->off_menu": 2,
+        "off_menu->off_menu": 1,
+        "invalid_json->accepted": 1
+      }
+    },
+    "route/sft": {
+      "base": {
+        "invalid_json": 1404,
+        "off_menu": 1881,
+        "accepted": 491,
+        "legal_unlabelled": 176
+      },
+      "selfci": {
+        "invalid_json": 1633,
+        "off_menu": 1815,
+        "legal_unlabelled": 242,
+        "accepted": 262
+      },
+      "transitions": {
+        "invalid_json->invalid_json": 1370,
+        "invalid_json->off_menu": 29,
+        "off_menu->off_menu": 1470,
+        "off_menu->invalid_json": 201,
+        "accepted->invalid_json": 49,
+        "accepted->off_menu": 258,
+        "off_menu->legal_unlabelled": 134,
+        "accepted->accepted": 184,
+        "legal_unlabelled->legal_unlabelled": 105,
+        "off_menu->accepted": 76,
+        "legal_unlabelled->off_menu": 58,
+        "legal_unlabelled->invalid_json": 13,
+        "invalid_json->legal_unlabelled": 3,
+        "invalid_json->accepted": 2
+      }
+    },
+    "domain_role/DEAL_OR_NO_DEAL/private_mediator": {
+      "base": {
+        "invalid_json": 844,
+        "off_menu": 164
+      },
+      "selfci": {
+        "invalid_json": 950,
+        "accepted": 55,
+        "off_menu": 3
+      },
+      "transitions": {
+        "invalid_json->invalid_json": 841,
+        "off_menu->invalid_json": 109,
+        "off_menu->accepted": 54,
+        "invalid_json->off_menu": 2,
+        "off_menu->off_menu": 1,
+        "invalid_json->accepted": 1
+      }
+    },
+    "evidence/closed_action_set": {
+      "base": {
+        "invalid_json": 845,
+        "off_menu": 175
+      },
+      "selfci": {
+        "invalid_json": 950,
+        "off_menu": 15,
+        "accepted": 55
+      },
+      "transitions": {
+        "invalid_json->invalid_json": 841,
+        "off_menu->invalid_json": 109,
+        "off_menu->off_menu": 12,
+        "off_menu->accepted": 54,
+        "invalid_json->off_menu": 3,
+        "invalid_json->accepted": 1
+      }
+    },
+    "menu/forced": {
+      "base": {
+        "invalid_json": 61,
+        "accepted": 400,
+        "off_menu": 590
+      },
+      "selfci": {
+        "off_menu": 749,
+        "accepted": 196,
+        "invalid_json": 106
+      },
+      "transitions": {
+        "invalid_json->off_menu": 26,
+        "accepted->off_menu": 256,
+        "accepted->accepted": 142,
+        "off_menu->invalid_json": 69,
+        "off_menu->off_menu": 467,
+        "off_menu->accepted": 54,
+        "invalid_json->invalid_json": 35,
+        "accepted->invalid_json": 2
+      }
+    },
+    "evidence/executed_safe_success_witness": {
+      "base": {
+        "invalid_json": 559,
+        "off_menu": 1701,
+        "accepted": 482,
+        "legal_unlabelled": 176
+      },
+      "selfci": {
+        "off_menu": 1795,
+        "invalid_json": 683,
+        "legal_unlabelled": 242,
+        "accepted": 198
+      },
+      "transitions": {
+        "invalid_json->off_menu": 26,
+        "off_menu->off_menu": 1453,
+        "invalid_json->invalid_json": 529,
+        "accepted->invalid_json": 49,
+        "accepted->off_menu": 258,
+        "off_menu->legal_unlabelled": 134,
+        "accepted->accepted": 175,
+        "legal_unlabelled->legal_unlabelled": 105,
+        "off_menu->invalid_json": 92,
+        "off_menu->accepted": 22,
+        "legal_unlabelled->off_menu": 58,
+        "legal_unlabelled->invalid_json": 13,
+        "invalid_json->legal_unlabelled": 3,
+        "invalid_json->accepted": 1
+      }
+    },
+    "role/executor": {
+      "base": {
+        "off_menu": 651,
+        "accepted": 400,
+        "legal_unlabelled": 152,
+        "invalid_json": 5
+      },
+      "selfci": {
+        "off_menu": 864,
+        "accepted": 142,
+        "legal_unlabelled": 199,
+        "invalid_json": 3
+      },
+      "transitions": {
+        "off_menu->off_menu": 555,
+        "accepted->off_menu": 256,
+        "accepted->accepted": 142,
+        "legal_unlabelled->legal_unlabelled": 101,
+        "off_menu->legal_unlabelled": 95,
+        "legal_unlabelled->off_menu": 51,
+        "off_menu->invalid_json": 1,
+        "accepted->invalid_json": 2,
+        "invalid_json->off_menu": 2,
+        "invalid_json->legal_unlabelled": 3
+      }
+    },
+    "domain_role/PISAS/executor": {
+      "base": {
+        "off_menu": 651,
+        "accepted": 400,
+        "legal_unlabelled": 152,
+        "invalid_json": 5
+      },
+      "selfci": {
+        "off_menu": 864,
+        "accepted": 142,
+        "legal_unlabelled": 199,
+        "invalid_json": 3
+      },
+      "transitions": {
+        "off_menu->off_menu": 555,
+        "accepted->off_menu": 256,
+        "accepted->accepted": 142,
+        "legal_unlabelled->legal_unlabelled": 101,
+        "off_menu->legal_unlabelled": 95,
+        "legal_unlabelled->off_menu": 51,
+        "off_menu->invalid_json": 1,
+        "accepted->invalid_json": 2,
+        "invalid_json->off_menu": 2,
+        "invalid_json->legal_unlabelled": 3
+      }
+    },
+    "role/source_B": {
+      "base": {
+        "off_menu": 10
+      },
+      "selfci": {
+        "off_menu": 10
+      },
+      "transitions": {
+        "off_menu->off_menu": 10
+      }
+    },
+    "domain_role/PROOFWRITER/source_B": {
+      "base": {
+        "off_menu": 10
+      },
+      "selfci": {
+        "off_menu": 10
+      },
+      "transitions": {
+        "off_menu->off_menu": 10
+      }
+    },
+    "role/Tobias Lindqvist": {
+      "base": {
+        "off_menu": 82
+      },
+      "selfci": {
+        "off_menu": 82
+      },
+      "transitions": {
+        "off_menu->off_menu": 82
+      }
+    },
+    "domain_role/PISAS/Tobias Lindqvist": {
+      "base": {
+        "off_menu": 82
+      },
+      "selfci": {
+        "off_menu": 82
+      },
+      "transitions": {
+        "off_menu->off_menu": 82
+      }
+    },
+    "role/broker": {
+      "base": {
+        "off_menu": 11,
+        "invalid_json": 2
+      },
+      "selfci": {
+        "off_menu": 13
+      },
+      "transitions": {
+        "off_menu->off_menu": 11,
+        "invalid_json->off_menu": 2
+      }
+    },
+    "domain_role/MULTIAGENTPRIVACY/broker": {
+      "base": {
+        "off_menu": 11,
+        "invalid_json": 2
+      },
+      "selfci": {
+        "off_menu": 13
+      },
+      "transitions": {
+        "off_menu->off_menu": 11,
+        "invalid_json->off_menu": 2
+      }
+    },
+    "role/g_holder": {
+      "base": {
+        "off_menu": 2
+      },
+      "selfci": {
+        "invalid_json": 2
+      },
+      "transitions": {
+        "off_menu->invalid_json": 2
+      }
+    },
+    "domain_role/PISAS/g_holder": {
+      "base": {
+        "off_menu": 2
+      },
+      "selfci": {
+        "invalid_json": 2
+      },
+      "transitions": {
+        "off_menu->invalid_json": 2
+      }
+    },
+    "role/source_analyst_2": {
+      "base": {
+        "accepted": 9
+      },
+      "selfci": {
+        "accepted": 9
+      },
+      "transitions": {
+        "accepted->accepted": 9
+      }
+    },
+    "domain_role/MULTIAGENTPRIVACY/source_analyst_2": {
+      "base": {
+        "accepted": 9
+      },
+      "selfci": {
+        "accepted": 9
+      },
+      "transitions": {
+        "accepted->accepted": 9
+      }
+    },
+    "evidence/safe_success_across_indistinguishable_histories": {
+      "base": {
+        "accepted": 9
+      },
+      "selfci": {
+        "accepted": 9
+      },
+      "transitions": {
+        "accepted->accepted": 9
+      }
+    },
+    "group/CIWORK:2a56d9ff-9d23-4243-b818-f272e106ee9c": {
+      "base": {
+        "invalid_json": 1
+      },
+      "selfci": {
+        "invalid_json": 1
+      },
+      "transitions": {
+        "invalid_json->invalid_json": 1
+      }
+    },
+    "domain/CIWORK": {
+      "base": {
+        "invalid_json": 1,
+        "invalid_contract": 3,
+        "other_output": 1
+      },
+      "selfci": {
+        "invalid_json": 5
+      },
+      "transitions": {
+        "invalid_json->invalid_json": 1,
+        "invalid_contract->invalid_json": 3,
+        "other_output->invalid_json": 1
+      }
+    },
+    "role/enterprise_sender": {
+      "base": {
+        "invalid_json": 1,
+        "invalid_contract": 3,
+        "other_output": 1
+      },
+      "selfci": {
+        "invalid_json": 5
+      },
+      "transitions": {
+        "invalid_json->invalid_json": 1,
+        "invalid_contract->invalid_json": 3,
+        "other_output->invalid_json": 1
+      }
+    },
+    "route/static_evidence": {
+      "base": {
+        "invalid_json": 1,
+        "invalid_contract": 3,
+        "other_output": 1
+      },
+      "selfci": {
+        "invalid_json": 5
+      },
+      "transitions": {
+        "invalid_json->invalid_json": 1,
+        "invalid_contract->invalid_json": 3,
+        "other_output->invalid_json": 1
+      }
+    },
+    "domain_role/CIWORK/enterprise_sender": {
+      "base": {
+        "invalid_json": 1,
+        "invalid_contract": 3,
+        "other_output": 1
+      },
+      "selfci": {
+        "invalid_json": 5
+      },
+      "transitions": {
+        "invalid_json->invalid_json": 1,
+        "invalid_contract->invalid_json": 3,
+        "other_output->invalid_json": 1
+      }
+    },
+    "menu/open_contract": {
+      "base": {
+        "invalid_json": 1,
+        "invalid_contract": 5,
+        "other_output": 1
+      },
+      "selfci": {
+        "invalid_json": 5,
+        "invalid_contract": 1,
+        "other_output": 1
+      },
+      "transitions": {
+        "invalid_json->invalid_json": 1,
+        "invalid_contract->invalid_json": 3,
+        "other_output->invalid_json": 1,
+        "invalid_contract->invalid_contract": 1,
+        "invalid_contract->other_output": 1
+      }
+    },
+    "evidence/STATIC_EVIDENCE_SELECTION": {
+      "base": {
+        "invalid_json": 1,
+        "invalid_contract": 3,
+        "other_output": 1
+      },
+      "selfci": {
+        "invalid_json": 5
+      },
+      "transitions": {
+        "invalid_json->invalid_json": 1,
+        "invalid_contract->invalid_json": 3,
+        "other_output->invalid_json": 1
+      }
+    },
+    "group/CIWORK:9db84603-971d-4c69-b681-8dcb2aef530e": {
+      "base": {
+        "invalid_contract": 1
+      },
+      "selfci": {
+        "invalid_json": 1
+      },
+      "transitions": {
+        "invalid_contract->invalid_json": 1
+      }
+    },
+    "group/CIWORK:a333454a-7f59-401e-a3ce-ba5d400df6d4": {
+      "base": {
+        "invalid_contract": 1
+      },
+      "selfci": {
+        "invalid_json": 1
+      },
+      "transitions": {
+        "invalid_contract->invalid_json": 1
+      }
+    },
+    "group/CIWORK:7227378e-93df-4298-8364-e82e53460fe8": {
+      "base": {
+        "invalid_contract": 1
+      },
+      "selfci": {
+        "invalid_json": 1
+      },
+      "transitions": {
+        "invalid_contract->invalid_json": 1
+      }
+    },
+    "group/CIWORK:4eb1f8b3-b4ff-4fba-a82f-53ee56ad33fa": {
+      "base": {
+        "other_output": 1
+      },
+      "selfci": {
+        "invalid_json": 1
+      },
+      "transitions": {
+        "other_output->invalid_json": 1
+      }
+    },
+    "route/task_dpo": {
+      "base": {
+        "off_menu": 1
+      },
+      "selfci": {
+        "off_menu": 1
+      },
+      "transitions": {
+        "off_menu->off_menu": 1
+      }
+    },
+    "evidence/TASK_READINESS_NOT_CI": {
+      "base": {
+        "off_menu": 1
+      },
+      "selfci": {
+        "off_menu": 1
+      },
+      "transitions": {
+        "off_menu->off_menu": 1
+      }
+    },
+    "route/task_sft": {
+      "base": {
+        "off_menu": 5,
+        "invalid_contract": 2
+      },
+      "selfci": {
+        "off_menu": 5,
+        "invalid_contract": 1,
+        "other_output": 1
+      },
+      "transitions": {
+        "off_menu->off_menu": 5,
+        "invalid_contract->invalid_contract": 1,
+        "invalid_contract->other_output": 1
+      }
+    },
+    "evidence/TASK_TERMINAL_NOT_CI": {
+      "base": {
+        "off_menu": 5
+      },
+      "selfci": {
+        "off_menu": 5
+      },
+      "transitions": {
+        "off_menu->off_menu": 5
+      }
+    },
+    "group/TOP-R:stage1_true_v1_5_0381": {
+      "base": {
+        "invalid_contract": 2
+      },
+      "selfci": {
+        "invalid_contract": 1,
+        "other_output": 1
+      },
+      "transitions": {
+        "invalid_contract->invalid_contract": 1,
+        "invalid_contract->other_output": 1
+      }
+    },
+    "domain/TOP-R": {
+      "base": {
+        "invalid_contract": 2
+      },
+      "selfci": {
+        "invalid_contract": 1,
+        "other_output": 1
+      },
+      "transitions": {
+        "invalid_contract->invalid_contract": 1,
+        "invalid_contract->other_output": 1
+      }
+    },
+    "role/report_coordinator": {
+      "base": {
+        "invalid_contract": 1
+      },
+      "selfci": {
+        "invalid_contract": 1
+      },
+      "transitions": {
+        "invalid_contract->invalid_contract": 1
+      }
+    },
+    "domain_role/TOP-R/report_coordinator": {
+      "base": {
+        "invalid_contract": 1
+      },
+      "selfci": {
+        "invalid_contract": 1
+      },
+      "transitions": {
+        "invalid_contract->invalid_contract": 1
+      }
+    },
+    "evidence/completion": {
+      "base": {
+        "invalid_contract": 2
+      },
+      "selfci": {
+        "invalid_contract": 1,
+        "other_output": 1
+      },
+      "transitions": {
+        "invalid_contract->invalid_contract": 1,
+        "invalid_contract->other_output": 1
+      }
+    },
+    "role/authorized_private_comparator": {
+      "base": {
+        "invalid_contract": 1
+      },
+      "selfci": {
+        "other_output": 1
+      },
+      "transitions": {
+        "invalid_contract->other_output": 1
+      }
+    },
+    "domain_role/TOP-R/authorized_private_comparator": {
+      "base": {
+        "invalid_contract": 1
+      },
+      "selfci": {
+        "other_output": 1
+      },
+      "transitions": {
+        "invalid_contract->other_output": 1
+      }
+    }
+  },
+  "manifests": {
+    "base": {
+      "adapter_sha256": null,
+      "batch": 128,
+      "context": 4096,
+      "engine": "vllm",
+      "greedy": true,
+      "max_tokens": 384,
+      "model": "/root/autodl-tmp/selfci/Qwen3-4B-Instruct-2507",
+      "prompts": 4077,
+      "prompts_sha256": "f5581f1fd34e7c91d30f1d0828b9e4017bba2497d9f2fec38da47136b11c7362",
+      "versions": {
+        "torch": "2.9.1",
+        "transformers": "4.57.6",
+        "vllm": "0.16.0"
+      }
+    },
+    "selfci": {
+      "adapter_sha256": "5a3fa12f8b1edbde5868e04d59f5f45e8a1c58b98b8b4c2838a99a61f93c2968",
+      "batch": 128,
+      "context": 4096,
+      "engine": "vllm",
+      "greedy": true,
+      "max_tokens": 384,
+      "model": "/root/autodl-tmp/selfci/Qwen3-4B-Instruct-2507",
+      "prompts": 4077,
+      "prompts_sha256": "f5581f1fd34e7c91d30f1d0828b9e4017bba2497d9f2fec38da47136b11c7362",
+      "versions": {
+        "torch": "2.9.1",
+        "transformers": "4.57.6",
+        "vllm": "0.16.0"
+      }
+    }
+  }
+}

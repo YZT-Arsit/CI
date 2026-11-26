@@ -1,0 +1,30 @@
+[
+  {
+    "id": "huseyinatahaninan/ContextualIntegritySyntheticDataset",
+    "revision": "e6fe38ea256841319addcdd397d9927f0569e3f6",
+    "url": "https://huggingface.co/datasets/huseyinatahaninan/ContextualIntegritySyntheticDataset/resolve/e6fe38ea256841319addcdd397d9927f0569e3f6/data/train-00000-of-00001.parquet",
+    "file": "raw/train.parquet",
+    "bytes": 359252,
+    "sha256": "0b7b1ad9954cdd9551d0443ba3f0e7ce61baebf9efb770b7a21ae03e7d89ffd5",
+    "rows": 729,
+    "columns": [
+      "seed",
+      "dataset_item"
+    ]
+  },
+  {
+    "id": "Sangsang/ContextualIntegritySyntheticDataset_Qwen3-4B-Instruct-2507_all",
+    "revision": "3431b72e5c56f7438d223c0fc69b592d1033779d",
+    "url": "https://huggingface.co/datasets/Sangsang/ContextualIntegritySyntheticDataset_Qwen3-4B-Instruct-2507_all/resolve/3431b72e5c56f7438d223c0fc69b592d1033779d/data/train-00000-of-00001.parquet",
+    "file": "feedback/train.parquet",
+    "bytes": 1337243,
+    "sha256": "7e7a86ad65b59ca1d748fd274b9918c1a7e4dc59616a4c1e0fb034b89fea3010",
+    "rows": 729,
+    "columns": [
+      "seed",
+      "dataset_item",
+      "allowed_feedbacks",
+      "disallowed_feedbacks"
+    ]
+  }
+]

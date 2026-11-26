@@ -1,0 +1,57 @@
+{
+  "num_examples": 73,
+  "num_runs": 5,
+  "per_run_metrics": [
+    {
+      "seed": 42,
+      "num_examples": 73,
+      "Integrity": 0.5342465753424658,
+      "Utility": 0.684931506849315,
+      "Complete": 0.3561643835616438,
+      "parsed": 71,
+      "length_capped": 0
+    },
+    {
+      "seed": 43,
+      "num_examples": 73,
+      "Integrity": 0.0273972602739726,
+      "Utility": 0.0547945205479452,
+      "Complete": 0.0273972602739726,
+      "parsed": 4,
+      "length_capped": 0
+    },
+    {
+      "seed": 44,
+      "num_examples": 73,
+      "Integrity": 0.0136986301369863,
+      "Utility": 0.0136986301369863,
+      "Complete": 0.0136986301369863,
+      "parsed": 1,
+      "length_capped": 0
+    },
+    {
+      "seed": 45,
+      "num_examples": 73,
+      "Integrity": 0.0136986301369863,
+      "Utility": 0.0273972602739726,
+      "Complete": 0.0136986301369863,
+      "parsed": 2,
+      "length_capped": 0
+    },
+    {
+      "seed": 46,
+      "num_examples": 73,
+      "Integrity": 0.5342465753424658,
+      "Utility": 0.6575342465753424,
+      "Complete": 0.3287671232876712,
+      "parsed": 73,
+      "length_capped": 0
+    }
+  ],
+  "Integrity_avg": 0.22465753424657536,
+  "Integrity_stdev": 0.28267016240988796,
+  "Utility_avg": 0.2876712328767123,
+  "Utility_stdev": 0.3505885997827322,
+  "Complete_avg": 0.14794520547945206,
+  "Complete_stdev": 0.17792406045606213
+}

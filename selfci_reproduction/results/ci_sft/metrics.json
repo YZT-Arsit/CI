@@ -1,0 +1,57 @@
+{
+  "num_examples": 73,
+  "num_runs": 5,
+  "per_run_metrics": [
+    {
+      "seed": 42,
+      "num_examples": 73,
+      "Integrity": 0.589041095890411,
+      "Utility": 0.6301369863013698,
+      "Complete": 0.3835616438356164,
+      "parsed": 71,
+      "length_capped": 0
+    },
+    {
+      "seed": 43,
+      "num_examples": 73,
+      "Integrity": 0.4383561643835616,
+      "Utility": 0.4520547945205479,
+      "Complete": 0.273972602739726,
+      "parsed": 50,
+      "length_capped": 0
+    },
+    {
+      "seed": 44,
+      "num_examples": 73,
+      "Integrity": 0.1780821917808219,
+      "Utility": 0.2876712328767123,
+      "Complete": 0.0958904109589041,
+      "parsed": 34,
+      "length_capped": 0
+    },
+    {
+      "seed": 45,
+      "num_examples": 73,
+      "Integrity": 0.5616438356164384,
+      "Utility": 0.5753424657534246,
+      "Complete": 0.3424657534246575,
+      "parsed": 69,
+      "length_capped": 0
+    },
+    {
+      "seed": 46,
+      "num_examples": 73,
+      "Integrity": 0.6027397260273972,
+      "Utility": 0.5342465753424658,
+      "Complete": 0.3424657534246575,
+      "parsed": 64,
+      "length_capped": 1
+    }
+  ],
+  "Integrity_avg": 0.4739726027397261,
+  "Integrity_stdev": 0.17771299981183278,
+  "Utility_avg": 0.49589041095890407,
+  "Utility_stdev": 0.1333067465830451,
+  "Complete_avg": 0.2876712328767123,
+  "Complete_stdev": 0.11420090411324017
+}

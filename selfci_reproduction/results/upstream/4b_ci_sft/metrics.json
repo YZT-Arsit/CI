@@ -1,0 +1,58 @@
+{
+  "num_examples": 73,
+  "num_runs": 5,
+  "Integrity": 0.5589041095890411,
+  "Utility": 0.5945205479452055,
+  "Complete": 0.4,
+  "Integrity_avg": 0.5589041095890411,
+  "Utility_avg": 0.5945205479452055,
+  "Complete_avg": 0.4,
+  "Integrity_stdev": 0.00612621363698575,
+  "Utility_stdev": 0.018378640910957148,
+  "Complete_stdev": 0.0245048545479429,
+  "per_run_metrics": [
+    {
+      "num_examples": 73,
+      "Integrity": 0.547945205479452,
+      "Utility": 0.5616438356164384,
+      "Complete": 0.3561643835616438,
+      "run_index": 1
+    },
+    {
+      "num_examples": 73,
+      "Integrity": 0.5616438356164384,
+      "Utility": 0.6027397260273972,
+      "Complete": 0.410958904109589,
+      "run_index": 2
+    },
+    {
+      "num_examples": 73,
+      "Integrity": 0.5616438356164384,
+      "Utility": 0.6027397260273972,
+      "Complete": 0.410958904109589,
+      "run_index": 3
+    },
+    {
+      "num_examples": 73,
+      "Integrity": 0.5616438356164384,
+      "Utility": 0.6027397260273972,
+      "Complete": 0.410958904109589,
+      "run_index": 4
+    },
+    {
+      "num_examples": 73,
+      "Integrity": 0.5616438356164384,
+      "Utility": 0.6027397260273972,
+      "Complete": 0.410958904109589,
+      "run_index": 5
+    }
+  ],
+  "model_name_or_path": "/root/autodl-tmp/selfci/offline_checkpoints/Qwen3-4B-Instruct-2507_4b_ci_sft",
+  "max_output_length": 2048,
+  "temperature": 0.7,
+  "top_p": 1.0,
+  "vllm_seed": 42,
+  "vllm_max_model_len": 8192,
+  "prompt_style": "ci-cot",
+  "stdev_type": "sample"
+}

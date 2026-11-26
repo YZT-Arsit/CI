@@ -1,0 +1,41 @@
+{
+  "verdict": "PASS",
+  "worlds": 48,
+  "enumerated_leaves": 1812,
+  "max_expected_mass_error": 2.220446049250313e-16,
+  "unknown_fixture_mass": 3.704053171818916e-05,
+  "shared_gradient": [
+    {
+      "domain": "DealOrNoDeal",
+      "arm": "B",
+      "up": 0.23716985821650505,
+      "down": 0.11914392446843466,
+      "finite_difference_error": 8.64736060535165e-12,
+      "decomposition_error": 1.3877787807814457e-17
+    },
+    {
+      "domain": "DealOrNoDeal",
+      "arm": "C",
+      "up": 0.23716985821650505,
+      "down": 0.47623589066872296,
+      "finite_difference_error": 1.430866536367148e-11,
+      "decomposition_error": 2.7755575615628914e-17
+    },
+    {
+      "domain": "ProofWriter",
+      "arm": "B",
+      "up": 0.0618337496728791,
+      "down": 0.004646353410303023,
+      "finite_difference_error": 7.118132472339056e-12,
+      "decomposition_error": 3.469446951953614e-18
+    },
+    {
+      "domain": "ProofWriter",
+      "arm": "C",
+      "up": 0.0618337496728791,
+      "down": 1.5708014025653905,
+      "finite_difference_error": 7.377931598995247e-12,
+      "decomposition_error": 2.7755575615628914e-17
+    }
+  ]
+}

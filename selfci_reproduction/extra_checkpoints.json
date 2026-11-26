@@ -1,0 +1,1393 @@
+{
+  "scope": {
+    "github_commit": "9cf9b2a53242c69e5f46150bbc34aea0859b98e4",
+    "author_hub_accounts": {
+      "Sangsang": 255,
+      "wgcyeo": 0
+    },
+    "sources": [
+      "https://huggingface.co/api/models?author=Sangsang&limit=1000",
+      "https://huggingface.co/api/models?author=wgcyeo&limit=1000"
+    ],
+    "paper_target": "Table 1 and Appendix C.2, C.3",
+    "exact_table_checkpoint_sha_disclosed": false,
+    "verification": "Public Hub API model metadata, pinned adapter_config.json, safely inspected training_args.bin pickle opcodes, trainer_state.json when present, root student safetensors header and file-size/LFS identity. Only small metadata and safetensors headers fetched. Null license means the candidate model card has no license declaration. No license grant inferred from public access. Base model revisions are current Hub pins; adapters do not pin the base revision."
+  },
+  "bases": {
+    "Qwen/Qwen2.5-7B-Instruct": {
+      "repo": "Qwen/Qwen2.5-7B-Instruct",
+      "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+      "gated": false,
+      "private": false,
+      "license_in_card": "apache-2.0",
+      "root_safetensors_bytes": 15231271888
+    },
+    "Qwen/Qwen3-4B": {
+      "repo": "Qwen/Qwen3-4B",
+      "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+      "gated": false,
+      "private": false,
+      "license_in_card": "apache-2.0",
+      "root_safetensors_bytes": 8044982000
+    },
+    "Qwen/Qwen3-4B-Instruct-2507": {
+      "repo": "Qwen/Qwen3-4B-Instruct-2507",
+      "revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+      "gated": false,
+      "private": false,
+      "license_in_card": "apache-2.0",
+      "root_safetensors_bytes": 8044982000
+    },
+    "deepseek-ai/DeepSeek-R1-Distill-Llama-8B": {
+      "repo": "deepseek-ai/DeepSeek-R1-Distill-Llama-8B",
+      "revision": "6a6f4aa4197940add57724a7707d069478df56b1",
+      "gated": false,
+      "private": false,
+      "license_in_card": "mit",
+      "root_safetensors_bytes": 16060556354
+    },
+    "meta-llama/Llama-3.1-8B-Instruct": {
+      "repo": "meta-llama/Llama-3.1-8B-Instruct",
+      "revision": "0e9e39f249a16976918f6564b8830bc894c89659",
+      "gated": "manual",
+      "private": false,
+      "license_in_card": "llama3.1",
+      "root_safetensors_bytes": 16060556376
+    },
+    "allenai/Olmo-3-7B-Instruct": {
+      "repo": "allenai/Olmo-3-7B-Instruct",
+      "revision": "6e5971d9eba42665f5bd5a0fcf047f299ce1dccc",
+      "gated": false,
+      "private": false,
+      "license_in_card": "apache-2.0",
+      "root_safetensors_bytes": 14596063712
+    },
+    "allenai/Olmo-3-7B-Think": {
+      "repo": "allenai/Olmo-3-7B-Think",
+      "revision": "d97e442d7cc678210054dbcc9b440894d62c89a4",
+      "gated": false,
+      "private": false,
+      "license_in_card": "apache-2.0",
+      "root_safetensors_bytes": 14596063712
+    }
+  },
+  "candidates": [
+    {
+      "base": "Qwen/Qwen2.5-7B-Instruct",
+      "arm": "SelfCI",
+      "status": "author_configuration_matched",
+      "evidence": "Explicit dual-feedback fixed EMA training run_name, same-base q/v LoRA with matching settings, student + EMA weights and dev metrics; no direct citation binding to the paper table.",
+      "repo": "Sangsang/feedback_asymmetric_fixed_ema_Qwen2.5-7B-Instruct_bw0p5_fw0p5_ema0p999_ep30",
+      "revision": "f2e3a91ef377e4dc1566535eb016cb8c9aa215c0",
+      "source": "https://huggingface.co/Sangsang/feedback_asymmetric_fixed_ema_Qwen2.5-7B-Instruct_bw0p5_fw0p5_ema0p999_ep30/tree/f2e3a91ef377e4dc1566535eb016cb8c9aa215c0",
+      "adapter_gated": false,
+      "adapter_license_in_card": null,
+      "weights": {
+        "path": "adapter_model.safetensors",
+        "bytes": 40385208,
+        "sha256": "8ff27113de707e38446a82b3023363621692d4d98ae6e60883aaa54e01706535"
+      },
+      "safetensors_header": {
+        "tensors": 112,
+        "dtypes": [
+          "F32"
+        ],
+        "declared_bytes": 40385208,
+        "example_tensor": "base_model.model.model.layers.0.self_attn.q_proj.lora_A.weight"
+      },
+      "peft": {
+        "target_modules": [
+          "q_proj",
+          "v_proj"
+        ],
+        "r": 32,
+        "lora_alpha": 64,
+        "lora_dropout": 0.05,
+        "base_model_name_or_path": "Qwen/Qwen2.5-7B-Instruct",
+        "revision": null
+      },
+      "ema_teacher_file_present": true,
+      "tags": [
+        "base_model:adapter:Qwen/Qwen2.5-7B-Instruct",
+        "lora",
+        "transformers"
+      ],
+      "training_args": {
+        "per_device_train_batch_size": 1,
+        "gradient_accumulation_steps": 2,
+        "learning_rate": 1e-06,
+        "weight_decay": 0.0,
+        "num_train_epochs": 30,
+        "warmup_ratio": 0.1,
+        "run_name": "feedback_weighted_asymmetric_bidirectional_kl_fixed_ema_Qwen2.5-7B-Instruct_bw0p5_fw0p5_ema0p999_ep30",
+        "temperature": 0.7,
+        "max_completion_length": 2048,
+        "max_model_len": null
+      },
+      "selection": "upload_attains_max_in_available_history; later_epochs_unverified",
+      "trainer_state": {
+        "present": true,
+        "epoch": 29.0,
+        "step": 8555,
+        "max_steps": 8850,
+        "eval_history_records": 30,
+        "at_upload": {
+          "epoch": 29.0,
+          "eval_complete": 0.5121212601661682,
+          "eval_complete_avg@5": 0.5121212601661682,
+          "eval_integrity": 0.8242424726486206,
+          "eval_loss": 0.06071007624268532,
+          "eval_reward": 0.7657575607299805,
+          "eval_utility": 0.6363636255264282,
+          "step": 8555
+        },
+        "max_available_eval_complete_entry": {
+          "epoch": 29.0,
+          "eval_complete": 0.5121212601661682,
+          "eval_complete_avg@5": 0.5121212601661682,
+          "eval_integrity": 0.8242424726486206,
+          "eval_loss": 0.06071007624268532,
+          "eval_reward": 0.7657575607299805,
+          "eval_utility": 0.6363636255264282,
+          "step": 8555
+        },
+        "best_model_checkpoint": null,
+        "best_metric": null
+      }
+    },
+    {
+      "base": "Qwen/Qwen3-4B-Instruct-2507",
+      "arm": "SelfCI",
+      "status": "author_configuration_matched",
+      "evidence": "Explicit dual-feedback fixed EMA training run_name, same-base q/v LoRA with matching settings, student + EMA weights and dev metrics; no direct citation binding to the paper table.",
+      "repo": "Sangsang/feedback_asymmetric_fixed_ema_Qwen3-4B-Instruct-2507_bw0p5_fw0p5_ema0p999_ep30",
+      "revision": "1e7f55d3a1b026bf1d606d23f6f5a9d13ebe9e1e",
+      "source": "https://huggingface.co/Sangsang/feedback_asymmetric_fixed_ema_Qwen3-4B-Instruct-2507_bw0p5_fw0p5_ema0p999_ep30/tree/1e7f55d3a1b026bf1d606d23f6f5a9d13ebe9e1e",
+      "adapter_gated": false,
+      "adapter_license_in_card": null,
+      "weights": {
+        "path": "adapter_model.safetensors",
+        "bytes": 47205296,
+        "sha256": "5a3fa12f8b1edbde5868e04d59f5f45e8a1c58b98b8b4c2838a99a61f93c2968"
+      },
+      "safetensors_header": {
+        "tensors": 144,
+        "dtypes": [
+          "F32"
+        ],
+        "declared_bytes": 47205296,
+        "example_tensor": "base_model.model.model.layers.0.self_attn.q_proj.lora_A.weight"
+      },
+      "peft": {
+        "target_modules": [
+          "q_proj",
+          "v_proj"
+        ],
+        "r": 32,
+        "lora_alpha": 64,
+        "lora_dropout": 0.05,
+        "base_model_name_or_path": "Qwen/Qwen3-4B-Instruct-2507",
+        "revision": null
+      },
+      "ema_teacher_file_present": true,
+      "tags": [
+        "base_model:adapter:Qwen/Qwen3-4B-Instruct-2507",
+        "lora",
+        "transformers"
+      ],
+      "training_args": {
+        "per_device_train_batch_size": 1,
+        "gradient_accumulation_steps": 2,
+        "learning_rate": 1e-06,
+        "weight_decay": 0.0,
+        "num_train_epochs": 30,
+        "warmup_ratio": 0.1,
+        "run_name": "feedback_weighted_asymmetric_bidirectional_kl_fixed_ema_Qwen3-4B-Instruct-2507_bw0p5_fw0p5_ema0p999_ep30",
+        "temperature": 0.7,
+        "max_completion_length": 2048,
+        "max_model_len": null
+      },
+      "selection": "upload_attains_max_in_available_history; later_epochs_unverified",
+      "trainer_state": {
+        "present": true,
+        "epoch": 25.0,
+        "step": 7375,
+        "max_steps": 8850,
+        "eval_history_records": 26,
+        "at_upload": {
+          "epoch": 25.0,
+          "eval_complete": 0.5484848618507385,
+          "eval_complete_avg@5": 0.5484848618507385,
+          "eval_integrity": 0.8787879347801208,
+          "eval_loss": 0.11725708842277527,
+          "eval_reward": 0.7717171907424927,
+          "eval_utility": 0.6424242258071899,
+          "step": 7375
+        },
+        "max_available_eval_complete_entry": {
+          "epoch": 25.0,
+          "eval_complete": 0.5484848618507385,
+          "eval_complete_avg@5": 0.5484848618507385,
+          "eval_integrity": 0.8787879347801208,
+          "eval_loss": 0.11725708842277527,
+          "eval_reward": 0.7717171907424927,
+          "eval_utility": 0.6424242258071899,
+          "step": 7375
+        },
+        "best_model_checkpoint": null,
+        "best_metric": null
+      }
+    },
+    {
+      "base": "Qwen/Qwen3-4B",
+      "arm": "SelfCI",
+      "status": "author_configuration_matched",
+      "evidence": "Explicit dual-feedback fixed EMA training run_name, same-base q/v LoRA with matching settings, student + EMA weights and dev metrics; no direct citation binding to the paper table.",
+      "repo": "Sangsang/feedback_asymmetric_fixed_ema_Qwen3-4B_bw0p5_fw0p5_ema0p999_ep30",
+      "revision": "a7af911bf26acf32fd1042a42e47a8afc70fd1f1",
+      "source": "https://huggingface.co/Sangsang/feedback_asymmetric_fixed_ema_Qwen3-4B_bw0p5_fw0p5_ema0p999_ep30/tree/a7af911bf26acf32fd1042a42e47a8afc70fd1f1",
+      "adapter_gated": false,
+      "adapter_license_in_card": null,
+      "weights": {
+        "path": "adapter_model.safetensors",
+        "bytes": 47205296,
+        "sha256": "bc2b4a52d7e29217a4da97102aefa9ffe5d915501e92ab01d697939fa3ba40f3"
+      },
+      "safetensors_header": {
+        "tensors": 144,
+        "dtypes": [
+          "F32"
+        ],
+        "declared_bytes": 47205296,
+        "example_tensor": "base_model.model.model.layers.0.self_attn.q_proj.lora_A.weight"
+      },
+      "peft": {
+        "target_modules": [
+          "q_proj",
+          "v_proj"
+        ],
+        "r": 32,
+        "lora_alpha": 64,
+        "lora_dropout": 0.05,
+        "base_model_name_or_path": "Qwen/Qwen3-4B",
+        "revision": null
+      },
+      "ema_teacher_file_present": true,
+      "tags": [
+        "base_model:adapter:Qwen/Qwen3-4B",
+        "lora",
+        "transformers"
+      ],
+      "training_args": {
+        "per_device_train_batch_size": 1,
+        "gradient_accumulation_steps": 2,
+        "learning_rate": 1e-06,
+        "weight_decay": 0.0,
+        "num_train_epochs": 30,
+        "warmup_ratio": 0.1,
+        "run_name": "feedback_weighted_asymmetric_bidirectional_kl_fixed_ema_Qwen3-4B_bw0p5_fw0p5_ema0p999_ep30",
+        "temperature": 0.7,
+        "max_completion_length": 2048,
+        "max_model_len": null
+      },
+      "selection": "upload_attains_max_in_available_history; later_epochs_unverified",
+      "trainer_state": {
+        "present": true,
+        "epoch": 18.0,
+        "step": 5310,
+        "max_steps": 8850,
+        "eval_history_records": 19,
+        "at_upload": {
+          "epoch": 18.0,
+          "eval_complete": 0.560606062412262,
+          "eval_complete_avg@5": 0.560606062412262,
+          "eval_integrity": 0.842424213886261,
+          "eval_loss": 0.09838059544563293,
+          "eval_reward": 0.6888889670372009,
+          "eval_utility": 0.6424242854118347,
+          "step": 5310
+        },
+        "max_available_eval_complete_entry": {
+          "epoch": 18.0,
+          "eval_complete": 0.560606062412262,
+          "eval_complete_avg@5": 0.560606062412262,
+          "eval_integrity": 0.842424213886261,
+          "eval_loss": 0.09838059544563293,
+          "eval_reward": 0.6888889670372009,
+          "eval_utility": 0.6424242854118347,
+          "step": 5310
+        },
+        "best_model_checkpoint": null,
+        "best_metric": null
+      },
+      "training_length_discrepancy": "Recorded rollout max_completion_length 2048; paper gives 4096 for reasoning models. Paper-aligned fresh evaluation should explicitly request 4096."
+    },
+    {
+      "base": "deepseek-ai/DeepSeek-R1-Distill-Llama-8B",
+      "arm": "SelfCI",
+      "status": "author_configuration_matched",
+      "evidence": "Explicit dual-feedback fixed EMA training run_name, same-base q/v LoRA with matching settings, student + EMA weights and dev metrics; no direct citation binding to the paper table.",
+      "repo": "Sangsang/feedback_asymmetric_fixed_ema_DeepSeek-R1-Distill-Llama-8B_bw0p5_fw0p5_ema0p999_ep30",
+      "revision": "46377b90bf5f322ea2ef48563e70ab7464e2afcf",
+      "source": "https://huggingface.co/Sangsang/feedback_asymmetric_fixed_ema_DeepSeek-R1-Distill-Llama-8B_bw0p5_fw0p5_ema0p999_ep30/tree/46377b90bf5f322ea2ef48563e70ab7464e2afcf",
+      "adapter_gated": false,
+      "adapter_license_in_card": null,
+      "weights": {
+        "path": "adapter_model.safetensors",
+        "bytes": 54543184,
+        "sha256": "224b2fe5e66b7cbb99ca674304427f015672a08bb9adc63323a05078f60fce1d"
+      },
+      "safetensors_header": {
+        "tensors": 128,
+        "dtypes": [
+          "F32"
+        ],
+        "declared_bytes": 54543184,
+        "example_tensor": "base_model.model.model.layers.0.self_attn.q_proj.lora_A.weight"
+      },
+      "peft": {
+        "target_modules": [
+          "v_proj",
+          "q_proj"
+        ],
+        "r": 32,
+        "lora_alpha": 64,
+        "lora_dropout": 0.05,
+        "base_model_name_or_path": "deepseek-ai/DeepSeek-R1-Distill-Llama-8B",
+        "revision": null
+      },
+      "ema_teacher_file_present": true,
+      "tags": [
+        "base_model:adapter:deepseek-ai/DeepSeek-R1-Distill-Llama-8B",
+        "lora",
+        "transformers"
+      ],
+      "training_args": {
+        "per_device_train_batch_size": 1,
+        "gradient_accumulation_steps": 2,
+        "learning_rate": 1e-06,
+        "weight_decay": 0.0,
+        "num_train_epochs": 30,
+        "warmup_ratio": 0.1,
+        "run_name": "feedback_weighted_asymmetric_bidirectional_kl_fixed_ema_DeepSeek-R1-Distill-Llama-8B_bw0p5_fw0p5_ema0p999_ep30",
+        "temperature": 0.7,
+        "max_completion_length": 2048,
+        "max_model_len": null
+      },
+      "selection": "upload_attains_max_in_available_history; later_epochs_unverified",
+      "trainer_state": {
+        "present": true,
+        "epoch": 22.0,
+        "step": 6490,
+        "max_steps": 8850,
+        "eval_history_records": 23,
+        "at_upload": {
+          "epoch": 22.0,
+          "eval_complete": 0.5030303597450256,
+          "eval_complete_avg@5": 0.5030303597450256,
+          "eval_integrity": 0.760606050491333,
+          "eval_loss": 0.04339561238884926,
+          "eval_reward": 0.7308586835861206,
+          "eval_utility": 0.6848484873771667,
+          "step": 6490
+        },
+        "max_available_eval_complete_entry": {
+          "epoch": 22.0,
+          "eval_complete": 0.5030303597450256,
+          "eval_complete_avg@5": 0.5030303597450256,
+          "eval_integrity": 0.760606050491333,
+          "eval_loss": 0.04339561238884926,
+          "eval_reward": 0.7308586835861206,
+          "eval_utility": 0.6848484873771667,
+          "step": 6490
+        },
+        "best_model_checkpoint": null,
+        "best_metric": null
+      },
+      "training_length_discrepancy": "Recorded rollout max_completion_length 2048; paper gives 4096 for reasoning models. Paper-aligned fresh evaluation should explicitly request 4096."
+    },
+    {
+      "base": "meta-llama/Llama-3.1-8B-Instruct",
+      "arm": "SelfCI",
+      "status": "author_configuration_matched_primary_candidate",
+      "evidence": "Student bytes and trainer history also published under explicit rkl_rkl-4130 alias; primary by provenance before observing test outputs.",
+      "repo": "Sangsang/feedback_asymmetric_fixed_ema_Llama-3.1-8B-Instruct_bw0p5_fw0p5_ema0p999_ep30",
+      "revision": "6e46dc5b52067e51f7a5b7cf7d815f308771bf33",
+      "source": "https://huggingface.co/Sangsang/feedback_asymmetric_fixed_ema_Llama-3.1-8B-Instruct_bw0p5_fw0p5_ema0p999_ep30/tree/6e46dc5b52067e51f7a5b7cf7d815f308771bf33",
+      "adapter_gated": false,
+      "adapter_license_in_card": null,
+      "weights": {
+        "path": "adapter_model.safetensors",
+        "bytes": 54543184,
+        "sha256": "9f07bfe26e1b935ea15b62c1ba62897b35daf717506fcb327b8363a74ceb34e4"
+      },
+      "safetensors_header": {
+        "tensors": 128,
+        "dtypes": [
+          "F32"
+        ],
+        "declared_bytes": 54543184,
+        "example_tensor": "base_model.model.model.layers.0.self_attn.q_proj.lora_A.weight"
+      },
+      "peft": {
+        "target_modules": [
+          "v_proj",
+          "q_proj"
+        ],
+        "r": 32,
+        "lora_alpha": 64,
+        "lora_dropout": 0.05,
+        "base_model_name_or_path": "meta-llama/Llama-3.1-8B-Instruct",
+        "revision": null
+      },
+      "ema_teacher_file_present": true,
+      "tags": [
+        "base_model:adapter:meta-llama/Llama-3.1-8B-Instruct",
+        "lora",
+        "transformers"
+      ],
+      "training_args": {
+        "per_device_train_batch_size": 1,
+        "gradient_accumulation_steps": 2,
+        "learning_rate": 1e-06,
+        "weight_decay": 0.0,
+        "num_train_epochs": 30,
+        "warmup_ratio": 0.1,
+        "run_name": "feedback_weighted_asymmetric_bidirectional_kl_fixed_ema_Llama-3.1-8B-Instruct_bw0p5_fw0p5_ema0p999_ep30",
+        "temperature": 0.7,
+        "max_completion_length": 2048,
+        "max_model_len": null
+      },
+      "selection": "upload_attains_max_in_available_history; later_epochs_unverified",
+      "trainer_state": {
+        "present": true,
+        "epoch": 14.0,
+        "step": 4130,
+        "max_steps": 8850,
+        "eval_history_records": 15,
+        "at_upload": {
+          "epoch": 14.0,
+          "eval_complete": 0.6757575273513794,
+          "eval_complete_avg@5": 0.6757575273513794,
+          "eval_integrity": 0.8575757145881653,
+          "eval_loss": 0.048322368413209915,
+          "eval_reward": 0.8247475028038025,
+          "eval_utility": 0.7969696521759033,
+          "step": 4130
+        },
+        "max_available_eval_complete_entry": {
+          "epoch": 14.0,
+          "eval_complete": 0.6757575273513794,
+          "eval_complete_avg@5": 0.6757575273513794,
+          "eval_integrity": 0.8575757145881653,
+          "eval_loss": 0.048322368413209915,
+          "eval_reward": 0.8247475028038025,
+          "eval_utility": 0.7969696521759033,
+          "step": 4130
+        },
+        "best_model_checkpoint": null,
+        "best_metric": null
+      },
+      "identical_student_alias": {
+        "repo": "Sangsang/Llama-3.1-8B-rkl_rkl-4130",
+        "rev": "0cf0466b43b45207d8f1aac47af72edca9fbf5da",
+        "epoch": 14.0,
+        "step": 4130
+      }
+    },
+    {
+      "base": "meta-llama/Llama-3.1-8B-Instruct",
+      "arm": "SelfCI",
+      "status": "author_configuration_matched_alternative",
+      "evidence": "Different student from v1. Same optimization run_name, later run directory date (Apr10 vs Mar29), epoch 12 ties epoch 11 on dev Complete. Both v1 and v2 attain 0.6757575273513794; cannot disambiguate from published Table 1.",
+      "repo": "Sangsang/feedback_asymmetric_fixed_ema_Llama-3.1-8B-Instruct_bw0p5_fw0p5_ema0p999_ep30_v2",
+      "revision": "a27541281789db24530bef514fc35b8b8adaed79",
+      "source": "https://huggingface.co/Sangsang/feedback_asymmetric_fixed_ema_Llama-3.1-8B-Instruct_bw0p5_fw0p5_ema0p999_ep30_v2/tree/a27541281789db24530bef514fc35b8b8adaed79",
+      "adapter_gated": false,
+      "adapter_license_in_card": null,
+      "weights": {
+        "path": "adapter_model.safetensors",
+        "bytes": 54543184,
+        "sha256": "1acd913484ef7dc8e355650852cf70e672d0bccdd17408328b7af14c2deed8cd"
+      },
+      "safetensors_header": {
+        "tensors": 128,
+        "dtypes": [
+          "F32"
+        ],
+        "declared_bytes": 54543184,
+        "example_tensor": "base_model.model.model.layers.0.self_attn.q_proj.lora_A.weight"
+      },
+      "peft": {
+        "target_modules": [
+          "q_proj",
+          "v_proj"
+        ],
+        "r": 32,
+        "lora_alpha": 64,
+        "lora_dropout": 0.05,
+        "base_model_name_or_path": "meta-llama/Llama-3.1-8B-Instruct",
+        "revision": null
+      },
+      "ema_teacher_file_present": true,
+      "tags": [
+        "base_model:adapter:meta-llama/Llama-3.1-8B-Instruct",
+        "lora",
+        "transformers"
+      ],
+      "training_args": {
+        "per_device_train_batch_size": 1,
+        "gradient_accumulation_steps": 2,
+        "learning_rate": 1e-06,
+        "weight_decay": 0.0,
+        "num_train_epochs": 30,
+        "warmup_ratio": 0.1,
+        "run_name": "feedback_weighted_asymmetric_bidirectional_kl_fixed_ema_Llama-3.1-8B-Instruct_bw0p5_fw0p5_ema0p999_ep30",
+        "temperature": 0.7,
+        "max_completion_length": 2048,
+        "max_model_len": null
+      },
+      "selection": "upload_attains_max_in_available_history; later_epochs_unverified",
+      "trainer_state": {
+        "present": true,
+        "epoch": 12.0,
+        "step": 3540,
+        "max_steps": 8850,
+        "eval_history_records": 13,
+        "at_upload": {
+          "epoch": 12.0,
+          "eval_complete": 0.6757575273513794,
+          "eval_complete_avg@5": 0.6757575273513794,
+          "eval_integrity": 0.8727273344993591,
+          "eval_loss": 0.0541725754737854,
+          "eval_reward": 0.8156566023826599,
+          "eval_utility": 0.7727272510528564,
+          "step": 3540
+        },
+        "max_available_eval_complete_entry": {
+          "epoch": 11.0,
+          "eval_complete": 0.6757575273513794,
+          "eval_complete_avg@5": 0.6757575273513794,
+          "eval_integrity": 0.87575763463974,
+          "eval_loss": 0.0568852424621582,
+          "eval_reward": 0.8133838772773743,
+          "eval_utility": 0.7636363506317139,
+          "step": 3245
+        },
+        "best_model_checkpoint": null,
+        "best_metric": null
+      }
+    },
+    {
+      "base": "Qwen/Qwen3-4B-Instruct-2507",
+      "arm": "CI-RL",
+      "status": "author_configuration_matched",
+      "evidence": "TRL GRPO config and LoRA match the row; trainer_state provides eval Complete per epoch.",
+      "repo": "Sangsang/grpo_Qwen3-4B-Instruct-2507_bs16_g16_mb128_lr1e-6_b1e-3_clip0p2_temp0p7_ep30",
+      "revision": "be8c902815b98e3de54207983f0e460baeabb55c",
+      "source": "https://huggingface.co/Sangsang/grpo_Qwen3-4B-Instruct-2507_bs16_g16_mb128_lr1e-6_b1e-3_clip0p2_temp0p7_ep30/tree/be8c902815b98e3de54207983f0e460baeabb55c",
+      "adapter_gated": false,
+      "adapter_license_in_card": null,
+      "weights": {
+        "path": "adapter_model.safetensors",
+        "bytes": 47205296,
+        "sha256": "7946f9a3ec507a43aef031c5618b96a1c23d071c4658fc645665c56905740e24"
+      },
+      "safetensors_header": {
+        "tensors": 144,
+        "dtypes": [
+          "F32"
+        ],
+        "declared_bytes": 47205296,
+        "example_tensor": "base_model.model.model.layers.0.self_attn.q_proj.lora_A.weight"
+      },
+      "peft": {
+        "target_modules": [
+          "v_proj",
+          "q_proj"
+        ],
+        "r": 32,
+        "lora_alpha": 64,
+        "lora_dropout": 0.05,
+        "base_model_name_or_path": "Qwen/Qwen3-4B-Instruct-2507",
+        "revision": null
+      },
+      "ema_teacher_file_present": false,
+      "tags": [
+        "base_model:adapter:Qwen/Qwen3-4B-Instruct-2507",
+        "grpo",
+        "lora",
+        "transformers",
+        "trl"
+      ],
+      "training_args": {
+        "per_device_train_batch_size": 16,
+        "gradient_accumulation_steps": 2,
+        "learning_rate": 1e-06,
+        "weight_decay": 0.0,
+        "num_train_epochs": 30,
+        "warmup_ratio": 0.1,
+        "run_name": "grpo_Qwen3-4B-Instruct-2507_bs16_g16_mb128_lr1e-6_b1e-3_clip0p2_temp0p7_ep30",
+        "num_generations": 16,
+        "max_completion_length": 2048,
+        "generation_batch_size": 32,
+        "temperature": 0.7,
+        "beta": 0.001
+      },
+      "selection": "upload_attains_max_in_available_history; later_epochs_unverified",
+      "trainer_state": {
+        "present": true,
+        "epoch": 27.0,
+        "step": 7965,
+        "max_steps": 8850,
+        "eval_history_records": 28,
+        "at_upload": {
+          "epoch": 27.0,
+          "eval_complete": 0.39090910723263567,
+          "eval_complete_avg@5": 0.39090910723263567,
+          "eval_integrity": 0.6818182062019001,
+          "eval_loss": 0.021284034475684166,
+          "eval_reward": 0.6593434769998897,
+          "eval_utility": 0.5939394164491784,
+          "step": 7965
+        },
+        "max_available_eval_complete_entry": {
+          "epoch": 27.0,
+          "eval_complete": 0.39090910723263567,
+          "eval_complete_avg@5": 0.39090910723263567,
+          "eval_integrity": 0.6818182062019001,
+          "eval_loss": 0.021284034475684166,
+          "eval_reward": 0.6593434769998897,
+          "eval_utility": 0.5939394164491784,
+          "step": 7965
+        },
+        "best_model_checkpoint": null,
+        "best_metric": null
+      }
+    },
+    {
+      "base": "Qwen/Qwen3-4B",
+      "arm": "CI-RL",
+      "status": "author_configuration_matched",
+      "evidence": "TRL GRPO config and LoRA match the row; trainer_state provides eval Complete per epoch.",
+      "repo": "Sangsang/grpo_Qwen3-4B_bs16_g16_mb128_lr1e-6_b1e-3_clip0p2_temp0p7_ep30",
+      "revision": "1bec2b802348d52911f3a1699dc456fc46e1a38a",
+      "source": "https://huggingface.co/Sangsang/grpo_Qwen3-4B_bs16_g16_mb128_lr1e-6_b1e-3_clip0p2_temp0p7_ep30/tree/1bec2b802348d52911f3a1699dc456fc46e1a38a",
+      "adapter_gated": false,
+      "adapter_license_in_card": null,
+      "weights": {
+        "path": "adapter_model.safetensors",
+        "bytes": 47205296,
+        "sha256": "7d6f43033c555c92bffd15ca862175e833c021ba83917c74e1151183d57a45ec"
+      },
+      "safetensors_header": {
+        "tensors": 144,
+        "dtypes": [
+          "F32"
+        ],
+        "declared_bytes": 47205296,
+        "example_tensor": "base_model.model.model.layers.0.self_attn.q_proj.lora_A.weight"
+      },
+      "peft": {
+        "target_modules": [
+          "q_proj",
+          "v_proj"
+        ],
+        "r": 32,
+        "lora_alpha": 64,
+        "lora_dropout": 0.05,
+        "base_model_name_or_path": "Qwen/Qwen3-4B",
+        "revision": null
+      },
+      "ema_teacher_file_present": false,
+      "tags": [
+        "base_model:adapter:Qwen/Qwen3-4B",
+        "grpo",
+        "lora",
+        "transformers",
+        "trl"
+      ],
+      "training_args": {
+        "per_device_train_batch_size": 16,
+        "gradient_accumulation_steps": 2,
+        "learning_rate": 1e-06,
+        "weight_decay": 0.0,
+        "num_train_epochs": 30,
+        "warmup_ratio": 0.1,
+        "run_name": "grpo_Qwen3-4B_bs16_g16_mb128_lr1e-6_b1e-3_clip0p2_temp0p7_ep30",
+        "num_generations": 16,
+        "max_completion_length": 2048,
+        "generation_batch_size": 32,
+        "temperature": 0.7,
+        "beta": 0.001
+      },
+      "selection": "upload_attains_max_in_available_history; later_epochs_unverified",
+      "trainer_state": {
+        "present": true,
+        "epoch": 14.0,
+        "step": 4130,
+        "max_steps": 8850,
+        "eval_history_records": 15,
+        "at_upload": {
+          "epoch": 14.0,
+          "eval_complete": 0.3121212270449508,
+          "eval_complete_avg@5": 0.3121212270449508,
+          "eval_integrity": 0.4666666845706376,
+          "eval_loss": -0.024291284382343292,
+          "eval_reward": 0.5243939770893618,
+          "eval_utility": 0.7151515524495732,
+          "step": 4130
+        },
+        "max_available_eval_complete_entry": {
+          "epoch": 14.0,
+          "eval_complete": 0.3121212270449508,
+          "eval_complete_avg@5": 0.3121212270449508,
+          "eval_integrity": 0.4666666845706376,
+          "eval_loss": -0.024291284382343292,
+          "eval_reward": 0.5243939770893618,
+          "eval_utility": 0.7151515524495732,
+          "step": 4130
+        },
+        "best_model_checkpoint": null,
+        "best_metric": null
+      },
+      "training_length_discrepancy": "Recorded rollout max_completion_length 2048; paper gives 4096 for reasoning models. Paper-aligned fresh evaluation should explicitly request 4096."
+    },
+    {
+      "base": "Qwen/Qwen2.5-7B-Instruct",
+      "arm": "CI-RL",
+      "status": "author_grpo_final_candidate",
+      "evidence": "TRL GRPO config, matching base/LoRA and scalar contextual integrity reward. Uploaded epoch 30 is byte-identical to checkpoint-8850 and final/ in separate repository; trainer histories omit eval Complete.",
+      "repo": "Sangsang/Qwen2.5-7B-Instruct-ci-rl",
+      "revision": "12b616878ec8e5091470b5410af1fd1839fb2e93",
+      "source": "https://huggingface.co/Sangsang/Qwen2.5-7B-Instruct-ci-rl/tree/12b616878ec8e5091470b5410af1fd1839fb2e93",
+      "adapter_gated": false,
+      "adapter_license_in_card": null,
+      "weights": {
+        "path": "adapter_model.safetensors",
+        "bytes": 40385208,
+        "sha256": "46a3aa668396c923cb532174ff6dd60ac2c717b2c44f8dc9b5b606575abcb789"
+      },
+      "safetensors_header": {
+        "tensors": 112,
+        "dtypes": [
+          "F32"
+        ],
+        "declared_bytes": 40385208,
+        "example_tensor": "base_model.model.model.layers.0.self_attn.q_proj.lora_A.weight"
+      },
+      "peft": {
+        "target_modules": [
+          "v_proj",
+          "q_proj"
+        ],
+        "r": 32,
+        "lora_alpha": 64,
+        "lora_dropout": 0.05,
+        "base_model_name_or_path": "Qwen/Qwen2.5-7B-Instruct",
+        "revision": null
+      },
+      "ema_teacher_file_present": false,
+      "tags": [
+        "base_model:adapter:Qwen/Qwen2.5-7B-Instruct",
+        "grpo",
+        "lora",
+        "transformers",
+        "trl"
+      ],
+      "training_args": {
+        "per_device_train_batch_size": 16,
+        "gradient_accumulation_steps": 2,
+        "learning_rate": 1e-06,
+        "weight_decay": 0.0,
+        "num_train_epochs": 30,
+        "warmup_ratio": 0.1,
+        "run_name": "Qwen2.5-7B-Instruct_ep30",
+        "num_generations": 16,
+        "max_completion_length": 2048,
+        "generation_batch_size": 32,
+        "temperature": 0.7,
+        "beta": 0.001
+      },
+      "selection": "validation_complete_selection_unverified",
+      "trainer_state": {
+        "present": true,
+        "epoch": 30.0,
+        "step": 8850,
+        "max_steps": 8850,
+        "eval_history_records": 31,
+        "at_upload": {
+          "epoch": 30.0,
+          "eval_loss": 0.010463448241353035,
+          "eval_reward": 0.6552399092805431,
+          "step": 8850
+        },
+        "max_available_eval_complete_entry": null,
+        "best_model_checkpoint": null,
+        "best_metric": null
+      },
+      "full_training_archive": {
+        "repo": "Sangsang/ci-rl-Qwen2.5-7B-Instruct",
+        "revision": "4b15c683fb1a9f417d5e1d80a449ab9efde4c929",
+        "root_student_file": false,
+        "num_epoch_adapters": 30,
+        "student_subpaths_identical_to_root_candidate": [
+          "checkpoint-8850/adapter_model.safetensors",
+          "final/adapter_model.safetensors"
+        ],
+        "checkpoint_8850_state_contains_30_epochs": true,
+        "eval_complete_available": false,
+        "eval_reward_available": true
+      }
+    },
+    {
+      "base": "meta-llama/Llama-3.1-8B-Instruct",
+      "arm": "CI-RL",
+      "status": "author_grpo_checkpoint_candidate",
+      "evidence": "TRL GRPO config matches named base, rank, dropout, LR, 30 planned epochs, batch/accumulation, 16 generations and beta. Uploaded adapter lacks trainer_state; actual step unknown.",
+      "repo": "Sangsang/Llama-3.1-8B-Instruct_CI-RL-ep30",
+      "revision": "00f030f62b6769a10b2346d41cb096519fdf0be4",
+      "source": "https://huggingface.co/Sangsang/Llama-3.1-8B-Instruct_CI-RL-ep30/tree/00f030f62b6769a10b2346d41cb096519fdf0be4",
+      "adapter_gated": false,
+      "adapter_license_in_card": null,
+      "weights": {
+        "path": "adapter_model.safetensors",
+        "bytes": 54543184,
+        "sha256": "7e7a732750849c21ec12bb3d3eda67e4cdd1971142cd964284889a0711dd5c83"
+      },
+      "safetensors_header": {
+        "tensors": 128,
+        "dtypes": [
+          "F32"
+        ],
+        "declared_bytes": 54543184,
+        "example_tensor": "base_model.model.model.layers.0.self_attn.q_proj.lora_A.weight"
+      },
+      "peft": {
+        "target_modules": [
+          "v_proj",
+          "q_proj"
+        ],
+        "r": 32,
+        "lora_alpha": 64,
+        "lora_dropout": 0.05,
+        "base_model_name_or_path": "meta-llama/Llama-3.1-8B-Instruct",
+        "revision": null
+      },
+      "ema_teacher_file_present": false,
+      "tags": [
+        "base_model:adapter:meta-llama/Llama-3.1-8B-Instruct",
+        "grpo",
+        "lora",
+        "transformers",
+        "trl"
+      ],
+      "training_args": {
+        "per_device_train_batch_size": 16,
+        "gradient_accumulation_steps": 2,
+        "learning_rate": 1e-06,
+        "weight_decay": 0.0,
+        "num_train_epochs": 30,
+        "warmup_ratio": 0.1,
+        "run_name": "Llama-3.1-8B-Instruct_ep30",
+        "num_generations": 16,
+        "max_completion_length": 2048,
+        "generation_batch_size": 32,
+        "temperature": 0.7,
+        "beta": 0.001
+      },
+      "selection": "validation_complete_selection_unverified",
+      "trainer_state": {
+        "present": false,
+        "epoch": null,
+        "step": null,
+        "max_steps": null,
+        "eval_history_records": 0,
+        "at_upload": null,
+        "max_available_eval_complete_entry": null,
+        "best_model_checkpoint": null,
+        "best_metric": null
+      }
+    },
+    {
+      "base": "deepseek-ai/DeepSeek-R1-Distill-Llama-8B",
+      "arm": "CI-RL",
+      "status": "author_grpo_variant",
+      "evidence": "TRL GRPO config and same-base adapter weights present. Recorded training per-device batch size 8 vs paper 16; no trainer_state.",
+      "repo": "Sangsang/grpo_DeepSeek-R1-Distill-Llama-8B_bs8_g16_mb128_lr1e-6_b1e-3_clip0p2_temp0p7_ep30",
+      "revision": "318a1de09f101ea3acb47b150779e04f1bab0e00",
+      "source": "https://huggingface.co/Sangsang/grpo_DeepSeek-R1-Distill-Llama-8B_bs8_g16_mb128_lr1e-6_b1e-3_clip0p2_temp0p7_ep30/tree/318a1de09f101ea3acb47b150779e04f1bab0e00",
+      "adapter_gated": false,
+      "adapter_license_in_card": null,
+      "weights": {
+        "path": "adapter_model.safetensors",
+        "bytes": 54543184,
+        "sha256": "83690c0d31c4ef24b0176b51b9375804bf201debe0cf79a8a140a664aa3fa040"
+      },
+      "safetensors_header": {
+        "tensors": 128,
+        "dtypes": [
+          "F32"
+        ],
+        "declared_bytes": 54543184,
+        "example_tensor": "base_model.model.model.layers.0.self_attn.q_proj.lora_A.weight"
+      },
+      "peft": {
+        "target_modules": [
+          "q_proj",
+          "v_proj"
+        ],
+        "r": 32,
+        "lora_alpha": 64,
+        "lora_dropout": 0.05,
+        "base_model_name_or_path": "deepseek-ai/DeepSeek-R1-Distill-Llama-8B",
+        "revision": null
+      },
+      "ema_teacher_file_present": false,
+      "tags": [
+        "base_model:adapter:deepseek-ai/DeepSeek-R1-Distill-Llama-8B",
+        "grpo",
+        "lora",
+        "transformers",
+        "trl"
+      ],
+      "training_args": {
+        "per_device_train_batch_size": 8,
+        "gradient_accumulation_steps": 2,
+        "learning_rate": 1e-06,
+        "weight_decay": 0.0,
+        "num_train_epochs": 30,
+        "warmup_ratio": 0.1,
+        "run_name": "grpo_DeepSeek-R1-Distill-Llama-8B_bs8_g16_mb128_lr1e-6_b1e-3_clip0p2_temp0p7_ep30",
+        "num_generations": 16,
+        "max_completion_length": 2048,
+        "generation_batch_size": 32,
+        "temperature": 0.7,
+        "beta": 0.001
+      },
+      "selection": "validation_complete_selection_unverified",
+      "trainer_state": {
+        "present": false,
+        "epoch": null,
+        "step": null,
+        "max_steps": null,
+        "eval_history_records": 0,
+        "at_upload": null,
+        "max_available_eval_complete_entry": null,
+        "best_model_checkpoint": null,
+        "best_metric": null
+      },
+      "training_length_discrepancy": "Recorded rollout max_completion_length 2048; paper gives 4096 for reasoning models. Paper-aligned fresh evaluation should explicitly request 4096."
+    },
+    {
+      "base": "Qwen/Qwen3-4B-Instruct-2507",
+      "arm": "ContextDistill",
+      "status": "SFT_distillation_candidate_only",
+      "evidence": "Same-base adapter and SFT training config; training output/run name identifies distillation. No exact teacher/dataset revision or validation Complete in released records.",
+      "repo": "Sangsang/ci-sft_Qwen3-4B-Instruct-2507_lr1e-6_ep30",
+      "revision": "4adfb522e9c2b933201ae6b854dd721280201db7",
+      "source": "https://huggingface.co/Sangsang/ci-sft_Qwen3-4B-Instruct-2507_lr1e-6_ep30/tree/4adfb522e9c2b933201ae6b854dd721280201db7",
+      "adapter_gated": false,
+      "adapter_license_in_card": null,
+      "weights": {
+        "path": "adapter_model.safetensors",
+        "bytes": 47205296,
+        "sha256": "c360f5b465b11c79a85d5cb70f376efb832915f1ea4eb3607471985dc9cdd5f4"
+      },
+      "safetensors_header": {
+        "tensors": 144,
+        "dtypes": [
+          "F32"
+        ],
+        "declared_bytes": 47205296,
+        "example_tensor": "base_model.model.model.layers.0.self_attn.q_proj.lora_A.weight"
+      },
+      "peft": {
+        "target_modules": [
+          "q_proj",
+          "v_proj"
+        ],
+        "r": 32,
+        "lora_alpha": 64,
+        "lora_dropout": 0.05,
+        "base_model_name_or_path": "Qwen/Qwen3-4B-Instruct-2507",
+        "revision": null
+      },
+      "ema_teacher_file_present": false,
+      "tags": [
+        "base_model:adapter:Qwen/Qwen3-4B-Instruct-2507",
+        "lora",
+        "sft",
+        "transformers",
+        "trl"
+      ],
+      "training_args": {
+        "per_device_train_batch_size": 1,
+        "gradient_accumulation_steps": 2,
+        "learning_rate": 1e-06,
+        "weight_decay": 0.0,
+        "num_train_epochs": 30,
+        "warmup_ratio": 0.1,
+        "run_name": "sft_distill"
+      },
+      "selection": "validation_complete_selection_unverified",
+      "trainer_state": {
+        "present": true,
+        "epoch": 30.0,
+        "step": 8850,
+        "max_steps": 8850,
+        "eval_history_records": 31,
+        "at_upload": {
+          "epoch": 30.0,
+          "eval_loss": 0.7089310884475708,
+          "step": 8850
+        },
+        "max_available_eval_complete_entry": null,
+        "best_model_checkpoint": null,
+        "best_metric": null
+      }
+    },
+    {
+      "base": "Qwen/Qwen3-4B",
+      "arm": "ContextDistill",
+      "status": "SFT_distillation_candidate_only",
+      "evidence": "Same-base adapter and SFT training config; training output/run name identifies distillation. No exact teacher/dataset revision or validation Complete in released records.",
+      "repo": "Sangsang/ci-sft_Qwen3-4B",
+      "revision": "1a277c36361145d745e10a2ab53670851144af08",
+      "source": "https://huggingface.co/Sangsang/ci-sft_Qwen3-4B/tree/1a277c36361145d745e10a2ab53670851144af08",
+      "adapter_gated": false,
+      "adapter_license_in_card": null,
+      "weights": {
+        "path": "adapter_model.safetensors",
+        "bytes": 47205296,
+        "sha256": "47f672d2394a2308d7956bbc76556164172642e6af253c872eca72350fe1a40a"
+      },
+      "safetensors_header": {
+        "tensors": 144,
+        "dtypes": [
+          "F32"
+        ],
+        "declared_bytes": 47205296,
+        "example_tensor": "base_model.model.model.layers.0.self_attn.q_proj.lora_A.weight"
+      },
+      "peft": {
+        "target_modules": [
+          "v_proj",
+          "q_proj"
+        ],
+        "r": 32,
+        "lora_alpha": 64,
+        "lora_dropout": 0.05,
+        "base_model_name_or_path": "Qwen/Qwen3-4B",
+        "revision": null
+      },
+      "ema_teacher_file_present": false,
+      "tags": [
+        "base_model:adapter:Qwen/Qwen3-4B",
+        "lora",
+        "sft",
+        "transformers",
+        "trl"
+      ],
+      "training_args": {
+        "per_device_train_batch_size": 1,
+        "gradient_accumulation_steps": 2,
+        "learning_rate": 1e-06,
+        "weight_decay": 0.0,
+        "num_train_epochs": 30,
+        "warmup_ratio": 0.1,
+        "run_name": "Qwen3-4B-sft-distill"
+      },
+      "selection": "validation_complete_selection_unverified",
+      "trainer_state": {
+        "present": true,
+        "epoch": 30.0,
+        "step": 8850,
+        "max_steps": 8850,
+        "eval_history_records": 31,
+        "at_upload": {
+          "epoch": 30.0,
+          "eval_loss": 0.8206452131271362,
+          "step": 8850
+        },
+        "max_available_eval_complete_entry": null,
+        "best_model_checkpoint": null,
+        "best_metric": null
+      }
+    },
+    {
+      "base": "allenai/Olmo-3-7B-Think",
+      "arm": "ContextDistill",
+      "status": "SFT_distillation_candidate_only",
+      "evidence": "Same-base q/v SFT adapter; training output names sft_distill. Repository name matches the paper Olmo-3-32B-Think teacher. Dataset/teacher provenance and eval selection remain unverified.",
+      "repo": "Sangsang/Olmo-3-7B-Think_from_Olmo-3-32B-Think",
+      "revision": "ba6daca0739f3d8d1e1f81716f108d7c2037e601",
+      "source": "https://huggingface.co/Sangsang/Olmo-3-7B-Think_from_Olmo-3-32B-Think/tree/ba6daca0739f3d8d1e1f81716f108d7c2037e601",
+      "adapter_gated": false,
+      "adapter_license_in_card": null,
+      "weights": {
+        "path": "adapter_model.safetensors",
+        "bytes": 67126104,
+        "sha256": "787d0d419763a2b80e8929f5d3e36a14408bd48284d1a098f255c649f96a4d88"
+      },
+      "safetensors_header": {
+        "tensors": 128,
+        "dtypes": [
+          "F32"
+        ],
+        "declared_bytes": 67126104,
+        "example_tensor": "base_model.model.model.layers.0.self_attn.q_proj.lora_A.weight"
+      },
+      "peft": {
+        "target_modules": [
+          "q_proj",
+          "v_proj"
+        ],
+        "r": 32,
+        "lora_alpha": 64,
+        "lora_dropout": 0.05,
+        "base_model_name_or_path": "allenai/Olmo-3-7B-Think",
+        "revision": null
+      },
+      "ema_teacher_file_present": false,
+      "tags": [
+        "base_model:adapter:allenai/Olmo-3-7B-Think",
+        "lora",
+        "sft",
+        "transformers",
+        "trl"
+      ],
+      "training_args": {
+        "per_device_train_batch_size": 1,
+        "gradient_accumulation_steps": 2,
+        "learning_rate": 1e-06,
+        "weight_decay": 0.0,
+        "num_train_epochs": 30,
+        "warmup_ratio": 0.1,
+        "run_name": "sft_distill"
+      },
+      "selection": "validation_complete_selection_unverified",
+      "trainer_state": {
+        "present": false,
+        "epoch": null,
+        "step": null,
+        "max_steps": null,
+        "eval_history_records": 0,
+        "at_upload": null,
+        "max_available_eval_complete_entry": null,
+        "best_model_checkpoint": null,
+        "best_metric": null
+      }
+    }
+  ],
+  "coverage": {
+    "Qwen/Qwen2.5-7B-Instruct": {
+      "SelfCI": [
+        "Sangsang/feedback_asymmetric_fixed_ema_Qwen2.5-7B-Instruct_bw0p5_fw0p5_ema0p999_ep30"
+      ],
+      "CI-RL": [
+        "Sangsang/Qwen2.5-7B-Instruct-ci-rl"
+      ],
+      "ContextDistill": []
+    },
+    "Qwen/Qwen3-4B-Instruct-2507": {
+      "SelfCI": [
+        "Sangsang/feedback_asymmetric_fixed_ema_Qwen3-4B-Instruct-2507_bw0p5_fw0p5_ema0p999_ep30"
+      ],
+      "CI-RL": [
+        "Sangsang/grpo_Qwen3-4B-Instruct-2507_bs16_g16_mb128_lr1e-6_b1e-3_clip0p2_temp0p7_ep30"
+      ],
+      "ContextDistill": [
+        "Sangsang/ci-sft_Qwen3-4B-Instruct-2507_lr1e-6_ep30"
+      ]
+    },
+    "Qwen/Qwen3-4B": {
+      "SelfCI": [
+        "Sangsang/feedback_asymmetric_fixed_ema_Qwen3-4B_bw0p5_fw0p5_ema0p999_ep30"
+      ],
+      "CI-RL": [
+        "Sangsang/grpo_Qwen3-4B_bs16_g16_mb128_lr1e-6_b1e-3_clip0p2_temp0p7_ep30"
+      ],
+      "ContextDistill": [
+        "Sangsang/ci-sft_Qwen3-4B"
+      ]
+    },
+    "deepseek-ai/DeepSeek-R1-Distill-Llama-8B": {
+      "SelfCI": [
+        "Sangsang/feedback_asymmetric_fixed_ema_DeepSeek-R1-Distill-Llama-8B_bw0p5_fw0p5_ema0p999_ep30"
+      ],
+      "CI-RL": [
+        "Sangsang/grpo_DeepSeek-R1-Distill-Llama-8B_bs8_g16_mb128_lr1e-6_b1e-3_clip0p2_temp0p7_ep30"
+      ],
+      "ContextDistill": []
+    },
+    "meta-llama/Llama-3.1-8B-Instruct": {
+      "SelfCI": [
+        "Sangsang/feedback_asymmetric_fixed_ema_Llama-3.1-8B-Instruct_bw0p5_fw0p5_ema0p999_ep30",
+        "Sangsang/feedback_asymmetric_fixed_ema_Llama-3.1-8B-Instruct_bw0p5_fw0p5_ema0p999_ep30_v2"
+      ],
+      "CI-RL": [
+        "Sangsang/Llama-3.1-8B-Instruct_CI-RL-ep30"
+      ],
+      "ContextDistill": []
+    },
+    "allenai/Olmo-3-7B-Think": {
+      "ContextDistill": [
+        "Sangsang/Olmo-3-7B-Think_from_Olmo-3-32B-Think"
+      ],
+      "SelfCI": [],
+      "CI-RL": []
+    },
+    "allenai/Olmo-3-7B-Instruct": {
+      "SelfCI": [],
+      "CI-RL": [],
+      "ContextDistill": []
+    }
+  },
+  "rejected_or_unbound": [
+    {
+      "repo": "Sangsang/DeepSeek-R1-Distill-Llama-8B_from_Distill-Qwen-32B",
+      "revision": "b33bad316bbb49d2ca1b39de367c58d825dbcf0f",
+      "reason": "Released DeepSeek SFT candidate names Distill-Qwen-32B as teacher; Table 6 specifies DeepSeek-R1-Distill-Llama-70B. Do not represent as the table baseline.",
+      "base_model_from_config": "deepseek-ai/DeepSeek-R1-Distill-Llama-8B",
+      "model_type": null,
+      "weights": [
+        "adapter_model.safetensors"
+      ],
+      "gated": false,
+      "license_in_card": null
+    },
+    {
+      "repo": "Sangsang/CI-7B-SFT-merged",
+      "revision": "822c43efe9909c17784aafb7501ff2c0bc378149",
+      "reason": "Full merged Qwen2-family 28-layer 3584-width model. No base, teacher, training data, trainer state or paper run documented in model card/config; Qwen2.5-7B ContextDistill binding unverified.",
+      "base_model_from_config": null,
+      "model_type": "qwen2",
+      "weights": [
+        "model-00001-of-00004.safetensors",
+        "model-00002-of-00004.safetensors",
+        "model-00003-of-00004.safetensors",
+        "model-00004-of-00004.safetensors"
+      ],
+      "gated": false,
+      "license_in_card": null
+    },
+    {
+      "repo": "Sangsang/Olmo-3-7B-Instruct-SFT-GRPO_8_eps_20",
+      "revision": "72aa5576e834807dd1e633c5629da3fbde3d88e8",
+      "reason": "Explicit Instruct-SFT base (paper uses Olmo-3-7B-Instruct), all seven LoRA target projections, dropout zero (paper q/v only, dropout 0.05); no faithful table binding.",
+      "base_model_from_config": "allenai/Olmo-3-7B-Instruct-SFT",
+      "model_type": null,
+      "weights": [
+        "adapter_model.safetensors"
+      ],
+      "gated": false,
+      "license_in_card": null
+    },
+    {
+      "repo": "Sangsang/Olmo-3-7B-Instruct-SFT-GRPO_16_eps_20",
+      "revision": "a798d44c1a280a8d9d881e2a1e6097c710cc6839",
+      "reason": "Explicit Instruct-SFT base (paper uses Olmo-3-7B-Instruct), all seven LoRA target projections, dropout zero (paper q/v only, dropout 0.05); no faithful table binding.",
+      "base_model_from_config": "allenai/Olmo-3-7B-Instruct-SFT",
+      "model_type": null,
+      "weights": [
+        "adapter_model.safetensors"
+      ],
+      "gated": false,
+      "license_in_card": null
+    },
+    {
+      "repo": "Sangsang/Olmo-3-7B-Instruct-SFT-GRPO_32_eps_20",
+      "revision": "468ad32b42be8209fe3a640e8b79f068934d0346",
+      "reason": "Explicit Instruct-SFT base (paper uses Olmo-3-7B-Instruct), all seven LoRA target projections, dropout zero (paper q/v only, dropout 0.05); no faithful table binding.",
+      "base_model_from_config": "allenai/Olmo-3-7B-Instruct-SFT",
+      "model_type": null,
+      "weights": [
+        "adapter_model.safetensors"
+      ],
+      "gated": false,
+      "license_in_card": null
+    },
+    {
+      "repo": "Sangsang/Olmo-3-7B-Instruct-SFT-GRPOPE_8_eps20",
+      "revision": "7082e8853d4645e2b2429708e344a25a77c21bfc",
+      "reason": "Explicit Instruct-SFT base (paper uses Olmo-3-7B-Instruct), all seven LoRA target projections, dropout zero (paper q/v only, dropout 0.05); no faithful table binding.",
+      "base_model_from_config": "allenai/Olmo-3-7B-Instruct-SFT",
+      "model_type": null,
+      "weights": [
+        "adapter_model.safetensors"
+      ],
+      "gated": false,
+      "license_in_card": null
+    },
+    {
+      "repo": "Sangsang/Olmo-3-7B-Instruct-SFT-ContextGRPOwDistill_2x4_eps20",
+      "revision": "9939049f6c0bbd8676ca61ad947942f2c9347999",
+      "reason": "Explicit Instruct-SFT base (paper uses Olmo-3-7B-Instruct), all seven LoRA target projections, dropout zero (paper q/v only, dropout 0.05); no faithful table binding.",
+      "base_model_from_config": "allenai/Olmo-3-7B-Instruct-SFT",
+      "model_type": null,
+      "weights": [
+        "adapter_model.safetensors"
+      ],
+      "gated": false,
+      "license_in_card": null
+    },
+    {
+      "repo": "Sangsang/Qwen2.5-7B-Instruct-feedback",
+      "revision": "70ab57a2b549101d8fa368d24ef3d21236149db0",
+      "reason": "Older Qwen feedback model lacks clear equivalent paired EMA training objective.",
+      "base_model_from_config": "Qwen/Qwen2.5-7B-Instruct",
+      "model_type": null,
+      "weights": [
+        "adapter_model.safetensors"
+      ],
+      "gated": false,
+      "license_in_card": null
+    },
+    {
+      "repo": "Sangsang/CI-7B-Feedback-merged",
+      "revision": "d06a0ba63f39db95b22d0f7af4b6e2f0b5ef18d6",
+      "reason": "Merged Qwen2-family weight shards; no direct binding to the paper-selected adapter/epoch. Use documented adapter candidate instead.",
+      "base_model_from_config": null,
+      "model_type": "qwen2",
+      "weights": [
+        "model-00001-of-00004.safetensors",
+        "model-00002-of-00004.safetensors",
+        "model-00003-of-00004.safetensors",
+        "model-00004-of-00004.safetensors"
+      ],
+      "gated": false,
+      "license_in_card": null
+    },
+    {
+      "repo": "Sangsang/CI-7B-CI-RL-merged",
+      "revision": "774a7ee1d3b1a41ed58a637a50ef4704e7b3933e",
+      "reason": "Merged Qwen2-family weight shards; no direct binding to the paper-selected adapter/epoch. Use documented adapter candidate instead.",
+      "base_model_from_config": null,
+      "model_type": "qwen2",
+      "weights": [
+        "model-00001-of-00004.safetensors",
+        "model-00002-of-00004.safetensors",
+        "model-00003-of-00004.safetensors",
+        "model-00004-of-00004.safetensors"
+      ],
+      "gated": false,
+      "license_in_card": null
+    },
+    {
+      "repo": "Sangsang/ci-feedback_weighted_asym_bi_kl_fixed_ema_Qwen2.5-7B-Instruct_bw1p0_fw1p0_ema0p999_ep30",
+      "revision": "06d4d9f73f58f7cbf974ae607e8db798cfbb6d73",
+      "reason": "Merged Qwen2-family weight shards; no direct binding to the paper-selected adapter/epoch. Use documented adapter candidate instead.",
+      "base_model_from_config": null,
+      "model_type": "qwen2",
+      "weights": [
+        "model-00001-of-00004.safetensors",
+        "model-00002-of-00004.safetensors",
+        "model-00003-of-00004.safetensors",
+        "model-00004-of-00004.safetensors"
+      ],
+      "gated": false,
+      "license_in_card": null
+    }
+  ]
+}

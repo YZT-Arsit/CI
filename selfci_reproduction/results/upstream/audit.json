@@ -1,0 +1,218 @@
+{
+  "4b_ci_sft": {
+    "counts": [
+      204,
+      217,
+      146
+    ],
+    "denominator": 365,
+    "pct": [
+      55.89041095890411,
+      59.45205479452055,
+      40.0
+    ],
+    "parsed": 350,
+    "distinct_responses_within_prompt": 160,
+    "prompts_identical_across_five": 1,
+    "per_run": [
+      {
+        "num_examples": 73,
+        "Integrity": 0.547945205479452,
+        "Utility": 0.5616438356164384,
+        "Complete": 0.3561643835616438,
+        "run_index": 1
+      },
+      {
+        "num_examples": 73,
+        "Integrity": 0.5616438356164384,
+        "Utility": 0.6027397260273972,
+        "Complete": 0.410958904109589,
+        "run_index": 2
+      },
+      {
+        "num_examples": 73,
+        "Integrity": 0.5616438356164384,
+        "Utility": 0.6027397260273972,
+        "Complete": 0.410958904109589,
+        "run_index": 3
+      },
+      {
+        "num_examples": 73,
+        "Integrity": 0.5616438356164384,
+        "Utility": 0.6027397260273972,
+        "Complete": 0.410958904109589,
+        "run_index": 4
+      },
+      {
+        "num_examples": 73,
+        "Integrity": 0.5616438356164384,
+        "Utility": 0.6027397260273972,
+        "Complete": 0.410958904109589,
+        "run_index": 5
+      }
+    ],
+    "sha256": "7fb25bfda67424b68075aa7c00250ad73afd95d394c07b3ea80dfc08a3f676d5"
+  },
+  "4b_grpo": {
+    "counts": [
+      232,
+      239,
+      148
+    ],
+    "denominator": 365,
+    "pct": [
+      63.56164383561644,
+      65.47945205479452,
+      40.54794520547945
+    ],
+    "parsed": 358,
+    "distinct_responses_within_prompt": 194,
+    "prompts_identical_across_five": 1,
+    "per_run": [
+      {
+        "num_examples": 73,
+        "Integrity": 0.6027397260273972,
+        "Utility": 0.6438356164383562,
+        "Complete": 0.3287671232876712,
+        "run_index": 1
+      },
+      {
+        "num_examples": 73,
+        "Integrity": 0.6438356164383562,
+        "Utility": 0.6712328767123288,
+        "Complete": 0.4383561643835616,
+        "run_index": 2
+      },
+      {
+        "num_examples": 73,
+        "Integrity": 0.6438356164383562,
+        "Utility": 0.6438356164383562,
+        "Complete": 0.410958904109589,
+        "run_index": 3
+      },
+      {
+        "num_examples": 73,
+        "Integrity": 0.6438356164383562,
+        "Utility": 0.6712328767123288,
+        "Complete": 0.4383561643835616,
+        "run_index": 4
+      },
+      {
+        "num_examples": 73,
+        "Integrity": 0.6438356164383562,
+        "Utility": 0.6438356164383562,
+        "Complete": 0.410958904109589,
+        "run_index": 5
+      }
+    ],
+    "sha256": "4f4ec9877f9c10d8b4828e1030d3e83ba7d94f89711a57e8bae87a5a3a4654cc"
+  },
+  "4b_initial": {
+    "counts": [
+      179,
+      222,
+      107
+    ],
+    "denominator": 365,
+    "pct": [
+      49.04109589041096,
+      60.821917808219176,
+      29.315068493150687
+    ],
+    "parsed": 357,
+    "distinct_responses_within_prompt": 207,
+    "prompts_identical_across_five": 1,
+    "per_run": [
+      {
+        "num_examples": 73,
+        "Integrity": 0.4931506849315068,
+        "Utility": 0.5753424657534246,
+        "Complete": 0.273972602739726,
+        "run_index": 1
+      },
+      {
+        "num_examples": 73,
+        "Integrity": 0.4931506849315068,
+        "Utility": 0.6164383561643836,
+        "Complete": 0.3013698630136986,
+        "run_index": 2
+      },
+      {
+        "num_examples": 73,
+        "Integrity": 0.4931506849315068,
+        "Utility": 0.6027397260273972,
+        "Complete": 0.3013698630136986,
+        "run_index": 3
+      },
+      {
+        "num_examples": 73,
+        "Integrity": 0.4931506849315068,
+        "Utility": 0.6164383561643836,
+        "Complete": 0.3013698630136986,
+        "run_index": 4
+      },
+      {
+        "num_examples": 73,
+        "Integrity": 0.4794520547945205,
+        "Utility": 0.6301369863013698,
+        "Complete": 0.2876712328767123,
+        "run_index": 5
+      }
+    ],
+    "sha256": "ddc3ac2b1f3f3d55aae5712887cb8732482972409da8f01b368a74d21f3d9920"
+  },
+  "4b_selfci": {
+    "counts": [
+      268,
+      190,
+      161
+    ],
+    "denominator": 365,
+    "pct": [
+      73.42465753424658,
+      52.054794520547944,
+      44.109589041095894
+    ],
+    "parsed": 313,
+    "distinct_responses_within_prompt": 138,
+    "prompts_identical_across_five": 10,
+    "per_run": [
+      {
+        "num_examples": 73,
+        "Integrity": 0.7123287671232876,
+        "Utility": 0.4657534246575342,
+        "Complete": 0.3972602739726027,
+        "run_index": 1
+      },
+      {
+        "num_examples": 73,
+        "Integrity": 0.7397260273972602,
+        "Utility": 0.5342465753424658,
+        "Complete": 0.4520547945205479,
+        "run_index": 2
+      },
+      {
+        "num_examples": 73,
+        "Integrity": 0.7397260273972602,
+        "Utility": 0.5342465753424658,
+        "Complete": 0.4520547945205479,
+        "run_index": 3
+      },
+      {
+        "num_examples": 73,
+        "Integrity": 0.7397260273972602,
+        "Utility": 0.5342465753424658,
+        "Complete": 0.4520547945205479,
+        "run_index": 4
+      },
+      {
+        "num_examples": 73,
+        "Integrity": 0.7397260273972602,
+        "Utility": 0.5342465753424658,
+        "Complete": 0.4520547945205479,
+        "run_index": 5
+      }
+    ],
+    "sha256": "6a35d10e7b7d314e3ae6b3288ddacdbed35203e78d8748d02997c4f1cecdc290"
+  }
+}

@@ -1,0 +1,921 @@
+{
+  "relation": {
+    "route_only_rule": {
+      "train_library": {
+        "cells": 390,
+        "correct": 390,
+        "unique_observation_path": 384
+      },
+      "development": {
+        "cells": 448,
+        "correct": 448,
+        "unique_observation_path": 448
+      }
+    },
+    "unauthorized_conflict_recall": {
+      "TWO_HOP_JOIN_4": {
+        "cells": 80,
+        "conflicts": 10,
+        "mid_conflicts_detected": 0,
+        "end_conflicts_detected": 0
+      },
+      "TWO_HOP_JOIN_5": {
+        "cells": 80,
+        "conflicts": 10,
+        "mid_conflicts_detected": 0,
+        "end_conflicts_detected": 0
+      },
+      "DIRECT_JOIN_3": {
+        "cells": 32,
+        "conflicts": 8,
+        "mid_conflicts_detected": 8,
+        "end_conflicts_detected": 1
+      },
+      "DIRECT_JOIN_4": {
+        "cells": 32,
+        "conflicts": 8,
+        "mid_conflicts_detected": 0,
+        "end_conflicts_detected": 0
+      }
+    }
+  },
+  "proofwriter": {
+    "train_roots": 128,
+    "roots_with_pairs": 128,
+    "pairs_within_roots": 182,
+    "pairs_both_histories_allow_success": 0,
+    "pairs_disjoint_accepted_actions": 182,
+    "roots_by_contract": {
+      "proofwriter_local_attestation": 64,
+      "proofwriter_raw_record_only": 64
+    },
+    "by_root": [
+      {
+        "root": "PROOFWRITER:2ccdbb6ee6c8664bdcb4d7a5f643da909a01624cac52519741b7d45afc6d3dac",
+        "stratum": "proofwriter_local_attestation",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      },
+      {
+        "root": "PROOFWRITER:a396e85e239890975083656d522ed1051b50cc401b4a8af6655a8d8b17724857",
+        "stratum": "proofwriter_local_attestation",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      },
+      {
+        "root": "PROOFWRITER:c2902e8aa0ab673b13c929f901266a205fa0394665d7e6da5e45af80cf4ab6b6",
+        "stratum": "proofwriter_raw_record_only",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      },
+      {
+        "root": "PROOFWRITER:7126133e6613fc5b312c6f50c02c64092d7cf724472eeeebc141c0e26f2a990a",
+        "stratum": "proofwriter_raw_record_only",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      },
+      {
+        "root": "PROOFWRITER:d777e38bf19844952af995685695fa476fdff51bb8ade84b7e686c78cc8453d5",
+        "stratum": "proofwriter_local_attestation",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      },
+      {
+        "root": "PROOFWRITER:12591e7d3792fd5cfc3187dd14618df4222294c8289cb188f0c4b00ee67a470e",
+        "stratum": "proofwriter_local_attestation",
+        "pairs": 2,
+        "disjoint_accepted_actions": 2
+      },
+      {
+        "root": "PROOFWRITER:d3bce66a38b2571be5b03bd8690aa006698359dfdb4cf4ad4da1a2f5d313684d",
+        "stratum": "proofwriter_raw_record_only",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      },
+      {
+        "root": "PROOFWRITER:08e10f4992c747004c43f51c908b5a5211d487cf096fa2070fed6163e1a576c3",
+        "stratum": "proofwriter_raw_record_only",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      },
+      {
+        "root": "PROOFWRITER:6cd0f05278016aee278cda867c3f8403e2b2e2132d81a7b6cf092f9a12e4700c",
+        "stratum": "proofwriter_local_attestation",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      },
+      {
+        "root": "PROOFWRITER:c514593284eba586d115bc9ac57a2f130c731ac2a3d09cd342130f0f8453f1c4",
+        "stratum": "proofwriter_local_attestation",
+        "pairs": 3,
+        "disjoint_accepted_actions": 3
+      },
+      {
+        "root": "PROOFWRITER:77fccca33a1d80985b9c92643fd22a79c06520239707e93914f029f048b565f8",
+        "stratum": "proofwriter_raw_record_only",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      },
+      {
+        "root": "PROOFWRITER:9287c2d04ba5d000402c55a4c602710e4d29bf6a0ba1d6e322e69c8b2b6789dd",
+        "stratum": "proofwriter_raw_record_only",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      },
+      {
+        "root": "PROOFWRITER:9851357c4329b864c373118c456ab7881d62de10cd34d536a9af577720ec9f2b",
+        "stratum": "proofwriter_local_attestation",
+        "pairs": 3,
+        "disjoint_accepted_actions": 3
+      },
+      {
+        "root": "PROOFWRITER:4c3c1ab6ba36d78bed008a954a586ab27ce7a8534af3b17fe31a2558c6919aff",
+        "stratum": "proofwriter_local_attestation",
+        "pairs": 4,
+        "disjoint_accepted_actions": 4
+      },
+      {
+        "root": "PROOFWRITER:06651e223a25cd1f6787f834853f7cc130a48a0f7036caa5f85bb60853ef4980",
+        "stratum": "proofwriter_raw_record_only",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      },
+      {
+        "root": "PROOFWRITER:deb5138f1d38c58b96994703b9800221da2d815f9d52d0ad0581630f68c11ff2",
+        "stratum": "proofwriter_raw_record_only",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      },
+      {
+        "root": "PROOFWRITER:33df17f2df83d9a3159b683b1deb9a0d67e8b9f0fb44068543a81050bdd8b2a7",
+        "stratum": "proofwriter_local_attestation",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      },
+      {
+        "root": "PROOFWRITER:5cebd6e3f51d1f2c41b3da80a6aabaaf2b1069fabbdf74342f914a3102d70b67",
+        "stratum": "proofwriter_local_attestation",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      },
+      {
+        "root": "PROOFWRITER:a847d001fbe14555e045d01860afd312a1f8fb0c79df38901803ec91f9a4804c",
+        "stratum": "proofwriter_raw_record_only",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      },
+      {
+        "root": "PROOFWRITER:dca8cc42f71937dac47a6fc399629c996e5e9c54a2655c4302012a4ff9ec839b",
+        "stratum": "proofwriter_raw_record_only",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      },
+      {
+        "root": "PROOFWRITER:a24483dc6921599ef6a5c38b7f42112b101d783e625d3d8fb6f6c2cde366e46e",
+        "stratum": "proofwriter_local_attestation",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      },
+      {
+        "root": "PROOFWRITER:6239054f9e87ad6e1a1614d743eb910656cf1e1f3b833606d87aa383b741e2f8",
+        "stratum": "proofwriter_local_attestation",
+        "pairs": 4,
+        "disjoint_accepted_actions": 4
+      },
+      {
+        "root": "PROOFWRITER:72571c2b49ea76cda32856ff0fdcf3123ab8ee71d14301f42f0f276f9bc9c0ab",
+        "stratum": "proofwriter_raw_record_only",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      },
+      {
+        "root": "PROOFWRITER:23b914caa497e06497823306c4b4346fc70605909fad423a766fcd7422c06bb1",
+        "stratum": "proofwriter_raw_record_only",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      },
+      {
+        "root": "PROOFWRITER:5d5807c7322d06a19d0a4ad980ace77c7edc8a827b6c488fa9c1af1137563d4e",
+        "stratum": "proofwriter_local_attestation",
+        "pairs": 2,
+        "disjoint_accepted_actions": 2
+      },
+      {
+        "root": "PROOFWRITER:dc1a7fae457c48f29d17324880905867e072f4d994aee3825c30578952da1a93",
+        "stratum": "proofwriter_local_attestation",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      },
+      {
+        "root": "PROOFWRITER:4bae177ead34dc6518a2ad00ad5cc5c8301a3a36300252ad6125c2d0d7620f31",
+        "stratum": "proofwriter_raw_record_only",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      },
+      {
+        "root": "PROOFWRITER:689f7c12e4735ad94bbaa9c3ba0c26a640f5f96391086f9a156efb3e27eab479",
+        "stratum": "proofwriter_raw_record_only",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      },
+      {
+        "root": "PROOFWRITER:137b020d178f1f83aaef385e16cf0f6e537ee30f88c8d666ec548ec9622f91e5",
+        "stratum": "proofwriter_local_attestation",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      },
+      {
+        "root": "PROOFWRITER:73471e564bc7f89b0a0ebb32a30a5fa8dc516fbb0ce502f182dcd43ac535551d",
+        "stratum": "proofwriter_local_attestation",
+        "pairs": 3,
+        "disjoint_accepted_actions": 3
+      },
+      {
+        "root": "PROOFWRITER:9846436c3c389b7f53e0a71659ae120a70575b049badfdb5df4ff2dd341a5497",
+        "stratum": "proofwriter_raw_record_only",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      },
+      {
+        "root": "PROOFWRITER:5b92b422c8fd1693f61d2fbc17b821567dd3ec771d6438ee6aec2355563bdbd5",
+        "stratum": "proofwriter_raw_record_only",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      },
+      {
+        "root": "PROOFWRITER:7791488242db302c2820415354f5e129f8ef8e82e30fd4444e43806f2cd5022c",
+        "stratum": "proofwriter_local_attestation",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      },
+      {
+        "root": "PROOFWRITER:84cba7c486d7106a8c38f45b2a764e1765248a6cfc4f5e8edfb4bbe0ab54a529",
+        "stratum": "proofwriter_local_attestation",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      },
+      {
+        "root": "PROOFWRITER:ac73af957d3ffb7b12ec58a57ee7f2fb281f1f07a1d89f1bb3b5950d1ca700e0",
+        "stratum": "proofwriter_raw_record_only",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      },
+      {
+        "root": "PROOFWRITER:ea927e55d7f92b162825694d7786419214c6af105c965e9df4e2e8783432a4d1",
+        "stratum": "proofwriter_raw_record_only",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      },
+      {
+        "root": "PROOFWRITER:1ee704218a8104132254bd044842648e0126c2d891fda696d7abf389ff24c0a7",
+        "stratum": "proofwriter_local_attestation",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      },
+      {
+        "root": "PROOFWRITER:0245284ea7299ba9e5a4a7455b829c215747783c931217c73cc1397a63d47f63",
+        "stratum": "proofwriter_local_attestation",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      },
+      {
+        "root": "PROOFWRITER:8826ded1440881a55f9b81c19318945ef12b5b307306825752201e9a17696b2a",
+        "stratum": "proofwriter_raw_record_only",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      },
+      {
+        "root": "PROOFWRITER:d69c900070f40b14e6a0eeb9a25a37c5658a43a1a4faab592bc1ec898bdb6360",
+        "stratum": "proofwriter_raw_record_only",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      },
+      {
+        "root": "PROOFWRITER:5f3db823c1e957c8d85256050e3620446b95420fc7f5bb48da26a55f54e4c1d5",
+        "stratum": "proofwriter_local_attestation",
+        "pairs": 2,
+        "disjoint_accepted_actions": 2
+      },
+      {
+        "root": "PROOFWRITER:f7933d461f8d260337d02867187576fba2437181e3221c105dd5eebd2a917fde",
+        "stratum": "proofwriter_local_attestation",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      },
+      {
+        "root": "PROOFWRITER:a094838dbcd5584d3644d01aaf37a45a4733b569cdf2bbc2f896d66ffb759242",
+        "stratum": "proofwriter_raw_record_only",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      },
+      {
+        "root": "PROOFWRITER:61b8f2375d9db40f5eee67e0d26e729d868a16e26e29f44888f5e9173636452d",
+        "stratum": "proofwriter_raw_record_only",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      },
+      {
+        "root": "PROOFWRITER:0131ca7105dc00a88cbb9e7a4eaf3871a6810ac7948759ba0a7784bf0b7a12b7",
+        "stratum": "proofwriter_local_attestation",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      },
+      {
+        "root": "PROOFWRITER:4a56ddde17c6c086c71551d3276e3dff42b88d15585dd572a4f9e8b2db1d1228",
+        "stratum": "proofwriter_local_attestation",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      },
+      {
+        "root": "PROOFWRITER:ed8e394354c1da151050b6972f260af02ab6dc9a0e49db8330e62de5871a1579",
+        "stratum": "proofwriter_raw_record_only",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      },
+      {
+        "root": "PROOFWRITER:f4d0fbf7d7d7ce478127e019cd243470a3164e7ee35e7f1804a10197320c6e19",
+        "stratum": "proofwriter_raw_record_only",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      },
+      {
+        "root": "PROOFWRITER:2ec1d001611ce605e61b47fcee18312ca03db8aa067d2678ab8386e227567847",
+        "stratum": "proofwriter_local_attestation",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      },
+      {
+        "root": "PROOFWRITER:25054cc02ddd8a93ed56234914812f80ff7485ca6c1f7aa0d948a76905613cf3",
+        "stratum": "proofwriter_local_attestation",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      },
+      {
+        "root": "PROOFWRITER:ae8d4458bad11251c10d43df9e71abdc865f758e9ccb6c4077af1dfdde0ea608",
+        "stratum": "proofwriter_raw_record_only",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      },
+      {
+        "root": "PROOFWRITER:efd83213cca00990254e1bb9f468411941d16aedcf45bb8fef9cbbca0ee49755",
+        "stratum": "proofwriter_raw_record_only",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      },
+      {
+        "root": "PROOFWRITER:3d97c451440b015dd47128ee5dd76ad7eaeb6acb5bc74fef44e1d3b4d8b4b8df",
+        "stratum": "proofwriter_local_attestation",
+        "pairs": 2,
+        "disjoint_accepted_actions": 2
+      },
+      {
+        "root": "PROOFWRITER:bcb2412b78e04da1dc3468b4bf0522f57335833933b9701674f0ff147984b987",
+        "stratum": "proofwriter_local_attestation",
+        "pairs": 3,
+        "disjoint_accepted_actions": 3
+      },
+      {
+        "root": "PROOFWRITER:5ecaa97bbae5de3d2c83c0e694a8f131eb8beadd2479ad1ed72f2c61b40e5bd7",
+        "stratum": "proofwriter_raw_record_only",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      },
+      {
+        "root": "PROOFWRITER:cc0d39d857339ea1a3e13024f4ddfc26ce220cfc9c36eeebcaaf270d4f32db5e",
+        "stratum": "proofwriter_raw_record_only",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      },
+      {
+        "root": "PROOFWRITER:6e0eb589977d650c8bbaf2cb3b947467a8e830019c26f840e2448dc26bb6746b",
+        "stratum": "proofwriter_local_attestation",
+        "pairs": 3,
+        "disjoint_accepted_actions": 3
+      },
+      {
+        "root": "PROOFWRITER:aaded23061887f1064738caacef8c45ecf4b9935eb3d376200f68dd6594a88ed",
+        "stratum": "proofwriter_local_attestation",
+        "pairs": 3,
+        "disjoint_accepted_actions": 3
+      },
+      {
+        "root": "PROOFWRITER:f5f0e143cce4060a4a881ac225d7c3a527dac33aae78a2e7a871b99882ad3d33",
+        "stratum": "proofwriter_raw_record_only",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      },
+      {
+        "root": "PROOFWRITER:33be1c0209c9c05f481d295d5cd00d5e6c3af2f3c440139ebb96a2e5873c5260",
+        "stratum": "proofwriter_raw_record_only",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      },
+      {
+        "root": "PROOFWRITER:16c191bff57038a24d8d3a96e47fcb55d5f44be3d1458dcc129ad1bc4da6ce27",
+        "stratum": "proofwriter_local_attestation",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      },
+      {
+        "root": "PROOFWRITER:2e043651f7a95cf9b6231092e3cd0d061dd25f9421a54ae5c3405f352a8afa81",
+        "stratum": "proofwriter_local_attestation",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      },
+      {
+        "root": "PROOFWRITER:56d0fe57a287303466d3fee323dc17b624ee0053ab2a2c97c228308d1671ffb0",
+        "stratum": "proofwriter_raw_record_only",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      },
+      {
+        "root": "PROOFWRITER:1463d523edeb1ef607a78d5b032afdb903830bfdbbac84b31bb056c29e6df875",
+        "stratum": "proofwriter_raw_record_only",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      },
+      {
+        "root": "PROOFWRITER:efdacae3ed47e607c7da950e561038a35cb7545dc9aa78d51ba1aa503a784aa6",
+        "stratum": "proofwriter_local_attestation",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      },
+      {
+        "root": "PROOFWRITER:ab158607f212a39d3a886445c117fdabeb40a48bd25dab9327d5677a4a0e7f6c",
+        "stratum": "proofwriter_local_attestation",
+        "pairs": 3,
+        "disjoint_accepted_actions": 3
+      },
+      {
+        "root": "PROOFWRITER:22e1d6916ed12fba65b3dee0526cbc67e1e34db2397c35d8f5dd5b2e80a18654",
+        "stratum": "proofwriter_raw_record_only",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      },
+      {
+        "root": "PROOFWRITER:929aba5a8ae02864228368233aa043dc325e3c45fc9f6f2434467730e7bc0fdf",
+        "stratum": "proofwriter_raw_record_only",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      },
+      {
+        "root": "PROOFWRITER:23ba3e5b6dd0e81e0385e48364d5146c25aebf255d1f3a6cc14463d3c8c4bdb5",
+        "stratum": "proofwriter_local_attestation",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      },
+      {
+        "root": "PROOFWRITER:01bd40421ded2b5e776eb7b108d6f597508cb97dcb0444f2d6200cc15f27e201",
+        "stratum": "proofwriter_local_attestation",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      },
+      {
+        "root": "PROOFWRITER:4e67de4d352b454f2282a67efbdab8324451509bb7aa8657b21fe98d0c95bcf8",
+        "stratum": "proofwriter_raw_record_only",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      },
+      {
+        "root": "PROOFWRITER:bbc4f9b0650f352b7e1f84757a4735b3567d828d6d410105ae568a9655fed654",
+        "stratum": "proofwriter_raw_record_only",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      },
+      {
+        "root": "PROOFWRITER:6cee8c2ebd2211857d3dca6f65843319e927bcaeb5f7d7e69fb14383ec9f5602",
+        "stratum": "proofwriter_local_attestation",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      },
+      {
+        "root": "PROOFWRITER:08b8b5f70306aabe001cd7e1e0cdf313d9994c3dffac694ea6bcf4275972096e",
+        "stratum": "proofwriter_local_attestation",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      },
+      {
+        "root": "PROOFWRITER:41bae5eb8b9ee297c71834d5380563835bea4c58b587d40fcea18bbb9494377f",
+        "stratum": "proofwriter_raw_record_only",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      },
+      {
+        "root": "PROOFWRITER:3f373badc588c931535a459953b4cd1332a5d8f6af9c22acc725e871c63d6ff9",
+        "stratum": "proofwriter_raw_record_only",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      },
+      {
+        "root": "PROOFWRITER:bff77b9cecda68bc0fafbcf8cdab94fd3e21bd80c95d0cc10fdce39ae289f991",
+        "stratum": "proofwriter_local_attestation",
+        "pairs": 7,
+        "disjoint_accepted_actions": 7
+      },
+      {
+        "root": "PROOFWRITER:085e1dffdf40737da98e257046bb4e1c45fdb504c665477f0b807d95beabb495",
+        "stratum": "proofwriter_local_attestation",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      },
+      {
+        "root": "PROOFWRITER:5c11f4f3f447ac12e987a2e50acb945946eb55b2ac866a7ee11702bbfabe0cac",
+        "stratum": "proofwriter_raw_record_only",
+        "pairs": 2,
+        "disjoint_accepted_actions": 2
+      },
+      {
+        "root": "PROOFWRITER:8e8de6e2f2be0330354d51dec383e9d7de2eb551fcfde77fb134b3207996db4e",
+        "stratum": "proofwriter_raw_record_only",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      },
+      {
+        "root": "PROOFWRITER:3ef00b5aaea35a23eba872082dcb9f00783d8ecb4a88f18560d18e3834076e44",
+        "stratum": "proofwriter_local_attestation",
+        "pairs": 2,
+        "disjoint_accepted_actions": 2
+      },
+      {
+        "root": "PROOFWRITER:fa70a853cc4f0441f0d318f743b4f47446892414f7bba1b790e605f9dc363aa5",
+        "stratum": "proofwriter_local_attestation",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      },
+      {
+        "root": "PROOFWRITER:e62cdea6ad9622f8d76d4806611301829175983daf1eb93814f890ba80730499",
+        "stratum": "proofwriter_raw_record_only",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      },
+      {
+        "root": "PROOFWRITER:f6fee191603d9b4e293d4f5c3c43fc59f7e26ce2dd59385307cd906fc1f8af9a",
+        "stratum": "proofwriter_raw_record_only",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      },
+      {
+        "root": "PROOFWRITER:f9b0bf6139294efd10e94f4c2f28d4801c118b9652498a881f5e96f6391b5e93",
+        "stratum": "proofwriter_local_attestation",
+        "pairs": 3,
+        "disjoint_accepted_actions": 3
+      },
+      {
+        "root": "PROOFWRITER:fbd7e25109456fa7f91e53a07653a83848ca4399626433b8b7c874b9845b2d2d",
+        "stratum": "proofwriter_local_attestation",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      },
+      {
+        "root": "PROOFWRITER:b9ce9107c87fb4310d4e7dc1005c93036ab01545b382a84fccf85a72f8eb3722",
+        "stratum": "proofwriter_raw_record_only",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      },
+      {
+        "root": "PROOFWRITER:18cf4d81ff39e159b889c9fd5e427eb2139a69725bdcfd9bc5a48a30bba2ec99",
+        "stratum": "proofwriter_raw_record_only",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      },
+      {
+        "root": "PROOFWRITER:f70231c17a60406a0968ad4f7957f78c2d7abca71d9e4e23b8ca1e9dec3e8ca2",
+        "stratum": "proofwriter_local_attestation",
+        "pairs": 3,
+        "disjoint_accepted_actions": 3
+      },
+      {
+        "root": "PROOFWRITER:6dddb760be3155498897654f40e0cfc452ef7de49940b0b6fd3a91f02d810ebd",
+        "stratum": "proofwriter_local_attestation",
+        "pairs": 4,
+        "disjoint_accepted_actions": 4
+      },
+      {
+        "root": "PROOFWRITER:d5816dca8f199f9367ac774433d02cdec3397c77c51ec1aa9f4e805b3a4955be",
+        "stratum": "proofwriter_raw_record_only",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      },
+      {
+        "root": "PROOFWRITER:f6c88fa95876641b6a1a9fe9615ba29883a51ced053bb86e0f09078ca19452fa",
+        "stratum": "proofwriter_raw_record_only",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      },
+      {
+        "root": "PROOFWRITER:dba8789092c0597013122c9a2a6fe1cbcd057dbf911691e46af6a8cc1887153f",
+        "stratum": "proofwriter_local_attestation",
+        "pairs": 3,
+        "disjoint_accepted_actions": 3
+      },
+      {
+        "root": "PROOFWRITER:ddd5b249a684b2f262e21958734b7cd8f306f6acdd618566d45c482f902b2952",
+        "stratum": "proofwriter_local_attestation",
+        "pairs": 3,
+        "disjoint_accepted_actions": 3
+      },
+      {
+        "root": "PROOFWRITER:86606e28070ab8b89ecfa165a9597053939aec0eae2a2d18c3f635e6f1b95fdf",
+        "stratum": "proofwriter_raw_record_only",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      },
+      {
+        "root": "PROOFWRITER:59bc42a63105df4591814e147cbd4cdda51943a224e642b2ca6677a03203d99d",
+        "stratum": "proofwriter_raw_record_only",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      },
+      {
+        "root": "PROOFWRITER:e4ea0d46916f9557c6d8ff06f1758f51085c88fe00a29d099dc1aa97a85424f2",
+        "stratum": "proofwriter_local_attestation",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      },
+      {
+        "root": "PROOFWRITER:5f0e38ca74e5dab178d9d80e02cfedb88ba8f3ae2591b2e1087f6ec7de664728",
+        "stratum": "proofwriter_local_attestation",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      },
+      {
+        "root": "PROOFWRITER:a5d41a385cb2b08ae68e2777e8f5255a4959e351313a20533f5eec416f0bae20",
+        "stratum": "proofwriter_raw_record_only",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      },
+      {
+        "root": "PROOFWRITER:69072c0607c34ed0b8998dd52cffb73ef0e067c737b9f61f45def5df9cde3875",
+        "stratum": "proofwriter_raw_record_only",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      },
+      {
+        "root": "PROOFWRITER:29a3fba31b1e4daf194b3a8b8f1e61bed3d7238ba050e3d51f94214026bad819",
+        "stratum": "proofwriter_local_attestation",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      },
+      {
+        "root": "PROOFWRITER:c504ae576b5e923d7a60871c0d42bb1ef1564417a3a7eda6e38b7ccbe4c71fa1",
+        "stratum": "proofwriter_local_attestation",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      },
+      {
+        "root": "PROOFWRITER:b32f0d9478e5c5f2f9a465149d56dee68af9b306ada43bd75d7e6bbcd75694e4",
+        "stratum": "proofwriter_raw_record_only",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      },
+      {
+        "root": "PROOFWRITER:036dc8ceb757af84bd676e2ff093c6ca296458a935104b7b46e2f15ae1a8d024",
+        "stratum": "proofwriter_raw_record_only",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      },
+      {
+        "root": "PROOFWRITER:62d7dcceacd5fe86dddbbff27e1933300c0d44a1209f459d4d55963dcf96f0a2",
+        "stratum": "proofwriter_local_attestation",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      },
+      {
+        "root": "PROOFWRITER:3324c93c3eea3525b83cfeba24dfba0d85fddb4bc873183a8020d8de21b8ab1f",
+        "stratum": "proofwriter_local_attestation",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      },
+      {
+        "root": "PROOFWRITER:92b10461455d41c3c9cb5784acdab42920ea1ce99b2279f2ef514250372ea12c",
+        "stratum": "proofwriter_raw_record_only",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      },
+      {
+        "root": "PROOFWRITER:20c5ad0500bc28a65c9f87f64078449339787c9e6f9e2102ed61417084514c02",
+        "stratum": "proofwriter_raw_record_only",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      },
+      {
+        "root": "PROOFWRITER:48c9b4fb844225143df88fa95c448622c5912166cede2f18af2f95ff971a8524",
+        "stratum": "proofwriter_local_attestation",
+        "pairs": 4,
+        "disjoint_accepted_actions": 4
+      },
+      {
+        "root": "PROOFWRITER:70b7d30dfa0dc5543fb33258579666743684519474876be5341c61c31c62bf97",
+        "stratum": "proofwriter_local_attestation",
+        "pairs": 3,
+        "disjoint_accepted_actions": 3
+      },
+      {
+        "root": "PROOFWRITER:cfe6d796a6d49e7ba912ef991ce24d5e760c5080078c9c9644cceb7cb1d59588",
+        "stratum": "proofwriter_raw_record_only",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      },
+      {
+        "root": "PROOFWRITER:144b2d119c7d583c56c70dfd04beaaf81443e723e849b429047a5f10050ccf44",
+        "stratum": "proofwriter_raw_record_only",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      },
+      {
+        "root": "PROOFWRITER:0de9b805d90ea9ded0ec550dee4a9f1338312d3a007f4e999c9ebffdc686fef7",
+        "stratum": "proofwriter_local_attestation",
+        "pairs": 6,
+        "disjoint_accepted_actions": 6
+      },
+      {
+        "root": "PROOFWRITER:b30d1fc8b5f08c7982f2eea0de139e369db94f597d4eb2ae7f7369d2606121ea",
+        "stratum": "proofwriter_local_attestation",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      },
+      {
+        "root": "PROOFWRITER:d5b159ab42a78cfe0689000d85183b6e76bbd9d8665cc814cadbd4501c69ad1c",
+        "stratum": "proofwriter_raw_record_only",
+        "pairs": 2,
+        "disjoint_accepted_actions": 2
+      },
+      {
+        "root": "PROOFWRITER:330e5f4a27c9193e8fd1b2de6c9d97eca9722c343364c7dad17ff671963ed03b",
+        "stratum": "proofwriter_raw_record_only",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      },
+      {
+        "root": "PROOFWRITER:2e00a592e02b5677f0517da86ad94cbb0d2ac12112f3ee7e08ffdc53f70271ed",
+        "stratum": "proofwriter_local_attestation",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      },
+      {
+        "root": "PROOFWRITER:857a8ca3a652e5d115c5a42796765518b9b0c3f65b9350a16f2c416606ffef88",
+        "stratum": "proofwriter_local_attestation",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      },
+      {
+        "root": "PROOFWRITER:e6fb8fe4420650259b08861ab3353cdb772918e415d935a63d78796c3fb8df3c",
+        "stratum": "proofwriter_raw_record_only",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      },
+      {
+        "root": "PROOFWRITER:1e422e1c9e4a19085053c346d73f99d4660a35088775dc9b1434e08e96d20ce0",
+        "stratum": "proofwriter_raw_record_only",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      },
+      {
+        "root": "PROOFWRITER:d6287f72c3ad00aa4439f2f853314e1efe7dbb2836924e0b663c0de74f4aa2dd",
+        "stratum": "proofwriter_local_attestation",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      },
+      {
+        "root": "PROOFWRITER:a45072d6564e2aa3239c416b6377c1a59d38bd9c3ce379f44899867581e8ecbb",
+        "stratum": "proofwriter_local_attestation",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      },
+      {
+        "root": "PROOFWRITER:5ef8ab5cb95cef00b838a064c4024e745f4958ca985deb808ff2da2ff716de9d",
+        "stratum": "proofwriter_raw_record_only",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      },
+      {
+        "root": "PROOFWRITER:9778640dce8584312517099141e39d50237aa9255d94f67f19141d32dba8c760",
+        "stratum": "proofwriter_raw_record_only",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      },
+      {
+        "root": "PROOFWRITER:bbb99c0f019b813cb1e06b85692638619923a36390be86789cb3ab51ff190729",
+        "stratum": "proofwriter_local_attestation",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      },
+      {
+        "root": "PROOFWRITER:18e996ab210b8f2d56b0e0d13d2dbdc5890625ffeec108bc95133596e0a2d301",
+        "stratum": "proofwriter_local_attestation",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      },
+      {
+        "root": "PROOFWRITER:9dbbaa14ef4ff13c58930db254dee7402fc90203671abeaff42011d39d8beb89",
+        "stratum": "proofwriter_raw_record_only",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      },
+      {
+        "root": "PROOFWRITER:6e3e1b2ee79605f1a3b69e66cc20263784e2b5504440bef6e93970969d848067",
+        "stratum": "proofwriter_raw_record_only",
+        "pairs": 1,
+        "disjoint_accepted_actions": 1
+      }
+    ]
+  },
+  "margin_audit": {
+    "initial": {
+      "suffix_order": {
+        "n": 20,
+        "positive": 19,
+        "negative": 0,
+        "ties": 1,
+        "median": 6.1875
+      },
+      "receipt_suffix_interaction": {
+        "n": 10,
+        "positive": 6,
+        "negative": 3,
+        "ties": 1,
+        "median": 0.125
+      }
+    },
+    "A": {
+      "suffix_order": {
+        "n": 20,
+        "positive": 18,
+        "negative": 1,
+        "ties": 1,
+        "median": 4.5
+      },
+      "receipt_suffix_interaction": {
+        "n": 10,
+        "positive": 1,
+        "negative": 7,
+        "ties": 2,
+        "median": -1.125
+      }
+    },
+    "B": {
+      "suffix_order": {
+        "n": 20,
+        "positive": 17,
+        "negative": 2,
+        "ties": 1,
+        "median": 4.75
+      },
+      "receipt_suffix_interaction": {
+        "n": 10,
+        "positive": 1,
+        "negative": 8,
+        "ties": 1,
+        "median": -0.5
+      }
+    },
+    "C_mid": {
+      "suffix_order": {
+        "n": 20,
+        "positive": 20,
+        "negative": 0,
+        "ties": 0,
+        "median": 2.875
+      },
+      "receipt_suffix_interaction": {
+        "n": 10,
+        "positive": 6,
+        "negative": 3,
+        "ties": 1,
+        "median": 0.3125
+      }
+    },
+    "C": {
+      "suffix_order": {
+        "n": 20,
+        "positive": 20,
+        "negative": 0,
+        "ties": 0,
+        "median": 1.625
+      },
+      "receipt_suffix_interaction": {
+        "n": 10,
+        "positive": 6,
+        "negative": 2,
+        "ties": 2,
+        "median": 0.125
+      }
+    },
+    "any_private_in_plan": {
+      "suffix_order": {
+        "n": 20,
+        "positive": 20,
+        "negative": 0,
+        "ties": 0,
+        "median": 1.0
+      },
+      "receipt_suffix_interaction": {
+        "n": 10,
+        "positive": 0,
+        "negative": 0,
+        "ties": 10,
+        "median": 0.0
+      }
+    }
+  }
+}

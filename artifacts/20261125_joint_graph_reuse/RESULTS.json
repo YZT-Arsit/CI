@@ -1,0 +1,122 @@
+{
+  "reuse": {
+    "DealOrNoDeal": {
+      "worlds": 16,
+      "plain": {
+        "policy_evals": 240,
+        "numeric_tables": 224,
+        "downstream_values": 224
+      },
+      "shared": {
+        "policy_evals": 240,
+        "numeric_tables": 37,
+        "downstream_values": 224
+      },
+      "max_value_error": 0.0,
+      "max_gradient_error": 0.0
+    },
+    "ProofWriter": {
+      "worlds": 32,
+      "plain": {
+        "policy_evals": 128,
+        "numeric_tables": 96,
+        "downstream_values": 96
+      },
+      "shared": {
+        "policy_evals": 128,
+        "numeric_tables": 31,
+        "downstream_values": 96
+      },
+      "max_value_error": 0.0,
+      "max_gradient_error": 0.0
+    }
+  },
+  "policy": {
+    "zero": {
+      "cap": 0.0,
+      "t": null
+    },
+    "relative": {
+      "cap": 0.15022595858282883,
+      "t": 1.0
+    },
+    "coefficients": {
+      "train": [
+        [
+          0.4099580604671714,
+          0.15022595858282883
+        ],
+        [
+          0.16167180999277125,
+          -0.15360069280587668
+        ],
+        [
+          0.031344190571259034,
+          0.0529227297800187
+        ]
+      ],
+      "dev": [
+        [
+          0.3320850678739974,
+          0.10465868219576754
+        ],
+        [
+          -0.027938404726596755,
+          -0.09644094907767731
+        ],
+        [
+          -0.0257645735950483,
+          0.019275083486204887
+        ]
+      ]
+    },
+    "initial": {
+      "train": [
+        0.4099580604671714,
+        0.15022595858282883
+      ],
+      "dev": [
+        0.3320850678739974,
+        0.10465868219576754
+      ]
+    },
+    "S1": {
+      "train": [
+        0.6029740610312018,
+        0.04954799555697085
+      ],
+      "dev": [
+        0.27838208955235233,
+        0.027492816604295124
+      ]
+    },
+    "selected": {
+      "train": [
+        0.6029740610312018,
+        0.04954799555697085
+      ],
+      "dev": [
+        0.27838208955235233,
+        0.027492816604295124
+      ]
+    },
+    "posthoc_history_comparison": {
+      "train": {
+        "roots": 128,
+        "equal_task_vectors": 122,
+        "different_risk_vectors": 128,
+        "action_pairs": 1214,
+        "changed_SR_rows": 167,
+        "policy_response_affects_value": 128
+      },
+      "dev": {
+        "roots": 32,
+        "equal_task_vectors": 30,
+        "different_risk_vectors": 32,
+        "action_pairs": 358,
+        "changed_SR_rows": 44,
+        "policy_response_affects_value": 32
+      }
+    }
+  }
+}
